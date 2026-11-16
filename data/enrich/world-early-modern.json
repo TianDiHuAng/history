@@ -1,0 +1,150 @@
+{
+ "unit_id": "world-early-modern",
+ "extra_events": [
+  {
+   "id": "x-wem-vasco-gama",
+   "title": "达·伽马抵达印度",
+   "year": 1498,
+   "end_year": null,
+   "year_display": "1498年",
+   "end_year_display": null,
+   "year_note": "据葡方航海记录与《东印度航海记》系统材料：1498年5月达·伽马船队抵卡利卡特；公元纪年，无换算问题。",
+   "desc": "葡萄牙绕好望角直航印度成功（借用阿拉伯领航员马吉德的印度洋季风知识），打破阿拉伯-威尼斯对香料贸易的垄断。葡萄牙以卡利卡特-果阿-马六甲-澳门据点链建立海上商业帝国（“海上政权” Almeida 的方针），16世纪葡萄牙成为全球第一个海洋帝国。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem-tanegashima-arquebus",
+   "title": "火绳枪传入日本（种子岛）",
+   "year": 1543,
+   "end_year": null,
+   "year_display": "1543年",
+   "end_year_display": null,
+   "year_note": "据日本史料《铁炮记》（南浦文之序）与葡萄牙人记载对读：1543年中国（明）商船带两名葡萄牙人抵种子岛，售出火绳枪两支；公元纪年，无换算问题。",
+   "desc": "日本工匠迅速仿制（“种子岛铳”），战国大名竞相装备，织田信长的长筱之战（1575年）三段击战术（马防栅+铁炮齐射——现代研究对战法细节有修正）与丰臣秀吉的统一均以铁炮为重要变量。日本一度成为世界火枪产量大国（16世纪末），德川锁国后产量受限——技术传播与政治控制的互动样本。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem-manila-galleon",
+   "title": "马尼拉大帆船贸易",
+   "year": 1565,
+   "end_year": null,
+   "year_display": "1565年（起）",
+   "end_year_display": null,
+   "year_note": "1565年乌尔达内塔发现太平洋回程洋流航线（阿卡普尔科—马尼拉），大帆船贸易体系成型至1815年；公元纪年，无换算问题。",
+   "desc": "美洲白银经阿卡普尔科-马尼拉直航换取中国丝绸瓷器（“丝银对流”）：中国白银存量的急剧增加支持了明代一条鞭法（见中国明单元）——全球贸易与中国财政的历史性接驳。马尼拉由此成为亚洲-美洲-欧洲三角的枢纽（1600年代华人社区与西班牙殖民者的冲突多次发生）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem-tokugawa-sakoku",
+   "title": "德川幕府与锁国体制",
+   "year": 1633,
+   "end_year": 1639,
+   "year_display": "1633年",
+   "end_year_display": "1639年",
+   "year_note": "1633年起德川家光连颁锁国令，1639年驱逐葡萄牙人（只留荷兰与中国在长崎出岛贸易）——“锁国”体制完成；据《德川实纪》与荷兰商馆记录；公元纪年，无换算问题。",
+   "desc": "幕府禁天主教（岛原起义1637—38年三万七千余人死亡——数字诸说并存）、限外船于出岛、禁海外交通。锁国并非绝对隔绝（长崎-对马-萨摩-松前四扇门保持有限贸易），250年和平使日本内部市场与市民文化（元禄文化）成熟——“锁国是秩序选择而非自我封闭”的修正史观（学界主流之一）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "brit-meiji"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem-louis-xiv",
+   "title": "路易十四亲政与凡尔赛体制",
+   "year": 1661,
+   "end_year": null,
+   "year_display": "1661年",
+   "end_year_display": null,
+   "year_note": "马扎然1661年死后路易十四宣布亲政（“朕即国家”为后世对其的概括，非其原话——语出各国教科书传统，见评价分歧）；公元纪年，无换算问题。",
+   "desc": "路易十四以凡尔赛宫（1670年代起扩建，宫苑面市）驯服贵族（礼仪与近侍政治）、以柯尔贝尔重商主义与常备军（四十万人级——欧洲最大）建设绝对主义样板；撤销南特敕令（1685年）驱逐胡格诺教徒数十万——绝对主义的巅峰与代价。欧洲各国宫廷争相模仿（普鲁士、俄国的宫廷化）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wem-vasco-gama",
+   "name": "瓦斯科·达·伽马",
+   "birth_year": null,
+   "death_year": 1524,
+   "birth_display": "生年不可考（约1469年生，锡尼什，通说）",
+   "death_display": "1524年",
+   "desc": "葡萄牙航海家（见延伸事件条）：首航印度（1498）、二次任东印度舰队司令（以炮舰外交与劫掠商船著称——果阿、卡利卡特航线的暴力建立）；1524年任印度总督，同年病死于科钦。其东方航路的残酷性（沿途洗劫、烧毁米里商船）与现代葡萄牙史学的自我批判并存。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-wem-montaigne",
+   "name": "蒙田",
+   "birth_year": 1533,
+   "death_year": 1592,
+   "birth_display": "1533年",
+   "death_display": "1592年",
+   "desc": "波尔多法官与庄园主，《随笔集》（Essais，1580年起三版渐扩）以“我描摹自己”式的自我观察开创现代随笔文体（essai=尝试）：怀疑论（“我知道什么？”——徽章铭文）、对异文化的宽容（《论食人族》）、对友谊与死亡的私人化书写。莎士比亚同时代人；其怀疑主义经培根进入英国启蒙传统。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "met-toah"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wem-cervantes",
+   "name": "塞万提斯",
+   "birth_year": 1547,
+   "death_year": 1616,
+   "birth_display": "1547年",
+   "death_display": "1616年",
+   "desc": "勒班陀海战伤兵（左手致残——“勒班陀的独臂人”）、阿尔及尔俘虏五年，《堂吉诃德》第一卷（1605）、第二卷（1615）以骑士小说的戏仿同时消解与挽歌骑士文学——第一部现代小说的传统定位（学界通说）。与莎士比亚同年卒（1616，历法差异使其“同日”为文学史名言而实际非同日——格历儒略历差）。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wem-shakespeare",
+   "name": "威廉·莎士比亚",
+   "birth_year": 1564,
+   "death_year": 1616,
+   "birth_display": "1564年（格里历4月23日，施特拉福德）",
+   "death_display": "1616年",
+   "desc": "斯特拉福德手套匠之子，伦敦环球剧院股东与剧作家：38部剧（正典通行数）横跨历史剧、喜剧、悲剧与传奇剧（哈姆雷特、李尔王、麦克白四大悲剧与亨利四世历史剧）。其人物的心理深度（哈姆雷特的犹豫、麦克白的野心）与英语的塑造力（约1700个词汇首见其作——通行说法，量化有讨论）使其成为世界文学的全球公共品。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "brit-reformation"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

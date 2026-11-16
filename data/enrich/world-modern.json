@@ -1,0 +1,201 @@
+{
+ "unit_id": "world-modern",
+ "extra_events": [
+  {
+   "id": "x-wm-code-napoleon",
+   "title": "《拿破仑法典》颁行",
+   "year": 1804,
+   "end_year": null,
+   "year_display": "1804年",
+   "end_year_display": null,
+   "year_note": "《法国民法典》（1804年3月21日颁行，1807年改称《拿破仑法典》）；公元纪年，无换算问题。",
+   "desc": "民法典把大革命的成果（法律面前平等、私有财产神圣、契约自由、世俗婚姻）固化为2281条条文，语言清晰到“人人可读”（斯丹达尔据说每读数页以养文风——文学史轶事）。随法军传播至莱茵、意大利、拉美与埃及（民法法系的全球扩散），至今仍是数十国民法典的母本——“我的真正光荣不是四十场胜仗……而是我的民法典”（拿破仑圣赫勒拿回忆，转述）。",
+   "sources": [
+    "brit-napoleon",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-womens-suffrage",
+   "title": "妇女参政权",
+   "year": 1893,
+   "end_year": 1920,
+   "year_display": "1893年（新西兰首开）",
+   "end_year_display": "1920年",
+   "year_note": "新西兰1893年成为首个赋予妇女全国投票权的自治国家；英国1918（部分）—1928（平等）、美国1920年第19修正案、法国1944年——本条以1893—1920年为主段。",
+   "desc": "从1848年塞内卡福尔斯会议到20世纪初：女权运动（WSPU 的激进抗争、和平请愿路线并存）与一战动员（妇女进入兵工生产）共同推动。北欧与英美先行、法国瑞士滞后——普选权的性别门槛的拆除是现代政治合法性的根本扩展之一（参政权的“普遍化”至此才名副其实——学界通行表述）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-dreyfus-affair",
+   "title": "德雷福斯案",
+   "year": 1894,
+   "end_year": 1906,
+   "year_display": "1894年",
+   "end_year_display": "1906年",
+   "year_note": "1894年犹太军官德雷福斯以叛国罪定罪；1906年最高法院宣告无罪、复职晋衔；公元纪年，无换算问题。",
+   "desc": "法军总参诬陷犹太军官德雷福斯通敌，左拉《我控诉》（J'accuse，1898年公开信）掀起知识界介入，德雷福斯派与反德雷福斯派的撕裂（激进共和 vs 保守军教势力）重塑法国政治光谱。1906年平反，法国确立政教分离方向（1905年法），同时反犹主义获得现代组织形态（“法国的odes”）——现代公共知识分子的起源时刻。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-decolonization",
+   "title": "非殖民化浪潮",
+   "year": 1947,
+   "end_year": 1962,
+   "year_display": "1947年",
+   "end_year_display": "1962年",
+   "year_note": "1947年印度（巴基斯坦同时）独立为亚洲非殖民化标志；1960年“非洲年”（17国独立）与1962年阿尔及利亚独立为非洲高潮——本条以1947—1962年为主段；公元纪年，无换算问题。",
+   "desc": "二战掏空宗主国、民族主义动员与美苏反殖民话语合流：印度独立（分治悲剧：百万级死亡与千万级流离——学界通行口径）、印尼荷兰承认（1949）、非洲年（1960）、阿尔及利亚战争（1954—62）与越南（1946—54对法）相继。联合国会员国从51个（1945）增至1965年的117个——主权国家的世界体系向全球扩展。",
+   "sources": [
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-eu-coal-steel",
+   "title": "从煤钢共同体到罗马条约：欧洲一体化",
+   "year": 1951,
+   "end_year": 1957,
+   "year_display": "1951年",
+   "end_year_display": "1957年",
+   "year_note": "1951年六国签《巴黎条约》建欧洲煤钢共同体（ECSC，1952年生效）；1957年《罗马条约》建欧洲经济共同体（EEC，1958年生效）；公元纪年，无换算问题。",
+   "desc": "舒曼计划（1950年宣言）以“使法德战争不可想象”的产业联营逻辑启动一体化：煤钢共同体→经济共同体→原子能共同体。让·莫内与舒曼的超国家功能主义路径与戴高乐的国家主义张力贯穿此后欧洲史（英国1955年拒绝加入Messina进程——后加入的迟疑传统由此起）。",
+   "sources": [
+    "stearns-global",
+    "hobsbawm",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-moon-landing",
+   "title": "阿波罗11号登月",
+   "year": 1969,
+   "end_year": null,
+   "year_display": "1969年",
+   "end_year_display": null,
+   "year_note": "1969年7月20日（美国东部时间）阿姆斯特朗与奥尔德林登月，7月24日返回；公元纪年，无换算问题。",
+   "desc": "肯尼迪1961年“十年内送人上月”承诺，经水星-双子星计划与土星五号火箭（NASA 鼎盛期雇员四十万、年预算占联邦预算约4%——学界通行口径）达成。冷战技术竞赛的最高象征（“个人的一小步，人类的一大步”——阿姆斯特朗语）；此后阿波罗17号（1972年）后载人登月中断至今——太空竞赛的政治逻辑与科学遗产（全球通信卫星、气象卫星的民用化红利）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "enwp-cold-war"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-information-revolution",
+   "title": "信息革命：微处理器到万维网",
+   "year": 1971,
+   "end_year": null,
+   "year_display": "1971年（起）",
+   "end_year_display": null,
+   "year_note": "1971年英特尔4004微处理器发布（微电子革命起点）；1989年伯纳斯-李提出万维网（WWW）——本条以两个节点串起信息革命进程。公元纪年，无换算问题。",
+   "desc": "摩尔定律驱动的微电子革命（个人电脑1977年起、互联网TCP/IP 1983年标准化、万维网1991年公开、移动智能终端2007年后普及）重塑生产、通信与社会组织——“第三次工业革命”或“数字革命”（经济史学界命名并行）。其全球不平等（数字鸿沟）与平台集中（20年代的反垄断议题）为其遗产的当代争议。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm-darwin",
+   "name": "查尔斯·达尔文",
+   "birth_year": 1809,
+   "death_year": 1882,
+   "birth_display": "1809年",
+   "death_display": "1882年",
+   "desc": "小猎犬号航行（1831—1836）观察加拉帕戈斯雀类等地缘变异，积二十余年证据（“杓兰的观察笔记”传统）于1859年出版《物种起源》：自然选择学说挑战物种不变论与目的论设计。1860年牛津论战（威尔伯福斯与赫胥黎）为公众辩论名场；其影响超越生物学（社会达尔文主义的滥用被现代学界明确区分为误用）。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-marie-curie",
+   "name": "玛丽·居里（居里夫人）",
+   "birth_year": 1867,
+   "death_year": 1934,
+   "birth_display": "1867年",
+   "death_display": "1934年",
+   "desc": "华沙出身、巴黎求学：与皮埃尔·居里发现钋和镭（1898），1903年获诺贝尔物理学奖（放射性研究）、1911年再获化学奖（分离纯镭）——首位获两届诺奖者。一战组建“小居里”移动X光车队服务前线；死于再生障碍性贫血（长期辐射暴露）。其作为女性科学家的破壁生涯（索邦首位女教授）与实验室遗产（镭研究所）为科学史与性别史的交汇样本。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-gandhi",
+   "name": "莫罕达斯·甘地",
+   "birth_year": 1869,
+   "death_year": 1948,
+   "birth_display": "1869年",
+   "death_display": "1948年",
+   "desc": "南非律师出身，回印度后以“非暴力不合作”（satyagraha）动员大众：食盐进军（1930年，远征丹迪打破食盐垄断）、退出印度运动（1942年）；1947年印度独立，1948年1月被印度教极端分子刺杀。其非暴力抗争成为20世纪全球公民抗争的方法库（马丁·路德·金、曼德拉的公开致意）——同时其种姓与性别观念的局限为后殖民研究的批评焦点。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-einstein",
+   "name": "阿尔伯特·爱因斯坦",
+   "birth_year": 1879,
+   "death_year": 1955,
+   "birth_display": "1879年",
+   "death_display": "1955年",
+   "desc": "1905年“奇迹年”（伯尔尼专利局职员发表狭义相对论、光电效应、布朗运动三文），1915年广义相对论；1921年诺贝尔物理奖（光电效应解释）。1933年逃离纳粹德国入普林斯顿，1939年致信罗斯福提醒轴裂变军事潜力（曼哈顿计划的远因之一——其战后“我一生中最大的错误”式的悔恨表述见采访转述），晚年倡导世界政府与罗素-爱因斯坦宣言（1955年）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-mandela",
+   "name": "纳尔逊·曼德拉",
+   "birth_year": 1918,
+   "death_year": 2013,
+   "birth_display": "1918年",
+   "death_display": "2013年",
+   "desc": "特兰斯凯酋长世家出身，律师与非国民大会（ANC）青年联盟领袖；1964年 Rivonia 审判被判终身监禁，罗本岛服刑十八年（共27年）；1990年获释、1991年任ANC主席，1994年南非首次全民大选当选总统（“真相与和解委员会”式的转型正义路径）。其以和解而非报复完成种族隔离的终结——20世纪政治领导力的最后经典案例（1993年与德克勒克同获诺贝尔和平奖）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "enwp-cold-war"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

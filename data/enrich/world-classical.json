@@ -1,0 +1,169 @@
+{
+ "unit_id": "world-classical",
+ "extra_events": [
+  {
+   "id": "x-wc-herodotus-histories",
+   "title": "希罗多德《历史》",
+   "year": -440,
+   "end_year": null,
+   "year_display": "约前440年",
+   "end_year_display": null,
+   "year_note": "《历史》约成书于前440年代（雅典全盛期，学界通说约数）。",
+   "desc": "\"历史\"（Historia，调查研究）一词由此书得名：九卷记录希波战争的起因与进程，兼收各族风物传闻（\"保存人类的功业\"——开篇语）。其游记式博学与对神谕的谨慎处理（\"我记录是因为听说，不担保真实\"的近似立场）确立了史料的自觉——\"史学之父\"与\"谎言之父\"的双重名号并存。",
+   "sources": [
+    "herodotus",
+    "cambridge-ancient",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc-xenophon-anabasis",
+   "title": "色诺芬《长征记》",
+   "year": -401,
+   "end_year": -400,
+   "year_display": "前401年",
+   "end_year_display": "前400年",
+   "year_note": "万人雇佣军远征波斯（库那克萨之战前401年）至黑海撤退（前400年）——据《长征记》自身纪事；历表换算。",
+   "desc": "万名希腊雇佣军助波斯王子小居鲁士争位，居鲁士阵亡后军官被诱杀，色诺芬率军自两河流域穿越亚美尼亚雪山抵达黑海（\"Thalatta! Thalatta!大海！大海！\"——名场面）。《长征记》为军事撤退与雇佣军制度的经典一手记录；十年后万人军中的许多老兵随斯巴达进军小亚——雇佣兵网络的流动性预告了亚历山大远征的人力基础。",
+   "sources": [
+    "cambridge-ancient",
+    "bentley-cross",
+    "plutarch"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc-via-appia",
+   "title": "阿皮亚大道：罗马道路网的开端",
+   "year": -312,
+   "end_year": null,
+   "year_display": "前312年",
+   "end_year_display": null,
+   "year_note": "监察官阿皮乌斯·克劳狄乌斯主持修建阿皮亚大道（罗马至卡普阿），据李维与罗马年代学通说；历表换算。",
+   "desc": "四层路面结构（碎石基层到多边形石板面）的阿皮亚大道使军队与政令快速投放，此后罗马修路八万公里以上（\"条条大路通罗马\"的技术底座）。大道遗址至今可走（罗马古道段为世界遗产组成部分）；道路既是帝国整合的工具，也是蛮族入侵时代的走廊——基础设施的两面性。",
+   "sources": [
+    "whc-rome",
+    "cambridge-ancient",
+    "gibbon"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc-eratosthenes-earth",
+   "title": "埃拉托色尼测量地球周长",
+   "year": -240,
+   "end_year": null,
+   "year_display": "约前240年",
+   "end_year_display": null,
+   "year_note": "埃拉托色尼任亚历山大图书馆馆长期间（约前245—前204年）完成测量，通说约前240年（约数）。",
+   "desc": "利用赛伊尼夏至正午阳光直射井底与亚历山大同一时刻影子的夹角（约7.2度），结合两地距离（骆驼队行程折算）测得地球周长约4万公里级（与现代值误差约5%—15%，取决于所采用的斯塔德换算）。同时首创\"地理学\"（Geographia）一词与经纬网格——古代科学与实用测绘的高峰样本。",
+   "sources": [
+    "cambridge-ancient",
+    "bentley-cross",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc-archimedes-death",
+   "title": "阿基米德之死：叙拉古陷落",
+   "year": -212,
+   "end_year": null,
+   "year_display": "前212年",
+   "end_year_display": null,
+   "year_note": "罗马攻陷叙拉古（第二次布匿战争期间）据普鲁塔克《马塞勒斯传》系于前212年；历表换算。",
+   "desc": "叙拉古以阿基米德设计的投石机、起重爪抵御罗马围城两年，城破时阿基米德正演算几何，被罗马士兵所杀（\"不要踩坏我的圆\"——普鲁塔克所记诸说之一）。马塞勒斯为其立墓（圆球圆柱图——其自选墓志）。杠杆原理、浮力定律与《方法论》残片（阿基米德重写本）显示其已触及积分思想——古代数学的个体高峰。",
+   "sources": [
+    "plutarch",
+    "cambridge-ancient",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc-manu-smriti",
+   "title": "《摩奴法典》的编纂",
+   "year": -100,
+   "end_year": null,
+   "year_display": "约前100年（前200—公元200年间编成）",
+   "end_year_display": null,
+   "year_note": "《摩奴法典》（Manusmriti）的编成年代学界估计从前200年至公元200年之间（印度学通说区间），本条 year 取约前100年为示意值并标注。",
+   "desc": "以摩奴传法形式编成的印度教法论：瓦尔纳（四种姓）制度、种姓内婚、刑罚与洁净规则的系统文本。其对种姓秩序的经典化影响南亚社会两千年（英国殖民时期又将其作为\"印度法\"依据而再度强化——历史使用与文本原意的错位为印度学争论点）。",
+   "sources": [
+    "cambridge-ancient",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": true,
+   "pending_notes": "《摩奴法典》编成年代学界估计从前200年至公元200年间，无定论；year 为示意值。"
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wc-herodotus",
+   "name": "希罗多德",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前484—约前425年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "哈利卡纳苏斯人，游历埃及、黑海、两河（其行程是否亲历有学术讨论——《历史》的可信度分层研究），《历史》作者（见延伸事件条）。西塞罗称其为\"史学之父\"；普鲁塔克作《论希罗多德的恶意》斥之——双名传统延续至今。",
+   "sources": [
+    "herodotus",
+    "cambridge-ancient",
+    "plutarch"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wc-archimedes",
+   "name": "阿基米德",
+   "birth_year": null,
+   "death_year": -212,
+   "birth_display": "生卒不可考（约前287—前212年，通说推排）",
+   "death_display": "前212年",
+   "desc": "叙拉古人（见延伸事件条）：杠杆、浮力定律（\"尤里卡\"王冠故事出《方法论》之外的传统叙事）、圆周率界值与《圆的度量》；1906年发现的《方法论》重写本（palimpsest）证明其使用穷竭法的早期积分思想——古代数学的绝对个体高峰。",
+   "sources": [
+    "plutarch",
+    "cambridge-ancient",
+    "met-toah"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wc-euclid",
+   "name": "欧几里得",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前330—约前275年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "亚历山大城学人（托勒密一世时期，\"几何学无王者之路\"轶事出后出文献），《几何原本》十三卷以公理化方法整理前人成果——定义-公设-命题-证明的结构成为此后两千余年数学与科学论证的模板（印刷后版本逾千种，仅次于圣经的流传量级——出版史通行说法）。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-wc-pliny-elder",
+   "name": "老普林尼",
+   "birth_year": 23,
+   "death_year": 79,
+   "birth_display": "23年（通说）",
+   "death_display": "79年",
+   "desc": "《自然史》（Naturalis Historia）三十七卷的作者：天上地下万物百科（\"没有一本我未曾读过\"的自述——书前致提图斯信），为古代知识的总汇与中世纪权威文本。公元79年维苏威火山爆发时任舰队司令，登陆救援而死于庞贝附近——学者之死的经典场景。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "whc-rome"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

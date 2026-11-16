@@ -1,155 +1,202 @@
 {
-  "unit_id": "china-song",
-  "extra_events": [
-    {
-      "id": "x-song-jiaozi",
-      "title": "交子官办：世界最早的纸币",
-      "year": 1023,
-      "end_year": null,
-      "year_display": "1023年",
-      "end_year_display": null,
-      "year_note": "据《宋史·食货志》与《宋朝事实》：益州民间交子因富户失信而生纠纷，天圣元年（1023年）设益州交子务，官办交子自此发行；公元纪年，无换算问题。",
-      "desc": "四川铁钱笨重促生民营交子（十六富户联保发行），官方接管后定界（两年一界）分额发行。南宋会子、金交钞至元明宝钞皆其后裔——纸币千年史的世界起点；其超发贬值（界额失控）也成为古代通货膨胀治理的第一课。",
-      "sources": ["songshi", "zgbk", "xiehe-han"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-song-huozibanyin",
-      "title": "毕昇与活字印刷",
-      "year": 1045,
-      "end_year": null,
-      "year_display": "约1045年",
-      "end_year_display": null,
-      "year_note": "毕昇发明胶泥活字系于庆历年间（1041—1048年），沈括《梦溪笔谈》卷十八详载其法（\"庆历中，有布衣毕昇\"）；取约1045年。",
-      "desc": "布衣毕昇以胶泥刻字、火烧令坚、铁板敷药排印（\"一板印刷，一板已自布字\"——《梦溪笔谈》原文所记活字流程）。活字在中国因汉字字量巨大而未取代雕版（刻本仍为主流），但西传后成为古登堡革命的技术先声之一——东西技术路径分叉的经典案例。",
-      "sources": ["mengxibitan", "zgbk", "cambridge-china"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-song-shibosi",
-      "title": "市舶司与海上贸易体系",
-      "year": 1087,
-      "end_year": null,
-      "year_display": "1087年（前后）",
-      "end_year_display": null,
-      "year_note": "泉州市舶司设置通说在元丰二年（1087年）前后（《宋会要辑稿》系统记载）；广州、明州早设（971年广州首设），本条取泉州设司为节点。",
-      "desc": "广州（971）、明州、泉州、密州等地设市舶司管理番舶抽解（关税）与博买。南宋市舶收入占财政重要份额（绍兴年间岁入约两百万缗——学界口径），泉州港成为世界级大港（马可·波罗与伊本·白图泰皆记其盛，见元单元）。海外贸易税收的制度化是中国海洋时代的首次官营高峰。",
-      "sources": ["songshi", "zgbk", "bentley-cross"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-song-zhinanzhen-hanghai",
-      "title": "指南针应用于航海",
-      "year": 1119,
-      "end_year": null,
-      "year_display": "约1119年",
-      "end_year_display": null,
-      "year_note": "朱彧《萍洲可谈》（1119年成书）记广州海船\"夜则观星，昼则观日，阴晦观指南针\"——为指南针航海应用的最早文献；取约1119年。",
-      "desc": "沈括《梦溪笔谈》已记磁石磨针与四种装置法（水浮、指甲、碗唇、缕悬）并指出磁偏角；朱彧则首次记录航海应用。指南针经阿拉伯水手传入地中海（12世纪末文献），成为大航海时代的技术前提之一——中国发明改变世界航路的枢纽点。",
-      "sources": ["mengxibitan", "zgbk", "bentley-cross"],
-      "needs_verification": true,
-      "pending_notes": "航海应用最早的文献为《萍洲可谈》（单源文献，成书1119年）；其与阿拉伯文献（13世纪）的先后衔接学界一致，但更早的实用年代无法确证。"
-    },
-    {
-      "id": "x-song-wujing-zongyao",
-      "title": "《武经总要》与火药兵器",
-      "year": 1044,
-      "end_year": null,
-      "year_display": "1044年",
-      "end_year_display": null,
-      "year_note": "据《武经总要》曾公亮丁度奉敕编成于庆历四年（1044年）；书载毒药烟球、蒺藜火球、火炮三种火药方——世界最早的火药配方文献；历表换算。",
-      "desc": "曾公亮、丁度等奉敕编《武经总要》四十卷，收录三种火药配方（硝、硫、炭比例明确）与火器图式，标志火药从炼丹术进入兵器谱系。此后突火枪（1259）、火铳次第出现——中国火器谱系的起点（火药配方的文献实证为科技史核心证据）。",
-      "sources": ["songshi", "zgbk", "cambridge-china"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-song-qingli-heyi",
-      "title": "庆历和议：宋夏战争告一段落",
-      "year": 1044,
-      "end_year": null,
-      "year_display": "1044年",
-      "end_year_display": null,
-      "year_note": "据《宋史·夏国传》：庆历四年（1044年）宋夏和议——夏主元昊称臣（宋册为夏国主），宋岁赐银绢茶二十五万余；历表换算。",
-      "desc": "元昊称帝后宋夏连战（好水川、定川寨宋军连败），和议使西夏获得岁赐与榷场、宋保名义优势。与澶渊之盟（对辽）并列，宋以\"岁赐-榷场\"组合处置强邻——但西夏战争长期化（其后再战）说明西北边防的结构性困境。",
-      "sources": ["songshi", "xu-tongjian", "zgbk"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-song-longxing-heyi",
-      "title": "隆兴和议",
-      "year": 1164,
-      "end_year": null,
-      "year_display": "1164年",
-      "end_year_display": null,
-      "year_note": "据《宋史·孝宗纪》与《金史》：隆兴二年（1164年）宋金再和——改称侄叔之国（金为叔、宋为侄）、岁币减五万、不复称臣；历表换算。",
-      "desc": "孝宗以张浚北伐（1163年符离之败）后复和：宋金由君臣改为侄叔，地位较绍兴体制上升。此后四十年南北相对平静（\"乾淳之治\"的对外条件）——和议体系随实力对比小幅调整的案例。",
-      "sources": ["songshi", "xu-tongjian", "zgbk"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-song-kaixi-beifa",
-      "title": "开禧北伐",
-      "year": 1206,
-      "end_year": 1208,
-      "year_display": "1206年",
-      "end_year_display": "1208年",
-      "year_note": "据《宋史》：开禧二年（1206年）韩侂胄伐金（郭倪、毕再遇等出师），1207年吴曦叛乱被诛、韩侂胄被杀；嘉定元年（1208年）嘉定和议（岁币增三十万、函韩侂胄首级于金）；历表换算。",
-      "desc": "韩侂胄以恢复号召北伐（追封岳飞、削秦桧王爵），因准备不足与吴曦西线叛乱而败；函首安边（把韩侂胄头颅送给金人求和）成为南宋外交的耻辱性符号。北伐失败使主和派（史弥远）专政二十余年——理宗朝的政治底色。",
-      "sources": ["songshi", "xu-tongjian", "zgbk"],
-      "needs_verification": false,
-      "pending_notes": ""
-    }
-  ],
-  "extra_people": [
-    {
-      "id": "x-song-bisheng",
-      "name": "毕昇",
-      "birth_year": null,
-      "death_year": null,
-      "birth_display": "生卒不可考（约970—1051年间在世，存疑）",
-      "death_display": "卒年不可考",
-      "desc": "杭州布衣，活字印刷术发明者（见延伸事件条）；其生平除《梦溪笔谈》百余字外无载——一位改变世界传播史的工匠仅以旁注身份留名，科技社会史的典型遗憾。",
-      "sources": ["mengxibitan", "zgbk"],
-      "needs_verification": true
-    },
-    {
-      "id": "x-song-liqingzhao",
-      "name": "李清照",
-      "birth_year": 1084,
-      "death_year": null,
-      "birth_display": "1084年",
-      "death_display": "约1155年（卒年存疑）",
-      "desc": "济南人，\"千古第一才女\"：前期词明快（\"知否知否应是绿肥红瘦\"），南渡后\"寻寻觅觅，冷冷清清\"《声声慢》以个人流离写时代崩解。与赵明诚的金石之谊（《金石录后序》为回忆散文名篇）与其词\"别是一家\"的本色论（《词论》）构成文学史经典；卒年学界有1151—1156诸说。",
-      "sources": ["zgbk", "xiehe-han", "songshi"],
-      "needs_verification": true
-    },
-    {
-      "id": "x-song-xinqiji",
-      "name": "辛弃疾",
-      "birth_year": 1140,
-      "death_year": 1207,
-      "birth_display": "1140年",
-      "death_display": "1207年",
-      "desc": "历城人，生于金占区，21岁率义军\"渡江天马南来\"（《美芹十论》《九议》陈恢复方略而不用）；词与苏轼并称苏辛（\"醉里挑灯看剑\"），存词六百余首为两宋之最。其\"词中之龙\"地位与《稼轩长短句》的雄豪-婉约双重风格，构成南宋词的主峰之一。",
-      "sources": ["songshi", "zgbk", "xiehe-han"],
-      "needs_verification": false
-    },
-    {
-      "id": "x-song-lujiuyuan",
-      "name": "陆九渊",
-      "birth_year": 1139,
-      "death_year": 1193,
-      "birth_display": "1139年",
-      "death_display": "1193年",
-      "desc": "金溪人，心学开创者：\"宇宙便是吾心，吾心即是宇宙\"（《象山语录》），主张\"先立乎其大者\"、六经注我。鹅湖之会与朱熹的分歧（见主事件条）开启理学内部两大路径；明代王阳明承之（\"陆王心学\"），其象山书院为江西教育地标。",
-      "sources": ["songshi", "zgbk", "xiehe-han"],
-      "needs_verification": false
-    }
-  ]
+ "unit_id": "china-song",
+ "extra_events": [
+  {
+   "id": "x-song-jiaozi",
+   "title": "交子官办：世界最早的纸币",
+   "year": 1023,
+   "end_year": null,
+   "year_display": "1023年",
+   "end_year_display": null,
+   "year_note": "据《宋史·食货志》与《宋朝事实》：益州民间交子因富户失信而生纠纷，天圣元年（1023年）设益州交子务，官办交子自此发行；公元纪年，无换算问题。",
+   "desc": "四川铁钱笨重促生民营交子（十六富户联保发行），官方接管后定界（两年一界）分额发行。南宋会子、金交钞至元明宝钞皆其后裔——纸币千年史的世界起点；其超发贬值（界额失控）也成为古代通货膨胀治理的第一课。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song-qingli-heyi",
+   "title": "庆历和议：宋夏战争告一段落",
+   "year": 1044,
+   "end_year": null,
+   "year_display": "1044年",
+   "end_year_display": null,
+   "year_note": "据《宋史·夏国传》：庆历四年（1044年）宋夏和议——夏主元昊称臣（宋册为夏国主），宋岁赐银绢茶二十五万余；历表换算。",
+   "desc": "元昊称帝后宋夏连战（好水川、定川寨宋军连败），和议使西夏获得岁赐与榷场、宋保名义优势。与澶渊之盟（对辽）并列，宋以\"岁赐-榷场\"组合处置强邻——但西夏战争长期化（其后再战）说明西北边防的结构性困境。",
+   "sources": [
+    "songshi",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song-wujing-zongyao",
+   "title": "《武经总要》与火药兵器",
+   "year": 1044,
+   "end_year": null,
+   "year_display": "1044年",
+   "end_year_display": null,
+   "year_note": "据《武经总要》曾公亮丁度奉敕编成于庆历四年（1044年）；书载毒药烟球、蒺藜火球、火炮三种火药方——世界最早的火药配方文献；历表换算。",
+   "desc": "曾公亮、丁度等奉敕编《武经总要》四十卷，收录三种火药配方（硝、硫、炭比例明确）与火器图式，标志火药从炼丹术进入兵器谱系。此后突火枪（1259）、火铳次第出现——中国火器谱系的起点（火药配方的文献实证为科技史核心证据）。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song-huozibanyin",
+   "title": "毕昇与活字印刷",
+   "year": 1045,
+   "end_year": null,
+   "year_display": "约1045年",
+   "end_year_display": null,
+   "year_note": "毕昇发明胶泥活字系于庆历年间（1041—1048年），沈括《梦溪笔谈》卷十八详载其法（\"庆历中，有布衣毕昇\"）；取约1045年。",
+   "desc": "布衣毕昇以胶泥刻字、火烧令坚、铁板敷药排印（\"一板印刷，一板已自布字\"——《梦溪笔谈》原文所记活字流程）。活字在中国因汉字字量巨大而未取代雕版（刻本仍为主流），但西传后成为古登堡革命的技术先声之一——东西技术路径分叉的经典案例。",
+   "sources": [
+    "mengxibitan",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song-shibosi",
+   "title": "市舶司与海上贸易体系",
+   "year": 1087,
+   "end_year": null,
+   "year_display": "1087年（前后）",
+   "end_year_display": null,
+   "year_note": "泉州市舶司设置通说在元丰二年（1087年）前后（《宋会要辑稿》系统记载）；广州、明州早设（971年广州首设），本条取泉州设司为节点。",
+   "desc": "广州（971）、明州、泉州、密州等地设市舶司管理番舶抽解（关税）与博买。南宋市舶收入占财政重要份额（绍兴年间岁入约两百万缗——学界口径），泉州港成为世界级大港（马可·波罗与伊本·白图泰皆记其盛，见元单元）。海外贸易税收的制度化是中国海洋时代的首次官营高峰。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song-zhinanzhen-hanghai",
+   "title": "指南针应用于航海",
+   "year": 1119,
+   "end_year": null,
+   "year_display": "约1119年",
+   "end_year_display": null,
+   "year_note": "朱彧《萍洲可谈》（1119年成书）记广州海船\"夜则观星，昼则观日，阴晦观指南针\"——为指南针航海应用的最早文献；取约1119年。",
+   "desc": "沈括《梦溪笔谈》已记磁石磨针与四种装置法（水浮、指甲、碗唇、缕悬）并指出磁偏角；朱彧则首次记录航海应用。指南针经阿拉伯水手传入地中海（12世纪末文献），成为大航海时代的技术前提之一——中国发明改变世界航路的枢纽点。",
+   "sources": [
+    "mengxibitan",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": true,
+   "pending_notes": "航海应用最早的文献为《萍洲可谈》（单源文献，成书1119年）；其与阿拉伯文献（13世纪）的先后衔接学界一致，但更早的实用年代无法确证。"
+  },
+  {
+   "id": "x-song-longxing-heyi",
+   "title": "隆兴和议",
+   "year": 1164,
+   "end_year": null,
+   "year_display": "1164年",
+   "end_year_display": null,
+   "year_note": "据《宋史·孝宗纪》与《金史》：隆兴二年（1164年）宋金再和——改称侄叔之国（金为叔、宋为侄）、岁币减五万、不复称臣；历表换算。",
+   "desc": "孝宗以张浚北伐（1163年符离之败）后复和：宋金由君臣改为侄叔，地位较绍兴体制上升。此后四十年南北相对平静（\"乾淳之治\"的对外条件）——和议体系随实力对比小幅调整的案例。",
+   "sources": [
+    "songshi",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song-kaixi-beifa",
+   "title": "开禧北伐",
+   "year": 1206,
+   "end_year": 1208,
+   "year_display": "1206年",
+   "end_year_display": "1208年",
+   "year_note": "据《宋史》：开禧二年（1206年）韩侂胄伐金（郭倪、毕再遇等出师），1207年吴曦叛乱被诛、韩侂胄被杀；嘉定元年（1208年）嘉定和议（岁币增三十万、函韩侂胄首级于金）；历表换算。",
+   "desc": "韩侂胄以恢复号召北伐（追封岳飞、削秦桧王爵），因准备不足与吴曦西线叛乱而败；函首安边（把韩侂胄头颅送给金人求和）成为南宋外交的耻辱性符号。北伐失败使主和派（史弥远）专政二十余年——理宗朝的政治底色。",
+   "sources": [
+    "songshi",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-song-bisheng",
+   "name": "毕昇",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约970—1051年间在世，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "杭州布衣，活字印刷术发明者（见延伸事件条）；其生平除《梦溪笔谈》百余字外无载——一位改变世界传播史的工匠仅以旁注身份留名，科技社会史的典型遗憾。",
+   "sources": [
+    "mengxibitan",
+    "zgbk"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-song-liqingzhao",
+   "name": "李清照",
+   "birth_year": 1084,
+   "death_year": null,
+   "birth_display": "1084年",
+   "death_display": "约1155年（卒年存疑）",
+   "desc": "济南人，\"千古第一才女\"：前期词明快（\"知否知否应是绿肥红瘦\"），南渡后\"寻寻觅觅，冷冷清清\"《声声慢》以个人流离写时代崩解。与赵明诚的金石之谊（《金石录后序》为回忆散文名篇）与其词\"别是一家\"的本色论（《词论》）构成文学史经典；卒年学界有1151—1156诸说。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "songshi"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-song-xinqiji",
+   "name": "辛弃疾",
+   "birth_year": 1140,
+   "death_year": 1207,
+   "birth_display": "1140年",
+   "death_display": "1207年",
+   "desc": "历城人，生于金占区，21岁率义军\"渡江天马南来\"（《美芹十论》《九议》陈恢复方略而不用）；词与苏轼并称苏辛（\"醉里挑灯看剑\"），存词六百余首为两宋之最。其\"词中之龙\"地位与《稼轩长短句》的雄豪-婉约双重风格，构成南宋词的主峰之一。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-song-lujiuyuan",
+   "name": "陆九渊",
+   "birth_year": 1139,
+   "death_year": 1193,
+   "birth_display": "1139年",
+   "death_display": "1193年",
+   "desc": "金溪人，心学开创者：\"宇宙便是吾心，吾心即是宇宙\"（《象山语录》），主张\"先立乎其大者\"、六经注我。鹅湖之会与朱熹的分歧（见主事件条）开启理学内部两大路径；明代王阳明承之（\"陆王心学\"），其象山书院为江西教育地标。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  }
+ ]
 }

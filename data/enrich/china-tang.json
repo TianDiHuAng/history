@@ -1,129 +1,169 @@
 {
-  "unit_id": "china-tang",
-  "extra_events": [
-    {
-      "id": "x-tang-dalusi",
-      "title": "怛罗斯之战",
-      "year": 751,
-      "end_year": null,
-      "year_display": "751年",
-      "end_year_display": null,
-      "year_note": "据《资治通鉴》天宝十载（751年）与阿拉伯史料（塔巴里等）对读：高仙芝与大食军战于怛罗斯；历表换算。",
-      "desc": "安西节度使高仙芝与阿拔斯王朝军会战于怛罗斯（今哈萨克斯坦塔拉兹附近），葛逻禄部临阵倒戈，唐军大败（两万安西军大部损失——数字诸说并存）。战事本身规模有限、未改变中亚大势（唐仍控制安西），但阿拉伯史料传统将其记为对华战争的标志性胜利；造纸术西传（撒马尔罕纸坊的传说关联）常被置于战后——学界对其因果链有讨论。",
-      "sources": ["tongjian", "zgbk", "cambridge-china"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-tang-niuzhi-dangzheng",
-      "title": "牛李党争",
-      "year": 808,
-      "end_year": 859,
-      "year_display": "约808年",
-      "end_year_display": "859年",
-      "year_note": "党争以元和三年（808年）策案之争（牛僧孺李宗闵指斥时政案）为显性起点，至大中十三年（859年）前后牛党李德裕一系终局；取约数。",
-      "desc": "牛党（牛僧孺、李宗闵，多科举出身）与李党（李德裕，门荫出身）围绕进士科评价、藩镇处理与河朔政策斗争四十余年。陈寅恪以\"士族vs进士\"的社会结构解释（旧说），现代研究更强调具体政见与人事派系——党争与宦官专权交织，耗尽了晚唐士大夫的政治共识。",
-      "sources": ["xintangshu", "chenyinke-tang", "tongjian"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-tang-qiancha-yinshua",
-      "title": "雕版印刷：现存最早的纪年印刷品",
-      "year": 868,
-      "end_year": null,
-      "year_display": "868年",
-      "end_year_display": null,
-      "year_note": "现存最早有明确纪年的雕版印刷品为敦煌《金刚经》（咸通九年四月十五日，868年5月11日），卷首扉画为世界现存最早的版画之一；公元纪年，无换算问题。",
-      "desc": "王玠为二亲敬造普施的《金刚经》卷子（1900年敦煌藏经洞发现，1907年被斯坦因携往英国，现存大英图书馆）以精美扉画与匀整刻字证明9世纪雕版印刷已高度成熟。印刷术与佛教（佛经刷印）、科举（历书）同步扩张——五代冯道刻九经（见五代单元）是其官方化前奏。",
-      "sources": ["zgbk", "british-museum", "xintangshu"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-tang-qianTangshi",
-      "title": "遣唐使与阿倍仲麻吕",
-      "year": 717,
-      "end_year": null,
-      "year_display": "717年",
-      "end_year_display": null,
-      "year_note": "日本遣唐使共十九次（630—894年）；717年为第八次（多治比县人率团，阿倍仲麻吕、吉备真备、玄昉同行）——据《旧唐书·东夷传》与日本《续日本纪》对读；公元纪年，无换算问题。",
-      "desc": "遣唐使团（一次四船五百余人）系统移植唐制（《大宝令》）、佛学（鉴真东渡的对向流动）与都城规划（平城京仿长安）。阿倍仲麻吕（晁衡）仕唐至光禄大夫，与李白王维交游（李白《哭晁卿衡》）；894年停派遣唐使——日本\"从模仿到内化\"（国风文化）的转折。",
-      "sources": ["jiutangshu", "zgbk", "bentley-cross"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-tang-quyuanli-tongche",
-      "title": "曲辕犁与筒车：江南水田的技术定型",
-      "year": 780,
-      "end_year": null,
-      "year_display": "约780年代",
-      "end_year_display": null,
-      "year_note": "曲辕犁（江东犁）的记载见陆龟蒙《耒耜经》（晚唐），筒车见陈廷章《水轮赋》（约唐中期）；定型年代均为约数（通说8—9世纪），取约780年代。",
-      "desc": "江东曲辕犁（三处可调：犁评、犁建、犁盘）适配小块水田深耕；筒车以水力昼夜灌田。二者与圩田、双季稻共同构成江南超越北方单产的技术体系——经济重心南移的农业技术基础（科技史学界通说）。",
-      "sources": ["zgbk", "kaogu-cass", "xiehe-han"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-tang-chajing-luyu",
-      "title": "陆羽《茶经》与饮茶文化",
-      "year": 780,
-      "end_year": null,
-      "year_display": "约780年",
-      "end_year_display": null,
-      "year_note": "《茶经》成书年代通说在上元至建中年间（约760—780年间完成、780年前后刊行），取约780年。",
-      "desc": "陆羽《茶经》三卷十章（源、具、造、器、煮、饮、事、出、略、图）系统化茶叶种植、制作与品饮，使饮茶从南方风俗升格为文化实践（\"自从陆羽生人间，人间相学事春茶\"——宋人梅尧臣语，后代追评）。茶税（780年起征）与茶马贸易使茶进入国家财政——文化与财政的同步扩张。",
-      "sources": ["xintangshu", "zgbk", "xiehe-han"],
-      "needs_verification": false,
-      "pending_notes": ""
-    }
-  ],
-  "extra_people": [
-    {
-      "id": "x-tang-xuanzang",
-      "name": "玄奘",
-      "birth_year": 602,
-      "death_year": 664,
-      "birth_display": "602年（通说）",
-      "death_display": "664年",
-      "desc": "洛州缑氏人，见主事件条（西行与译经）。其《大唐西域记》为中亚-南亚唯一亲历文献；所创法相宗因理论繁难而中绝，但其译场制度与经录（大小乘经律论75部1335卷）成为汉传佛典的基准。",
-      "sources": ["jiutangshu", "whc-mogao", "zgbk"],
-      "needs_verification": false
-    },
-    {
-      "id": "x-tang-jianzhen",
-      "name": "鉴真",
-      "birth_year": 688,
-      "death_year": 763,
-      "birth_display": "688年",
-      "death_display": "763年",
-      "desc": "扬州大明寺高僧，六次东渡（五次失败、双目失明）于753年抵达日本，带去戒律（授戒法脉）、佛寺规划（唐招提寺）与医药、书籍——日本律宗初祖与\"天平文化\"的塑造者之一。与阿倍仲麻吕的对向流动（日人来唐、唐人赴日）是东亚文化交流的双向标本。",
-      "sources": ["jiutangshu", "zgbk", "bentley-cross"],
-      "needs_verification": false
-    },
-    {
-      "id": "x-tang-yixing",
-      "name": "僧一行（张遂）",
-      "birth_year": 683,
-      "death_year": 727,
-      "birth_display": "683年",
-      "death_display": "727年",
-      "desc": "魏州人，天文学家与密宗高僧：主持全国天文大地测量（南宫说等在河南四点测影——世界上首次子午线弧长的实测研究之一，科技史学界通说），编《大衍历》（727年成、729年颁行）。其水运浑象与漏刻为开元仪器高峰；梁令瓒合作、南宫说执行——皇家天文工程的团队样本。",
-      "sources": ["jiutangshu", "zgbk", "cambridge-china"],
-      "needs_verification": false
-    },
-    {
-      "id": "x-tang-luyu",
-      "name": "陆羽",
-      "birth_year": null,
-      "death_year": 804,
-      "birth_display": "生年不可考（约733年生，存疑）",
-      "death_display": "804年",
-      "desc": "复州竟陵人，弃婴出身（龙盖寺智积禅师收养），\"茶圣\"：《茶经》作者（见延伸事件条）。被后世茶业奉为茶神（sell 茶灶供陆羽像），其\"精行俭德\"的茶德论使饮茶获得伦理维度。",
-      "sources": ["xintangshu", "zgbk", "xiehe-han"],
-      "needs_verification": false
-    }
-  ]
+ "unit_id": "china-tang",
+ "extra_events": [
+  {
+   "id": "x-tang-qianTangshi",
+   "title": "遣唐使与阿倍仲麻吕",
+   "year": 717,
+   "end_year": null,
+   "year_display": "717年",
+   "end_year_display": null,
+   "year_note": "日本遣唐使共十九次（630—894年）；717年为第八次（多治比县人率团，阿倍仲麻吕、吉备真备、玄昉同行）——据《旧唐书·东夷传》与日本《续日本纪》对读；公元纪年，无换算问题。",
+   "desc": "遣唐使团（一次四船五百余人）系统移植唐制（《大宝令》）、佛学（鉴真东渡的对向流动）与都城规划（平城京仿长安）。阿倍仲麻吕（晁衡）仕唐至光禄大夫，与李白王维交游（李白《哭晁卿衡》）；894年停派遣唐使——日本\"从模仿到内化\"（国风文化）的转折。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang-dalusi",
+   "title": "怛罗斯之战",
+   "year": 751,
+   "end_year": null,
+   "year_display": "751年",
+   "end_year_display": null,
+   "year_note": "据《资治通鉴》天宝十载（751年）与阿拉伯史料（塔巴里等）对读：高仙芝与大食军战于怛罗斯；历表换算。",
+   "desc": "安西节度使高仙芝与阿拔斯王朝军会战于怛罗斯（今哈萨克斯坦塔拉兹附近），葛逻禄部临阵倒戈，唐军大败（两万安西军大部损失——数字诸说并存）。战事本身规模有限、未改变中亚大势（唐仍控制安西），但阿拉伯史料传统将其记为对华战争的标志性胜利；造纸术西传（撒马尔罕纸坊的传说关联）常被置于战后——学界对其因果链有讨论。",
+   "sources": [
+    "tongjian",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang-chajing-luyu",
+   "title": "陆羽《茶经》与饮茶文化",
+   "year": 780,
+   "end_year": null,
+   "year_display": "约780年",
+   "end_year_display": null,
+   "year_note": "《茶经》成书年代通说在上元至建中年间（约760—780年间完成、780年前后刊行），取约780年。",
+   "desc": "陆羽《茶经》三卷十章（源、具、造、器、煮、饮、事、出、略、图）系统化茶叶种植、制作与品饮，使饮茶从南方风俗升格为文化实践（\"自从陆羽生人间，人间相学事春茶\"——宋人梅尧臣语，后代追评）。茶税（780年起征）与茶马贸易使茶进入国家财政——文化与财政的同步扩张。",
+   "sources": [
+    "xintangshu",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang-quyuanli-tongche",
+   "title": "曲辕犁与筒车：江南水田的技术定型",
+   "year": 780,
+   "end_year": null,
+   "year_display": "约780年代",
+   "end_year_display": null,
+   "year_note": "曲辕犁（江东犁）的记载见陆龟蒙《耒耜经》（晚唐），筒车见陈廷章《水轮赋》（约唐中期）；定型年代均为约数（通说8—9世纪），取约780年代。",
+   "desc": "江东曲辕犁（三处可调：犁评、犁建、犁盘）适配小块水田深耕；筒车以水力昼夜灌田。二者与圩田、双季稻共同构成江南超越北方单产的技术体系——经济重心南移的农业技术基础（科技史学界通说）。",
+   "sources": [
+    "zgbk",
+    "kaogu-cass",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang-niuzhi-dangzheng",
+   "title": "牛李党争",
+   "year": 808,
+   "end_year": 859,
+   "year_display": "约808年",
+   "end_year_display": "859年",
+   "year_note": "党争以元和三年（808年）策案之争（牛僧孺李宗闵指斥时政案）为显性起点，至大中十三年（859年）前后牛党李德裕一系终局；取约数。",
+   "desc": "牛党（牛僧孺、李宗闵，多科举出身）与李党（李德裕，门荫出身）围绕进士科评价、藩镇处理与河朔政策斗争四十余年。陈寅恪以\"士族vs进士\"的社会结构解释（旧说），现代研究更强调具体政见与人事派系——党争与宦官专权交织，耗尽了晚唐士大夫的政治共识。",
+   "sources": [
+    "xintangshu",
+    "chenyinke-tang",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang-qiancha-yinshua",
+   "title": "雕版印刷：现存最早的纪年印刷品",
+   "year": 868,
+   "end_year": null,
+   "year_display": "868年",
+   "end_year_display": null,
+   "year_note": "现存最早有明确纪年的雕版印刷品为敦煌《金刚经》（咸通九年四月十五日，868年5月11日），卷首扉画为世界现存最早的版画之一；公元纪年，无换算问题。",
+   "desc": "王玠为二亲敬造普施的《金刚经》卷子（1900年敦煌藏经洞发现，1907年被斯坦因携往英国，现存大英图书馆）以精美扉画与匀整刻字证明9世纪雕版印刷已高度成熟。印刷术与佛教（佛经刷印）、科举（历书）同步扩张——五代冯道刻九经（见五代单元）是其官方化前奏。",
+   "sources": [
+    "zgbk",
+    "british-museum",
+    "xintangshu"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-tang-xuanzang",
+   "name": "玄奘",
+   "birth_year": 602,
+   "death_year": 664,
+   "birth_display": "602年（通说）",
+   "death_display": "664年",
+   "desc": "洛州缑氏人，见主事件条（西行与译经）。其《大唐西域记》为中亚-南亚唯一亲历文献；所创法相宗因理论繁难而中绝，但其译场制度与经录（大小乘经律论75部1335卷）成为汉传佛典的基准。",
+   "sources": [
+    "jiutangshu",
+    "whc-mogao",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang-jianzhen",
+   "name": "鉴真",
+   "birth_year": 688,
+   "death_year": 763,
+   "birth_display": "688年",
+   "death_display": "763年",
+   "desc": "扬州大明寺高僧，六次东渡（五次失败、双目失明）于753年抵达日本，带去戒律（授戒法脉）、佛寺规划（唐招提寺）与医药、书籍——日本律宗初祖与\"天平文化\"的塑造者之一。与阿倍仲麻吕的对向流动（日人来唐、唐人赴日）是东亚文化交流的双向标本。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang-yixing",
+   "name": "僧一行（张遂）",
+   "birth_year": 683,
+   "death_year": 727,
+   "birth_display": "683年",
+   "death_display": "727年",
+   "desc": "魏州人，天文学家与密宗高僧：主持全国天文大地测量（南宫说等在河南四点测影——世界上首次子午线弧长的实测研究之一，科技史学界通说），编《大衍历》（727年成、729年颁行）。其水运浑象与漏刻为开元仪器高峰；梁令瓒合作、南宫说执行——皇家天文工程的团队样本。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang-luyu",
+   "name": "陆羽",
+   "birth_year": null,
+   "death_year": 804,
+   "birth_display": "生年不可考（约733年生，存疑）",
+   "death_display": "804年",
+   "desc": "复州竟陵人，弃婴出身（龙盖寺智积禅师收养），\"茶圣\"：《茶经》作者（见延伸事件条）。被后世茶业奉为茶神（sell 茶灶供陆羽像），其\"精行俭德\"的茶德论使饮茶获得伦理维度。",
+   "sources": [
+    "xintangshu",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  }
+ ]
 }

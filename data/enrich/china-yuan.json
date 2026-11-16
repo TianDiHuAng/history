@@ -1,129 +1,169 @@
 {
-  "unit_id": "china-yuan",
-  "extra_events": [
-    {
-      "id": "x-yuan-menggubishi",
-      "title": "《蒙古秘史》成书",
-      "year": 1240,
-      "end_year": null,
-      "year_display": "约1240年",
-      "end_year_display": null,
-      "year_note": "《蒙古秘史》（《元朝秘史》）以畏兀儿字蒙古文写成、汉译音写本传世，成书年代有1240年（鼠儿年）与1252、1264年诸说——本站取通说约1240年。",
-      "desc": "从苍狼白鹿传说到成吉思汗功业的编年叙事（十二卷282节），是蒙古人自己书写的唯一早期史诗文献（\"青史\"之祖）。其汉译音写本因《永乐大典》抄录而幸存，成为内亚史学的第一手母语材料（伯希和等学者以此重建蒙古语音与叙事传统——秘史文本层的研究为内亚史方法论标杆）。",
-      "sources": ["yuanshi", "cambridge-china", "bentley-cross"],
-      "needs_verification": true,
-      "pending_notes": "秘史成书年代有1240/1252/1264诸说（末卷明言成于鼠儿年，对应何年学界有分歧）；本站取通说约1240年。"
-    },
-    {
-      "id": "x-yuan-zhamaluding-huili",
-      "title": "札马鲁丁与回回司天台",
-      "year": 1267,
-      "end_year": null,
-      "year_display": "1267年",
-      "end_year_display": null,
-      "year_note": "据《元史·百官志》与历志：至元四年（1267年）札马鲁丁撰进《万年历》，并造西域仪象七件；历表换算。",
-      "desc": "波斯天文学家札马鲁丁建回回司天台（上都），进《万年历》，造七件西域仪器（浑天仪、方位仪、地球仪——中国文献首见\"地球仪\"记载）。回回历法与汉历并行为元代官方双轨历法（回回司天台存续至明初），为郭守敬改历（见主事件条）的多族群技术背景。",
-      "sources": ["yuanshi", "cambridge-china", "zgbk"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-yuan-huitonghe-tonghuihe",
-      "title": "会通河与通惠河：大运河截弯取直",
-      "year": 1289,
-      "end_year": 1293,
-      "year_display": "1289年",
-      "end_year_display": "1293年",
-      "year_note": "据《元史·河渠志》：至元二十六年（1289年）开会通河，至元三十年（1293年）通惠河成——运河自江浙可直达大都；历表换算。",
-      "desc": "郭守敬主持通惠河（引白浮泉水入大都积水潭），会通河打通山东地障——隋代以洛阳为中心的\"人\"字形运河被改造为纵贯南北的直线运河。明清两代的南北漕运主体线路自此定型（2014年列入世界遗产的大运河即含此段）。",
-      "sources": ["yuanshi", "whc-canal", "zgbk"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-yuan-nongsang-jiyao",
-      "title": "《农桑辑要》官颁农书",
-      "year": 1273,
-      "end_year": null,
-      "year_display": "1273年",
-      "end_year_display": null,
-      "year_note": "据《元史》与《农桑辑要》序：至元十年（1273年）司农司编成颁行（官颁农书之始）；公元纪年，无换算问题。",
-      "desc": "大司农司主持编成《农桑辑要》七卷，辑录前代农书精华并新增芒麻、棉花栽培内容（\"劝课农桑\"的国策工具书）。元廷以官颁农书、水利、社仓治理农业——与《农桑衣食撮要》（鲁明善）、《王祯农书》（1313年）构成元代农学三部曲。",
-      "sources": ["yuanshi", "zgbk", "cambridge-china"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-yuan-daoYizhilüe",
-      "title": "汪大渊《岛夷志略》",
-      "year": 1349,
-      "end_year": null,
-      "year_display": "1349年",
-      "end_year_display": null,
-      "year_note": "据《岛夷志略》汪大渊自序：两下东西洋（1330、1337年出发），至正九年（1349年）成书于清源（泉州）；公元纪年，无换算问题。",
-      "desc": "南昌人汪大渊两次附舶远航（东起澎湖琉球、西抵东非加里曼丹以西诸港——所记地名两百二十余），《岛夷志略》以亲历见闻记录各国物产、人情、贸易（泉州出海视角）。其记述之精（马可·波罗仅泛泛，汪氏为系统名录）被视为元代海上贸易的一手地理文献。",
-      "sources": ["zgbk", "cambridge-china", "bentley-cross"],
-      "needs_verification": false,
-      "pending_notes": ""
-    },
-    {
-      "id": "x-yuan-zhiyuan-baochao",
-      "title": "至元通行宝钞",
-      "year": 1287,
-      "end_year": null,
-      "year_display": "1287年",
-      "end_year_display": null,
-      "year_note": "据《元史·食货志》：至元二十四年（1287年）忽必烈颁至元通行宝钞（一贯当中统交钞五贯），元朝纸币体系重构；历表换算。",
-      "desc": "元代是世界上第一个在全国范围以纸币为主要流通货币的政权（中统钞1260年起）：无金属准备、以行政强推。至元钞前期币值稳定，后期滥发引发恶性通胀（顺帝至正钞法崩溃）——纸币管理的制度教训深刻影响明清（明代用银本位与宝钞并行、清代基本弃钞）。",
-      "sources": ["yuanshi", "zgbk", "cambridge-china"],
-      "needs_verification": false,
-      "pending_notes": ""
-    }
-  ],
-  "extra_people": [
-    {
-      "id": "x-yuan-liubingzhong",
-      "name": "刘秉忠",
-      "birth_year": 1216,
-      "death_year": 1274,
-      "birth_display": "1216年",
-      "death_display": "1274年",
-      "desc": "邢州人，由僧入幕（海云法师引荐）成为忽必烈首席谋臣：定国号\"大元\"（取《易》\"大哉乾元\"）、设计大都与上都（见主事件条）、定朝仪官制。其\"出家辅政\"的体制外路径为元初汉人儒士的政治可能性的代表；卒赠太傅，封赵国公。",
-      "sources": ["yuanshi", "zgbk", "cambridge-china"],
-      "needs_verification": false
-    },
-    {
-      "id": "x-yuan-wangzhen",
-      "name": "王祯",
-      "birth_year": null,
-      "death_year": null,
-      "birth_display": "生卒不可考（约1271—1333年间在世，存疑）",
-      "death_display": "卒年不可考",
-      "desc": "东平人，旌德、永丰县尹，《农书》三十七集（1313年刊）首创\"农桑通诀—百谷谱—农器图谱\"体系，其农器图（水转大纺车等）配图三百余幅为农器史高峰；同时发明转轮排字架（活字排版机械——\"以字就人\"），刻木活字三万余，印旌德县志。农学与出版技术的双料创新者。",
-      "sources": ["zgbk", "cambridge-china", "bentley-cross"],
-      "needs_verification": true
-    },
-    {
-      "id": "x-yuan-mazhiyuan",
-      "name": "马致远",
-      "birth_year": null,
-      "death_year": null,
-      "birth_display": "生卒不可考（约1250—约1321年间，存疑）",
-      "death_display": "卒年不可考",
-      "desc": "大都人，\"曲状元\"：《汉宫秋》（王昭君故事的戏曲重构）为元杂剧四大悲剧之一；散曲《天净沙·秋思》（\"枯藤老树昏鸦\"）被称\"秋思之祖\"。元曲四大家（关、白、郑、马）之一；其仕途不达与\"东篱\"隐逸形象折射元代士人境遇。",
-      "sources": ["zgbk", "xiehe-han", "yuanshi"],
-      "needs_verification": true
-    },
-    {
-      "id": "x-yuan-wangdayuan",
-      "name": "汪大渊",
-      "birth_year": 1311,
-      "death_year": null,
-      "birth_display": "1311年（通说）",
-      "death_display": "卒年不可考",
-      "desc": "南昌人，两下东西洋（1330、1337年出发）的航海家与记录者，《岛夷志略》作者（见延伸事件条）。其航程之广（可能超过同期欧洲旅行者）与记录之实（各国货物价格清单）使其成为元代海外世界知识的巅峰样本。",
-      "sources": ["zgbk", "cambridge-china", "bentley-cross"],
-      "needs_verification": false
-    }
-  ]
+ "unit_id": "china-yuan",
+ "extra_events": [
+  {
+   "id": "x-yuan-menggubishi",
+   "title": "《蒙古秘史》成书",
+   "year": 1240,
+   "end_year": null,
+   "year_display": "约1240年",
+   "end_year_display": null,
+   "year_note": "《蒙古秘史》（《元朝秘史》）以畏兀儿字蒙古文写成、汉译音写本传世，成书年代有1240年（鼠儿年）与1252、1264年诸说——本站取通说约1240年。",
+   "desc": "从苍狼白鹿传说到成吉思汗功业的编年叙事（十二卷282节），是蒙古人自己书写的唯一早期史诗文献（\"青史\"之祖）。其汉译音写本因《永乐大典》抄录而幸存，成为内亚史学的第一手母语材料（伯希和等学者以此重建蒙古语音与叙事传统——秘史文本层的研究为内亚史方法论标杆）。",
+   "sources": [
+    "yuanshi",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": true,
+   "pending_notes": "秘史成书年代有1240/1252/1264诸说（末卷明言成于鼠儿年，对应何年学界有分歧）；本站取通说约1240年。"
+  },
+  {
+   "id": "x-yuan-zhamaluding-huili",
+   "title": "札马鲁丁与回回司天台",
+   "year": 1267,
+   "end_year": null,
+   "year_display": "1267年",
+   "end_year_display": null,
+   "year_note": "据《元史·百官志》与历志：至元四年（1267年）札马鲁丁撰进《万年历》，并造西域仪象七件；历表换算。",
+   "desc": "波斯天文学家札马鲁丁建回回司天台（上都），进《万年历》，造七件西域仪器（浑天仪、方位仪、地球仪——中国文献首见\"地球仪\"记载）。回回历法与汉历并行为元代官方双轨历法（回回司天台存续至明初），为郭守敬改历（见主事件条）的多族群技术背景。",
+   "sources": [
+    "yuanshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-yuan-nongsang-jiyao",
+   "title": "《农桑辑要》官颁农书",
+   "year": 1273,
+   "end_year": null,
+   "year_display": "1273年",
+   "end_year_display": null,
+   "year_note": "据《元史》与《农桑辑要》序：至元十年（1273年）司农司编成颁行（官颁农书之始）；公元纪年，无换算问题。",
+   "desc": "大司农司主持编成《农桑辑要》七卷，辑录前代农书精华并新增芒麻、棉花栽培内容（\"劝课农桑\"的国策工具书）。元廷以官颁农书、水利、社仓治理农业——与《农桑衣食撮要》（鲁明善）、《王祯农书》（1313年）构成元代农学三部曲。",
+   "sources": [
+    "yuanshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-yuan-zhiyuan-baochao",
+   "title": "至元通行宝钞",
+   "year": 1287,
+   "end_year": null,
+   "year_display": "1287年",
+   "end_year_display": null,
+   "year_note": "据《元史·食货志》：至元二十四年（1287年）忽必烈颁至元通行宝钞（一贯当中统交钞五贯），元朝纸币体系重构；历表换算。",
+   "desc": "元代是世界上第一个在全国范围以纸币为主要流通货币的政权（中统钞1260年起）：无金属准备、以行政强推。至元钞前期币值稳定，后期滥发引发恶性通胀（顺帝至正钞法崩溃）——纸币管理的制度教训深刻影响明清（明代用银本位与宝钞并行、清代基本弃钞）。",
+   "sources": [
+    "yuanshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-yuan-huitonghe-tonghuihe",
+   "title": "会通河与通惠河：大运河截弯取直",
+   "year": 1289,
+   "end_year": 1293,
+   "year_display": "1289年",
+   "end_year_display": "1293年",
+   "year_note": "据《元史·河渠志》：至元二十六年（1289年）开会通河，至元三十年（1293年）通惠河成——运河自江浙可直达大都；历表换算。",
+   "desc": "郭守敬主持通惠河（引白浮泉水入大都积水潭），会通河打通山东地障——隋代以洛阳为中心的\"人\"字形运河被改造为纵贯南北的直线运河。明清两代的南北漕运主体线路自此定型（2014年列入世界遗产的大运河即含此段）。",
+   "sources": [
+    "yuanshi",
+    "whc-canal",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-yuan-daoYizhilüe",
+   "title": "汪大渊《岛夷志略》",
+   "year": 1349,
+   "end_year": null,
+   "year_display": "1349年",
+   "end_year_display": null,
+   "year_note": "据《岛夷志略》汪大渊自序：两下东西洋（1330、1337年出发），至正九年（1349年）成书于清源（泉州）；公元纪年，无换算问题。",
+   "desc": "南昌人汪大渊两次附舶远航（东起澎湖琉球、西抵东非加里曼丹以西诸港——所记地名两百二十余），《岛夷志略》以亲历见闻记录各国物产、人情、贸易（泉州出海视角）。其记述之精（马可·波罗仅泛泛，汪氏为系统名录）被视为元代海上贸易的一手地理文献。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-yuan-liubingzhong",
+   "name": "刘秉忠",
+   "birth_year": 1216,
+   "death_year": 1274,
+   "birth_display": "1216年",
+   "death_display": "1274年",
+   "desc": "邢州人，由僧入幕（海云法师引荐）成为忽必烈首席谋臣：定国号\"大元\"（取《易》\"大哉乾元\"）、设计大都与上都（见主事件条）、定朝仪官制。其\"出家辅政\"的体制外路径为元初汉人儒士的政治可能性的代表；卒赠太傅，封赵国公。",
+   "sources": [
+    "yuanshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-yuan-wangzhen",
+   "name": "王祯",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约1271—1333年间在世，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "东平人，旌德、永丰县尹，《农书》三十七集（1313年刊）首创\"农桑通诀—百谷谱—农器图谱\"体系，其农器图（水转大纺车等）配图三百余幅为农器史高峰；同时发明转轮排字架（活字排版机械——\"以字就人\"），刻木活字三万余，印旌德县志。农学与出版技术的双料创新者。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-yuan-mazhiyuan",
+   "name": "马致远",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约1250—约1321年间，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "大都人，\"曲状元\"：《汉宫秋》（王昭君故事的戏曲重构）为元杂剧四大悲剧之一；散曲《天净沙·秋思》（\"枯藤老树昏鸦\"）被称\"秋思之祖\"。元曲四大家（关、白、郑、马）之一；其仕途不达与\"东篱\"隐逸形象折射元代士人境遇。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "yuanshi"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-yuan-wangdayuan",
+   "name": "汪大渊",
+   "birth_year": 1311,
+   "death_year": null,
+   "birth_display": "1311年（通说）",
+   "death_display": "卒年不可考",
+   "desc": "南昌人，两下东西洋（1330、1337年出发）的航海家与记录者，《岛夷志略》作者（见延伸事件条）。其航程之广（可能超过同期欧洲旅行者）与记录之实（各国货物价格清单）使其成为元代海外世界知识的巅峰样本。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  }
+ ]
 }

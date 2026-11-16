@@ -1,0 +1,186 @@
+{
+ "unit_id": "world-medieval",
+ "extra_events": [
+  {
+   "id": "x-wm-justinian-plague",
+   "title": "查士丁尼瘟疫",
+   "year": 541,
+   "end_year": 542,
+   "year_display": "541—542年",
+   "end_year_display": null,
+   "year_note": "据普罗柯比《战史》与近现代古DNA研究（确认鼠疫杆菌）：541年瘟疫抵埃及，542年入君士坦丁堡；公元纪年，无换算问题。",
+   "desc": "鼠疫大流行沿海路扩散至整个地中海世界（君士坦丁堡高峰期日死数千——普罗柯比描述性数字，现代研究以人口模型估计总死亡千万级区间），并与此后两个世纪的复发波共同终结了查士丁尼复兴的前景。2020年代古DNA研究确认其病原为鼠疫杆菌——历史叙事与分子生物学的衔接样本。",
+   "sources": [
+    "cambridge-medieval",
+    "whc-istanbul",
+    "enwp-bronze-collapse"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-reconquista",
+   "title": "收复失地运动",
+   "year": 722,
+   "end_year": 1492,
+   "year_display": "722年（起）",
+   "end_year_display": "1492年",
+   "year_note": "以科瓦东加之战（佩拉约起义，722年，传统纪年）为起点；1492年格拉纳达陷落为终点——长达770年的渐进过程（收复运动史学对其连续性的质疑见争议）。",
+   "desc": "伊斯兰征服伊比利亚（711年）后，北方基督教王国（阿斯图里亚斯、莱昂、卡斯蒂利亚、阿拉贡）数百年间渐进南推：托洛萨之战（1212年）决定性转折，斐迪南与伊莎贝拉攻陷格拉纳达（1492年）收官——同年哥伦布出航。阿尔罕布拉条约的宗教宽容迅速被驱逐令（1492年犹太人、1609年摩里斯科人）取代——多元社会的终结与西班牙民族国家的锻造。",
+   "sources": [
+    "cambridge-medieval",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-house-of-wisdom",
+   "title": "巴格达智慧宫与翻译运动",
+   "year": 830,
+   "end_year": null,
+   "year_display": "约830年",
+   "end_year_display": null,
+   "year_note": "阿拔斯哈里发马蒙（813—833年在位）扩建智慧宫（Bayt al-Hikma）并组织大规模希腊文翻译，通说取约830年（约数）。",
+   "desc": "侯奈因·伊本·易司哈格等翻译家把亚里士多德、盖伦、欧几里得、托勒密译为阿拉伯文（含景教徒中间环节），并从印度引入数字系统（\"阿拉伯数字\"实为印度-阿拉伯数字）。花剌子米的代数学（al-jabr 即代数一词源）与天文学表——伊斯兰黄金时代的知识中枢；蒙古1258年攻巴格达（见主事件相关条）的毁灭常被引为其终点（学界对衰落时点有修正）。",
+   "sources": [
+    "met-toah",
+    "cambridge-medieval",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-genji-monogatari",
+   "title": "《源氏物语》：世界最早的长篇小说",
+   "year": 1008,
+   "end_year": null,
+   "year_display": "约1008年",
+   "end_year_display": null,
+   "year_note": "紫式部《源氏物语》的成书通说在其宫廷任职期（约1008年前后完成主要部分，据《紫式部日记》与内部纪年推排）。",
+   "desc": "平安朝女官紫式部以54帖写光源氏一生与贵族情爱世界（\"物哀\"美学的源头），被普遍视为世界上最早的长篇小说之一（与同期各国叙事文体比较的学界通说）。其假名书写（女性文字）与宫廷文化的结合，展示了日本接受汉文明后的本土化创造——东亚汉文化圈的变异样本。",
+   "sources": [
+    "met-toah",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-hanseatic-league",
+   "title": "汉萨同盟",
+   "year": 1160,
+   "end_year": null,
+   "year_display": "约1160年代起",
+   "end_year_display": null,
+   "year_note": "吕贝克建城（1143年）后波罗的海商人同盟渐成（1160年代起有条约记录），1370年《斯特拉尔松德条约》为其军事-商业权力的顶点（本条以同盟成形为主年）。",
+   "desc": "德意志北部城市（吕贝克、汉堡、不来梅等）结成商业-军事同盟，垄断波罗的海与北海贸易（鳕鱼、谷物、盐），在伦敦（钢院）、诺夫哥罗德等地设商馆。汉萨以联盟而非国家形态展示商业组织的政治能力——近代跨国商业网络的雏形（其衰落与荷兰崛起相关）。",
+   "sources": [
+    "cambridge-medieval",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-mendicant-orders",
+   "title": "托钵修会：方济各会与多明我会",
+   "year": 1209,
+   "end_year": null,
+   "year_display": "1209年（起）",
+   "end_year_display": null,
+   "year_note": "方济各会获英诺森三世口头批准（1209年，正式规则1210年）、多明我会1216年获批——托钵修会运动在13世纪初成型；本条取1209年。",
+   "desc": "方济各（阿西西的贫困商人之子）以清贫与巡回布道复兴使徒式教会，多明我会以\"主的猎犬\"形象投身驳异端与学问。托钵修士进入大学（大阿尔伯特、托马斯·阿奎那均为多明我会士）与城市贫民区，使教会应对商业化社会的危机——中世纪晚期教会的自我更新机制。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "brit-joan-of-arc"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm-avignon-papacy",
+   "title": "阿维尼翁之囚与教会大分裂",
+   "year": 1309,
+   "end_year": 1377,
+   "year_display": "1309年",
+   "end_year_display": "1377年",
+   "year_note": "克雷芒五世1309年定居阿维尼翁（阿维尼翁教廷期至1377年格列高利十一世返罗马）；随后大分裂（1378—1417）至康斯坦茨会议结束；公元纪年，无换算问题。",
+   "desc": "教廷迁居法国控制下的阿维尼翁七十年（\"巴比伦之囚\"——彼特拉克语），教廷成为法国王权的工具与财政机器；1378年双教皇并立（后三教皇），欧洲按政治阵营站队。康斯坦茨会议（1414—1418）以会议至上主义弥合分裂——教会权威的世俗化转折为宗教改革埋下远因。",
+   "sources": [
+    "cambridge-medieval",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm-avicensa",
+   "name": "阿维森纳（伊本·西那）",
+   "birth_year": 980,
+   "death_year": 1037,
+   "birth_display": "980年",
+   "death_display": "1037年",
+   "desc": "布哈拉出身的医学与哲学全才：《医典》（Al-Qanun）为欧洲医界标准教材直至17世纪（蒙彼利埃大学等的教科书——医学史通说），《治疗论》融合亚里士多德与伊斯兰思想。其\"漂浮人\"思想实验先于笛卡尔对自我意识的论证——伊斯兰黄金时代的个人代表。",
+   "sources": [
+    "met-toah",
+    "cambridge-medieval",
+    "brit-ibn-battutah"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-francis-assisi",
+   "name": "圣方济各（阿西西的方济各）",
+   "birth_year": 1181,
+   "death_year": 1226,
+   "birth_display": "1181或1182年（通说）",
+   "death_display": "1226年",
+   "desc": "阿西西富商之子，弃财苦行（当众脱衣还父的戏剧性弃家场景），以拥抱麻风病人与\"贫穷圣女\"理想的托钵布道重塑教会形象；创立方济各会（见延伸事件条）并获五伤圣痕（1224年——教会史首次明确记载）。其《太阳兄弟之歌》为意大利文学的早期里程碑；1228年封圣。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "brit-joan-of-arc"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-dante",
+   "name": "但丁·阿利吉耶里",
+   "birth_year": 1265,
+   "death_year": 1321,
+   "birth_display": "1265年",
+   "death_display": "1321年",
+   "desc": "佛罗伦萨人，因党争被终身放逐：《神曲》（约1308—1321年）以地狱-炼狱-天堂三界之旅把神学、政治与私人情感（贝雅特丽齐）熔为一炉，用托斯卡纳方言写就——意大利文学语言由此确立。其政治论（《论世界帝国》）主张普世君主制，与其放逐经历互文；\"文艺复兴的晨星\"（恩格斯式评价的通行转述）。",
+   "sources": [
+    "cambridge-medieval",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm-boccaccio",
+   "name": "薄伽丘",
+   "birth_year": 1313,
+   "death_year": 1375,
+   "birth_display": "1313年",
+   "death_display": "1375年",
+   "desc": "佛罗伦萨商人私生子，《十日谈》（约1349—1353年）以黑死病背景下十个青年讲百个故事：讽刺教士、歌颂世俗——\"人曲\"与《神曲》并称（后世类比）。其整理但丁传记（《但丁传》）与搜集古典手稿（促成彼特拉克-薄伽丘的人文主义文献事业）使其成为文艺复兴的文献奠基人。",
+   "sources": [
+    "cambridge-medieval",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
