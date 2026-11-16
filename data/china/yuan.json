@@ -1,0 +1,633 @@
+{
+  "unit_id": "china-yuan",
+  "region": "china",
+  "title": "元（大蒙古国与大元）",
+  "period_display": "1206年/1271年—1368年",
+  "start_year": 1206,
+  "end_year": 1368,
+  "overview": {
+    "main_threads": [
+      "内亚帝国的世界性：蒙古征服连接欧亚，行省与驿传重塑治理空间",
+      "汉法与蒙古旧制的双轨体制：四等人的等级结构与科举的低配运行",
+      "江南财赋与海上贸易：回回商人、市舶与纸币试验",
+      "科技与文化的跨界高峰：授时历、元曲、火器西传"
+    ],
+    "sub_periods": [
+      {"name": "大蒙古国", "range_display": "1206年—1271年", "desc": "成吉思汗建庭、窝阔台—蒙哥汗的欧亚征服与汗位纷争。"},
+      {"name": "元朝", "range_display": "1271年—1368年", "desc": "忽必烈建元定都、灭宋统一；中期海都之乱与皇位频繁更迭；末年天灾民变与北迁。"}
+    ],
+    "key_changes": [
+      "行省制：中国政区的现代形态起源",
+      "大运河截弯取直（会通河、通惠河）",
+      "纸币（交钞）全国化与通货膨胀教训",
+      "四等人制与科举稀缺下的官僚社会变动"
+    ]
+  },
+  "events": [
+    {
+      "id": "yuan-chengjisihan-tongyi",
+      "title": "成吉思汗统一蒙古诸部",
+      "year": 1206,
+      "end_year": null,
+      "year_display": "1206年",
+      "end_year_display": null,
+      "year_note": "据《元史·太祖纪》与拉施特《史集》：1206年（狗儿年）斡难河源忽里台大会推铁木真为“成吉思汗”；生年1162为通说（另有1155/1167说，见争议）。公元纪年，无换算问题。",
+      "location": "斡难河源（今蒙古国鄂嫩河一带）",
+      "key_people": ["chengjisihan"],
+      "background": "十二世纪末草原诸部（塔塔尔、克烈、乃蛮、蔑儿乞）混战；铁木真经王汗联盟、十三翼之战等历练，逐一整合诸部。",
+      "process": [
+        "1206年忽里台大会建“也客·忙豁勒·兀鲁思”（大蒙古国），设千户制、怯薛（护卫）制。",
+        "颁《大扎撒》（法令汇编）与札鲁忽赤（断事官）制度。",
+        "统一文字（塔塔统阿以畏兀儿字母书蒙古语）。",
+        "此后西夏、金成为首攻目标；1219年起西征花剌子模打开欧亚通道。"
+      ],
+      "outcome": "草原政治体的国家化（千户-怯薛-扎撒三件套）为人类史上最大陆地帝国的起点；其制度遗产（驿传、passport 制度）直接进入元朝与各汗国治理。",
+      "controversies": [
+        {"issue": "铁木真生年", "views": [
+          {"holder": "《史集》（拉施特）", "basis": "系其生于“猪儿年”，与通说1162年相合。"},
+          {"holder": "《元史》及另一系文献", "basis": "有1155年说与1167年说；学界至今无定论，本站取1162年通说并标注存疑。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>1206年 忽里台大会（斡难河源）</text><rect x='270' y='80' width='220' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='108' text-anchor='middle' font-size='15' fill='#8c1f28'>铁木真 = 成吉思汗</text><text x='380' y='132' text-anchor='middle' font-size='11'>“也客·忙豁勒·兀鲁思”</text><g font-size='12'><rect x='60' y='180' width='190' height='70' fill='#fff' stroke='#2b4a6f'/><text x='155' y='206' text-anchor='middle'>千户制</text><text x='155' y='228' text-anchor='middle' font-size='11'>打破部落血缘编组</text><rect x='290' y='180' width='190' height='70' fill='#fff' stroke='#2b4a6f'/><text x='385' y='206' text-anchor='middle'>怯薛护卫</text><text x='385' y='228' text-anchor='middle' font-size='11'>万人近卫·质子制</text><rect x='520' y='180' width='190' height='70' fill='#fff' stroke='#2b4a6f'/><text x='615' y='206' text-anchor='middle'>大扎撒·札鲁忽赤</text><text x='615' y='228' text-anchor='middle' font-size='11'>法令与断事官</text><line x1='250' y1='215' x2='286' y2='215' stroke='#2b4a6f' marker-end='url(#xi1)'/><line x1='480' y1='215' x2='516' y2='215' stroke='#2b4a6f' marker-end='url(#xi1)'/></g><rect x='130' y='280' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='306' text-anchor='middle' font-size='13'>草原国家化的三件套：千户-怯薛-扎撒</text><text x='380' y='332' text-anchor='middle' font-size='11'>1219年西征花剌子模→欧亚通道打开</text><rect x='130' y='340' width='500' height='40' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='366' text-anchor='middle' font-size='11' fill='#8c1f28'>生年诸说：1162（通说）/1155/1167——本站取1162并标注</text></svg>",
+      "sources": ["yuanshi", "brit-genghis-khan", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-miexia-miejim",
+      "title": "蒙古灭西夏与灭金",
+      "year": 1227,
+      "end_year": 1234,
+      "year_display": "1227年",
+      "end_year_display": "1234年",
+      "year_note": "据《元史》：1227年西夏末主降（同年成吉思汗崩于清水县——两者先后史载有歧异）；1234年蒙宋联军破蔡州，金亡。公元纪年，无换算问题。",
+      "location": "西夏（中兴府）、蔡州",
+      "key_people": [],
+      "background": "西夏、金为草原政权的两大定居邻邦；1211年野狐岭之战金军主力崩溃，西夏屡降屡叛，均被连续打击。",
+      "process": [
+        "1211年野狐岭之战重创金军（《元史》记金军四十五万，数字存疑）；此后金被迫迁都汴京（1214年）。",
+        "1227年灭西夏，成吉思汗于征夏途中崩（死因诸说：坠马/伤病，见争议）。",
+        "1229年窝阔台继汗位，行假道于宋之策；1232年三峰山之战歼金军主力。",
+        "1234年蒙宋联军破蔡州，金哀宗自缢，金亡。"
+      ],
+      "outcome": "金亡后宋蒙直接接壤，“联蒙灭金”重演北宋海上之盟的战略困境；华北进入蒙古军政体制（投下分封+达鲁花赤监临）。",
+      "controversies": [
+        {"issue": "野狐岭兵力与成吉思汗死因", "views": [
+          {"holder": "《元史》", "basis": "野狐岭金军四十五万（数字被现代研究视为账面夸大）；成吉思汗死因“坠马说”（《元史》生理记载）与西夏王城说（秘史系统）并存。"},
+          {"holder": "现代研究", "basis": "兵力与死因均按叙述分层处理，不作实数。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>灭夏灭金（1211—1234年，方位示意）</text><g font-size='12'><rect x='80' y='90' width='200' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='180' y='116' text-anchor='middle' fill='#8c1f28'>野狐岭之战（1211）</text><text x='180' y='140' text-anchor='middle' font-size='11'>金军主力崩溃（数字存疑）</text><rect x='320' y='90' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='410' y='116' text-anchor='middle'>1227 灭西夏</text><text x='410' y='140' text-anchor='middle' font-size='11'>成吉思汗同年崩（死因诸说）</text><rect x='540' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='116' text-anchor='middle' fill='#8c1f28'>1232 三峰山</text><text x='630' y='140' text-anchor='middle' font-size='11'>1234 蔡州破·金亡</text><line x1='280' y1='130' x2='316' y2='130' stroke='#8c1f28' marker-end='url(#xi2)'/><line x1='500' y1='130' x2='536' y2='130' stroke='#8c1f28' marker-end='url(#xi2)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>宋蒙直接接壤</text><text x='380' y='262' text-anchor='middle' font-size='11'>“联蒙灭金”重演海上之盟困境；华北入投下分封+达鲁花赤体制</text></svg>",
+      "sources": ["yuanshi", "xu-tongjian", "cambridge-china"],
+      "needs_verification": true,
+      "pending_notes": "野狐岭金军“四十五万”系《元史》单源数字，学界视为账面夸大；成吉思汗死因诸说并存，不作定论。"
+    },
+    {
+      "id": "yuan-hulie-xizheng",
+      "title": "旭烈兀西征与阿音扎鲁特之败",
+      "year": 1253,
+      "end_year": 1260,
+      "year_display": "1253年",
+      "end_year_display": "1260年",
+      "year_note": "据《史集》与波斯史料：1253年旭烈兀奉蒙哥汗命西征；1258年陷巴格达；1260年阿音扎鲁特（艾因贾鲁特）败于埃及马穆鲁克军；公元纪年，无换算问题。",
+      "location": "木剌夷诸堡、巴格达、叙利亚",
+      "key_people": [],
+      "background": "蒙哥汗（1251年即位）重启大规模西征：命旭烈兀征讨木剌夷（阿萨辛派）与阿拔斯哈里发；忽必烈总汉地军务、旭烈兀总西域军务的分遣格局。",
+      "process": [
+        "1253—1256年攻灭木剌夷诸堡（伊朗高原）。",
+        "1258年攻陷巴格达，末代哈里发被处死（屠城规模见争议），阿拔斯王朝终结。",
+        "1259—1260年进兵叙利亚，取阿勒颇、大马士革。",
+        "1260年蒙哥死于合州钓鱼城下，旭烈兀东归争位；留守部将怯的不花于阿音扎鲁特被埃及马穆鲁克击败——蒙古西征在西线的极限。",
+        "旭烈兀留据波斯建伊儿汗国（尊元为宗主）。"
+      ],
+      "outcome": "伊斯兰世界政治中心格局改变（哈里发制终结、开罗马穆鲁克成为逊尼世界领袖）；伊儿汗国成为元朝宗藩体系的一环（印章文书互证——伊朗出土汉文印玺为实物证据）。",
+      "controversies": [
+        {"issue": "巴格达屠城规模", "views": [
+          {"holder": "阿拉伯编年史家（伊本·哈利坎等）", "basis": "估死者八十万（或更高）。"},
+          {"holder": "现代近东研究", "basis": "认为数字系文学化夸饰，现代估算显著下调（数万至数十万之间），无可靠统计——本站不采具体数字。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>旭烈兀西征（1253—1260年，示意）</text><g font-size='12'><rect x='60' y='90' width='170' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='145' y='116' text-anchor='middle'>蒙古本部出发</text><rect x='280' y='90' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='370' y='116' text-anchor='middle' fill='#8c1f28'>1256 灭木剌夷</text><rect x='500' y='90' width='200' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='600' y='116' text-anchor='middle' fill='#8c1f28'>1258 陷巴格达</text><text x='600' y='138' text-anchor='middle' font-size='10'>哈里发制终结</text><rect x='500' y='180' width='200' height='60' fill='#fff' stroke='#2b4a6f'/><text x='600' y='206' text-anchor='middle'>1259—60 进叙利亚</text><rect x='280' y='180' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='370' y='206' text-anchor='middle' fill='#8c1f28'>1260 阿音扎鲁特败</text><text x='370' y='228' text-anchor='middle' font-size='10'>败于埃及马穆鲁克</text><line x1='230' y1='120' x2='276' y2='120' stroke='#8c1f28' marker-end='url(#xi3)'/><line x1='460' y1='120' x2='496' y2='120' stroke='#8c1f28' marker-end='url(#xi3)'/><line x1='600' y1='150' x2='600' y2='176' stroke='#8c1f28' marker-end='url(#xi3)'/><line x1='496' y1='210' x2='464' y2='210' stroke='#8c1f28' marker-end='url(#xi3)'/></g><rect x='130' y='280' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='306' text-anchor='middle' font-size='13'>旭烈兀留据波斯建伊儿汗国（尊元为宗主）</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>巴格达屠城数字系文学化估计，现代估算显著下调——不采具体数</text></svg>",
+      "sources": ["yuanshi", "cambridge-china", "bentley-cross"],
+      "needs_verification": true,
+      "pending_notes": "巴格达陷落死亡数字（八十万等）系阿拉伯编年史家估计，无精确统计；现代研究估算显著下调，本站不采具体数字。"
+    },
+    {
+      "id": "yuan-kublai-zhengwei",
+      "title": "忽必烈与阿里不哥争位",
+      "year": 1260,
+      "end_year": 1264,
+      "year_display": "1260年",
+      "end_year_display": "1264年",
+      "year_note": "据《元史·世祖纪》：1259年蒙哥死于合州钓鱼城；1260年忽必烈于开平自立为汗，阿里不哥于哈拉和林被宗王拥立，内战至1264年阿里不哥降；公元纪年，无换算问题。",
+      "location": "开平（上都）与哈拉和林",
+      "key_people": ["kublai"],
+      "background": "蒙哥暴毙于钓鱼城下且无明确储嗣；忽必烈总汉地军政（潜邸旧臣：刘秉忠、姚枢、郝经等），阿里不哥守和林有“幼子守灶”传统支持。",
+      "process": [
+        "1260年三月忽必烈于开平即汗位；阿里不哥在和林被拥立——两汗并立。",
+        "1260—1264年内战：粮道与汉地物资优势使忽必烈胜出；阿里不哥1264年降。",
+        "1260年中统建元——蒙古政权首次使用汉式年号；行汉地官制（中书省-十路宣抚司）。",
+        "战后汗位转移至忽必烈一系，窝阔台-察合台系离心（海都之乱的根源）。"
+      ],
+      "outcome": "蒙古帝国事实分裂为四大汗国与元朝宗主体系；忽必烈转向“行汉法”建元立制——元朝由此前身化为新王朝。",
+      "controversies": [
+        {"issue": "争位性质的解读", "views": [
+          {"holder": "汉文史料叙事", "basis": "汉法与守旧之争的框架（《元史》立场）。"},
+          {"holder": "现代内亚研究", "basis": "争位本质是军政资源与支持网络之争（汉地财赋vs草原贵族联盟），“路线之争”叙事被弱化——学界通行修正。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>两汗并立（1260—1264年）</text><g font-size='12'><rect x='80' y='90' width='230' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>忽必烈（开平）</text><text x='195' y='140' text-anchor='middle' font-size='11'>汉地财赋·潜邸旧臣</text><text x='195' y='162' text-anchor='middle' font-size='11'>1260中统建元</text><rect x='350' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='440' y='116' text-anchor='middle' fill='#8c1f28'>阿里不哥（和林）</text><text x='440' y='140' text-anchor='middle' font-size='11'>“幼子守灶”支持</text><rect x='560' y='90' width='160' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1264 忽必烈胜</text><text x='640' y='140' text-anchor='middle' font-size='11'>四大汗国离心</text><line x1='310' y1='135' x2='346' y2='135' stroke='#8c1f28' marker-end='url(#xi4)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#8c1f28' marker-end='url(#xi4)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>帝国事实分裂：四大汗国+元宗主体系</text><text x='380' y='267' text-anchor='middle' font-size='11'>“汉法vs守旧”叙事被内亚研究弱化为资源与网络之争</text></svg>",
+      "sources": ["yuanshi", "xu-tongjian", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-xingsheng-zhidu",
+      "title": "行省制度确立",
+      "year": 1260,
+      "end_year": 1291,
+      "year_display": "1260年起",
+      "end_year_display": "1291年",
+      "year_note": "据《元史·地理志》与百官志：中统元年（1260年）置十路宣抚司为行省前身，至元年间定制十大行省（1291年前后体系定型）；公元纪年，无换算问题。",
+      "location": "全国（岭北、辽阳、陕西、四川、甘肃、云南、江浙、江西、湖广、河南江北）",
+      "key_people": ["kublai"],
+      "background": "金代行尚书省（战时派出）与蒙古军政体制结合；忽必烈将战时行省制度化为常设政区——中央中书省外分设行中书省。",
+      "process": [
+        "1260年置十路宣抚司（燕京等），为行省雏形。",
+        "至元年间逐步设立十大行省，省—路—府/州—县四级政区成型。",
+        "达鲁花赤（监临官）与各族官员并置；行省掌军政财，重臣出镇。",
+        "宣政院辖吐蕃、岭北行省辖草原——特殊政区并行。"
+      ],
+      "outcome": "行省制确立中国省制的原型（明清至今沿用“省”）；大政区的军事化划分深刻塑造此后中国地方治理的空间逻辑。",
+      "controversies": [
+        {"issue": "行省的性质", "views": [
+          {"holder": "传统读法", "basis": "中央派出机构的军事管制性质。"},
+          {"holder": "元史学界主流（李治安等）", "basis": "行省经历“派出机构→地方最高政区”的制度化过程；其“大而不专”的设计（军政财分权+监察）是元廷控制手段——学界已形成“制度化行省”的共识框架。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>行省制的制度化（1260—1291年）</text><g font-size='12'><rect x='270' y='80' width='220' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>1260 十路宣抚司（雏形）</text><text x='380' y='130' text-anchor='middle' font-size='11'>战时行省的传统</text><line x1='380' y1='150' x2='380' y2='180' stroke='#2b4a6f' marker-end='url(#xi5)'/><rect x='230' y='184' width='300' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='212' text-anchor='middle' font-size='14' fill='#8c1f28'>至元十大行省</text><text x='380' y='238' text-anchor='middle' font-size='11'>省—路—府/州—县四级；达鲁花赤监临</text><line x1='380' y1='264' x2='380' y2='292' stroke='#2b4a6f' marker-end='url(#xi5)'/><rect x='180' y='296' width='400' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='322' text-anchor='middle' font-size='13'>中国“省制”的原型（明清沿用至今）</text><text x='380' y='348' text-anchor='middle' font-size='11'>“派出机构→地方最高政区”的制度化（元史学界共识）</text></g></svg>",
+      "sources": ["yuanshi", "yan-gengwang", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-xiangyang-miesong",
+      "title": "襄阳之战与灭宋",
+      "year": 1267,
+      "end_year": 1279,
+      "year_display": "1267年",
+      "end_year_display": "1279年",
+      "year_note": "据《元史》《宋史》：至元四年（1267年）起蒙古围襄阳（刘整献策），至元十年（1273年）吕文焕降；1276年临安陷，1279年崖山宋亡。公元纪年，无换算问题。",
+      "location": "襄阳—樊城；临安；崖山",
+      "key_people": [],
+      "background": "刘整降蒙献“先取襄阳”之策：以汉水为轴打通南下通道；宋守将吕文德兄弟经营襄阳多年，城防固若金汤。",
+      "process": [
+        "1267—1273年围城六年：筑堡断援、造船练水军；回回炮（西域工匠所制配重投石机）破樊城。",
+        "1273年樊城破、襄阳降（吕文焕以“存军民”名义降——降将叙事见后世评价）。",
+        "1274—1276年伯颜大军沿江东下，1276年临安陷、恭帝出降。",
+        "1276—1279年文天祥张世杰陆秀夫等流亡抵抗；1279年崖山海战宋亡。"
+      ],
+      "outcome": "宋亡：南宋的国防体系（川陕-荆襄-两淮）以襄阳为锁钥，襄樊失守即全局崩解；元代大一统完成——多族群帝国的治理实验全面展开。",
+      "controversies": [
+        {"issue": "吕文焕投降的评价", "views": [
+          {"holder": "宋元之际士论", "basis": "责其降元引路（《宋史》叙事偏贬）。"},
+          {"holder": "后世与现代评价", "basis": "围城六年粮尽援绝、以保全军民为名的选择获得部分同情；其兄吕文德集团把持襄防的军政积弊被视为更深层原因——两种评价并陈。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>襄阳→崖山（1267—1279年，示意）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='200' y='116' text-anchor='middle' fill='#8c1f28'>1267—73 围襄阳六年</text><text x='200' y='140' text-anchor='middle' font-size='11'>回回炮破樊城·吕文焕降</text><rect x='340' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>1274—76 伯颜东下</text><text x='430' y='140' text-anchor='middle' font-size='11'>1276临安陷·恭帝降</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>1279 崖山海战</text><text x='640' y='140' text-anchor='middle' font-size='11'>陆秀夫负帝昺蹈海</text><line x1='310' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xi6)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xi6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>南宋国防以襄阳为锁钥——襄樊失守即全局崩解</text><text x='380' y='262' text-anchor='middle' font-size='11'>吕文焕降：贬责论与“存军民”同情论并陈</text></svg>",
+      "sources": ["yuanshi", "songshi", "xu-tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-haidou-xibei",
+      "title": "海都之乱与西北诸王",
+      "year": 1268,
+      "end_year": 1301,
+      "year_display": "1268年",
+      "end_year_display": "1301年",
+      "year_note": "据《元史》与《史集》：至元五年（1268年）前后海都起兵争位；1301年铁坚古山之战海都负伤而死（1301—1302年间）；窝阔台汗国后并于察合台汗国（1310年前后）；公元纪年，无换算问题。",
+      "location": "中亚（阿力麻里、塔剌思）—漠北",
+      "key_people": ["kublai"],
+      "background": "忽必烈夺位使窝阔台系失汗位继承权；海都（窝阔台之孙）联合察合台系对抗忽必烈，得到草原贵族与中亚城市利益集团支持。",
+      "process": [
+        "1268年起海都以阿力麻里为基地袭扰漠北与畏兀儿地区。",
+        "1270s—1290s年忽必烈亲征漠北、置岭北行省与和林宣慰司防御。",
+        "海都与察合台汗笃哇结盟，势力达畏兀儿与中亚绿洲。",
+        "1301年铁坚古山之战元军虽击退联军，海都负伤退走后死；窝阔台汗国渐并于察合台汗国。"
+      ],
+      "outcome": "元朝西北边疆三十年战争消耗巨大；四大汗国体系与元朝的关系定型为名义宗藩；丝绸之路东段在战和之间维持通行。",
+      "controversies": [
+        {"issue": "海都叛乱的定性", "views": [
+          {"holder": "《元史》叙事", "basis": "“叛王”框架（正统视角）。"},
+          {"holder": "内亚视角研究", "basis": "视为忽里台传统下汗位争夺的延续与游牧-城市利益格局的重新洗牌；“叛乱”标签被弱化——两种框架并存。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>海都之乱（1268—1301年，方位示意）</text><g font-size='12'><rect x='520' y='90' width='200' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='620' y='116' text-anchor='middle' fill='#8c1f28'>海都（窝阔台系）</text><text x='620' y='140' text-anchor='middle' font-size='11'>阿力麻里基地·联笃哇</text><rect x='90' y='120' width='220' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='200' y='150' text-anchor='middle'>元廷（大都-和林）</text><text x='200' y='172' text-anchor='middle' font-size='11'>岭北行省防御</text><line x1='516' y1='155' x2='314' y2='155' stroke='#8c1f28' marker-end='url(#xi7)'/><text x='415' y='145' text-anchor='middle' font-size='11'>三十年拉锯</text><rect x='130' y='240' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='266' text-anchor='middle' font-size='13'>1301 铁坚古山之战·海都伤死</text><text x='380' y='292' text-anchor='middle' font-size='11'>窝阔台汗国并于察合台汗国（1310年前后）</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>“叛王”正统叙事 vs 内亚汗位争夺视角（两框架并存）</text></g></svg>",
+      "sources": ["yuanshi", "cambridge-china", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-guohao-dayuan",
+      "title": "定国号“大元”与定都大都",
+      "year": 1271,
+      "end_year": 1272,
+      "year_display": "1271年",
+      "end_year_display": "1272年",
+      "year_note": "据《元史·世祖纪》：至元八年（1271年）十一月建国号曰“大元”（取《易经》“大哉乾元”义）；至元九年（1272年）改中都为大都并迁都；公元纪年，无换算问题。",
+      "location": "大都（今北京）",
+      "key_people": ["kublai"],
+      "background": "灭宋在即，忽必烈欲以中原王朝正统自居；刘秉忠按《周礼·考工记》传统规划新都（元大都为世界级都城规划）。",
+      "process": [
+        "1271年建国号大元（《建国号诏》明言取“大哉乾元”之义）。",
+        "1272年改中都为大都并迁都；上都（开平）为夏都，两都巡幸制确立。",
+        "大都城市建设：水利（郭守敬通惠河）、天文台、运河终点。",
+        "大都成为欧亚贸易与外交的中心（马可·波罗叙述中的汗八里）。"
+      ],
+      "outcome": "元朝以中原正统王朝自我定位（国号-年号-都城-礼仪全套汉制外壳+蒙古内核的双轨体制）；北京自此成为此后七百年的首都（明清沿其基址）。",
+      "controversies": [
+        {"issue": "元朝的“王朝正统性”", "views": [
+          {"holder": "汉文官方叙事", "basis": "以《建国号诏》《授时历颁行》等构建中原正统程序。"},
+          {"holder": "内亚史研究", "basis": "强调大元同时是“大蒙古国”的延续（大汗-宗王体系），汉制外壳与蒙古内核的双轨性为元朝特质——两种读法互补。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>建元定都（1271—1272年）</text><g font-size='12'><rect x='100' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='215' y='116' text-anchor='middle'>1271 建国号大元</text><text x='215' y='140' text-anchor='middle' font-size='11'>取《易经》“大哉乾元”</text><rect x='360' y='90' width='170' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='445' y='116' text-anchor='middle' fill='#8c1f28'>1272 迁都大都</text><text x='445' y='140' text-anchor='middle' font-size='11'>刘秉忠按《考工记》规划</text><rect x='560' y='90' width='160' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>两都巡幸制</text><text x='640' y='140' text-anchor='middle' font-size='11'>大都冬·上都夏</text><line x1='330' y1='135' x2='356' y2='135' stroke='#8c1f28' marker-end='url(#xi8)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#8c1f28' marker-end='url(#xi8)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>北京自此为都七百年（明清沿其基址）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>汉制外壳+蒙古内核的双轨体制（内亚史视角补充）</text></g></svg>",
+      "sources": ["yuanshi", "cambridge-china", "brit-kublai-khan"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-zhengriben",
+      "title": "元军征日本",
+      "year": 1274,
+      "end_year": 1281,
+      "year_display": "1274年",
+      "end_year_display": "1281年",
+      "year_note": "据《元史》与日本史料（《八幡愚童训》等）：文永之役（1274年）、弘安之役（1281年）两次渡海征日；公元纪年，无换算问题。",
+      "location": "对马、壹岐→博多湾",
+      "key_people": [],
+      "background": "忽必烈六次遣使日本被拒（镰仓幕府既不臣亦不屈），遂发兵东征；军力以蒙汉军+高丽军+水手混合编组。",
+      "process": [
+        "1274年文永之役：联军渡海，博多湾登陆后撤回（撤军原因：台风+军议分歧诸说）。",
+        "1275—1280年再度遣使均被斩（杀使为镰仓幕府立场）。",
+        "1281年弘安之役：两路大军（东路军+江南军）会师博多，遭台风（日本称“神风”）重创，损失惨重而回。",
+        "连年造船征发使高丽与江南负担沉重。"
+      ],
+      "outcome": "元朝对外扩张的极限案例；日本“神风”信仰定型；此后镰仓幕府因战备负担渐衰——“蒙古袭来”成为日本中世史的分水岭记忆。",
+      "controversies": [
+        {"issue": "征日军力与损失", "views": [
+          {"holder": "《元史》与日本史料对读", "basis": "弘安之役兵力诸说（十余万至二十余万，江南军+东路军合计），损失数字两系记载出入大。"},
+          {"holder": "现代研究", "basis": "兵力规模与伤亡无可靠统计；最近的水下考古（鹰岛沉船调查）提供实物修正——数字均按估计处理。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>征日本（1274/1281年，示意）</text><g font-size='12'><rect x='90' y='150' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='190' y='178' text-anchor='middle'>高丽合浦出发</text><text x='190' y='200' text-anchor='middle' font-size='11'>蒙汉军+高丽军混编</text><rect x='400' y='130' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='490' y='158' text-anchor='middle' fill='#8c1f28'>博多湾登陆</text><text x='490' y='180' text-anchor='middle' font-size='11'>1274文永·1281弘安</text><rect x='400' y='240' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='490' y='268' text-anchor='middle'>台风“神风”重创</text><text x='490' y='290' text-anchor='middle' font-size='11' >损失数字两系记载出入大</text><line x1='290' y1='190' x2='396' y2='175' stroke='#8c1f28' marker-end='url(#xi9)'/><line x1='490' y1='220' x2='490' y2='236' stroke='#8c1f28' marker-end='url(#xi9)'/></g><rect x='100' y='320' width='560' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>水下考古（鹰岛沉船）为损失规模提供实物修正——数字按估计处理</text></svg>",
+      "sources": ["yuanshi", "cambridge-china", "bentley-cross"],
+      "needs_verification": true,
+      "pending_notes": "两次征日的兵力与损失数字在元日双方史料中出入很大，无可靠统计；鹰岛水下考古提供部分实物修正。"
+    },
+    {
+      "id": "yuan-makeboluo",
+      "title": "马可·波罗在华",
+      "year": 1275,
+      "end_year": 1292,
+      "year_display": "约1275年",
+      "end_year_display": "约1292年",
+      "year_note": "据《马可·波罗行纪》（1298年口述成书）：约1275年抵上都、仕忽必烈约十七年、1292年前后护送阔阔真公主出海西还；“约”即年代推排的约数（其纪年细节有内部矛盾，见争议）。",
+      "location": "上都、大都、扬州（任官说）、泉州（离港）",
+      "key_people": [],
+      "background": "威尼斯商人马可·波罗随父叔东行，以“行纪”（由狱友鲁思梯谦笔录）成为欧洲认识东亚的主要文本（中世纪后期欧洲的“亚洲想象”来源）。",
+      "process": [
+        "约1275年抵上都觐见忽必烈；自称受遣外出奉使与任官（扬州总管三年的说法有争议）。",
+        "约1292年护送阔阔真公主自泉州出海赴波斯。",
+        "1298年热那亚战争中入狱，口述成《行纪》。",
+        "书中记录纸币、石炭（煤）、驿站体系、杭州繁华与行省军政——为元代制度留下域外观察文本。"
+      ],
+      "outcome": "欧洲的亚洲知识与地理想象被系统刷新（哥伦布批注本即其书）；汉学与东西交流史以之为经典起点之一。",
+      "controversies": [
+        {"issue": "马可·波罗是否真到过中国", "views": [
+          {"holder": "主流学界", "basis": "肯定其到华：书中大量精确制度细节（纸币、盐政、驿传、军政）难以凭空编造，且波斯文档案中的“Boluo”使团记载互证。"},
+          {"holder": "质疑说（Frances Wood 等）", "basis": "指出未提长城、茶、缠足、书法等显要事物，且部分纪年矛盾，怀疑其为波斯汇编所本的转述。"},
+          {"holder": "学界现状", "basis": "肯定说占主流，但《行纪》作为史料的记年与数字须逐条核校——本站按主流立场叙述并保留争议说明。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>马可·波罗行程（约1275—1292年，示意）</text><g font-size='12'><rect x='50' y='170' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='120' y='196' text-anchor='middle'>威尼斯</text><rect x='250' y='120' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='330' y='146' text-anchor='middle'>丝路（陆路东行）</text><rect x='450' y='120' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='535' y='146' text-anchor='middle' fill='#8c1f28'>上都·大都</text><text x='535' y='168' text-anchor='middle' font-size='10'>仕忽必烈约17年</text><rect x='450' y='230' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='535' y='256' text-anchor='middle'>泉州（出海）</text><rect x='250' y='230' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='330' y='256' text-anchor='middle'>波斯·回程</text><line x1='190' y1='200' x2='246' y2='160' stroke='#2b4a6f' marker-end='url(#xi10)'/><line x1='410' y1='150' x2='446' y2='150' stroke='#2b4a6f' marker-end='url(#xi10)'/><line x1='535' y1='180' x2='535' y2='226' stroke='#2b4a6f' marker-end='url(#xi10)'/><line x1='446' y1='260' x2='414' y2='260' stroke='#2b4a6f' marker-end='url(#xi10)'/></g><rect x='100' y='310' width='560' height='66' fill='#fff' stroke='#2b4a6f'/><text x='380' y='336' text-anchor='middle' font-size='12'>1298年狱中口述成书——欧洲亚洲想象的刷新（哥伦布批注本即此书）</text><text x='380' y='360' text-anchor='middle' font-size='11'>真实性：肯定说为主流 vs 质疑说（Frances Wood）——纪年数字逐条核校</text></svg>",
+      "sources": ["marco-polo-travels", "brit-marco-polo", "yuanshi", "brit-kublai-khan"],
+      "needs_verification": true,
+      "pending_notes": "马可·波罗在华的具体年份、任官经历（扬州总管说）与《行纪》纪年存在内部矛盾；肯定到华为主流学界立场，但文本细节须逐条核校。"
+    },
+    {
+      "id": "yuan-shoushili",
+      "title": "《授时历》颁行",
+      "year": 1280,
+      "end_year": null,
+      "year_display": "1280年",
+      "end_year_display": null,
+      "year_note": "据《元史·历志》：至元十七年（1280年）历成，翌年（1281年）颁行，赐名“授时”（取《尚书·尧典》“敬授民时”）；公元纪年，无换算问题。",
+      "location": "大都（太史局/太史院）",
+      "key_people": ["guoshoujing"],
+      "background": "金《大明历》行久误差累积；忽必烈命许衡、郭守敬、王恂等改历，设太史院，进行“四海测验”（北至铁勒、南至南海的纬度观测）。",
+      "process": [
+        "1276—1280年改历：郭守敬创制简仪、高表等仪器，主持四海测验（27个观测点）。",
+        "1280年历成：回归年365.2425日（与今格里历同精度，早三百年）；废除上元积年法。",
+        "1281年颁行全国，行用364年（明《大统历》实为其延续）。",
+        "回回历法专家（札马鲁丁等）参与仪器与数据工作——多族群科技合作案例。"
+      ],
+      "outcome": "中国古代历法的巅峰：以实测取代推算传统，天文仪器技术西传（简仪的经纬装置理念影响第谷——学界有此讨论，标注为学术假说）；授时历成为东亚历法体系的基准。",
+      "controversies": [
+        {"issue": "郭守敬仪器与欧洲天文技术的传播关系", "views": [
+          {"holder": "传播说", "basis": "有学者主张阿拉伯仪器（马拉盖天文台系统）经伊儿汗国通道影响大都天文台。"},
+          {"holder": "独立发展说", "basis": "简仪的赤道式装置被认为是中国传统浑仪的本土改进——两种假说并存，尚无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>《授时历》（1276—1281年）</text><g font-size='12'><rect x='90' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>四海测验</text><text x='200' y='140' text-anchor='middle' font-size='11'>27观测点·简仪高表</text><rect x='350' y='90' width='170' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='435' y='116' text-anchor='middle' fill='#8c1f28'>1280历成</text><text x='435' y='140' text-anchor='middle' font-size='11'>回归年365.2425日</text><rect x='550' y='90' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1281颁行</text><text x='640' y='140' text-anchor='middle' font-size='11'>行用364年</text><line x1='310' y1='130' x2='346' y2='130' stroke='#2b4a6f' marker-end='url(#xi11)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#2b4a6f' marker-end='url(#xi11)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>中国古代历法巅峰：以实测代推算</text><text x='380' y='262' text-anchor='middle' font-size='11'>回回历专家参与——多族群科技合作（札马鲁丁等）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>仪器传播路线（马拉盖影响说/独立改进说）尚无定论</text></g></svg>",
+      "sources": ["yuanshi", "zgbk", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-yanfu-fuke",
+      "title": "延祐复科",
+      "year": 1313,
+      "end_year": 1315,
+      "year_display": "1313年",
+      "end_year_display": "1315年",
+      "year_note": "据《元史·选举志》：皇庆二年（1313年）十一月诏行科举，延祐二年（1315年）首科开考；公元纪年，无换算问题。",
+      "location": "大都及各行省",
+      "key_people": [],
+      "background": "元初废除科举四十年，官员多以荫叙、吏进；仁宗（爱育黎拔力八达）崇儒，采纳李孟等议复科举。",
+      "process": [
+        "1313年诏行科举：每三年一开，乡试-会试-殿试三级。",
+        "1315年首科：蒙古、色目、汉人、南人四等分卷分额（左右榜）。",
+        "以《四书》朱注为标准——理学官学化的关键节点。",
+        "录取规模有限（每科约百人，占官僚总数比例很小——学界通说）。"
+      ],
+      "outcome": "科举在元的低配恢复：规模与意义远不及宋明，但确立《四书》朱注的考试地位——明清科举文本框架由此预设；汉族士人上升通道部分重开。",
+      "controversies": [
+        {"issue": "元代科举的历史意义", "views": [
+          {"holder": "“科举中断”论", "basis": "强调四十年废科举与四等人制对士人的压抑。"},
+          {"holder": "“过渡性科举”论（现代主流）", "basis": "元科举虽小，但把朱注四书固化为考试标准，是明清“理学-科举复合体”的直接源头——意义重估为“过渡与定型”。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>延祐复科（1313—1315年）</text><g font-size='12'><rect x='90' y='90' width='230' height='80' fill='#fff' stroke='#2b4a6f'/><text x='205' y='116' text-anchor='middle'>1313 诏行科举</text><text x='205' y='140' text-anchor='middle' font-size='11'>废科举四十年后恢复</text><rect x='360' y='90' width='170' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='445' y='116' text-anchor='middle' fill='#8c1f28'>1315 首科</text><text x='445' y='140' text-anchor='middle' font-size='11'>四等人分卷分额</text><rect x='560' y='90' width='160' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>朱注《四书》为标准</text><line x1='320' y1='130' x2='356' y2='130' stroke='#8c1f28' marker-end='url(#xi12)'/><line x1='530' y1='130' x2='556' y2='130' stroke='#8c1f28' marker-end='url(#xi12)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>录取规模有限（每科约百人）</text><text x='380' y='262' text-anchor='middle' font-size='11'>但朱注四书考试地位确立——明清科举框架由此预设</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>意义重估：从“中断”到“过渡与定型”（现代主流）</text></g></svg>",
+      "sources": ["yuanshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "yuan-jialu-zhihe",
+      "title": "黄河决口与贾鲁治河",
+      "year": 1344,
+      "end_year": 1351,
+      "year_display": "1344年",
+      "end_year_display": "1351年",
+      "year_note": "据《元史·顺帝纪》与《至正河防记》：至正四年（1344年）黄河北决白茅堤；至正十一年（1351年）贾鲁发民工十五万、军二万治河，四月开河、十一月功成；数字系《元史》所载。公元纪年，无换算问题。",
+      "location": "黄河下游（白茅堤、金堤）",
+      "key_people": ["tuotuo"],
+      "background": "元末黄河屡决、漕运与盐场受损；脱脱复相后力主“疏浚黄河”大工程，贾鲁任总治河防使。",
+      "process": [
+        "1344年黄河北决，水浸济宁、汴梁一带，行省屡议未决。",
+        "1351年四月贾鲁发民工十五万、军二万（《元史》数字），浚故道、堵决口、修堤。",
+        "十一月河复故道，功成——工程本身成功。",
+        "徭役聚集的民工与白莲教传播叠加，“石人一只眼，挑动黄河天下反”童谣流行，韩山童刘福通趁机起事。"
+      ],
+      "outcome": "治河工程成功而政治灾难开始：聚集起来的流民成为红巾军主体——工程成功与王朝崩溃并存的教科书案例。",
+      "controversies": [
+        {"issue": "治河用工数字", "views": [
+          {"holder": "《元史·顺帝纪》", "basis": "民工十五万、军二万。"},
+          {"holder": "现代研究", "basis": "数字系官方账面，实际动员与逃亡规模无法核证；工程组织方式（《至正河防记》的技术细节）则被视为元代水利技术的重要文献。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>贾鲁治河（1344—1351年）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>1344 黄河北决</text><text x='200' y='140' text-anchor='middle' font-size='11'>漕运盐场受损</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>1351 贾鲁治河</text><text x='430' y='140' text-anchor='middle' font-size='11'>民工15万军2万（元史数字）</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>十一月功成</text><text x='640' y='140' text-anchor='middle' font-size='11'>河复故道</text><line x1='310' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xi13)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xi13)'/></g><line x1='430' y1='180' x2='430' y2='215' stroke='#8c1f28' marker-end='url(#xi13)'/><rect x='230' y='220' width='300' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='246' text-anchor='middle' font-size='13' fill='#8c1f28'>“石人一只眼”童谣流行</text><text x='380' y='272' text-anchor='middle' font-size='11'>韩山童刘福通起事</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>工程成功与王朝崩溃并存——动员-流民-教门的结构叠加</text></g></svg>",
+      "sources": ["yuanshi", "xu-tongjian", "zgbk"],
+      "needs_verification": true,
+      "pending_notes": "治河用工“十五万民工二万军”系《元史》官方账面数字，实际动员与逃亡规模无法核证。"
+    },
+    {
+      "id": "yuan-hongjin-yuanwang",
+      "title": "红巾军起义与元顺帝北逃",
+      "year": 1351,
+      "end_year": 1368,
+      "year_display": "1351年",
+      "end_year_display": "1368年",
+      "year_note": "据《元史》与《明实录》：至正十一年（1351年）五月韩山童刘福通颍州起事；至正二十八年（1368年）闰七月徐达克大都、顺帝北逃（北元开始）；公元纪年，无换算问题。",
+      "location": "颍州→汴梁→上都；江南群雄（陈友谅、张士诚、朱元璋）",
+      "key_people": [],
+      "background": "治河徭役、钞法崩溃（至正交钞恶性通胀）、天灾（疫、蝗、河决）叠加；白莲教网络（韩山童“明王出世”弥勒信仰）提供组织与动员话语。",
+      "process": [
+        "1351年五月韩山童刘福通起事（红巾为号）；徐寿辉、布王三等响应，天下大乱。",
+        "1355年刘福通立韩林儿为“小明王”，建宋（龙凤政权）；北伐三路深入辽东、关中。",
+        "江南群雄并起：陈友谅（汉）、张士诚（周）、明玉珍（夏）、朱元璋渐强。",
+        "1363年鄱阳湖之战朱元璋灭陈友谅；1367年平张士诚、遣徐达常遇春北伐。",
+        "1368年正月朱元璋建明；闰七月徐达入大都，顺帝北逃（北元）——元亡。"
+      ],
+      "outcome": "元亡明兴：末代王朝的崩溃模式（财政-天灾-教门-军阀四重奏）成为传统史学分析框架的经典样本；北元延续草原政权至1388年前后（学界分期口径不一）。",
+      "controversies": [
+        {"issue": "元末动乱中宗教的角色", "views": [
+          {"holder": "传统“妖贼”叙事", "basis": "以白莲教-弥勒降世为惑众根源（《元史》立场）。"},
+          {"holder": "现代宗教社会史", "basis": "白莲教等民间教门被视为乱世互助网络与动员组织，其教义功能重于“妖言”定性——框架修正为学界通行。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xi14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>红巾军与元亡（1351—1368年，流转示意）</text><g font-size='12'><rect x='80' y='90' width='210' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='185' y='116' text-anchor='middle' fill='#8c1f28'>1351 颍州起事</text><text x='185' y='140' text-anchor='middle' font-size='11'>红巾·白莲教网络</text><rect x='330' y='90' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='420' y='116' text-anchor='middle'>江南群雄并起</text><text x='420' y='140' text-anchor='middle' font-size='11'>陈友谅·张士诚·朱元璋</text><rect x='550' y='90' width='170' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>1363 鄱阳湖</text><text x='635' y='140' text-anchor='middle' font-size='11'>朱元璋灭陈友谅</text><line x1='290' y1='130' x2='326' y2='130' stroke='#8c1f28' marker-end='url(#xi14)'/><line x1='510' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xi14)'/></g><line x1='635' y1='170' x2='450' y2='215' stroke='#8c1f28' marker-end='url(#xi14)'/><rect x='250' y='220' width='300' height='80' fill='#fff' stroke='#2b4a6f'/><text x='400' y='246' text-anchor='middle' font-size='13'>1368 正月朱元璋建明</text><text x='400' y='272' text-anchor='middle' font-size='11'>闰七月徐达入大都·顺帝北逃（北元）</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>崩溃模式：财政-天灾-教门-军阀四重奏（传统史学框架）</text></g></svg>",
+      "sources": ["yuanshi", "xu-tongjian", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "chengjisihan",
+      "name": "成吉思汗（铁木真）",
+      "birth_year": 1162,
+      "death_year": 1227,
+      "birth_display": "约1162年（通说）",
+      "death_display": "1227年",
+      "birth_note": "生年有1162（通说，据《史集》猪儿年）、1155、1167诸说，学界无定论——本站取1162年并标注存疑。",
+      "death_note": "1227年崩于征西夏途中（清水县一带）；死因诸说（坠马伤病等）并存。",
+      "chronology": [
+        {"year": 1162, "display": "约1162年", "text": "生于斡难河畔（乞颜部贵族家庭，幼年家道中落）。"},
+        {"year": 1189, "display": "1189年（前后）", "text": "被部分部众推为汗（乞颜部汗），与王汗安答联盟。"},
+        {"year": 1206, "display": "1206年", "text": "忽里台大会建大蒙古国，号成吉思汗。"},
+        {"year": 1211, "display": "1211年", "text": "开始攻金（野狐岭之战）。"},
+        {"year": 1219, "display": "1219年", "text": "西征花剌子模，欧亚通道打开。"},
+        {"year": 1227, "display": "1227年", "text": "灭夏途中崩；葬地起辇谷（位置至今成谜——考古讨论）。"}
+      ],
+      "deeds": [
+        "统一蒙古诸部，建千户-怯薛-扎撒的国家框架。",
+        "发动对金、西夏、花剌子模的战争，奠定欧亚帝国雏形。",
+        "确立忽里台选举、幼子守灶等制度惯例，影响此后草原政治三百年。"
+      ],
+      "evaluations": [
+        {"holder": "《元史》官方叙事", "view": "“深沉有大略，用兵如神”——开国之君的定位。", "basis": "《元史·太祖纪》赞。"},
+        {"holder": "被征服地区传统（波斯、阿拉伯、汉地部分士人）", "view": "屠杀与毁灭的记录（《史集》《世界征服者史》并存其治理才能与残酷记载）——材料分层是内亚史研究的基本要求。", "basis": "《史集》《世界征服者史》。"},
+        {"holder": "现代史学", "view": "既承认其国家建构与欧亚整合的历史作用，也如实记载战争人口代价（数字多不可考）；其形象的政治化（成吉思汗崇拜）在蒙古国为敏感课题。", "basis": "内亚史研究通说。"}
+      ],
+      "sources": ["yuanshi", "brit-genghis-khan", "cambridge-china"],
+      "needs_verification": false
+    },
+    {
+      "id": "kublai",
+      "name": "元世祖忽必烈",
+      "birth_year": 1215,
+      "death_year": 1294,
+      "birth_display": "1215年",
+      "death_display": "1294年",
+      "birth_note": "据《元史·世祖纪》乙亥年（1215年）生，公元纪年换算。",
+      "death_note": "至元三十一年（1294年）卒于大都紫檀殿，公元纪年。",
+      "chronology": [
+        {"year": 1215, "display": "1215年", "text": "生于潜邸，拖雷次子。"},
+        {"year": 1251, "display": "1251年", "text": "蒙哥即位，忽必烈总漠南汉地军政（金莲川幕府成型）。"},
+        {"year": 1260, "display": "1260年", "text": "自立为汗，中统建元；阿里不哥争位开始。"},
+        {"year": 1271, "display": "1271年", "text": "建国号大元，翌年迁都大都。"},
+        {"year": 1279, "display": "1279年", "text": "崖山灭宋，完成大一统。"},
+        {"year": 1294, "display": "1294年", "text": "卒；庙号世祖。"}
+      ],
+      "deeds": [
+        "行汉法建元制：中书省-行省-宣政院的治理体系与两都制。",
+        "完成灭宋统一，把西藏纳入宣政院辖区（帝师制度）。",
+        "对外扩张（日本、爪哇、安南）受挫，纸币（至元宝钞）全国化。",
+        "礼遇色目理财臣与汉法儒臣的双轨用人（阿合马、许衡并立）。"
+      ],
+      "evaluations": [
+        {"holder": "《元史》", "view": "“度量弘广，知人善任”——统一之君的官方定位；并记其晚年倦政。", "basis": "《元史·世祖纪》赞。"},
+        {"holder": "马可·波罗行纪", "view": "作为“大汗”的传奇化书写（欧洲认知来源），须按域外文本分层使用。", "basis": "《马可·波罗行纪》。"},
+        {"holder": "现代史学", "view": "内亚与汉地的双栖统治者（Khubilai as both Great Khan and Chinese emperor——学界通行表述）：其双轨体制是元朝成败的总根源。", "basis": "蒙元史研究（萧启庆、John Langlois 等综述）——表述为学界共识框架，具体著作名以本站收录来源为准。"}
+      ],
+      "sources": ["yuanshi", "brit-kublai-khan", "marco-polo-travels", "cambridge-china"],
+      "needs_verification": false
+    },
+    {
+      "id": "yeluchucai",
+      "name": "耶律楚材",
+      "birth_year": 1190,
+      "death_year": 1244,
+      "birth_display": "1190年",
+      "death_display": "1244年",
+      "birth_note": "据《元史》明昌元年（1190年）生，公元纪年换算；契丹皇族后裔（辽东丹王八世孙）。",
+      "death_note": "乃马真后称制时期（1244年）忧愤而卒，公元纪年。",
+      "chronology": [
+        {"year": 1190, "display": "1190年", "text": "生于燕京，仕金为左右司员外郎。"},
+        {"year": 1218, "display": "1218年（前后）", "text": "被成吉思汗征用，“治国匠人”之遇（系年据《元史》约数）。"},
+        {"year": 1229, "display": "1229年", "text": "窝阔台即位后任中书令，立籍制、定赋税（“汉地宜存汉法”主张）。"},
+        {"year": 1237, "display": "1237年（前后）", "text": "奏行戊戌选试（戊戌科举试验），置编修所经义科（试验性质，未制度化）。"},
+        {"year": 1244, "display": "1244年", "text": "卒；乃马真后时期其税制遭废。"}
+      ],
+      "deeds": [
+        "以中书令身份在蒙古早期引入汉法税收与户籍（“以儒治国”主张）。",
+        "谏止“空其地为牧场”之议（保护中原农耕的著名谏言——《元史》所载）。",
+        "戊戌选试为元代科举的前身试验。"
+      ],
+      "evaluations": [
+        {"holder": "《元史》与元好问碑文", "view": "“湛然居士”的儒臣典范：乱世存民的实绩与人格被并书。", "basis": "《元史》本传与元好问《中书令耶律公神道碑》。"},
+        {"holder": "现代研究", "view": "其汉法努力在窝阔台后期-乃马真后时期被排斥，说明蒙古贵族政治对文官体制的耐受限度；其治绩成为评价早期元廷“汉法路线”的关键案例。", "basis": "蒙元史研究。"}
+      ],
+      "sources": ["yuanshi", "cambridge-china", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "guoshoujing",
+      "name": "郭守敬",
+      "birth_year": 1231,
+      "death_year": 1316,
+      "birth_display": "1231年",
+      "death_display": "1316年",
+      "birth_note": "据《元史·郭守敬传》生于1231年（通行推算，其确切出生年份有1231与1230说，本站取1231）。公元纪年。",
+      "death_note": "延祐三年（1316年）卒，公元纪年。",
+      "chronology": [
+        {"year": 1231, "display": "1231年", "text": "生于邢州（今邢台），祖父郭荣通水利算学。"},
+        {"year": 1262, "display": "1262年（前后）", "text": "以水利之才见知于忽必烈（张文谦引荐）。"},
+        {"year": 1276, "display": "1276年", "text": "奉命改历，创简仪、高表，主持四海测验。"},
+        {"year": 1280, "display": "1280年", "text": "《授时历》成，翌年颁行。"},
+        {"year": 1293, "display": "1293年", "text": "通惠河成，大都漕运贯通（运河截弯取直工程）。"},
+        {"year": 1316, "display": "1316年", "text": "卒。"}
+      ],
+      "deeds": [
+        "天文仪器革命：简仪（赤道式装置）、高表与景符的精度飞跃。",
+        "《授时历》的实测方法论（四海测验27点）。",
+        "水利总师：通惠河、会通河与大运河截弯取直。"
+      ],
+      "evaluations": [
+        {"holder": "《元史·郭守敬传》", "view": "“巧思绝人”——水利与历法双料的定位。", "basis": "《元史》。"},
+        {"holder": "现代科技史", "view": "其仪器精度与欧洲同期比较研究持续（简仪装置传播假说存疑）；作为“实用科学”官僚技术家的典型，其成就与元廷的多族群人才政策直接相关。", "basis": "中国科技史研究。"}
+      ],
+      "sources": ["yuanshi", "zgbk", "kaogu-cass"],
+      "needs_verification": false
+    },
+    {
+      "id": "guanhanqing",
+      "name": "关汉卿",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考（约13世纪中至14世纪初，大都人）",
+      "death_display": "卒年不可考",
+      "birth_note": "生卒年无载；籍贯（大都/解州诸说）与年代均为学界推排。",
+      "death_note": "卒年无载；活动于元代前期。",
+      "chronology": [
+        {"year": 1280, "display": "约1280年代", "text": "《窦娥冤》等杂剧创作活跃期（年代系学界推排约数）。"},
+        {"year": 1300, "display": "约1300年（前后）", "text": "钟嗣成《录鬼簿》列其名并称“梨园领袖”（成书于1330年，记载为后出评价）。"}
+      ],
+      "deeds": [
+        "杂剧创作六十余种（存目），存剧十余种：《窦娥冤》《救风尘》《单刀会》等。",
+        "元曲四大家之首（传统定位）；“躬践排场”的实践型剧作家（《析津志》称其“面敷粉墨”登场）。"
+      ],
+      "evaluations": [
+        {"holder": "《录鬼簿》与元曲传统", "view": "“梨园领袖、编修师首、杂剧班头”——曲学内部的崇高定位。", "basis": "钟嗣成《录鬼簿》。"},
+        {"holder": "现代文学史", "view": "《窦娥冤》被视为元杂剧悲剧代表；其剧本的性别观与正义观（清官-天谴结构）为持续讨论点；个人生平细节几不可考，评价以文本为中心。", "basis": "元曲研究通说。"}
+      ],
+      "sources": ["yuanshi", "zgbk", "xiehe-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "huangdaopo",
+      "name": "黄道婆",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考（约13世纪中后期，松江乌泥泾人）",
+      "death_display": "卒年不可考",
+      "birth_note": "生平主要出自陶宗仪《南村辍耕录》与后世方志，生卒年不可考；事迹带传说成分。",
+      "death_note": "卒年不可考。",
+      "chronology": [
+        {"year": 1295, "display": "约1295—1296年（传说叙事）", "text": "自崖州（海南）返回乌泥泾，传“错纱配色、综线挈花”之法（据《辍耕录》追记，传说层累）。"},
+        {"year": 1338, "display": "1338年（后世纪念系年）", "text": "乡人立祠祀之（“先棉”祠祭祀传统的起点——后世方志所记）。"}
+      ],
+      "deeds": [
+        "传授棉纺织技术（搅车、弹弓、纺车、织机改良——技术细节多出后世追记）。",
+        "推动松江成为全国棉纺织中心（“衣被天下”谚语所指）。"
+      ],
+      "evaluations": [
+        {"holder": "《南村辍耕录》及方志传统", "view": "技术传播者的感恩叙事（立祠祀之）。", "basis": "陶宗仪《南村辍耕录》。"},
+        {"holder": "现代技术史与性别史研究", "view": "其事迹细节多系层累传说，但棉纺织业在元代江南的兴起（技术-市场-女性劳动的三重结构）为实；黄道婆成为女性技术贡献的文化符号。", "basis": "中国经济史研究。"}
+      ],
+      "sources": ["yuanshi", "zgbk", "kaogu-cass"],
+      "needs_verification": false
+    },
+    {
+      "id": "tuotuo",
+      "name": "脱脱（脱脱帖木儿）",
+      "birth_year": 1314,
+      "death_year": 1355,
+      "birth_display": "1314年",
+      "death_display": "1355年",
+      "birth_note": "据《元史·脱脱传》延祐元年（1314年）生，公元纪年换算；蔑儿乞部，伯颜之侄。",
+      "death_note": "至正十五年（1355年）被构陷流放，死于云南（阿轻乞），公元纪年。",
+      "chronology": [
+        {"year": 1314, "display": "1314年", "text": "生于大都权臣之家。"},
+        {"year": 1340, "display": "1340年", "text": "参与逐伯颜（其伯父），自任中书右丞相，行“更化”新政。"},
+        {"year": 1343, "display": "1343年", "text": "总裁三史（《辽史》《金史》《宋史》），1345年先后成书。"},
+        {"year": 1351, "display": "1351年", "text": "力主贾鲁治河；红巾军起后自请出征。"},
+        {"year": 1355, "display": "1355年", "text": "被哈麻构陷贬死云南。"}
+      ],
+      "deeds": [
+        "组织修撰辽金宋三史——二十四史中三部的官方定本（正统之辨的“三国各与正统”决议）。",
+        "主政“更化”：恢复太庙祭祀、行儒学政策、整顿钞法（未成功）。",
+        "亲征红巾军一度围高邮，功败垂成于朝内构陷——元廷自毁长城的标本。"
+      ],
+      "evaluations": [
+        {"holder": "《元史》", "view": "其传赞语称“脱脱之功，在于三史”；对治河与征讨的结局直言不讳。", "basis": "《元史·脱脱传》。"},
+        {"holder": "现代研究", "view": "三史的“各与正统”体例决定是元廷对多族群历史的官方整合；脱脱之死（高邮前线被撤）被普遍视为元亡的转折性人事事件——体系自我瓦解的典型。", "basis": "蒙元史研究。"}
+      ],
+      "sources": ["yuanshi", "cambridge-china", "zgbk"],
+      "needs_verification": false
+    }
+  ]
+}
