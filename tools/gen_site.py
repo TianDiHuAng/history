@@ -16,6 +16,7 @@
 import json
 import glob
 import os
+import re
 import shutil
 import html
 import io
@@ -29,6 +30,41 @@ SITE = os.path.join(ROOT, "site")
 
 def esc(s):
     return html.escape(str(s if s is not None else ""))
+
+
+def sanitize_svg(svg):
+    """保险：修复常见自闭合笔误（'/< → '/><）与未闭合 g 标签（按标签栈补齐）。"""
+    if not isinstance(svg, str):
+        return svg
+    svg = svg.replace("'/<", "'/><").replace("y='0 width='760'", "y='0' width='760'")
+    try:
+        ET.fromstring(svg)
+        return svg
+    except Exception:
+        pass
+    toks = re.findall(r"<[^>]+>|[^<]+", svg)
+    out, stack = [], []
+    for t in toks:
+        if t.startswith("</"):
+            name = t[2:-1].strip()
+            if stack and stack[-1] == name:
+                stack.pop(); out.append(t)
+            elif name in stack:
+                while stack and stack[-1] != name:
+                    out.append("</%s>" % stack.pop())
+                stack.pop(); out.append(t)
+            else:
+                pass
+        elif t.startswith("<"):
+            m = re.match(r"<([a-zA-Z][a-zA-Z0-9]*)", t)
+            if m and not t.rstrip().endswith("/>"):
+                stack.append(m.group(1))
+            out.append(t)
+        else:
+            out.append(t)
+    while stack:
+        out.append("</%s>" % stack.pop())
+    return "".join(out)
 
 
 def cn_year(y):
@@ -143,7 +179,7 @@ def event_page(unit, ev, srcmap, depth):
 <h2>五、史料来源与史学争议</h2>
 {''.join(ctr) if ctr else '<p class="meta">—</p>'}
 <h2>六、示意图</h2>
-<figure>{ev.get('svg','')}<figcaption>{esc(ev['title'])}示意图（示意性质，非精确地图/比例）</figcaption></figure>
+<figure>{sanitize_svg(ev.get('svg', ''))}<figcaption>{esc(ev['title'])}示意图（示意性质，非精确地图/比例）</figcaption></figure>
 <h2>七、待核实</h2>
 <div class="pending"><p>{esc(pending)}</p></div>
 <h2>参考来源</h2>
