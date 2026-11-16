@@ -1623,7 +1623,7 @@
       "link_ok": null
     },
     {
-      "id": "kokuin-harari",
+      "id": "hobsbawm",
       "title": "霍布斯鲍姆《革命的年代》《帝国的年代》",
       "author": "Eric Hobsbawm",
       "type": "学术著作",
@@ -1852,6 +1852,17 @@
       "url2": null,
       "link_ok": null,
       "note": "北宋“祖宗之法”与政治文化研究代表作，离线文献"
+    },
+    {
+      "id": "guotingyi-jindaishi",
+      "title": "郭廷以《近代中国史纲》",
+      "author": "郭廷以",
+      "type": "学术著作",
+      "lang": "zh",
+      "url": null,
+      "url2": null,
+      "link_ok": null,
+      "note": "中国近代史（1840—至今）编年与叙事权威，离线文献"
     }
   ]
 }

@@ -1,0 +1,1264 @@
+{
+ "unit_id": "china-qing",
+ "region": "china",
+ "title": "清",
+ "period_display": "1636年（1644年入关）—1912年",
+ "start_year": 1636,
+ "end_year": 1912,
+ "overview": {
+  "main_threads": [
+   "内亚-中原复合帝国：满蒙藏回的多族群治理（理藩院、驻藏大臣、将军辖区）",
+   "盛世的极限：人口爆炸、人均资源紧缩与“内卷化”农业",
+   "三千年变局：两次鸦片战争、条约体系与“数千年未有之大变局”的应对",
+   "自强与革命的赛跑：洋务-维新-新政-革命的加速失败与帝制终结"
+  ],
+  "sub_periods": [
+   {
+    "name": "入关与康雍乾盛世",
+    "range_display": "1644年—1796年",
+    "desc": "统一多族群帝国、财政与人口巅峰；闭关与文字狱并行。"
+   },
+   {
+    "name": "嘉道中衰与两次鸦片战争",
+    "range_display": "1796年—1864年",
+    "desc": "白莲教、鸦片战争、太平天国——内忧外患总爆发。"
+   },
+   {
+    "name": "自强运动与帝制末路",
+    "range_display": "1861年—1912年",
+    "desc": "洋务-维新-新政的自我挽救均告失败；1912年清帝退位。"
+   }
+  ],
+  "key_changes": [
+   "人口从一亿到四亿五：土地-人口关系的根本变化",
+   "白银-铜钱双本位与财政的条约化（海关、赔款）",
+   "军制演进：八旗→勇营→新军",
+   "从朝贡体系到条约体系的世界秩序转换"
+  ]
+ },
+ "events": [
+  {
+   "id": "qing-ru'guan",
+   "title": "皇太极改国号大清与清军入关",
+   "year": 1636,
+   "end_year": 1644,
+   "year_display": "1636年",
+   "end_year_display": "1644年",
+   "year_note": "据《清实录》：崇德元年（1636年）皇太极改国号“金”为“大清”，称帝；崇祯十七年（1644年）三月李自成破北京，四月吴三桂引清军入关（山海关之战），五月初二多尔衮入北京，十月顺治帝即位北京；公元纪年，无换算问题。",
+   "location": "盛京（沈阳）→山海关→北京",
+   "key_people": [],
+   "background": "皇太极改国号并称帝（1636年），既整合满蒙汉军八旗，又为入主中原作法理准备（金→清之改与“祛除蛮气”论述学界有讨论）；1644年三月北京陷落，明朝崩溃给清军以机会。",
+   "process": [
+    "1636年皇太极在盛京称帝，改国号大清，改元崇德。",
+    "1644年三月李自成攻陷北京，崇祯自缢于煤山；吴三桂拒绝李自成招降，引清军入关。",
+    "四月山海关一片石之战，清军与吴三桂合击李自成，大顺军败退。",
+    "五月初二多尔衮入北京；十月顺治帝于北京即位，“自此皆为臣庶”——清以“为明复仇”名义完成政权更替叙事。",
+    "1645年下剃发令（“留头不留发”），江南强力推行（扬州、江阴抵抗的屠城记载见争议）。"
+   ],
+   "outcome": "清取代明成为最后一个大一统帝制王朝；剃发易服与“夷夏”叙事的冲突成为其后三百年（至辛亥革命）政治文化的重要张力。",
+   "controversies": [
+    {
+     "issue": "《扬州十日记》的真伪与屠城叙事",
+     "views": [
+      {
+       "holder": "清初禁毁与近代重刊传统",
+       "basis": "王秀楚《扬州十日记》记1645年扬州屠戮，清末经革命党人重刊传布。"
+      },
+      {
+       "holder": "史料真伪讨论",
+       "basis": "该书在清代长期禁毁、回国时间与版本的考证（学界对其真实性有支持与质疑两派），但扬州之屠本身有中外多方记载（朝鲜《燕行录》、传教士记载互证）；屠城存在为共识，细节与死难数字不可确证——本站不采具体数字。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>改元与入关（1636/1644年，示意）</text><g font-size='12'><rect x='70' y='90' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='170' y='116' text-anchor='middle'>1636 盛京称帝</text><text x='170' y='140' text-anchor='middle' font-size='11'>改国号大清·整合八旗</text><rect x='310' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='400' y='116' text-anchor='middle' fill='#8c1f28'>1644 三月 北京陷落</text><text x='400' y='140' text-anchor='middle' font-size='11'>崇祯自缢·吴三桂引清兵</text><rect x='530' y='90' width='190' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='625' y='116' text-anchor='middle' fill='#8c1f28'>一片石之战</text><text x='625' y='140' text-anchor='middle' font-size='11'>五月多尔衮入北京</text><line x1='270' y1='130' x2='306' y2='130' stroke='#8c1f28' marker-end='url(#xk1)'/><line x1='490' y1='130' x2='526' y2='130' stroke='#8c1f28' marker-end='url(#xk1)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>十月顺治帝即位北京——“为明复仇”叙事</text><text x='380' y='262' text-anchor='middle' font-size='11'>1645 剃发令：政治文化的长期张力（至辛亥）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>《扬州十日记》版本与真伪有学术讨论；屠城存在为共识，数字不可确证</text></svg>",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-ping-sanfan",
+   "title": "平定三藩",
+   "year": 1673,
+   "end_year": 1681,
+   "year_display": "1673年",
+   "end_year_display": "1681年",
+   "year_note": "据《清实录》与《清史稿》：康熙十二年（1673年）吴三桂反于云南（撤藩议后），至康熙二十年（1681年）昆明陷落，三藩平；公元纪年，无换算问题。",
+   "location": "云南、贵州、广东、福建、陕西",
+   "key_people": [
+    "kangxi"
+   ],
+   "background": "吴三桂、尚可喜、耿精忠三藩各拥重兵、专掌财赋（“天下财赋半耗于三藩”）；康熙十二年尚可喜请归老引发撤藩之议。",
+   "process": [
+    "1673年康熙力排众议下令撤藩；十一月吴三桂杀云南巡抚起兵（称“周王”，翌年建元）。",
+    "耿精忠（福建）、尚之信（广东）、王辅臣（陕西）相继响应，叛区及半个中国。",
+    "康熙以“剿抚并用”、分化瓦解，委任汉将（赵良栋、图海等）与绿营主力。",
+    "1678年吴三桂称帝于衡州后病死；1681年清军会师昆明，三藩平。"
+   ],
+   "outcome": "清廷收回西南财赋与军权，中央集权巩固；三藩之乱为康雍乾盛世的内部前提（此后三十年财政宽裕与用兵边疆的能力皆基于此）。",
+   "controversies": [
+    {
+     "issue": "撤藩决策的评价",
+     "views": [
+      {
+       "holder": "传统叙事",
+       "basis": "康熙少年英断、力排众议的正面框架。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "撤藩时机的仓促（尚可喜本意仅撤己藩）与战乱八年的人口经济损失被纳入评估——英断与冒险并存。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>三藩之乱（1673—1681年，方位示意）</text><g font-size='12'><rect x='90' y='90' width='200' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='190' y='116' text-anchor='middle' fill='#8c1f28'>1673 吴三桂反</text><text x='190' y='140' text-anchor='middle' font-size='11'>云南起兵·称周王</text><rect x='330' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' fill='#8c1f28'>耿尚王响应</text><text x='420' y='140' text-anchor='middle' font-size='11'>叛区及半个中国</text><rect x='550' y='90' width='170' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>剿抚并用</text><text x='635' y='140' text-anchor='middle' font-size='11'>绿营主力·分化瓦解</text><line x1='290' y1='130' x2='326' y2='130' stroke='#8c1f28' marker-end='url(#xk2)'/><line x1='510' y1='130' x2='546' y2='130' stroke='#2b4a6f' marker-end='url(#xk2)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1681 昆明陷·三藩平</text><text x='380' y='262' text-anchor='middle' font-size='11'>中央集权巩固；康雍乾用兵边疆的财政前提</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>撤藩时机仓促、八年战乱损失纳入现代评估</text></svg>",
+   "sources": [
+    "qingshigao",
+    "qianlong-yizhi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-taiwan-tongyi",
+   "title": "统一台湾",
+   "year": 1683,
+   "end_year": null,
+   "year_display": "1683年",
+   "end_year_display": null,
+   "year_note": "据《清史稿》与《平台纪略》：康熙二十二年（1683年）施琅破郑氏水师于澎湖，郑克塽降；公元纪年，无换算问题。",
+   "location": "澎湖、台湾",
+   "key_people": [
+    "kangxi"
+   ],
+   "background": "郑成功1662年驱逐荷兰人据台湾（明郑政权）；三藩乱后，康熙决策武力平台，起用原郑氏降将施琅为福建水师提督。",
+   "process": [
+    "1683年六月施琅率水师攻澎湖，歼郑军主力（刘国轩败）。",
+    "八月郑克塽降，明郑终结；台湾首次纳入中央王朝版图。",
+    "廷议“弃留”之争：施琅力陈留台（“弃之必酿成大祸”），1684年设台湾府三县，隶福建省。",
+    "清初禁海迁界（1661—1683）随平台渐次解除。"
+   ],
+   "outcome": "台湾纳入清版图（此后212年至1895年割让日本）；海禁解除后沿海贸易恢复；明郑的评价（“延平王”忠义叙事与“割据政权”定位）成为两岸史学叙事的长期分歧点。",
+   "controversies": [
+    {
+     "issue": "明郑政权的性质与施琅的评价",
+     "views": [
+      {
+       "holder": "清代官方叙事",
+       "basis": "郑氏为“伪郑”，施琅为平台功臣。"
+      },
+      {
+       "holder": "清末革命党与近现代叙事",
+       "basis": "郑成功被尊为民族英雄（驱逐荷兰人），施琅则因叛郑仕清被贬。"
+      },
+      {
+       "holder": "现代史学",
+       "basis": "郑氏政权定位（“明郑”的正统性问题）、施琅的平台决策（“弃留之争”中的现实考量）均按史料与语境分开评价——不同叙事框架并存于两岸学界。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>统一台湾（1683年，方位示意）</text><g font-size='12'><rect x='90' y='100' width='200' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='190' y='126' text-anchor='middle'>施琅率水师出福建</text><rect x='340' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>六月 澎湖海战</text><text x='430' y='140' text-anchor='middle' font-size='11'>歼郑军主力</text><rect x='560' y='90' width='160' height='80' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>八月郑克塽降</text><text x='640' y='140' text-anchor='middle' font-size='11'>明郑终结</text><line x1='290' y1='135' x2='336' y2='135' stroke='#2b4a6f' marker-end='url(#xk3)'/><line x1='520' y1='130' x2='556' y2='130' stroke='#2b4a6f' marker-end='url(#xk3)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1684 设台湾府三县，隶福建省</text><text x='380' y='262' text-anchor='middle' font-size='11'>“弃留之争”：施琅力陈留台；禁海迁界渐解除</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>明郑定位与施琅评价：两岸史学叙事分歧长期存在</text></svg>",
+   "sources": [
+    "qingshigao",
+    "qianlong-yizhi",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-yakesa-nibuchu",
+   "title": "雅克萨之战与《尼布楚条约》",
+   "year": 1685,
+   "end_year": 1689,
+   "year_display": "1685年",
+   "end_year_display": "1689年",
+   "year_note": "据《清史稿》与俄方史料：1685—1686年两次雅克萨之战；1689年（康熙二十八年）中俄签《尼布楚条约》（拉丁文本为准）；公元纪年，无换算问题。",
+   "location": "黑龙江流域（雅克萨、尼布楚）",
+   "key_people": [
+    "kangxi"
+   ],
+   "background": "俄国人17世纪东扩至黑龙江流域（哈巴罗夫等），与清的东北“龙兴之地”冲突；清在平三藩后腾出手解决东北边务。",
+   "process": [
+    "1685、1686年彭春、萨布素两次围攻雅克萨俄堡（第二次围困至俄军困降）。",
+    "1689年清俄谈判于尼布楚：索额图与戈洛文签约——确定外兴安岭-额尔古纳河为界，规定贸易与逃人条款。",
+    "条约以拉丁文、俄文、满文三种文本（拉丁文本为正式本）。",
+    "此后中俄保持约170年大体和平与商队贸易（恰克图条约1727年续定）。"
+   ],
+   "outcome": "中国与欧洲国家签订的第一个近代意义边界条约；黑龙江北岸争议暂息（1858年瑷珲条约使俄重新取得黑龙江北岸——后来的逆转）；条约谈判中的清方地图与翻译问题为中西外交史研究经典案例。",
+   "controversies": [
+    {
+     "issue": "条约的“平等性”与清方得失",
+     "views": [
+      {
+       "holder": "中国官方与传统表述",
+       "basis": "“第一个平等条约”、清方主动让出尼布楚地区以换取雅克萨。"
+      },
+      {
+       "holder": "国际学界视角",
+       "basis": "条约在军事对峙下谈判、双方均有让步；清方对欧洲外交文本体系（拉丁文本效力）的不熟悉造成的歧义，与后来瑷珲条约的逆转共同构成评价语境——不简单以“平等/不平等”标签。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>雅克萨与尼布楚（1685—1689年）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='200' y='116' text-anchor='middle' fill='#8c1f28'>1685—86 两次雅克萨之战</text><text x='200' y='140' text-anchor='middle' font-size='11'>围困俄堡至降</text><rect x='350' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='440' y='116' text-anchor='middle'>1689 尼布楚谈判</text><text x='440' y='140' text-anchor='middle' font-size='11'>索额图 vs 戈洛文</text><rect x='570' y='90' width='150' height='90' fill='#fff' stroke='#2b4a6f'/><text x='645' y='116' text-anchor='middle'>三种文本签约</text><text x='645' y='140' text-anchor='middle' font-size='11'>拉丁文为准</text><line x1='310' y1='135' x2='346' y2='135' stroke='#8c1f28' marker-end='url(#xk4)'/><line x1='530' y1='135' x2='566' y2='135' stroke='#2b4a6f' marker-end='url(#xk4)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>中俄约170年大体和平；中国与欧洲国家首个近代边界条约</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“平等条约”标签被国际学界语境化处理（对峙下谈判）</text></svg>",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-duolun-ge'erdan",
+   "title": "多伦会盟与亲征噶尔丹",
+   "year": 1691,
+   "end_year": 1697,
+   "year_display": "1691年",
+   "end_year_display": "1697年",
+   "year_note": "据《清实录》：康熙三十年（1691年）多伦诺尔会盟（喀尔喀归附、编旗设盟）；康熙二十九年至三十六年（1690—1697）三次亲征噶尔丹，1697年噶尔丹死于科布多；公元纪年，无换算问题。",
+   "location": "多伦诺尔；乌兰布通、昭莫多、科布多",
+   "key_people": [
+    "kangxi"
+   ],
+   "background": "准噶尔部噶尔丹兼并喀尔喀蒙古（1688年），兵锋直逼乌兰布通（距北京七百里）；康熙借会盟整合喀尔喀并与清结盟。",
+   "process": [
+    "1690年乌兰布通之战（清军火器营击败噶尔丹驼城战术）。",
+    "1691年多伦会盟：康熙亲临，喀尔喀三汗归附、编旗，确立清对喀尔喀的主权-盟旗框架。",
+    "1696年昭莫多之战歼噶尔丹主力（费扬古统军、康熙亲征）。",
+    "1697年康熙第三次亲征至宁夏方向，噶尔丹众叛亲离、死于科布多。"
+   ],
+   "outcome": "喀尔喀蒙古正式纳入清朝版图（外蒙古的起点）；清-准噶尔的百年战争拉开序幕（至1757年乾隆平定准噶尔——清版图西北极限）；多伦会盟的盟旗制度延续至清末。",
+   "controversies": [
+    {
+     "issue": "准噶尔战争的定性",
+     "views": [
+      {
+       "holder": "清代官方叙事",
+       "basis": "平定叛乱、绥服边藩。"
+      },
+      {
+       "holder": "现代研究（含“新清史”讨论）",
+       "basis": "清-准战争被置于内亚两大帝国的争夺框架（草原霸权、黄教保护人身份之争）；1757年对准噶尔的屠杀性清剿的人口代价被学界如实讨论——本站并列框架，不以单一标签定性。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>会盟与亲征（1690—1697年，方位示意）</text><g font-size='12'><rect x='90' y='90' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1690 乌兰布通</text><text x='190' y='140' text-anchor='middle' font-size='11'>火器营破驼城</text><rect x='330' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='420' y='116' text-anchor='middle'>1691 多伦会盟</text><text x='420' y='140' text-anchor='middle' font-size='11'>喀尔喀归附·编旗</text><rect x='550' y='90' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='116' text-anchor='middle' fill='#8c1f28'>1696 昭莫多</text><text x='635' y='140' text-anchor='middle' font-size='11'>1697 噶尔丹死</text><line x1='290' y1='130' x2='326' y2='130' stroke='#8c1f28' marker-end='url(#xk5)'/><line x1='510' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xk5)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>喀尔喀（外蒙古）纳入版图；清-准百年战争序幕</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>准噶尔战争：正统叙事 vs 内亚帝国争夺框架（并列）</text></svg>",
+   "sources": [
+    "qingshigao",
+    "cambridge-china",
+    "qianlong-yizhi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-tanding-junji",
+   "title": "摊丁入亩与设军机处",
+   "year": 1723,
+   "end_year": 1729,
+   "year_display": "1723年",
+   "end_year_display": "1729年",
+   "year_note": "据《清实录》与《清史稿》：摊丁入亩自康熙末广东试行，雍正元年至七年间（1723—1729）各省陆续推广；军机处设于雍正七年（1729年，用兵西北之际）；公元纪年，无换算问题。",
+   "location": "北京；各省",
+   "key_people": [
+    "yongzheng"
+   ],
+   "background": "康熙五十一年（1712年）“盛世滋生人丁永不加赋”造成丁税僵化；雍正朝财政整顿（火耗归公、养廉银、摊丁入亩）与西北用兵催生军机处。",
+   "process": [
+    "1723年起各省陆续摊丁入亩：丁银并入田赋，人头税制度终结。",
+    "火耗归公与养廉银：州县灰色收入制度化，中央财政汲取能力增强。",
+    "1729年设军机处（雍正七年）：西北用兵的机密参谋机构，后成事实上的中枢。",
+    "密折制度扩大（直接奏事权下放地方要员）——雍正朝信息控制体系。"
+   ],
+   "outcome": "人头税退出中国财政史（赋税完全土地化），刺激此后人口增长；军机处成为清代中枢核心（至1911年责任内阁改设）；密折制度强化皇权对官僚的直接监控。",
+   "controversies": [
+    {
+     "issue": "军机处的性质",
+     "views": [
+      {
+       "holder": "“皇帝秘书班子”说",
+       "basis": "军机处无衙署编制、军机大臣品级不高——皇帝强化独裁的工具（传统主流）。"
+      },
+      {
+       "holder": "“中枢制度化”研究",
+       "basis": "军机处在实际运行中形成文书行政的专业中枢，对皇权也有程序化制约（白彬菊 Beatrice Bartlett 研究为代表——现代修正）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>雍正新政（1723—1729年）</text><g font-size='12'><rect x='70' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='175' y='116' text-anchor='middle'>摊丁入亩</text><text x='175' y='140' text-anchor='middle' font-size='11'>丁银并入田赋</text><text x='175' y='162' text-anchor='middle' font-size='11'>人头税终结</text><rect x='310' y='90' width='190' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='405' y='116' text-anchor='middle'>火耗归公·养廉银</text><text x='405' y='140' text-anchor='middle' font-size='11'>财政汲取制度化</text><rect x='530' y='90' width='190' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='625' y='116' text-anchor='middle' fill='#8c1f28'>1729 设军机处</text><text x='625' y='140' text-anchor='middle' font-size='11'>西北用兵的机密中枢</text><line x1='280' y1='135' x2='306' y2='135' stroke='#2b4a6f' marker-end='url(#xk6)'/><line x1='500' y1='135' x2='526' y2='135' stroke='#8c1f28' marker-end='url(#xk6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>刺激人口增长；军机处至1911年（责任内阁前）为中枢</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>军机处性质：“秘书班子”说 vs “中枢制度化”研究（白彬菊）并列</text></svg>",
+   "sources": [
+    "qingshigao",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-siku-wenziyu",
+   "title": "《四库全书》与文字狱",
+   "year": 1772,
+   "end_year": 1782,
+   "year_display": "1772年",
+   "end_year_display": "1782年",
+   "year_note": "据《清实录》与《四库全书总目》：乾隆三十八年（1772年）诏开四库全书馆，乾隆四十七年（1782年）第一部《四库全书》完成（文渊阁藏）；禁毁书目的清点据《清代禁毁书目》研究；公元纪年，无换算问题。",
+   "location": "北京（文渊阁等七阁）",
+   "key_people": [
+    "qianlong"
+   ],
+   "background": "乾隆朝以修书整合学术与意识形态（寓禁于征）；文字狱贯穿康雍乾三朝（庄氏明史案、吕留良案、《字贯》案等）。",
+   "process": [
+    "1772年诏开四库全书馆，纪昀总纂，陆锡熊、孙士毅等协理；征书与查禁并行。",
+    "1782年第一部完成：收书3461种、79309卷（数字据《四库全书总目》），另存目6793种；禁毁书籍三千余种（学界统计口径）。",
+    "抄成七部（文渊、文源、文津、文溯、文汇、文宗、文澜），分藏南北。",
+    "文字狱高峰在乾隆朝：以“悖逆”文字罪人，吕留良案（1730年代开棺戮尸）为标志性大案。"
+   ],
+   "outcome": "中国古典文献的空前集成与空前浩劫同时发生：修书保存与禁毁销灭一体两面（学界共识性表述）；学术风气转向考据（乾嘉学派与文字狱环境的关联为学界讨论）。",
+   "controversies": [
+    {
+     "issue": "修书与禁毁的统计",
+     "views": [
+      {
+       "holder": "《四库全书总目》",
+       "basis": "收书3461种、79309卷。"
+      },
+      {
+       "holder": "禁毁研究（《清代禁毁书目》及后续统计）",
+       "basis": "禁毁书目统计自三千余种到万余种不等，口径（全毁/抽毁）不同数字差异大——本站以“三千余种（学界统计口径不一）”表述。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>《四库全书》（1772—1782年）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>1772 开四库馆</text><text x='200' y='140' text-anchor='middle' font-size='11'>纪昀总纂·征书与查禁并行</text><rect x='350' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='440' y='116' text-anchor='middle'>1782 第一部完成</text><text x='440' y='140' text-anchor='middle' font-size='11'>收书3461种·79309卷</text><rect x='560' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>禁毁三千余种</text><text x='645' y='140' text-anchor='middle' font-size='11'>文字狱高峰期</text><line x1='310' y1='135' x2='346' y2='135' stroke='#8c1f28' marker-end='url(#xk7)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#8c1f28' marker-end='url(#xk7)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>空前的集成与空前的浩劫：一体两面</text><text x='380' y='262' text-anchor='middle' font-size='11'>七阁抄本今存三部半（文汇文宗毁于战火）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>禁毁书目统计口径不一（全毁/抽毁），学界数字有区间</text></svg>",
+   "sources": [
+    "qingshigao",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-magearni-shituan",
+   "title": "马戛尔尼使团",
+   "year": 1793,
+   "end_year": null,
+   "year_display": "1793年",
+   "end_year_display": null,
+   "year_note": "据英方使团记录（斯当东《英使谒见乾隆纪实》）与《清实录》：乾隆五十八年（1793年）马戛尔尼使团抵华，九月热河觐见；公元纪年，无换算问题。",
+   "location": "热河（承德避暑山庄）、北京",
+   "key_people": [
+    "qianlong"
+   ],
+   "background": "英王乔治三世遣马戛尔尼以补贺乾隆八十大寿为名，请求扩大通商（宁波舟山口岸、北京驻使、割让岛屿等六项请求）。",
+   "process": [
+    "1793年六月使团抵天津；九月于热河万树园觐见乾隆（礼仪之争见争议）。",
+    "乾隆以敕谕逐条驳回全部请求：“天朝物产丰盈，无所不有，原不藉外夷货物以通有无”（敕谕原文）。",
+    "使团沿运河返程，记录沿途民政军情（使团成员报告成为英方对华评估的基础）。",
+    "1816年阿美士德使团再拒（嘉庆朝礼仪冲突更烈）。"
+   ],
+   "outcome": "中英第一次体制性对话失败：英国转以走私鸦片平衡贸易逆差——鸦片战争的远因之一；“错过机会”叙事与“结构性无解”分析并存（见争议）。",
+   "controversies": [
+    {
+     "issue": "“礼仪冲突”叙事的修正",
+     "views": [
+      {
+       "holder": "传统叙事",
+       "basis": "因叩拜礼之争使团失败——文明冲突的戏剧化框架。"
+      },
+      {
+       "holder": "现代研究（何伟亚 James Hevia 等）",
+       "basis": "礼仪问题当时已有折中安排，真正的分歧是贸易体制与主权要求（六项请求触及领土与驻使）——把失败归结于磕头是后见之明的建构；学界主流接受此修正。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>马戛尔尼使团（1793年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>六月抵天津</text><text x='190' y='140' text-anchor='middle' font-size='11'>六项通商请求</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>九月热河觐见</text><text x='430' y='140' text-anchor='middle' font-size='11'>礼仪之争（叙事修正）</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>敕谕逐条驳回</text><text x='640' y='140' text-anchor='middle' font-size='11'>“天朝物产丰盈”</text><line x1='300' y1='135' x2='336' y2='135' stroke='#2b4a6f' marker-end='url(#xk8)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xk8)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>英国转以鸦片平衡贸易逆差——战争远因</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“磕头导致失败”叙事被现代研究修正（何伟亚）</text></svg>",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-yapian-zhanzheng",
+   "title": "鸦片战争与《南京条约》",
+   "year": 1840,
+   "end_year": 1842,
+   "year_display": "1840年",
+   "end_year_display": "1842年",
+   "year_note": "据《清实录》《筹办夷务始末》与英方档案：道光十九年（1839年）林则徐虎门销烟；道光二十年（1840年）六月英舰抵广东海面开战；1842年8月《南京条约》签订；公元纪年，无换算问题。",
+   "location": "广东、厦门、定海、镇江、南京",
+   "key_people": [
+    "linzexu"
+   ],
+   "background": "英国对华贸易长期逆差，以印度鸦片平衡；清廷禁烟与走私利益集团、口岸体制冲突；1839年虎门销烟成为英国开战借口。",
+   "process": [
+    "1839年林则徐虎门销烟（销烟237万余斤——《清代档案》所载官方数字）。",
+    "1840年六月英国远征军封锁珠江口，北上陷定海、抵大沽。",
+    "1841年琦善议和被黜、奕山战败；三元里抗英（民间抵抗的标志性事件）；英军陷厦门、定海、镇海、宁波。",
+    "1842年英军溯江陷镇江、兵临南京；八月二十九日《南京条约》：割香港岛、开五口、赔款2100万银元、协定关税。",
+    "1843年《虎门条约》与《五口通商章程》补充（领事裁判权、最惠国待遇条款实际形成）。"
+   ],
+   "outcome": "中国被强行纳入条约体系：主权受损的“半殖民地”进程开始（“半殖民地半封建”为后来的分析框架）；士大夫“知夷务”者寥寥（林则徐《四洲志》→魏源《海国图志》“师夷长技以制夷”的思想起点）。",
+   "controversies": [
+    {
+     "issue": "战争起因的解释框架",
+     "views": [
+      {
+       "holder": "“鸦片战争”命名与禁烟正当性",
+       "basis": "中国史学界以鸦片贸易的不义为战争性质定调（战争责任在英国）。"
+      },
+      {
+       "holder": "“贸易战争”论（部分西方学者）",
+       "basis": "强调商业体制冲突（自由贸易 vs 朝贡-垄断体制）为深层原因——费正清“冲击-回应”框架及其后修正（柯文“中国中心观”）构成史学史论战；本站并列框架，战争责任叙述以鸦片贸易的非法性与英国利益动机为主。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>鸦片战争（1840—1842年，战区示意）</text><g font-size='12'><rect x='80' y='90' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='180' y='116' text-anchor='middle'>1839 虎门销烟</text><text x='180' y='140' text-anchor='middle' font-size='11'>销烟237万余斤（档案数字）</text><rect x='320' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='410' y='116' text-anchor='middle' fill='#8c1f28'>1840 英军北上</text><text x='410' y='140' text-anchor='middle' font-size='11'>陷定海·抵大沽</text><rect x='540' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='116' text-anchor='middle' fill='#8c1f28'>1841—42 溯江之战</text><text x='630' y='140' text-anchor='middle' font-size='11'>镇江陷·兵临南京</text><line x1='280' y1='130' x2='316' y2='130' stroke='#8c1f28' marker-end='url(#xk9)'/><line x1='500' y1='130' x2='536' y2='130' stroke='#8c1f28' marker-end='url(#xk9)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1842《南京条约》：割香港岛·开五口·赔2100万银元·协定关税</text><text x='380' y='262' text-anchor='middle' font-size='11'>魏源《海国图志》“师夷长技以制夷”——思想起点</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>史学史论战：鸦片战争论 vs 贸易战争论（冲击-回应框架及其修正）</text></svg>",
+   "sources": [
+    "zhwp-yapian",
+    "guotingyi-jindaishi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-taiping-tianguo",
+   "title": "太平天国",
+   "year": 1851,
+   "end_year": 1864,
+   "year_display": "1851年",
+   "end_year_display": "1864年",
+   "year_note": "据《清实录》《贼情汇纂》等：道光三十年十二月（公历1851年1月）金田起义；咸丰三年（1853年）定都天京（南京）；同治三年六月（1864年7月）天京陷落；公元纪年，无换算问题。",
+   "location": "金田（广西桂平）→南京（天京）",
+   "key_people": [
+    "hongxiuquan"
+   ],
+   "background": "鸦片战争后白银外流、银贵钱贱加重税负，广西土客械斗与灾荒叠加；洪秀全以拜上帝会（融合基督教元素的本土教门）组织起义。",
+   "process": [
+    "1851年1月金田起义，建号太平天国。",
+    "1853年攻克南京定都（天京）；《天朝田亩制度》颁行（理想性纲领，实际未推行）。",
+    "1856年天京事变（杨韦内讧、石达开出走）——由盛转衰。",
+    "1859年洪仁玕《资政新篇》（近代化纲领，条件不足未行）。",
+    "1860—1864年湘军淮军（曾国藩、李鸿章、左宗棠）与洋枪队（华尔戈登）夹击；1864年7月天京陷落。",
+    "江南人口损失巨大（各家估计差异极大——死亡数字不可确证，学界有数千万级估计，本站不采具体数）。"
+   ],
+   "outcome": "清朝中央权威下移（湘淮军系兴起——地方军事化的起点）；江南经济重心残破；太平天国成为传统史学“农民战争最高峰”与当代“破坏性政权”评价的分歧样本。",
+   "controversies": [
+    {
+     "issue": "太平天国的历史评价",
+     "views": [
+      {
+       "holder": "20世纪中期史学",
+       "basis": "“旧式农民战争的最高峰”（范文澜等框架），肯定其反封建反侵略。"
+      },
+      {
+       "holder": "当代修正研究",
+       "basis": "强调其神权统治的破坏性、人口损失与制度实验的失败（《天朝田亩制度》未实施）；江南人口损失的规模学界估计从一千万到数千万不等，均系推算——本站并列框架、不采具体数字。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>太平天国（1851—1864年）</text><g font-size='12'><rect x='80' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='185' y='116' text-anchor='middle' fill='#8c1f28'>1851 金田起义</text><text x='185' y='140' text-anchor='middle' font-size='11'>拜上帝会动员</text><rect x='320' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='410' y='116' text-anchor='middle' fill='#8c1f28'>1853 定都天京</text><text x='410' y='140' text-anchor='middle' font-size='11'>1856 天京事变</text><rect x='530' y='90' width='190' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='625' y='116' text-anchor='middle'>湘军淮军夹击</text><text x='625' y='140' text-anchor='middle' font-size='11'>1864 天京陷落</text><line x1='290' y1='135' x2='316' y2='135' stroke='#8c1f28' marker-end='url(#xk10)'/><line x1='500' y1='135' x2='526' y2='135' stroke='#8c1f28' marker-end='url(#xk10)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>湘淮军系兴起：中央权威下移（地方军事化起点）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>评价：农民战争最高峰论 vs 破坏性政权论——人口损失数字不可确证</text></svg>",
+   "sources": [
+    "zhwp-yapian",
+    "guotingyi-jindaishi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": true,
+   "pending_notes": "太平天国战争人口损失估计从一千万到数千万不等（学界推算口径差异大），本站不采具体死亡数字；江南人口重建过程为人口史研究课题。"
+  },
+  {
+   "id": "qing-di'erci-yapian",
+   "title": "第二次鸦片战争",
+   "year": 1856,
+   "end_year": 1860,
+   "year_display": "1856年",
+   "end_year_display": "1860年",
+   "year_note": "据《清实录》与英法档案：咸丰六年（1856年）亚罗号事件引发英军广州行动；1860年英法联军陷北京、火烧圆明园，10月《北京条约》签订；公元纪年，无换算问题。",
+   "location": "广州、大沽、天津、北京",
+   "key_people": [],
+   "background": "修约要求（扩大通商权益）被拒，亚罗号事件与马神甫事件为英法联合出兵借口；太平天国牵制清军使北方边防空虚。",
+   "process": [
+    "1856—1857年英法联军攻广州（两广总督叶名琛被俘——“不战不和不守”的时评）。",
+    "1858年《天津条约》：增开口岸、公使驻京、自由传教与游历。",
+    "1859年大沽口之战清军挫敌（僧格林沁）；1860年英法联军再战，陷大沽、天津、北京。",
+    "1860年10月火烧圆明园（英法联军劫掠焚毁——额尔金下令焚烧以报复虐俘）；《北京条约》签订：割九龙司、增天津口岸、准华工出洋。",
+    "中俄《瑷珲条约》（1858）与《北京条约》（1860）使俄国取得黑龙江以北、乌苏里江以东约百万平方公里土地。"
+   ],
+   "outcome": "条约体系全面确立（公使驻京、总理衙门1861年设立）；圆明园之毁成为近代中国创伤记忆的核心符号；俄国成为最大领土受益者。",
+   "controversies": [
+    {
+     "issue": "火烧圆明园的叙事",
+     "views": [
+      {
+       "holder": "中国叙事",
+       "basis": "英法联军野蛮劫掠的文化毁灭罪责（世界遗产记忆）。"
+      },
+      {
+       "holder": "西方部分叙事与修正",
+       "basis": "以虐待使团成员为焚园借口——学界共识：焚园为报复性行为且非军事必要，责任在联军；叙述差异在“文明冲突”与“战争罪行”框架间摇摆。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>第二次鸦片战争（1856—1860年）</text><g font-size='12'><rect x='80' y='90' width='210' height='80' fill='#fff' stroke='#2b4a6f'/><text x='185' y='116' text-anchor='middle'>1856 亚罗号事件</text><text x='185' y='140' text-anchor='middle' font-size='11'>英法联合出兵</text><rect x='320' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='410' y='116' text-anchor='middle'>1858《天津条约》</text><rect x='530' y='90' width='190' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='625' y='116' text-anchor='middle' fill='#8c1f28'>1860 陷北京</text><text x='625' y='140' text-anchor='middle' font-size='11'>火烧圆明园·《北京条约》</text><line x1='290' y1='130' x2='316' y2='130' stroke='#2b4a6f' marker-end='url(#xk11)'/><line x1='500' y1='130' x2='526' y2='130' stroke='#8c1f28' marker-end='url(#xk11)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1861 设总理衙门；俄国得黑龙江以北乌苏里江以东</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>焚园为报复性行为且非军事必要——联军罪责为共识</text></svg>",
+   "sources": [
+    "zhwp-yapian",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-yangwu-yundong",
+   "title": "洋务运动",
+   "year": 1861,
+   "end_year": 1894,
+   "year_display": "1861年",
+   "end_year_display": "1894年",
+   "year_note": "据《清实录》与近代史料：总理衙门设于咸丰十年十二月（公历1861年）；1894年甲午战败标志洋务运动实际破产；公元纪年，无换算问题。",
+   "location": "北京、上海（江南制造局）、福州（船政局）、天津（北洋水师）",
+   "key_people": [
+    "lihongzhang"
+   ],
+   "background": "第二次鸦片战争与太平天国的双重危机促成“自强”：总理衙门设立、同文馆开办，恭亲王奕䜣与曾李左诸督抚主导，以“中体西用”为纲。",
+   "process": [
+    "1861年总理各国事务衙门设立、京师同文馆开办。",
+    "军工：江南制造总局（1865）、福州船政局（1866）、天津机器局——枪炮船舰自造。",
+    "民用与交通：轮船招商局（1872）、开平矿务局（1878）、电报总局（1880）、汉阳铁厂（1890）。",
+    "海军：北洋水师成军（1888年，《北洋海军章程》），旅顺威海基地。",
+    "教育：留美幼童（1872—1881年，中途撤回）、福州船政学堂。"
+   ],
+   "outcome": "中国早期工业化的第一波（军工-航运-电报-矿山）；1894年甲午战败宣告其军事自强路线的失败，但产业与人才遗产为后续现代化所用——评价分歧的核心案例。",
+   "controversies": [
+    {
+     "issue": "洋务运动的评价",
+     "views": [
+      {
+       "holder": "传统“失败论”",
+       "basis": "“中体西用”不改制度，甲午一役全盘破产（梁启超式批判的延续）。"
+      },
+      {
+       "holder": "“早期现代化”论",
+       "basis": "洋务为中国现代化“起步”阶段，其企业、人才、观念遗产被民国与新中国继承（陈振汉等经济史与现代化研究视角）；失败归因于“只变器不变制”与官僚管理（官督商办的委托-代理问题）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>洋务运动（1861—1894年）</text><g font-size='12'><rect x='80' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1861 总理衙门·同文馆</text><text x='190' y='140' text-anchor='middle' font-size='11'>“自强”起步</text><rect x='330' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='420' y='116' text-anchor='middle'>军工民用企业</text><text x='420' y='140' text-anchor='middle' font-size='11'>江南局·船政局·招商局</text><rect x='540' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='116' text-anchor='middle' fill='#8c1f28'>1888 北洋水师成军</text><line x1='300' y1='130' x2='326' y2='130' stroke='#2b4a6f' marker-end='url(#xk12)'/><line x1='510' y1='130' x2='536' y2='130' stroke='#8c1f28' marker-end='url(#xk12)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>留美幼童·船政学堂——人才遗产延续</text><text x='380' y='262' text-anchor='middle' font-size='11'>1894 甲午战败→军事自强路线破产</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>评价：失败论 vs 早期现代化论（失败归因“只变器不变制”）</text></svg>",
+   "sources": [
+    "guotingyi-jindaishi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-jiawu-zhanzheng",
+   "title": "甲午战争与《马关条约》",
+   "year": 1894,
+   "end_year": 1895,
+   "year_display": "1894年",
+   "end_year_display": "1895年",
+   "year_note": "据《清实录》与日方战史：光绪二十年（1894年，甲午）七月丰岛海战爆发；1895年4月《马关条约》签订；公元纪年，无换算问题。",
+   "location": "丰岛、平壤、黄海（大东沟）、威海卫；马关（下关）",
+   "key_people": [
+    "lihongzhang"
+   ],
+   "background": "日本明治维新后以朝鲜为跳板的大陆政策；朝鲜东学党起义成为引信；北洋水师1888年成军后未添新舰（经费问题见争议）。",
+   "process": [
+    "1894年七月丰岛海战、八月黄海海战（邓世昌致远舰殉国）；陆战平壤失守、鸭绿江防线崩溃。",
+    "1895年威海卫陷落，北洋舰队覆灭（丁汝昌自尽）；辽东作战失利。",
+    "1895年四月《马关条约》：割台湾澎湖辽东（三国干涉还辽）、赔款二万万两、开四口岸、允许日本在华设厂。",
+    "“三国干涉还辽”（俄德法）后清付三千万两“赎辽费”；台湾军民抵抗（乙未战争）至11月。"
+   ],
+   "outcome": "东亚国际格局逆转（日本崛起、清朝主导地位终结）；赔款相当于清政府年财政收入三倍左右（学界通行换算口径），以关税盐税抵押借贷——财政条约化加深；戊戌维新由败局催生。",
+   "controversies": [
+    {
+     "issue": "失败原因：经费挪用说 vs 制度论",
+     "views": [
+      {
+       "holder": "“挪用海军经费修颐和园”说",
+       "basis": "流行叙事；现代研究（姜鸣、陈悦等）考证挪用数额远小于流行说法（园工经费与海军经费的分账口径澄清），但1888年后未添主力舰属实。"
+      },
+      {
+       "holder": "制度论",
+       "basis": "海军建设的中断、军政指挥体系混乱（户部-海军衙门-北洋的权限分割）、日方举国体制对比——学界以制度论为主、挪用为辅的复合解释。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>甲午战争（1894—1895年）</text><g font-size='12'><rect x='80' y='90' width='200' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='180' y='116' text-anchor='middle' fill='#8c1f28'>丰岛·黄海海战</text><text x='180' y='140' text-anchor='middle' font-size='11'>致远舰殉国（邓世昌）</text><rect x='320' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='410' y='116' text-anchor='middle' fill='#8c1f28'>平壤失守·威海卫陷</text><text x='410' y='140' text-anchor='middle' font-size='11'>北洋舰队覆灭</text><rect x='540' y='90' width='190' height='80' fill='#fff' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>1895《马关条约》</text><text x='635' y='140' text-anchor='middle' font-size='11'>割台赔二万万两</text><line x1='280' y1='130' x2='316' y2='130' stroke='#8c1f28' marker-end='url(#xk13)'/><line x1='500' y1='130' x2='536' y2='130' stroke='#8c1f28' marker-end='url(#xk13)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>东亚格局逆转：日本崛起；赔款以关税盐税抵押借贷</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>失败归因：挪用数额被夸大，制度论为主（姜鸣、陈悦等考证）</text></svg>",
+   "sources": [
+    "zhwp-jiawu",
+    "guotingyi-jindaishi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-wuxu-bianfa",
+   "title": "戊戌变法",
+   "year": 1898,
+   "end_year": null,
+   "year_display": "1898年",
+   "end_year_display": null,
+   "year_note": "据《清实录》与档案研究（茅海建《戊戌变法史事考》系列）：光绪二十四年四月二十三（1898年6月11日）下“明定国是”诏；八月初六（9月21日）政变；公元纪年，无换算问题。",
+   "location": "北京",
+   "key_people": [],
+   "background": "甲午败局与瓜分危机（1897—1898年列强租借地潮）催生变法；康有为梁启超以公车上书（1895）与《时务报》造势，光绪帝亲政后倚康梁行新政。",
+   "process": [
+    "1898年6月11日“明定国是”诏：废八股、设京师大学堂、奖励实业、准臣民上书等百余道新政诏令。",
+    "新旧冲突激化：罢六堂官、擢谭嗣同等四军机章京。",
+    "9月21日慈禧政变（袁世凯告密与政变的时序问题见争议），光绪被囚瀛台。",
+    "9月28日“戊戌六君子”（谭嗣同刘光第林旭杨锐杨深秀康广仁）被杀；新政尽废（京师大学堂保留）。"
+   ],
+   "outcome": "百日维新失败：自上而下的体制内改革关闭，改良道路受挫；革命派（孙中山）与改良派（康梁）分道——庚子事变与清末新政在此基础上展开。",
+   "controversies": [
+    {
+     "issue": "政变与袁世凯告密的时序",
+     "views": [
+      {
+       "holder": "传统叙事",
+       "basis": "袁世凯告密引发政变（《戊戌政变记》梁启超版）。"
+      },
+      {
+       "holder": "档案研究修正（茅海建等）",
+       "basis": "据清宫档案，慈禧发动政变在先、袁世凯告密消息到京在后——政变非由告密引发，告密加剧了屠杀；康梁叙事的建构性被揭示——学界主流接受档案修正。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>戊戌变法（1898年6—9月）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>6月11日“明定国是”诏</text><text x='190' y='140' text-anchor='middle' font-size='11'>百余道新政诏令</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>9月21日 慈禧政变</text><text x='430' y='140' text-anchor='middle' font-size='11'>光绪囚瀛台</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>六君子被杀</text><text x='640' y='140' text-anchor='middle' font-size='11'>新政尽废（大学堂除外）</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xk14)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xk14)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>改良之路受挫→革命派与改良派分道</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>档案修正：政变在先、告密在后（茅海建研究）——康梁叙事的建构性被揭示</text></svg>",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "qing-yihetuan-xinhai",
+   "title": "从义和团到辛亥革命：庚子事变、清末新政与清帝退位",
+   "year": 1900,
+   "end_year": 1912,
+   "year_display": "1900年",
+   "end_year_display": "1912年",
+   "year_note": "据《清实录》与民国文献：光绪二十六年（1900年）义和团入京、八国联军入侵、《辛丑条约》（1901年9月签）；光绪三十二年（1906年）宣示预备立宪；宣统三年八月十九（1911年10月10日，通行历日换算）武昌起义；1912年2月12日清帝退位；公元纪年，无换算问题。",
+   "location": "京津、武昌、南京",
+   "key_people": [
+    "sunzhongshan",
+    "cixi"
+   ],
+   "background": "甲午与瓜分危机使民间排外情绪与朝廷权力斗争合流（慈禧集团对义和团由剿转抚）；孙中山自1894年兴中会起持续革命运动。",
+   "process": [
+    "1900年义和团入京围使馆；八国联军入侵、慈禧西狩；《辛丑条约》赔款四亿五千万两（39年偿清，本息合计约九亿八千万两——条约文本数字）。",
+    "1901—1911年清末新政：废科举（1905）、练新军、设资政院与咨议局、预备立宪（1906宣示）。",
+    "1905年中国同盟会成立（孙中山“三民主义”）；1911年皇族内阁与铁路国有政策激变。",
+    "1911年10月10日武昌起义（新军第八镇），各省响应（“光复”）。",
+    "1912年1月中华民国临时政府成立于南京（孙中山任临时大总统）；2月12日清帝退位诏书（“由袁世凯以全权组织临时共和政府”——清室优待条件）。"
+   ],
+   "outcome": "两千年帝制终结，亚洲第一个共和国建立；主权受损未解（不平等条约延续至1943年逐步废除），“五族共和”的民国继承清帝国疆域的法理框架（学界讨论其法理意义）；清朝灭亡但“大清”多族群疆域由民国名义继承。",
+   "controversies": [
+    {
+     "issue": "辛亥革命的评价",
+     "views": [
+      {
+       "holder": "“旧民主主义革命”框架（传统革命史观）",
+       "basis": "辛亥为不彻底的资产阶级革命，未改变半殖民地地位。"
+      },
+      {
+       "holder": "“有限成就”论与现代研究",
+       "basis": "帝制终结、共和观念确立、地方自治与法律改革起步为实绩；革命后的碎片化（军阀）归因于结构性条件而非“革命不彻底”的道德叙事——学界讨论持续。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xk15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>从庚子到清帝退位（1900—1912年）</text><g font-size='12'><rect x='60' y='90' width='200' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='160' y='116' text-anchor='middle' fill='#8c1f28'>1900 义和团·八国联军</text><text x='160' y='140' text-anchor='middle' font-size='11'>《辛丑条约》赔四亿五千万两</text><rect x='290' y='90' width='190' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='385' y='116' text-anchor='middle'>1901—11 清末新政</text><text x='385' y='140' text-anchor='middle' font-size='11'>废科举1905·预备立宪</text><rect x='510' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='116' text-anchor='middle' fill='#8c1f28'>1911.10.10 武昌起义</text><text x='615' y='140' text-anchor='middle' font-size='11'>各省响应</text><line x1='260' y1='135' x2='286' y2='135' stroke='#8c1f28' marker-end='url(#xk15)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#8c1f28' marker-end='url(#xk15)'/></g><rect x='180' y='215' width='400' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='14'>1912.2.12 清帝退位</text><text x='380' y='267' text-anchor='middle' font-size='11'>中华民国建立；“五族共和”继承清疆域的法理框架</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>辛亥评价：不彻底论 vs 有限成就论——学界讨论持续</text></svg>",
+   "sources": [
+    "zhwp-xinhai",
+    "guotingyi-jindaishi",
+    "cambridge-china",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "people": [
+  {
+   "id": "kangxi",
+   "name": "康熙帝（玄烨）",
+   "birth_year": 1654,
+   "death_year": 1722,
+   "birth_display": "1654年",
+   "death_display": "1722年",
+   "birth_note": "据《清实录》顺治十一年三月（1654年5月，通行历日换算）生于景仁宫，公元纪年换算。",
+   "death_note": "康熙六十一年十一月（1722年12月，通行历日换算）崩于畅春园；传位问题（雍正夺嫡说）见争议。",
+   "chronology": [
+    {
+     "year": 1654,
+     "display": "1654年",
+     "text": "生于北京紫禁城，顺治第三子。"
+    },
+    {
+     "year": 1661,
+     "display": "1661年",
+     "text": "八岁即位；鳌拜等四辅臣辅政。"
+    },
+    {
+     "year": 1669,
+     "display": "1669年",
+     "text": "智擒鳌拜，亲政。"
+    },
+    {
+     "year": 1673,
+     "display": "1673—1681年",
+     "text": "平三藩。"
+    },
+    {
+     "year": 1683,
+     "display": "1683年",
+     "text": "统一台湾。"
+    },
+    {
+     "year": 1685,
+     "display": "1685—1689年",
+     "text": "雅克萨之战与《尼布楚条约》。"
+    },
+    {
+     "year": 1691,
+     "display": "1691—1697年",
+     "text": "多伦会盟与三征噶尔丹。"
+    },
+    {
+     "year": 1722,
+     "display": "1722年",
+     "text": "崩于畅春园。"
+    }
+   ],
+   "deeds": [
+    "奠定清朝对汉地的治理与对蒙古的盟旗体系；多族群帝国框架成型。",
+    "学术工程：历法（《康熙永年历法》与南怀仁合作）、《康熙字典》敕修、测绘《皇舆全览图》（1708—1718年，耶稣会士参与）。",
+    "六下江南治河察吏；密折制度的早期实践。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统“圣祖”叙事",
+     "view": "在位61年、文治武功冠绝清代——“千古一帝”定位。",
+     "basis": "《清史稿》圣祖本纪。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "文字狱与迁海令的代价（沿海经济重创、思想禁锢）、九子夺嫡的政治创伤被纳入评价；“康熙盛世”的人口-人均资源问题（人口激增与生活水平）为经济史焦点。",
+     "basis": "清史研究通说。"
+    }
+   ],
+   "sources": [
+    "qingshigao",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "yongzheng",
+   "name": "雍正帝（胤禛）",
+   "birth_year": 1678,
+   "death_year": 1735,
+   "birth_display": "1678年",
+   "death_display": "1735年",
+   "birth_note": "据《清实录》康熙十七年（1678年）生，公元纪年换算。",
+   "death_note": "雍正十三年八月（1735年）崩于圆明园（死因与丹药相关的推测见研究），公元纪年。",
+   "chronology": [
+    {
+     "year": 1678,
+     "display": "1678年",
+     "text": "生于北京，康熙第四子。"
+    },
+    {
+     "year": 1722,
+     "display": "1722年",
+     "text": "继位（夺嫡诸说围绕“传位十四子改于四子”等传闻——档案研究以继位诏书为据否定传言，争议仍存）。"
+    },
+    {
+     "year": 1723,
+     "display": "1723—1729年",
+     "text": "摊丁入亩、火耗归公、养廉银推行。"
+    },
+    {
+     "year": 1729,
+     "display": "1729年",
+     "text": "设军机处；用兵西北（年羹尧岳钟琪）。"
+    },
+    {
+     "year": 1735,
+     "display": "1735年",
+     "text": "崩于圆明园。"
+    }
+   ],
+   "deeds": [
+    "财政整顿三件套（摊丁入亩、火耗归公、养廉银）。",
+    "密折制度与军机处：皇权信息控制与中枢重构。",
+    "《大义觉迷录》与曾静案：以公开辩论回应“篡位”指控的独特实践（乾隆即位后毁版禁书）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统“抄家皇帝”叙事",
+     "view": "以严酷、刻薄著称的负面形象（民间传闻与官僚怨恨的沉淀）。",
+     "basis": "清宫传闻与后世演义传统。"
+    },
+    {
+     "holder": "现代清史研究",
+     "view": "清代治理效率的巅峰之一：其财政与行政改革支撑了乾隆朝的扩张；“继位合法性”的档案研究（中国第一历史档案馆藏康熙遗诏等）否定了民间改诏传言，但学界对细节仍有讨论。",
+     "basis": "清史研究与档案整理。"
+    }
+   ],
+   "sources": [
+    "qingshigao",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "qianlong",
+   "name": "乾隆帝（弘历）",
+   "birth_year": 1711,
+   "death_year": 1799,
+   "birth_display": "1711年",
+   "death_display": "1799年",
+   "birth_note": "据《清实录》康熙五十年（1711年）生，公元纪年换算（出生地雍和宫/避暑山庄之说有争议——学界以避暑山庄说较流行）。公元纪年。",
+   "death_note": "嘉庆四年正月（1799年）崩于养心殿（太上皇任内），公元纪年。",
+   "chronology": [
+    {
+     "year": 1711,
+     "display": "1711年",
+     "text": "生于北京（出生地说见争议）。"
+    },
+    {
+     "year": 1735,
+     "display": "1735年",
+     "text": "继位，改元乾隆。"
+    },
+    {
+     "year": 1747,
+     "display": "1747—1757年",
+     "text": "两平金川、平定准噶尔与回部（“十全武功”主体）——清版图达最大（约1300万平方公里，学界通行估计）。"
+    },
+    {
+     "year": 1772,
+     "display": "1772—1782年",
+     "text": "《四库全书》工程。"
+    },
+    {
+     "year": 1793,
+     "display": "1793年",
+     "text": "接见马戛尔尼使团。"
+    },
+    {
+     "year": 1796,
+     "display": "1796年",
+     "text": "禅位嘉庆（仍以太上皇训政）；同年白莲教大起义爆发。"
+    },
+    {
+     "year": 1799,
+     "display": "1799年",
+     "text": "崩于养心殿。"
+    }
+   ],
+   "deeds": [
+    "完成对准噶尔与回部的征服——新疆（“故土新归”之名源于此语境）正式纳入。",
+    "十全武功与六下江南；人口突破三亿（官方统计口径）。",
+    "《四库全书》与文字狱的高峰并行；马戛尔尼使团的拒绝。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《清史稿》与传统叙事",
+     "view": "“乾隆盛世”：版图、人口、文化的巅峰。",
+     "basis": "《清史稿》高宗本纪。"
+    },
+    {
+     "holder": "现代修正研究",
+     "view": "盛世与“饥饿的盛世”并存：人均资源紧张、马戛尔尼观察到的行政僵化与军备废弛（使团报告）、和珅专权与议罪银制度——盛极而衰的内在机理为学界焦点；西方史学（欧立德 Mark Elliott 等新清史）强调其内亚皇帝身份的多面性。",
+     "basis": "清史与美国中国史研究。"
+    }
+   ],
+   "sources": [
+    "qingshigao",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "linzexu",
+   "name": "林则徐",
+   "birth_year": 1785,
+   "death_year": 1850,
+   "birth_display": "1785年",
+   "death_display": "1850年",
+   "birth_note": "据《清史稿》乾隆五十年（1785年）生，通说；福建侯官人。",
+   "death_note": "道光三十年（1850年）卒于潮州普宁行馆（赴广西途中），公元纪年。",
+   "chronology": [
+    {
+     "year": 1785,
+     "display": "1785年",
+     "text": "生于侯官（今福州）。"
+    },
+    {
+     "year": 1811,
+     "display": "1811年",
+     "text": "进士及第（选庶吉士）。"
+    },
+    {
+     "year": 1838,
+     "display": "1838年",
+     "text": "任钦差大臣赴广东禁烟。"
+    },
+    {
+     "year": 1839,
+     "display": "1839年",
+     "text": "虎门销烟；组织翻译西报（《四洲志》底本）。"
+    },
+    {
+     "year": 1841,
+     "display": "1841年",
+     "text": "战败后遭谴戍伊犁；途中传书友人“开眼看世界”思考（魏源受其嘱续成《海国图志》）。"
+    },
+    {
+     "year": 1850,
+     "display": "1850年",
+     "text": "奉旨赴广西途中病逝。"
+    }
+   ],
+   "deeds": [
+    "虎门销烟与禁烟运动的主持者；广东防务（购西炮、建台船的尝试）。",
+    "组织编译《四洲志》——近代中国“开眼看世界”的起点（魏源《海国图志》在其基础上扩编）。",
+    "晚年主张“民心可用”的民团抵抗思路。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统“民族英雄”叙事",
+     "view": "禁烟壮举与冤谪遭遇使其成为近代民族主义的标志性人物（“苟利国家生死以”句出自其戍伊犁诗——《赴戍登程口占》）。",
+     "basis": "林则徐诗集与近代纪念传统。"
+    },
+    {
+     "holder": "蒋廷黻（《中国近代史》）",
+     "view": "批评林则徐“不肯牺牲自己的清誉去敲醒朝廷”——开眼看世界的责任被其士大夫名誉观延迟；此批评引发长期争论（对蒋论的回应研究众多）。",
+     "basis": "蒋廷黻《中国近代史》。"
+    },
+    {
+     "holder": "现代史学综合",
+     "view": "肯定其为治世能臣与思想先声，同时指出其对外认知的时代局限（以为英军“腿足裹缠，屈伸不便”等误判见其奏牍）——英雄叙事与认知局限并置。",
+     "basis": "近代史研究通说。"
+    }
+   ],
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "zhwp-yapian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "hongxiuquan",
+   "name": "洪秀全",
+   "birth_year": 1814,
+   "death_year": 1864,
+   "birth_display": "1814年",
+   "death_display": "1864年",
+   "birth_note": "据《太平天国起义记》（韩山文 Theodore Hamberg 据洪仁玕口述）推算（1814年1月生，通说）；广东花县人。",
+   "death_note": "同治三年四月（1864年6月）病逝于天京（城破前十余日），公元纪年。",
+   "chronology": [
+    {
+     "year": 1814,
+     "display": "1814年",
+     "text": "生于花县客家农家。"
+    },
+    {
+     "year": 1837,
+     "display": "1837年（前后）",
+     "text": "科场屡败后病中“异梦”（其宗教叙事的起点）。"
+    },
+    {
+     "year": 1843,
+     "display": "1843年",
+     "text": "创拜上帝会（与冯云山赴广西传教）。"
+    },
+    {
+     "year": 1851,
+     "display": "1851年",
+     "text": "金田起义称天王。"
+    },
+    {
+     "year": 1853,
+     "display": "1853年",
+     "text": "定都天京。"
+    },
+    {
+     "year": 1864,
+     "display": "1864年",
+     "text": "天京围城中病逝。"
+    }
+   ],
+   "deeds": [
+    "以融合基督教元素的拜上帝会发动与组织太平天国运动（中国史上最大规模民间宗教动员）。",
+    "天京政权（天王-诸王制）与《天朝田亩制度》理想纲领的颁布者（未实施）。",
+    "后期沉于宫闱与宗教幻想，政事委于洪仁玕等。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统农民战争史学",
+     "view": "农民起义领袖、“反封建反侵略”的旗帜（20世纪中期主流）。",
+     "basis": "范文澜等框架。"
+    },
+    {
+     "holder": "当代修正研究",
+     "view": "神权政权的破坏性（焚孔庙、毁文物、等级制）、其教义的杂糅性（本土民间教门与基督教的表层结合——学界对其神学理解深度的讨论）与治理失败；个人责任（天京事变中的猜忌）被如实评估。",
+     "basis": "太平天国史研究（茅家琦等）与修正潮流。"
+    }
+   ],
+   "sources": [
+    "guotingyi-jindaishi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "lihongzhang",
+   "name": "李鸿章",
+   "birth_year": 1823,
+   "death_year": 1901,
+   "birth_display": "1823年",
+   "death_display": "1901年",
+   "birth_note": "据《清史稿》道光三年（1823年）生，通说；安徽合肥人。",
+   "death_note": "光绪二十七年九月（1901年11月）卒于北京贤良寺（《辛丑条约》签订后月余），公元纪年。",
+   "chronology": [
+    {
+     "year": 1823,
+     "display": "1823年",
+     "text": "生于合肥。"
+    },
+    {
+     "year": 1847,
+     "display": "1847年",
+     "text": "进士及第（入曾国藩幕府为幕僚始于1853年）。"
+    },
+    {
+     "year": 1862,
+     "display": "1862年",
+     "text": "率淮军援沪，任江苏巡抚——淮系集团崛起。"
+    },
+    {
+     "year": 1872,
+     "display": "1872年",
+     "text": "创轮船招商局；此后开平煤矿电报总局等次第兴办。"
+    },
+    {
+     "year": 1888,
+     "display": "1888年",
+     "text": "北洋水师成军。"
+    },
+    {
+     "year": 1895,
+     "display": "1895年",
+     "text": "马关议和签约，遇刺（日本刺客小山丰太郎伤其颊——谈判减赔一亿两）。"
+    },
+    {
+     "year": 1901,
+     "display": "1901年",
+     "text": "主持辛丑议和，签约后卒。"
+    }
+   ],
+   "deeds": [
+    "淮军与北洋：洋务运动军事-工业-海军体系的第一主持人。",
+    "弱国外交的主要执行者：马关、辛丑谈判——“弱国无外交”语境下的谈判者（马关遇刺后争得减赔）。",
+    "轮船招商局等企业开创官督商办模式。"
+   ],
+   "evaluations": [
+    {
+     "holder": "清议与传统骂名",
+     "view": "“卖国者”骂名（马关辛丑签约者的公众责任归咎）；梁启超同时期作《李鸿章传》已辨其“只知有洋务不知有国务”的局限——时人评价的两极并存。",
+     "basis": "梁启超《李鸿章传》（1901年）。"
+    },
+    {
+     "holder": "李鸿章自喻",
+     "view": "“我只是一个裱糊匠……如一间破屋，只能修葺而不能改造”（吴永《庚子西狩丛谈》所记其语）——对体制约束的自知。",
+     "basis": "吴永《庚子西狩丛谈》。"
+    },
+    {
+     "holder": "现代史学",
+     "view": "洋务与外交的复杂遗产被分开评价：工业化贡献与妥协外交并存；“卖国”标签被学界视为把体制责任个人化——评价史翻转的典型。",
+     "basis": "近代史研究通说。"
+    }
+   ],
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "zhwp-jiawu",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "cixi",
+   "name": "慈禧太后（叶赫那拉氏）",
+   "birth_year": 1835,
+   "death_year": 1908,
+   "birth_display": "1835年",
+   "death_display": "1908年",
+   "birth_note": "生年1835年为通说（道光十五年，据《清实录》选秀记录逆推，另有1836年说）。",
+   "death_note": "光绪三十四年十月（1908年11月）卒于仪鸾殿（光绪帝前一日崩——光绪死因2008年砷检测证实中毒，凶手问题未决），公元纪年。",
+   "chronology": [
+    {
+     "year": 1835,
+     "display": "1835年（通说）",
+     "text": "生于北京（出身叶赫那拉氏，父惠征）。"
+    },
+    {
+     "year": 1861,
+     "display": "1861年",
+     "text": "辛酉政变（与奕䜣联手除顾命八大臣），垂帘听政开始。"
+    },
+    {
+     "year": 1898,
+     "display": "1898年",
+     "text": "戊戌政变，第三次垂帘。"
+    },
+    {
+     "year": 1900,
+     "display": "1900年",
+     "text": "对列强宣战（庚子决策）、西狩西安。"
+    },
+    {
+     "year": 1901,
+     "display": "1901—1908年",
+     "text": "推行清末新政与预备立宪（1906宣示、1908《钦定宪法大纲》）。"
+    },
+    {
+     "year": 1908,
+     "display": "1908年",
+     "text": "卒；光绪帝前一日崩（死因鉴定为砷中毒——凶手问题未决）。"
+    }
+   ],
+   "deeds": [
+    "实际统治中国47年（1861—1908）——晚清权力结构的真正核心。",
+    "辛酉政变、戊戌政变、庚子宣战与清末新政的决策者——保守与改革交替的双面统治。",
+    "庚子决策（对十一国宣战）为近代史最具争议的决策之一。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统叙事",
+     "view": "祸国殃民的“老佛爷”定调（保守、奢靡、杀戊戌六君子与庚子灾难的责任）。",
+     "basis": "清末民初舆论与史料沉淀。"
+    },
+    {
+     "holder": "现代修正研究",
+     "view": "部分学者强调其在帝党-后党结构中的处境与清末新政的推动作用（张戎等通俗传记与学术讨论之间的分歧较大）；主流学界仍以庚子决策与戊戌政变为重大负面评价——修正与主流并存。",
+     "basis": "清史研究。"
+    }
+   ],
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "sunzhongshan",
+   "name": "孙中山（孙文）",
+   "birth_year": 1866,
+   "death_year": 1925,
+   "birth_display": "1866年",
+   "death_display": "1925年",
+   "birth_note": "据《孙中山年谱》同治五年十月（1866年11月，通行历日换算）生于香山县翠亨村。",
+   "death_note": "1925年3月12日卒于北京协和医院（肝癌），公元纪年。",
+   "chronology": [
+    {
+     "year": 1866,
+     "display": "1866年",
+     "text": "生于香山翠亨。"
+    },
+    {
+     "year": 1894,
+     "display": "1894年",
+     "text": "上书李鸿章未果；11月檀香山创兴中会。"
+    },
+    {
+     "year": 1905,
+     "display": "1905年",
+     "text": "东京成立中国同盟会，提出“三民主义”（《民报》发刊词）。"
+    },
+    {
+     "year": 1911,
+     "display": "1911年",
+     "text": "武昌起义时在海外；12月归国。"
+    },
+    {
+     "year": 1912,
+     "display": "1912年",
+     "text": "任中华民国临时大总统；让位袁世凯。"
+    },
+    {
+     "year": 1917,
+     "display": "1917—1925年",
+     "text": "护法运动、改组国民党、联俄容共（1924年国民党一大）。"
+    },
+    {
+     "year": 1925,
+     "display": "1925年",
+     "text": "北上议和途中病逝于北京；遗嘱“革命尚未成功”。"
+    }
+   ],
+   "deeds": [
+    "推翻帝制的革命领袖：兴中会—同盟会—国民党的组织者与“三民主义”理论家。",
+    "《建国方略》（实业计划）为中国近代国家建设规划的第一个系统蓝本。",
+    "联俄容共与国民党改组——其晚年布局塑造了此后中国政党的组织形态。"
+   ],
+   "evaluations": [
+    {
+     "holder": "国民党传统叙事",
+     "view": "“国父”定位（1940年国民政府通令尊称），三民主义为正统思想。",
+     "basis": "国民政府文献。"
+    },
+    {
+     "holder": "现代史学",
+     "view": "肯定其革命组织与建国方略的开创性；同时指出其军事-财政基础薄弱、早年多次起义失败，“国父”形象亦有造神成分——功业与神话分层处理。",
+     "basis": "民国史研究通说。"
+    }
+   ],
+   "sources": [
+    "zhwp-xinhai",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
