@@ -1,0 +1,120 @@
+{
+ "unit_id": "china-tang",
+ "extra_events": [
+  {
+   "id": "x-tang2-shitong",
+   "title": "刘知几《史通》",
+   "year": 710,
+   "end_year": null,
+   "year_display": "710年",
+   "end_year_display": null,
+   "year_note": "据《旧唐书·刘子玄传》（刘知几避讳字子玄）：景龙四年（710年）《史通》成书；历表换算。",
+   "desc": "《史通》二十卷：系统批判历代史书体例（六家二体）、直书与曲笔（“直笔”篇论史家“仗气直书，不避强御”）与史家三长（才、学、识——“识”尤为难得）。中国史学理论的最高峰之一（世界范围内最早的史学方法论专著之一——学界通行评价）。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang2-nanzhao-tianbao",
+   "title": "天宝战争：唐与南诏",
+   "year": 751,
+   "end_year": 754,
+   "year_display": "751年",
+   "end_year_display": "754年",
+   "year_note": "据《旧唐书》与《新唐书》南诏传：天宝十载（751年）鲜于仲通败于太和城，天宝十三载（754年）再败；历表换算。",
+   "desc": "剑南节度使鲜于仲通苛虐南诏，南诏王阁罗凤倒向吐蕃：唐军两次南征大败（死者数万——数字诸说并存），《南诏德化碑》（766年立）记阁罗凤“岂顾其无益于黎元，有累于陛下”的委屈自辩——边疆大碑保存了唐南关系的一手叙事。",
+   "sources": [
+    "xintangshu",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang2-huima-maoyi",
+   "title": "回纥绢马贸易",
+   "year": 783,
+   "end_year": null,
+   "year_display": "约783年",
+   "end_year_display": null,
+   "year_note": "唐与回纥绢马贸易盛于安史之乱后助唐平乱之际（回鹘马一匹易绢四十匹的比价见《新唐书·食货志》系统），取约783年（回鹘助平安史后的条约化阶段，约数）。",
+   "desc": "回纥助唐平定安史之乱后以马匹换绢（马一匹易绢四十匹——比价见两《唐书》食货志系统），绢价虚高使唐财政不堪其累（白居易《阴山道》诗讽其弊）。绢马贸易与茶马贸易（见宋）一脉相承——中原以农产品换取北方战马的结构性交换。",
+   "sources": [
+    "xintangshu",
+    "tongjian",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang2-changqing-huimeng",
+   "title": "长庆会盟",
+   "year": 821,
+   "end_year": 823,
+   "year_display": "821年",
+   "end_year_display": "823年",
+   "year_note": "据《旧唐书·吐蕃传》：长庆元年（821年）唐蕃会盟于长安，二年盟于逻些，三年（823年）立《唐蕃会盟碑》于拉萨；历表换算。",
+   "desc": "唐穆宗与吐蕃赞普赤祖德赞（热巴巾）互派使节会盟：汉藏两文本会盟碑（拉萨大昭寺前唐蕃会盟碑现存）确立“社稷如一”的舅甥盟约——唐蕃两百年战争与联姻的最后总结。碑文汉藏双刻为汉藏关系史与藏文史料学的基石文献。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-tang2-liuzhiji",
+   "name": "刘知几",
+   "birth_year": 661,
+   "death_year": 721,
+   "birth_display": "661年",
+   "death_display": "721年",
+   "desc": "彭城人，史馆二十年而辞史职（《答萧至忠论史书》申明官修史之弊：“十不可”）：著《史通》（见延伸事件条）。其“三长”说（才学识）与直笔论为史家职业伦理的最早系统表述；其子刘秩、孙刘知柔皆以文史显——史学世家。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang2-duyou",
+   "name": "杜佑",
+   "birth_year": 735,
+   "death_year": 812,
+   "birth_display": "735年",
+   "death_display": "812年",
+   "desc": "京兆杜氏，三十六年编成《通典》二百卷（801年进呈）：分食货、选举、职官、礼、乐、兵刑、州郡、边防八门——中国第一部典制体通史（“以食货为首”的制度经济史取向）。任淮南节度使与宰相，理财与史学兼擅；《通典》为三通之首。",
+   "sources": [
+    "jiutangshu",
+    "zgbk",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang2-baijuyi",
+   "name": "白居易",
+   "birth_year": 772,
+   "death_year": 846,
+   "birth_display": "772年",
+   "death_display": "846年",
+   "desc": "太原人，《长恨歌》（806年）《琵琶行》（816年）与《新乐府》五十首（“惟歌生民病”的讽喻诗纲领——与元稹共倡新乐府）；诗存近三千首为唐诗人存诗之冠。其“文章合为时而著，歌诗合为事而作”（《与元九书》）的写实主张与杭州刺史任内治湖（白堤传说）兼顾文人政绩。",
+   "sources": [
+    "jiutangshu",
+    "xintangshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

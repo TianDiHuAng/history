@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-qin",
+ "extra_events": [
+  {
+   "id": "x-qin2-shiier-jinren",
+   "title": "收天下之兵，铸金人十二",
+   "year": -221,
+   "end_year": null,
+   "year_display": "前221年",
+   "end_year_display": null,
+   "year_note": "据《史记·秦始皇本纪》\"收天下兵，聚之咸阳，销以为钟鐻，金人十二\"，系于二十六年（前221年）；历表换算。",
+   "desc": "收缴民间兵器铸十二金人（各重千石——贾谊《过秦论》\"销锋铸鐻\"与《史记》互证）置于宫廷，配合迁豪富、堕城郭——对民间武装的系统性解除。金人下落（董卓销毁说等）后世传说纷纭；其禁兵逻辑是秦制\"弱民\"政策的象征性工程（数字\"千石\"或系夸饰，学界存疑）。",
+   "sources": [
+    "shiji",
+    "qianmu-guoshi",
+    "zgbk"
+   ],
+   "needs_verification": true,
+   "pending_notes": "金人重量（\"重各千石\"）与下落均系后世记载，无法核证；本条仅叙其政策与象征意义。"
+  },
+  {
+   "id": "x-qin2-xingtu-mudi",
+   "title": "秦始皇陵西侧刑徒墓地的考古确认",
+   "year": -210,
+   "end_year": null,
+   "year_display": "约前210年（下葬年代）",
+   "end_year_display": null,
+   "year_note": "刑徒墓下葬年代据瓦志与墓葬考古推断属始皇陵修筑期（约前212—前210年间），取约前210年（据《史记》陵工记载与考古发掘互证的约数）。",
+   "desc": "赵背户刑徒墓地（近百座墓葬）瓦文记\"东武居赀上造庆忌\"等籍贯刑名——与《史记》\"隐宫徒刑者\"记载互证，把修陵劳役的死难落实到个体名籍。刑徒墓考古为评价秦代徭役制度提供了最直接的人骨与文字证据（与主事件阿房宫骊山陵条互参）。",
+   "sources": [
+    "kaogu-cass",
+    "whc-qinling",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-qin2-wangwan",
+   "name": "王绾",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（秦丞相）",
+   "death_display": "卒年不可考",
+   "desc": "统一之初的丞相：主张分封诸子（见主事件廷议条），失败后仍主持制度事务（议帝号、定礼仪）。其分封主张被李斯驳倒，但秦廷内部\"分封-郡县\"之争在汉初以郡国并行形式部分回归——失败政策的长期回声。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "lvsimian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qin2-mengyi",
+   "name": "蒙毅",
+   "birth_year": null,
+   "death_year": -210,
+   "birth_display": "生年不可考（蒙恬之弟）",
+   "death_display": "前210年",
+   "desc": "蒙恬之弟，位至上卿\"出则参乘，入则御前\"（《史记》语），与兄分掌军政——蒙氏一门两贵的顶点。沙丘之变后与兄同被清算（蒙毅被杀于先）；蒙氏之亡显示秦廷军政家族在权力真空期的极端脆弱。",
+   "sources": [
+    "shiji",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

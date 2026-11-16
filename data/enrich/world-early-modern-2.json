@@ -1,0 +1,122 @@
+{
+ "unit_id": "world-early-modern",
+ "extra_events": [
+  {
+   "id": "x-wem2-gregorian-calendar",
+   "title": "格里历改革",
+   "year": 1582,
+   "end_year": null,
+   "year_display": "1582年",
+   "end_year_display": null,
+   "year_note": "格里高利十三世1582年2月颁布敕令，10月4日后跳至10月15日（删十日）；新教国家与东正教国家迟至18—20世纪才采用（英国1752年、俄国1918年）——牛顿生年换算案例（见 W4 人物条）的历法背景。",
+   "desc": "儒略历每128年误差一天，复活节日期错位引发教历危机：里利乌斯设计、格里高利十三世颁行的格里历（400年97闰）使回归年误差降至每3300年一天。全球历法统一（各国渐次采用）是近代“时间标准化”的第一步——历法改革中的科学-宗教-政治博弈。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "brit-newton"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem2-spanish-armada",
+   "title": "西班牙无敌舰队的覆灭",
+   "year": 1588,
+   "end_year": null,
+   "year_display": "1588年",
+   "end_year_display": null,
+   "year_note": "据英西两方档案对读：1588年5月无敌舰队（约130艘）出里斯本，7月格拉沃利讷海战失利，返程遭风暴损失过半；公元纪年，无换算问题。",
+   "desc": "腓力二世以“无敌舰队”（Armada Invencible）入侵英格兰复辟天主教，遭英军火船夜袭与风暴（“新教之风”——伊丽莎白纪念币铭），损失约三分之一舰船。海权从西班牙向英国转移的象征性转折（实际海权竞争延续至17世纪——修正史观）；德雷克与霍金斯的海盗-海军混合体系经此战正名。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "brit-reformation"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem2-english-eic",
+   "title": "英国东印度公司",
+   "year": 1600,
+   "end_year": null,
+   "year_display": "1600年（特许）",
+   "end_year_display": null,
+   "year_note": "1600年12月31日伊丽莎白一世授予“对东印度贸易的伦敦商人总裁与公司”皇家特许状（15年期限，后反复续展至1874年解散）；公元纪年，无换算问题。",
+   "desc": "英国东印度公司以股份制（终身可转让股份）与私营武力（后达二十六万人级——军队规模超过英国本土陆军，19世纪口径）经营印度：孟加拉（1757年普拉西之战）后公司统治印度（“公司统治” Company Raj），1857年大起义后英国政府直接接管。世界上第一家跨国公司与其“公司即政府”的殖民形态——现代企业与国家关系的最早极端案例。",
+   "sources": [
+    "stearns-global",
+    "hobsbawm",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem2-tulip-mania",
+   "title": "郁金香狂热：第一次金融泡沫",
+   "year": 1637,
+   "end_year": null,
+   "year_display": "1637年2月（崩盘）",
+   "end_year_display": null,
+   "year_note": "荷兰郁金香球茎期货价格1637年2月初崩盘（投机期1634—1637年）；据荷兰档案与现代经济学史研究（Goldgar 修正研究认为投机规模与受害者范围远小于传统叙事）；公元纪年，无换算问题。",
+   "desc": "荷兰黄金时代对珍稀郁金香球茎（条纹病毒花）的投机在1637年2月崩塌——传统叙事称之为“世界第一次金融泡沫”。麦凯《非同寻常的大众妄想》把它写成大众疯狂的经典；现代修正研究（Goldgar）表明实际损失集中且多在小额契约——泡沫神话本身成为金融史研究的方法论案例（“泡沫的神话比泡沫更大”）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "le-goaa-jp"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem2-leviathan",
+   "title": "霍布斯《利维坦》",
+   "year": 1651,
+   "end_year": null,
+   "year_display": "1651年",
+   "end_year_display": null,
+   "year_note": "1651年《利维坦》于伦敦出版（内战流亡巴黎期间写就，封面“利维坦”版画出自 Abraham Bosse）；公元纪年，无换算问题。",
+   "desc": "霍布斯以内战恐惧为思想背景：人人在自然状态下陷入“一切人对一切人的战争”，唯有契约把权利让渡给主权者（“利维坦”——圣经海怪之名指称国家），主权不可分割、不可反抗。现代政治哲学以契约论与主权概念的奠基之作（洛克、卢梭、罗尔斯皆与其对话）——政治学从神学转向科学的分水岭之一。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wem2-hobbes",
+   "name": "托马斯·霍布斯",
+   "birth_year": 1588,
+   "death_year": 1679,
+   "birth_display": "1588年（其母因无敌舰队逼近受惊早产——霍布斯本人的自述轶事）",
+   "death_display": "1679年",
+   "desc": "牧师之子、培根的秘书（《利维坦》作者，见延伸事件条）：几何学方法应用于政治（“政治身体如机械钟表”的机械论国家观）。与清教流亡圈（巴黎皇家学会圈子）的交集、与主教布拉姆霍尔的论战（自由意志问题）——英国内战催生的第一位现代政治哲学家。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "brit-reformation"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wem2-descartes",
+   "name": "勒内·笛卡尔",
+   "birth_year": 1596,
+   "death_year": 1650,
+   "birth_display": "1596年",
+   "death_display": "1650年",
+   "desc": "图赖讷人，客居荷兰二十年：《方法谈》（1637，“我思故我在”）与《几何学》（解析坐标几何的发明）——把代数与几何统一的坐标法使数学物理化成为可能。瑞典女王克里斯蒂娜的哲学课（每周三次清晨五点）使其客死于斯德哥尔摩——启蒙理性先驱的宫廷悲剧。",
+   "sources": [
+    "bentley-cross",
+    "met-toah",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

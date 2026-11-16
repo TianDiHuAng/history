@@ -1,0 +1,90 @@
+{
+ "unit_id": "world-ancient",
+ "extra_events": [
+  {
+   "id": "x-wa2-lipit-ishtar-code",
+   "title": "里皮特-伊什塔尔法典",
+   "year": -1930,
+   "end_year": null,
+   "year_display": "约前1930年",
+   "end_year_display": null,
+   "year_note": "伊新王朝里皮特-伊什塔尔法典（苏美尔语）通说约前1930年（中年代说，约数）——早于《汉谟拉比法典》约一百七十年。",
+   "desc": "现存最早的苏美尔语成文法典残片（序言、正文数十条）：与前代乌尔纳姆法典同为“罚金多于同态复仇”的立法传统；其序言称王为“使苏美尔与阿卡德公义确立者”。法典的“正义宣告”传统（序言宣示）经汉谟拉比延续——近东立法传统的系谱链。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "enwp-sumer"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wa2-enuma-elish",
+   "title": "《埃努玛·埃利什》创世史诗",
+   "year": -1700,
+   "end_year": null,
+   "year_display": "约前1700年（前18世纪）",
+   "end_year_display": null,
+   "year_note": "《埃努玛·埃利什》古巴比伦版约成于前18世纪（据加喜特时期抄本回推，学界通说约数）。",
+   "desc": "巴比伦创世史诗：马尔都克神击败原初女神提亚马特、以她的尸体造天地——把巴比伦城抬升为宇宙中心的神学政治文本。每年新年节（Akitu）朗读其创世段落（王权重申仪式——宗教史学界通说）。其“神以敌尸造世”的母题与近东各创世传统互文。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "british-museum"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wa2-telipinu-edict",
+   "title": "铁列平敕令：最早的王位继承法",
+   "year": -1500,
+   "end_year": null,
+   "year_display": "约前1500年（前15世纪）",
+   "end_year_display": null,
+   "year_note": "铁列平敕令（二世泥板）据赫梯年代学（旧赫梯王国晚期，通说）定在约前16—15世纪之间，取约前1500年（约数，据中年代说推排）。",
+   "desc": "赫梯王铁列平以敕令确立王位继承规则（长子优先、无子则长子女婿递补）并禁止王族相残（“王子不得杀兄弟姐妹”——敕令原意），赫梯语楔文文本为现存最早的成文王位继承法。其敕令对“王族内乱”的制度性预防尝试与巴比伦、埃及的实践形成对照（比较宪政史的材料）。",
+   "sources": [
+    "enwp-hittites",
+    "cambridge-ancient",
+    "british-museum"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wa2-tutankhamun-tomb",
+   "title": "图坦卡蒙陵墓",
+   "year": -1332,
+   "end_year": null,
+   "year_display": "约前1332年",
+   "end_year_display": null,
+   "year_note": "图坦卡蒙封葬约前1332年前后，据其卒年（前1336—前1327年在位诸说，通说卒于约前1327年，埃及年代学）推排；考古断代据 KV62 墓室器物与封印。",
+   "desc": "图坦卡蒙陵（KV62）是帝王谷唯一基本未遭盗扰的法老陵墓：五千余件随葬品（黄金面具重10.23公斤）完整保存——“少年法老”的英年早逝与其无足轻重的在位形成反差，使其成为现代最著名的古埃及符号。1922年卡特发掘开启的“图坦卡蒙热”与“法老诅咒”传说（媒体建构）共同塑造了现代大众考古学。",
+   "sources": [
+    "enwp-ancient-egypt",
+    "met-toah",
+    "cambridge-ancient"
+   ],
+   "needs_verification": true,
+   "pending_notes": "图坦卡蒙封葬年代（约前1332年）与其世系关系（阿肯那吞之子说/兄弟说）均有学术分歧；在位年诸说并存。"
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wa2-imhotep",
+   "name": "伊姆霍特普",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（左塞尔朝名相与建筑师，约前2670年前后活动）",
+   "death_display": "卒年不可考",
+   "desc": "左塞尔的宰相与阶梯金字塔设计师（见延伸事件条），兼任医者与文士——古代留名第一位建筑师（其名与官衔见于同时代铭文，罕见）。托勒密时代被神化为医神（Imouthes 神庙与青铜像），《亡灵书》亦有引其名——从史实人物到神的历史，与阿斯克勒庇俄斯平行。",
+   "sources": [
+    "enwp-ancient-egypt",
+    "met-toah",
+    "cambridge-ancient"
+   ],
+   "needs_verification": true
+  }
+ ]
+}

@@ -94,7 +94,8 @@ def header(title, depth=0, active=""):
     nav_items = [
         ("", "首页"), ("china/", "中国"), ("world/", "世界"),
         ("timeline/china.html", "中国时间线"), ("timeline/world.html", "世界时间线"),
-        ("compare/", "中外对照"), ("all-events.html", "索引"), ("sources/", "来源"),
+        ("compare/", "中外对照"), ("all-events.html", "事件索引"), ("all-people.html", "人物索引"),
+        ("centuries.html", "世纪总览"), ("sources/", "来源"),
     ]
     links = []
     for href, label in nav_items:
@@ -483,6 +484,84 @@ def all_events_page(china, world, depth):
     return header("全站事件索引", depth, active="索引") + body + footer()
 
 
+def centuries_page(china, world, depth):
+    """世纪总览：按世纪汇总中国/世界条目数与代表性条目。"""
+    rows = {}
+
+    def bucket(y):
+        if y < 0:
+            c = -(((-y + 99) // 100))  # 前1234 → -13（前13世纪）
+            label = f"前{-c}世纪"
+        else:
+            c = (y + 99) // 100
+            label = f"{c}世纪"
+        return (c, label)
+
+    def add(u, ev, col, is_extra):
+        c, label = bucket(ev["year"])
+        key = c
+        rows.setdefault(key, {"label": label, "china": [], "world": []})
+        mark = "·" if is_extra else ""
+        piece = f"{mark}{esc(ev['title'])}" if is_extra else \
+            f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
+        rows[key][col].append((u["title"], piece))
+
+    for u in china:
+        for ev in u["events"]:
+            add(u, ev, "china", False)
+        for ev in (u.get("_extra") or {}).get("extra_events") or []:
+            add(u, ev, "china", True)
+    for u in world:
+        for ev in u["events"]:
+            add(u, ev, "world", False)
+        for ev in (u.get("_extra") or {}).get("extra_events") or []:
+            add(u, ev, "world", True)
+
+    trs = []
+    for c in sorted(rows):
+        r = rows[c]
+        cl = "".join(f"<div class='meta'>〔{esc(t)}〕{p}</div>" for t, p in r["china"][:12])
+        wl = "".join(f"<div class='meta'>〔{esc(t)}〕{p}</div>" for t, p in r["world"][:12])
+        cn = f"（{len(r['china'])} 条）" if r["china"] else ""
+        wn = f"（{len(r['world'])} 条）" if r["world"] else ""
+        cl = f"<b>{esc(cn)}</b>" if r["china"] else cl
+        cl = f"<b>{cn}</b>{cl}" if r["china"] else "—"
+        wl = f"<b>{wn}</b>{wl}" if r["world"] else "—"
+        trs.append(f"<tr><td class='year'>{esc(r['label'])}</td><td>{cl}</td><td>{wl}</td></tr>")
+    body = f"""
+<h1>世纪总览</h1>
+<p class="meta">以世纪为粒度汇总全部 {sum(len(r['china']) + len(r['world']) for r in rows.values())} 条条目（含延伸条目）；每格列举至多 12 条，"·"前缀为延伸条目。仅并列，不做因果解释。</p>
+<table><tr><th>世纪</th><th>中国</th><th>世界</th></tr>{''.join(trs)}</table>
+"""
+    return header("世纪总览", depth, active="世纪总览") + body + footer()
+
+
+def all_people_page(china, world, depth):
+    entries = []
+    for u in china + world:
+        region = "中国" if u["region"] == "china" else "世界"
+        for p in u["people"]:
+            entries.append((p.get("birth_year") if p.get("birth_year") is not None else 99999, region, u, p, True))
+        for xp in (u.get("_extra") or {}).get("extra_people") or []:
+            entries.append((xp.get("birth_year") if xp.get("birth_year") is not None else 99999, region, u, xp, False))
+    entries.sort(key=lambda t: (t[0], t[3].get("name", "")))
+    rows = []
+    for by, region, u, p, has_page in entries:
+        if has_page:
+            name = f"<a href='people/{p['id']}.html'>{esc(p.get('name',''))}</a>"
+        else:
+            name = f"<span class='meta'>{esc(p.get('name',''))}</span>"
+        rows.append(f"<tr><td class='year'>{esc(str(p.get('birth_display') or '生卒不可考'))}</td>"
+                    f"<td>{region}</td><td>{esc(u['title'])}</td>"
+                    f"<td>{name}<br><span class='meta'>{esc((p.get('desc') or '')[:60])}</span></td></tr>")
+    body = f"""
+<h1>人物总索引</h1>
+<p class="meta">全部 {len(entries)} 位人物（含其他重要人物）按出生年排序（生卒不可考者列末）；黑色有详情页，灰色见单元页"其他重要人物"。</p>
+<table><tr><th>生年</th><th>地区</th><th>单元</th><th>人物与简介</th></tr>{''.join(rows)}</table>
+"""
+    return header("人物总索引", depth, active="人物索引") + body + footer()
+
+
 def main():
     srcdoc = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
     srcmap = {s["id"]: s for s in srcdoc["sources"]}
@@ -524,6 +603,8 @@ def main():
 
     write("index.html", index_page(china, world, 0))
     write("all-events.html", all_events_page(china, world, 0))
+    write("all-people.html", all_people_page(china, world, 0))
+    write("centuries.html", centuries_page(china, world, 0))
     write("china/index.html", unit_list_page(china, "china", "中国部分（按朝代）", 1))
     write("world/index.html", unit_list_page(world, "world", "世界部分（按时期）", 1))
     write("timeline/china.html", timeline_page(china, "china", 1))

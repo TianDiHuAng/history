@@ -1,0 +1,118 @@
+{
+ "unit_id": "china-song",
+ "extra_events": [
+  {
+   "id": "x-song2-yuanyou-dangbeibei",
+   "title": "元祐党籍碑",
+   "year": 1102,
+   "end_year": null,
+   "year_display": "1102年",
+   "end_year_display": null,
+   "year_note": "据《宋史》徽宗纪与《元祐党籍碑》摹刻本：崇宁元年（1102年）蔡京立党人碑于端礼门（三百零九人），1104年增至五百余人，1106年因星变毁碑；历表换算。",
+   "desc": "徽宗朝蔡京把元祐旧党（司马光苏轼等，后扩及韩忠彦等）三百零九人定为“奸党”，御书刻石、子孙不得官京师——党争从政治清算变为碑铭羞辱。现存桂林龙隐岩摹刻碑（南宋庆元年间重刻）为党争文献的实物；党人后代（如陆游家族）的反向叙事亦由此生长。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song2-qingyuan-dangjin",
+   "title": "庆元党禁",
+   "year": 1196,
+   "end_year": 1202,
+   "year_display": "1196年",
+   "end_year_display": "1202年",
+   "year_note": "据《宋史》：庆元元年（1195年）赵汝愚罢相、二年（1196年）定道学为“伪学”之禁（列名伪学逆党五十九人），至嘉泰二年（1202年）弛禁；历表换算。",
+   "desc": "韩侂胄与道学之争升级为“伪学逆党”之禁：朱熹落职罢祠、其学被斥为伪学（蔡元定流放道州死于贬所）。党禁反而使道学获得道德声望；弛禁后理学在南宋后期官学化（理宗朝正式确立）——迫害与官学化之间的辩证循环。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song2-xiyuan-jilü",
+   "title": "宋慈《洗冤集录》：世界最早的法医学专著",
+   "year": 1247,
+   "end_year": null,
+   "year_display": "1247年",
+   "end_year_display": null,
+   "year_note": "据《洗冤集录》宋慈自序：淳祐七年（1247年）成书刊行（湖南提点刑狱任上）；历表换算。",
+   "desc": "提点刑狱官宋慈集历年检尸验伤经验成《洗冤集录》五卷：尸斑、窒息、中毒、生前伤与死后伤的鉴别（“自缢与勒死”“溺死与死后入水”的鉴别要领），为世界现存最早的系统性法医学著作（被译为荷、法、英等多种文字——法医学史通说）。中国司法检验传统的文献顶点。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-song2-fanzhongyan",
+   "name": "范仲淹",
+   "birth_year": 989,
+   "death_year": 1052,
+   "birth_display": "989年",
+   "death_display": "1052年",
+   "desc": "苏州吴县人，两岁而孤、断齑画粥苦读：戍边御西夏（“军中有一范，西贼闻之惊破胆”——时人边谣）而主持庆历新政（见主事件条）；《岳阳楼记》“先天下之忧而忧，后天下之乐而乐”（1046年作）成为士大夫精神的最高表述。义庄（苏州范氏义庄，1049年设）为宗族公益组织的典范。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "deng-xiaonan-zuzong"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-song2-zhoudunyi",
+   "name": "周敦颐",
+   "birth_year": 1017,
+   "death_year": 1073,
+   "birth_display": "1017年",
+   "death_display": "1073年",
+   "desc": "道州营道人，理学开山：《太极图说》（无极而太极的宇宙论）与《爱莲说》(“出淤泥而不染”)；二程（程颢程颐）为其门下（见主事件条理学）。其名晚至南宋朱熹表彰后才进入道统（濂溪先生——九江濂溪书堂）——思想家身后经典化的典型。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-song2-huangtingjian",
+   "name": "黄庭坚",
+   "birth_year": 1045,
+   "death_year": 1105,
+   "birth_display": "1045年",
+   "death_display": "1105年",
+   "desc": "洪州分宁人，苏门四学士之首：诗与苏轼并称“苏黄”（江西诗派之祖，“点铁成金、夺胎换骨”的诗法论），书法列宋四家（行书《松风阁》、草书《诸上座帖》）。因《神宗实录》文字狱（元祐党禁余波）贬宜州，卒于贬所——宋代文字狱的文学受害者。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "npm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-song2-songci",
+   "name": "宋慈",
+   "birth_year": 1186,
+   "death_year": 1249,
+   "birth_display": "1186年（通说）",
+   "death_display": "1249年",
+   "desc": "建阳人，四任提点刑狱官，《洗冤集录》作者（见延伸事件条）。其“狱事莫重于大辟，大辟莫重于初情，初情莫重于检验”（自序语）确立司法检验的职业伦理；广东提刑任内八个月查明积案——司法实务家的典范。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

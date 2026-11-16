@@ -1,0 +1,103 @@
+{
+ "unit_id": "china-wudai-shiguo",
+ "extra_events": [
+  {
+   "id": "x-wd2-chu-chama",
+   "title": "楚马殷的茶马经济",
+   "year": 907,
+   "end_year": 951,
+   "year_display": "907年（起）",
+   "end_year_display": "951年",
+   "year_note": "马殷907年受后梁封楚王（据潭州），至951年南唐灭楚；公元纪年，无换算问题。",
+   "desc": "马殷据湖南，听民自采茶卖于北客（“不征榷茶”的自由贸易政策——《十国春秋》系统所记），以茶叶易中原绫绢与战马；楚不用钱而用铅铁钱、以帛代税——五代罕见的自由贸易型政权（经济史学界对楚政权的正面评价）。951年楚亡于南唐，旋被楚将残部逐出。",
+   "sources": [
+    "jiuwudaishi",
+    "xinwudaishi",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wd2-min-guojia",
+   "title": "闽国与海上贸易",
+   "year": 909,
+   "end_year": 945,
+   "year_display": "909年",
+   "end_year_display": "945年",
+   "year_note": "王审知909年受后梁封闽王（907年据福州起）；945年闽为南唐所灭；公元纪年，无换算问题。",
+   "desc": "王审知兄弟治闽三十九年：“招来海上蛮夷商贾”、开辟甘棠港（招宝港）、兴福州泉州之学（“四门义学”）——闽国使福州成为海贸枢纽。王氏末年兄弟相残（943年王延政建殷国分裂），945年南唐灭闽；闽将留从效据泉州（清源军）继续海外贸易——泉州港崛起的地方政权前史。",
+   "sources": [
+    "jiuwudaishi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wd2-nanhan-haiwai",
+   "title": "南汉与海外贸易",
+   "year": 917,
+   "end_year": 971,
+   "year_display": "917年",
+   "end_year_display": "971年",
+   "year_note": "刘䶮917年称帝建南汉（都广州兴王府），971年为宋所灭；公元纪年，无换算问题。",
+   "desc": "南汉据岭南五十四年，倚广州港与海上贸易（“笼海而商”——招致海中蛮夷商贾），刘䶮与中后期诸主暴虐（酷刑与宦官专政——宗室与士人几乎被宦官集团垄断）。971年宋将潘美平南汉；南汉的海贸遗产由北宋广州市舶司直接继承。",
+   "sources": [
+    "jiuwudaishi",
+    "songshi",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wd2-mengchang",
+   "name": "孟昶",
+   "birth_year": 919,
+   "death_year": 965,
+   "birth_display": "919年",
+   "death_display": "965年",
+   "desc": "后蜀后主：前期的“戒石铭”（“尔俸尔禄，民膏民脂”——颁于州县官署的廉政训诫，宋以后沿用于全国官署）与花蕊夫人、芙蓉城传说并存；后期骄奢，964年宋伐蜀，66日而降（乾德三年成都陷）。押解途中卒于汴京；其书法与《玉楼春》词传世（真伪有辨）。",
+   "sources": [
+    "jiuwudaishi",
+    "songshi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wd2-mayin",
+   "name": "马殷",
+   "birth_year": 852,
+   "death_year": 930,
+   "birth_display": "852年",
+   "death_display": "930年",
+   "desc": "许州鄢陵木匠出身（“木匠”出身说见十国史料传统），应募从军后据湖南：尊中原正朔、不兴兵事、纵民间售茶——楚国的建立者与“茶马湖南”模式的设计者（见延伸事件条）。其子马希声希范等诸弟相争，951年楚亡。",
+   "sources": [
+    "jiuwudaishi",
+    "xinwudaishi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wd2-liuyan",
+   "name": "刘䶮（南汉高祖）",
+   "birth_year": 889,
+   "death_year": 942,
+   "birth_display": "889年",
+   "death_display": "942年",
+   "desc": "原封州刺史刘谦之子，917年称帝（国号大越，翌年改汉）——岭南第一个称帝政权；倚广州海贸立国，铸“乾亨重宝”铅钱。晚年暴虐（用刑酷烈见史载）；南汉后期的宦官王国（刘鋹时宦官二万人级——数字诸说并存，见延伸事件条南汉）自此制度。",
+   "sources": [
+    "jiuwudaishi",
+    "songshi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

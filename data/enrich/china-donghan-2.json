@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-donghan",
+ "extra_events": [
+  {
+   "id": "x-dh2-shijiao-lunheng",
+   "title": "王充《论衡》与谶纬批判",
+   "year": 86,
+   "end_year": null,
+   "year_display": "约86年",
+   "end_year_display": null,
+   "year_note": "《论衡》八十五篇成书于章帝元和年间前后（王充自纪\"年渐七十\"时成），通说约86年（约数）。",
+   "desc": "王充以\"疾虚妄\"为纲系统批判谶纬迷信（雷为火、\"日中近而热\"的观测论证），其《问孔》《刺孟》直指经典——东汉思想界最系统的怀疑论者。其书因\"异端\"而长期流传受限（袁山松《后汉书》始显），王充成为后世（含近代）反迷信思想的远祖符号。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh2-jiuzhang-suanshu",
+   "title": "《九章算术》的定本",
+   "year": 100,
+   "end_year": null,
+   "year_display": "约100年（1世纪中后期）",
+   "end_year_display": null,
+   "year_note": "《九章算术》经西汉张苍耿寿昌删补，定本约在东汉初（约1世纪中后期），刘徽263年注时已有定本——通说约数。",
+   "desc": "九章（方田、粟米、衰分、少广、商功、均输、盈不足、方程、勾股）246题，以\"问题—术文\"体例成书：负数运算、盈不足术、方程消元领先世界（正负术为世界最早的负数运算法则——数学史通说）。其应用题导向塑造了中国数学传统（与希腊公理化路径相对），刘徽注使其达到理论高度。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-dh2-banzhao",
+   "name": "班昭（曹大家）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约49—约120年，推算存疑）",
+   "death_display": "卒年不可考",
+   "desc": "班固之妹，续成《汉书》八表与天文志（和帝命其就东观藏书阁续撰），成为中国第一位女性史学家；兼作《女诫》七篇（女性规训文本，后世女德教育的源头之一，现代评价两极）。和帝命其入东观藏书阁续撰《汉书》、邓太后临朝时参预政事——东汉女性知识人的制度性空间。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-dh2-wangchong",
+   "name": "王充",
+   "birth_year": 27,
+   "death_year": null,
+   "birth_display": "27年",
+   "death_display": "卒年不可考（约97年前后，推算）",
+   "desc": "会稽上虞人，出身\"细族孤门\"，著《论衡》（见延伸事件条）；\"世书伪文，多我实有\"的自负与其寒微境遇并存。其无神论论证（雷火说、鬼神\"见之者皆为想象\"）为中国古代怀疑论的顶点；汉代思想的异端传统（与谶纬主流对立）以其为标志。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

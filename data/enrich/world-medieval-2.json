@@ -1,0 +1,120 @@
+{
+ "unit_id": "world-medieval",
+ "extra_events": [
+  {
+   "id": "x-wm2-gregorian-reform",
+   "title": "格里高利改革与授职权之争",
+   "year": 1073,
+   "end_year": 1085,
+   "year_display": "1073年",
+   "end_year_display": "1085年",
+   "year_note": "格里高利七世1073年即位、1075年《教皇敕令》宣示教权至上；1077年卡诺莎之行（亨利四世雪地跪求赦免——中世纪最著名的政治戏剧）；格里高利1085年死于流放；公元纪年，无换算问题。",
+   "desc": "格里高利七世宣示教皇有权废黜世俗君主（“教皇如太阳，皇帝如月亮”——《教皇敕令》系统表述的通行概括），与皇帝亨利四世的授职权战争（主教任命权）以卡诺莎之辱与沃尔姆斯宗教协定（1122年折中）收场。教会独立于世俗权力的第一次系统胜利——中世纪教权-王权关系的宪法性转折。",
+   "sources": [
+    "cambridge-medieval",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-gothic-architecture",
+   "title": "哥特式建筑的诞生",
+   "year": 1140,
+   "end_year": null,
+   "year_display": "约1140年",
+   "end_year_display": null,
+   "year_note": "圣丹尼修道院教堂院长絮热主持的重建（约1140—1144年）被视为哥特式开端（艺术史通说，约数）。",
+   "desc": "絮热以尖拱、肋状拱顶与大面积彩窗（光=神学的物质化——其自述门铭“黑暗之心因光而澄清”式的表述）重建圣丹尼，沙特尔（1194年重建）、巴黎圣母院（1163年动工）、亚眠等大教堂接力；飞扶壁结构使墙可开巨窗——建筑技术（应力计算的经验化）与神学（光之神学，Pseudo-Dionysius 传统）的同构。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "le-goaa-jp"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-aquinas-summa",
+   "title": "托马斯·阿奎那《神学大全》",
+   "year": 1265,
+   "end_year": 1274,
+   "year_display": "1265年",
+   "end_year_display": "1274年",
+   "year_note": "《神学大全》写作于1265—1274年（未完成而卒）；1323年封圣，1879年《永恒之父》通谕定其哲学为天主教官方哲学；公元纪年，无换算问题。",
+   "desc": "阿奎那以亚里士多德哲学系统重构天主教神学（《神学大全》六百三十一问、万条论证：五路证明上帝存在等），调和理性与启示——经院哲学的顶点。其自然法理论与“恩典成全自然”的立场影响天主教社会思想至今；新教与启蒙对经院哲学的批判在20世纪被新托马斯主义部分重估。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "le-goaa-jp"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-avignon-one-thousand-nights",
+   "title": "《一千零一夜》的埃及定本",
+   "year": 1400,
+   "end_year": null,
+   "year_display": "约1400年（15世纪埃及定本）",
+   "end_year_display": null,
+   "year_note": "《一千零一夜》的故事核（波斯《赫扎尔·阿夫萨那》“一千个故事”）经8—9世纪阿拉伯化，叙利亚古抄本（14世纪）与埃及定本（15世纪增补）构成两系文本；本条以埃及定本为主年（约数）。",
+   "desc": "山鲁佐德讲故事保命的框架叙事汇集印度、波斯、埃及、希腊与民间故事（辛伯达、阿拉丁、阿里巴巴为后期增入——《一千零一夜》文本分层研究的著名结论）。18世纪加朗法译本使其风行欧洲（尼采、博尔赫斯的阅读谱系）——跨文明故事循环的世界文学标本。",
+   "sources": [
+    "met-toah",
+    "cambridge-medieval",
+    "bentley-cross"
+   ],
+   "needs_verification": true,
+   "pending_notes": "《一千零一夜》为多层累积文本，各卷成书年代不可确指（叙利亚系/埃及系两系并存），year 为示意值。"
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm2-aquinas",
+   "name": "托马斯·阿奎那",
+   "birth_year": 1225,
+   "death_year": 1274,
+   "birth_display": "1225年",
+   "death_display": "1274年",
+   "desc": "罗卡塞卡伯爵之子，多明我会士、科隆大阿尔伯特弟子：巴黎大学“天使博士”（Summa 作者，见延伸事件条）。临终言“我写的一切如稻草”（转述自其秘书的记载——文献分层注意）；其亚里士多德化神学使理性与信仰的分工（自然理性与启示真理各安其位）成为天主教千年框架。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "le-goaa-jp"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm2-averroes",
+   "name": "阿威罗伊（伊本·鲁世德）",
+   "birth_year": 1126,
+   "death_year": 1198,
+   "birth_display": "1126年",
+   "death_display": "1198年",
+   "desc": "科尔多瓦法学家与哲学家，亚里士多德全集的阿拉伯注释者（“评论家”——拉丁世界对其称号）：主张哲学真理与宗教真理为同一真理的两条路径（《矛盾不一致的解决》）。拉丁阿威罗伊主义（巴黎的“双重真理”争议）经其译介深刻影响欧洲思想——“西学东源”反向流动的枢纽。",
+   "sources": [
+    "met-toah",
+    "cambridge-medieval",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm2-petrarch",
+   "name": "彼特拉克",
+   "birth_year": 1304,
+   "death_year": 1374,
+   "birth_display": "1304年",
+   "death_display": "1374年",
+   "desc": "阿雷佐出生的佛罗伦萨流亡家族后裔，“人文主义之父”：搜访古典手稿（发现西塞罗书信，1333年起）、以拉丁语获桂冠诗人（1341年）、用意大利语写《歌集》（劳拉三六六首十四行诗）。其对“中世纪”的贬称与“古典再生”的时间意识（三时代论的前身）首次把历史分期化为观念——文艺复兴自我意识的诞生。",
+   "sources": [
+    "cambridge-medieval",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

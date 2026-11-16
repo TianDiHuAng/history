@@ -1,0 +1,86 @@
+{
+ "unit_id": "china-ming",
+ "extra_events": [
+  {
+   "id": "x-ming2-ningyuan-zhizhan",
+   "title": "宁远之战",
+   "year": 1626,
+   "end_year": null,
+   "year_display": "1626年",
+   "end_year_display": null,
+   "year_note": "据《明史》与《清实录》对读：天启六年正月（1626年，努尔哈赤攻宁远），袁崇焕以红夷大炮守城获胜，努尔哈赤此役后数月病逝；历表换算。",
+   "desc": "袁崇焕守宁远（“凭坚城用大炮”方略），红夷大炮（荷兰制加农炮的仿制品——“红夷”名义来源）击退后金主力，努尔哈赤起兵以来首次大挫败。宁远胜利确立明军“关宁锦防线”的守势信心；后金转向绕道蒙古入塞（此后皇太极数次入口）——辽东攻防的战术转折点。",
+   "sources": [
+    "mingshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-ming2-chongzhen-lishhu",
+   "title": "《崇祯历书》的编纂",
+   "year": 1629,
+   "end_year": 1634,
+   "year_display": "1629年",
+   "end_year_display": "1634年",
+   "year_note": "据《明史·天文志》与徐光启奏疏：崇祯二年（1629年）设历局，徐光启督修、汤若望罗雅谷龙华民等耶稣会士参与，1634年完成137卷；历表换算。",
+   "desc": "以第谷体系（欧洲新天文观测数据）编成《崇祯历书》：几何化的日月行星运动理论、球面三角计算——中国官方天文学第一次系统性采用西法（徐光启“欲求超胜，必须会通；会通之前，先须翻译”——《历书总目表》语）。清初汤若望据之进呈新历（《时宪历》）获颁行——中西天文学的体制化衔接。",
+   "sources": [
+    "mingshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-ming2-hairui",
+   "name": "海瑞",
+   "birth_year": 1514,
+   "death_year": 1587,
+   "birth_display": "1514年",
+   "death_display": "1587年",
+   "desc": "琼山人，“海青天”：上《治安疏》直批嘉靖（“嘉靖者，言家家皆净而无财用也”——治安疏名句，1589年流传本），备棺上疏的壮举使其名满天下；应天巡抚任内force 退田于豪强（徐阶家族）而遭弹劾。黄仁宇《万历十五年》以海瑞为“古怪的模范官僚”——清官伦理与制度低效的悖论样本。",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-ming2-yuanchonghuan",
+   "name": "袁崇焕",
+   "birth_year": 1584,
+   "death_year": 1630,
+   "birth_display": "1584年",
+   "death_display": "1630年",
+   "desc": "东莞人（祖籍藤县），宁远-宁锦两捷的辽东主帅（见延伸事件条）；1629年皇太极绕道入塞，崇祯中反间计（后金散布袁与后金密约的谣言——皇太极用《三国演义》反间计的故事经蒋氏《东华录》转述，细节史学存疑），1630年凌迟处死。其冤案与“五年平辽”的夸口并列——明末军事人才的制度性绞杀案例。",
+   "sources": [
+    "mingshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-ming2-luoguanzhong",
+   "name": "罗贯中",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约1330—约1400年间在世，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "相传太原（或东原）人，《三国志通俗演义》的作者（现存最早刊本为嘉靖壬午本1522年——罗贯中署名）：《三国演义》以“七实三虚”（章学诚评语）整合正史与民间叙事，成为中国历史演义小说之祖与东亚三国文化的共同源头。其生平资料极度稀缺（与施耐庵关系“门人罗贯中”说见高儒《百川书志》——文献链有讨论）。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "cambridge-china"
+   ],
+   "needs_verification": true
+  }
+ ]
+}

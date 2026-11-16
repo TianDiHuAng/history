@@ -1,0 +1,88 @@
+{
+ "unit_id": "china-sui",
+ "extra_events": [
+  {
+   "id": "x-sui2-hanjia-cang",
+   "title": "含嘉仓的考古确认",
+   "year": 606,
+   "end_year": null,
+   "year_display": "约606年",
+   "end_year_display": null,
+   "year_note": "含嘉仓建于东都洛阳营建之后（大业二年前后，约606年），1971年考古勘探发现仓城与刻铭砖（“含嘉仓”铭文），历表换算。",
+   "desc": "含嘉仓为隋唐两代的国家粮仓（唐代沿用，仓窖四百余座，碳化粟米在窖中保存至今），1971年洛阳考古发现仓城遗址与“含嘉仓”刻铭砖——隋唐仓储制度的实物总账。其容量记录（每窖各有编号与储粮石数）与《通典》记载互相印证。",
+   "sources": [
+    "kaogu-cass",
+    "zgbk",
+    "suishu"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sui2-daye-lü",
+   "title": "《大业律》",
+   "year": 607,
+   "end_year": null,
+   "year_display": "607年",
+   "end_year_display": null,
+   "year_note": "据《隋书·刑法志》：大业三年（607年）颁《大业律》十八篇五百条；历表换算。",
+   "desc": "炀帝即位后修订《开皇律》为《大业律》：增篇目（十八篇）而删十恶之名、减酷刑——立法本意宽仁。但后期司法执行不依律令（诏狱与滥杀），法典与吏治的背离成为隋亡的制度性讽刺（\"法制\"与\"法治\"的分离样本）。",
+   "sources": [
+    "suishu",
+    "zgbk",
+    "yan-gengwang"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sui2-zhenla-shijie",
+   "title": "常骏出使赤土国",
+   "year": 607,
+   "end_year": null,
+   "year_display": "607年",
+   "end_year_display": null,
+   "year_note": "据《隋书·南蛮传》：大业三年（607年）屯田主事常骏等出使赤土国（马来半岛方向），翌年携其王子入隋；历表换算。",
+   "desc": "隋炀帝遣常骏经南海至赤土国，其王遣子那邪迦随使团入贡——《隋书·南蛮传》保存了完整的航程记录（经过南海诸岛与香料贸易带），为隋代南海经营与东南亚交往的一手航海文献。",
+   "sources": [
+    "suishu",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-sui2-gaojong",
+   "name": "高颎",
+   "birth_year": 541,
+   "death_year": 607,
+   "birth_display": "541年",
+   "death_display": "607年",
+   "desc": "隋文帝朝首席宰相（尚书左仆射）：主持灭陈方略、修订刑律、输籍定样（清查户口的税基工程），为开皇之治的实际操盘手。因反对废太子杨勇被炀帝疏忌，大业三年被杀——开皇制度设计者的悲剧结局；唐初史臣以“以天下为己任”评之。",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-sui2-hechou",
+   "name": "何稠",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约550—620年间在世，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "西域何国（粟特昭武九姓）后裔，隋代将作与织造名匠：仿烧波斯绿琉璃（恢复失传工艺——《隋书》何稠传载）、造观风行殿与六合城（可移动城墙用于征辽）。粟特工匠家族在隋唐宫廷的连续服务（其叔父何通等）为丝路技术移民的标本。",
+   "sources": [
+    "suishu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": true
+  }
+ ]
+}

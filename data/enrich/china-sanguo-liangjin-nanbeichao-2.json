@@ -1,0 +1,102 @@
+{
+ "unit_id": "china-sanguo-liangjin-nanbeichao",
+ "extra_events": [
+  {
+   "id": "x-sg2-luoyang-qielanji",
+   "title": "《洛阳伽蓝记》：北魏都城的佛教盛景",
+   "year": 547,
+   "end_year": null,
+   "year_display": "547年（前后）",
+   "end_year_display": null,
+   "year_note": "杨衒之重过洛阳（城破之后）感念昔日伽蓝之盛，约武定五年（547年）写成此书；历表换算。",
+   "desc": "《洛阳伽蓝记》五卷记北魏洛阳千余佛寺：永宁寺塔（“殚土木之功，穷造形之巧”——书中语，塔高九层，考古勘探基址可对）与都市繁盛，兼记京师建制与人物传闻。其以寺院为纲的城市地理书写，是北魏洛阳（世遗“汉魏洛阳城”范畴）最详细的一手文献。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "kaogu-cass"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg2-fubing-zhi",
+   "title": "府兵制的创立",
+   "year": 550,
+   "end_year": null,
+   "year_display": "约550年",
+   "end_year_display": null,
+   "year_note": "西魏宇文泰创府兵制（二十四军）通说系于大统十六年（550年）前后（据《邺侯家传》系统与《周书》对读，约数）。",
+   "desc": "军士别立户籍（后渐入民籍）、赐姓鲜卑胡姓以整合胡汉、设八柱国十二大将军——兵农合一的关陇军事体制。府兵制经隋至唐前期为帝国主要军制（陈寅恪“关陇集团”论的制度核心——见北魏统一条延伸）；其崩坏（唐中期）即安史之乱的结构前奏。",
+   "sources": [
+    "tongjian",
+    "chenyinke-tang",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg2-beizhou-miefo",
+   "title": "北周武帝灭佛",
+   "year": 574,
+   "end_year": 578,
+   "year_display": "574年",
+   "end_year_display": "578年",
+   "year_note": "据《周书》武帝纪（本站未收录《周书》，据《资治通鉴》对读）：建德三年（574年）禁佛道二教，毁经像；建德六年灭齐后推行于齐境；公元纪年，无换算问题。",
+   "desc": "北周武帝宇文邕以“求兵于僧众之间，求地于塔庙之下”的富国强兵逻辑禁断佛道（三武灭佛之二），强制僧尼还俗（三百万人级——学界估计口径差异大，不采单一数）。灭佛所得人力物力为灭齐（577年）提供动员基础；武帝早逝后佛教复兴——政教关系的周期律再次上演。",
+   "sources": [
+    "tongjian",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-sg2-wangmeng",
+   "name": "王猛",
+   "birth_year": 325,
+   "death_year": 375,
+   "birth_display": "325年",
+   "death_display": "375年",
+   "desc": "北海人，寒门出身辅佐苻坚（“扪虱而谈”初见的轶事——《晋书》载）：为相十六年整顿吏治、兴太学、劝农桑，前秦“关中清晏”。临终谏苻坚勿图晋（见淝水主事件条争议）；“关中良相惟王猛”的传统定位与其寒门-胡族复合政治身份，是十六国政治史的特殊样本。",
+   "sources": [
+    "jinshu",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-sg2-gehong",
+   "name": "葛洪",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（283—343年或343—364年两说，学界并列）",
+   "death_display": "卒年不可考（两说）",
+   "desc": "丹阳句容人，道教理论家与医家：《抱朴子》内篇论金丹仙道（炼丹术的化学实践记录——火药硝硫配方的远源之一）、外篇论儒政；《肘后备急方》记青蒿治疟（见主单元科技主题条，屠呦呦灵感的文献源）。其生卒年两说并存为道教史著名考据题。",
+   "sources": [
+    "jinshu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-sg2-liuxie",
+   "name": "刘勰",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约465—约520年，推算存疑）",
+   "death_display": "卒年不可考",
+   "desc": "东莞莒人，定林寺僧祐门下编经藏十年，著《文心雕龙》五十篇：中国第一部系统的文学理论与批评巨著（“操千曲而后晓声”——书中语）。其骈文理论体系（神思、体性、风骨、通变）对后世文论影响深远；晚年出家为僧（依《梁书》本传）。",
+   "sources": [
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": true
+  }
+ ]
+}

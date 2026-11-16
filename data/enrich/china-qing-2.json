@@ -1,0 +1,118 @@
+{
+ "unit_id": "china-qing",
+ "extra_events": [
+  {
+   "id": "x-qing2-shenbao",
+   "title": "《申报》创刊",
+   "year": 1872,
+   "end_year": null,
+   "year_display": "1872年",
+   "end_year_display": null,
+   "year_note": "据《申报》创刊号（同治十一年三月二十三日，1872年4月30日，通行历日换算）：英商美查（Ernest Major）创办于上海。",
+   "desc": "《申报》为中国近代发行时间最长（1872—1949年）、影响最大的商业报纸：以“普及”定位（白话化、市井新闻、附刊文艺）培养了中国第一批现代读者群。戊戌、辛亥、五四舆论皆赖报业——《申报》既是商业成功，也是中国公共舆论的孵化器。",
+   "sources": [
+    "guotingyi-jindaishi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qing2-zengjize-yili",
+   "title": "曾纪泽改约索回伊犁",
+   "year": 1881,
+   "end_year": null,
+   "year_display": "1881年",
+   "end_year_display": null,
+   "year_note": "据《清实录》与《中俄伊犁条约》文本：光绪七年正月（1881年2月，通行历日换算）曾纪泽在圣彼得堡签订《中俄改订条约》，收回伊犁大部（霍尔果斯河以西仍割让）。",
+   "desc": "崇厚1879年擅自签订《里瓦几亚条约》割伊犁西境，清廷拒批并令驻英法公使曾纪泽赴俄改约——“虎口索食”的外交（曾纪泽以英俄矛盾为杠杆），收回伊犁九城与特克斯河谷。左宗棠军事威慑（见延伸事件条收复新疆）为谈判后盾——“外交以武力为后盾”的晚清少有成功案例。",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qing2-yanfu-tianyanlun",
+   "title": "严复译《天演论》",
+   "year": 1898,
+   "end_year": null,
+   "year_display": "1898年（正式出版）",
+   "end_year_display": null,
+   "year_note": "严复译赫胥黎《进化论与伦理学》为《天演论》，1895年起以手稿传抄与《国闻汇编》连载，1898年正式出版（慎始基斋刻本）。",
+   "desc": "严复以“物竞天择，适者生存”（自撰译语）与“天行健”的文言译笔重构赫胥黎：把进化论转化为民族救亡论（“保种保群”），甲午败后风行天下（“不做则亡”的时代呼声）。严译八大名著（《原富》《群己权界论》等）确立中国近代学术翻译的文体典范（吴汝纶序称“骎骎与晚周诸子相上下”）。",
+   "sources": [
+    "guotingyi-jindaishi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-qing2-zengjize",
+   "name": "曾纪泽",
+   "birth_year": 1839,
+   "death_year": 1890,
+   "birth_display": "1839年",
+   "death_display": "1890年",
+   "desc": "曾国藩次子，自学英文出使英法俄（1878年起）：圣彼得堡改约收回伊犁大部（见延伸事件条），中法战争前力争越南权益。“不遗余力地要求中国应有的权利”（其英文演说的转述传统）——晚清少有的外交人才；兼作西学诗歌与洋务议论（《西学述略》）。",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qing2-yanfu",
+   "name": "严复",
+   "birth_year": 1854,
+   "death_year": 1921,
+   "birth_display": "1854年",
+   "death_display": "1921年",
+   "desc": "福州人，福州船政学堂首届、留学格林尼治：《天演论》译者（见延伸事件条）与“信达雅”翻译三字标准的提出者；任京师大学堂首任总监督（1912年改名北京大学后任校长）。晚年列名筹安会（赞成帝制）为其污点——启蒙者与守旧者的复杂晚年。",
+   "sources": [
+    "zgbk",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qing2-zhantianyou",
+   "name": "詹天佑",
+   "birth_year": 1861,
+   "death_year": 1919,
+   "birth_display": "1861年",
+   "death_display": "1919年",
+   "desc": "南海人，1872年首批留美幼童（耶鲁大学土木工程系），主持京张铁路（1905—1909年）：以“人”字形线路克服八达岭坡度（竖井开凿法）建成中国自建的第一条干线铁路。中国工程师学会首任会长；“詹天佑奖”至今为中国土木工程最高奖之一。",
+   "sources": [
+    "zgbk",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qing2-fengzicai",
+   "name": "冯子材",
+   "birth_year": 1818,
+   "death_year": 1903,
+   "birth_display": "1818年",
+   "death_display": "1903年",
+   "desc": "钦州人，行伍出身的老将：1885年镇南关（今友谊关）大捷的指挥者——年近七十披甲率萃军筑长墙反击，法军尼格里部溃败（茹费理内阁因此倒台，见中法战争延伸事件条）。“冯公自关外破敌”的战绩使其成为近代反侵略战争的民间英雄符号。",
+   "sources": [
+    "qingshigao",
+    "zgbk",
+    "guotingyi-jindaishi"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

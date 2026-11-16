@@ -1,0 +1,135 @@
+{
+ "unit_id": "world-classical",
+ "extra_events": [
+  {
+   "id": "x-wc2-pythagoras-school",
+   "title": "毕达哥拉斯学派",
+   "year": -530,
+   "end_year": null,
+   "year_display": "约前530年（起）",
+   "end_year_display": null,
+   "year_note": "毕达哥拉斯约前530年移居南意大利克罗顿创学派（通说约数）。",
+   "desc": "毕达哥拉斯学派以“万物皆数”为核心信条：发现弦长与音程的比例关系（和声学的数学化）、勾股定理（西方称毕达哥拉斯定理）、无理数√2（希帕索斯被“沉海”的传说——数学史叙事）与灵魂轮回说。其宗教-数学共同体是西方科学传统中“数学实在论”的源头。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc2-hippocratic-oath",
+   "title": "希波克拉底誓言与经验医学",
+   "year": -420,
+   "end_year": null,
+   "year_display": "约前420年",
+   "end_year_display": null,
+   "year_note": "《誓言》成文年代有前5世纪与前4世纪两说（科斯岛学派文献分期），取约前420年（据《文集》分期通说的约数）。",
+   "desc": "《希波克拉底文集》确立“体液论”医学体系与理性医学伦理：《誓言》承诺“不为妇人施堕胎术”“不给毒药”、观察病历（《流行病论》“不要高估痊愈，不要低估失败”式的经验主义）。其医学与宗教分离的立场（癫痫为“神圣病”实为自然病——《论神圣病》篇）是古代医学世俗化的标志。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "plutarch"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc2-thucydides-completion",
+   "title": "修昔底德《伯罗奔尼撒战争史》",
+   "year": -400,
+   "end_year": null,
+   "year_display": "约前400年",
+   "end_year_display": null,
+   "year_note": "修昔底德卒于约前400年前后（书未完成，止于前411年），成书时间通说在其晚年（约数）。",
+   "desc": "修昔底德自称其史“垂诸久远”而非“迎合时好”：以演说复原、因果分析与政治现实主义（“强者为所能为，弱者受所必受”——米洛斯对话）书写战争。《修昔底德陷阱》（现代国际关系学对雅典-斯巴达结构的概念化）使其成为当代战略学必读书——史学经典的现代转化。",
+   "sources": [
+    "thucydides",
+    "cambridge-ancient",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc2-ptolemy-almagest",
+   "title": "托勒密《至大论》",
+   "year": 150,
+   "end_year": null,
+   "year_display": "约150年",
+   "end_year_display": null,
+   "year_note": "托勒密《至大论》（Syntaxis Mathematica）观测记录延至约150年（亚历山大城），通行系年约150年。",
+   "desc": "托勒密以本轮-均轮体系整合巴比伦与希腊天文数据，行星位置计算精度空前；其星表（1022星）与地理学（《地理学指南》经纬坐标八千地点）构成中古天文-地理学的标准文本。阿拉伯（al-Majisti 名之源）与拉丁（12世纪译本）传统使其统治天文学直到哥白尼（见近代早期科学革命条）。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wc2-thucydides",
+   "name": "修昔底德",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前460—约前400年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "雅典贵族、将军（安菲波利斯败绩被放逐）：以亲历者身份写伯罗奔尼撒战争（见延伸事件条）。其史料批判方法（演说的重构自白、去神意化）与霍布斯英译（1629年）对其作为“政治现实主义之父”的现代重塑——古代史学中现代性最强的文本。",
+   "sources": [
+    "thucydides",
+    "cambridge-ancient",
+    "plutarch"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wc2-hippocrates",
+   "name": "希波克拉底",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前460—约前370年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "科斯岛医者（“医学之父”传统定位）：《希波克拉底文集》为其学派集体作品（作者归属学界有系统讨论——“文集问题”）。“人生短促，技艺长存”（《 aphorisms》首句）与体液论、预后学构成其医学体系；其对巫医的批评使其成为理性医学的符号。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "plutarch"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wc2-pythagoras",
+   "name": "毕达哥拉斯",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前570—约前495年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "萨摩斯岛人，游学埃及巴比伦后定居克罗顿（见延伸事件条）。其人几乎无直接史料（学派保密传统使文本皆出后人），但“毕达哥拉斯定理”与数论-音乐-宇宙一体论使其成为“神秘主义与理性结合”的原型形象（柏拉图主义的重要源头）。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wc2-ptolemy",
+   "name": "克劳狄乌斯·托勒密",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约100—约170年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "亚历山大城学者，《至大论》（见延伸事件条）、《地理学指南》、《四书》（占星学）与《光学》的作者——“托勒密”是古代科学全能型的符号。其地心体系的天文学统治直至哥白尼（“托勒密体系”的现代命名），其地理学影响哥伦布（计算偏差反而促使其西航冒险——科学史著名的“有益错误”案例）。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

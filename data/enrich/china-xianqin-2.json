@@ -1,0 +1,88 @@
+{
+ "unit_id": "china-xianqin",
+ "extra_events": [
+  {
+   "id": "x-xianqin-2-shaokang",
+   "title": "少康中兴（传说叙事）",
+   "year": -1900,
+   "end_year": null,
+   "year_display": "约前1900年（传说系年）",
+   "end_year_display": null,
+   "year_note": "少康为夏第六世王（传说世系），其年代在文献中无绝对坐标，据传世夏世系长度折算约前1900年（示意值，\"约\"与传说性质并注）。",
+   "desc": "《左传》与《史记》追述的夏代中兴叙事：寒浞篡夏后，少康自纶起兵复国，\"有田一成，有众一旅\"（哀公元年伍子胥语）。因其完全依托后世追述，学界视之为传说层（类似\"少康中兴\"的中兴母题），历史性无法验证——与主事件夏朝条并列展示传说与证据的边界。",
+   "sources": [
+    "zuozhuan",
+    "shiji",
+    "duandai"
+   ],
+   "needs_verification": true,
+   "pending_notes": "少康中兴纯属后世文献追述（无任何同期证据），年代为示意值；本条仅作为传说层叙事收录并明确标注。"
+  },
+  {
+   "id": "x-xianqin-2-wuyi-sheatian",
+   "title": "武乙射天与王权对神权的挑战",
+   "year": -1140,
+   "end_year": null,
+   "year_display": "约前1140年",
+   "end_year_display": null,
+   "year_note": "武乙在位据《史记》约在殷王世系中期（断代工程无武乙绝对年，学界推其约前1147—前1113年间），取约前1140年（约数）。",
+   "desc": "《史记·殷本纪》记武乙\"为革囊盛血，仰而射之，命曰射天\"——对传统天神权威的戏剧性挑战；其死于猎场雷震的记载或含史官道德评判。晚商卜辞中王权（王占卜）压倒贞人集团的迹象与之呼应——王权与神权关系的转折样本。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "whc-yinxu"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xianqin-2-zhouyuan-jiagu",
+   "title": "周原甲骨：周人自己的占卜记录",
+   "year": -1040,
+   "end_year": null,
+   "year_display": "约前1040年",
+   "end_year_display": null,
+   "year_note": "周原甲骨年代跨文王至西周早期，据凤雏遗址地层与卜辞内容（含克商前后记事）推定约前1040年（据断代工程克商年与地层学互证的约数）。",
+   "desc": "周原凤雏、齐家遗址出土卜甲一万七千余片（有字者约三百片），内容含\"伐蜀\"\"克蜀\"及祭祀商先王记事，证明周人克商前已用甲骨占卜并有自身的记事传统。周原甲骨的字体与释读（微雕刻辞）为西周甲骨学的核心材料。",
+   "sources": [
+    "kaogu-cass",
+    "duandai",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-xianqin-2-zhougong-chengwang",
+   "name": "周成王（姬诵）",
+   "birth_year": null,
+   "death_year": -1021,
+   "birth_display": "生年不可考（武王之子）",
+   "death_display": "约前1021年",
+   "desc": "周公摄政时的少主：亲政后营建成周、迁殷顽民、\"践天子之位\"（金文《何尊》《小盂鼎》所涉王世）。成王与康王的\"成康之治\"（见主事件条）由其开启；其世系年代（约前1042—前1021年在位）据断代工程。",
+   "sources": [
+    "shiji",
+    "duandai",
+    "kaogu-cass"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xianqin-2-nangongkuo",
+   "name": "南宫适（南宫括）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（文王、武王、成王三朝元老）",
+   "death_display": "卒年不可考",
+   "desc": "西周开国功臣（《论语》中的\"南容\"与周初南宫适或为同一系统的两个记载层，学界有辨析）：助武王克商、成王时为卿士。大盂鼎铭文记康王命盂继承南公之业——金文与《论语》互证的案例（南宫适家族世系）。",
+   "sources": [
+    "lunyu",
+    "kaogu-cass",
+    "shiji"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

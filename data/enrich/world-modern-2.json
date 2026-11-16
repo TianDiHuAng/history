@@ -1,0 +1,151 @@
+{
+ "unit_id": "world-modern",
+ "extra_events": [
+  {
+   "id": "x-wm2-civil-rights",
+   "title": "美国民权运动",
+   "year": 1955,
+   "end_year": 1968,
+   "year_display": "1955年",
+   "end_year_display": "1968年",
+   "year_note": "以1955年蒙哥马利公车抵制（罗莎·帕克斯拒让座，12月起）为现代民权运动起点；1968年4月马丁·路德·金遇刺为运动标志性终点；公元纪年，无换算问题。",
+   "desc": "从蒙哥马利抵制、1963年华盛顿大游行（“我有一个梦想”演说）到《民权法案》（1964）与《投票权法》（1965）：非暴力直接行动（金博士承甘地路线）与联邦司法行政力量的结合终结了法定种族隔离（Jim Crow）。运动全球扩散（南非、北爱尔兰的参照）——20世纪公民抗争的母本。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-green-revolution",
+   "title": "绿色革命",
+   "year": 1963,
+   "end_year": 1970,
+   "year_display": "约1963年（起）",
+   "end_year_display": "1970年",
+   "year_note": "博洛格在墨西哥的国际玉米小麦改良中心（CIMMYT 前身，1963年重组）育成矮秆小麦并向亚欧推广，1963—1970年为扩张期（1970年博洛格获诺贝尔和平奖）；公元纪年，无换算问题。",
+   "desc": "诺曼·博洛格团队育成半矮秆抗病小麦（洛克菲勒-福特基金会资助体系），印度巴基斯坦1965—1968年小麦产量倍增，“绿色革命”避免了大饥荒预测（1968年 Ehrlich《人口炸弹》的悲观预言被部分证伪）。化肥-灌溉-高产品种组合的水资源与生态代价、小农与大地主的受益差异——绿色革命的双面遗产为农业史与生态史的核心争论。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-watergate",
+   "title": "水门事件",
+   "year": 1972,
+   "end_year": 1974,
+   "year_display": "1972年",
+   "end_year_display": "1974年",
+   "year_note": "1972年6月17日水门大厦民主党总部窃听案发；1974年8月9日尼克松辞职（弹劾案启动前）；公元纪年，无换算问题。",
+   "desc": "尼克松竞选团队入侵水门大厦安装窃听器，《华盛顿邮报》记者伍德沃德与伯恩斯坦的追查（“深喉”线人——2005年证实为 FBI 副局长费尔特）与最高法院命令交出录音带（1974年7月）迫使尼克松辞职——美国宪政史上唯一总统辞职案。调查记者的权力（“水门”成为政治丑闻后缀词）与制度制衡的运转同时被展示。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "enwp-cold-war"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-chernobyl",
+   "title": "切尔诺贝利核事故",
+   "year": 1986,
+   "end_year": null,
+   "year_display": "1986年",
+   "end_year_display": null,
+   "year_note": "1986年4月26日切尔诺贝利4号堆爆炸（史特宁测试失误+设计缺陷）；据 IAEA 与联合国切尔诺贝利论坛报告；公元纪年，无换算问题。",
+   "desc": "苏联乌克兰切尔诺贝利核电站4号堆爆炸（石墨堆设计缺陷+违规测试），放射性尘埃覆盖欧洲（瑞典探测首先报警——苏联封锁消息三天后被揭穿）：直接死亡与辐射致死的数字（UNSCEAR 报告口径约数十直接死亡+长期癌症风险估计区间巨大——数字争议见报告）。戈尔巴乔夫称其为“苏联体制的镜子”（其回忆录转述）——核安全、信息透明与苏联末期的交汇点。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "enwp-cold-war"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm2-mandela-release",
+   "title": "曼德拉获释与南非种族隔离的终结",
+   "year": 1990,
+   "end_year": null,
+   "year_display": "1990年",
+   "end_year_display": null,
+   "year_note": "据南非档案与国际报道：1990年2月11日曼德拉获释，1991年废除《人口登记法》等种族隔离支柱立法；公元纪年，无换算问题。",
+   "desc": "德克勒克1989年就任后释放政治犯、解除ANC禁令；1990年2月11日曼德拉出狱（27年监禁后），与德克勒克开启谈判（CODESA），1991年种族隔离支柱立法废除、1993年同获诺贝尔和平奖、1994年首次全民大选——转型正义路径（真相与和解委员会）成为全球范式。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "enwp-cold-war"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm2-turing",
+   "name": "艾伦·图灵",
+   "birth_year": 1912,
+   "death_year": 1954,
+   "birth_display": "1912年",
+   "death_display": "1954年",
+   "desc": "伦敦人，布莱切利园密码破译的核心（破解德军 Enigma 海军版本——图灵机理论1936年为可计算性奠基）：战后曼彻斯特大学的存储程序计算机（1948年 Marks I 相关工作）与图灵测试（1950《计算机器与智能》）。1952年因同性恋被定罪强制化学阉割、1954年食氰化物苹果死亡（自杀推定）；2013年英国女王赦免、2022年全面赦免——科学史与公民权利史的交汇人物。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "brit-ww2"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm2-churchill",
+   "name": "温斯顿·丘吉尔",
+   "birth_year": 1874,
+   "death_year": 1965,
+   "birth_display": "1874年",
+   "death_display": "1965年",
+   "desc": "马尔巴罗公爵后裔、军人-记者-政治家：1940年临危受命（“我们将在海滩上战斗”——下院演说名句）领导英国独自抵抗纳粹一年；1951—1955年再任首相。诺贝尔文学奖（1953年，历史与传记写作）；其孟加拉饥荒政策（1943年）与印度观为现代史学批评焦点——“最伟大的英国人”（BBC 2002年评选）与殖民批判的双重形象。",
+   "sources": [
+    "brit-ww2",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm2-mlk",
+   "name": "马丁·路德·金",
+   "birth_year": 1929,
+   "death_year": 1968,
+   "birth_display": "1929年",
+   "death_display": "1968年",
+   "desc": "亚特兰大浸信会牧师，蒙哥马利抵制运动的青年领袖（26岁）：伯明翰狱中书信（“任何地方的不公正都是对所有地方公正的威胁”——伯明翰狱中书信名句）、华盛顿演说与诺贝尔和平奖（1964年，时年35岁最年轻得主之一）。1968年4月4日孟菲斯遇刺；其非暴力路线与激进派（Malcolm X）的分野为民权运动内部争论。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm2-gorbachev",
+   "name": "米哈伊尔·戈尔巴乔夫",
+   "birth_year": 1931,
+   "death_year": 2022,
+   "birth_display": "1931年",
+   "death_display": "2022年",
+   "desc": "斯塔夫罗波尔农庄出身，1985年就任苏共总书记：“公开性”（glasnost）与“改革”（perestroika）使苏联体制松动，1989年放任东欧剧变、1990年获诺贝尔和平奖（终结冷战 Cold War 的主要政治人物——诺奖委员会表述）、1991年12月25日辞职（苏联解体）。俄罗斯国内对其评价两极（放任帝国崩溃的“叛徒”叙事 vs 和平终结冷战的功勋——与叶利钦时代的权斗交织）。",
+   "sources": [
+    "stearns-global",
+    "enwp-cold-war",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

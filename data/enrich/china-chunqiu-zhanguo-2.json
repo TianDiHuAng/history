@@ -1,0 +1,120 @@
+{
+ "unit_id": "china-chunqiu-zhanguo",
+ "extra_events": [
+  {
+   "id": "x-cq2-ximenbao-yey",
+   "title": "西门豹治邺",
+   "year": -420,
+   "end_year": null,
+   "year_display": "约前420年",
+   "end_year_display": null,
+   "year_note": "据《史记·滑稽列传》褚少孙补记（西门豹为邺令事系于魏文侯时，年代不确），取魏文侯在位期内约前420年（约数）。",
+   "desc": "西门豹至邺，破\"河伯娶妇\"的巫祝敛财（以彼之道投巫于河），继而开凿十二渠引漳灌邺——破除迷信与水利工程并举的治理叙事（《史记》补记文学性强，水利遗迹有考古调查支持）。其为地方治理与反陋习的经典话本。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "kaogu-cass"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq2-sunbin-maling",
+   "title": "孙膑与《孙膑兵法》",
+   "year": -354,
+   "end_year": -341,
+   "year_display": "前354年（起）",
+   "end_year_display": "前341年",
+   "year_note": "桂陵之战（前354年，围魏救赵）与马陵之战（前341年，见主事件条）——孙膑的两大战例；历表换算。",
+   "desc": "孙膑（膑刑去膝故名）事齐威王为军师：桂陵之战首创\"围魏救赵\"批亢捣虚之策（前354年），马陵之战以减灶诱敌杀庞涓（见主事件条）。1972年银雀山汉简《孙膑兵法》出土，使孙膑其人其书从存疑变为实证——出土文献改写学术史的标杆案例。",
+   "sources": [
+    "shiji",
+    "kaogu-cass",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq2-jimenggoudao",
+   "title": "孟尝君与鸡鸣狗盗",
+   "year": -299,
+   "end_year": null,
+   "year_display": "前299年",
+   "end_year_display": null,
+   "year_note": "据《史记·孟尝君列传》，秦昭王囚孟尝君，其门客以狗盗（窃白裘）与鸡鸣（骗开函谷关）脱困，系于前299年（孟尝君入秦之年）；历表换算。",
+   "desc": "孟尝君田文养士三千（冯谖\"狡兔三窟\"焚券市义的故事同出其传），入秦被囚，赖门客鸡鸣狗盗之技脱身——养士政治的极限与污名并存。王安石《读孟尝君传》驳其\"特鸡鸣狗盗之雄耳\"（北宋翻案文名篇）——传统名士叙事的著名反题。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq2-maosui-zijian",
+   "title": "毛遂自荐与楚赵合纵",
+   "year": -257,
+   "end_year": null,
+   "year_display": "前257年",
+   "end_year_display": null,
+   "year_note": "据《史记·平原君虞卿列传》，邯郸围城时毛遂自荐随平原君使楚（与窃符救赵同年前后）；历表换算。",
+   "desc": "平原君选二十文士使楚乞援，毛遂以\"锥之处囊中\"自荐，廷上按剑迫使楚王歃血为盟（\"三寸之舌，强于百万之师\"——平原君赞语）。毛遂自荐与窃符救赵（信陵君条）同年构成赵国得救的双重叙事；\"脱颖而出\"成语由此出。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-cq2-zhaowulingwang",
+   "name": "赵武灵王（赵雍）",
+   "birth_year": null,
+   "death_year": -295,
+   "birth_display": "生年不可考（约前340年生，存疑）",
+   "death_display": "前295年",
+   "desc": "胡服骑射的推行者（见主事件条）；晚年让位幼子（惠文王）自称\"主父\"，欲分秦之谋未成，沙丘宫变中被围困三月饿死——雄才与任性交叠的悲剧结局。其军事改革使赵成为秦统一前最强硬的对手（李牧廉颇皆承其军制）。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq2-qiweiwang",
+   "name": "齐威王（田因齐）",
+   "birth_year": null,
+   "death_year": -320,
+   "birth_display": "生年不可考（约前378年生，存疑）",
+   "death_display": "前320年",
+   "desc": "\"一鸣惊人\"的君主（《史记·滑稽列传》淳于髡隐语劝谏叙事）：整饬吏治（烹阿大夫、赏即墨大夫）、广开言路（\"群臣吏民能面刺寡人之过者受上赏\"——《邹忌讽齐王纳谏》）、扩建稷下学宫（见主事件条）。徐州相王（前334年）与魏惠王互尊为王——战国称王时代的开启。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq2-yanzhaowang",
+   "name": "燕昭王（姬职）",
+   "birth_year": null,
+   "death_year": -279,
+   "birth_display": "生年不可考",
+   "death_display": "前279年",
+   "desc": "燕国中兴之主：筑黄金台、以郭隗为始招贤（\"请自隗始\"——招贤策见《战国策》），得乐毅伐齐（见延伸事件条）、剧辛、苏代等；与主事件燕昭王二十八年伐齐互证。其身后燕惠王代乐毅致败——招贤体制对君主个人的依赖是其脆弱处。",
+   "sources": [
+    "zhanguoce",
+    "shiji",
+    "tongjian"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

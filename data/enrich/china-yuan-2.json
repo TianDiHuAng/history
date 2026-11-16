@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-yuan",
+ "extra_events": [
+  {
+   "id": "x-yuan2-zhusiben-yuditü",
+   "title": "朱思本《舆地图》",
+   "year": 1315,
+   "end_year": null,
+   "year_display": "约1315年",
+   "end_year_display": null,
+   "year_note": "据《舆地图》自序（附《贞一斋杂著》）：朱思本十年之间周游南北、汇绘《舆地图》长广七尺，约成于延祐至至治年间（约1315年，约数）。",
+   "desc": "临川道士朱思本以实地勘验+文献汇校绘制《舆地图》：首创“计里画方”的网格制图法（裴秀制图六体的复兴与改进），成为明代罗洪先《广舆图》（1540年代）的底本——元明地图学的主干。其网格法早于欧洲的类似实践（学界通说比较）。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": true,
+   "pending_notes": "《舆地图》原本失传（存于罗洪先转绘），成图确切年份为推定（约1315年），存疑。"
+  },
+  {
+   "id": "x-yuan2-yinshan-zhengyao",
+   "title": "忽思慧《饮膳正要》",
+   "year": 1330,
+   "end_year": null,
+   "year_display": "1330年",
+   "end_year_display": null,
+   "year_note": "据《饮膳正要》自序：天历三年（1330年）饮膳太医忽思慧进呈——中国第一部营养学专著；历表换算。",
+   "desc": "元廷饮膳太医忽思慧汇录宫廷蒙汉回饮食与养生法：胎教、孕期禁忌、食物相克（“饮食百味”）、回回豆子与塔剌不花的乳食传统——多族群饮食文化的制度性记录。其“食饮有节”的养生论与蒙元宫廷的杂糅餐桌（见单元主题条）为元代社会史的一手材料。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-yuan2-huanggongwang",
+   "name": "黄公望",
+   "birth_year": 1269,
+   "death_year": 1354,
+   "birth_display": "1269年",
+   "death_display": "1354年",
+   "desc": "常熟人（“黄公望子久矣”的名字趣谈），全真教道士：约1350年完成的《富春山居图》（“长卷之王”）以披麻皴写江南山水，为文人画极峰。其画后遭火殉（吴洪裕欲焚以殉葬，1650年被侄救出，分“剩山图”与“无用师卷”两段分藏浙博与台北故宫——画史著名的流散故事）。",
+   "sources": [
+    "zgbk",
+    "npm",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-yuan2-wangshifu",
+   "name": "王实甫",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约13世纪后期至14世纪初，大都人，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "元杂剧《西厢记》作者（“愿天下有情的都成了眷属”——剧中名句）：五本二十一折的连本杂剧把崔莺莺张生故事（源于唐元稹《莺莺传》）改为“有情终成眷属”的大团圆——杂剧体制与爱情观的突破。贾仲明挽词称其为“士林中等辈伏低”（《录鬼簿》续编所记）。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "yuanshi"
+   ],
+   "needs_verification": true
+  }
+ ]
+}
