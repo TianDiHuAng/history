@@ -1632,6 +1632,94 @@
       "url2": null,
       "note": "1789—1914 近现代史框架参考",
       "link_ok": null
+    },
+    {
+      "id": "enwp-sumer",
+      "title": "Wikipedia: Sumer",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Sumer",
+      "url2": null,
+      "link_ok": null,
+      "note": "苏美尔文明"
+    },
+    {
+      "id": "enwp-akkad",
+      "title": "Wikipedia: Akkadian Empire",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Akkadian_Empire",
+      "url2": null,
+      "link_ok": null,
+      "note": "萨尔贡与阿卡德"
+    },
+    {
+      "id": "enwp-minoan",
+      "title": "Wikipedia: Minoan civilization",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Minoan_civilization",
+      "url2": null,
+      "link_ok": null,
+      "note": "米诺斯文明"
+    },
+    {
+      "id": "enwp-hittites",
+      "title": "Wikipedia: Hittites",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Hittites",
+      "url2": null,
+      "link_ok": null,
+      "note": "赫梯与铁器、银板条约"
+    },
+    {
+      "id": "enwp-thutmose-iii",
+      "title": "Wikipedia: Thutmose III",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Thutmose_III",
+      "url2": null,
+      "link_ok": null,
+      "note": "米吉多之战"
+    },
+    {
+      "id": "enwp-ancient-israel",
+      "title": "Wikipedia: History of ancient Israel and Judah",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/History_of_ancient_Israel_and_Judah",
+      "url2": null,
+      "link_ok": null,
+      "note": "大卫所罗门的历史性争议"
+    },
+    {
+      "id": "enwp-neo-assyria",
+      "title": "Wikipedia: Neo-Assyrian Empire",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire",
+      "url2": null,
+      "link_ok": null,
+      "note": ""
+    },
+    {
+      "id": "enwp-neo-babylonia",
+      "title": "Wikipedia: Neo-Babylonian Empire",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire",
+      "url2": null,
+      "link_ok": null,
+      "note": ""
     }
   ]
 }

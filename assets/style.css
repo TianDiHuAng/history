@@ -1,0 +1,72 @@
+/* 中外历史脉络库 — 站点样式 */
+:root {
+  --ink: #2c2c28;
+  --paper: #faf7f0;
+  --card: #ffffff;
+  --navy: #2b4a6f;
+  --red: #8c1f28;
+  --gold: #c8a45c;
+  --line: #ddd6c8;
+  --muted: #7a7468;
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  margin: 0; color: var(--ink); background: var(--paper);
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "SimSun", "Songti SC", Georgia, serif;
+  line-height: 1.75;
+}
+header.site {
+  background: var(--navy); color: #f5efe3; padding: 14px 24px;
+  display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline;
+}
+header.site .brand { font-size: 1.15rem; font-weight: 700; letter-spacing: 1px; }
+header.site nav a { color: #e8ddc4; text-decoration: none; font-size: .95rem; }
+header.site nav a:hover { color: var(--gold); }
+main { max-width: 880px; margin: 0 auto; padding: 26px 20px 70px; }
+h1 { font-size: 1.6rem; margin: .2em 0 .6em; color: var(--navy); }
+h2 { font-size: 1.25rem; margin: 1.6em 0 .5em; color: var(--navy); border-bottom: 2px solid var(--line); padding-bottom: 4px; }
+h3 { font-size: 1.05rem; margin: 1.2em 0 .4em; color: var(--red); }
+a { color: var(--navy); }
+.crumb { font-size: .85rem; color: var(--muted); margin-bottom: 8px; }
+.crumb a { color: var(--muted); }
+.meta { color: var(--muted); font-size: .9rem; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 14px 18px; margin: 12px 0;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.grid .card h3 { margin-top: 0; }
+table { border-collapse: collapse; width: 100%; margin: 14px 0; background: var(--card); font-size: .93rem; }
+th, td { border: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+th { background: #efe8d8; color: var(--navy); }
+td.year { white-space: nowrap; font-weight: 700; color: var(--red); width: 92px; }
+ul.tight { margin: .3em 0; padding-left: 1.4em; }
+ul.tight li { margin: .25em 0; }
+.tag {
+  display: inline-block; font-size: .78rem; padding: 1px 8px; border-radius: 10px;
+  background: #efe4cf; color: #7a5a1e; margin-left: 6px; vertical-align: middle;
+}
+.tag.warn { background: #f3d9d3; color: var(--red); }
+figure { margin: 18px 0; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+figure svg { width: 100%; height: auto; display: block; }
+figcaption { text-align: center; color: var(--muted); font-size: .85rem; padding-top: 6px; }
+blockquote {
+  margin: .6em 0; padding: 6px 14px; border-left: 3px solid var(--gold);
+  background: #f6f1e5; color: #4c463c;
+}
+.src-list { font-size: .87rem; color: var(--muted); }
+.src-list li { margin: .3em 0; }
+.pending {
+  background: #fdf3e3; border: 1px dashed #c8a45c; border-radius: 6px; padding: 10px 14px;
+}
+.pending p { margin: .3em 0; }
+.ok { color: #2e7d4f; } .bad { color: var(--red); } .blk { color: #8a6d1a; }
+footer.site { border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; text-align: center; padding: 18px; }
+.tl { border-left: 3px solid var(--navy); margin: 10px 0 10px 6px; padding-left: 18px; }
+.tl .tl-item { margin: 8px 0; }
+.tl .tl-year { font-weight: 700; color: var(--red); margin-right: 8px; }
+.tl .tl-unit { color: var(--muted); font-size: .85rem; margin-right: 8px; }
+.kv { margin: 4px 0; }
+.kv b { color: var(--navy); }
+@media print { header.site, footer.site { display: none; } }
