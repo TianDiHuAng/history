@@ -94,7 +94,7 @@ def header(title, depth=0, active=""):
     nav_items = [
         ("", "首页"), ("china/", "中国"), ("world/", "世界"),
         ("timeline/china.html", "中国时间线"), ("timeline/world.html", "世界时间线"),
-        ("compare/", "中外对照"), ("sources/", "来源"),
+        ("compare/", "中外对照"), ("all-events.html", "索引"), ("sources/", "来源"),
     ]
     links = []
     for href, label in nav_items:
@@ -142,6 +142,28 @@ def src_list_html(ids, srcmap, depth):
     return f'<ul class="src-list">{"".join(items)}</ul>'
 
 
+def extra_event_page(unit, ev, srcmap, depth):
+    """延伸事件详情页（轻量结构：时间/简介/来源/待核实，无 SVG）。"""
+    nv = ev.get("needs_verification")
+    pending = (ev.get("pending_notes") or "").strip() or "无特别待核实事项（见上方说明）。"
+    body = f"""
+<h1>{esc(ev['title'])}</h1>
+<p class="crumb"><a href="{rel(depth)}{'china/' if unit['region']=='china' else 'world/'}">{esc('中国' if unit['region']=='china' else '世界')}</a> /
+<a href="{rel(depth)}{'china' if unit['region']=='china' else 'world'}/{unit['unit_id']}/">{esc(unit['title'])}</a> / 延伸事件</p>
+<h2>时间</h2>
+<p class="kv"><b>{esc(ev['year_display'])}</b>{'—' + esc(ev.get('end_year_display') or '') if ev.get('end_year_display') else ''}<span class="meta">（{esc(ev.get('year_note',''))}）</span></p>
+<h2>说明</h2>
+<p>{esc(ev.get('desc',''))}</p>
+<h2>待核实</h2>
+<div class="pending"><p>{esc(pending)}</p></div>
+<h2>参考来源</h2>
+{src_list_html(ev.get('sources') or [], srcmap, depth)}
+<p class="meta" style="margin-top:20px">本页为延伸条目（主线之外的补充），单元内其他关键事件见 <a href="{rel(depth)}{'china' if unit['region']=='china' else 'world'}/{unit['unit_id']}/">{esc(unit['title'])} 总览页</a>。</p>
+"""
+    tag = '<span class="tag warn">待核实</span>' if nv else ""
+    return header(ev["title"], depth) + body + footer(), tag
+
+
 def event_page(unit, ev, srcmap, depth):
     ev_path = f"events/{unit['unit_id']}-{ev['id']}.html"
     nv = ev.get("needs_verification")
@@ -184,6 +206,7 @@ def event_page(unit, ev, srcmap, depth):
 <div class="pending"><p>{esc(pending)}</p></div>
 <h2>参考来源</h2>
 {src_list_html(ev.get('sources') or [], srcmap, depth)}
+{unit_nav_html(unit, ev, depth)}
 """
     tag = '<span class="tag warn">待核实</span>' if nv else ""
     return header(ev["title"], depth) + body + footer(), tag
@@ -225,6 +248,28 @@ def person_page(unit, p, srcmap, depth):
     return header(p.get("name", ""), depth) + body + footer()
 
 
+def unit_nav_html(unit, ev, depth):
+    """事件页底部：本单元前一条/后一条关键事件与延伸条目提示。"""
+    evs = unit["events"]
+    idx = next((i for i, e in enumerate(evs) if e["id"] == ev["id"]), None)
+    parts = []
+    if idx is not None:
+        if idx > 0:
+            prev = evs[idx - 1]
+            parts.append(f"<a href='{rel(depth)}events/{unit['unit_id']}-{prev['id']}.html'>← {esc(prev['title'])}（{esc(prev['year_display'])}）</a>")
+        if idx < len(evs) - 1:
+            nxt = evs[idx + 1]
+            parts.append(f"<a href='{rel(depth)}events/{unit['unit_id']}-{nxt['id']}.html'>{esc(nxt['title'])}（{esc(nxt['year_display'])}）→</a>")
+    xev = (unit.get("_extra") or {}).get("extra_events") or []
+    n_x = len(xev)
+    if n_x:
+        parts.append(f"<a href='{rel(depth)}{'china' if unit['region']=='china' else 'world'}/{unit['unit_id']}/'>单元另有 {n_x} 条延伸事件与 "
+                     f"{len((unit.get('_extra') or {}).get('extra_people') or [])} 位其他人物 →</a>")
+    if not parts:
+        return ""
+    return f"<p class='meta' style='margin-top:26px'>{'　·　'.join(parts)}</p>"
+
+
 def unit_page(unit, srcmap, depth):
     uid = unit["unit_id"]
     ov = unit.get("overview") or {}
@@ -250,7 +295,8 @@ def unit_page(unit, srcmap, depth):
     warn_tag2 = "<span class='tag warn'>待核实</span>"
     xev_rows = "".join(
         f"<tr><td class='year'>{esc(e['year_display'])}</td>"
-        f"<td><b>{esc(e['title'])}</b>{warn_tag2 if e.get('needs_verification') else ''}<br>"
+        f"<td><a href='{rel(depth)}events/{uid}-{e['id']}.html'><b>{esc(e['title'])}</b></a>"
+        f"{warn_tag2 if e.get('needs_verification') else ''}<br>"
         f"<span class='meta'>{esc(e.get('desc',''))}</span></td></tr>"
         for e in xev)
     xpp_rows = "".join(
@@ -318,7 +364,7 @@ def timeline_page(units, region, depth):
             tag = '<span class="tag warn">待核实</span>' if ev.get("needs_verification") else ""
             if is_x:
                 rows.append(f"<div class='tl-item tl-extra'><span class='tl-year'>{esc(ev['year_display'])}</span>"
-                            f"{esc(ev['title'])}{tag}</div>")
+                            f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>{tag}</div>")
             else:
                 rows.append(f"<div class='tl-item'><span class='tl-year'>{esc(ev['year_display'])}</span>"
                             f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>{tag}</div>")
@@ -334,7 +380,8 @@ def compare_page(china_units, world_units, depth):
     def add(u, ev, col):
         rows.setdefault(ev["year"], ["", ""])
         if ev.get("_is_extra"):
-            piece = f"<span class='xitem'>〔{esc(u['title'])}〕{esc(ev['title'])}</span>"
+            piece = (f"<span class='xitem'>〔{esc(u['title'])}〕"
+                     f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a></span>")
         else:
             piece = f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
         rows[ev["year"]][col] += ("" if not rows[ev["year"]][col] else "<br>") + piece
@@ -409,6 +456,33 @@ def index_page(china_units, world_units, depth):
     return header("中外历史脉络库", 0, active="首页") + body + footer()
 
 
+def all_events_page(china, world, depth):
+    entries = []
+    for u in china + world:
+        region = "中国" if u["region"] == "china" else "世界"
+        for ev in u["events"]:
+            entries.append((ev["year"], 0, region, u, ev, True))
+        for xev in (u.get("_extra") or {}).get("extra_events") or []:
+            entries.append((xev["year"], 1, region, u, xev, False))
+    entries.sort(key=lambda t: (t[0], t[1]))
+    rows = []
+    for y, is_x, region, u, ev, has_page in entries:
+        tag = "<span class='tag warn'>待核实</span>" if ev.get("needs_verification") else ""
+        cls = "" if not is_x else " class='meta'"
+        if has_page:
+            piece = f"<a href='events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
+        else:
+            piece = f"<a href='{region}/{u['unit_id']}/'>{esc(ev['title'])}</a>"
+        rows.append(f"<tr><td class='year'>{esc(ev['year_display'])}</td><td>{region}</td>"
+                    f"<td>{esc(u['title'])}</td><td{cls}>{piece}{tag}</td></tr>")
+    body = f"""
+<h1>全站事件索引</h1>
+<p class="meta">全部 {len(entries)} 条事件（含延伸条目）按公元纪年排序；黑色为关键事件（有详情页），灰色为延伸条目（点入单元页或延伸页）。</p>
+<table><tr><th>年份</th><th>地区</th><th>单元</th><th>事件</th></tr>{''.join(rows)}</table>
+"""
+    return header("全站事件索引", depth, active="索引") + body + footer()
+
+
 def main():
     srcdoc = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
     srcmap = {s["id"]: s for s in srcdoc["sources"]}
@@ -444,6 +518,7 @@ def main():
         shutil.rmtree(SITE)
 
     write("index.html", index_page(china, world, 0))
+    write("all-events.html", all_events_page(china, world, 0))
     write("china/index.html", unit_list_page(china, "china", "中国部分（按朝代）", 1))
     write("world/index.html", unit_list_page(world, "world", "世界部分（按时期）", 1))
     write("timeline/china.html", timeline_page(china, "china", 1))
@@ -459,6 +534,9 @@ def main():
             write(f"events/{u['unit_id']}-{ev['id']}.html", page)
         for p in u["people"]:
             write(f"people/{p['id']}.html", person_page(u, p, srcmap, depth))
+        for xev in (u.get("_extra") or {}).get("extra_events") or []:
+            xpage, _ = extra_event_page(u, xev, srcmap, depth)
+            write(f"events/{u['unit_id']}-{xev['id']}.html", xpage)
 
     os.makedirs(os.path.join(SITE, "assets"), exist_ok=True)
     shutil.copy(os.path.join(ROOT, "assets", "style.css"),
