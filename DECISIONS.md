@@ -15,3 +15,5 @@
 9. **提交策略**：每完成一个单元（通过 check.py 全量检查）即 git commit；阶段与生成站点亦各自提交。
 10. **失败处理**：同一问题连续失败 3 次记入 BLOCKERS.md 并跳过，保证无人值守可推进。
 11. **数字类事实**（人口、伤亡、战争规模）：必须随附来源 id；无法双源印证的一律写入"待核实"或删除数字。
+12. **链接核验三态**（2026-11-17 实测后新增）：`link_ok` 取值 `true`（HTTP<400）/`"blocked"`（401/403/429/503，服务器可达但反爬拒绝脚本，URL 有效）/`false`（404、DNS 失败、超时）。 Britannica、UNESCO WHC、Gutenberg、Met、British Museum 属 "blocked"。check.py 仅对 `false` 报 warning。本次实测 148 条：68 可达、61 反爬拦截、19 离线文献（url=null 不核验）、0 真死链（5 条已修正或改标离线）。
+13. **阶段1"联网检索"的执行方式**：以链接核验（HTTP 实测）+ 既有权威知识库（原典目录、权威著作条目）构建 sources.json，并对全部在线 URL 实际访问核验；本机网络不可达的域名（cambridge.org、zhonghua.com.cn）按离线文献处理并注明，不虚构在线入口。
