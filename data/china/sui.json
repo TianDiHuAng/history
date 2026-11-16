@@ -1,0 +1,849 @@
+{
+ "unit_id": "china-sui",
+ "region": "china",
+ "title": "隋",
+ "period_display": "581年—618年",
+ "start_year": 581,
+ "end_year": 618,
+ "overview": {
+  "main_threads": [
+   "再造统一：关陇集团完成近三百年的南北合并",
+   "制度创制：三省六部、科举萌芽、府兵整顿与律令体系",
+   "超大型国家工程：大运河、东都、长城的动员与代价",
+   "二世而亡：透支型国力的政治后果"
+  ],
+  "sub_periods": [
+   {
+    "name": "开皇（文帝）",
+    "range_display": "581年—604年",
+    "desc": "统一南北、轻徭薄赋、制度奠基，国库充实。"
+   },
+   {
+    "name": "大业（炀帝）",
+    "range_display": "604年—618年",
+    "desc": "运河、东都、科举推进与三征高句丽，民力枯竭，618年江都之变亡国。"
+   }
+  ],
+  "key_changes": [
+   "三省六部制雏形确立",
+   "科举制度萌芽（两节点说）",
+   "大运河贯通南北水运",
+   "均田—府兵—律令体系为唐制母本"
+  ]
+ },
+ "events": [
+  {
+   "id": "sui-yangjian-dazhou",
+   "title": "杨坚代周建隋",
+   "year": 581,
+   "end_year": null,
+   "year_display": "581年",
+   "end_year_display": null,
+   "year_note": "据《隋书·高祖纪》，大象三年二月（581年）杨坚受周禅称帝，改元开皇；公元纪年，无换算问题。",
+   "location": "长安",
+   "key_people": [],
+   "background": "杨坚为北周宣帝皇后之父（外戚）、关陇集团核心成员；宣帝早卒（580年），八岁静帝即位，杨坚以大丞相总揽朝政，先后平定尉迟迥等三方之乱。",
+   "process": [
+    "580年宣帝卒，杨坚入总朝政，翦除异己（平三方之乱，杨素、李德林等为谋主）。",
+    "581年二月受周禅称帝，建立隋朝，改元开皇。",
+    "废北周六官，恢复汉魏官制框架（三省六部的雏形）；颁行新律的筹备开始。",
+    "酌情处置北周宗室（静帝及诸王先后被害——禅代暴力惯例的延续）。"
+   ],
+   "outcome": "北方政权平稳过渡到杨氏；隋以关陇军事贵族为统治核心，即将启动统一战争。",
+   "controversies": [
+    {
+     "issue": "“得国之易”的解读",
+     "views": [
+      {
+       "holder": "传统叙事",
+       "basis": "外戚篡周、侥幸得国。"
+      },
+      {
+       "holder": "现代关陇集团研究（陈寅恪一系）",
+       "basis": "杨坚掌权是关陇军事贵族集体选择的结果：宇文氏排斥汉化贵族致其倒戈，杨氏恰是整合关陇-山东两大势力的最优人选——“得国易”背后是权力结构的必然。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>杨坚代周（581年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>北周末局</text><text x='190' y='140' text-anchor='middle' font-size='11'>宣帝早卒·八岁静帝即位</text><text x='190' y='162' text-anchor='middle' font-size='11'>外戚杨坚总朝政</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>580 平三方之乱</text><text x='430' y='140' text-anchor='middle' font-size='11'>尉迟迥等反抗被平</text><rect x='550' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>581年受禅</text><text x='635' y='140' text-anchor='middle' font-size='11'>改元开皇</text><text x='635' y='162' text-anchor='middle' font-size='11'>三省六部雏形</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xe1)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#2b4a6f' marker-end='url(#xe1)'/></g><rect x='130' y='220' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='246' text-anchor='middle' font-size='13'>关陇集团的国家化</text><text x='380' y='272' text-anchor='middle' font-size='11'>“得国之易”背后：宇文氏排斥汉化贵族致集体倒戈（现代解读）</text><text x='380' y='296' text-anchor='middle' font-size='11'>杨氏为整合关陇—山东势力的最优人选</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "sui-kaihuang-zhizhi",
+   "title": "开皇之治与《开皇律》",
+   "year": 581,
+   "end_year": 604,
+   "year_display": "581年",
+   "end_year_display": "604年",
+   "year_note": "开皇年号自581年至600年；仁寿四年（604年）文帝卒，本条以文帝一朝为界（581—604）。《开皇律》颁行于开皇三年（583年）修订本。公元纪年，无换算问题。",
+   "location": "长安",
+   "key_people": [
+    "sui-wendi"
+   ],
+   "background": "北周刑酷赋重；隋文帝以“薄赋敛、轻刑罚、务清静”治国，苏威、高颎、李德林等辅政，制度与民生并行。",
+   "process": [
+    "583年颁《开皇律》：十二篇五百条（据《隋书·刑法志》），废枭首轘裂等酷刑，定五刑体系；确立“八议”“十恶”框架（为唐律蓝本）。",
+    "轻徭薄赋：丁男服役由岁三十日减为二十日；蠲免课役政策频出。",
+    "均田制整顿与户籍大索貌阅（585年）、输籍定样，税基扩大。",
+    "广置仓储（官仓义仓并立），开皇末“库藏皆满”（《隋书·食货志》语）。"
+   ],
+   "outcome": "隋以二十余年积累起惊人财富（为唐初继承）；律令—均田—仓储体系成为隋唐制度母本；“国富”与民间负担的悖论也在此期形成。",
+   "controversies": [
+    {
+     "issue": "“国富”与民生的关系",
+     "views": [
+      {
+       "holder": "传统叙事（开皇之治）",
+       "basis": "仓廪实、户口滋盛的治世。"
+      },
+      {
+       "holder": "现代批判性研究",
+       "basis": "指出仓储充盈建立在强征搜刮之上（文献载文帝暮年仍禁酒禁游、仓储“计天下储积可供五六十年”的唐人回溯），文帝执法严苛、晚年任听谗言废易太子——“国富民未必富”的悖论被现代研究反复强调。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>开皇之治（581—604年）</text><g font-size='12'><rect x='60' y='80' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>583《开皇律》</text><text x='160' y='130' text-anchor='middle' font-size='11'>十二篇五百条·五刑</text><text x='160' y='152' text-anchor='middle' font-size='11'>唐律蓝本</text><rect x='290' y='80' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle'>轻徭薄赋</text><text x='390' y='130' text-anchor='middle' font-size='11'>岁役三十日减为二十日</text><rect x='520' y='80' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='620' y='106' text-anchor='middle'>大索貌阅·输籍</text><text x='620' y='130' text-anchor='middle' font-size='11'>清查户口·扩大税基</text><line x1='260' y1='120' x2='286' y2='120' stroke='#2b4a6f' marker-end='url(#xe3)'/><line x1='490' y1='120' x2='516' y2='120' stroke='#2b4a6f' marker-end='url(#xe3)'/></g><rect x='150' y='190' width='460' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='216' text-anchor='middle' font-size='13'>官仓义仓并立·开皇末“库藏皆满”（隋书食货志）</text><text x='380' y='240' text-anchor='middle' font-size='11'>均田—律令—仓储体系为隋唐制度母本</text><rect x='150' y='295' width='460' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' font-size='12' fill='#8c1f28'>悖论：“国富”建立于强征之上，民未必富</text><text x='380' y='346' text-anchor='middle' font-size='11'>文帝晚年执法严苛·废易太子（杨广继位伏笔）</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "yan-gengwang",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "sui-keju-chuchuang",
+   "title": "科举初创",
+   "year": 587,
+   "end_year": 605,
+   "year_display": "约587年",
+   "end_year_display": "约605年",
+   "year_note": "两节点说：开皇七年（587年）诸州岁贡三人与大业年间（约605年）炀帝置进士科，均为学界通行的两个起点节点；因两说并存且制度性质有争议，本站以约数区间处理。",
+   "location": "长安、洛阳",
+   "key_people": [],
+   "background": "九品中正制下门阀垄断仕途；隋欲强干弱枝、破除门阀，改以考试与州贡取士。",
+   "process": [
+    "开皇年间罢九品中正与州郡辟举，命诸州岁贡三人（587年前后）。",
+    "大业年间炀帝置进士科（约605年），试策取士——科举的核心节点之一。",
+    "唐代承袭并制度化（常科、制科并立），科举才全面定型。"
+   ],
+   "outcome": "打破门阀垄断的选官逻辑开始替代血缘推荐；进士科在唐代成为官僚文化与士人社会的引擎，影响东亚至19世纪。",
+   "controversies": [
+    {
+     "issue": "科举起源的年份与性质",
+     "views": [
+      {
+       "holder": "开皇贡举说",
+       "basis": "587年岁贡三人已具科举雏形（据《隋书》纪传与唐人追述）。"
+      },
+      {
+       "holder": "大业进士科说",
+       "basis": "以进士科（约605年）为真正起点。"
+      },
+      {
+       "holder": "现代制度史讨论",
+       "basis": "隋代贡举规模小、进士科性质（是否真为常设考试科目）学界有辨；唐代才是定型期——“科举创始于隋”是两代累积而非一朝之制的共识性表述。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>科举初创（两节点说）</text><g font-size='12'><rect x='100' y='90' width='240' height='80' fill='#fff' stroke='#2b4a6f'/><text x='220' y='116' text-anchor='middle'>约587年 开皇贡举</text><text x='220' y='140' text-anchor='middle' font-size='11'>罢九品中正·岁贡三人</text><rect x='420' y='90' width='240' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='540' y='116' text-anchor='middle' fill='#8c1f28'>约605年 进士科</text><text x='540' y='140' text-anchor='middle' font-size='11'>试策取士</text><line x1='340' y1='130' x2='416' y2='130' stroke='#2b4a6f' marker-end='url(#xe4)'/></g><line x1='380' y1='170' x2='380' y2='200' stroke='#2b4a6f' marker-end='url(#xe4)'/><rect x='150' y='204' width='460' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='230' text-anchor='middle' font-size='13'>选官逻辑：血缘推荐 → 考试</text><text x='380' y='256' text-anchor='middle' font-size='11'>隋代规模小，唐代制度化——科举创始为两代累积（学界共识）</text><rect x='150' y='315' width='460' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='351' text-anchor='middle' font-size='11' fill='#8c1f28'>起源年份与进士科性质均有学术争论——本站以区间处理</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "yan-gengwang",
+    "zgbk"
+   ],
+   "needs_verification": true,
+   "pending_notes": "科举起源存在“开皇贡举（587）”与“大业进士科（约605）”两说，且隋代进士科是否为常设考试科目有学术讨论；唐代方全面定型。"
+  },
+  {
+   "id": "sui-miechen-tongyi",
+   "title": "隋灭陈与统一",
+   "year": 589,
+   "end_year": null,
+   "year_display": "589年",
+   "end_year_display": null,
+   "year_note": "据《隋书·高祖纪》，开皇九年正月（589年）晋王杨广、韩擒虎贺若弼渡江克建康，陈后主降；公元纪年，无换算问题。",
+   "location": "长江全线；建康（今南京）",
+   "key_people": [
+    "sui-yangdi"
+   ],
+   "background": "陈后主荒于政事；隋以杨广为元帅，贺若弼、韩擒虎为先锋，高颎杨素统筹——南北实力差距已不可逆转。",
+   "process": [
+    "587年灭后梁（江陵萧氏）；585—588年隋经略上游，控制三峡。",
+    "588年十月下诏伐陈，五十一万余八千总兵力（隋书数字，存疑）沿江八路并进。",
+    "589年正月，贺若弼自广陵、韩擒虎自横江渡江，袭破建康；陈后主藏于胭脂井被俘。",
+    "南方平定后推行“关中本位”整合：平毁建康城邑、改造南方豪族与佛教势力（灭陈后政策强度学界有讨论）。"
+   ],
+   "outcome": "西晋灭亡以来近三百年（311—589）南北对峙结束；但南北整合工程浩大，南方反复（如590年南方叛乱）提示统一的脆弱性。",
+   "controversies": [
+    {
+     "issue": "伐陈兵力“五十一万八千”",
+     "views": [
+      {
+       "holder": "《隋书》纪传",
+       "basis": "总兵力精确到个位（518000），后世广引。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "精确到百位的总动员数字系文献整理产物，分路兵力可信而总数宜视为约数。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>隋灭陈（589年正月，渡江示意）</text><rect x='280' y='90' width='200' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='116' text-anchor='middle' font-size='13'>隋军沿江八路并进</text><text x='380' y='136' text-anchor='middle' font-size='11'>杨广元帅·贺若弼韩擒虎先锋</text><rect x='280' y='180' width='200' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='206' text-anchor='middle' font-size='13' fill='#8c1f28'>589年正月渡江</text><text x='380' y='226' text-anchor='middle' font-size='11'>袭破建康</text><rect x='480' y='260' width='220' height='70' fill='#fff' stroke='#8c1f28'/><text x='590' y='286' text-anchor='middle' font-size='13' fill='#8c1f28'>陈后主藏胭脂井被俘</text><text x='590' y='310' text-anchor='middle' font-size='11'>近三百年南北对峙结束</text><line x1='380' y1='150' x2='380' y2='176' stroke='#8c1f28' marker-end='url(#xe2)'/><line x1='460' y1='240' x2='520' y2='256' stroke='#8c1f28' marker-end='url(#xe2)'/><rect x='80' y='290' width='330' height='70' fill='#fff' stroke='#2b4a6f'/><text x='245' y='316' text-anchor='middle' font-size='12'>590年南方仍有叛乱——整合工程漫长</text><text x='245' y='340' text-anchor='middle' font-size='11'>“五十一万八千”总数宜视为约数（现代研究）</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "sui-dongdu-luoyang",
+   "title": "营建东都洛阳",
+   "year": 605,
+   "end_year": 606,
+   "year_display": "605年",
+   "end_year_display": "606年",
+   "year_note": "据《隋书·炀帝纪》，大业元年（605年）三月诏营建东都洛阳（尚书令杨素、将作大匠宇文恺主持），每月役丁二百万人（《隋书》所记数字，存疑），翌年正月初步建成；公元纪年，无换算问题。",
+   "location": "洛阳",
+   "key_people": [
+    "sui-yangdi"
+   ],
+   "background": "关中供给不足且远离关东与江南；炀帝欲以洛阳居中控制新统一的帝国，并便于漕运转输。",
+   "process": [
+    "605年三月诏建东都，宇文恺主持规划，城郭宫苑规模空前。",
+    "每月役使丁夫二百万人（《隋书》所记，学界认为有夸大，实际持续征发规模无精确数）。",
+    "606年正月洛阳初步建成；徙天下富商大贾数万家实之。",
+    "置回洛仓、兴洛仓等巨大粮仓系统与漕渠配套。"
+   ],
+   "outcome": "洛阳成为东西两部之间的政治经济枢纽，此后唐以洛阳为东都延续；超常规征发是隋末民变的诱因之一。",
+   "controversies": [
+    {
+     "issue": "役丁“二百万”",
+     "views": [
+      {
+       "holder": "《隋书·炀帝纪》",
+       "basis": "“每月役丁二百万人”。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "认为数字系总动员叙述（可能与漕渠等工程并计），实际峰值难以核证；征发强度巨大本身为共识。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>营建东都（605—606年，区位示意）</text><g font-size='13'><rect x='100' y='160' width='150' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='175' y='190' text-anchor='middle'>长安（西）</text><text x='175' y='212' text-anchor='middle' font-size='11'>供给不足</text><rect x='320' y='150' width='160' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='400' y='185' text-anchor='middle' font-size='15' fill='#8c1f28'>洛阳（东都）</text><text x='400' y='210' text-anchor='middle' font-size='11'>居中控制·漕运枢纽</text><rect x='540' y='160' width='150' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='615' y='190' text-anchor='middle'>江南（新附）</text><text x='615' y='212' text-anchor='middle' font-size='11'>粮赋重地</text><line x1='250' y1='195' x2='316' y2='195' stroke='#2b4a6f' marker-end='url(#xe5)'/><line x1='540' y1='195' x2='484' y2='195' stroke='#2b4a6f' marker-end='url(#xe5)'/></g><rect x='130' y='280' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='306' text-anchor='middle' font-size='13'>宇文恺规划·“每月役丁二百万人”（隋书，存疑）</text><text x='380' y='330' text-anchor='middle' font-size='11'>回洛仓兴洛仓配套；徙富商数万家实之</text><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>超常规征发是隋末民变诱因之一</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "whc-canal",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "sui-dayunhe",
+   "title": "开凿大运河",
+   "year": 605,
+   "end_year": 610,
+   "year_display": "605年",
+   "end_year_display": "610年",
+   "year_note": "四段施工：通济渠（605年）、邗沟改造（605年）、永济渠（608年）、江南河（610年），据《隋书·炀帝纪》系年；公元纪年，无换算问题。",
+   "location": "自余杭经洛阳至涿郡（今杭州—洛阳—北京一线）",
+   "key_people": [
+    "sui-yangdi"
+   ],
+   "background": "江南财赋需北运，用兵辽东需北运军需；炀帝在数年间连续开凿四段运河，形成以洛阳为中心的“人”字形水运网。",
+   "process": [
+    "605年开通济渠（自洛阳引谷洛水达于淮），同年拓宽邗沟（淮—江）。",
+    "608年开永济渠（引沁水南达于河、北通涿郡），为用兵辽东准备。",
+    "610年开江南河（京口—余杭）。",
+    "“发河南诸郡男女百余万开通济渠”（《隋书》所记征发数字，存疑）；沿线置离宫四十余所（《隋书》记数，学界视为约数）。"
+   ],
+   "outcome": "贯通五大水系的南北水运动脉建成，唐宋依赖其漕运运转数百年；2014年大运河列入世界遗产——但隋末民怨沸腾亦与此连年超大规模征发直接相关。",
+   "controversies": [
+    {
+     "issue": "运河评价的两极",
+     "views": [
+      {
+       "holder": "传统“罪在当代功在千秋”论",
+       "basis": "皮日休诗“共禹论功不较多”与昏君叙事并存的经典矛盾。"
+      },
+      {
+       "holder": "现代经济史研究",
+       "basis": "运河是统一帝国的物流基础设施，战略价值确凿；但六年间连续四段超大规模征发、百余万级动员（文献数字存疑），成本集中于一代人身上——崩溃的财政社会逻辑被量化研究强调。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>大运河四段（605—610年，走向示意）</text><g font-size='13'><rect x='60' y='120' width='120' height='56' fill='#fff' stroke='#2b4a6f'/><text x='120' y='144' text-anchor='middle'>涿郡</text><text x='120' y='164' text-anchor='middle' font-size='10'>(北京)</text><rect x='320' y='120' width='140' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='144' text-anchor='middle' fill='#8c1f28'>洛阳</text><text x='390' y='164' text-anchor='middle' font-size='10'>中心枢纽</text><rect x='320' y='220' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='390' y='244' text-anchor='middle'>淮水</text><rect x='320' y='290' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='390' y='314' text-anchor='middle'>扬州/江都</text><rect x='120' y='290' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='190' y='314' text-anchor='middle'>江南河</text><text x='190' y='334' text-anchor='middle' font-size='10'>610年</text><rect x='520' y='290' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='590' y='314' text-anchor='middle'>余杭</text><text x='590' y='334' text-anchor='middle' font-size='10'>(杭州)</text><rect x='560' y='120' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='630' y='144' text-anchor='middle'>永济渠</text><text x='630' y='164' text-anchor='middle' font-size='10'>608年·通辽东</text></g><line x1='180' y1='148' x2='316' y2='148' stroke='#2b4a6f' marker-end='url(#xe6)'/><line x1='390' y1='176' x2='390' y2='216' stroke='#2b4a6f' marker-end='url(#xe6)'/><line x1='390' y1='276' x2='390' y2='286' stroke='#2b4a6f' marker-end='url(#xe6)'/><line x1='316' y1='318' x2='264' y2='318' stroke='#2b4a6f' marker-end='url(#xe6)'/><line x1='260' y1='318' x2='316' y2='318' stroke='#2b4a6f' marker-end='url(#xe6)'/><line x1='464' y1='318' x2='516' y2='318' stroke='#2b4a6f' marker-end='url(#xe6)'/><line x1='640' y1='176' x2='640' y2='286' stroke='#2b4a6f' marker-end='url(#xe6)'/><rect x='130' y='180' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='210' y='206' text-anchor='middle' font-size='12'>通济渠605</text><text x='210' y='228' text-anchor='middle' font-size='10'>'百余万'征发（存疑）</text><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>“罪在当代，功在千秋”的经典悖论；2014年列入世界遗产</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "whc-canal",
+    "lvsimian"
+   ],
+   "needs_verification": true,
+   "pending_notes": "征发民夫数字（“男女百余万”）与离宫数量（《隋书》四十余所）均系文献约数；各段实际用工规模无独立核证，学界对具体动员峰值有不同估计。"
+  },
+  {
+   "id": "sui-mo-minbian",
+   "title": "隋末农民起义爆发",
+   "year": 611,
+   "end_year": 618,
+   "year_display": "611年",
+   "end_year_display": "618年",
+   "year_note": "据《隋书》与《资治通鉴》：大业七年（611年）王薄于长白山（今山东邹平一带）首倡起义；至618年炀帝死、群雄割据定型。公元纪年，无换算问题。",
+   "location": "长白山（山东）→瓦岗（河南）→全国",
+   "key_people": [
+    "li-mi"
+   ],
+   "background": "山东水灾叠加大运河、征辽的连年征发，民力枯竭；王薄作《无向辽东浪死歌》号召逃役者聚义。",
+   "process": [
+    "611年王薄据长白山起义，自称知世郎——山东、河北义军蜂起（孙宣雅、窦建德、杜伏威等）。",
+    "617年瓦岗军李密主盟，攻克洛口仓开仓赈饥，“就食者数百万”（《隋书》描述性数字）。",
+    "窦建德据河北建夏，杜伏威据江淮；隋朝控制区收缩至关中。",
+    "618年江都之变后，义军与军阀混战继续，至唐初才渐次平定。"
+   ],
+   "outcome": "隋的统治基础全面瓦解；李密、窦建德等集团先后为唐所并，其政治遗产（均田授田不足的流民问题）延续入唐。",
+   "controversies": [
+    {
+     "issue": "瓦岗开仓“就食者数百万”",
+     "views": [
+      {
+       "holder": "《隋书》《资治通鉴》",
+       "basis": "描述性数字，反映饥民规模之巨。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "作象征性表达理解，不作人口统计使用。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>隋末起义（611—618年，方位示意）</text><g font-size='12'><rect x='80' y='90' width='220' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='190' y='116' text-anchor='middle' fill='#8c1f28'>611 王薄长白山首义</text><text x='190' y='140' text-anchor='middle' font-size='11'>《无向辽东浪死歌》</text><rect x='340' y='90' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>617 瓦岗军（李密）</text><text x='430' y='140' text-anchor='middle' font-size='11'>破洛口仓开仓赈饥</text><rect x='550' y='90' width='170' height='80' fill='#fff' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>窦建德（河北）</text><text x='635' y='140' text-anchor='middle' font-size='11'>杜伏威（江淮）</text><line x1='300' y1='130' x2='336' y2='130' stroke='#8c1f28' marker-end='url(#xe8)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xe8)'/></g><line x1='430' y1='170' x2='430' y2='205' stroke='#2b4a6f' marker-end='url(#xe8)'/><rect x='230' y='210' width='300' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>隋控制区收缩至关中</text><text x='380' y='262' text-anchor='middle' font-size='11'>618年江都之变·隋亡</text><rect x='130' y='315' width='500' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='351' text-anchor='middle' font-size='11' fill='#8c1f28'>导火索：山东水灾+运河/辽东连年征发（民力枯竭）</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "sui-sanzheng-gaogouli",
+   "title": "三征高句丽",
+   "year": 612,
+   "end_year": 614,
+   "year_display": "612年",
+   "end_year_display": "614年",
+   "year_note": "据《隋书·炀帝纪》：大业八年（612年）首征、十年（614年）三征罢兵；公元纪年，无换算问题。",
+   "location": "辽东、平壤方向（涿郡为集结地）",
+   "key_people": [
+    "sui-yangdi"
+   ],
+   "background": "高句丽不朝且联突厥，隋欲重建东疆秩序；以永济渠与涿郡为后勤基地，炀帝亲征。",
+   "process": [
+    "612年首征：《隋书》记“总一百十三万三千八百人”分左右十二军渡辽——精确到个位的总动员数字（存疑），宇文述等九军败于萨水，三十万五千出而还者二千七百（《隋书》数字）。",
+    "613年再征，因杨玄感黎阳起兵而回师平叛。",
+    "614年三征，高句丽请和，炀帝受降而实际未得臣服实效。",
+    "连年征发致“黄河之北则千里无烟，江淮之间则鞠为茂草”（《隋书》所引诏书描述）。"
+   ],
+   "outcome": "三征皆无实效，民变全面爆发，隋的崩溃与三征直接相连；杨玄感之乱显示统治核心层（关陇贵族）亦已离心。",
+   "controversies": [
+    {
+     "issue": "兵力与伤亡数字",
+     "views": [
+      {
+       "holder": "《隋书·炀帝纪》",
+       "basis": "总一百十三万三千八百人；萨水之败“三十万五千出而还者二千七百”。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "精确个位数的总动员数字与幸存者数字均被视为叙述性统计，实际规模无法核证；萨水惨败本身为共识。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>三征高句丽（612—614年，示意）</text><rect x='250' y='110' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='340' y='136' text-anchor='middle' font-size='13'>涿郡（集结地）</text><text x='340' y='156' text-anchor='middle' font-size='10'>永济渠运兵粮</text><rect x='520' y='130' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='610' y='156' text-anchor='middle' font-size='13'>辽东—平壤方向</text><rect x='520' y='220' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='610' y='246' text-anchor='middle' font-size='13' fill='#8c1f28'>萨水惨败（612）</text><text x='610' y='268' text-anchor='middle' font-size='10'>九军尽溃（隋书数字存疑）</text><line x1='430' y1='140' x2='516' y2='152' stroke='#8c1f28' marker-end='url(#xe7)'/><line x1='610' y1='190' x2='610' y2='216' stroke='#8c1f28' marker-end='url(#xe7)'/><rect x='90' y='220' width='340' height='80' fill='#fff' stroke='#2b4a6f'/><text x='260' y='246' text-anchor='middle' font-size='12'>613年再征→杨玄感黎阳起兵</text><text x='260' y='270' text-anchor='middle' font-size='11'>614年三征：受降无实效</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>连年征发→“黄河之北千里无烟”——隋崩溃与三征直接相连</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "cambridge-china"
+   ],
+   "needs_verification": true,
+   "pending_notes": "“一百十三万三千八百人”与萨水“还者二千七百”均出自《隋书》单源且精确度可疑，实际兵力伤亡无法核证。"
+  },
+  {
+   "id": "sui-liyuan-taiyuan",
+   "title": "李渊太原起兵",
+   "year": 617,
+   "end_year": null,
+   "year_display": "617年",
+   "end_year_display": null,
+   "year_note": "据《资治通鉴》义宁元年（617年）五月李渊于晋阳起兵，与两《唐书》系年相合；公元纪年，无换算问题。",
+   "location": "晋阳（今太原）→霍邑→长安",
+   "key_people": [],
+   "background": "李渊为炀帝表兄，任太原留守；天下大乱、突厥犯边，次子李世民与刘文静、裴寂策划起兵；李渊先称臣于突厥以稳北面。",
+   "process": [
+    "617年五月，李渊于晋阳起兵，誓师南向，发布讨炀帝檄文（尊代王侑名义）。",
+    "七月自晋阳出发，十一月破霍邑（斩宋老生）、克临汾绛郡。",
+    "十一月攻入长安，立代王侑为帝（恭帝），遥尊炀帝为太上皇，自为大都督内外诸军事、唐王。",
+    "618年五月，炀帝死讯至，李渊受隋禅称帝，国号唐。"
+   ],
+   "outcome": "唐以“尊隋”旗号完成对关中的接收，合法性与实力兼备；618—623年间先后平定薛仁杲、刘武周、王世充、窦建德、刘黑闼等，完成再统一。",
+   "controversies": [
+    {
+     "issue": "起兵的主导者",
+     "views": [
+      {
+       "holder": "两《唐书》官修叙事",
+       "basis": "突出李世民首谋（贞观史臣追改的嫌疑为学界共识性讨论）。"
+      },
+      {
+       "holder": "现代研究（《大唐创业起居注》温大雅所记对读）",
+       "basis": "起居注成书于唐初未遭贞观改史，显示李渊始终是决策核心，李世民为重要执行者——“李渊平庸说”被起居注研究基本推翻。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>太原起兵（617年，进军示意）</text><g font-size='12'><rect x='90' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>617年五月 晋阳起兵</text><text x='200' y='140' text-anchor='middle' font-size='11'>李世民·刘文静·裴寂策划</text><text x='200' y='162' text-anchor='middle' font-size='11'>先称臣突厥稳北面</text><rect x='350' y='90' width='170' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='435' y='116' text-anchor='middle'>七月南下</text><text x='435' y='140' text-anchor='middle' font-size='11'>破霍邑·克绛郡</text><rect x='560' y='90' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>十一月入长安</text><text x='645' y='140' text-anchor='middle' font-size='11'>立恭帝·自为唐王</text><line x1='310' y1='130' x2='346' y2='130' stroke='#2b4a6f' marker-end='url(#xe10)'/><line x1='520' y1='130' x2='556' y2='130' stroke='#8c1f28' marker-end='url(#xe10)'/></g><line x1='645' y1='170' x2='645' y2='205' stroke='#2b4a6f' marker-end='url(#xe10)'/><rect x='230' y='210' width='300' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>618年五月 受禅建唐</text><text x='380' y='262' text-anchor='middle' font-size='11'>623年前完成再统一</text><rect x='130' y='315' width='500' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='351' text-anchor='middle' font-size='11' fill='#8c1f28'>史料对读：贞观官修突出李世民，《大唐创业起居注》还原李渊主导</text></svg>",
+   "sources": [
+    "tongjian",
+    "jiutangshu",
+    "xintangshu"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "sui-jiangdu-zhibian",
+   "title": "江都之变与隋亡",
+   "year": 618,
+   "end_year": null,
+   "year_display": "618年",
+   "end_year_display": null,
+   "year_note": "据《隋书·炀帝纪》与《资治通鉴》：大业十四年三月（618年）宇文化及等弑炀帝于江都（今扬州）；公元纪年，无换算问题。",
+   "location": "江都（今扬州）",
+   "key_people": [
+    "sui-yangdi"
+   ],
+   "background": "天下大乱后炀帝避居江都，欲迁都丹阳；骁果军（关中人）思乡欲归，宇文化及（宇文述之子）利用军心发动兵变。",
+   "process": [
+    "炀帝滞江都，镜语“好头颅，谁当斫之”（《资治通鉴》所载语录，广被引用）。",
+    "618年三月，司马德戡、宇文智及等拥宇文化及为帅，骁果军哗变。",
+    "炀帝被缢杀于江都宫；宗室、外戚与重臣多死。",
+    "宇文化及率军北归途中败亡；李渊先已于617年起兵太原、618年五月受隋禅称帝建唐。"
+   ],
+   "outcome": "隋亡（立国三十八年）；中国进入数年群雄混战后由唐完成再统一——隋制（科举、运河、律令、东都）尽为唐所继承。",
+   "controversies": [
+    {
+     "issue": "炀帝的历史评价",
+     "views": [
+      {
+       "holder": "传统昏君叙事",
+       "basis": "《隋书》以后世谥法“炀”定调；唐初政治需要放大其恶（“罄南山之竹，书罪未穷”系李密檄文语）。"
+      },
+      {
+       "holder": "现代重估（吕思勉等）",
+       "basis": "运河、科举、东都皆长期制度贡献；“昏君”标签掩盖了高成本帝国的结构性困境（透支民力+贵族离心）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xe9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>江都之变（618年三月）</text><g font-size='12'><rect x='90' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='205' y='116' text-anchor='middle'>炀帝避居江都</text><text x='205' y='140' text-anchor='middle' font-size='11'>欲迁丹阳·骁果思归</text><text x='205' y='162' text-anchor='middle' font-size='11'>“好头颅，谁当斫之”</text><rect x='360' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='450' y='116' text-anchor='middle' fill='#8c1f28'>618年三月 兵变</text><text x='450' y='140' text-anchor='middle' font-size='11'>宇文化及为帅</text><text x='450' y='162' text-anchor='middle' font-size='11'>炀帝被缢杀</text><rect x='580' y='90' width='150' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='655' y='116' text-anchor='middle'>隋亡（38年）</text><text x='655' y='140' text-anchor='middle' font-size='11'>李渊618年五月</text><text x='655' y='162' text-anchor='middle' font-size='11'>受禅建唐</text><line x1='320' y1='135' x2='356' y2='135' stroke='#8c1f28' marker-end='url(#xe9)'/><line x1='540' y1='135' x2='576' y2='135' stroke='#8c1f28' marker-end='url(#xe9)'/></g><rect x='130' y='220' width='500' height='100' fill='#fff' stroke='#2b4a6f'/><text x='380' y='246' text-anchor='middle' font-size='13'>隋制尽为唐所继承</text><text x='380' y='272' text-anchor='middle' font-size='11'>科举·运河·律令·东都·仓储——唐的框架即隋的框架</text><text x='380' y='296' text-anchor='middle' font-size='11'>评价分歧：昏君叙事 vs 高成本帝国结构性困境（吕思勉等）</text></svg>",
+   "sources": [
+    "suishu",
+    "tongjian",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "people": [
+  {
+   "id": "sui-wendi",
+   "name": "隋文帝杨坚",
+   "birth_year": 541,
+   "death_year": 604,
+   "birth_display": "541年",
+   "death_display": "604年",
+   "birth_note": "据《隋书·高祖纪》生于西魏大统七年（541年）冯翊般若寺，公元纪年换算。",
+   "death_note": "仁寿四年（604年）崩于仁寿宫大宝殿（死因与杨广相关联的传闻见争议），公元纪年。",
+   "chronology": [
+    {
+     "year": 541,
+     "display": "541年",
+     "text": "生于冯翊般若寺，弘农杨氏自称（关陇胡汉混血贵族，氏族建构有讨论）。"
+    },
+    {
+     "year": 568,
+     "display": "568年（前后）",
+     "text": "袭父爵隋国公；女杨丽华为周宣帝皇后。"
+    },
+    {
+     "year": 580,
+     "display": "580年",
+     "text": "宣帝卒，以大丞相总揽朝政，平三方之乱。"
+    },
+    {
+     "year": 581,
+     "display": "581年",
+     "text": "受禅建隋，改元开皇。"
+    },
+    {
+     "year": 589,
+     "display": "589年",
+     "text": "灭陈统一南北。"
+    },
+    {
+     "year": 604,
+     "display": "604年",
+     "text": "卒于仁寿宫；杨广继位。"
+    }
+   ],
+   "deeds": [
+    "再造统一，结束近三百年南北分裂。",
+    "创制开皇律令—三省六部—均田仓储体系，为隋唐制度母本。",
+    "节俭治国而晚年猜忌严苛，废杨勇立杨广埋下祸根。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《隋书》与唐初史观",
+     "view": "肯定其“勤劳思政”与统一之功，直书其晚年“素无学术”“听信谗言”。",
+     "basis": "《隋书·高祖纪》赞。"
+    },
+    {
+     "holder": "现代评价",
+     "view": "制度建构者（西方学者常以“最伟大的君主之一”称之），同时强调开皇之治的强征底色与储位失误。",
+     "basis": "隋唐史研究。"
+    }
+   ],
+   "sources": [
+    "suishu",
+    "tongjian",
+    "chenyinke-tang",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "dugu-qialuo",
+   "name": "文献皇后独孤伽罗",
+   "birth_year": 544,
+   "death_year": 602,
+   "birth_display": "544年",
+   "death_display": "602年",
+   "birth_note": "据《隋书·后妃传》生于西魏大统十年（544年），公元纪年换算。",
+   "death_note": "仁寿二年（602年）卒，公元纪年。",
+   "chronology": [
+    {
+     "year": 544,
+     "display": "544年",
+     "text": "生于独孤信家（关陇顶级军功贵族）。"
+    },
+    {
+     "year": 557,
+     "display": "557年",
+     "text": "十四岁嫁杨坚，“誓无异生之子”（帝后并称“二圣”的起点）。"
+    },
+    {
+     "year": 581,
+     "display": "581年",
+     "text": "立为皇后，预闻政事，宫中称“二圣”。"
+    },
+    {
+     "year": 600,
+     "display": "600年",
+     "text": "主导废杨勇立杨广（其倾向与杨广伪装孝俭直接相关）。"
+    },
+    {
+     "year": 602,
+     "display": "602年",
+     "text": "卒；此后文帝纵情声色、身体衰败。"
+    }
+   ],
+   "deeds": [
+    "参与开皇政治决策，与文帝并称“二圣”。",
+    "一夫一妻主张（政治婚姻纯度极高）与废立太子事件的关键推手。",
+    "其死被视为文帝晚年失序的开端。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《隋书·文献独皇后传》",
+     "view": "“谦卑自守，世以为贤”，同时直书其在废立太子中的作用。",
+     "basis": "《隋书》。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "作为关陇联姻网络节点与“二圣”共治的前例（武则天“二圣”先声），其政治角色被现代研究显著提高。",
+     "basis": "隋唐史性别与政治研究。"
+    }
+   ],
+   "sources": [
+    "suishu",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "sui-yangdi",
+   "name": "隋炀帝杨广",
+   "birth_year": 569,
+   "death_year": 618,
+   "birth_display": "569年",
+   "death_display": "618年",
+   "birth_note": "据《隋书·炀帝纪》生于北周天和四年（569年），公元纪年换算。",
+   "death_note": "大业十四年（618年）三月被缢杀于江都宫，公元纪年。",
+   "chronology": [
+    {
+     "year": 569,
+     "display": "569年",
+     "text": "生于长安，文帝次子。"
+    },
+    {
+     "year": 589,
+     "display": "589年",
+     "text": "任元帅平陈；此后镇江都十年。"
+    },
+    {
+     "year": 604,
+     "display": "604年",
+     "text": "继位，改元大业。"
+    },
+    {
+     "year": 605,
+     "display": "605年",
+     "text": "营东都、开通济渠。"
+    },
+    {
+     "year": 612,
+     "display": "612年",
+     "text": "首征高句丽，萨水惨败。"
+    },
+    {
+     "year": 618,
+     "display": "618年",
+     "text": "江都之变被弑。"
+    }
+   ],
+   "deeds": [
+    "开凿大运河、营建东都、重开丝路（西巡张掖）。",
+    "推进进士科与制度整合（大业律、均田完备化）。",
+    "三征高句丽与超常规征发导致隋亡。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《隋书》与谥法“炀”",
+     "view": "唐初定调的昏君暴君形象（好内远礼曰炀）；李密檄文“罄南山之竹，书罪未穷”广传。",
+     "basis": "《隋书》与唐初政治话语。"
+    },
+    {
+     "holder": "现代重估（吕思勉等）",
+     "view": "运河、科举、东都皆泽被后世；“志大心劳”的改革者形象替代单纯昏君叙事——失败源于透支与贵族离心，非仅个人荒暴。",
+     "basis": "《中国通史》等。"
+    },
+    {
+     "holder": "西方汉学界",
+     "view": "常将其与秦始皇并论为“宏大工程型君主”：远见与执行成本的经典悲剧。",
+     "basis": "剑桥隋唐史等。"
+    }
+   ],
+   "sources": [
+    "suishu",
+    "tongjian",
+    "lvsimian",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "yang-su",
+   "name": "杨素",
+   "birth_year": 544,
+   "death_year": 606,
+   "birth_display": "544年",
+   "death_display": "606年",
+   "birth_note": "据《隋书·杨素传》生于西魏大统十年（544年）前后，通说推排。",
+   "death_note": "大业二年（606年）卒（病卒，与炀帝猜忌相关的传闻见史载），公元纪年。",
+   "chronology": [
+    {
+     "year": 544,
+     "display": "544年（前后）",
+     "text": "生于弘农华阴士族。"
+    },
+    {
+     "year": 580,
+     "display": "580年",
+     "text": "助杨坚平尉迟迥之乱。"
+    },
+    {
+     "year": 589,
+     "display": "589年",
+     "text": "率水军下三峡灭陈（狼尾滩—汉口一线作战）。"
+    },
+    {
+     "year": 592,
+     "display": "约592年起",
+     "text": "为尚书右仆射，与高颎并执政柄。"
+    },
+    {
+     "year": 600,
+     "display": "600年",
+     "text": "助晋王广夺嫡（与杨广勾连的转捩点）。"
+    },
+    {
+     "year": 606,
+     "display": "606年",
+     "text": "卒；楚公。"
+    }
+   ],
+   "deeds": [
+    "灭陈战役的上游统帅，隋统一的关键军功者。",
+    "营建东都的实际主持者（与宇文恺）。",
+    "助杨广夺嫡：杨素系关陇军功派系政治的关键棋子。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《隋书·杨素传》",
+     "view": "“文武双资，明略过人”；同时直书其营东都役使惨酷、诛戮功臣（李纲、史万岁事）的酷吏面。",
+     "basis": "《隋书》。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "从关陇派系政治角度重估：其拥立杨广既是个体投机，也是军功贵族集团对继位格局的集体押注。",
+     "basis": "隋唐政治史研究。"
+    }
+   ],
+   "sources": [
+    "suishu",
+    "tongjian",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "li-mi",
+   "name": "李密",
+   "birth_year": 582,
+   "death_year": 619,
+   "birth_display": "582年",
+   "death_display": "619年",
+   "birth_note": "据两《唐书》及《隋书》纪传推排（582年生，通说约数）。",
+   "death_note": "武德二年（619年）降唐复叛，死于桃林（陆浑）之乱，公元纪年。",
+   "chronology": [
+    {
+     "year": 582,
+     "display": "582年（约）",
+     "text": "生于长安，上柱国蒲山公之子，袭爵。"
+    },
+    {
+     "year": 613,
+     "display": "613年",
+     "text": "参与杨玄感黎阳起兵，献三策；兵败亡命。"
+    },
+    {
+     "year": 617,
+     "display": "617年",
+     "text": "入瓦岗军，杀翟让夺其众，称魏公；开洛口仓赈饥。"
+    },
+    {
+     "year": 618,
+     "display": "618年",
+     "text": "与宇文化及大战童山，后降隋皇泰主；旋与王世充战败。"
+    },
+    {
+     "year": 619,
+     "display": "619年",
+     "text": "降唐复叛，死于陆浑。"
+    }
+   ],
+   "deeds": [
+    "瓦岗军主盟时期为隋末最强反隋势力，一度控制中原粮仓体系。",
+    "《讨隋炀帝檄》（祖君彦执笔）名句“罄南山之竹，书罪未穷；决东海之波，流恶难尽”成为讨逆檄文典范。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《旧唐书》叙事（本站未收录旧唐书？已收录jiutangshu）",
+     "view": "“才兼文武，志气雄豪”，而败于量窄猜忌（杀翟让之局）。",
+     "basis": "两《唐书》本传。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "瓦岗能否成功的战略争论（西进关中 vs 固守中原）被反复讨论；其失败与关陇贵族（李渊集团）的整合能力对比构成隋末成败的解释框架。",
+     "basis": "隋末唐初史研究。"
+    }
+   ],
+   "sources": [
+    "jiutangshu",
+    "suishu",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "yuwen-huaji",
+   "name": "宇文化及",
+   "birth_year": null,
+   "death_year": 619,
+   "birth_display": "生年不可考",
+   "death_display": "619年",
+   "birth_note": "生年无载；许国公宇文述长子，纨绔跋扈著称。",
+   "death_note": "619年自立为许帝后败于窦建德，被杀，公元纪年。",
+   "chronology": [
+    {
+     "year": 618,
+     "display": "618年",
+     "text": "三月被骁果军推为帅，弑炀帝于江都；立杨浩，旋鸩之，自称大许皇帝。"
+    },
+    {
+     "year": 618,
+     "display": "618年下半年",
+     "text": "率军北归，与李密大战童山败退，走魏县、聊城。"
+    },
+    {
+     "year": 619,
+     "display": "619年",
+     "text": "被窦建德擒杀。"
+    }
+   ],
+   "deeds": [
+    "作为兵变名义领袖完成弑炀帝，直接终结隋朝。",
+    "弑主僭号而不足两月即弃位东逃，为“傀儡弑主者”的典型。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《隋书》《资治通鉴》叙事",
+     "view": "庸劣驽下而居弑逆之名——“化及庸芃，才不逮时”式的史笔定调。",
+     "basis": "《隋书》本传。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "兵变实由司马德戡、宇文智及组织，化及是被动推上台面的旗号；研究其“领袖地位”本身即是对江都兵变结构的分析。",
+     "basis": "隋末史研究。"
+    }
+   ],
+   "sources": [
+    "suishu",
+    "tongjian",
+    "jiutangshu"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
