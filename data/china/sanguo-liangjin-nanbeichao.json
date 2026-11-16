@@ -1,0 +1,706 @@
+{
+  "unit_id": "china-sanguo-liangjin-nanbeichao",
+  "region": "china",
+  "title": "三国两晋南北朝",
+  "period_display": "220年—589年",
+  "start_year": 220,
+  "end_year": 589,
+  "overview": {
+    "main_threads": [
+      "统一帝国的长期分裂：魏晋禅代与八王之乱后的南北对峙",
+      "门阀政治：士族与皇权共治（东晋为典型）",
+      "北方民族大融合：十六国、北魏汉化与胡汉杂糅",
+      "江南开发与经济重心南移的启动"
+    ],
+    "sub_periods": [
+      {"name": "三国", "range_display": "220年—280年", "desc": "魏蜀吴鼎立，280年西晋灭吴而短暂统一。"},
+      {"name": "西晋与东晋十六国", "range_display": "265年—420年", "desc": "八王之乱、永嘉之乱后士族南渡，北方十六国更迭。"},
+      {"name": "南北朝", "range_display": "420年—589年", "desc": "南朝宋齐梁陈更替，北朝北魏—东西魏—北齐北周， culminating 589年隋灭陈统一。"}
+    ],
+    "key_changes": [
+      "门阀士族政治（九品中正制的固化）",
+      "佛教大盛：石窟、译经与寺院经济",
+      "江南从蛮荒变为新兴经济区",
+      "均田制与府兵制的北方制度创新"
+    ]
+  },
+  "events": [
+    {
+      "id": "sg-caopi-daihan",
+      "title": "曹丕代汉建魏",
+      "year": 220,
+      "end_year": null,
+      "year_display": "220年",
+      "end_year_display": null,
+      "year_note": "据《三国志·魏书·文帝纪》，延康元年十月（220年）汉献帝禅位，曹丕即皇帝位，改元黄初；公元纪年，无换算问题。",
+      "location": "许昌—洛阳",
+      "key_people": [],
+      "background": "曹操220年初死后，曹丕继魏王位；汉室早已名存实亡，禅让的程序在陈群等提议的九品官人法配套下完成，士族支持是关键。",
+      "process": [
+        "220年正月曹操卒于洛阳；曹丕嗣位魏王、汉丞相。",
+        "群臣劝进，汉献帝“禅位”；曹丕三让而后受，于受禅台告天。",
+        "改元黄初，国号魏，迁都洛阳；封汉献帝为山阳公，奉汉正朔（前朝君主得善终的少例）。",
+        "同年刘备称帝于成都（221年）、孙权受魏封吴王（后229年称帝），三国法理框架成形。"
+      ],
+      "outcome": "延续四百余年的汉帝国法统终结；曹丕的“禅让”剧本成为后世权臣代汉的标准模板（司马氏完全复制此程序）。",
+      "controversies": [
+        {"issue": "“禅让”的性质", "views": [
+          {"holder": "《献帝传》等曹魏官方文书（裴松之注所引）", "basis": "以尧舜故事包装权力转移，称“天命去汉”。"},
+          {"holder": "现代政治史解读", "basis": "禅让是武力与士族支持下的强制程序；曹丕“舜禹之事，吾知之矣”（《魏氏春秋》所载感言）被广泛引用为对仪式本质的自白——注引史料需分层使用。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>曹丕代汉（220年）</text><rect x='270' y='80' width='220' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>220年正月 曹操卒</text><text x='380' y='130' text-anchor='middle' font-size='11'>曹丕嗣位魏王·丞相</text><line x1='380' y1='150' x2='380' y2='182' stroke='#2b4a6f' marker-end='url(#xd1)'/><rect x='230' y='186' width='300' height='80' fill='#fff' stroke='#8c1f28'/><text x='380' y='212' text-anchor='middle' font-size='14' fill='#8c1f28'>献帝“禅位”·曹丕三让后受</text><text x='380' y='238' text-anchor='middle' font-size='11'>改元黄初·国号魏·都洛阳</text><line x1='380' y1='266' x2='380' y2='296' stroke='#2b4a6f' marker-end='url(#xd1)'/><g font-size='12'><rect x='80' y='300' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='170' y='326' text-anchor='middle'>汉献帝封山阳公</text><text x='170' y='348' text-anchor='middle' font-size='11'>得善终的少例</text><rect x='290' y='300' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='326' text-anchor='middle'>221 刘备称帝</text><text x='380' y='348' text-anchor='middle' font-size='11'>229 孙权称帝</text><rect x='500' y='300' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='590' y='326' text-anchor='middle'>禅让模板</text><text x='590' y='348' text-anchor='middle' font-size='11'>司马氏依样复制</text></g></svg>",
+      "sources": ["sanguozhi", "tongjian", "chenyinke-tang"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-yiling-zhizhan",
+      "title": "夷陵之战",
+      "year": 222,
+      "end_year": null,
+      "year_display": "222年",
+      "end_year_display": null,
+      "year_note": "据《三国志·吴书·陆逊传》，章武二年（222年）闰六月陆逊破刘备于夷陵、猇亭一带；公元纪年，无换算问题。",
+      "location": "夷陵—猇亭（今湖北宜昌一带）",
+      "key_people": [],
+      "background": "关羽219年末失荆州被杀，刘备称帝后以“报关羽之仇”名义倾国东征；孙权以陆逊为大都督拒之。",
+      "process": [
+        "221年七月刘备出峡，连营沿江推进数百里。",
+        "222年陆逊坚守不战，待蜀军疲惫、水军舍舟就陆。",
+        "闰六月陆逊火攻连营，反攻破蜀军；刘备退保白帝城。",
+        "223年刘备病逝于白帝城托孤诸葛亮；蜀汉转为联吴抗曹路线。"
+      ],
+      "outcome": "蜀汉精锐损失殆尽，荆州集团元气大伤，三国鼎立的均势（弱蜀联吴）自此固化；隆中对两路北伐设想因荆州易手而彻底失效。",
+      "controversies": [
+        {"issue": "蜀军兵力", "views": [
+          {"holder": "《三国志》正文与裴注", "basis": "吴方称蜀军“五万”（《吴主传》注引《魏书》相关记载互有出入）；传统“七十万”系《三国演义》虚构。"},
+          {"holder": "现代研究", "basis": "蜀汉倾国之兵约四至八万间诸说；演义数字不可引为史实——又一次文学与史料分层的提醒。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>夷陵之战（222年，沿江示意）</text><rect x='80' y='80' width='200' height='70' fill='#fff' stroke='#8c1f28'/><text x='180' y='106' text-anchor='middle' font-size='14'>刘备东征</text><text x='180' y='130' text-anchor='middle' font-size='11'>沿江连营数百里</text><rect x='480' y='80' width='200' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='580' y='106' text-anchor='middle' font-size='14'>陆逊坚守</text><text x='580' y='130' text-anchor='middle' font-size='11'>待敌疲惫·舍舟就陆</text><line x1='280' y1='115' x2='476' y2='115' stroke='#8c1f28' marker-end='url(#xd2)'/><rect x='250' y='180' width='280' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='206' text-anchor='middle' font-size='14' fill='#8c1f28'>火攻连营·反攻破敌</text><text x='390' y='232' text-anchor='middle' font-size='11'>刘备退保白帝城</text><line x1='390' y1='260' x2='390' y2='290' stroke='#2b4a6f' marker-end='url(#xd2)'/><rect x='180' y='294' width='420' height='70' fill='#fff' stroke='#2b4a6f'/><text x='390' y='320' text-anchor='middle' font-size='13'>223年刘备卒·白帝托孤</text><text x='390' y='346' text-anchor='middle' font-size='11'>联吴抗曹路线确立；隆中对两路设想失效</text></svg>",
+      "sources": ["sanguozhi", "tongjian", "tianzheng-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-zhuge-beifa",
+      "title": "诸葛亮南征与北伐",
+      "year": 225,
+      "end_year": 234,
+      "year_display": "225年",
+      "end_year_display": "234年",
+      "year_note": "南征据《三国志·后主传》建兴三年（225年）；北伐首出祁山在建兴六年（228年），至建兴十二年（234年）卒于五丈原；公元纪年，无换算问题。",
+      "location": "南中（今云贵一带）；祁山、五丈原（关中—陇右）",
+      "key_people": ["zhuge-liang"],
+      "background": "夷陵败后蜀汉国力最弱；诸葛亮先安内（225年南征，安抚南中各部），再以“汉贼不两立”的政治纲领持续北伐，以攻代守。",
+      "process": [
+        "225年南征南中，“七擒孟获”（《汉晋春秋》所载，取其怀柔框架，细节有传说性），南中赋税与兵力反哺北伐。",
+        "227年上《出师表》，228年春首出祁山（天水、南安、安定三郡响应，因街亭之败而退）。",
+        "228—231年再出散关、祁山等，斩王双、破司马懿于卤城等互有胜负；231年退军途中射杀张郃。",
+        "234年春最后一次大军出斜谷，屯五丈原，与司马懿相持百余日；八月卒于军中，年五十四。",
+        "“木牛流马”与连弩为其军械革新记载（组织制度史材料，实物无存）。"
+      ],
+      "outcome": "北伐未能改变魏蜀实力对比，但以攻代守维持蜀汉存活四十年；“鞠躬尽瘁，死而后已”（《后出师表》语，作者归属有学术争论）成为忠臣符号。",
+      "controversies": [
+        {"issue": "北伐战略评价", "views": [
+          {"holder": "陈寿（《三国志》评）", "basis": "“治戎为长，奇谋为短，理民之干，优于将略”——承认其政才而疑其军事。"},
+          {"holder": "后世与传统尊崇", "basis": "杜甫“出师未捷身先死”等诗意塑造忠臣形象。"},
+          {"holder": "现代战略学讨论", "basis": "荆州已失后《隆中对》两路并举前提不成立；北伐实为“以攻为守”维持政权合法性的理性选择——成败归因从“才能”转向“结构”。"}
+        ]},
+        {"issue": "《后出师表》真伪", "views": [
+          {"holder": "传世文本", "basis": "“鞠躬尽瘁”语出《后出师表》。"},
+          {"holder": "文献学主流", "basis": "《后出师表》不见于《三国志》正文，系《汉晋春秋》引出，多数学者疑为后人拟作；“鞠躬尽瘁”作为诸葛亮原话引用需注明此争议。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>诸葛亮的军事行动（225—234年，示意）</text><rect x='290' y='80' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>蜀汉（成都）</text><text x='380' y='126' text-anchor='middle' font-size='11'>夷陵败后最弱期</text><g font-size='12'><rect x='110' y='180' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='200' y='206' text-anchor='middle' fill='#8c1f28'>225 南征南中</text><text x='200' y='226' text-anchor='middle' font-size='11'>安后方·取资赋</text><rect x='330' y='180' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='420' y='206' text-anchor='middle'>228—231 北伐</text><text x='420' y='226' text-anchor='middle' font-size='11'>祁山·散关五出</text><rect x='550' y='180' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='635' y='206' text-anchor='middle'>234 五丈原</text><text x='635' y='226' text-anchor='middle' font-size='11'>相持百余日·卒</text><line x1='330' y1='140' x2='210' y2='176' stroke='#8c1f28' marker-end='url(#xd3)'/><line x1='380' y1='140' x2='410' y2='176' stroke='#2b4a6f' marker-end='url(#xd3)'/><line x1='430' y1='140' x2='610' y2='176' stroke='#2b4a6f' marker-end='url(#xd3)'/></g><rect x='130' y='280' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='306' text-anchor='middle' font-size='12'>评价分歧：陈寿“治戎为长，奇谋为短” vs 后世忠臣尊崇</text><text x='380' y='330' text-anchor='middle' font-size='11'>现代：荆州已失，北伐实为“以攻为守”的结构性选择</text><text x='380' y='354' text-anchor='middle' font-size='11'>“鞠躬尽瘁”语出《后出师表》，其真伪有学术争论</text></svg>",
+      "sources": ["sanguozhi", "tongjian", "chenyinke-tang"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-gaopingling-zhibian",
+      "title": "高平陵之变",
+      "year": 249,
+      "end_year": null,
+      "year_display": "249年",
+      "end_year_display": null,
+      "year_note": "据《晋书·宣帝纪》，嘉平元年正月（249年）司马懿乘曹爽陪曹芳谒高平陵之机政变；公元纪年，无换算问题。",
+      "location": "洛阳（高平陵、武库、洛水浮桥）",
+      "key_people": [],
+      "background": "曹爽与司马懿共同受明帝遗诏辅政；曹爽排挤司马懿升其虚衔太傅，掌控禁军；司马懿称病家居，阴养死士。",
+      "process": [
+        "249年正月，曹爽兄弟陪少帝曹芳谒魏明帝高平陵，洛阳空虚。",
+        "司马懿以太后令闭城门、占武库、屯洛水浮桥；奏曹爽“有无君之心”。",
+        "司马懿指洛水为誓许曹爽免官保富贵；曹爽不纳桓范“挟天子奔许昌”之策，交权请降。",
+        "数日后以谋反罪诛曹爽兄弟及党羽三族，牵连数千人（株连规模见《晋书》）。"
+      ],
+      "outcome": "魏国军政实权归司马氏；此变是“指洛水为誓”背弃的起点，后世视为政治信用崩坏的标志性事件；251—265年司马氏两度废帝、灭蜀（263年），曹魏名存实亡。",
+      "controversies": [
+        {"issue": "司马懿“诈病”叙事的史料层次", "views": [
+          {"holder": "《晋书·宣帝纪》（唐修）", "basis": "装病赚曹爽、阴养三千死士等戏剧化细节丰富。"},
+          {"holder": "史料批判视角", "basis": "《晋书》成书晚且多采小说化材料；政变核心过程（占武库、控太后诏、洛水之誓）见于更早记载可信，而细节渲染需分层。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>高平陵之变（249年正月）</text><g font-size='12'><rect x='60' y='80' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='170' y='106' text-anchor='middle'>曹爽专权</text><text x='170' y='130' text-anchor='middle' font-size='11'>排挤司马懿·掌禁军</text><text x='170' y='152' text-anchor='middle' font-size='11'>谒高平陵出城</text><rect x='310' y='80' width='160' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='106' text-anchor='middle' fill='#8c1f28'>政变</text><text x='390' y='130' text-anchor='middle' font-size='11'>闭城门·占武库</text><text x='390' y='152' text-anchor='middle' font-size='11'>屯洛水浮桥</text><rect x='500' y='80' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='610' y='106' text-anchor='middle'>洛水为誓</text><text x='610' y='130' text-anchor='middle' font-size='11'>曹爽交权请降</text><text x='610' y='152' text-anchor='middle' font-size='11'>旋以谋反诛三族</text><line x1='280' y1='125' x2='306' y2='125' stroke='#8c1f28' marker-end='url(#xd4)'/><line x1='470' y1='125' x2='496' y2='125' stroke='#8c1f28' marker-end='url(#xd4)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>军政实权归司马氏</text><text x='380' y='262' text-anchor='middle' font-size='11'>263年灭蜀·265年司马炎代魏</text><text x='380' y='286' text-anchor='middle' font-size='11'>“指洛水为誓”背弃→后世政治信用崩坏的象征</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>《晋书》戏剧化细节（诈病、死士三千）需与早期记载分层使用</text></svg>",
+      "sources": ["jinshu", "sanguozhi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-simayan-daiwei",
+      "title": "司马炎代魏建晋",
+      "year": 265,
+      "end_year": null,
+      "year_display": "265年",
+      "end_year_display": null,
+      "year_note": "据《晋书·武帝纪》，咸熙二年十二月（265年）受魏禅，改元泰始；公元纪年，无换算问题。",
+      "location": "洛阳",
+      "key_people": ["sima-yan"],
+      "background": "司马昭灭蜀（263年）后进爵晋王；265年司马昭卒，其子司马炎继相国晋王位，随即复制曹丕代汉的程序受魏禅。",
+      "process": [
+        "265年十二月，司马炎受禅称帝，国号晋（西晋）。",
+        "大封宗室诸王（277年前后分封二十七王），以屏藩皇室——此决策为八王之乱的制度伏笔。",
+        "以九品中正制取士，士族门阀化的法律与人事基础继续强化。",
+        "积极准备伐吴：造船练兵（王濬在蜀造舟七年）。"
+      ],
+      "outcome": "西晋取代曹魏；禅让程序的第二次成功复制使“禅代”成为制度惯例；分封宗室与士族门阀的结构性问题随王朝建立一同埋下。",
+      "controversies": [
+        {"issue": "分封宗室的评价", "views": [
+          {"holder": "《晋书》叙事", "basis": "视为曹魏孤立而亡的反面教训的纠正。"},
+          {"holder": "现代制度史主流", "basis": "宗室诸王“统兵镇邺”实为八王之乱的结构性根源：地方宗王掌军政与中央继承制度不稳定叠加——制度设计失败说为主流。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>司马炎代魏（265年）</text><rect x='270' y='80' width='220' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>263年 灭蜀</text><text x='380' y='130' text-anchor='middle' font-size='11'>司马昭进晋王</text><line x1='380' y1='150' x2='380' y2='182' stroke='#2b4a6f' marker-end='url(#xd5)'/><rect x='230' y='186' width='300' height='80' fill='#fff' stroke='#8c1f28'/><text x='380' y='212' text-anchor='middle' font-size='14' fill='#8c1f28'>265年受禅建晋</text><text x='380' y='238' text-anchor='middle' font-size='11'>复制曹丕代汉程序</text><line x1='380' y1='266' x2='380' y2='296' stroke='#2b4a6f' marker-end='url(#xd5)'/><g font-size='12'><rect x='80' y='300' width='220' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='190' y='326' text-anchor='middle' fill='#8c1f28'>大封宗室二十七王</text><text x='190' y='348' text-anchor='middle' font-size='11'>八王之乱的制度伏笔</text><rect x='460' y='300' width='220' height='60' fill='#fff' stroke='#2b4a6f'/><text x='570' y='326' text-anchor='middle'>九品中正制强化</text><text x='570' y='348' text-anchor='middle' font-size='11'>门阀政治的人事基础</text></g></svg>",
+      "sources": ["jinshu", "tongjian", "chenyinke-tang"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-jin-miewu-tongyi",
+      "title": "晋灭吴与短暂统一",
+      "year": 280,
+      "end_year": null,
+      "year_display": "280年",
+      "end_year_display": null,
+      "year_note": "据《晋书·武帝纪》，太康元年三月（280年）王濬舟师入石头城，孙皓降；公元纪年，无换算问题。",
+      "location": "长江（宜昌—南京段）；建业（石头城）",
+      "key_people": ["sima-yan"],
+      "background": "吴主孙皓暴虐，国力衰减；西晋经十五年经营（造船、屯田、边备）完成对吴多路并进的准备。",
+      "process": [
+        "279年十一月，晋军二十余万（晋书数字，存疑）六路并进：杜预出江陵、王濬出益州、王浑出横江等。",
+        "280年三月，王濬楼船顺流直下，铁锁横江被熔断（“王濬楼船下益州，金陵王气黯然收”——刘禹锡诗为后世总结，系唐诗非史料）。",
+        "孙皓出降，吴亡；三国归晋。",
+        "太康年间（280—289）短暂繁荣：“太康之治”，然上层奢靡与分封隐患并存。"
+      ],
+      "outcome": "汉末以来九十余年的分裂结束；统一仅维持约三十年（291年八王之乱起、311年洛阳陷落），太康繁荣为回光返照。",
+      "controversies": [
+        {"issue": "灭吴兵力", "views": [
+          {"holder": "《晋书·武帝纪》", "basis": "六路二十余万。"},
+          {"holder": "现代研究", "basis": "二十余万为总动员叙述值；王濬益州水军约七万等分路数字可信度较高。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>晋灭吴（280年，长江多路并进示意）</text><rect x='60' y='110' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='150' y='136' text-anchor='middle' font-size='13'>杜预（江陵路）</text><rect x='60' y='210' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='150' y='236' text-anchor='middle' font-size='13'>王濬舟师（益州）</text><rect x='330' y='110' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='410' y='136' text-anchor='middle' font-size='13'>王浑（横江路）</text><rect x='540' y='170' width='180' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='196' text-anchor='middle' font-size='14' fill='#8c1f28'>建业·石头城</text><text x='630' y='220' text-anchor='middle' font-size='11'>孙皓降·吴亡</text><line x1='240' y1='140' x2='326' y2='140' stroke='#2b4a6f' marker-end='url(#xd6)'/><line x1='240' y1='240' x2='536' y2='215' stroke='#8c1f28' marker-end='url(#xd6)'/><line x1='490' y1='140' x2='536' y2='185' stroke='#2b4a6f' marker-end='url(#xd6)'/><rect x='130' y='290' width='500' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='316' text-anchor='middle' font-size='13'>三国归晋：汉末以来九十余年分裂结束</text><text x='380' y='342' text-anchor='middle' font-size='11'>太康之治为回光返照——291年八王之乱起</text></svg>",
+      "sources": ["jinshu", "tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-bawang-zhiluan",
+      "title": "八王之乱",
+      "year": 291,
+      "end_year": 306,
+      "year_display": "291年",
+      "end_year_display": "306年",
+      "year_note": "据《晋书》诸王传：元康元年（291年）贾后杀杨骏为乱始，至光熙元年（306年）东海王越毒死惠帝止；公元纪年，无换算问题。",
+      "location": "洛阳及邺、长安等宗王镇地",
+      "key_people": [],
+      "background": "晋武帝大封宗室并许其统兵镇守；惠帝智力低下，贾后干政；杨骏（外戚）、诸王（楚王玮、赵王伦、齐王冏、长沙王乂、成都王颖、河间王颙、东海王越等）为争夺辅政权连年混战。",
+      "process": [
+        "291年，贾后联合楚王玮杀杨骏，专权；旋杀汝南王亮、楚王玮。",
+        "299—301年，赵王伦废贾后、篡位称帝；齐王冏等起兵讨伦，伦败死。",
+        "301—306年，冏、乂、颖、颙、越先后掌权互攻，诸王借外族（匈奴刘渊、成都王颖部下乌桓羯朱等）兵力互相攻杀。",
+        "306年东海王越迎惠帝还洛阳、旋毒杀之，立怀帝；十六年混战结束。"
+      ],
+      "outcome": "宗王诸军与中央禁军同归于尽，中原军事真空；匈奴、羯、氐、羌诸族武装在混战中壮大——永嘉之乱与十六国的直接前奏。",
+      "controversies": [
+        {"issue": "乱源：分封还是继承危机", "views": [
+          {"holder": "《晋书》传统叙事", "basis": "归咎贾后干政与诸王凶逆。"},
+          {"holder": "现代制度史主流", "basis": "宗王出镇统兵+皇位继承不稳定的结构性叠加：即使无贾后，权力真空仍会引爆；八王之乱被视为中国史上“分封制复归失败”的标本。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>八王之乱（291—306年）</text><g font-size='12'><rect x='60' y='80' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>制度根源</text><text x='160' y='130' text-anchor='middle' font-size='11'>宗王统兵镇守+继承不稳</text><rect x='290' y='80' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='106' text-anchor='middle' fill='#8c1f28'>291 贾后专权</text><text x='380' y='130' text-anchor='middle' font-size='11'>杀杨骏·诸王逐杀</text><rect x='500' y='80' width='220' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='610' y='106' text-anchor='middle' fill='#8c1f28'>301—306 连环混战</text><text x='610' y='130' text-anchor='middle' font-size='11'>赵王伦篡位·五王继乱</text><line x1='260' y1='120' x2='286' y2='120' stroke='#8c1f28' marker-end='url(#xd7)'/><line x1='470' y1='120' x2='496' y2='120' stroke='#8c1f28' marker-end='url(#xd7)'/></g><line x1='610' y1='160' x2='450' y2='215' stroke='#8c1f28' marker-end='url(#xd7)'/><rect x='250' y='220' width='280' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='246' text-anchor='middle' font-size='14' fill='#8c1f28'>中原军事真空</text><text x='390' y='272' text-anchor='middle' font-size='11'>匈奴·羯·氐·羌武装在乱中壮大</text><line x1='390' y1='290' x2='390' y2='318' stroke='#8c1f28' marker-end='url(#xd7)'/><rect x='180' y='322' width='420' height='56' fill='#fff' stroke='#2b4a6f'/><text x='390' y='345' text-anchor='middle' font-size='13'>通向永嘉之乱与十六国</text><text x='390' y='368' text-anchor='middle' font-size='11'>“分封制复归失败”的标本</text></svg>",
+      "sources": ["jinshu", "tongjian", "tianyuqing-dongjin", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-yongjia-zhiluan",
+      "title": "永嘉之乱与西晋灭亡",
+      "year": 311,
+      "end_year": 316,
+      "year_display": "311年",
+      "end_year_display": "316年",
+      "year_note": "据《晋书》：永嘉五年（311年）匈奴汉国刘聪军攻陷洛阳（“永嘉之乱”），俘怀帝；建兴四年（316年）长安陷，愍帝降，西晋亡。公元纪年，无换算问题。",
+      "location": "洛阳、长安",
+      "key_people": [],
+      "background": "八王之乱后中原残破，匈奴刘渊在左国城起兵建汉国（304年），刘聪继立；流民与坞堡自保遍及北方，晋室内部仍未停止内斗。",
+      "process": [
+        "311年，汉国军攻陷洛阳，杀王公士民三万余（晋书所载数字，存疑），俘怀帝，焚宫庙陵墓（“永嘉之乱”）。",
+        "中原士族大举南渡：以琅琊王氏（王导携司马睿）为代表渡江居建康一带（南渡规模无精确统计）。",
+        "313年愍帝即位于长安；316年刘曜陷长安，愍帝出降，西晋亡。",
+        "北方进入十六国时期；坞堡武装与流民帅成为地方秩序的实际承担者。"
+      ],
+      "outcome": "中国第一次大规模人口与文化南移（“衣冠南渡”），江南开发加速；北方进入民族大迁徙大融合的三百年（十六国—北朝）。",
+      "controversies": [
+        {"issue": "南渡人口规模", "views": [
+          {"holder": "《晋书》与《宋书·州郡志》", "basis": "侨州郡县户口记载可见南渡之众，但完整统计阙如。"},
+          {"holder": "现代人口史研究", "basis": "各家对南渡总数估计从数十万到百余万不等，均系推算；本站不取单一数字。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>永嘉之乱与西晋亡（311—316年，示意）</text><rect x='330' y='90' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' font-size='14' fill='#8c1f28'>311 洛阳陷落</text><text x='420' y='136' text-anchor='middle' font-size='11'>怀帝被俘·“永嘉之乱”</text><rect x='330' y='180' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='206' text-anchor='middle' font-size='14' fill='#8c1f28'>316 长安陷落</text><text x='420' y='226' text-anchor='middle' font-size='11'>愍帝降·西晋亡</text><rect x='540' y='250' width='180' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='630' y='276' text-anchor='middle' font-size='13'>北方：十六国时期</text><text x='630' y='298' text-anchor='middle' font-size='11'>坞堡·流民帅·民族融合</text><rect x='60' y='250' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='160' y='276' text-anchor='middle' font-size='13'>士族南渡（江南）</text><text x='160' y='298' text-anchor='middle' font-size='11'>“衣冠南渡”——江南开发加速</text><line x1='420' y1='150' x2='420' y2='176' stroke='#8c1f28' marker-end='url(#xd8)'/><line x1='400' y1='240' x2='620' y2='246' stroke='#8c1f28' marker-end='url(#xd8)'/><line x1='380' y1='240' x2='200' y2='246' stroke='#2b4a6f' marker-end='url(#xd8)'/><text x='380' y='356' text-anchor='middle' font-size='12' fill='#7a7468'>南渡总数估计数十万—百余万不等，均为推算</text></svg>",
+      "sources": ["jinshu", "tongjian", "cambridge-china", "tianyuqing-dongjin"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-dongjin-jianli",
+      "title": "东晋建立与“王与马共天下”",
+      "year": 317,
+      "end_year": null,
+      "year_display": "317年",
+      "end_year_display": null,
+      "year_note": "据《晋书·元帝纪》，建武元年（317年）司马睿即晋王位，翌年（318年）称帝；公元纪年，无换算问题。",
+      "location": "建康（今南京）",
+      "key_people": ["wang-dao"],
+      "background": "司马睿以琅琊王身分都督扬州江南诸军事，永嘉之乱中由王导策划渡江镇建邺；江左士族对“亡国之余”的琅琊王本不热心，王导、王敦兄弟一手经营其合法性。",
+      "process": [
+        "307年王导随司马睿渡江；借三月三禊宴联袂出行、王敦拜会江南士族（顾荣、贺循等）建立联盟。",
+        "317年司马睿即晋王位，318年称帝（元帝）；登极之日请王导同坐御床共受百官朝贺（“王与马，共天下”童谣所本，事见《晋书·王导传》）。",
+        "侨姓士族（王谢袁萧）与吴姓士族（顾陆朱张）的联合与制衡构成东晋政治轴心。",
+        "322年王敦以“清君侧”起兵攻建康，元帝忧愤而卒——门阀强势的注脚。"
+      ],
+      "outcome": "东晋成为皇权最弱的朝代：门阀政治成熟，“皇权—士族”共治（田余庆《东晋门阀政治》的界定）维持百年，直至刘裕以军权重建皇权。",
+      "controversies": [
+        {"issue": "门阀政治的性质", "views": [
+          {"holder": "田余庆《东晋门阀政治》", "basis": "界定东晋为“门阀政治”，是皇权政治在特定条件下的变态，而非常规；门阀政治随刘裕代晋而回归皇权政治。"},
+          {"holder": "其他研究取向", "basis": "有学者倾向以“士族官僚制”或贵族制理论描述东晋；对“变态/常态”的判断亦有不同意见——本站并列两种视角。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>东晋建立（317年，建康）</text><g font-size='12'><rect x='80' y='80' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='106' text-anchor='middle'>307 王导随司马睿渡江</text><text x='190' y='130' text-anchor='middle' font-size='11'>联吴姓士族（顾陆朱张）</text><rect x='340' y='80' width='180' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='430' y='106' text-anchor='middle' fill='#8c1f28'>317 即晋王位</text><text x='430' y='130' text-anchor='middle' font-size='11'>318 称帝（元帝）</text><rect x='550' y='80' width='170' height='80' fill='#fff' stroke='#2b4a6f'/><text x='635' y='106' text-anchor='middle'>王导同坐御床</text><text x='635' y='130' text-anchor='middle' font-size='11'>“王与马，共天下”</text><line x1='300' y1='120' x2='336' y2='120' stroke='#2b4a6f' marker-end='url(#xd9)'/><line x1='520' y1='120' x2='546' y2='120' stroke='#8c1f28' marker-end='url(#xd9)'/></g><rect x='130' y='200' width='500' height='100' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='13'>门阀政治：皇权最弱的朝代</text><text x='380' y='252' text-anchor='middle' font-size='11'>侨姓（王谢袁萧）与吴姓（顾陆朱张）联合与制衡</text><text x='380' y='276' text-anchor='middle' font-size='11'>322年王敦起兵——门阀强势的注脚；420年刘裕重建皇权</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>田余庆界定：门阀政治是“皇权政治的变态”，非常态</text></svg>",
+      "sources": ["jinshu", "tongjian", "tianyuqing-dongjin"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-feishui-zhizhan",
+      "title": "淝水之战",
+      "year": 383,
+      "end_year": null,
+      "year_display": "383年",
+      "end_year_display": null,
+      "year_note": "据《晋书·谢安传》及苻坚载记，太元八年（383年）秦晋决战于淝水；公元纪年，无换算问题。",
+      "location": "淝水（今安徽寿县一带）、洛涧、八公山",
+      "key_people": ["xie-an", "fu-jian"],
+      "background": "苻坚统一北方（376年灭前凉、代国）后欲一举平晋；群臣多谏（王猛临终遗言“晋虽僻陋吴越，乃正朔相承…愿不以为图”），坚不听。",
+      "process": [
+        "383年七月苻坚下诏大举伐晋，号称戎卒六十余万、骑二十七万（《晋书》数字，存疑），“投鞭于江，足断其流”。",
+        "前锋苻融攻陷寿阳；晋以谢石、谢玄率北府兵八万迎战。",
+        "刘牢之洛涧首胜；秦军退军诱敌晋军渡淝水决战，阵乱——朱序在阵后呼“秦兵败矣”，秦军溃。",
+        "苻融马倒被杀，苻坚中流矢单骑走；“风声鹤唳，草木皆兵”败退回北方。",
+        "谢安“围棋赌墅”镇定叙事（《世说新语》《晋书》所载，文学色彩浓）。"
+      ],
+      "outcome": "前秦土崩瓦解，北方重新分裂为诸国；东晋获得数十年安全期；北方民族整合失败使统一推迟到二百年后的隋。",
+      "controversies": [
+        {"issue": "秦军兵力数字", "views": [
+          {"holder": "《晋书·苻坚载记》", "basis": "“戎卒六十余万、骑二十七万”，加前锋等号称百万。"},
+          {"holder": "现代研究", "basis": "普遍认为总动员数字含后勤虚数，实际参战兵力远小于此；“风声鹤唳”的溃败叙事亦有文学加工——数字与叙事均需分层。"}
+        ]},
+        {"issue": "淝水作为“决定性会战”的程度", "views": [
+          {"holder": "传统叙事", "basis": "一场战役逆转南北格局。"},
+          {"holder": "现代分析", "basis": "前秦的民族整合问题（鲜卑羌豪在军中怀二心）是溃败的结构性原因；即便淝水小挫，北方整合失败也会以其他形式暴露。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>淝水之战（383年，示意）</text><g font-size='12'><rect x='60' y='90' width='240' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='180' y='116' text-anchor='middle' fill='#8c1f28'>前秦（苻坚）</text><text x='180' y='140' text-anchor='middle' font-size='11'>号称六十余万+骑二十七万（晋书，存疑）</text><rect x='470' y='90' width='230' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='585' y='116' text-anchor='middle'>东晋北府兵八万</text><text x='585' y='140' text-anchor='middle' font-size='11'>谢石谢玄·刘牢之</text><line x1='300' y1='130' x2='466' y2='130' stroke='#8c1f28' marker-end='url(#xd10)'/></g><rect x='230' y='190' width='320' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='216' text-anchor='middle' font-size='13' fill='#8c1f28'>秦军退诱晋军渡淝水</text><text x='390' y='240' text-anchor='middle' font-size='11'>阵乱·朱序呼“秦兵败矣”·全线溃</text><line x1='390' y1='270' x2='390' y2='298' stroke='#8c1f28' marker-end='url(#xd10)'/><rect x='150' y='302' width='460' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='328' text-anchor='middle' font-size='13'>苻坚败走·北方重新分裂</text><text x='380' y='354' text-anchor='middle' font-size='11'>“风声鹤唳，草木皆兵”；谢安“围棋赌墅”系文学叙事</text></svg>",
+      "sources": ["jinshu", "shishuoxinyu", "tongjian", "chenyinke-tang"],
+      "needs_verification": true,
+      "pending_notes": "秦军兵力数字（戎卒六十余万、骑二十七万）系《晋书》总动员叙事，学界认为实际参战兵力远小于此，实际规模无可靠统计；“围棋赌墅”等细节出自《世说新语》系统，文学色彩明显。"
+    },
+    {
+      "id": "sg-liuyu-daijin",
+      "title": "刘裕代晋建宋",
+      "year": 420,
+      "end_year": null,
+      "year_display": "420年",
+      "end_year_display": null,
+      "year_note": "据《宋书·武帝纪》（本站未收录《宋书》为来源，据《晋书·恭帝纪》《资治通鉴》对读），元熙二年六月（420年）刘裕受晋禅，建国号宋；公元纪年，无换算问题。",
+      "location": "建康",
+      "key_people": ["liu-yu"],
+      "background": "东晋末年北府兵出身的寒门武人刘裕，以镇压孙恩卢循起义、讨灭桓玄起家；先后灭南燕（410年）、后秦（417年），兵威鼎盛。",
+      "process": [
+        "404年刘裕京口起兵灭桓玄，重立晋安帝，实掌朝政。",
+        "410年灭南燕；412年剪除刘毅；417年灭后秦（关中得而复失）。",
+        "419年缢杀晋安帝（史书隐曲书之），立恭帝；420年恭帝禅位，刘裕称帝建宋。",
+        "禅让剧本第三次复制；刘裕诛杀前朝逊帝开恶例（恭帝被杀）。"
+      ],
+      "outcome": "门阀政治终结，皇权政治回归（田余庆观点）；刘裕出身寒门却以军功开国，南朝“寒人掌机要”格局开端；宋齐梁陈四代更替的暴力循环自此定型。",
+      "controversies": [
+        {"issue": "刘裕的历史评价", "views": [
+          {"holder": "辛弃疾词（《永遇乐·京口北固亭怀古》）", "basis": "“金戈铁马，气吞万里如虎”——后世对其武功的极致评价（文学引用）。"},
+          {"holder": "史家批评", "basis": "篡弑前朝君主（安帝、恭帝）开南北朝禅代相杀恶例；王夫之等史论严责其忍于弑君。"},
+          {"holder": "现代史学", "basis": "寒门军功重建皇权是结构转折：门阀士族失去军事基础，皇权与武力重新绑定。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>刘裕代晋（420年）</text><g font-size='12'><rect x='60' y='80' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>404 京口起兵</text><text x='160' y='130' text-anchor='middle' font-size='11'>灭桓玄·掌朝政</text><text x='160' y='152' text-anchor='middle' font-size='11'>北府兵寒门出身</text><rect x='300' y='80' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle'>410/417 北伐</text><text x='390' y='130' text-anchor='middle' font-size='11'>灭南燕·灭后秦</text><text x='390' y='152' text-anchor='middle' font-size='11'>“金戈铁马”（辛弃疾语）</text><rect x='520' y='80' width='200' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='620' y='106' text-anchor='middle' fill='#8c1f28'>419—420 禅代</text><text x='620' y='130' text-anchor='middle' font-size='11'>缢安帝·废恭帝</text><text x='620' y='152' text-anchor='middle' font-size='11'>建国号宋</text><line x1='260' y1='125' x2='296' y2='125' stroke='#2b4a6f' marker-end='url(#xd11)'/><line x1='480' y1='125' x2='516' y2='125' stroke='#8c1f28' marker-end='url(#xd11)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>门阀政治终结·皇权政治回归</text><text x='380' y='262' text-anchor='middle' font-size='11'>“寒人掌机要”格局开端；南朝禅代相杀循环定型</text><text x='380' y='286' text-anchor='middle' font-size='11'>评价：武功极盛 vs 弑君恶例（王夫之史论）</text></svg>",
+      "sources": ["jinshu", "tongjian", "tianyuqing-dongjin", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-beiwei-tongyi-beifang",
+      "title": "北魏统一北方",
+      "year": 439,
+      "end_year": null,
+      "year_display": "439年",
+      "end_year_display": null,
+      "year_note": "据《魏书·世祖纪》，太延五年（439年）太武帝拓跋焘灭北凉沮渠牧犍，北方统一；公元纪年，无换算问题。",
+      "location": "北方（平城为都；灭夏、北燕、北凉诸国）",
+      "key_people": [],
+      "background": "鲜卑拓跋部自386年重建代国（北魏前身），398年拓跋珪定都平城称帝；经道武、明元、太武三世经营，太武帝拓跋焘以武力与融合政策扫平诸国。",
+      "process": [
+        "426—431年，破夏国赫连氏（统万城），收关中。",
+        "436年灭北燕（冯氏）；439年灭北凉（沮渠氏），凉州文献僧侣入平城——北方统一。",
+        "统一后与南方刘宋对峙（450年元嘉北伐失败，太武帝反攻至瓜步）。",
+        "制度上离散部落、编户齐民（离散诸部，分土定居——内亚学界研究的北魏国家建构核心）。"
+      ],
+      "outcome": "十六国终结，北方进入北朝序列；北魏的国家建构（部落解散+编户+佛教国教化）为隋唐制度的重要源头（陈寅恪《隋唐制度渊源略论稿》之论）。",
+      "controversies": [
+        {"issue": "北魏制度与隋唐制度的渊源", "views": [
+          {"holder": "陈寅恪《隋唐制度渊源略论稿》", "basis": "论证隋唐制度主源在（西）魏周与北齐，北魏—西魏的关陇本位是关键。"},
+          {"holder": "后续研究", "basis": "对“关陇集团”具体构成与演化时段有修正，但北朝制度为隋唐底色已成主流共识。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>北魏统一北方（426—439年，示意）</text><rect x='300' y='80' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle' font-size='14'>北魏（平城）</text><text x='390' y='126' text-anchor='middle' font-size='11'>拓跋鲜卑国家</text><g font-size='12'><rect x='60' y='170' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='150' y='196' text-anchor='middle' fill='#8c1f28'>426—431 灭夏</text><text x='150' y='216' text-anchor='middle' font-size='11'>统万城·关中</text><rect x='290' y='170' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='375' y='196' text-anchor='middle' fill='#8c1f28'>436 灭北燕</text><rect x='500' y='170' width='190' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='595' y='196' text-anchor='middle' fill='#8c1f28'>439 灭北凉</text><text x='595' y='216' text-anchor='middle' font-size='11'>凉州文献入平城</text><line x1='340' y1='140' x2='160' y2='166' stroke='#2b4a6f' marker-end='url(#xd12)'/><line x1='390' y1='140' x2='378' y2='166' stroke='#2b4a6f' marker-end='url(#xd12)'/><line x1='440' y1='140' x2='580' y2='166' stroke='#2b4a6f' marker-end='url(#xd12)'/></g><rect x='130' y='270' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='296' text-anchor='middle' font-size='13'>离散部落·编户齐民·佛教国教化</text><text x='380' y='322' text-anchor='middle' font-size='11'>北魏国家建构为隋唐制度重要源头（陈寅恪论）</text><text x='380' y='346' text-anchor='middle' font-size='11'>450年元嘉北伐失败——南北对峙固化</text></svg>",
+      "sources": ["weishu", "tongjian", "cambridge-china", "chenyinke-tang"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-juntian-xiaowendi",
+      "title": "均田令与孝文帝迁都洛阳、汉化改革",
+      "year": 485,
+      "end_year": 499,
+      "year_display": "485年",
+      "end_year_display": "499年",
+      "year_note": "均田令据《魏书·食货志》太和九年（485年）；迁都洛阳决策于太和十七年（493年）南伐之议、正式迁都在494年前后；496年改拓跋氏为元氏；孝文帝卒于499年。公元纪年，无换算问题。",
+      "location": "平城→洛阳",
+      "key_people": ["xiaowendi"],
+      "background": "北魏初期“计口授田”与宗主督护并存，土地制度混乱；冯太后主政期推行俸禄制（484年）、均田令（485年）、三长制（486年）；孝文帝亲政后转向全面汉化。",
+      "process": [
+        "485年颁均田令：露田（口分田）男夫四十亩、桑田二十亩等，授田还受；三长制配套清查户口。",
+        "493年孝文帝以“南伐”为名率军至洛阳，藉群臣反对南征而定迁都。",
+        "494年前后迁都洛阳；495年禁胡服、断北语（朝中鲜卑语）、改姓氏（拓跋→元）、定族姓、通婚姻。",
+        "推行汉式官僚与礼制（明堂、五等爵），洛阳士族化；留守北边六镇的鲜卑武人未随迁，地位下降。",
+        "499年孝文帝南征途中病逝，年仅三十二。"
+      ],
+      "outcome": "均田制成为北齐、隋、唐田制的母本（隋唐均田—租庸调的源头）；汉化促成民族融合与洛阳文明复兴，但洛阳文官与六镇军人的裂痕为六镇之乱（523年起）埋伏。",
+      "controversies": [
+        {"issue": "汉化改革的评价", "views": [
+          {"holder": "传统高度肯定（吕思勉等）", "basis": "孝文帝改革加速民族融合，是中国史上少有的自上而下文明改造。"},
+          {"holder": "现代修正视角", "basis": "激进汉化撕裂了鲜卑军事集团（“洛阳文官 vs 六镇武人”），魏分东西与六镇之乱可溯源于此；改革成效与代价并重。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>均田与汉化（485—499年）</text><g font-size='12'><rect x='60' y='80' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='170' y='106' text-anchor='middle'>485 均田令+三长制</text><text x='170' y='130' text-anchor='middle' font-size='11'>授田还受·清查户口</text><text x='170' y='152' text-anchor='middle' font-size='11'>（冯太后主持期）</text><rect x='310' y='80' width='180' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='400' y='106' text-anchor='middle' fill='#8c1f28'>493—494 迁都洛阳</text><text x='400' y='130' text-anchor='middle' font-size='11'>以“南伐”为名定迁</text><rect x='520' y='80' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='620' y='106' text-anchor='middle'>汉化诸令</text><text x='620' y='130' text-anchor='middle' font-size='11'>断北语·改元姓·定族姓</text><line x1='280' y1='120' x2='306' y2='120' stroke='#2b4a6f' marker-end='url(#xd13)'/><line x1='490' y1='120' x2='516' y2='120' stroke='#2b4a6f' marker-end='url(#xd13)'/></g><rect x='130' y='200' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='13'>均田制→北齐、隋、唐田制母本</text><text x='380' y='252' text-anchor='middle' font-size='11'>汉化促成融合，但“洛阳文官 vs 六镇武人”裂痕形成</text><rect x='130' y='300' width='500' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='336' text-anchor='middle' font-size='11' fill='#8c1f28'>评价分歧：融合之功 vs 激进汉化撕裂军事集团（→六镇之乱）</text></svg>",
+      "sources": ["weishu", "tongjian", "chenyinke-tang", "lvsimian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-liuzhen-qiyi",
+      "title": "六镇起义",
+      "year": 523,
+      "end_year": 530,
+      "year_display": "523年",
+      "end_year_display": "530年",
+      "year_note": "据《魏书》：正光四年（523年）沃野镇民破六韩拔陵起兵；至530年前后六镇余部先后被镇压与收编（尔朱氏、高欢、宇文泰起于其间）；公元纪年，无换算问题。",
+      "location": "北边六镇（沃野、怀朔、武川、抚冥、柔玄、怀荒）",
+      "key_people": [],
+      "background": "迁都洛阳后北边防务地位下降，六镇军户（鲜卑武士与谪戍者）从“国之肺腑”沦为贱役，待遇恶化；柔然南下与府库匮乏叠加。",
+      "process": [
+        "523年怀荒镇民杀镇将，沃野镇破六韩拔陵建元起兵，诸镇响应。",
+        "524—525年起义军一度席卷北边，柔然援魏夹击，拔陵败亡，六镇降户二十余万（《魏书》数字）内徙。",
+        "525—530年河北葛荣等以镇民为主力的起义延续；尔朱荣以镇压起家（528年河阴之变屠朝士）。",
+        "尔朱氏败后，高欢收六镇鲜卑于东、宇文泰收武川一系于西——东西魏分裂的武力核心。"
+      ],
+      "outcome": "北魏分裂为东魏、西魏（534—535年）；六镇武人集团成为北齐北周与隋唐（关陇集团）的军政母体——陈寅恪“关陇集团”研究的起点。",
+      "controversies": [
+        {"issue": "起义的解释", "views": [
+          {"holder": "待遇恶化说", "basis": "迁都后镇户地位骤降、赏赐停废，经济政治双重边缘化。"},
+          {"holder": "汉化疏离说", "basis": "汉化政策制造文化断层：讲汉语着汉服的洛阳贵族与守边的“代人”阶层对立——两种解释在学界互补并存。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>六镇起义（523—530年，方位示意）</text><g font-size='12'><rect x='80' y='90' width='600' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='116' text-anchor='middle' fill='#8c1f28'>北边六镇：沃野·怀朔·武川·抚冥·柔玄·怀荒</text><text x='380' y='140' text-anchor='middle' font-size='11'>镇户从“国之肺腑”沦为贱役</text><rect x='280' y='180' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='206' text-anchor='middle'>523 拔陵起兵</text><text x='380' y='230' text-anchor='middle' font-size='11'>诸镇响应·席卷北边</text><rect x='90' y='270' width='250' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='215' y='296' text-anchor='middle' font-size='13'>高欢收六镇鲜卑（东）</text><text x='215' y='318' text-anchor='middle' font-size='11'>东魏·北齐</text><rect x='420' y='270' width='250' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='545' y='296' text-anchor='middle' font-size='13'>宇文泰收武川系（西）</text><text x='545' y='318' text-anchor='middle' font-size='11'>西魏·北周→关陇集团→隋唐</text><line x1='330' y1='250' x2='240' y2='266' stroke='#8c1f28' marker-end='url(#xd14)'/><line x1='430' y1='250' x2='520' y2='266' stroke='#8c1f28' marker-end='url(#xd14)'/></g><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>北魏分裂（534—535年）；六镇武人是隋唐军政母体（陈寅恪论）</text></svg>",
+      "sources": ["weishu", "tongjian", "cambridge-china", "chenyinke-tang"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "sg-houjing-zhiluan",
+      "title": "侯景之乱",
+      "year": 548,
+      "end_year": 552,
+      "year_display": "548年",
+      "end_year_display": "552年",
+      "year_note": "据《资治通鉴》梁太清二年（548年）八月侯景自寿阳起兵，552年乱平（陈霸先等平定）；公元纪年，无换算问题。",
+      "location": "寿阳→建康；江南全境",
+      "key_people": [],
+      "background": "东魏叛将侯景（羯人，跛足）降梁，梁武帝纳之；梁与东魏议和后侯景惧被送还，遂反。梁武帝萧衍晚年崇佛怠政，宗室拥兵不救。",
+      "process": [
+        "548年八月侯景自寿阳起兵，十月渡江围建康台城。",
+        "549年台城陷，八十六岁的梁武帝被幽禁饿死（“自我得之，自我失之”语见史载）；江南士族与富室遭屠杀劫掠。",
+        "侯景僭号称帝，兵锋蹂躏三吴；江南“千里绝烟，人迹罕见”（《南史》描述性文字，非统计数字）。",
+        "552年陈霸先、王僧辩联军破侯景，乱平；梁实亡，557年陈霸先建陈。"
+      ],
+      "outcome": "南朝政治、经济与文化中心三吴残破，士族门阀在肉体与制度上双重瓦解；南方从此对北方彻底转为守势，589年隋灭陈统一的实力差距由此奠定。",
+      "controversies": [
+        {"issue": "江南人口损失", "views": [
+          {"holder": "《南史》《建康实录》等描述", "basis": "“千里绝烟”等描述性文字被广泛引用。"},
+          {"holder": "现代研究", "basis": "无人口统计数字存世，损失程度只能定性；学界共识为“毁灭性打击”，程度各家描述不一。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xd15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>侯景之乱（548—552年）</text><g font-size='12'><rect x='90' y='80' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='200' y='106' text-anchor='middle'>东魏叛将侯景降梁</text><text x='200' y='130' text-anchor='middle' font-size='11'>梁魏议和·景惧送还</text><rect x='340' y='80' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='106' text-anchor='middle' fill='#8c1f28'>548 起兵围台城</text><text x='430' y='130' text-anchor='middle' font-size='11'>549城陷·武帝饿死</text><rect x='550' y='80' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='106' text-anchor='middle' fill='#8c1f28'>蹂躏三吴</text><text x='635' y='130' text-anchor='middle' font-size='11'>“千里绝烟”</text><line x1='310' y1='120' x2='336' y2='120' stroke='#8c1f28' marker-end='url(#xd15)'/><line x1='520' y1='120' x2='546' y2='120' stroke='#8c1f28' marker-end='url(#xd15)'/></g><line x1='380' y1='160' x2='380' y2='195' stroke='#2b4a6f' marker-end='url(#xd15)'/><rect x='230' y='200' width='300' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='13'>552年陈霸先王僧辩平乱</text><text x='380' y='252' text-anchor='middle' font-size='11'>557年陈建·梁亡</text><rect x='130' y='295' width='500' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='321' text-anchor='middle' font-size='12'>士族门阀双重瓦解；南朝转守势</text><text x='380' y='348' text-anchor='middle' font-size='11' fill='#7a7468'>589年隋灭陈的实力差距由此奠定；人口损失无统计数字</text></svg>",
+      "sources": ["tongjian", "tianyuqing-dongjin", "chenyinke-tang", "zgbk"],
+      "needs_verification": true,
+      "pending_notes": "江南人口损失仅有“千里绝烟”等描述性记载，无统计数字；台城围城期间城中死亡数各家著述估计差异大，本站不作数字表述。"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhuge-liang",
+      "name": "诸葛亮（孔明）",
+      "birth_year": 181,
+      "death_year": 234,
+      "birth_display": "181年",
+      "death_display": "234年",
+      "birth_note": "据《三国志·诸葛亮传》注引《魏略》等推排，琅琊阳都人，生于光和四年（181年），通说。",
+      "death_note": "建兴十二年（234年）八月卒于五丈原军中，公元纪年。",
+      "chronology": [
+        {"year": 181, "display": "181年", "text": "生于琅琊阳都，早孤，随叔父至荆州。"},
+        {"year": 207, "display": "207年（约）", "text": "刘备三顾草庐，《隆中对》规划三分（对话文本见《三国志》，细节经史家整理）。"},
+        {"year": 208, "display": "208年", "text": "出使东吴促成孙刘联盟，赤壁战胜。"},
+        {"year": 225, "display": "225年", "text": "南征南中，安定后方。"},
+        {"year": 227, "display": "227年", "text": "上《出师表》，次年首出祁山北伐。"},
+        {"year": 234, "display": "234年", "text": "五出关中屯五丈原，八月卒于军。"}
+      ],
+      "deeds": [
+        "规划三分天下的战略蓝图（《隆中对》），并执行联吴、抚夷、治蜀。",
+        "治蜀：立法公允、务农殖谷，蜀汉以最弱国力维持四十年。",
+        "五次北伐与军械革新（木牛流马、连弩），以攻代守。"
+      ],
+      "evaluations": [
+        {"holder": "陈寿（《三国志》评语）", "view": "“抚百姓，示仪轨，约官职，从权制……可谓识治之良才，管萧之亚匹”；而“应变将略，非其所长”。", "basis": "《三国志·诸葛亮传》评。"},
+        {"holder": "后世尊崇传统", "view": "杜甫诗、历代祠祀将其定格为忠臣贤相原型；“鞠躬尽瘁”已成汉语固定语（其出处《后出师表》真伪有争议，见事件条）。", "basis": "文学史与祠祀史。"},
+        {"holder": "现代史学", "view": "区分“治才”与“将略”的评价框架大体被接受；北伐成败更多归因于国力结构而非个人才略。", "basis": "三国史研究。"}
+      ],
+      "sources": ["sanguozhi", "tongjian", "chenyinke-tang"],
+      "needs_verification": false
+    },
+    {
+      "id": "sima-yan",
+      "name": "晋武帝司马炎",
+      "birth_year": 236,
+      "death_year": 290,
+      "birth_display": "236年",
+      "death_display": "290年",
+      "birth_note": "据《晋书》景初三年前后（236年）生，通说推排。",
+      "death_note": "太熙元年（290年）卒于含章殿，公元纪年。",
+      "chronology": [
+        {"year": 236, "display": "236年", "text": "生于河内温县司马氏家族，司马懿之孙。"},
+        {"year": 265, "display": "265年", "text": "受魏禅称帝，建立西晋。"},
+        {"year": 280, "display": "280年", "text": "灭吴统一三国。"},
+        {"year": 290, "display": "290年", "text": "卒；立愚钝太子衷（惠帝），托付杨骏——贾后与诸王之乱的引线。"}
+      ],
+      "deeds": [
+        "完成三国统一（280年），太康年间经济恢复。",
+        "大封宗室二十七王并许其统兵，为八王之乱埋下制度隐患。",
+        "推行占田荫客制，承认士族荫客特权——门阀制度的经济立法。"
+      ],
+      "evaluations": [
+        {"holder": "《晋书》传统评价", "view": "统一之功与“平吴之后，骄纵轻肆”的堕落并书；立储失误被视为其最大败笔。", "basis": "《晋书·武帝纪》。"},
+        {"holder": "现代制度分析", "view": "其分封与荫客两项结构性决策，分别造成八王之乱与门阀固化——个人选择与制度设计的双重失败标本。", "basis": "魏晋南北朝史研究。"}
+      ],
+      "sources": ["jinshu", "tongjian", "chenyinke-tang"],
+      "needs_verification": false
+    },
+    {
+      "id": "wang-dao",
+      "name": "王导",
+      "birth_year": 276,
+      "death_year": 339,
+      "birth_display": "276年",
+      "death_display": "339年",
+      "birth_note": "据《晋书·王导传》生于276年（咸宁二年前后），通说推排。",
+      "death_note": "咸康五年（339年）卒，公元纪年。",
+      "chronology": [
+        {"year": 276, "display": "276年", "text": "生于琅琊临沂王氏。"},
+        {"year": 307, "display": "307年", "text": "随司马睿渡江镇建邺，经营江南联盟。"},
+        {"year": 317, "display": "317年", "text": "佐司马睿建东晋；元帝登极欲与之共坐御床。"},
+        {"year": 322, "display": "322年", "text": "王敦之乱中周旋保全王氏（“不忠不怒”之间的平衡术）。"},
+        {"year": 339, "display": "339年", "text": "卒；历仕三朝，执政近三十年。"}
+      ],
+      "deeds": [
+        "一手促成东晋政权在江南落地：联吴姓士族、立侨姓格局。",
+        "“镇之以静，群情自安”的治理方针，维持门阀共治的均势。",
+        "王敦之乱中既不全附其兄、亦不让皇权清除王氏，维系“王与马”格局。"
+      ],
+      "evaluations": [
+        {"holder": "《晋书》与后世史家", "view": "东晋中兴的实际设计者，“仲父”之尊；批评者（如王夫之）责其“以宽纵养成强藩”。", "basis": "《晋书》与历代史论。"},
+        {"holder": "田余庆《东晋门阀政治》", "view": "王导是“门阀政治”格局的第一构建人：其平衡术使皇权与士族共治制度化；这一“变态”格局是其最大历史遗产。", "basis": "《东晋门阀政治》。"}
+      ],
+      "sources": ["jinshu", "tianyuqing-dongjin", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "xie-an",
+      "name": "谢安",
+      "birth_year": 320,
+      "death_year": 385,
+      "birth_display": "320年",
+      "death_display": "385年",
+      "birth_note": "据《晋书·谢安传》太兴三年前后（320年）生，通说推排；陈郡阳夏谢氏。",
+      "death_note": "太元十年（385年）卒，公元纪年。",
+      "chronology": [
+        {"year": 320, "display": "320年", "text": "生于陈郡谢氏，少年有重名。"},
+        {"year": 360, "display": "约360年", "text": "年四十余始出仕（“东山再起”典故所本）。"},
+        {"year": 373, "display": "373年", "text": "桓温入朝欲篡，安与王坦之从容周旋，桓温不敢发。"},
+        {"year": 383, "display": "383年", "text": "淝水之战总揽决策，遣谢玄率北府兵八万破秦。"},
+        {"year": 385, "display": "385年", "text": "遭谗出镇广陵，同年卒。"}
+      ],
+      "deeds": [
+        "淝水之战的实际决策者：以八万北府兵破号称百万的前秦军。",
+        "调和桓氏、司马氏与谢氏三方，维持东晋门阀平衡。",
+        "扶植谢玄组建北府兵——东晋最精锐军事力量。"
+      ],
+      "evaluations": [
+        {"holder": "《世说新语》与《晋书》传统", "view": "“围棋赌墅”、小儿辈破贼的从容名士形象深入人心（细节文学色彩浓）。", "basis": "《世说新语》《晋书》。"},
+        {"holder": "现代研究", "view": "其真实贡献在战略定力与北府兵体系；淝水之胜归因于秦军结构性弱点，谢安的价值在于“不乱”——两说并存。", "basis": "魏晋史研究。"}
+      ],
+      "sources": ["jinshu", "shishuoxinyu", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "fu-jian",
+      "name": "苻坚",
+      "birth_year": 338,
+      "death_year": 385,
+      "birth_display": "338年",
+      "death_display": "385年",
+      "birth_note": "据《晋书·苻坚载记》338年生，通说推排；氐族，前秦宗室。",
+      "death_note": "385年被羌人姚苌缢杀于新平佛寺，公元纪年。",
+      "chronology": [
+        {"year": 338, "display": "338年", "text": "生于氐族苻氏宗室。"},
+        {"year": 357, "display": "357年", "text": "政变即位，自称大秦天王，以汉人王猛为相。"},
+        {"year": 376, "display": "376年", "text": "灭前凉、代国，统一北方。"},
+        {"year": 383, "display": "383年", "text": "淝水之战大败。"},
+        {"year": 385, "display": "385年", "text": "被姚苌缢杀于新平佛寺；北方重新分裂。"}
+      ],
+      "deeds": [
+        "以王猛为相整顿吏治、劝课农桑，前秦为十六国中最强盛政权。",
+        "兴太学、禁老庄图谶，推行汉化文教（十六国中少见的文治取向）。",
+        "统一北方后急于南征，淝水之败使帝国解体。"
+      ],
+      "evaluations": [
+        {"holder": "《晋书·载记》传统", "view": "以“骄兵必败”论之，王猛遗言成为“不听忠告”的注脚。", "basis": "《晋书》。"},
+        {"holder": "现代研究修正", "view": "其失败根源在民族整合未完成（鲜卑羌豪各怀二心）与超越国力的多线用兵；“仁而不决”的性格叙事让位于结构分析。", "basis": "十六国史研究。"}
+      ],
+      "sources": ["jinshu", "tongjian", "cambridge-china"],
+      "needs_verification": false
+    },
+    {
+      "id": "liu-yu",
+      "name": "宋武帝刘裕",
+      "birth_year": 363,
+      "death_year": 422,
+      "birth_display": "363年",
+      "death_display": "422年",
+      "birth_note": "据《宋书》（本站未收录，据《晋书》《资治通鉴》对读）兴宁元年（363年）生，通说；京口寒门出身。",
+      "death_note": "永初三年（422年）卒于建康，公元纪年。",
+      "chronology": [
+        {"year": 363, "display": "363年", "text": "生于京口，寒门（“贵贱虽殊，途悬隔”的社会起点）。"},
+        {"year": 404, "display": "404年", "text": "京口起兵灭桓玄，重立晋室。"},
+        {"year": 410, "display": "410年", "text": "灭南燕；后卢循之乱平定。"},
+        {"year": 417, "display": "417年", "text": "灭后秦，入长安（关中旋失）。"},
+        {"year": 420, "display": "420年", "text": "受晋禅称帝，建国宋。"},
+        {"year": 422, "display": "422年", "text": "卒，欲再北伐未果。"}
+      ],
+      "deeds": [
+        "以寒门军功终结门阀专政，重建皇权（南朝第一帝）。",
+        "两次北伐（灭南燕、后秦）为南朝武功之最。",
+        "推行土断（义熙土断）抑制豪强，整顿财政。"
+      ],
+      "evaluations": [
+        {"holder": "辛弃疾（词）", "view": "“金戈铁马，气吞万里如虎”——后世武功评价的极致。", "basis": "《永遇乐·京口北固亭怀古》。"},
+        {"holder": "王夫之等史论", "view": "严责其弑二帝（安帝、恭帝）开禅代相杀之恶例，“忍于弑君者，必至于无君”。", "basis": "《读通鉴论》。"},
+        {"holder": "田余庆", "view": "刘裕代晋是门阀政治回归皇权政治的转折点：寒门皇权+武力+寒人掌机要构成南朝政治新框架。", "basis": "《东晋门阀政治》。"}
+      ],
+      "sources": ["jinshu", "tongjian", "tianyuqing-dongjin"],
+      "needs_verification": false
+    },
+    {
+      "id": "xiaowendi",
+      "name": "北魏孝文帝（元宏，原姓拓跋）",
+      "birth_year": 467,
+      "death_year": 499,
+      "birth_display": "467年",
+      "death_display": "499年",
+      "birth_note": "据《魏书·高祖纪》皇兴元年（467年）生，公元纪年。",
+      "death_note": "太和二十三年（499年）南征途中病逝于谷塘原行宫，公元纪年。",
+      "chronology": [
+        {"year": 467, "display": "467年", "text": "生于平城，五岁即位，冯太后临朝。"},
+        {"year": 485, "display": "485年", "text": "均田令颁行（冯太后主持）。"},
+        {"year": 493, "display": "493年", "text": "以南伐为名率军至洛阳定迁都。"},
+        {"year": 494, "display": "494年（前后）", "text": "正式迁都洛阳。"},
+        {"year": 496, "display": "496年", "text": "改拓跋氏为元氏，断北语、禁胡服、定族姓。"},
+        {"year": 499, "display": "499年", "text": "南征途中病逝，年三十三（虚岁）。"}
+      ],
+      "deeds": [
+        "迁都洛阳，把北魏从塞上政权转型为中原王朝。",
+        "全面汉化：改汉姓、禁胡语胡服、通婚汉人高门、行汉式礼制。",
+        "均田—三长制经其与冯太后两代而制度化，为隋唐田制之源。"
+      ],
+      "evaluations": [
+        {"holder": "《魏书》及传统史学", "view": "“雅好读书，手不释卷”，以异族君主行彻底汉化为千古盛评。", "basis": "《魏书》本纪。"},
+        {"holder": "现代修正视角", "view": "汉化撕裂鲜卑军事集团：洛阳文官与六镇武人的对立最终引爆六镇之乱、北魏分裂——改革的长时段代价被纳入评价；激进程度（一次性迁都+禁语禁服）本身也有学理讨论。", "basis": "北朝史研究。"}
+      ],
+      "sources": ["weishu", "tongjian", "chenyinke-tang"],
+      "needs_verification": false
+    },
+    {
+      "id": "zu-chongzhi",
+      "name": "祖冲之",
+      "birth_year": 429,
+      "death_year": 500,
+      "birth_display": "429年",
+      "death_display": "500年",
+      "birth_note": "据《隋书·律历志》等所载其卒官岁数推排（429年生），通说。",
+      "death_note": "500年（齐永元二年）卒，公元纪年。",
+      "chronology": [
+        {"year": 429, "display": "429年", "text": "生于建康（祖籍范阳遒县），家传天文历法之学。"},
+        {"year": 462, "display": "462年", "text": "上《大明历》，首次将岁差引入历法计算（遭戴法兴反对，以“愿闻显据”抗辩）。"},
+        {"year": 480, "display": "约480年代", "text": "算得圆周率在3.1415926与3.1415927之间，并给出密率355/113、约率22/7。"},
+        {"year": 500, "display": "500年", "text": "卒；其数学著作《缀术》唐立于学官，宋后失传。"}
+      ],
+      "deeds": [
+        "圆周率计算精度领先世界近千年（通说：至15世纪阿拉伯学者才超越其精度）。",
+        "《大明历》引入岁差、改革闰法，是天文学史上的重要进步（462年上表，梁天监年间颁行）。",
+        "造千里船、水碓磨与指南车（复原），兼通机械。"
+      ],
+      "evaluations": [
+        {"holder": "《隋书·律历志》", "view": "录其圆周率数据，谓之“精妙”；《缀术》学官“学官莫能究其深奥，是故废而不理”。", "basis": "《隋书》。"},
+        {"holder": "现代科学史", "view": "其算法（割圆术的推进或另有方法）因《缀术》失传无法确知——成就被承认，方法成谜；月食名（月球环形山祖冲之环形山）为现代国际认可的形式。", "basis": "中国科学史研究。"}
+      ],
+      "sources": ["suishu", "zgbk", "cambridge-china"],
+      "needs_verification": false
+    }
+  ]
+}
