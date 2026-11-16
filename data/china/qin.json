@@ -1,0 +1,582 @@
+{
+  "unit_id": "china-qin",
+  "region": "china",
+  "title": "秦",
+  "period_display": "前221年—前207年",
+  "start_year": -221,
+  "end_year": -207,
+  "overview": {
+    "main_threads": [
+      "军功爵与郡县制：商鞅变法以来秦制对六国旧秩序的快速整合，以及整合过程中的持续动荡",
+      "皇帝制度的创立：名号、文书、巡游、刻石构成的新合法性体系",
+      "律令国家的极限：徭役征发与关东社会的张力，最终二世而亡"
+    ],
+    "sub_periods": [
+      {"name": "始皇时期", "range_display": "前221年—前210年", "desc": "统一战争收官与制度创设（郡县、文字、货币、律令）同步推进，大型工程与南北用兵并举，晚年多次巡游求仙。"},
+      {"name": "二世时期与秦亡", "range_display": "前210年—前207年", "desc": "沙丘之谋后胡亥继位，诛戮大臣宗室，赋敛愈急；陈胜首义后关东响应，三年而亡。"}
+    ],
+    "key_changes": [
+      "贵族分封让位于中央直辖的官僚郡县制",
+      "文字、货币、度量衡与车轨的标准化",
+      "户籍、徭役与律令文书行政覆盖全国",
+      "大型工程（驰道、长城、灵渠、陵墓）空前动员"
+    ]
+  },
+  "events": [
+    {
+      "id": "qin-unify-221",
+      "title": "秦灭六国与始称皇帝",
+      "year": -221,
+      "end_year": null,
+      "year_display": "前221年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》，秦王政二十六年（前221年）灭齐、六国尽并；\"皇帝\"名号同年议定。战国王年换算据《史记》纪年。",
+      "location": "咸阳及六国故地（韩、赵、魏、楚、燕、齐）",
+      "key_people": ["qin-shihuang"],
+      "background": "战国末年，秦国据崤函之固与关中沃野，自商鞅变法后实行军功爵与耕战体制。前230年起先后灭韩（前230）、赵（前228）、魏（前225）、楚（前223）、燕（前222），前221年大军入临淄，齐王建不战而降，战国割据结束。",
+      "process": [
+        "前230年至前225年，秦相继攻灭韩、赵、魏，山东（崤山以东）形势急转。",
+        "前224年至前223年，王翦率军伐楚，破楚军、虏楚王负刍；前222年平燕、代残部。",
+        "前221年，秦军自燕南下趋齐，齐王建降，六国皆亡。",
+        "同年，秦王政命群臣议帝号，定\"皇帝\"之称，自称\"始皇帝\"，欲传之万世。"
+      ],
+      "outcome": "中国历史上第一次出现覆盖农耕核心区的中央集权政权，皇帝制度、以统一政令治理全国的框架自此确立；六国故地改为由朝廷任命的官吏治理（详见郡县条）。",
+      "controversies": [
+        {"issue": "灭六国的次第与方式", "views": [
+          {"holder": "《史记》本纪与六国年表", "basis": "记载灭国年代次第一致：韩前230、赵前228、魏前225、楚前223、燕前222、齐前221。"},
+          {"holder": "现代学界（《剑桥中国秦汉史》等）", "basis": "强调\"统一\"并非一战之功：灭国之后长期面临故地叛乱与治理整合，前221年只是军事征服的完成。"}
+        ]},
+        {"issue": "灭楚兵力\"六十万\"", "views": [
+          {"holder": "《史记·白起王翦列传》", "basis": "记王翦言\"非六十万人不可\"，李信则称二十万足矣。"},
+          {"holder": "现代学界", "basis": "普遍认为该数字系战国动员规模的上限叙述，无法以出土材料印证，不宜作确数使用。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='34' text-anchor='middle' font-size='20' fill='#2c2c28'>秦灭六国（前230—前221）</text><g font-size='13'><rect x='20' y='70' width='105' height='56' fill='#fff' stroke='#2b4a6f'/><text x='72' y='94' text-anchor='middle'>韩</text><text x='72' y='114' text-anchor='middle' fill='#8c1f28'>前230</text><rect x='135' y='70' width='105' height='56' fill='#fff' stroke='#2b4a6f'/><text x='187' y='94' text-anchor='middle'>赵</text><text x='187' y='114' text-anchor='middle' fill='#8c1f28'>前228</text><rect x='250' y='70' width='105' height='56' fill='#fff' stroke='#2b4a6f'/><text x='302' y='94' text-anchor='middle'>魏</text><text x='302' y='114' text-anchor='middle' fill='#8c1f28'>前225</text><rect x='365' y='70' width='105' height='56' fill='#fff' stroke='#2b4a6f'/><text x='417' y='94' text-anchor='middle'>楚</text><text x='417' y='114' text-anchor='middle' fill='#8c1f28'>前223</text><rect x='480' y='70' width='105' height='56' fill='#fff' stroke='#2b4a6f'/><text x='532' y='94' text-anchor='middle'>燕</text><text x='532' y='114' text-anchor='middle' fill='#8c1f28'>前222</text><rect x='595' y='70' width='105' height='56' fill='#fff' stroke='#2b4a6f'/><text x='647' y='94' text-anchor='middle'>齐</text><text x='647' y='114' text-anchor='middle' fill='#8c1f28'>前221</text></g><line x1='125' y1='98' x2='133' y2='98' stroke='#2b4a6f' marker-end='url(#ar1)'/><line x1='240' y1='98' x2='248' y2='98' stroke='#2b4a6f' marker-end='url(#ar1)'/><line x1='355' y1='98' x2='363' y2='98' stroke='#2b4a6f' marker-end='url(#ar1)'/><line x1='470' y1='98' x2='478' y2='98' stroke='#2b4a6f' marker-end='url(#ar1)'/><line x1='585' y1='98' x2='593' y2='98' stroke='#2b4a6f' marker-end='url(#ar1)'/><line x1='700' y1='98' x2='708' y2='98' stroke='#2b4a6f' marker-end='url(#ar1)'/><line x1='380' y1='128' x2='380' y2='168' stroke='#2b4a6f' marker-end='url(#ar1)'/><rect x='230' y='172' width='300' height='66' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='200' text-anchor='middle' font-size='18' fill='#8c1f28'>议定帝号</text><text x='380' y='224' text-anchor='middle' font-size='13'>\"皇帝\"·自称始皇帝</text><line x1='380' y1='238' x2='380' y2='278' stroke='#2b4a6f' marker-end='url(#ar1)'/><rect x='180' y='282' width='400' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='315' text-anchor='middle' font-size='16'>皇帝制度确立</text><text x='380' y='340' text-anchor='middle' font-size='13'>诏令称\"制\"、命称\"诏\"、自称\"朕\"（据《史记》）</text></svg>",
+      "sources": ["shiji", "brit-qinshihuang", "tianzheng-han"],
+      "needs_verification": true,
+      "pending_notes": "灭楚兵力\"六十万\"及统一战争各役兵力均出自《史记》人物列传对话，无出土佐证，仅可作叙述性数字参考；序次与年代有两源（本纪与年表互证）。"
+    },
+    {
+      "id": "qin-junxian-221",
+      "title": "废分封、行郡县",
+      "year": -221,
+      "end_year": null,
+      "year_display": "前221年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》二十六年廷议，系于前221年；帝号纪年\"二十六年\"换算为公元前221年。",
+      "location": "咸阳",
+      "key_people": ["qin-shihuang", "li-si"],
+      "background": "统一之初如何治理辽阔的六国故地成为核心议题。丞相王绾等以燕、齐、楚地偏远，请立诸皇子为王镇守；廷尉李斯以周分封后子孙疏远相攻为例反对。",
+      "process": [
+        "丞相王绾等主张分封诸子于新征服的燕、齐、楚故地。",
+        "廷尉李斯力陈周代分封导致诸侯相诛、天子不能禁的教训。",
+        "始皇采纳李斯议：\"分天下以为三十六郡\"，郡置守、尉、监。",
+        "没收民间兵器，迁天下豪富十二万户于咸阳以实京师并便于监督。"
+      ],
+      "outcome": "郡县制成为此后两千年中央集权政体的基本框架；分封之争并未终结，汉初仍有郡国并行，直至武帝以后郡县渐居主导。",
+      "controversies": [
+        {"issue": "\"三十六郡\"的名目", "views": [
+          {"holder": "《史记》", "basis": "仅记\"分天下以为三十六郡\"，未列郡名。"},
+          {"holder": "《汉书·地理志》及注家", "basis": "汉志注文与裴骃《集解》所举郡名与三十六之数未能完全相合。"},
+          {"holder": "清代以来考据（全祖望、王国维、谭其骧等）", "basis": "各家对秦郡数目与名目复原不一（王国维《秦郡考》、谭其骧《秦郡新考》），结论从四十余郡到四十余郡外另有增置，至今没有公认定案。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>前221年廷议：如何治理天下</text><rect x='60' y='80' width='270' height='80' fill='#fff' stroke='#2b4a6f'/><text x='195' y='112' text-anchor='middle' font-size='15'>王绾等：分封诸子</text><text x='195' y='136' text-anchor='middle' font-size='12'>燕齐楚地远，立王镇之</text><rect x='430' y='80' width='270' height='80' fill='#fff' stroke='#8c1f28'/><text x='565' y='112' text-anchor='middle' font-size='15'>李斯：行郡县</text><text x='565' y='136' text-anchor='middle' font-size='12'>周封子弟疏远相攻，天子弗能禁止</text><line x1='195' y1='160' x2='330' y2='215' stroke='#2b4a6f' marker-end='url(#ar2)'/><line x1='565' y1='160' x2='430' y2='215' stroke='#8c1f28' marker-end='url(#ar2)'/><rect x='300' y='220' width='160' height='56' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='254' text-anchor='middle' font-size='16'>始皇裁决</text><line x1='380' y1='276' x2='380' y2='310' stroke='#2b4a6f' marker-end='url(#ar2)'/><rect x='140' y='314' width='480' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='340' text-anchor='middle' font-size='15'>\"分天下以为三十六郡\"，郡置守、尉、监</text><text x='380' y='362' text-anchor='middle' font-size='12'>郡名目清代以来考据不一，无定案</text></svg>",
+      "sources": ["shiji", "hanshu", "yan-gengwang"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "qin-standardize",
+      "title": "书同文、车同轨与统一度量衡、货币",
+      "year": -221,
+      "end_year": -220,
+      "year_display": "前221年",
+      "end_year_display": "前220年",
+      "year_note": "据《史记·秦始皇本纪》二十六年\"一法度衡石丈尺，车同轨，书同文字\"及二十七年（前220年）治驰道等记载系年。",
+      "location": "全国（以关中为中心）",
+      "key_people": ["qin-shihuang", "li-si"],
+      "background": "战国文字异形、货币异制、度量衡异制，政令与商旅跨地区流通成本高昂。统一后，标准化成为行政整合的技术基础。",
+      "process": [
+        "以秦文字为标准字形推广全国，相传李斯作《仓颉篇》、赵高作《爰历篇》、太史令胡毋敬作《博学篇》为字书。",
+        "统一度量衡：以商鞅变法以来的秦制为准，颁发标准器（现存秦诏版、商鞅方升等实物）。",
+        "统一货币：废除各国异形钱，通行圆形方孔\"半两\"钱。",
+        "统一车轨宽窄，修驰道、直道等以咸阳为中心的道路系统。"
+      ],
+      "outcome": "形成跨地区行政与经济的共同技术标准，后世政权长期沿用；出土秦简、诏版、钱范为该过程提供了实物证据链。",
+      "controversies": [
+        {"issue": "\"书同文\"的实际形态", "views": [
+          {"holder": "传世记载", "basis": "《史记》\"书同文字\"；后世以小篆为标准字体，并有\"李斯作小篆\"之说。"},
+          {"holder": "出土材料（里耶秦简、睡虎地秦简等）", "basis": "秦至汉初日常行政书写大量使用早期隶书，说明统一后通行的其实是篆隶并行的书写体系，\"李斯创制小篆\"旧说被简化。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>统一文字、货币、度量衡、车轨</text><text x='200' y='80' text-anchor='middle' font-size='14'>战国异制</text><g font-size='13'><rect x='60' y='100' width='120' height='46' fill='#fff' stroke='#2b4a6f'/><text x='120' y='128' text-anchor='middle'>文字异形</text><rect x='60' y='156' width='120' height='46' fill='#fff' stroke='#2b4a6f'/><text x='120' y='184' text-anchor='middle'>货币异制</text><rect x='60' y='212' width='120' height='46' fill='#fff' stroke='#2b4a6f'/><text x='120' y='240' text-anchor='middle'>度量衡各异</text><rect x='60' y='268' width='120' height='46' fill='#fff' stroke='#2b4a6f'/><text x='120' y='296' text-anchor='middle'>车轨宽窄不一</text></g><line x1='185' y1='123' x2='300' y2='170' stroke='#2b4a6f' marker-end='url(#ar3)'/><line x1='185' y1='179' x2='300' y2='190' stroke='#2b4a6f' marker-end='url(#ar3)'/><line x1='185' y1='235' x2='300' y2='210' stroke='#2b4a6f' marker-end='url(#ar3)'/><line x1='185' y1='291' x2='300' y2='230' stroke='#2b4a6f' marker-end='url(#ar3)'/><rect x='304' y='160' width='170' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='389' y='195' text-anchor='middle' font-size='15'>朝廷颁定</text><text x='389' y='220' text-anchor='middle' font-size='12'>以秦制为准</text><line x1='478' y1='205' x2='540' y2='205' stroke='#2b4a6f' marker-end='url(#ar3)'/><g font-size='12'><rect x='545' y='100' width='180' height='46' fill='#fff' stroke='#2b4a6f'/><text x='635' y='128' text-anchor='middle'>书同文字（篆隶并行）</text><rect x='545' y='156' width='180' height='46' fill='#fff' stroke='#2b4a6f'/><text x='635' y='184' text-anchor='middle'>半两钱通行</text><rect x='545' y='212' width='180' height='46' fill='#fff' stroke='#2b4a6f'/><text x='635' y='240' text-anchor='middle'>度量衡标准器</text><rect x='545' y='268' width='180' height='46' fill='#fff' stroke='#2b4a6f'/><text x='635' y='296' text-anchor='middle'>车同轨、修驰道</text></g><circle cx='389' cy='340' r='26' fill='#c8a45c' stroke='#8c1f28'/><rect x='381' y='332' width='16' height='16' fill='#faf7f0' stroke='#8c1f28'/><text x='440' y='346' font-size='12'>半两钱形制示意</text></svg>",
+      "sources": ["shiji", "lvsimian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "qin-baiyue-lingqu",
+      "title": "南征百越、开灵渠、置三郡",
+      "year": -219,
+      "end_year": -214,
+      "year_display": "前219年",
+      "end_year_display": "前214年",
+      "year_note": "南征起于约前219年（始皇二十八年前后，《史记》系于巡游前后的用兵叙述）；前214年（三十三年）置桂林、南海、象郡，灵渠约于此前凿成。在位年换算据《史记》。",
+      "location": "岭南（今两广及越南北部）、湘桂走廊",
+      "key_people": ["qin-shihuang"],
+      "background": "统一后秦向南扩张至五岭以南的百越地区，为解决军粮转运，命监禄（史禄）在今广西境内凿渠沟通湘江与漓江水系。",
+      "process": [
+        "约前219年起，秦军分路南征，《淮南子·人间训》记动员兵力五十万（数字单源，存疑）。",
+        "初战不利，西瓯抵抗激烈，《淮南子》记主将屠睢败死；《史记》未详载其役。",
+        "凿灵渠以通粮道，联湘江、漓江，沟通长江与珠江两大水系。",
+        "前214年，平定岭南，置桂林、南海、象三郡；中原移民随之南下。"
+      ],
+      "outcome": "岭南首次纳入中原王朝郡县体系；灵渠成为此后两千余年南北水运要道；秦末动乱中南海尉赵佗割据建南越国，说明控制并不稳固。",
+      "controversies": [
+        {"issue": "南征兵力与战役经过", "views": [
+          {"holder": "《淮南子·人间训》", "basis": "记\"五十万\"分五军征越、屠睢败死，为兵力数字唯一史源。"},
+          {"holder": "《史记》", "basis": "仅记置郡与\"使监禄凿渠\"，不记兵力，两书详略差异明显。"},
+          {"holder": "现代学界", "basis": "认为\"五十万\"系文学化的总动员叙述，不可作实数；南征具体经过因史料单薄只能粗略复原。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>秦征百越与灵渠（示意）</text><rect x='300' y='70' width='160' height='56' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='104' text-anchor='middle' font-size='15'>关中·咸阳</text><line x1='360' y1='126' x2='300' y2='190' stroke='#2b4a6f' marker-end='url(#ar4)'/><line x1='400' y1='126' x2='460' y2='190' stroke='#2b4a6f' marker-end='url(#ar4)'/><rect x='180' y='194' width='190' height='56' fill='#fff' stroke='#2b4a6f'/><text x='275' y='218' text-anchor='middle' font-size='14'>湘江水系（长江流域）</text><text x='275' y='238' text-anchor='middle' font-size='12'>粮道南运起点</text><rect x='390' y='194' width='190' height='56' fill='#fff' stroke='#2b4a6f'/><text x='485' y='218' text-anchor='middle' font-size='14'>漓江水系（珠江流域）</text><text x='485' y='238' text-anchor='middle' font-size='12'>入岭南孔道</text><rect x='345' y='216' width='70' height='20' fill='#c8a45c' stroke='#8c1f28'/><text x='380' y='231' text-anchor='middle' font-size='11' fill='#8c1f28'>灵渠</text><line x1='380' y1='266' x2='380' y2='300' stroke='#2b4a6f' marker-end='url(#ar4)'/><g font-size='13'><rect x='90' y='304' width='180' height='60' fill='#fff' stroke='#8c1f28'/><text x='180' y='330' text-anchor='middle'>桂林郡</text><text x='180' y='350' text-anchor='middle' font-size='11'>前214年置</text><rect x='290' y='304' width='180' height='60' fill='#fff' stroke='#8c1f28'/><text x='380' y='330' text-anchor='middle'>南海郡</text><text x='380' y='350' text-anchor='middle' font-size='11'>前214年置</text><rect x='490' y='304' width='180' height='60' fill='#fff' stroke='#8c1f28'/><text x='580' y='330' text-anchor='middle'>象郡</text><text x='580' y='350' text-anchor='middle' font-size='11'>前214年置</text></g></svg>",
+      "sources": ["shiji", "huainanzi", "cambridge-china"],
+      "needs_verification": true,
+      "pending_notes": "兵力\"五十万\"仅见《淮南子·人间训》；屠睢败死见于《淮南子》而《史记》不载，战役经过无法双源复原，存疑。"
+    },
+    {
+      "id": "qin-xiongnu-greatwall",
+      "title": "北击匈奴与修筑长城",
+      "year": -215,
+      "end_year": -214,
+      "year_display": "前215年",
+      "end_year_display": "前214年",
+      "year_note": "据《史记·秦始皇本纪》三十二年（前215年）使蒙恬北击胡、三十三年（前214年）西北斥逐匈奴并\"筑亭障\"系年；帝号纪年据《史记》换算。",
+      "location": "河南地（今河套及鄂尔多斯）、阴山一线",
+      "key_people": ["qin-shihuang", "meng-tian"],
+      "background": "战国末匈奴势力进入河南地，威胁关中以北。秦统一后命蒙恬率军北逐匈奴，收复河南地，并将秦、赵、燕三国旧长城连缀扩建。",
+      "process": [
+        "前215年，蒙恬将兵北击匈奴（《史记·蒙恬列传》记\"三十万\"，数字单源存疑）。",
+        "前214年，取河南地，置四十四县，徙民实边；渡河取阳山、北假地带。",
+        "连缀秦、赵、燕旧长城，\"起临洮，至辽东\"（《史记》语），沿线设亭障、烽燧。",
+        "蒙恬驻上郡十余年，威震匈奴；修直道自咸阳北通九原。"
+      ],
+      "outcome": "秦在北方建立边防体系并迁民实边；秦亡后戍边瓦解，匈奴重新南下，汉初被迫和亲，直至武帝时反攻。",
+      "controversies": [
+        {"issue": "蒙恬兵力\"三十万\"", "views": [
+          {"holder": "《史记·蒙恬列传》", "basis": "记\"乃使蒙恬将三十万众北逐戎狄\"，为唯一数字来源。"},
+          {"holder": "现代学界", "basis": "认为秦汉文献中的大军数字多为约数或夸饰，无法核实；长城墙体遗存与文献记载的对应仍在考古研究之中。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>蒙恬北击与长城（方位示意，非地理比例）</text><rect x='40' y='60' width='680' height='60' fill='#efe4cf' stroke='#c8a45c'/><text x='380' y='96' text-anchor='middle' font-size='15'>匈奴（阴山以北）</text><path d='M60,150 L700,150' stroke='#8c1f28' stroke-width='6' fill='none'/><text x='380' y='140' text-anchor='middle' font-size='13' fill='#8c1f28'>长城：起临洮，至辽东（连缀秦、赵、燕旧长城）</text><rect x='300' y='200' width='160' height='56' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='14'>河南地（收复）</text><text x='380' y='246' text-anchor='middle' font-size='11'>置县徙民实边</text><rect x='300' y='300' width='160' height='56' fill='#fff' stroke='#2b4a6f'/><text x='380' y='326' text-anchor='middle' font-size='15'>咸阳</text><text x='380' y='346' text-anchor='middle' font-size='11'>直道北通九原</text><line x1='380' y1='296' x2='380' y2='260' stroke='#8c1f28' marker-end='url(#ar5)'/><text x='440' y='284' font-size='12' fill='#8c1f28'>蒙恬北击（前215—前214）</text><rect x='80' y='200' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='150' y='226' text-anchor='middle' font-size='13'>临洮（西端）</text><text x='150' y='246' text-anchor='middle' font-size='11'>今甘肃岷县一带</text><rect x='540' y='200' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='610' y='226' text-anchor='middle' font-size='13'>辽东（东端）</text><text x='610' y='246' text-anchor='middle' font-size='11'>碣石方向</text></svg>",
+      "sources": ["shiji", "whc-greatwall", "zgbk"],
+      "needs_verification": true,
+      "pending_notes": "兵力\"三十万\"仅见《史记·蒙恬列传》；长城沿线具体墙体归属（秦 vs 战国旧城连缀）有考古讨论。"
+    },
+    {
+      "id": "qin-fenshu-213",
+      "title": "焚书",
+      "year": -213,
+      "end_year": null,
+      "year_display": "前213年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》三十四年（前213年）李斯奏请焚书系年；帝号纪年据《史记》换算。",
+      "location": "咸阳令下，郡县执行",
+      "key_people": ["qin-shihuang", "li-si"],
+      "background": "统一后博士淳于越复倡分封，引据古法；丞相李斯批驳\"诸生皆诵法孔子，不师今而学古\"，指其惑乱黔首，奏请禁私学、焚民间藏书。",
+      "process": [
+        "始皇置酒咸阳宫，博士淳于越进言复行分封、以古为师。",
+        "李斯驳斥，奏请：史官所藏非《秦纪》者皆烧；非博士官所职，天下敢有藏《诗》《书》、百家语者，诣守尉杂烧之。",
+        "令下三十日不烧，黥为城旦；所不去者，医药卜筮种树之书；欲学法令，以吏为师。",
+        "诏书颁行，民间《诗》《书》与百家语遭大规模收缴焚毁；官府藏书（博士官所职）不在焚毁之列。"
+      ],
+      "outcome": "先秦典籍传承受到重大打击，造成文献断层；汉初书籍复出（口授、壁藏、献书），催生经学的今古文问题。",
+      "controversies": [
+        {"issue": "焚书的实际范围", "views": [
+          {"holder": "《史记·秦始皇本纪》奏议原文", "basis": "焚毁对象为民间《诗》《书》百家语与各国史记，博士官藏书、医药卜筮种树之书不焚，并禁\"偶语《诗》《书》\"。"},
+          {"holder": "后世通行的\"焚尽群书\"印象", "basis": "经汉代追述与文学化传播，形成\"秦火焚尽先秦典籍\"的简化叙事；实际受损程度各书不同。"},
+          {"holder": "汉初政策佐证", "basis": "《汉书·惠帝纪》载惠帝四年（前191年）\"除挟书律\"，说明民间藏书之禁延续至汉初，禁令系统为秦制延续。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>焚书（前213年）：李斯奏议的烧与不烧</text><rect x='80' y='70' width='260' height='64' fill='#fff' stroke='#2b4a6f'/><text x='210' y='96' text-anchor='middle' font-size='14'>淳于越：请复分封、师古</text><text x='210' y='118' text-anchor='middle' font-size='12'>置酒咸阳宫引发论战</text><rect x='420' y='70' width='260' height='64' fill='#fff' stroke='#8c1f28'/><text x='550' y='96' text-anchor='middle' font-size='14'>李斯奏：禁私学、焚民藏</text><text x='550' y='118' text-anchor='middle' font-size='12'>\"不师今而学古\"惑乱黔首</text><line x1='340' y1='102' x2='416' y2='102' stroke='#8c1f28' marker-end='url(#ar6)'/><line x1='550' y1='134' x2='550' y2='170' stroke='#8c1f28' marker-end='url(#ar6)'/><rect x='120' y='174' width='290' height='150' fill='#f3d9d3' stroke='#8c1f28'/><text x='265' y='200' text-anchor='middle' font-size='15' fill='#8c1f28'>焚毁</text><text x='265' y='226' text-anchor='middle' font-size='13'>史官非《秦纪》皆烧</text><text x='265' y='250' text-anchor='middle' font-size='13'>民间《诗》《书》百家语</text><text x='265' y='274' text-anchor='middle' font-size='13'>偶语《诗》《书》弃市</text><text x='265' y='298' text-anchor='middle' font-size='12'>令下三十日不烧，黥为城旦</text><rect x='430' y='174' width='210' height='150' fill='#efe4cf' stroke='#2b4a6f'/><text x='535' y='200' text-anchor='middle' font-size='15' fill='#2b4a6f'>不烧</text><text x='535' y='226' text-anchor='middle' font-size='13'>医药卜筮种树之书</text><text x='535' y='250' text-anchor='middle' font-size='13'>博士官所职藏书</text><text x='535' y='274' text-anchor='middle' font-size='13'>秦纪与法令</text><text x='535' y='298' text-anchor='middle' font-size='12'>学法令，以吏为师</text><line x1='550' y1='170' x2='535' y2='170' stroke='#2b4a6f' marker-end='url(#ar6)'/><line x1='550' y1='170' x2='265' y2='170' stroke='#8c1f28' marker-end='url(#ar6)'/><text x='380' y='356' text-anchor='middle' font-size='13'>影响：先秦文献断层，汉初复书与今古文问题之源</text></svg>",
+      "sources": ["shiji", "hanshu", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "qin-kengru-212",
+      "title": "坑儒（坑诸生）",
+      "year": -212,
+      "end_year": null,
+      "year_display": "前212年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》三十五年（前212年）系年；帝号纪年据《史记》换算。",
+      "location": "咸阳",
+      "key_people": ["qin-shihuang"],
+      "background": "方士侯生、卢生为始皇求仙药，因惧罪相与讥议始皇而逃亡。始皇大怒，谓卢生等\"今乃诽谤我\"，使御史案问诸生。",
+      "process": [
+        "侯生、卢生受命求仙药，耗费巨资无所获，相与讥议始皇专任狱吏、贪于权势后逃匿。",
+        "始皇怒，下令御史遍讯诸生，诸生转相告引。",
+        "犯禁者四百六十余人被坑杀于咸阳，使天下知之以惩后。",
+        "长子扶苏进谏\"诸生皆诵法孔子\"，被派往北边监蒙恬军。"
+      ],
+      "outcome": "与焚书合称\"焚书坑儒\"，成为秦政酷烈与思想压制的标志性事件；扶苏外遣削弱了宫廷制衡，为沙丘之变埋下伏笔。",
+      "controversies": [
+        {"issue": "\"坑儒\"的对象与名称", "views": [
+          {"holder": "《史记·秦始皇本纪》", "basis": "原文作\"诸生\"四百六十余人，扶苏以\"诸生皆诵法孔子\"谏，可见被坑者与儒生有关但未必全是儒生，含术士。"},
+          {"holder": "东汉卫宏《诏定古文尚书序》", "basis": "增出始皇骊山温谷种瓜、诱儒生观之而坑之的细节；学界多认为此说后起，属传闻增益。"},
+          {"holder": "现代学界", "basis": "倾向以\"坑术士/坑诸生\"称之，\"焚书坑儒\"作为固定并称是后世逐渐形成的叙事。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>坑诸生事件链（前212年）</text><rect x='60' y='70' width='280' height='70' fill='#fff' stroke='#2b4a6f'/><text x='200' y='96' text-anchor='middle' font-size='14'>方士侯生、卢生求仙药无获</text><text x='200' y='118' text-anchor='middle' font-size='12'>惧罪讥议始皇后逃亡</text><rect x='420' y='70' width='280' height='70' fill='#fff' stroke='#8c1f28'/><text x='560' y='96' text-anchor='middle' font-size='14'>始皇怒：\"诽谤我\"</text><text x='560' y='118' text-anchor='middle' font-size='12'>使御史案问诸生</text><line x1='340' y1='105' x2='416' y2='105' stroke='#8c1f28' marker-end='url(#ar7)'/><line x1='560' y1='140' x2='560' y2='175' stroke='#8c1f28' marker-end='url(#ar7)'/><rect x='420' y='179' width='280' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='560' y='205' text-anchor='middle' font-size='14' fill='#8c1f28'>诸生转相告引</text><text x='560' y='226' text-anchor='middle' font-size='12'>犯禁者四百六十余人（据《史记》）</text><line x1='560' y1='243' x2='560' y2='272' stroke='#8c1f28' marker-end='url(#ar7)'/><rect x='420' y='276' width='280' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='560' y='302' text-anchor='middle' font-size='14' fill='#8c1f28'>坑杀于咸阳</text><text x='560' y='324' text-anchor='middle' font-size='12'>对象：\"诸生\"（含儒生与术士）</text><rect x='60' y='179' width='280' height='64' fill='#efe4cf' stroke='#2b4a6f'/><text x='200' y='205' text-anchor='middle' font-size='14'>扶苏进谏</text><text x='200' y='226' text-anchor='middle' font-size='12'>\"诸生皆诵法孔子\"→ 外遣监军</text><line x1='340' y1='211' x2='420' y2='240' stroke='#2b4a6f'/><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>称谓争议：\"坑儒\"为后世通称，《史记》原文作\"诸生\"</text></svg>",
+      "sources": ["shiji", "cambridge-china", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "qin-epang-mausoleum",
+      "title": "营建阿房宫与骊山陵",
+      "year": -212,
+      "end_year": null,
+      "year_display": "前212年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》三十五年（前212年）\"营作朝宫渭南上林苑中\"系年；骊山陵营建自即位之初（《史记》\"穿三泉\"条），主体工程贯穿统一前后。",
+      "location": "渭南上林苑（阿房宫前殿基址）、骊山北麓（陵墓）",
+      "key_people": ["qin-shihuang"],
+      "background": "统一后始皇营建新朝宫与陵墓。骊山陵自其即位之初即开始修建，统一后规模扩大；阿房宫规划\"东西五百步，南北五十丈\"，先作前殿。",
+      "process": [
+        "征发刑徒与民夫，两工并作：《史记》记\"隐宫徒刑者七十余万人\"分作阿房宫与骊山陵（数字单源存疑）。",
+        "北山石椁、蜀荆材木转输关中，运输与工程动员波及全国。",
+        "前210年始皇崩，阿房宫工程中止，刑徒被调往骊山复土。",
+        "1974年临潼农民打井发现兵马俑，骊山陵陵园遗存大规模考古展开；2002—2007年阿房宫前殿遗址勘探完成。"
+      ],
+      "outcome": "骊山陵与兵马俑成为秦代国家动员能力的实证，1987年列入世界遗产；阿房宫经考古确认仅存前殿夯土基址，未见火烧遗迹，改写了\"项羽烧阿房宫\"的流行印象。",
+      "controversies": [
+        {"issue": "\"七十余万\"刑徒数字", "views": [
+          {"holder": "《史记·秦始皇本纪》", "basis": "\"隐宫徒刑者七十余万人，乃分作阿房宫，或作丽山\"，为唯一数字来源。"},
+          {"holder": "现代学界", "basis": "认为属文学化总数，无法以出土簿籍核证；实际徭役组织方式仍在研究中。"}
+        ]},
+        {"issue": "阿房宫是否建成、是否被项羽焚毁", "views": [
+          {"holder": "传世记载", "basis": "《史记·项羽本纪》记项羽\"烧秦宫室，火三月不灭\"；唐杜牧《阿房宫赋》使\"火烧阿房宫\"深入人心。"},
+          {"holder": "阿房宫考古队（2002—2007）", "basis": "前殿遗址仅发现夯土台基，未见宫殿倒塌堆积与大面积红烧土，判断阿房宫前殿未建成；秦宫火烧遗迹见于咸阳宫一带。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>两大工程与考古修正</text><rect x='80' y='70' width='270' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='215' y='96' text-anchor='middle' font-size='15'>阿房宫（前殿，前212年起）</text><text x='215' y='120' text-anchor='middle' font-size='12'>规划宏大，前210年工程中止</text><rect x='410' y='70' width='270' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='545' y='96' text-anchor='middle' font-size='15'>骊山陵（即位初起建）</text><text x='545' y='120' text-anchor='middle' font-size='12'>陵园、兵马俑坑，工程延续至秦亡</text><line x1='215' y1='140' x2='215' y2='180' stroke='#8c1f28' marker-end='url(#ar8)'/><line x1='545' y1='140' x2='545' y2='180' stroke='#2b4a6f' marker-end='url(#ar8)'/><rect x='60' y='184' width='310' height='140' fill='#fff' stroke='#8c1f28'/><text x='215' y='210' text-anchor='middle' font-size='14' fill='#8c1f28'>考古修正（2002—2007）</text><text x='215' y='236' text-anchor='middle' font-size='12'>前殿仅存夯土台基</text><text x='215' y='260' text-anchor='middle' font-size='12'>未见倒塌堆积与大面积红烧土</text><text x='215' y='284' text-anchor='middle' font-size='12'>判断：前殿未建成</text><text x='215' y='308' text-anchor='middle' font-size='12'>\"火烧阿房宫\"缺乏实物证据</text><rect x='410' y='184' width='290' height='140' fill='#fff' stroke='#2b4a6f'/><text x='555' y='210' text-anchor='middle' font-size='14'>考古确认（1974年起）</text><text x='555' y='236' text-anchor='middle' font-size='12'>兵马俑一、二、三号坑</text><text x='555' y='260' text-anchor='middle' font-size='12'>陵园、跽坐俑、铜车马</text><text x='555' y='284' text-anchor='middle' font-size='12'>实证国家动员与丧葬制度</text><text x='555' y='308' text-anchor='middle' font-size='12'>1987年列入世界遗产</text><text x='380' y='356' text-anchor='middle' font-size='13'>《史记》\"徒七十余万\"数字单源，存疑</text></svg>",
+      "sources": ["shiji", "whc-qinling", "kaogu-cass"],
+      "needs_verification": true,
+      "pending_notes": "\"七十余万\"刑徒数字仅《史记》单源；阿房宫考古结论引用社科院考古所阿房宫考古队公布意见，具体细节以正式报告为准。"
+    },
+    {
+      "id": "qin-shaqiu-210",
+      "title": "始皇东巡与沙丘之变",
+      "year": -210,
+      "end_year": null,
+      "year_display": "前210年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》三十七年（前210年）\"七月丙寅，始皇崩于沙丘平台\"系年；七月丙寅对应公历约前210年7—8月间（据通行历表推排，各家小异）。",
+      "location": "会稽—琅琊—沙丘平台（今河北广宗附近）",
+      "key_people": ["qin-shihuang", "zhao-gao", "li-si"],
+      "background": "始皇第五次巡游，左丞相李斯从、右丞相冯去疾留守，少子胡亥请从。途中病重，未及安排储位；长子扶苏时监军上郡。",
+      "process": [
+        "前210年十月（秦历岁首）出游，南下云梦、东至会稽，浮江北上至琅琊。",
+        "途中病甚，迁于沙丘平台；七月丙寅崩，丞相李斯恐天下变，秘不发丧。",
+        "中车府令赵高说胡亥、胁李斯，矫诏赐死扶苏与蒙恬（\"沙丘之谋\"）。",
+        "胡亥立为二世皇帝，车驾从井陉抵九原再返咸阳发丧。"
+      ],
+      "outcome": "帝位在无公开程序下转移，二世诛戮大臣与宗室，赵高专权；扶苏、蒙恬之死解除北边军心，秦政失去修正机会，一年后关东大乱。",
+      "controversies": [
+        {"issue": "沙丘之谋的史料性质", "views": [
+          {"holder": "《史记》本纪、李斯列传、蒙恬列传", "basis": "三处互见矫诏密谋经过，是叙事主干；但对话细节具传记文学色彩。"},
+          {"holder": "现代史料批判研究", "basis": "认为密谋场景不可能有旁证记录，细节系史家重构，框架可信而细节不可尽信。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>前210年巡游与沙丘之变（路线示意）</text><g font-size='13'><rect x='40' y='90' width='130' height='50' fill='#fff' stroke='#2b4a6f'/><text x='105' y='112' text-anchor='middle'>咸阳出发</text><text x='105' y='130' text-anchor='middle' font-size='11'>十月（秦历岁首）</text><rect x='200' y='90' width='120' height='50' fill='#fff' stroke='#2b4a6f'/><text x='260' y='112' text-anchor='middle'>云梦·会稽</text><text x='260' y='130' text-anchor='middle' font-size='11'>南巡刻石</text><rect x='350' y='90' width='120' height='50' fill='#fff' stroke='#2b4a6f'/><text x='410' y='112' text-anchor='middle'>琅琊</text><text x='410' y='130' text-anchor='middle' font-size='11'>浮海求仙</text><rect x='500' y='90' width='120' height='50' fill='#f3d9d3' stroke='#8c1f28'/><text x='560' y='112' text-anchor='middle' fill='#8c1f28'>沙丘平台</text><text x='560' y='130' text-anchor='middle' font-size='11' fill='#8c1f28'>七月丙寅崩</text><rect x='640' y='90' width='90' height='50' fill='#efe4cf' stroke='#2b4a6f'/><text x='685' y='112' text-anchor='middle'>九原</text><text x='685' y='130' text-anchor='middle' font-size='11'>绕道返咸阳</text></g><line x1='170' y1='115' x2='196' y2='115' stroke='#2b4a6f' marker-end='url(#ar9)'/><line x1='320' y1='115' x2='346' y2='115' stroke='#2b4a6f' marker-end='url(#ar9)'/><line x1='470' y1='115' x2='496' y2='115' stroke='#8c1f28' marker-end='url(#ar9)'/><line x1='620' y1='115' x2='636' y2='115' stroke='#2b4a6f' marker-end='url(#ar9)'/><line x1='560' y1='140' x2='380' y2='200' stroke='#8c1f28' marker-end='url(#ar9)'/><rect x='230' y='204' width='300' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='230' text-anchor='middle' font-size='14' fill='#8c1f28'>秘不发丧 + 矫诏（沙丘之谋）</text><text x='380' y='252' text-anchor='middle' font-size='12'>赵高胁李斯，赐死扶苏、蒙恬，立胡亥</text><line x1='380' y1='274' x2='380' y2='304' stroke='#8c1f28' marker-end='url(#ar9)'/><rect x='250' y='308' width='260' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='332' text-anchor='middle' font-size='14'>胡亥立为二世皇帝</text><text x='380' y='354' text-anchor='middle' font-size='12'>诛大臣宗室，赵高专权</text></svg>",
+      "sources": ["shiji", "tongjian", "xiehe-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "qin-chensheng-209",
+      "title": "陈胜吴广起义",
+      "year": -209,
+      "end_year": null,
+      "year_display": "前209年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》二世元年（前209年）七月\"发闾左适戍渔阳……陈胜吴广举兵\"系年；二世元年即前209年。",
+      "location": "蕲县大泽乡（今安徽宿州一带），波及关东",
+      "key_people": ["chen-sheng", "wu-guang"],
+      "background": "二世继位后继续大规模徭役（修骊山陵、阿房宫、戍边），关东社会积怨深重。九百名戍卒被发往渔阳，途中在大泽乡遇雨失期。",
+      "process": [
+        "七月，陈胜、吴广为屯长率九百戍卒赴渔阳，至大泽乡遇大雨，道路不通，度已失期。",
+        "二人谋议\"今亡亦死，举大计亦死\"，以\"鱼腹丹书\"\"篝火狐鸣\"造声势。",
+        "杀两尉，揭竿为旗，陈胜号召：\"王侯将相宁有种乎！\"（《史记·陈涉世家》）",
+        "连克蕲、铚、酂、苦、柘、谯，攻入陈（今淮阳），建立\"张楚\"政权，各地豪杰杀郡县官吏响应。"
+      ],
+      "outcome": "起义虽于同年冬败亡（陈胜被其御者庄贾所杀），但引发的反抗浪潮不可收拾：六国旧贵族纷纷复国，秦的统治秩序迅速崩解。",
+      "controversies": [
+        {"issue": "\"失期，法皆斩\"与秦律记载的出入", "views": [
+          {"holder": "《史记·陈涉世家》", "basis": "陈胜语\"失期，法皆斩\"，以此作为被迫铤而走险的直接原因。"},
+          {"holder": "睡虎地秦简《徭律》", "basis": "1975年出土律文规定\"失期三日到五日，谇；六日到旬，赀一盾；过旬，赀一甲\"，并非死刑。"},
+          {"holder": "现代学界", "basis": "讨论包括：徭律与戍役征发是否同律、秦末执法是否加严、以及史家叙事对起义正当性的修辞需要；尚无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>大泽乡起义（前209年七月）</text><rect x='40' y='80' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='140' y='106' text-anchor='middle' font-size='14'>九百戍卒赴渔阳</text><text x='140' y='128' text-anchor='middle' font-size='12'>陈胜、吴广为屯长</text><text x='140' y='148' text-anchor='middle' font-size='12'>大泽乡遇雨失期</text><rect x='290' y='80' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>\"亡亦死，举大计亦死\"</text><text x='380' y='128' text-anchor='middle' font-size='12'>鱼腹丹书、篝火狐鸣</text><text x='380' y='148' text-anchor='middle' font-size='12'>杀两尉，揭竿为旗</text><rect x='520' y='80' width='200' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='620' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>攻陈，建\"张楚\"</text><text x='620' y='128' text-anchor='middle' font-size='12'>陈胜自立为王</text><text x='620' y='148' text-anchor='middle' font-size='12'>\"王侯将相宁有种乎\"</text><line x1='240' y1='125' x2='286' y2='125' stroke='#8c1f28' marker-end='url(#ar10)'/><line x1='470' y1='125' x2='516' y2='125' stroke='#8c1f28' marker-end='url(#ar10)'/><line x1='620' y1='170' x2='380' y2='230' stroke='#8c1f28' marker-end='url(#ar10)'/><rect x='170' y='234' width='420' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='260' text-anchor='middle' font-size='14'>关东响应：六国旧贵族复国，郡县杀守令</text><text x='380' y='284' text-anchor='middle' font-size='12'>周文部西击至戏（近咸阳）；秦急调刑徒应战</text><line x1='380' y1='314' x2='380' y2='340' stroke='#8c1f28' marker-end='url(#ar10)'/><rect x='260' y='344' width='240' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='372' text-anchor='middle' font-size='13'>同年冬败亡，但秦政崩解之势已成</text></svg>",
+      "sources": ["shiji", "shuihudi-qinjian", "zgbk"],
+      "needs_verification": true,
+      "pending_notes": "\"失期，法皆斩\"与睡虎地秦简《徭律》文意出入，学界对律文适用范围与秦末执行情况尚无定论；起义军各阶段人数无可靠记载。"
+    },
+    {
+      "id": "qin-julu-207",
+      "title": "巨鹿之战",
+      "year": -207,
+      "end_year": null,
+      "year_display": "前207年",
+      "end_year_display": null,
+      "year_note": "据《史记·秦始皇本纪》及《项羽本纪》，二世三年（前207年）项羽救赵、大破秦军于巨鹿，同年章邯降；二世三年换算为前207年。",
+      "location": "巨鹿（今河北平乡西南）、漳水—新安一线",
+      "key_people": ["xiang-yu"],
+      "background": "章邯击灭张楚后北攻赵，破邯郸，围赵王歇于巨鹿；诸侯救军畏秦兵，皆壁垒观战。楚怀王遣宋义、项羽北上救赵。",
+      "process": [
+        "前207年，宋义滞留安阳四十六日不进，项羽杀宋义夺军。",
+        "项羽遣英布等先渡河，自率主力\"皆沉船，破釜甑，烧庐舍\"，持三日粮示士卒必死。",
+        "九战九捷，绝章邯甬道，大破秦军，虏王离；诸侯将\"辕门而入\"膝行拜见。",
+        "同年秋，章邯与项羽会盟于洹水南殷墟上，秦军主力瓦解；降卒后于新安被坑（数字存疑，见下）。"
+      ],
+      "outcome": "秦军主力覆灭，二世朝廷失去军事支柱；项羽成为诸侯盟主，为分封天下与楚汉相争埋下格局。",
+      "controversies": [
+        {"issue": "降卒\"二十余万\"被坑", "views": [
+          {"holder": "《史记·项羽本纪》", "basis": "记楚军夜击坑秦卒二十余万人于新安城南，为唯一数字来源。"},
+          {"holder": "现代学界", "basis": "认为数字可能夸大，尸骨遗存尚未有对应考古确证；事件本身（大规模处决降卒）见于纪传叙述。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>巨鹿之战（前207年）</text><rect x='60' y='80' width='220' height='70' fill='#fff' stroke='#2b4a6f'/><text x='170' y='106' text-anchor='middle' font-size='14'>秦军围巨鹿</text><text x='170' y='128' text-anchor='middle' font-size='12'>章邯筑甬道输王离军粮</text><rect x='330' y='80' width='200' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>项羽杀宋义夺军</text><text x='430' y='128' text-anchor='middle' font-size='12'>北上救赵</text><rect x='580' y='80' width='140' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='650' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>破釜沉舟</text><text x='650' y='128' text-anchor='middle' font-size='12'>持三日粮</text><line x1='280' y1='115' x2='326' y2='115' stroke='#8c1f28' marker-end='url(#ar11)'/><line x1='530' y1='115' x2='576' y2='115' stroke='#8c1f28' marker-end='url(#ar11)'/><line x1='650' y1='150' x2='430' y2='200' stroke='#8c1f28' marker-end='url(#ar11)'/><rect x='280' y='204' width='260' height='80' fill='#fff' stroke='#8c1f28'/><text x='410' y='230' text-anchor='middle' font-size='14' fill='#8c1f28'>九战，绝甬道，大破秦军</text><text x='410' y='252' text-anchor='middle' font-size='12'>虏王离；诸侯救军作壁上观</text><text x='410' y='272' text-anchor='middle' font-size='12'>战后诸侯将膝行入辕门</text><line x1='280' y1='244' x2='170' y2='244' stroke='#8c1f28' marker-end='url(#ar11)'/><rect x='40' y='214' width='220' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='150' y='238' text-anchor='middle' font-size='13'>秦军主力瓦解</text><text x='150' y='258' text-anchor='middle' font-size='11'>同年章邯降楚</text><text x='380' y='330' text-anchor='middle' font-size='13'>降卒新安被坑\"二十余万\"——《史记》单源，数字存疑</text><text x='380' y='360' text-anchor='middle' font-size='12' fill='#7a7468'>诸侯联军兵力数字均无可信记载</text></svg>",
+      "sources": ["shiji", "tongjian", "qianmu-guoshi"],
+      "needs_verification": true,
+      "pending_notes": "新安坑降卒\"二十余万\"仅《史记》单源；双方兵力数字均系文献约数，无法双源印证。"
+    },
+    {
+      "id": "qin-fall-207",
+      "title": "秦亡：赵高之死与子婴出降",
+      "year": -207,
+      "end_year": null,
+      "year_display": "前207年",
+      "end_year_display": null,
+      "year_note": "二世三年（前207年）八月赵高指鹿为马、望夷宫之变，九月子婴立，十月（秦历岁首，对应公历约前207年末）子婴降于轵道；秦历以十月为岁首，月份与公历对应需换算。",
+      "location": "咸阳、望夷宫、轵道（今西安境内）",
+      "key_people": ["zhao-gao"],
+      "background": "巨鹿战后关东尽失。赵高为脱罪责，指鹿为马试探朝臣，随后使其婿阎乐弑二世于望夷宫，改立子婴，去帝号称王。",
+      "process": [
+        "赵高指鹿为马，在朝中清除异己；关东军情急报不断。",
+        "赵高遣阎乐弑二世于望夷宫，立子婴，贬帝号为秦王。",
+        "子婴称病不朝，与二子刺杀赵高于斋宫，夷三族。",
+        "刘邦军破武关、绕峣关至霸上；十月，子婴素车白马、系颈以组，降于轵道旁，秦亡；项羽后至，杀子婴、屠咸阳。"
+      ],
+      "outcome": "统一仅十余年的秦帝国崩溃；刘邦受降后约法三章收关中人心，为楚汉相争与汉朝建立奠定起点。",
+      "controversies": [
+        {"issue": "子婴的身份", "views": [
+          {"holder": "《史记·秦始皇本纪》", "basis": "称子婴为\"二世兄子\"。"},
+          {"holder": "《史记·李斯列传》及他篇线索", "basis": "另有始皇弟说与从弟说；年龄与扶苏诸子年龄的匹配问题使三说各有困难，至今无定论。"},
+          {"holder": "纪年换算问题", "basis": "秦历以十月为岁首，\"二世三年十月\"实跨公历前207—前206年，读史者常在此混淆，需按历表换算。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='ar12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>秦末政局崩解（前207年）</text><g font-size='13'><rect x='30' y='80' width='160' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='110' y='104' text-anchor='middle' fill='#8c1f28'>赵高指鹿为马</text><text x='110' y='126' text-anchor='middle' font-size='11'>朝中无敢言者</text><rect x='230' y='80' width='160' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='310' y='104' text-anchor='middle' fill='#8c1f28'>望夷宫之变</text><text x='310' y='126' text-anchor='middle' font-size='11'>阎乐弑二世</text><rect x='430' y='80' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='510' y='104' text-anchor='middle'>立子婴，去帝号</text><text x='510' y='126' text-anchor='middle' font-size='11'>改称秦王</text><rect x='620' y='80' width='120' height='60' fill='#efe4cf' stroke='#8c1f28'/><text x='680' y='104' text-anchor='middle' fill='#8c1f28'>子婴刺赵高</text><text x='680' y='126' text-anchor='middle' font-size='11'>夷三族</text></g><line x1='190' y1='110' x2='226' y2='110' stroke='#8c1f28' marker-end='url(#ar12)'/><line x1='390' y1='110' x2='426' y2='110' stroke='#8c1f28' marker-end='url(#ar12)'/><line x1='590' y1='110' x2='616' y2='110' stroke='#8c1f28' marker-end='url(#ar12)'/><line x1='680' y1='140' x2='380' y2='205' stroke='#8c1f28' marker-end='url(#ar12)'/><rect x='230' y='209' width='300' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='235' text-anchor='middle' font-size='14'>刘邦入武关，军霸上</text><text x='380' y='258' text-anchor='middle' font-size='12'>约法三章，收关中人心</text><line x1='380' y1='279' x2='380' y2='306' stroke='#8c1f28' marker-end='url(#ar12)'/><rect x='200' y='310' width='360' height='66' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='336' text-anchor='middle' font-size='15' fill='#8c1f28'>子婴系颈以组，降于轵道旁</text><text x='380' y='360' text-anchor='middle' font-size='12'>秦亡；项羽后至，杀子婴屠咸阳</text></svg>",
+      "sources": ["shiji", "tongjian", "lvsimian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "qin-shihuang",
+      "name": "秦始皇（嬴政）",
+      "birth_year": -259,
+      "death_year": -210,
+      "birth_display": "前259年",
+      "death_display": "前210年",
+      "birth_note": "据《史记·秦始皇本纪》\"以秦昭王四十八年正月生于邯郸\"换算为前259年。",
+      "death_note": "三十七年七月丙寅崩于沙丘平台，公历约前210年7—8月间。",
+      "chronology": [
+        {"year": -259, "display": "前259年", "text": "生于邯郸，父异人为质于赵。"},
+        {"year": -247, "display": "前247年", "text": "十三岁即秦王位，相国吕不韦执政。"},
+        {"year": -238, "display": "前238年", "text": "亲政：平嫪毐之乱，罢吕不韦，开始亲掌大政。"},
+        {"year": -230, "display": "前230年—前221年", "text": "发动统一战争，十年之间灭六国。"},
+        {"year": -221, "display": "前221年", "text": "称\"始皇帝\"，推行郡县、书同文等统一制度。"},
+        {"year": -210, "display": "前210年", "text": "第五次巡游途中病死于沙丘平台。"}
+      ],
+      "deeds": [
+        "十年灭六国，结束战国割据，建立第一个中央集权的统一政权。",
+        "创立皇帝制度：定名号、文书称谓，以皇帝为中心重建合法性叙事（巡游、刻石）。",
+        "推行郡县、统一文字货币度量衡、修驰道直道，奠定此后王朝政体的技术基础。",
+        "北筑长城、南征百越、大规模征发徭役；焚书、坑诸生，以律令文书压制私学与议政。",
+        "五次巡游与求仙，晚年未立储，死后沙丘之变引发政权失控。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁（《史记》太史公曰）", "view": "批评始皇\"刚毅戾深\"、专任狱吏、焚诗书而刑法苛暴，统一之功与暴政之失并书。", "basis": "《史记·秦始皇本纪》赞语引贾谊《过秦论》\"仁义不施而攻守之势异也\"作结。"},
+        {"holder": "柳宗元（《封建论》）", "view": "认为秦\"失在于政，不在于制\"——郡县制本身可行，亡于政令酷急。", "basis": "唐人政治论文的代表性再评价。"},
+        {"holder": "现代史学（如《剑桥中国秦汉史》）", "view": "肯定统一与制度创设的长时段意义，同时强调其依赖高强度动员、社会成本巨大；对\"暴君\"标签持分析态度。", "basis": "结合出土秦简、考古修正传世叙事。"}
+      ],
+      "sources": ["shiji", "brit-qinshihuang", "tianzheng-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "li-si",
+      "name": "李斯",
+      "birth_year": null,
+      "death_year": -208,
+      "birth_display": "生卒不可考",
+      "death_display": "前208年",
+      "birth_note": "上蔡人，早年为郡小吏，生年无载。",
+      "death_note": "二世二年（前208年）被诬谋反，具五刑，腰斩于咸阳。",
+      "chronology": [
+        {"year": -237, "display": "前237年（约）", "text": "下《谏逐客书》，止逐客令（系年据《史记》，有约数）。"},
+        {"year": -221, "display": "前221年", "text": "为廷尉，廷议反对分封，主张郡县。"},
+        {"year": -213, "display": "前213年", "text": "为丞相，奏请焚书、禁私学。"},
+        {"year": -210, "display": "前210年", "text": "随始皇末次巡游，沙丘之变中被迫与赵高合谋矫诏。"},
+        {"year": -208, "display": "前208年", "text": "被赵高构陷谋反，具五刑腰斩，夷三族。"}
+      ],
+      "deeds": [
+        "以《谏逐客书》劝止逐客，保留六国人才入秦通道。",
+        "主导废分封、行郡县的制度设计；统一文字方面相传作《仓颉篇》。",
+        "奏请焚书禁私学，确立\"以吏为师\"的统治文教路线。",
+        "沙丘之变中在赵高胁迫下参与矫诏，最终反被构陷灭族。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁（《史记·李斯列传》太史公曰）", "view": "责其明知六艺之归却不匡谏、\"阿顺苟合\"，以一身之利害而听高邪说，致诸侯已叛才欲谏，为时已晚。", "basis": "列传赞语。"},
+        {"holder": "后世政治史视角", "view": "将其视为实用主义官僚的典型：制度贡献（郡县、文字）与文教专制（焚书）并置评价。", "basis": "综合《史记》与本单元制度条目。"}
+      ],
+      "sources": ["shiji", "lvsimian"],
+      "needs_verification": false
+    },
+    {
+      "id": "meng-tian",
+      "name": "蒙恬",
+      "birth_year": null,
+      "death_year": -210,
+      "birth_display": "生卒不可考",
+      "death_display": "前210年",
+      "birth_note": "将门出身（祖蒙骜、父蒙武皆秦将），生年无载。",
+      "death_note": "前210年使者至，吞药自尽（据《史记·蒙恬列传》）。",
+      "chronology": [
+        {"year": -215, "display": "前215年", "text": "奉命将兵北击匈奴（《史记》记\"三十万\"，数字存疑）。"},
+        {"year": -214, "display": "前214年", "text": "取河南地，筑长城亭障，驻守北边；主持修直道。"},
+        {"year": -210, "display": "前210年", "text": "沙丘矫诏中被赐死，未发兵拒命。"}
+      ],
+      "deeds": [
+        "北逐匈奴、收河南地，连缀旧城筑起西起临洮东至辽东的长城防线。",
+        "主持直道工程，沟通咸阳—九原军政通道。",
+        "传说曾改良毛笔（\"蒙恬造笔\"说，属传说附会，非信史）。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁（《史记·蒙恬列传》太史公曰）", "view": "责其身为名将不为百姓计、\"阿意兴功\"，遇蒙氏之祸不为无罪。", "basis": "列传赞语。"},
+        {"holder": "边防史视角", "view": "其防线与直道是秦代北边体系的核心工程，评价多聚焦工程史意义而非个人道德。", "basis": "结合长城考古与秦直道调查。"}
+      ],
+      "sources": ["shiji", "whc-greatwall"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhao-gao",
+      "name": "赵高",
+      "birth_year": null,
+      "death_year": -207,
+      "birth_display": "生卒不可考",
+      "death_display": "前207年",
+      "birth_note": "出身及生年无载；据说其母因刑而入隐宫，赵高兄弟生于隐宫（此说本身即争议点）。",
+      "death_note": "二世三年九月前后被子婴刺杀于斋宫，夷三族（据《史记》）。",
+      "chronology": [
+        {"year": -210, "display": "前210年", "text": "为中车府令，行符玺事；沙丘之谋主谋，矫诏立胡亥。"},
+        {"year": -208, "display": "前208年", "text": "构陷李斯，代为丞相。"},
+        {"year": -207, "display": "前207年", "text": "指鹿为马试朝臣；遣阎乐弑二世；旋被子婴刺杀。"}
+      ],
+      "deeds": [
+        "策划沙丘之谋，改立胡亥，赐死扶苏、蒙恬。",
+        "居中用事，诛戮大臣宗室，使二世隔绝于军情与朝议。",
+        "弑二世、立子婴，一个月余后身死族灭。"
+      ],
+      "evaluations": [
+        {"holder": "传统史学", "view": "以\"指鹿为马\"为奸佞乱政的典型符号，视其为秦亡的直接推手。", "basis": "《史记·秦始皇本纪》。"},
+        {"holder": "现代制度史视角", "view": "更关注其权力来源：中车府令兼行符玺事的职务使其掌握文书通道，说明秦制中信息控制即权力；个人奸恶叙事之外有制度性原因。", "basis": "对秦代文书行政制度的分析。"}
+      ],
+      "sources": ["shiji", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "chen-sheng",
+      "name": "陈胜",
+      "birth_year": null,
+      "death_year": -208,
+      "birth_display": "生卒不可考",
+      "death_display": "前208年",
+      "birth_note": "阳城人，\"尝与人佣耕\"，生年无载。",
+      "death_note": "二世二年十二月（秦历）兵败退走，被其御者庄贾所杀（据《史记·陈涉世家》）。",
+      "chronology": [
+        {"year": -209, "display": "前209年七月", "text": "与吴广于大泽乡起义，攻陈建\"张楚\"，自立为王。"},
+        {"year": -209, "display": "前209年秋冬", "text": "遣周文西征逼近咸阳，遣将略地；部下渐不听命。"},
+        {"year": -208, "display": "前208年十二月（秦历）", "text": "章邯破周文后反攻，陈胜败走下城父，被杀。"}
+      ],
+      "deeds": [
+        "发起中国历史上第一次大规模平民起义，\"斩木为兵，揭竿为旗\"。",
+        "以\"王侯将相宁有种乎\"提出对身份秩序的挑战。",
+        "建\"张楚\"政权，触发六国故地全面复国浪潮。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁（《史记》体例）", "view": "将其列入\"世家\"，与诸侯同格，称\"由涉首事，暴秦遂坏\"，肯定其首难之功。", "basis": "《史记·陈涉世家》及体例安排。"},
+        {"holder": "班固（《汉书》）", "view": "改列《陈胜项籍传》，降格处理，反映东汉对起义者定位的变化。", "basis": "《汉书》体例与《史记》对照。"}
+      ],
+      "sources": ["shiji", "hanshu"],
+      "needs_verification": false
+    },
+    {
+      "id": "wu-guang",
+      "name": "吴广",
+      "birth_year": null,
+      "death_year": -208,
+      "birth_display": "生卒不可考",
+      "death_display": "前208年",
+      "birth_note": "阳夏人，生年无载。",
+      "death_note": "二世二年（前208年）围荥阳时被部将田臧假传陈胜令所杀（据《史记》）。",
+      "chronology": [
+        {"year": -209, "display": "前209年七月", "text": "与陈胜同谋起义，操戈先出，攻下大泽乡、蕲县。"},
+        {"year": -209, "display": "前209年秋冬", "text": "为\"假王\"监诸将西征，围荥阳。"},
+        {"year": -208, "display": "前208年", "text": "与部将田臧不和，被田臧以\"骄\"为由假令杀害。"}
+      ],
+      "deeds": [
+        "大泽乡首义的共同发动者，\"素爱人\"得戍卒拥戴。",
+        "围荥阳牵制秦军李由部，配合西征行动。"
+      ],
+      "evaluations": [
+        {"holder": "《史记》叙事", "view": "起义同盟的二号人物，其被部下所杀折射出义军内部秩序的脆弱。", "basis": "《史记·陈涉世家》。"}
+      ],
+      "sources": ["shiji", "hanshu"],
+      "needs_verification": false
+    },
+    {
+      "id": "xiang-yu",
+      "name": "项羽（项籍）",
+      "birth_year": -232,
+      "death_year": -202,
+      "birth_display": "前232年",
+      "death_display": "前202年",
+      "birth_note": "下相人，生年据通行说法系于约前232年（《史记》不载其生年，此为学界通行的约数）。",
+      "death_note": "汉五年（前202年）垓下败后自刎于乌江（据《史记·项羽本纪》）。",
+      "chronology": [
+        {"year": -209, "display": "前209年", "text": "随叔父项梁在吴中起兵响应陈胜，率八千子弟渡江。"},
+        {"year": -207, "display": "前207年", "text": "杀宋义夺军，巨鹿之战破秦军主力；同年受章邯降。"},
+        {"year": -206, "display": "前206年", "text": "入咸阳，杀子婴，分封十八诸侯，自立为西楚霸王。"},
+        {"year": -202, "display": "前202年", "text": "垓下之围，突围至乌江自刎。"}
+      ],
+      "deeds": [
+        "巨鹿之战歼灭秦军主力，直接终结秦的军事统治。",
+        "主持分封十八诸侯，恢复贵族分封格局，与郡县一统路线背反。",
+        "楚汉相争四年后败于垓下，其兴亡构成秦亡到汉立之间的过渡。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁", "view": "将其列入\"本纪\"（实际政令所出），赞其灭秦之功，同时批评其\"自矜功伐\"、欲以力征经营天下。", "basis": "《史记·项羽本纪》体例与赞语。"},
+        {"holder": "班固", "view": "《汉书》改入列传，不承认其帝纪地位。", "basis": "《汉书》体例。"},
+        {"holder": "后世诗评", "view": "唐代杜牧、王安石分别以\"卷土重来未可知\"与\"乌江亭长？空言\"等意互驳，构成对其成败归因的持续争论（杜牧《题乌江亭》、王安石《乌江亭》）。", "basis": "唐宋咏史诗。"}
+      ],
+      "sources": ["shiji", "hanshu", "qianmu-guoshi"],
+      "needs_verification": false
+    }
+  ]
+}

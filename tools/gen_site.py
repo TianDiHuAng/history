@@ -191,10 +191,11 @@ def unit_page(unit, srcmap, depth):
         f"<tr><td>{esc(sp.get('name',''))}</td><td>{esc(sp.get('range_display',''))}</td><td>{esc(sp.get('desc',''))}</td></tr>"
         for sp in ov.get("sub_periods") or [])
     changes = "".join(f"<li>{esc(c)}</li>" for c in ov.get("key_changes") or [])
+    warn_tag = "<span class='tag warn'>待核实</span>"
     evs = "".join(
         f"<tr><td class='year'>{esc(ev['year_display'])}</td>"
         f"<td><a href='{rel(depth)}events/{uid}-{ev['id']}.html'>{esc(ev['title'])}</a>"
-        f"{'<span class=\"tag warn\">待核实</span>' if ev.get('needs_verification') else ''}</td>"
+        f"{warn_tag if ev.get('needs_verification') else ''}</td>"
         f"<td>{esc(ev.get('location',''))}</td></tr>"
         for ev in unit["events"])
     ppl = "".join(
@@ -347,6 +348,7 @@ def main():
         for p in u["people"]:
             write(f"people/{p['id']}.html", person_page(u, p, srcmap, depth))
 
+    os.makedirs(os.path.join(SITE, "assets"), exist_ok=True)
     shutil.copy(os.path.join(ROOT, "assets", "style.css"),
                 os.path.join(SITE, "assets", "style.css"))
 

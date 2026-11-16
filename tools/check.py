@@ -287,12 +287,12 @@ def check_unit(doc, all_docs, src_ids, src_dead, rep):
         for c in ctv:
             require(c.get("issue"), rep, ew, "controversies 项须含 issue")
             require(len(c.get("views") or []) >= 1, rep, ew, "controversies.views 至少 1 种说法")
-        # 数字类事实须附来源：粗查正文中的百分号/千位级数字
+        # 数字类事实须附来源：粗查正文带数量词的数字（年份类数字不触发）
         body = f"{ev.get('background','')}{''.join(ev.get('process') or [])}{ev.get('outcome','')}"
-        for num in re.findall(r"[约数十百千]?[0-9][0-9,\.]{2,}\s*(?:万|亿|%|人|人以上)?", body):
-            if len(num.replace(",", "").strip("约")) >= 3:
-                rep.warn(ew, f"正文中含数字 {num.strip()}，请确认已括注来源或移入待核实")
-                break
+        for m in re.finditer(r"前?\d[\d,\.]{2,}\s*(?:万|亿|%|人以上|余人|余万|余骑|余级|吨)", body):
+            num = m.group()
+            rep.warn(ew, f"正文中含数量词数字 {num}，请确认已括注来源或移入待核实")
+            break
         # 待核实
         nv = ev.get("needs_verification")
         require(isinstance(nv, bool), rep, ew, "needs_verification 须为布尔值")

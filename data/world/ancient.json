@@ -1,0 +1,663 @@
+{
+  "unit_id": "world-ancient",
+  "region": "world",
+  "title": "古代文明（两河·埃及·印度河·爱琴）",
+  "period_display": "约前3500年—前500年",
+  "start_year": -3500,
+  "end_year": -500,
+  "overview": {
+    "main_threads": [
+      "大河流域的城市革命：两河、尼罗河、印度河先后出现城市、文字与官僚体系",
+      "帝国的出现：从城邦争霸到萨尔贡、亚述、波斯式的跨区域统治",
+      "青铜时代的繁荣与崩溃：约前1200年的体系性解体为新的铁器时代格局让路"
+    ],
+    "sub_periods": [
+      {"name": "城市与文字的形成", "range_display": "约前3500年—前3000年", "desc": "乌鲁克、孟菲斯等早期城市出现，文字（楔文、圣书体）从记账符号演变为书写体系。"},
+      {"name": "青铜时代诸文明并立", "range_display": "约前3000年—前1200年", "desc": "苏美尔城邦、阿卡德与巴比伦、埃及古中王国、印度河、米诺斯—赫梯等互动成网。"},
+      {"name": "崩溃与帝国重构", "range_display": "约前1200年—前500年", "desc": "青铜时代晚期体系崩溃后，亚述、新巴比伦相继称霸，最终波斯帝国整合近东。"}
+    ],
+    "key_changes": [
+      "文字与文书行政：从仓库泥板到成文法典与王室铭文",
+      "战争形态与外交：条约（银板条约）、帝国常备军、王铭宣传",
+      "铁器与字母文字的扩散改变技术与社会结构"
+    ]
+  },
+  "events": [
+    {
+      "id": "sumer-uruk-cuneiform",
+      "title": "苏美尔城市文明与楔形文字的出现",
+      "year": -3200,
+      "end_year": null,
+      "year_display": "约前3200年",
+      "end_year_display": null,
+      "year_note": "据近东考古通说，乌鲁克晚期（IVa层）出现原始楔文泥板，约前3300—前3200年间；年代为碳十四与陶器序列推定的约数（\"约\"即此义）。",
+      "location": "美索不达米亚南部，乌鲁克（今伊拉克瓦尔卡）",
+      "key_people": [],
+      "background": "两河下游冲积平原灌溉农业发达但缺乏石料与木材，产品交换与劳动力管理催生了神庙经济；为记录谷物、牲畜与劳役，会计师式的刻画符号发展为文字。",
+      "process": [
+        "约前3500年起，乌鲁克成为规模空前的城市，神庙建筑群（白庙等）与圆柱浮雕显示社会分层。",
+        "约前3300—前3200年，乌鲁克出土的泥板以刻画符号配合数字记录，是迄今最早的文字系统之一。",
+        "符号逐渐定形为楔形笔画的楔文，从记账扩展到辞书、契约与王铭。"
+      ],
+      "outcome": "文字使行政、法律与知识可以跨代积累，国家治理进入文书时代；楔文此后使用约三千年，被苏美尔语、阿卡德语、赫梯语等采用，19世纪以来被逐步破译。",
+      "controversies": [
+        {"issue": "文字起源地是否唯一", "views": [
+          {"holder": "传统\"苏美尔首创\"说", "basis": "乌鲁克泥板年代最早、序列完整，长期被视为文字独立起源的标准案例。"},
+          {"holder": "埃及圣书体几乎同期出现", "basis": "阿拜多斯出土的早期符号年代接近乌鲁克泥板，学界讨论两河与埃及是否相互影响或各自独立，尚无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>从记账符号到文字（乌鲁克）</text><g font-size='13'><rect x='60' y='90' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='150' y='118' text-anchor='middle'>神庙经济</text><text x='150' y='140' text-anchor='middle' font-size='11'>谷物·牲畜·劳役管理</text><rect x='290' y='90' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='118' text-anchor='middle'>刻画符号+数字</text><text x='380' y='140' text-anchor='middle' font-size='11'>约前3300年泥板</text><rect x='520' y='90' width='180' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='610' y='118' text-anchor='middle' fill='#8c1f28'>楔形文字成形</text><text x='610' y='140' text-anchor='middle' font-size='11'>芦苇笔压印泥板</text><line x1='240' y1='125' x2='286' y2='125' stroke='#2b4a6f' marker-end='url(#wa1)'/><line x1='470' y1='125' x2='516' y2='125' stroke='#2b4a6f' marker-end='url(#wa1)'/></g><line x1='610' y1='160' x2='610' y2='200' stroke='#2b4a6f' marker-end='url(#wa1)'/><g font-size='12'><rect x='40' y='204' width='200' height='120' fill='#fff' stroke='#2b4a6f'/><text x='140' y='230' text-anchor='middle'>行政用途</text><text x='140' y='254' text-anchor='middle' font-size='11'>契约·账目·名册</text><rect x='280' y='204' width='200' height='120' fill='#fff' stroke='#2b4a6f'/><text x='380' y='230' text-anchor='middle'>法律与王铭</text><text x='380' y='254' text-anchor='middle' font-size='11'>法典·战功·祝祷</text><rect x='520' y='204' width='200' height='120' fill='#fff' stroke='#2b4a6f'/><text x='620' y='230' text-anchor='middle'>知识传承</text><text x='620' y='254' text-anchor='middle' font-size='11'>辞书·数学·占卜</text></g><text x='380' y='360' text-anchor='middle' font-size='13'>楔文沿用约三千年，先后记录苏美尔语、阿卡德语、赫梯语等</text></svg>",
+      "sources": ["enwp-sumer", "enwp-cuneiform", "met-toah", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "egypt-unification",
+      "title": "埃及统一与早王朝的开端",
+      "year": -3100,
+      "end_year": null,
+      "year_display": "约前3100年",
+      "end_year_display": null,
+      "year_note": "据埃及考古通说，第一王朝开始约前3100年（长/中/短年代说间有数十年出入，本站取中年代说）。",
+      "location": "尼罗河谷与三角洲（上、下埃及）",
+      "key_people": [],
+      "background": "尼罗河定期泛滥带来的高产出与河谷地理的封闭性，使上埃及势力沿河南下北进；那尔迈调色板等文物记录了对下埃及的征服。",
+      "process": [
+        "上埃及希拉康波利斯势力北进，那尔迈调色板两面分别刻有戴白冠的王与戴红冠的王形象。",
+        "约前3100年前后，上下埃及归于一个王权，王都迁至孟菲斯一带。",
+        "第一、二王朝确立王名（荷鲁斯名）、官员文书与南北两地的税收神庙网络。"
+      ],
+      "outcome": "埃及形成以法老为中心的统一政体，此后三千年王权更替虽有中断（第一中间期等）但框架延续；象形文字文书体系同步成形。",
+      "controversies": [
+        {"issue": "\"美尼斯\"与那尔迈是否为同一人", "views": [
+          {"holder": "传统说法（源自曼涅托《埃及史》转述）", "basis": "统一者名为美尼斯（Menes），第一王朝开国之王。"},
+          {"holder": "考古派", "basis": "那尔迈调色板与那尔迈王名砖证明那尔迈实有其人；部分学者认为美尼斯即那尔迈，另说美尼斯是其后继者阿哈（Aha），两说并存。"},
+          {"holder": "年代学各家", "basis": "统一年代在前3200—前3050年间浮动，取决于所采用的埃及年代学体系。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>上下埃及统一（约前3100年，示意）</text><rect x='80' y='70' width='280' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='220' y='100' text-anchor='middle' font-size='15'>上埃及（南，河谷）</text><text x='220' y='126' text-anchor='middle' font-size='12'>白冠；希拉康波利斯起家</text><rect x='400' y='70' width='280' height='80' fill='#fff' stroke='#2b4a6f'/><text x='540' y='100' text-anchor='middle' font-size='15'>下埃及（北，三角洲）</text><text x='540' y='126' text-anchor='middle' font-size='12'>红冠；沼泽与港口</text><line x1='220' y1='150' x2='380' y2='205' stroke='#8c1f28' marker-end='url(#wa2)'/><line x1='540' y1='150' x2='380' y2='205' stroke='#8c1f28' marker-end='url(#wa2)'/><rect x='280' y='210' width='200' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='240' text-anchor='middle' font-size='15' fill='#8c1f28'>那尔迈（=美尼斯?）</text><text x='380' y='264' text-anchor='middle' font-size='12'>调色板两面刻白冠/红冠</text><line x1='380' y1='280' x2='380' y2='310' stroke='#8c1f28' marker-end='url(#wa2)'/><rect x='170' y='314' width='420' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='340' text-anchor='middle' font-size='14'>第一王朝建立，都孟菲斯</text><text x='380' y='362' text-anchor='middle' font-size='12'>法老王权与象形文字文书体系确立</text></svg>",
+      "sources": ["enwp-ancient-egypt", "enwp-narmer", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "indus-civilisation",
+      "title": "印度河流域文明（哈拉帕文明）",
+      "year": -2600,
+      "end_year": -1900,
+      "year_display": "约前2600年",
+      "end_year_display": "约前1900年",
+      "year_note": "据南亚考古通说，成熟期约前2600—前1900年；\"约\"据碳十四测年与陶器序列。",
+      "location": "印度河及其支流流域（哈拉帕、摩亨佐-达罗等，今巴基斯坦与印度西北）",
+      "key_people": [],
+      "background": "印度河冲积平原孕育出以摩亨佐-达罗、哈拉帕为代表的巨大城市，城市布局规整（网格街道、标准砖、下水道），并以印章、计量砝码显示标准化管理。",
+      "process": [
+        "约前2600年前后进入成熟期，摩亨佐-达罗城面积与人口在同时期世界居前列。",
+        "城市统一使用标准比例砖与卫城—下城格局，公共浴池与排水系统发达。",
+        "刻字印章（迄今发现数百种符号组合）与统一砝码显示远程贸易（两河出土印度河印章）。",
+        "约前1900年后城市体系衰落，人口东移向恒河—亚穆纳方向，衰落原因至今未定。"
+      ],
+      "outcome": "与两河、埃及并立的第三大古代文明；其文字至今未破译，历史面貌高度依赖考古；其城市标准化传统在印度次大陆长期中断，对后世直接影响有限。",
+      "controversies": [
+        {"issue": "印章文字是否为\"文字\"及其破译", "views": [
+          {"holder": "主流考古学界", "basis": "符号系统极短（多在20字符内），是否表达完整语言存在争论；数十种破译方案（含达罗毗荼语系、印度—雅利安语系方向）均未被学界接受。"},
+          {"holder": "印度本土部分研究者", "basis": "主张与后世印度文化连续性，但因文本极短而无法验证。"}
+        ]},
+        {"issue": "衰落原因", "views": [
+          {"holder": "早期\"雅利安入侵\"说", "basis": "20世纪上半叶以《梨俱吠陀》叙述推定外族入侵毁灭城市，曾长期流行。"},
+          {"holder": "现代主流", "basis": "考古未见大规模毁灭证据；气候干化、萨拉斯瓦蒂（加格尔—哈克拉）河流改道、洪水与贸易网络变动等多因素说为主。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>印度河文明（成熟期约前2600—前1900）</text><rect x='120' y='70' width='220' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='230' y='100' text-anchor='middle' font-size='15'>哈拉帕</text><text x='230' y='124' text-anchor='middle' font-size='12'>卫城+下城·谷仓</text><rect x='420' y='70' width='220' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='530' y='100' text-anchor='middle' font-size='15'>摩亨佐-达罗</text><text x='530' y='124' text-anchor='middle' font-size='12'>大浴池·网格街道·排水</text><line x1='340' y1='115' x2='416' y2='115' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='11'>印度河</text><g font-size='12'><rect x='80' y='190' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='170' y='215' text-anchor='middle'>标准砖与砝码</text><text x='170' y='235' text-anchor='middle' font-size='11'>度量统一</text><rect x='290' y='190' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='215' text-anchor='middle'>刻字印章</text><text x='380' y='235' text-anchor='middle' font-size='11'>符号未破译</text><rect x='500' y='190' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='590' y='215' text-anchor='middle'>远程贸易</text><text x='590' y='235' text-anchor='middle' font-size='11'>两河出土印章</text></g><line x1='380' y1='250' x2='380' y2='288' stroke='#8c1f28' marker-end='url(#wa3)'/><defs><marker id='wa3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><rect x='170' y='292' width='420' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='318' text-anchor='middle' font-size='14' fill='#8c1f28'>约前1900年后城市体系衰落</text><text x='380' y='344' text-anchor='middle' font-size='12'>气候干化·河流改道等多因素说；\"入侵说\"已被考古修正</text></svg>",
+      "sources": ["enwp-indus", "cambridge-ancient", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "great-pyramid-giza",
+      "title": "吉萨大金字塔的建造",
+      "year": -2560,
+      "end_year": null,
+      "year_display": "约前2560年",
+      "end_year_display": null,
+      "year_note": "据埃及中年代说，胡夫在位约前2589—前2566年，大金字塔约建于其中期，故系年约前2560年。",
+      "location": "吉萨高原（尼罗河西岸，今开罗近郊）",
+      "key_people": [],
+      "background": "第四王朝胡夫（Khufu）在位期间建造其陵墓，原高约146米（现约138米），底边约230米，用了约230万块石料，此后近四千年保持世界最高人工建筑。",
+      "process": [
+        "选址吉萨高原，先平整基座，以方位定位（四边误差极小）。",
+        "石灰岩大部分采自近地采石场，花岗岩从阿斯旺经尼罗河水运。",
+        "坡道说、杠杆说与内部螺旋坡道假说并存，现代研究多用斜坡+杠杆组合解释巨石移动。",
+        "工人村遗址（Giza工人村）考古显示数千名轮换工人获得供给与医疗，推翻\"十万奴隶\"的古典记载印象。"
+      ],
+      "outcome": "金字塔成为法老王权与国家再分配能力的极致体现；其精确方位与工程组织至今是工程史研究课题；1979年吉萨建筑群列入世界遗产。",
+      "controversies": [
+        {"issue": "建造者人数与身份", "views": [
+          {"holder": "希罗多德（《历史》卷二）", "basis": "记\"十万人\"分班劳作三月一换，数字与身份（奴隶印象）均为古代传闻。"},
+          {"holder": "现代考古（工人村发掘，1990年代起）", "basis": "证据显示为数千人的轮换劳役与专业工匠结合，有面包房、医疗设施；\"奴隶修建金字塔\"的流行说法缺乏考古支撑。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>大金字塔工程链（约前2560年）</text><g font-size='12'><rect x='50' y='80' width='150' height='60' fill='#fff' stroke='#2b4a6f'/><text x='125' y='105' text-anchor='middle'>石灰岩</text><text x='125' y='123' text-anchor='middle' font-size='11'>近地采石场</text><rect x='230' y='80' width='150' height='60' fill='#fff' stroke='#2b4a6f'/><text x='305' y='105' text-anchor='middle'>花岗岩</text><text x='305' y='123' text-anchor='middle' font-size='11'>阿斯旺水运</text><rect x='410' y='80' width='150' height='60' fill='#fff' stroke='#2b4a6f'/><text x='485' y='105' text-anchor='middle'>斜坡+杠杆</text><text x='485' y='123' text-anchor='middle' font-size='11'>巨石移动假说</text><rect x='590' y='80' width='140' height='60' fill='#efe4cf' stroke='#8c1f28'/><text x='660' y='105' text-anchor='middle' fill='#8c1f28'>砌筑封顶</text><text x='660' y='123' text-anchor='middle' font-size='11'>外包石饰面</text><line x1='200' y1='110' x2='226' y2='110' stroke='#2b4a6f' marker-end='url(#wa4)'/><line x1='380' y1='110' x2='406' y2='110' stroke='#2b4a6f' marker-end='url(#wa4)'/><line x1='560' y1='110' x2='586' y2='110' stroke='#2b4a6f' marker-end='url(#wa4)'/></g><polygon points='380,160 210,320 550,320' fill='#c8a45c' stroke='#8c1f28' stroke-width='2'/><text x='380' y='180' text-anchor='middle' font-size='13'>原高约146米·底边约230米</text><text x='380' y='200' text-anchor='middle' font-size='12'>约230万块石料</text><rect x='90' y='340' width='580' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='366' text-anchor='middle' font-size='12'>工人村考古：数千轮换工人+工匠，推翻\"十万奴隶\"古典记载</text></svg>",
+      "sources": ["enwp-great-pyramid", "enwp-ancient-egypt", "whc-greatwall"],
+      "needs_verification": true,
+      "pending_notes": "\"十万工人\"为希罗多德数字（单源传闻）；现代考古给出的轮换工人规模（数千）为学界通说但各人估计仍有差异，金字塔精确建造技术与内部结构细节仍在研究中。"
+    },
+    {
+      "id": "akkad-sargon",
+      "title": "萨尔贡建立阿卡德帝国",
+      "year": -2334,
+      "end_year": -2154,
+      "year_display": "约前2334年",
+      "end_year_display": "约前2154年",
+      "year_note": "据近东中年代说，萨尔贡在位约前2334—前2279年，阿卡德王朝终结约前2154年；\"约\"即年代学说差异所致。",
+      "location": "美索不达米亚（都阿卡德城，遗址未确指）",
+      "key_people": ["sargon-akkad"],
+      "background": "苏美尔诸城邦长期争霸，基什的官员（或王室侍从）萨尔贡（\"正统之王\"）夺取权力后另建新都阿卡德，凭借常备军与阿卡德语行政统一两河。",
+      "process": [
+        "约前2334年，萨尔贡夺权建都阿卡德（城址至今未找到）。",
+        "先后击败乌玛的卢伽尔扎吉西等城邦，征服苏美尔全境。",
+        "军队远征至叙利亚（埃卜拉、马里）、埃兰方向，形成两河历史上第一个跨区域帝国。",
+        "阿卡德语（东闪米特语）取代苏美尔语成为行政语言（苏美尔语仍用于文书传统），设立行省官制与贡赋体系。",
+        "诸孙继承人与各地叛乱反复；约前2154年王朝在古提人入侵与内部危机中终结。"
+      ],
+      "outcome": "开创跨区域帝国的统治模式（常备军、行省、统一语言、王权神化），其遗产被乌尔第三王朝与巴比伦继承；萨尔贡身世传说影响后世数千年。",
+      "controversies": [
+        {"issue": "萨尔贡身世与事迹的可靠性", "views": [
+          {"holder": "后出的《萨尔贡传奇》等文学文本", "basis": "弃婴、提拔与远征的传奇叙事形成于新亚述时期，与同时代铭文详略有别。"},
+          {"holder": "当代铭文（泥板、瓶铭）", "basis": "仅能确证其存在、征服苏美尔与部分周边；远征范围（如安纳托利亚）学界有争议。"}
+        ]},
+        {"issue": "阿卡德年表", "views": [
+          {"holder": "长/中/短年代说", "basis": "依两河金星观测记录与王表衔接的不同复原，萨尔贡在位起点相差可达百年（约前2392/前2334/前2270年间诸说），本站取中年代说。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>阿卡德帝国扩张（示意方位，非比例）</text><rect x='300' y='160' width='160' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='188' text-anchor='middle' font-size='15' fill='#8c1f28'>阿卡德（都城）</text><text x='380' y='210' text-anchor='middle' font-size='11'>城址未确指</text><g font-size='13'><rect x='60' y='70' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='150' y='96' text-anchor='middle'>叙利亚方向</text><text x='150' y='116' text-anchor='middle' font-size='11'>埃卜拉·马里</text><rect x='520' y='70' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='610' y='96' text-anchor='middle'>埃兰方向</text><text x='610' y='116' text-anchor='middle' font-size='11'>伊朗高原西缘</text><rect x='60' y='270' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='150' y='296' text-anchor='middle'>苏美尔诸城邦</text><text x='150' y='316' text-anchor='middle' font-size='11'>乌玛·乌鲁克·拉格什</text><rect x='520' y='270' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='610' y='296' text-anchor='middle'>上游方向</text><text x='610' y='316' text-anchor='middle' font-size='11'>尼尼微·亚述地区</text></g><line x1='150' y1='130' x2='330' y2='158' stroke='#8c1f28' marker-end='url(#wa5)'/><line x1='610' y1='130' x2='430' y2='158' stroke='#8c1f28' marker-end='url(#wa5)'/><line x1='150' y1='270' x2='330' y2='232' stroke='#8c1f28' marker-end='url(#wa5)'/><line x1='610' y1='270' x2='430' y2='232' stroke='#8c1f28' marker-end='url(#wa5)'/><text x='380' y='366' text-anchor='middle' font-size='13'>常备军+行省官制+阿卡德语行政：跨区域帝国模式的起源</text></svg>",
+      "sources": ["enwp-akkad", "cambridge-ancient", "met-toah"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "minoan-civilisation",
+      "title": "米诺斯文明与爱琴青铜时代",
+      "year": -2000,
+      "end_year": -1450,
+      "year_display": "约前2000年",
+      "end_year_display": "约前1450年",
+      "year_note": "宫殿期开端约前2000年（中年代说），克诺索斯王权终结约前1450年（迈锡尼人接管说）；\"约\"据爱琴考古通说。",
+      "location": "克里特岛（克诺索斯、费斯托斯等）及爱琴海",
+      "key_people": [],
+      "background": "克里特地处爱琴海贸易要冲，青铜时代中后期形成以大型宫殿（克诺索斯等）为中心的海上贸易网络，与埃及、黎凡特、安纳托利亚互通有无。",
+      "process": [
+        "约前2000年起，克里特出现多座大型宫殿建筑群，多层楼、壁画、陶器工艺领先爱琴世界。",
+        "线形文字A用于宫殿行政（至今未破译）；'米诺斯'之名源自后世神话（米诺斯王），并非自称。",
+        "宫殿建筑防御薄弱、海路贸易繁盛，早期学界称\"米诺斯和平\"。",
+        "约前1700年前后宫殿毁于地震后重建；约前1450年克里特宫殿体系衰落，克诺索斯由说希腊语的迈锡尼人掌控，线形文字B取代线形文字A。"
+      ],
+      "outcome": "爱琴文明的开端：其海洋贸易与宫殿行政被迈锡尼文明继承；神话说（雅典贡童、迷宫）经古典时代定形，19世纪考古（伊文思）使其成为爱琴史框架，但重建部分备受争议。",
+      "controversies": [
+        {"issue": "\"无防御\"与和平论", "views": [
+          {"holder": "伊文思以来的经典叙事", "basis": "宫殿不设防、壁画海景，推断克里特依靠海权维持\"米诺斯和平\"。"},
+          {"holder": "现代修正研究", "basis": "瞭望塔、要塞遗址与武装图像的重新解读表明防御体系存在；和平叙事被显著弱化。"}
+        ]},
+        {"issue": "克诺索斯遗址的现代重建", "views": [
+          {"holder": "伊文思（1900年代发掘主持者）", "basis": "以钢筋混凝土重建宫殿局部，使遗址可视化。"},
+          {"holder": "后来的考古学界", "basis": "重建部分与原状差异明显，学界对其作为证据的可靠性持保留态度。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>克里特宫殿网络（方位示意）</text><rect x='290' y='110' width='180' height='100' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='145' text-anchor='middle' font-size='16' fill='#8c1f28'>克里特岛</text><text x='380' y='170' text-anchor='middle' font-size='12'>克诺索斯·费斯托斯</text><text x='380' y='192' text-anchor='middle' font-size='12'>线形文字A行政</text><g font-size='12'><rect x='40' y='80' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='120' y='106' text-anchor='middle'>希腊本土</text><text x='120' y='126' text-anchor='middle' font-size='11'>（后有迈锡尼）</text><rect x='560' y='80' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='640' y='106' text-anchor='middle'>埃及·黎凡特</text><text x='640' y='126' text-anchor='middle' font-size='11'>海上贸易对象</text><rect x='40' y='260' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='120' y='286' text-anchor='middle'>基克拉泽斯群岛</text><text x='120' y='306' text-anchor='middle' font-size='11'>中转站</text><rect x='560' y='260' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='640' y='286' text-anchor='middle'>安纳托利亚</text><text x='640' y='306' text-anchor='middle' font-size='11'>金属来源</text></g><line x1='200' y1='115' x2='286' y2='140' stroke='#2b4a6f' marker-end='url(#wa6)'/><line x1='560' y1='115' x2='474' y2='140' stroke='#2b4a6f' marker-end='url(#wa6)'/><line x1='200' y1='285' x2='286' y2='195' stroke='#2b4a6f' marker-end='url(#wa6)'/><line x1='560' y1='285' x2='474' y2='195' stroke='#2b4a6f' marker-end='url(#wa6)'/><text x='380' y='356' text-anchor='middle' font-size='13'>约前1450年：迈锡尼人接管克诺索斯，线形文字B取代A</text></svg>",
+      "sources": ["enwp-minoan", "met-toah", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "hammurabi-code",
+      "title": "汉谟拉比与《汉谟拉比法典》",
+      "year": -1754,
+      "end_year": null,
+      "year_display": "约前1754年",
+      "end_year_display": null,
+      "year_note": "据巴比伦中年代说，汉谟拉比在位约前1792—前1750年，法典石碑刻成通常系于其在位晚期（约前1754年前后）。",
+      "location": "巴比伦（石碑1901—1902年出土于苏萨，今存巴黎卢浮宫）",
+      "key_people": ["hammurabi"],
+      "background": "汉谟拉比通过联盟与征伐统一两河南部（\"巴比伦尼亚\"），为宣示统治正当性，以阿卡德语刻成法典石碑，立于神庙（后为埃兰人掠至苏萨）。",
+      "process": [
+        "汉谟拉比在位初期与拉尔萨、马里等结盟周旋，逐步兼并。",
+        "统一两河大部后颁布法典：序言宣示受神命护弱，正文282条，结语诅咒毁碑者。",
+        "条文涵盖买卖、租赁、家庭、雇佣、医疗、航运与等级（自由民/穆什凯努/奴隶）差等处罚。",
+        "石碑约前1155年前后被埃兰人携往苏萨，1901—1902年由法国考古队发现，现存卢浮宫。"
+      ],
+      "outcome": "现存最完整的大型古代成文法体系之一；其\"同态复仇\"（以眼还眼）条款成为法律史经典研究对象；法典树立\"正义之王\"的王权形象，被后世近东王权文本反复引用。",
+      "controversies": [
+        {"issue": "法典的实际效力", "views": [
+          {"holder": "传统法律史叙事", "basis": "视为\"最早成文法典\"，推断其实际规范社会生活。"},
+          {"holder": "现代亚述学研究", "basis": "出土判决文书与法典条文常不一致，学界讨论法典更多是王权宣示与教学文本，实际司法以本地惯例为主。"}
+        ]},
+        {"issue": "\"人身等级与同态复仇\"的解释", "views": [
+          {"holder": "等级差序说", "basis": "伤害自由民与伤害穆什凯努、奴隶的罚则不同，体现身份法特征。"},
+          {"holder": "经济功能说", "basis": "部分学者强调条文多为个案判决的汇编性质，不是完整立法体系。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>《汉谟拉比法典》282条（约前1754年）</text><rect x='120' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='220' y='106' text-anchor='middle' font-size='14'>序言</text><text x='220' y='128' text-anchor='middle' font-size='11'>受神命\"使正义显现，灭恶人\"</text><rect x='350' y='80' width='180' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='440' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>正文 282条</text><text x='440' y='128' text-anchor='middle' font-size='11'>阿卡德语刻写</text><rect x='560' y='80' width='160' height='70' fill='#fff' stroke='#2b4a6f'/><text x='640' y='106' text-anchor='middle' font-size='14'>结语</text><text x='640' y='128' text-anchor='middle' font-size='11'>诅咒毁碑者</text><line x1='320' y1='115' x2='346' y2='115' stroke='#2b4a6f' marker-end='url(#wa7)'/><line x1='530' y1='115' x2='556' y2='115' stroke='#2b4a6f' marker-end='url(#wa7)'/><g font-size='12'><rect x='60' y='190' width='300' height='150' fill='#fff' stroke='#2b4a6f'/><text x='210' y='216' text-anchor='middle'>主要事项</text><text x='210' y='240' text-anchor='middle' font-size='11'>买卖·租赁·家庭·雇佣</text><text x='210' y='262' text-anchor='middle' font-size='11'>医疗·航运·佃农分成</text><text x='210' y='284' text-anchor='middle' font-size='11'>同态复仇（以眼还眼）</text><text x='210' y='306' text-anchor='middle' font-size='11'>差等处罚：自由民/穆什凯努/奴隶</text></g><rect x='420' y='190' width='280' height='150' fill='#fff' stroke='#2b4a6f'/><text x='560' y='216' text-anchor='middle'>石碑流转</text><text x='560' y='240' text-anchor='middle' font-size='11'>立于西帕尔/巴比伦神庙</text><text x='560' y='262' text-anchor='middle' font-size='11'>约前1155年埃兰人掠至苏萨</text><text x='560' y='284' text-anchor='middle' font-size='11'>1901—1902年法国队出土</text><text x='560' y='306' text-anchor='middle' font-size='11'>现存卢浮宫</text><text x='380' y='366' text-anchor='middle' font-size='12'>争议：法典是否实际司法依据——判决文书与条文常不一致</text></svg>",
+      "sources": ["hammurabi-code", "brit-hammurabi", "louvre", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "thutmose-megiddo",
+      "title": "图特摩斯三世与米吉多之战",
+      "year": -1457,
+      "end_year": null,
+      "year_display": "前1457年",
+      "end_year_display": null,
+      "year_note": "据埃及中年代说，图特摩斯三世在位约前1479—前1425年，米吉多战役为其在位第22—23年（约前1457年），战役日志刻于卡纳克神庙墙。",
+      "location": "米吉多（今以色列北部耶斯列谷）",
+      "key_people": ["thutmose-iii"],
+      "background": "图特摩斯二世死后，哈特谢普苏特摄政掌权二十余年；其死后图特摩斯三世亲政，面对以卡迭石为首的迦南—叙利亚联盟叛离埃及，首战即在米吉多。",
+      "process": [
+        "约前1457年（在位第22年），迦南诸城在卡迭石王带动下叛离，图特摩斯三世北上征讨。",
+        "三行军路线中选最险的阿鲁纳山道奇袭，出谷直抵米吉多城下。",
+        "次日会战获胜，敌方弃械逃城；埃及军先掠收割麦田围城七（一说数）月，城降。",
+        "战后设置埃及行省体系与质子制度，其后十六次远征深入叙利亚，抵幼发拉底河。"
+      ],
+      "outcome": "埃及新王国鼎盛的军事体系确立，形成对黎凡特的统治结构；米吉多战役日志是现存最早的较完整战役记录之一，米吉多遗址2005年列入世界遗产。",
+      "controversies": [
+        {"issue": "战役记载的史料性质", "views": [
+          {"holder": "卡纳克神庙\"阿努巴勒石\"铭文", "basis": "战役日志由王室书记塔尼尼记录、刻于神庙，是单一王铭视角的宣传性文本。"},
+          {"holder": "现代学界", "basis": "战役框架可信，但兵力、敌军数量等数字不可核实；围城月数铭文有歧读。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>米吉多会战路线（约前1457年，示意）</text><rect x='40' y='70' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='130' y='96' text-anchor='middle'>埃及军北上</text><text x='130' y='116' text-anchor='middle' font-size='11'>经加沙走廊</text><g font-size='12'><rect x='280' y='90' width='200' height='56' fill='#fff' stroke='#2b4a6f'/><text x='380' y='112' text-anchor='middle'>阿鲁纳山道（最险）</text><text x='380' y='130' text-anchor='middle' font-size='11'>奇袭路线</text><rect x='280' y='170' width='200' height='56' fill='#fff' stroke='#2b4a6f'/><text x='380' y='192' text-anchor='middle'>北线·南线（大道）</text><text x='380' y='210' text-anchor='middle' font-size='11'>敌方预期路线</text></g><line x1='220' y1='100' x2='276' y2='118' stroke='#8c1f28' marker-end='url(#wa8)'/><line x1='480' y1='130' x2='520' y2='210' stroke='#8c1f28' marker-end='url(#wa8)'/><rect x='500' y='214' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='605' y='240' text-anchor='middle' font-size='14' fill='#8c1f28'>米吉多城下会战</text><text x='605' y='262' text-anchor='middle' font-size='11'>次日获胜·围城约7月</text><text x='605' y='282' text-anchor='middle' font-size='11'>迦南—叙利亚联盟瓦解</text><text x='380' y='340' text-anchor='middle' font-size='13'>战后：黎凡特行省化+质子制，埃及新王国鼎盛</text><text x='380' y='366' text-anchor='middle' font-size='12'>记载来源：卡纳克神庙王铭（单源宣传文本）</text></svg>",
+      "sources": ["enwp-thutmose-iii", "cambridge-ancient", "brit-ramses-ii"],
+      "needs_verification": true,
+      "pending_notes": "战役仅见于卡纳克王铭（单一宣传文本），兵力与围城时长数字不可核实；在位与战役年（前1457）依中年代说，各年代学体系间有小幅差异。"
+    },
+    {
+      "id": "hittite-kadesh-treaty",
+      "title": "赫梯帝国与卡迭石《银板条约》",
+      "year": -1259,
+      "end_year": -1200,
+      "year_display": "约前1259年",
+      "end_year_display": "约前1200年",
+      "year_note": "据近东中年代说换算：卡迭石条约约前1259年（拉美西斯二世在位第21年）；赫梯帝国兴起约前1650年、终结约前1200年（青铜时代崩溃之际），本条以条约年份系年、以帝国终结年为收束。",
+      "location": "安纳托利亚（都哈图沙，今土耳其博阿兹柯伊）；卡迭石（今叙利亚境内奥龙特斯河畔）",
+      "key_people": ["ramses-ii"],
+      "background": "赫梯人（涅萨语/赫梯语，印欧语系）在安纳托利亚建立王国，约前1650年起以哈图沙为都，前14世纪帝国极盛，与埃及争霸叙利亚。",
+      "process": [
+        "约前1650年，哈图西里一世建都哈图沙，赫梯语楔文文书体系成形。",
+        "前14世纪，苏庇路里乌玛一世趁埃及阿玛纳时代扩张，夺取叙利亚北部。",
+        "约前1274年，拉美西斯二世与赫梯王穆瓦塔里二世会战于卡迭石；埃及铭文自颂大捷，赫梯泥板记载平局（实则两败）。",
+        "约前1259年，双方订立《银板条约》：银板原本不存，埃及神庙墙铭文与哈图沙泥板两系文本互证，为现存最早的成文国际和约。",
+        "约前1200年，青铜时代崩溃中海民与动荡波及安纳托利亚，哈图沙被弃，赫梯帝国终结。"
+      ],
+      "outcome": "条约确立近东两大强权的势力均衡，开创互不侵犯与引渡逃亡者条款的外交范式；赫梯楔文文书（万余泥板）19—20世纪破译，改写印欧语系研究。",
+      "controversies": [
+        {"issue": "卡迭石之战的胜负", "views": [
+          {"holder": "埃及王铭（阿布辛贝等神庙）", "basis": "拉美西斯二世\"独自击破赫梯大军\"的胜利叙事，属王室宣传。"},
+          {"holder": "赫梯泥板记载", "basis": "以平局与后续缔约处理，现代学界认为双方均未完胜，战略上赫梯保住叙利亚。"}
+        ]},
+        {"issue": "赫梯\"垄断冶铁\"说", "views": [
+          {"holder": "旧教科书叙事", "basis": "曾长期认为赫梯垄断铁器技术，构成军事优势。"},
+          {"holder": "现代考古修正", "basis": "安纳托利亚早期铁器稀少且多为陨铁饰物，真正铁器普及远晚于帝国盛期；垄断说已被放弃。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>赫梯—埃及争霸与《银板条约》（示意）</text><rect x='80' y='70' width='240' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='200' y='100' text-anchor='middle' font-size='15'>赫梯帝国</text><text x='200' y='124' text-anchor='middle' font-size='12'>都哈图沙（安纳托利亚）</text><rect x='440' y='70' width='240' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='560' y='100' text-anchor='middle' font-size='15'>埃及新王国</text><text x='560' y='124' text-anchor='middle' font-size='12'>拉美西斯二世（前1279—前1213）</text><line x1='200' y1='150' x2='360' y2='205' stroke='#8c1f28' marker-end='url(#wa9)'/><line x1='560' y1='150' x2='400' y2='205' stroke='#8c1f28' marker-end='url(#wa9)'/><rect x='320' y='210' width='120' height='50' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='240' text-anchor='middle' font-size='13' fill='#8c1f28'>卡迭石</text><text x='380' y='256' text-anchor='middle' font-size='10'>约前1274年会战</text><line x1='380' y1='262' x2='380' y2='292' stroke='#2b4a6f' marker-end='url(#wa9)'/><rect x='170' y='296' width='420' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='322' text-anchor='middle' font-size='14'>《银板条约》约前1259年</text><text x='380' y='346' text-anchor='middle' font-size='11'>现存最早国际和约：互不侵犯·引渡·同盟条款（埃及墙铭+哈图沙泥板互证）</text><text x='380' y='380' text-anchor='middle' font-size='12' fill='#7a7468'>胜负叙事相左：埃及自颂大捷，赫梯记平局</text></svg>",
+      "sources": ["enwp-hittites", "brit-ramses-ii", "cambridge-ancient", "british-museum"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "bronze-age-collapse",
+      "title": "青铜时代晚期大崩溃与\"海上民族\"",
+      "year": -1200,
+      "end_year": -1150,
+      "year_display": "约前1200年",
+      "end_year_display": "约前1150年",
+      "year_note": "据东地中海考古通说，约前1200—前1150年间迈锡尼宫殿、赫梯帝国、乌加里特等先后崩溃；\"约\"为碳十四与陶器断代约数。",
+      "location": "东地中海：希腊、安纳托利亚、黎凡特、埃及三角洲",
+      "key_people": [],
+      "background": "青铜时代晚期东地中海形成以宫廷经济、金属贸易与联姻外交联成网络的国际体系（阿玛纳书信所记\"大国俱乐部\"）。该体系在半个世纪内连锁崩解。",
+      "process": [
+        "约前1207—前1190年，埃及铭文多次记载击退\"海上民族\"（含Peleset等名单，身份不明）。",
+        "乌加里特最后泥板记敌船迫近王都求援；赫梯都哈图沙被弃；迈锡尼诸宫殿相继毁弃。",
+        "叙利亚—黎凡特诸城邦衰落，埃及虽击退进攻但国势转衰。",
+        "崩溃后东地中海进入\"黑暗时代\"：书写体系在希腊中断，贸易网络瓦解，小聚落自给经济盛行。"
+      ],
+      "outcome": "旧宫廷体系终结，为腓尼基人海上殖民、以色列诸邦兴起与希腊城邦的重生腾出空间；铁器逐渐替代青铜，军事与社会组织去中心化。",
+      "controversies": [
+        {"issue": "崩溃原因", "views": [
+          {"holder": "入侵说（\"海上民族\"）", "basis": "埃及铭文与部分毁灭层曾支持大规模迁徙征服的旧解释。"},
+          {"holder": "系统崩溃说", "basis": "强调宫廷经济依赖网络互联，任一环节断裂即连锁反应（Eric Cline《前1177年》为通俗代表作）。"},
+          {"holder": "环境与灾害说", "basis": "干旱（花粉与湖泊沉积证据）、地震风暴（多重遗址同时毁弃）等假说，各有证据与限度。"},
+          {"holder": "综合说", "basis": "目前学界主流倾向多因素叠加，不取单一原因。"}
+        ]},
+        {"issue": "\"海上民族\"的身份", "views": [
+          {"holder": "埃及名单研究", "basis": "Peleset（一说即非利士人）、Sherden、Shekelesh 等名单存在，但来源地（爱琴？安纳托利亚？意大利？）均无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>青铜时代晚期崩溃（约前1200—前1150）</text><g font-size='13'><rect x='40' y='70' width='160' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='120' y='96' text-anchor='middle' fill='#8c1f28'>迈锡尼宫殿</text><text x='120' y='116' text-anchor='middle' font-size='11'>毁弃·书写中断</text><rect x='230' y='70' width='160' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='310' y='96' text-anchor='middle' fill='#8c1f28'>赫梯帝国</text><text x='310' y='116' text-anchor='middle' font-size='11'>哈图沙被弃</text><rect x='420' y='70' width='160' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='500' y='96' text-anchor='middle' fill='#8c1f28'>黎凡特城邦</text><text x='500' y='116' text-anchor='middle' font-size='11'>乌加里特等衰落</text><rect x='610' y='70' width='120' height='64' fill='#efe4cf' stroke='#2b4a6f'/><text x='670' y='96' text-anchor='middle'>埃及</text><text x='670' y='116' text-anchor='middle' font-size='11'>击退但转衰</text></g><text x='380' y='170' text-anchor='middle' font-size='14'>崩溃原因诸说（多因素叠加为主流）：</text><g font-size='12'><rect x='40' y='190' width='160' height='70' fill='#fff' stroke='#2b4a6f'/><text x='120' y='216' text-anchor='middle'>入侵/迁徙说</text><text x='120' y='238' text-anchor='middle' font-size='11'>海上民族</text><rect x='230' y='190' width='160' height='70' fill='#fff' stroke='#2b4a6f'/><text x='310' y='216' text-anchor='middle'>系统崩溃说</text><text x='310' y='238' text-anchor='middle' font-size='11'>贸易网络断裂</text><rect x='420' y='190' width='160' height='70' fill='#fff' stroke='#2b4a6f'/><text x='500' y='216' text-anchor='middle'>环境灾害说</text><text x='500' y='238' text-anchor='middle' font-size='11'>干旱·地震</text><rect x='610' y='190' width='120' height='70' fill='#fff' stroke='#2b4a6f'/><text x='670' y='216' text-anchor='middle'>技术变迁</text><text x='670' y='238' text-anchor='middle' font-size='11'>铁器兴起</text></g><line x1='380' y1='260' x2='380' y2='292' stroke='#8c1f28' marker-end='url(#wa10)'/><defs><marker id='wa10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><rect x='150' y='296' width='460' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='322' text-anchor='middle' font-size='14' fill='#8c1f28'>\"黑暗时代\"</text><text x='380' y='346' text-anchor='middle' font-size='11'>书写中断·小聚落自给——为腓尼基殖民、希腊城邦重生让路</text></svg>",
+      "sources": ["enwp-bronze-collapse", "cambridge-ancient", "stearns-global"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "david-solomon-kingdom",
+      "title": "大卫与所罗门王国（以色列诸邦的统一王权）",
+      "year": -1000,
+      "end_year": -930,
+      "year_display": "约前1000年",
+      "end_year_display": "约前930年",
+      "year_note": "据《圣经》叙述系年与部分学者修正（公元前1000年前后大卫夺取耶路撒冷、约前930年王国分裂），年代均有争议，本站取传统系年并标\"约\"。",
+      "location": "耶路撒冷及迦南高地",
+      "key_people": ["david-king"],
+      "background": "青铜崩溃后的迦南高地出现\"以色列\"部族共同体（前1200年后铭文首见 Israel 名单）；扫罗、大卫、所罗门三代统一王权的叙述构成希伯来圣经的核心史段。",
+      "process": [
+        "扫罗王立国（传统系年约前1030年起），与高地部族联盟抗非利士人。",
+        "大卫在希伯仑称王，约前1000年前后夺取耶路撒冷为都，建立王权与宫廷卫队。",
+        "所罗门在位（传统约前970—前931）扩建圣殿与宫殿，与推罗、埃及通商联姻。",
+        "约前930年，罗波安即位后北方十支派叛立耶罗波安，王国分裂为以色列（北）与犹大（南）。"
+      ],
+      "outcome": "统一王国虽仅约七十年，但耶路撒冷圣殿传统与大卫王朝合法性叙事（\"大卫之约\"）成为犹太教与后世一神教政治传统的基石。",
+      "controversies": [
+        {"issue": "统一王国的历史规模", "views": [
+          {"holder": "极大主义学者", "basis": "依据圣经叙述认为大卫—所罗门治下为区域性大国，耶路撒冷已有王宫规模。"},
+          {"holder": "极小主义学者", "basis": "认为大卫时代耶路撒冷不过小酋邦；所罗门圣殿无考古确证，圣经叙事多为数百年后的追溯书写。"},
+          {"holder": "中间派与考古进展", "basis": "1993年但丘石碑（Tel Dan Stele）出现\"大卫之家\"（bytdwd）铭文，证明大卫王朝始于公元前9世纪的记忆；耶路撒冷与河谷大型建筑（如基色、米吉多、夏琐的宫殿年代归属）仍在争论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>统一王国兴衰（传统系年，年代有争议）</text><g font-size='13'><rect x='40' y='80' width='160' height='64' fill='#fff' stroke='#2b4a6f'/><text x='120' y='106' text-anchor='middle'>扫罗（约前1030起）</text><text x='120' y='126' text-anchor='middle' font-size='11'>高地联盟抗非利士</text><rect x='230' y='80' width='160' height='64' fill='#efe4cf' stroke='#8c1f28'/><text x='310' y='106' text-anchor='middle' fill='#8c1f28'>大卫（约前1000）</text><text x='310' y='126' text-anchor='middle' font-size='11'>取耶路撒冷为都</text><rect x='420' y='80' width='160' height='64' fill='#efe4cf' stroke='#8c1f28'/><text x='500' y='106' text-anchor='middle' fill='#8c1f28'>所罗门（约前970起）</text><text x='500' y='126' text-anchor='middle' font-size='11'>圣殿·通商联姻</text><rect x='610' y='80' width='120' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='670' y='106' text-anchor='middle' fill='#8c1f28'>约前930分裂</text><text x='670' y='126' text-anchor='middle' font-size='11'>北国以色列/南国犹大</text><line x1='200' y1='112' x2='226' y2='112' stroke='#2b4a6f' marker-end='url(#wa11)'/><line x1='390' y1='112' x2='416' y2='112' stroke='#2b4a6f' marker-end='url(#wa11)'/><line x1='580' y1='112' x2='606' y2='112' stroke='#8c1f28' marker-end='url(#wa11)'/></g><line x1='380' y1='144' x2='380' y2='180' stroke='#2b4a6f' marker-end='url(#wa11)'/><rect x='130' y='184' width='500' height='100' fill='#fff' stroke='#2b4a6f'/><text x='380' y='210' text-anchor='middle' font-size='14'>史学争议：王国规模</text><text x='380' y='236' text-anchor='middle' font-size='11'>极大主义：区域性大国 / 极小主义：小酋邦+后世追溯</text><text x='380' y='258' text-anchor='middle' font-size='11'>1993年但丘石碑\"大卫之家\"铭文：9世纪已知大卫王朝</text><text x='380' y='278' text-anchor='middle' font-size='11'>宫殿年代归属（基色·米吉多·夏琐）仍在争论</text><text x='380' y='330' text-anchor='middle' font-size='13'>遗产：大卫之约与耶路撒冷圣殿传统的合法性叙事</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>本条年代取传统系年，考古证据不足以确证具体年份</text></svg>",
+      "sources": ["enwp-ancient-israel", "cambridge-ancient", "british-museum"],
+      "needs_verification": true,
+      "pending_notes": "统一王国的具体年份（前1000/前930等）系传统推定，考古证据不足以确证；大卫、所罗门生卒不可考；极大主义与极小主义争论未决。"
+    },
+    {
+      "id": "neo-assyria-empire",
+      "title": "新亚述帝国与尼尼微图书馆",
+      "year": -911,
+      "end_year": -612,
+      "year_display": "前911年",
+      "end_year_display": "前612年",
+      "year_note": "新亚述以阿达德尼拉里二世（前911年即位，中年代说）中兴起算；前612年尼尼微陷落（据巴比伦编年史传统系年）。",
+      "location": "美索不达米亚北部（都尼尼微、尼姆鲁德等）",
+      "key_people": [],
+      "background": "铁器时代亚述以常备军、行省制、大规模强制迁徙与恐怖威慑建立两河史上疆域最大的帝国，从底格里斯中游扩展到埃及与伊朗高原边缘。",
+      "process": [
+        "前911年起，阿达德尼拉里二世等重振亚述，军队职业化、战车与骑兵成为主力。",
+        "前9—前8世纪，提格拉特帕拉沙尔三世改革行省制、削减总督世袭，帝国达到底格里斯—幼发拉底全域。",
+        "前722年萨尔贡二世灭以色列王国；辛那赫里布、以撒哈顿先后征埃及方向；亚述巴尼拔（前668—约前631）平定巴比伦，收编宫廷文书。",
+        "亚述巴尼拔在尼尼微建王室图书馆，收存约3万件泥板（史诗、辞书、占卜、医学），后世由此重见《吉尔伽美什史诗》。",
+        "前612年，米底与巴比伦联军攻陷尼尼微，帝国残部前609年败亡。"
+      ],
+      "outcome": "帝国虽亡，其行省、驿传与文书行政被新巴比伦与波斯继承；尼尼微图书馆是亚述学（楔文研究）的核心文献源；亚述暴力形象的记录（猎狮浮雕、攻城浮雕）成为帝国宣传研究的经典案例。",
+      "controversies": [
+        {"issue": "亚述的\"残暴\"形象", "views": [
+          {"holder": "圣经与古典传统", "basis": "亚述被写成嗜血之邦（尼尼微=大城倾覆的先知文本）。"},
+          {"holder": "现代亚述学", "basis": "王铭中的残暴叙述多为威慑性自颂，实际统治依赖移民安置与赋税体系；形象与实政的差距是研究重点。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>新亚述帝国兴亡（前911—前612）</text><g font-size='12'><rect x='40' y='70' width='200' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='140' y='94' text-anchor='middle'>前911年 中兴</text><text x='140' y='114' text-anchor='middle' font-size='11'>军队职业化·行省改革</text><rect x='270' y='70' width='200' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='370' y='94' text-anchor='middle'>前8世纪极盛</text><text x='370' y='114' text-anchor='middle' font-size='11'>提格拉特帕拉沙尔三世改革</text><rect x='500' y='70' width='220' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='610' y='94' text-anchor='middle'>前722年灭以色列</text><text x='610' y='114' text-anchor='middle' font-size='11'>萨尔贡二世</text><line x1='240' y1='100' x2='266' y2='100' stroke='#8c1f28' marker-end='url(#wa12)'/><line x1='470' y1='100' x2='496' y2='100' stroke='#8c1f28' marker-end='url(#wa12)'/></g><line x1='610' y1='130' x2='610' y2='170' stroke='#2b4a6f' marker-end='url(#wa12)'/><rect x='440' y='174' width='280' height='80' fill='#fff' stroke='#2b4a6f'/><text x='580' y='200' text-anchor='middle' font-size='13'>亚述巴尼拔图书馆（尼尼微）</text><text x='580' y='222' text-anchor='middle' font-size='11'>约3万件泥板：史诗·辞书·占卜·医学</text><text x='580' y='240' text-anchor='middle' font-size='11'>后世由此重见《吉尔伽美什史诗》</text><line x1='140' y1='130' x2='140' y2='260' stroke='#2b4a6f' marker-end='url(#wa12)'/><rect x='40' y='264' width='280' height='60' fill='#fff' stroke='#2b4a6f'/><text x='180' y='288' text-anchor='middle' font-size='13'>帝国遗产</text><text x='180' y='310' text-anchor='middle' font-size='11'>行省·驿传·文书行政 → 波斯继承</text><line x1='580' y1='254' x2='580' y2='290' stroke='#8c1f28' marker-end='url(#wa12)'/><rect x='440' y='294' width='280' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='580' y='318' text-anchor='middle' font-size='13' fill='#8c1f28'>前612年 尼尼微陷落</text><text x='580' y='340' text-anchor='middle' font-size='11'>米底+巴比伦联军；前609年残部败亡</text><text x='380' y='380' text-anchor='middle' font-size='12' fill='#7a7468'>形象争议：王铭自颂残暴为威慑宣传</text></svg>",
+      "sources": ["enwp-neo-assyria", "enwp-ashurbanipal", "british-museum", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "neo-babylon-empire",
+      "title": "新巴比伦王国与尼布甲尼撒二世",
+      "year": -626,
+      "end_year": -539,
+      "year_display": "前626年",
+      "end_year_display": "前539年",
+      "year_note": "据巴比伦编年史泥板通说换算：那波帕拉萨尔前626年建新巴比伦王朝；前539年居鲁士入巴比伦（编年史泥板与波斯铭文两源互证）。",
+      "location": "巴比伦城（今伊拉克希拉附近）",
+      "key_people": ["nebuchadnezzar-ii"],
+      "background": "亚述崩溃后的权力真空由迦勒底人那波帕拉萨尔填补，与米底结盟灭亚述，建立以巴比伦为都的最后美索不达米亚帝国。",
+      "process": [
+        "前626年那波帕拉萨尔独立建朝；前612年与米底联军破尼尼微。",
+        "前605年卡尔米什之战击败埃及，尼布甲尼撒二世同年即位（约）。",
+        "前597年围陷耶路撒冷，掳走王室与工匠（第一次放逐）；前586年镇压反叛、毁圣殿，犹太上层大量迁往巴比伦（\"巴比伦之囚\"）。",
+        "都城大兴：伊什塔尔门、仪式大道、埃特梅兰基塔（塔庙，\"巴别塔\"原型之一）；城市面积与人口居当时世界前列。",
+        "前539年，居鲁士二世率波斯军渡底格里斯，巴比伦开城，王国终结。"
+      ],
+      "outcome": "两河文明最后一个本土帝国；其天文编年史泥板为前7—前6世纪近东提供了最精确的编年框架；\"巴比伦之囚\"深刻塑造犹太教形态。",
+      "controversies": [
+        {"issue": "空中花园是否存在、位于何处", "views": [
+          {"holder": "希腊化时期作家（斯特拉博、狄奥多鲁斯转述）", "basis": "描述巴比伦空中花园为世界奇观，但巴比伦考古未发现对应遗址，尼布甲尼撒铭文亦未提及。"},
+          {"holder": "斯蒂芬妮·达利（Stephanie Dalley）假说", "basis": "主张花园实为辛那赫里布建于尼尼微（亚述），希腊作家误系于巴比伦；此说有水管与浮雕证据，但未被普遍接受。"}
+        ]},
+        {"issue": "耶路撒冷被毁年代", "views": [
+          {"holder": "巴比伦编年史泥板+圣经记事互证", "basis": "前597年（围陷）与前586年（毁城）两役有巴比伦侧泥板与圣经侧记事互证，为古代史中少见的双源案例；具体月份（圣殿被毁在犹太历阿布月）仍有细节讨论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>新巴比伦王国（前626—前539）</text><g font-size='12'><rect x='40' y='70' width='200' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='140' y='94' text-anchor='middle'>前626年建朝</text><text x='140' y='114' text-anchor='middle' font-size='11'>那波帕拉萨尔·联米底</text><rect x='270' y='70' width='200' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='370' y='94' text-anchor='middle'>前612年破尼尼微</text><text x='370' y='114' text-anchor='middle' font-size='11'>灭亚述</text><rect x='500' y='70' width='220' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='610' y='94' text-anchor='middle'>前605年卡尔米什</text><text x='610' y='114' text-anchor='middle' font-size='11'>尼布甲尼撒二世即位</text><line x1='240' y1='100' x2='266' y2='100' stroke='#2b4a6f' marker-end='url(#wa13)'/><line x1='470' y1='100' x2='496' y2='100' stroke='#2b4a6f' marker-end='url(#wa13)'/></g><g font-size='12'><rect x='60' y='170' width='300' height='110' fill='#fff' stroke='#8c1f28'/><text x='210' y='196' text-anchor='middle' fill='#8c1f28'>耶路撒冷两役（双源互证）</text><text x='210' y='220' text-anchor='middle' font-size='11'>前597年：围陷·第一次放逐</text><text x='210' y='242' text-anchor='middle' font-size='11'>前586年：毁圣殿·\"巴比伦之囚\"</text><text x='210' y='264' text-anchor='middle' font-size='11'>巴比伦编年史泥板+圣经记事</text></g><rect x='420' y='170' width='300' height='110' fill='#fff' stroke='#2b4a6f'/><text x='570' y='196' text-anchor='middle' font-size='13'>巴比伦城大兴</text><text x='570' y='220' text-anchor='middle' font-size='11'>伊什塔尔门·仪式大道</text><text x='570' y='242' text-anchor='middle' font-size='11'>塔庙（\"巴别塔\"原型之一）</text><text x='570' y='264' text-anchor='middle' font-size='11'>天文编年史泥板：精确编年框架</text><line x1='380' y1='284' x2='380' y2='312' stroke='#8c1f28' marker-end='url(#wa13)'/><rect x='150' y='316' width='460' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='340' text-anchor='middle' font-size='14' fill='#8c1f28'>前539年居鲁士入城，王国终结</text><text x='380' y='362' text-anchor='middle' font-size='11'>空中花园存疑：巴比伦未见遗迹，\"尼尼微说\"待考</text></svg>",
+      "sources": ["enwp-neo-babylonia", "enwp-nebuchadnezzar-ii", "cambridge-ancient", "british-museum"],
+      "needs_verification": true,
+      "pending_notes": "空中花园位置与存在性未决（巴比伦考古未见、铭文未载；\"尼尼微说\"为一家假说）；城墙与人口规模数字系古典作家转述，无双源印证。"
+    },
+    {
+      "id": "cyrus-persia-empire",
+      "title": "居鲁士建波斯帝国与居鲁士文书",
+      "year": -559,
+      "end_year": -530,
+      "year_display": "约前559年",
+      "end_year_display": "约前530年",
+      "year_note": "居鲁士二世即位约前559年（据贝希斯敦铭文王表与希罗多德推算的通行说法），卒于前530年；生年前600或前580两说并存。",
+      "location": "安善（今伊朗法尔斯）—米底—吕底亚—巴比伦",
+      "key_people": ["cyrus-great"],
+      "background": "波斯人原臣属米底。居鲁士二世于前553—前550年起兵反米底，借米底内乱取胜，随后十年间吞并近东诸强权，建立阿契美尼德帝国。",
+      "process": [
+        "约前559年，居鲁士成为安善王；前550年前后灭米底，夺取埃克巴坦那。",
+        "前547—前546年（约）西征灭吕底亚（克罗伊斯），控制小亚细亚沿海希腊城邦。",
+        "前539年，渡河取巴比伦，巴比伦城几乎无血开城；居鲁士文书宣称 restoring 各城邦神祇与流民（含犹太人返归）。",
+        "治理采用行省（总督区）+本地王权承认+多神宽容的松散帝国框架。",
+        "前530年，居鲁士在中亚战事中身亡（一说战死于马萨革泰，希罗多德系于此说）。"
+      ],
+      "outcome": "近东首次统一于单一政权（从爱琴海到中亚），其行省制被大流士一世系统化；居鲁士文书被后世广泛引用，1971年伊朗以之为\"第一人权宣言\"复制件赠联合国——学界对这一定性持保留态度。",
+      "controversies": [
+        {"issue": "居鲁士文书的性质", "views": [
+          {"holder": "流行叙事", "basis": "称其为\"最早人权宣言\"，强调宗教宽容与自由。"},
+          {"holder": "亚述学界主流", "basis": "文书是标准的美索不达米亚王权合法化文本（不寻常年份的政务宣告），宽容政策有其实，但\"人权宣言\"属现代再诠释，非古代概念。"}
+        ]},
+        {"issue": "居鲁士之死", "views": [
+          {"holder": "希罗多德", "basis": "记其战死于中亚马萨革泰女王之役。"},
+          {"holder": "《巴比伦编年史》线索与其他古典记载", "basis": "色诺芬记其寿终于床（文学化），其他记载另有战地细节差异；死因地点无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='wa14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>居鲁士的扩张（前559—前530，示意）</text><rect x='300' y='90' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='116' text-anchor='middle' font-size='14'>安善/波斯波利斯方向</text><text x='380' y='136' text-anchor='middle' font-size='11'>起兵之所（法尔斯）</text><g font-size='13'><rect x='60' y='180' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='145' y='206' text-anchor='middle' fill='#8c1f28'>米底（前550）</text><text x='145' y='226' text-anchor='middle' font-size='11'>埃克巴坦那</text><rect x='530' y='180' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='206' text-anchor='middle' fill='#8c1f28'>吕底亚（约前546）</text><text x='615' y='226' text-anchor='middle' font-size='11'>小亚细亚沿海</text><rect x='60' y='290' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='145' y='316' text-anchor='middle'>中亚（前530卒）</text><text x='145' y='336' text-anchor='middle' font-size='11'>死因诸说</text><rect x='300' y='290' width='160' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='316' text-anchor='middle' fill='#8c1f28'>巴比伦（前539）</text><text x='380' y='336' text-anchor='middle' font-size='11'>居鲁士文书</text><rect x='530' y='290' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='615' y='316' text-anchor='middle'>犹太人返归</text><text x='615' y='336' text-anchor='middle' font-size='11'>文书与圣经互证</text></g><line x1='330' y1='150' x2='180' y2='178' stroke='#8c1f28' marker-end='url(#wa14)'/><line x1='430' y1='150' x2='580' y2='178' stroke='#8c1f28' marker-end='url(#wa14)'/><line x1='340' y1='150' x2='360' y2='286' stroke='#8c1f28' marker-end='url(#wa14)'/><text x='380' y='380' text-anchor='middle' font-size='12'>帝国框架：总督区+本地王权承认+多神宽容 → 大流士一世系统化</text></svg>",
+      "sources": ["cyrus-cylinder", "brit-cyrus", "cambridge-ancient", "enwp-neo-babylonia"],
+      "needs_verification": true,
+      "pending_notes": "居鲁士生年（前600或前580）两说并存；死因与地点无定论；\"第一人权宣言\"定性为现代再诠释，引用时须说明。"
+    }
+  ],
+  "people": [
+    {
+      "id": "sargon-akkad",
+      "name": "萨尔贡（阿卡德的萨尔贡）",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考（约前2284—前2279年间诸说）",
+      "birth_note": "身世仅有后出传奇（《萨尔贡传奇》记其为弃婴、运水人之子）。",
+      "death_note": "卒年据王表推排，长/中/短年代说差异大。",
+      "chronology": [
+        {"year": -2334, "display": "约前2334年", "text": "夺权建阿卡德城为都（中年代说）。"},
+        {"year": -2320, "display": "约前2320年代", "text": "击败乌玛的卢伽尔扎吉西，统一苏美尔。"},
+        {"year": -2300, "display": "约前2300年代", "text": "远征叙利亚（马里、埃卜拉）与埃兰方向，帝国成型。"}
+      ],
+      "deeds": [
+        "建立两河史上第一个跨区域帝国（阿卡德帝国）。",
+        "以阿卡德语为行政语言，设行省与常备军（铭文称\"日食五月五千四百人日常共食\"式的卫队叙述）。",
+        "其身世传说与征服叙事成为后世近东王权文学的模板。"
+      ],
+      "evaluations": [
+        {"holder": "苏美尔王表及后出文学传统", "view": "\"四海之王\"的传奇奠基人形象，事迹被不断放大。", "basis": "王表与《萨尔贡传奇》多为晚期文本。"},
+        {"holder": "现代亚述学", "view": "存在与征服苏美尔可由当代铭文确证；远征范围（尤其安纳托利亚方向）存疑。", "basis": "当代泥板、瓶铭与考古对读。"}
+      ],
+      "sources": ["enwp-akkad", "cambridge-ancient"],
+      "needs_verification": false
+    },
+    {
+      "id": "hammurabi",
+      "name": "汉谟拉比",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考（约前1750年前后，中年代说）",
+      "birth_note": "生年无载。",
+      "death_note": "在位约前1792—前1750年（巴比伦中年代说）；长/短年代说使全部年代上下浮动可达百余年。",
+      "chronology": [
+        {"year": -1792, "display": "约前1792年", "text": "即位巴比伦王（中年代说），初期国力有限。"},
+        {"year": -1763, "display": "约前1763年", "text": "灭拉尔萨，控制苏美尔南部。"},
+        {"year": -1755, "display": "约前1755年", "text": "攻灭马里，两河南部与中游基本统一。"},
+        {"year": -1754, "display": "约前1754年", "text": "法典石碑刻成（系于其在位晚期）。"}
+      ],
+      "deeds": [
+        "统一两河大部，建立巴比伦尼亚霸权。",
+        "颁布现存最完整的古代成文法体系之一（282条）。",
+        "留下大量书信与年名泥板，是古代近东行政史材料最丰富的君主之一。"
+      ],
+      "evaluations": [
+        {"holder": "传统叙事", "view": "\"正义之王\"与伟大立法者形象，源于法典序言自身的宣称。", "basis": "法典序言/结语。"},
+        {"holder": "现代亚述学", "view": "法典更近王权宣示与教学文本，实际司法灵活；其历史地位更多来自文书档案与外交体系。", "basis": "判决文书与法典条文的对读研究。"}
+      ],
+      "sources": ["hammurabi-code", "brit-hammurabi", "cambridge-ancient"],
+      "needs_verification": false
+    },
+    {
+      "id": "thutmose-iii",
+      "name": "图特摩斯三世",
+      "birth_year": null,
+      "death_year": -1425,
+      "birth_display": "生卒不可考（约前1481年前后生，推算）",
+      "death_display": "约前1425年",
+      "birth_note": "生年为据即位年龄的推算，不可考。",
+      "death_note": "卒年据埃及中年代说（在位约前1479—前1425年）。",
+      "chronology": [
+        {"year": -1479, "display": "约前1479年", "text": "即位，哈特谢普苏特摄政掌权。"},
+        {"year": -1457, "display": "约前1457年", "text": "亲政后首征：阿鲁纳奇袭、米吉多之战获胜。"},
+        {"year": -1456, "display": "前1457年—前1442年间", "text": "十六次远征叙利亚，抵幼发拉底河，建黎凡特行省体系。"},
+        {"year": -1425, "display": "约前1425年", "text": "卒，阿蒙霍特普二世继位。"}
+      ],
+      "deeds": [
+        "确立埃及新王国对黎凡特的统治结构（行省+质子+岁贡）。",
+        "留下卡纳克\"阿努巴勒石\"战役日志，为现存最早较完整的战役记录之一。",
+        "在位期间埃及版图达到最大（北抵幼发拉底，南至努比亚第四瀑布）。"
+      ],
+      "evaluations": [
+        {"holder": "王铭传统", "view": "\"胜利之王\"形象：其战绩自颂构成新王国军事叙事模板。", "basis": "卡纳克神庙铭文。"},
+        {"holder": "现代埃及学", "view": "肯定其军事组织能力，同时指出战役记载属王铭宣传，需与考古互校。", "basis": "铭文与米吉多等地考古对读。"}
+      ],
+      "sources": ["enwp-thutmose-iii", "cambridge-ancient"],
+      "needs_verification": false
+    },
+    {
+      "id": "ramses-ii",
+      "name": "拉美西斯二世（拉美西斯大帝）",
+      "birth_year": -1303,
+      "death_year": -1213,
+      "birth_display": "约前1303年",
+      "death_display": "约前1213年",
+      "birth_note": "生年约前1303年（据即位年龄推算，约数）。",
+      "death_note": "在位约前1279—前1213年（中年代说），在位66年，卒年约前1213年。",
+      "chronology": [
+        {"year": -1279, "display": "约前1279年", "text": "即位（在位第1年，中年代说）。"},
+        {"year": -1274, "display": "约前1274年", "text": "卡迭石之战：埃及自颂大捷，赫梯泥板记平局。"},
+        {"year": -1259, "display": "约前1259年", "text": "与赫梯王哈图西里三世订立《银板条约》。"},
+        {"year": -1255, "display": "约前1255年", "text": "阿布辛贝大神庙落成（努比亚，1960年代因建坝整体迁移）。"},
+        {"year": -1213, "display": "约前1213年", "text": "卒，葬帝王谷（KV7）；在位66年为法老之最之一。"}
+      ],
+      "deeds": [
+        "对赫梯战争与缔约，确立近东势力均衡的外交范式。",
+        "大规模营建：阿布辛贝、拉美西姆、培尔-拉美西斯新城，自颂铭文遍布埃及。",
+        "在位极长，其后百年埃及王权渐衰，其时代被视为新王国盛期的回光。"
+      ],
+      "evaluations": [
+        {"holder": "王铭自颂", "view": "军事与建筑上的\"大帝\"形象，为自我宣传体系的极致。", "basis": "神庙浮雕与铭文。"},
+        {"holder": "现代埃及学", "view": "卡迭石实为两败，营造过度加重财政与劳役；其\"伟大\"需与宣传语境分开。", "basis": "赫梯泥板与营造工程研究。"}
+      ],
+      "sources": ["brit-ramses-ii", "enwp-hittites", "cambridge-ancient"],
+      "needs_verification": false
+    },
+    {
+      "id": "david-king",
+      "name": "大卫王",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考（传统谓约前970年前后）",
+      "birth_note": "生年无载；其历史形象高度依赖圣经文本。",
+      "death_note": "传统系年卒于约前970年前后，无考古确证。",
+      "chronology": [
+        {"year": -1010, "display": "约前1010年（传统系年）", "text": "在希伯仑被拥立为犹大王。"},
+        {"year": -1000, "display": "约前1000年（传统系年）", "text": "夺取耶路撒冷，立为都城。"},
+        {"year": -990, "display": "约前990年代（传统系年）", "text": "扩张王权，设立宫廷与军队，统一高地诸支派。"}
+      ],
+      "deeds": [
+        "统一以色列诸支派，定都耶路撒冷（据圣经叙述）。",
+        "建立大卫王朝合法性传统（\"大卫之约\"），为犹太教王权神学核心。",
+        "但丘石碑（1993年出土）表明公元前9世纪近东已知\"大卫之家\"王朝。"
+      ],
+      "evaluations": [
+        {"holder": "极大主义学派", "view": "承认圣经叙事的主体框架：大卫为区域性强权的建立者。", "basis": "圣经文本+部分考古（如高地聚落变化）。"},
+        {"holder": "极小主义学派", "view": "大卫为后来追溯书写的祖先英雄，其实际权力范围可能仅限小酋邦。", "basis": "对耶路撒冷早期遗存有限性的评估。"},
+        {"holder": "中间立场（当前多数）", "view": "大卫实有其人（但丘石碑为证），但其王国规模远小于圣经叙述，年代无法精确。", "basis": "碑铭+考古综合。"}
+      ],
+      "sources": ["enwp-ancient-israel", "cambridge-ancient", "british-museum"],
+      "needs_verification": false
+    },
+    {
+      "id": "nebuchadnezzar-ii",
+      "name": "尼布甲尼撒二世",
+      "birth_year": -634,
+      "death_year": -562,
+      "birth_display": "约前634年",
+      "death_display": "前562年",
+      "birth_note": "生年约前634年（据即位年龄推算的约数）。",
+      "death_note": "卒于前562年（在位约前605—前562年，巴比伦编年史系年）。",
+      "chronology": [
+        {"year": -605, "display": "前605年", "text": "卡尔米什之战败埃及，同年即位（约）。"},
+        {"year": -597, "display": "前597年", "text": "围陷耶路撒冷，掳约雅斤与工匠（第一次放逐）。"},
+        {"year": -586, "display": "前586年", "text": "镇压西底家反叛，毁圣殿，行\"巴比伦之囚\"。"},
+        {"year": -570, "display": "前570年", "text": "远征埃及（编年史泥板有载，战果有限）。"},
+        {"year": -562, "display": "前562年", "text": "卒，其后四十年王位更迭六次，国势渐衰。"}
+      ],
+      "deeds": [
+        "两役定耶路撒冷（前597、前586），改变犹太民族史进程。",
+        "大兴巴比伦城：伊什塔尔门、仪式大道、塔庙与王宫。",
+        "其编年史泥板使前7—前6世纪近东年代学达到古代世界最高精度。"
+      ],
+      "evaluations": [
+        {"holder": "圣经传统（但以理书、列王纪等）", "view": "傲慢强权与神罚工具的双重形象，为后世西方文学的巴比伦意象之源。", "basis": "圣经叙事。"},
+        {"holder": "现代亚述学", "view": "依法行政、重视工程的立法国君；\"巴比伦之囚\"在其帝国战略中是常规迁徙政策的一例。", "basis": "编年史泥板与铭文。"}
+      ],
+      "sources": ["enwp-nebuchadnezzar-ii", "enwp-neo-babylonia", "cambridge-ancient"],
+      "needs_verification": false
+    },
+    {
+      "id": "cyrus-great",
+      "name": "居鲁士二世（居鲁士大帝）",
+      "birth_year": null,
+      "death_year": -530,
+      "birth_display": "生卒不可考（约前600年或前580年生，两说）",
+      "death_display": "前530年",
+      "birth_note": "生年有两说（约前600/前580），均系推算。",
+      "death_note": "卒于前530年（波斯铭文王表系年）；死因地点诸说不一。",
+      "chronology": [
+        {"year": -559, "display": "约前559年", "text": "成为安善王。"},
+        {"year": -550, "display": "约前550年", "text": "灭米底，建帝国框架。"},
+        {"year": -546, "display": "约前546年", "text": "灭吕底亚，威服小亚细亚希腊城邦。"},
+        {"year": -539, "display": "前539年", "text": "入巴比伦，颁居鲁士文书，允犹太人返归。"},
+        {"year": -530, "display": "前530年", "text": "卒于中亚战事（一说马萨革泰之役）。"}
+      ],
+      "deeds": [
+        "十年之内统一近东（米底、吕底亚、巴比伦），建立阿契美尼德帝国。",
+        "以行省+本地王权承认+宗教宽容治理多族群帝国。",
+        "居鲁士文书成为其合法性叙事的核心物证（1971年曾被作为\"人权宣言\"复制赠联合国）。"
+      ],
+      "evaluations": [
+        {"holder": "希伯来圣经（以赛亚书等）", "view": "\"耶和华的受膏者\"——外邦君王被神所立的罕见定位。", "basis": "圣经文本。"},
+        {"holder": "希罗多德与希腊传统", "view": "帝国奠基人形象，兼记其傲慢与败亡（马萨革泰之役）。", "basis": "《历史》卷一。"},
+        {"holder": "现代学界", "view": "行政宽容确有其事，但\"人权宣言\"定性属现代再诠释；其治理模式对波斯帝国的长期稳定贡献最大。", "basis": "居鲁士文书语境研究。"}
+      ],
+      "sources": ["cyrus-cylinder", "brit-cyrus", "herodotus", "cambridge-ancient"],
+      "needs_verification": false
+    }
+  ]
+}

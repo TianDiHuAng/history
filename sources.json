@@ -1720,6 +1720,94 @@
       "url2": null,
       "link_ok": null,
       "note": ""
+    },
+    {
+      "id": "huainanzi",
+      "title": "《淮南子》",
+      "author": "刘安等（西汉）",
+      "type": "原典",
+      "lang": "zh",
+      "url": "https://ctext.org/huainanzi/zs",
+      "url2": "https://zh.wikisource.org/wiki/淮南子",
+      "link_ok": null,
+      "note": "《人间训》记秦征百越'五十万'，单源存疑"
+    },
+    {
+      "id": "shuihudi-qinjian",
+      "title": "《睡虎地秦墓竹简》",
+      "author": "《睡虎地秦墓竹简》整理小组，文物出版社1978",
+      "type": "原典",
+      "lang": "zh",
+      "url": null,
+      "url2": null,
+      "link_ok": null,
+      "note": "1975年出土秦律；其中《徭律》与'失期当斩'叙事相关，离线文献"
+    },
+    {
+      "id": "enwp-ancient-egypt",
+      "title": "Wikipedia: Ancient Egypt",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+      "url2": null,
+      "link_ok": null,
+      "note": "埃及通史与年代学体系（长/中/短年表）"
+    },
+    {
+      "id": "enwp-narmer",
+      "title": "Wikipedia: Narmer",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Narmer",
+      "url2": null,
+      "link_ok": null,
+      "note": "美尼斯=那尔迈之争"
+    },
+    {
+      "id": "enwp-great-pyramid",
+      "title": "Wikipedia: Great Pyramid of Giza",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+      "url2": null,
+      "link_ok": null,
+      "note": "建造方式与工人数量考古"
+    },
+    {
+      "id": "enwp-cuneiform",
+      "title": "Wikipedia: Cuneiform",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Cuneiform",
+      "url2": null,
+      "link_ok": null,
+      "note": "楔形文字史"
+    },
+    {
+      "id": "enwp-ashurbanipal",
+      "title": "Wikipedia: Ashurbanipal",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Ashurbanipal",
+      "url2": null,
+      "link_ok": null,
+      "note": "尼尼微图书馆"
+    },
+    {
+      "id": "enwp-nebuchadnezzar-ii",
+      "title": "Wikipedia: Nebuchadnezzar II",
+      "author": "Wikipedia",
+      "type": "权威百科",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Nebuchadnezzar_II",
+      "url2": null,
+      "link_ok": null,
+      "note": "围耶路撒冷与巴比伦编年史互证"
     }
   ]
 }
