@@ -327,7 +327,7 @@ def check_sources(sources, src_ids, src_dead, rep, where, is_person):
         rep.err(where, "sources 存在重复条目")
 
 
-def check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep, target_only):
+def check_enrich(ed, unit, all_extra_pids, all_extra_eids, all_extra_ekeys, src_ids, src_dead, rep, target_only):
     """R11：延伸事件/其他重要人物校验（轻量 schema，服务于"丰富各时期"扩展）。"""
     uid = ed.get("unit_id", "?")
     where = f"enrich:{uid}"
@@ -336,6 +336,8 @@ def check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep, target_only):
         return
     sy, ey = unit.get("start_year"), unit.get("end_year")
     main_keys = {(e.get("year"), re.sub(r"\s", "", e.get("title", ""))) for e in unit.get("events") or []}
+    unit_ekeys = all_extra_ekeys.setdefault(uid, set())
+    unit_eids = all_extra_eids.setdefault(uid, set())
     xes = ed.get("extra_events") or []
     require(len(xes) <= 20, rep, where, f"延伸事件数 {len(xes)} 超过 20")
     prev = None
@@ -370,9 +372,15 @@ def check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep, target_only):
         t = re.sub(r"\s", "", ev.get("title", ""))
         if (y, t) in main_keys:
             rep.err(ew, f"与主事件重复（{y}, {ev.get('title')}）")
+        if (y, t) in unit_ekeys:
+            rep.err(ew, f"与其他延伸文件中的条目重复（{y}, {ev.get('title')}）")
+        unit_ekeys.add((y, t))
         if ev.get("id") in seen:
             rep.err(ew, "延伸事件 id 重复")
+        if ev.get("id") in unit_eids:
+            rep.err(ew, f"延伸事件 id 与其他延伸文件重复: {ev.get('id')}（页面文件会互相覆盖）")
         seen.add(ev.get("id"))
+        unit_eids.add(ev.get("id"))
 
     xps = ed.get("extra_people") or []
     require(len(xps) <= 10, rep, where, f"其他人物数 {len(xps)} 超过 10")
@@ -485,6 +493,8 @@ def main():
     unit_by_id = {d.get("unit_id"): d for d in docs.values()}
     enrich_files = sorted(glob.glob("data/enrich/*.json"))
     all_extra_pids = set(pids_global)
+    all_extra_eids = {}
+    all_extra_ekeys = {}
     enrich_target = None
     if args.file and "enrich" in args.file.replace("\\", "/"):
         enrich_target = os.path.normpath(args.file)
@@ -497,7 +507,7 @@ def main():
             rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
             continue
         unit = unit_by_id.get(ed.get("unit_id"))
-        check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep,
+        check_enrich(ed, unit, all_extra_pids, all_extra_eids, all_extra_ekeys, src_ids, src_dead, rep,
                      target_only=(enrich_target is not None))
 
     # ---- R12 专题校验 ----

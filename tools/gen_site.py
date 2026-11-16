@@ -495,14 +495,19 @@ def main():
         doc = json.load(open(fp, encoding="utf-8"))
         doc["_pmap"] = {p["id"]: p for p in doc.get("people") or []}
         units[doc["unit_id"]] = doc
-    # 延伸条目（丰富扩展）：data/enrich/*.json 按 unit_id 合并
+    # 延伸条目（丰富扩展）：data/enrich/*.json 按 unit_id 合并（支持每单元多个文件）
+    for u in units.values():
+        u["_extra"] = {"extra_events": [], "extra_people": []}
     for fp in sorted(glob.glob(os.path.join(ROOT, "data", "enrich", "*.json"))):
         ed = json.load(open(fp, encoding="utf-8"))
         u = units.get(ed.get("unit_id"))
         if u is None:
             print(f"!! 延伸文件 {os.path.basename(fp)} 的 unit_id 无对应单元，跳过")
             continue
-        u["_extra"] = ed
+        u["_extra"]["extra_events"].extend(ed.get("extra_events") or [])
+        u["_extra"]["extra_people"].extend(ed.get("extra_people") or [])
+    for u in units.values():
+        u["_extra"]["extra_events"].sort(key=lambda e: (e.get("year", 0), e.get("id", "")))
     # 专题层：data/themes/*.json 按 unit_id 合并
     for fp in sorted(glob.glob(os.path.join(ROOT, "data", "themes", "*.json"))):
         td = json.load(open(fp, encoding="utf-8"))
