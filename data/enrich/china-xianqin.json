@@ -1,0 +1,137 @@
+{
+ "unit_id": "china-xianqin",
+ "extra_events": [
+  {
+   "id": "x-xianqin-erlitou",
+   "title": "二里头遗址与宫城格局",
+   "year": -1750,
+   "end_year": -1520,
+   "year_display": "约前1750年",
+   "end_year_display": "约前1520年",
+   "year_note": "据碳十四测年与考古分期通说，二里头文化一至四期约前1750—前1520年（\"约\"即测年区间）。",
+   "desc": "河南偃师二里头遗址发现大型宫城、道路网络与青铜礼器作坊，被视为东亚最早的广域王权核心聚落之一。其年代与地望接近文献中的夏纪年，但遗址未出土自证文字，\"二里头=夏都\"的对应仍是学术争论（详见主事件待核实）。",
+   "sources": [
+    "duandai",
+    "kaogu-cass",
+    "whc-yinxu"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xianqin-houmuwu",
+   "title": "后母戊鼎与商代青铜铸造",
+   "year": -1200,
+   "end_year": null,
+   "year_display": "约前1200年",
+   "end_year_display": null,
+   "year_note": "后母戊鼎（旧称司母戊鼎）通说铸于武丁至祖甲时期（约前1250—前1180年间），取约前1200年（考古学界通说）。",
+   "desc": "1939年安阳出土的后母戊鼎重832.84公斤，是现存最重的中国古代青铜器；铸造需上千人协同（金属液分铸一次浇成说据现代复原研究）。鼎铭\"后母戊\"表明为商王为祭祀其母所铸，是商代王权与青铜礼制的标志性实证。",
+   "sources": [
+    "chnmuseum",
+    "kaogu-cass",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xianqin-zhaowang-nanzheng",
+   "title": "昭王南征不复",
+   "year": -980,
+   "end_year": null,
+   "year_display": "约前980年（前10世纪末）",
+   "end_year_display": null,
+   "year_note": "昭王南征卒于汉水之事见《竹书纪年》与青铜器铭文（如过伯簋），年代只能排入昭王在位期（约前10世纪末，断代工程在位约前995—前977年），故取约数。",
+   "desc": "周昭王多次南征荆楚，末次\"南巡狩不返，卒于江上\"（《史记》语），青铜器铭文与《竹书纪年》互见。此事被周人讳言（春秋时齐桓公伐楚仍以此责问），显示西周中期对南方经营的重大挫折。",
+   "sources": [
+    "shiji",
+    "zhushujinian",
+    "kaogu-cass"
+   ],
+   "needs_verification": true,
+   "pending_notes": "昭王卒年与死因（船沉说/鳄鱼说/伏击说）史料零散，仅能确定其南征不返；具体年代在昭王在位期内无法精确。"
+  },
+  {
+   "id": "x-xianqin-muwang-lvxing",
+   "title": "穆王西征与《吕刑》",
+   "year": -965,
+   "end_year": null,
+   "year_display": "约前965年（前10世纪中）",
+   "end_year_display": null,
+   "year_note": "穆王在位（约前976—前922年，断代工程）内的西征与作《吕刑》均系于其朝，取约前965年（约数）。",
+   "desc": "穆王西征犬戎（\"得四白狼四白鹿以归\"，《国语》语）后被认为开启了周与西戎的长期冲突；同时朝命吕侯作《吕刑》（《尚书·吕刑》），规定墨、劓、剕、宫、大辟五刑与赎刑细则，为中国现存最早的系统刑文献。穆王西游见西王母的传说（《穆天子传》）属战国文学，不作史实。",
+   "sources": [
+    "shangshu",
+    "shiji",
+    "zhushujinian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xianqin-jinwen-ceming",
+   "title": "西周金文与册命制度",
+   "year": -950,
+   "end_year": -771,
+   "year_display": "约前950年起（前10—前8世纪）",
+   "end_year_display": "前771年",
+   "year_note": "册命金文集中出现于西周中期至晚期（约前10—前8世纪），系铭文分期研究通说（约数）。",
+   "desc": "西周中晚期青铜器（毛公鼎、大盂鼎、颂鼎等）铭文动辄数百字，记录册命礼仪（授职、赐命服、右者与史官宣读命书），是研究西周官僚制、土地制度与礼仪的第一手材料。金文所见制度与《尚书》周书互证，构成\"两重证据法\"的经典案例。",
+   "sources": [
+    "kaogu-cass",
+    "chnmuseum",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-fuhao",
+   "name": "妇好",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（商王武丁时期）",
+   "death_display": "卒年不可考（先于武丁卒）",
+   "desc": "武丁王后之一，甲骨卜辞显示其主持祭祀并多次统军征伐（羌方、土方方向）。1976年殷墟妇好墓出土青铜器、玉器等1928件，与卜辞人物互证，是唯一可与甲骨文对应的商代王后墓——商代女性军事与宗教地位的实物证据。",
+   "sources": [
+    "whc-yinxu",
+    "kaogu-cass",
+    "duandai"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-yiyin",
+   "name": "伊尹",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（商初）",
+   "death_display": "卒年不可考",
+   "desc": "辅佐商汤灭夏的开国重臣，名挚，传说出身庖厨（\"以滋味说汤\"，《墨子》所载）。《史记》记其放太甲于桐宫、还政；《竹书纪年》则记太甲杀伊尹——两种记载截然相反，伊尹形象的史实与传说分层是商初史研究的著名公案。",
+   "sources": [
+    "shiji",
+    "zhushujinian",
+    "mengzi_shu"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-jiangshang",
+   "name": "姜尚（吕尚、太公望）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（商末周初）",
+   "death_display": "卒年不可考",
+   "desc": "辅佐文王、武王灭周商的核心谋臣，受封于齐，为齐国开国之祖。《史记》记其\"东海上人\"，早年困顿，七十有余遇文王；后世《六韬》托名其作（兵书为战国汇编，非其手著）。姜尚的形象由史实人物与渭水垂钓的传说共同构成。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

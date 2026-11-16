@@ -400,6 +400,8 @@ def main():
 
     units = {}
     for fp in sorted(glob.glob(os.path.join(ROOT, "data", "*", "*.json"))):
+        if os.sep + "enrich" + os.sep in fp or "/enrich/" in fp.replace("\\", "/"):
+            continue
         doc = json.load(open(fp, encoding="utf-8"))
         doc["_pmap"] = {p["id"]: p for p in doc.get("people") or []}
         units[doc["unit_id"]] = doc

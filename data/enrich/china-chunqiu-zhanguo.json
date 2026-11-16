@@ -1,0 +1,220 @@
+{
+ "unit_id": "china-chunqiu-zhanguo",
+ "extra_events": [
+  {
+   "id": "x-cq-bi-yanling",
+   "title": "邲之战与鄢陵之战：晋楚争霸反复",
+   "year": -597,
+   "end_year": -575,
+   "year_display": "前597年",
+   "end_year_display": "前575年",
+   "year_note": "邲之战据《左传》宣公十二年（楚庄王十七年）系于前597年；鄢陵之战据《左传》成公十六年系于前575年；历表换算。",
+   "desc": "城濮之战后晋楚争霸反复拉锯：邲之战楚庄王胜、一度\"饮马于河\"；鄢陵之战晋厉公再胜楚共王（楚将养由基射晋侯目、吕锜射楚王目互射细节见《左传》）。两战与城濮构成晋楚三次大会战，此后两国均无力彻底压倒对方，成为弭兵之会（前546年）的结构性前提。",
+   "sources": [
+    "zuozhuan",
+    "shiji",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-tianshi-daiqi",
+   "title": "田氏代齐",
+   "year": -386,
+   "end_year": null,
+   "year_display": "前386年",
+   "end_year_display": null,
+   "year_note": "据《史记·田敬仲完世家》与《六国年表》，田和列为诸侯系于周安王十一年（前386年）；历表换算。",
+   "desc": "陈国公子完奔齐后，田氏以大斗出小斗进收揽民心，历田乞、田常（成子）专政、田和迁齐康公于海上，前386年周安王册命田和为诸侯，姜姓齐国名存实亡（前379年康公卒，姜齐绝祀）。与三家分晋同为卿大夫取代公室的标志性事件。",
+   "sources": [
+    "shiji",
+    "tongjian",
+    "zhanguoce"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-leyue-faqi",
+   "title": "乐毅伐齐",
+   "year": -284,
+   "end_year": null,
+   "year_display": "前284年",
+   "end_year_display": null,
+   "year_note": "据《史记·乐毅列传》，燕昭王二十八年（前284年）乐毅率五国联军伐齐，下七十余城；历表换算。",
+   "desc": "燕昭王筑黄金台招贤（\"先郭隗以自隗始\"的招贤策），以乐毅为上将军，联合秦赵韩魏五国伐齐，破齐都临淄，齐湣王出逃被杀。齐仅余即墨、莒两城——战国格局由齐秦双强变为秦独强。燕昭王与乐毅的君臣际遇成为后世招贤叙事的原型。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-tiandan-huosheng",
+   "title": "田单火牛阵与复齐",
+   "year": -279,
+   "end_year": null,
+   "year_display": "前279年",
+   "end_year_display": null,
+   "year_note": "据《史记·田单列传》，即墨之战火牛破燕在燕昭王卒、惠王立之年（前279年）；历表换算。",
+   "desc": "即墨守将田单以\"神师\"造势、反间使燕惠王以骑劫代乐毅，再以千余头火牛夜冲燕营，一举收复七十余城，迎齐襄王复国。复齐虽成，齐国元气尽丧，此后四十余年不再参与中原争霸——燕齐互相消耗为秦东进让路。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-mianchi-he",
+   "title": "渑池之会与将相和",
+   "year": -279,
+   "end_year": null,
+   "year_display": "前279年",
+   "end_year_display": null,
+   "year_note": "据《史记·廉颇蔺相如列传》，渑池之会在秦昭王与赵惠文王会于渑池之年（前279年）；历表换算。",
+   "desc": "秦昭王约赵惠文王会于渑池，蔺相如以\"五步之内，相如请得以颈血溅大王\"迫秦击缶，保全赵国体面；廉颇陈兵边境为援。归国后蔺相如位在廉颇之上，廉颇负荆请罪成\"将相和\"。完璧归赵（前283年）、渑池之会、负荆请罪构成蔺相如叙事三部曲（《史记》文学性强，细节需按传记性质理解）。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-xinfu-jiuzhao",
+   "title": "信陵君窃符救赵",
+   "year": -257,
+   "end_year": null,
+   "year_display": "前257年",
+   "end_year_display": null,
+   "year_note": "据《史记·魏公子列传》，邯郸之围中侯嬴朱亥之策行于魏安釐王二十年（前257年）；历表换算。",
+   "desc": "秦围邯郸，魏安釐王畏秦按兵；信陵君（魏公子无忌）从侯嬴之计，通过如姬窃得虎符，椎杀晋鄙夺军，选兵八万击秦，解邯郸之围。信陵君\"窃符救赵\"与孟尝、平原、春申并称战国四公子养士政治的极致案例——私恩与公义、君权与卿权的紧张由此典型化。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-libing-dujiangyan",
+   "title": "李冰修都江堰",
+   "year": -256,
+   "end_year": -251,
+   "year_display": "约前256年",
+   "end_year_display": "约前251年",
+   "year_note": "《史记·河渠书》仅记\"蜀守冰凿离碓\"未系年；都江堰始建年代通说在秦昭王末年（约前256—前251年蜀守李冰任内），取约数。",
+   "desc": "蜀郡守李冰父子（子说见后世附会）主持修建都江堰：鱼嘴分水、飞沙堰泄洪、宝瓶口引水的无坝引水体系，使成都平原成为\"水旱从人，不知饥馑\"的天府。都江堰沿用两千余年至今，1985年后（2000年）与青城山一并列入世界遗产——中国古代水利工程的持续运行标杆。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "kaogu-cass"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-zhengguo-qu",
+   "title": "郑国渠：以疲秦始，以富秦终",
+   "year": -246,
+   "end_year": null,
+   "year_display": "前246年",
+   "end_year_display": null,
+   "year_note": "据《史记·河渠书》，韩水工郑国作注溉渠\"注填阏之水溉泽卤之地四万余顷\"，渠成于秦统一前（始作约前246年，成于前236年前后）；取始作为主年。",
+   "desc": "韩国为消耗秦力，遣水工郑国入秦倡修大型灌溉渠（\"疲秦之计\"）；事觉，秦宗室主张杀郑国，郑国以\"修渠成亦秦万世之利\"自辩，始皇令其续修。渠成，关中成沃野，秦益富强——\"疲秦之计\"反成统一的经济资本，是战国间谍战与水利史的双重经典案例。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq-lüshi-chunqiu",
+   "title": "吕不韦与《吕氏春秋》",
+   "year": -239,
+   "end_year": null,
+   "year_display": "前239年",
+   "end_year_display": null,
+   "year_note": "据《史记·吕不韦列传》，吕不韦使宾客著书\"集论\"成《吕氏春秋》，悬于咸阳市门，字千金（\"一字千金\"典出此），系于秦王政八年（前239年）；历表换算。",
+   "desc": "相国吕不韦（\"奇货可居\"的商人政治家）组织宾客编成《吕氏春秋》二十余万言，杂采儒道法墨阴阳诸家，悬书市门称有能增损一字者予千金。其\"杂家\"编纂是统一帝国意识形态的预演；前237年吕不韦免相、前235年饮鸩死——商人-权臣政治的天花板与终点。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-cq-wuqi",
+   "name": "吴起",
+   "birth_year": -440,
+   "death_year": -381,
+   "birth_display": "约前440年",
+   "death_display": "前381年",
+   "desc": "卫人，兵家与改革家：先仕鲁、魏（守西河，创魏武卒精兵制度），后奔楚主持变法（见主事件条）。《吴子》今本六篇疑为后人辑缀；其\"与士卒同衣食、吮疽\"的治军记载与\"杀妻求将\"的传闻并存，构成战国人形象材料分层的典型。",
+   "sources": [
+    "shiji",
+    "hanfeizi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq-leyi",
+   "name": "乐毅",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（燕昭王时期名将）",
+   "death_display": "卒年不可考（约前270年代卒于赵）",
+   "desc": "魏人后裔入燕，任上将军率五国联军几乎灭齐（前284年）；燕惠王中田单反间以骑劫代之，乐毅奔赵。《报燕惠王书》(\"善作者不必善成，善始者不必善终\")为战国书信名篇；诸葛亮常自比管仲乐毅，可见其在传统政治文化中的定位。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq-bianque",
+   "name": "扁鹊（秦越人）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考",
+   "death_display": "卒年不可考",
+   "desc": "渤海郡人，古代诊脉与医案的传说化代表（《史记·扁鹊仓公列传》为其立传）。传中记其诊赵简子（前6世纪末）、虢太子（约前7世纪）、齐桓侯（前4世纪）等，跨越三百余年——\"扁鹊时代之谜\"被学界解读为多个良医共用\"扁鹊\"尊号的叠加（《史记》自身亦注\"至今天下言脉者由扁鹊也\"）。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "houhanshu"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-cq-luban",
+   "name": "鲁班（公输般）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前6—前5世纪之间，鲁人）",
+   "death_display": "卒年不可考",
+   "desc": "工匠传统的集大成形象：木工工具（刨、锯、墨斗的托名）、云梯（《墨子·公输》记其造云梯攻宋、墨子止之）。《墨子》所载公输班与墨子攻守之辩为真实的墨家技术叙事；其大量发明归属属后世工匠行业祖师崇拜的层累。",
+   "sources": [
+    "mengzi_shu",
+    "zgbk",
+    "hanfeizi"
+   ],
+   "needs_verification": true
+  }
+ ]
+}
