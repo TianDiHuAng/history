@@ -1,0 +1,713 @@
+{
+  "unit_id": "china-chunqiu-zhanguo",
+  "region": "china",
+  "title": "春秋战国",
+  "period_display": "前770年—前221年",
+  "start_year": -770,
+  "end_year": -221,
+  "overview": {
+    "main_threads": [
+      "礼崩乐坏与权力下移：从“礼乐征伐自诸侯出”到“陪臣执国命”",
+      "争霸战争形态的演进：车战会盟 → 步兵骑兵大兵团歼灭战",
+      "变法运动与国家重构：郡县、俸禄官僚、户籍与常备军",
+      "思想爆炸：士阶层崛起与百家争鸣"
+    ],
+    "sub_periods": [
+      {"name": "春秋", "range_display": "前770年—前453/前403年", "desc": "霸主政治：齐晋楚秦吴越轮替，会盟与战争并存，周天子仅存共主名义。"},
+      {"name": "战国", "range_display": "前453/前403年—前221年", "desc": "七雄并立、变法竞争与兼并战争，终结于秦统一。"}
+    ],
+    "key_changes": [
+      "铁器与牛耕推广，井田制瓦解",
+      "郡县制与俸禄官僚制取代世卿世禄",
+      "铜币流通、城市与商业发展",
+      "各国文字货币度量衡趋异又渐趋同"
+    ]
+  },
+  "events": [
+    {
+      "id": "cq-pingwang-qianluo",
+      "title": "平王东迁与东周开始",
+      "year": -770,
+      "end_year": null,
+      "year_display": "前770年",
+      "end_year_display": null,
+      "year_note": "据《史记·周本纪》平王元年系于前770年（历表换算）；东迁之年为编年史连续记载之第二年。",
+      "location": "自镐京迁洛邑（今河南洛阳）",
+      "key_people": [],
+      "background": "幽王死于犬戎之乱后，平王宜臼由申、缯拥立，镐京残破且处犬戎兵锋之下，王畿西半已无力控制。",
+      "process": [
+        "前771年幽王死，申、鲁、许等诸侯共立太子宜臼于申（拥立经过有史料歧异）。",
+        "前770年，平王在晋文侯、郑武公、秦襄公护送下东迁洛邑。",
+        "秦襄公因护送之功始列为诸侯，获“岐以西之地”的合法名义（实际为攻戎自取）。",
+        "郑、晋、秦相继坐大，周室仅存“共主”名义。"
+      ],
+      "outcome": "东周开始：王室直接控制区缩至洛邑一带，政治重心下移诸侯，春秋争霸格局开启。",
+      "controversies": [
+        {"issue": "平王得位的正当性", "views": [
+          {"holder": "《史记》叙事", "basis": "以幽王无道、平王正统为框架，隐去平王与弑父事件的关联。"},
+          {"holder": "古史家辨析（钱穆等）", "basis": "指出平王之立系申侯外戚联合犬戎弑君的结果，得位有“不正”之嫌，周室威信自此难以复振；携王并立说（《竹书纪年》）进一步说明王位之争持续多年。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>平王东迁（前770年，方位示意）</text><rect x='90' y='100' width='170' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='175' y='128' text-anchor='middle' font-size='14' fill='#8c1f28'>镐京（残破）</text><text x='175' y='152' text-anchor='middle' font-size='11'>犬戎兵锋之下</text><rect x='470' y='100' width='200' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='570' y='128' text-anchor='middle' font-size='14'>洛邑（成周）</text><text x='570' y='152' text-anchor='middle' font-size='11'>东周都城</text><line x1='260' y1='135' x2='466' y2='135' stroke='#2b4a6f' marker-end='url(#cb1)'/><text x='363' y='122' text-anchor='middle' font-size='12'>晋·郑·秦护送</text><g font-size='12'><rect x='60' y='220' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='160' y='246' text-anchor='middle'>秦襄公始列为诸侯</text><text x='160' y='268' text-anchor='middle' font-size='11'>获“岐以西”名义</text><rect x='280' y='220' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='246' text-anchor='middle'>郑武公坐大</text><text x='380' y='268' text-anchor='middle' font-size='11'>近畿干政之始</text><rect x='500' y='220' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='600' y='246' text-anchor='middle'>晋文侯定王室</text><text x='600' y='268' text-anchor='middle' font-size='11'>河南之赐</text></g><text x='380' y='330' text-anchor='middle' font-size='14'>王室直辖缩至洛邑一带，权力下移诸侯</text><text x='380' y='360' text-anchor='middle' font-size='12' fill='#7a7468'>争议：平王得位“不正”说与携王并立说</text></svg>",
+      "sources": ["shiji", "zuozhuan", "zhushujinian", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "cq-xuge-battle",
+      "title": "繻葛之战：周郑交恶与王师受挫",
+      "year": -707,
+      "end_year": null,
+      "year_display": "前707年",
+      "end_year_display": null,
+      "year_note": "据《左传》桓公五年（周桓王十三年）系于前707年，历表换算。",
+      "location": "繻葛（今河南长葛一带）",
+      "key_people": [],
+      "background": "郑庄公以周室卿士身份挟天子号令，周桓王欲夺其政（“周郑交质”“周郑交恶”，取温之麦、成周之禾），终率王师与蔡、卫、陈伐郑。",
+      "process": [
+        "周桓王亲率王师并蔡、卫、陈三国联军攻郑。",
+        "郑以“鱼丽之阵”迎战：先偏后伍、伍承弥缝（《左传》所载阵法）。",
+        "郑将祝聃射桓王中肩；祝聃请追，庄公以“君子不欲多上人”止之，夜遣使慰劳周王。"
+      ],
+      "outcome": "天子亲征败于诸侯，“射王中肩”成为王纲坠地的标志性事件；此后周室再无实力讨伐诸侯。",
+      "controversies": [
+        {"issue": "战役记载的框架与解读", "views": [
+          {"holder": "《左传》", "basis": "以简练叙事记战阵与射王之事，为唯一系统记载。"},
+          {"holder": "后世史论", "basis": "多以此为“礼崩乐坏”的象征节点；对郑庄公“不追击、遣使慰劳”的解读，传统视为留有余地的政治智慧，现代亦有视为维持政治脸面的策略说。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>繻葛之战（前707年）</text><rect x='60' y='90' width='260' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='190' y='118' text-anchor='middle' font-size='14'>周王师+蔡卫陈联军</text><text x='190' y='142' text-anchor='middle' font-size='11'>周桓王亲征</text><rect x='440' y='90' width='260' height='90' fill='#fff' stroke='#8c1f28'/><text x='570' y='118' text-anchor='middle' font-size='14'>郑军</text><text x='570' y='142' text-anchor='middle' font-size='11'>“鱼丽之阵”：先偏后伍</text><line x1='320' y1='135' x2='436' y2='135' stroke='#8c1f28' marker-end='url(#cb2)'/><defs><marker id='cb2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><rect x='230' y='220' width='300' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='248' text-anchor='middle' font-size='14' fill='#8c1f28'>祝聃射王中肩</text><text x='380' y='272' text-anchor='middle' font-size='11'>郑不追击，夜遣使慰劳周王</text><text x='380' y='340' text-anchor='middle' font-size='13'>天子威严扫地：王纲自此不能制诸侯</text></svg>",
+      "sources": ["zuozhuan", "shiji", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "cq-qihuanggong-kuichi",
+      "title": "齐桓公称霸与葵丘之盟",
+      "year": -651,
+      "end_year": null,
+      "year_display": "前651年",
+      "end_year_display": null,
+      "year_note": "葵丘之会据《春秋》僖公九年（周襄王元年）系于前651年，历表换算。",
+      "location": "葵丘（今河南兰考、民权一带）",
+      "key_people": [],
+      "background": "齐自太公封国即为东方大国；庄僖之际经营有成，襄公乱政后内乱，公子小白与公子纠争立，小白胜立为桓公，任鲍叔荐之管仲为相。",
+      "process": [
+        "管仲为相，行“相地而衰征”“官山海”等富国政策（见《国语·齐语》《管子》）。",
+        "以“尊王攘夷”为旗：北伐山戎救燕，存邢救卫，南抗楚（召陵之盟，前656年）。",
+        "多次会盟诸侯，前651年葵丘之会为极盛：周襄王使宰孔赐胙，齐桓公“下拜登受”。",
+        "葵丘盟约五命：“诛不孝”“尊贤育才”“士无世官”……（《孟子·告子下》所录盟辞）"
+      ],
+      "outcome": "开创霸主政治模式：不以灭国而以会盟维持秩序，周天子被“尊”而实权旁落；齐霸维持约三十年，桓公卒后诸子争立而霸业中衰。",
+      "controversies": [
+        {"issue": "会盟次数与“九合诸侯”", "views": [
+          {"holder": "《论语》《史记》", "basis": "“九合诸侯，一匡天下”——“九”或为约数。"},
+          {"holder": "《左传》逐条记事", "basis": "可考的会盟次数与“九”数不合，学界视为虚指；召陵之盟与葵丘之会为两次公认高峰。"}
+        ]},
+        {"issue": "“尊王”的实质", "views": [
+          {"holder": "传统叙事", "basis": "霸主以尊王为义，维系周制秩序。"},
+          {"holder": "现代政治史分析", "basis": "霸政是王室权威真空下的替代性秩序：经济（盐铁）与军事压力才是齐霸根基，“尊王”为合法性包装。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>齐桓公霸业（前685—前643）</text><g font-size='12'><rect x='60' y='80' width='200' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>内政：管仲为相</text><text x='160' y='130' text-anchor='middle' font-size='11'>相地而衰征·官山海</text><rect x='290' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle'>旗号：尊王攘夷</text><text x='390' y='130' text-anchor='middle' font-size='11'>救燕·存邢卫·抗楚</text><rect x='520' y='80' width='200' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='620' y='106' text-anchor='middle' fill='#8c1f28'>前651 葵丘之会</text><text x='620' y='130' text-anchor='middle' font-size='11'>霸业极盛·五命之约</text><line x1='260' y1='115' x2='286' y2='115' stroke='#2b4a6f' marker-end='url(#cb3)'/><line x1='490' y1='115' x2='516' y2='115' stroke='#2b4a6f' marker-end='url(#cb3)'/></g><line x1='620' y1='150' x2='620' y2='190' stroke='#8c1f28' marker-end='url(#cb3)'/><rect x='120' y='194' width='520' height='100' fill='#fff' stroke='#2b4a6f'/><text x='380' y='220' text-anchor='middle' font-size='13'>葵丘盟辞（孟子·告子下录）</text><text x='380' y='246' text-anchor='middle' font-size='11'>初命：诛不孝，无易树子；再命：尊贤育才，以彰有德</text><text x='380' y='268' text-anchor='middle' font-size='11'>三命：敬老慈幼；四命：士无世官……五命：无曲防，无遏籴</text><text x='380' y='372' text-anchor='middle' font-size='12'>霸主政治模式确立：以会盟代王命，秩序替代权威</text></svg>",
+      "sources": ["zuozhuan", "shiji", "mengzi_shu", "guanzi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "cq-chengpu-battle",
+      "title": "城濮之战与晋文公称霸",
+      "year": -632,
+      "end_year": null,
+      "year_display": "前632年",
+      "end_year_display": null,
+      "year_note": "据《春秋》僖公二十八年（晋文公五年）系于前632年，历表换算。",
+      "location": "城濮（今山东鄄城西南一带）",
+      "key_people": [],
+      "background": "晋文公（重耳）流亡十九年后于前636年归国即位，整顿军政（作三军、行“被庐之法”）；楚北上围宋，宋求救于晋。",
+      "process": [
+        "前632年，晋救宋，先攻楚盟国曹、卫以调动楚军。",
+        "晋军退避三舍（九十里），报楚成王礼遇之诺，并诱楚将子玉轻进。",
+        "城濮会战：晋下军佯退曳柴扬尘，上军夹击，大破楚左右军。",
+        "战后践土之盟，晋文公召周襄王与会，诸侯朝王；晋霸确立。"
+      ],
+      "outcome": "晋国成为此后百年中原霸主，晋楚争霸构成春秋中后期主线；“退避三舍”“师直为壮”进入军事与政治话语。",
+      "controversies": [
+        {"issue": "“退避三舍”的性质", "views": [
+          {"holder": "《左传》叙事", "basis": "重在报楚成王流亡之恩，兼“师直为壮”的军心考虑。"},
+          {"holder": "军事史解读", "basis": "视之为诱敌深入、拉长楚军补给线的战术安排；两种解读并存不悖。"}
+        ]},
+        {"issue": "召王与会", "views": [
+          {"holder": "孔子评语（《论语·宪问》）", "basis": "“晋文公谲而不正”——召天子赴会不合臣礼。"},
+          {"holder": "传统史家", "basis": "以“尊王”实绩辩护；两说并存反映霸政的内在矛盾。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>城濮之战（前632年，示意）</text><rect x='80' y='80' width='240' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='200' y='108' text-anchor='middle' font-size='14'>晋军（先轸·郤溱）</text><text x='200' y='132' text-anchor='middle' font-size='11'>三军七百乘</text><rect x='440' y='80' width='240' height='70' fill='#fff' stroke='#8c1f28'/><text x='560' y='108' text-anchor='middle' font-size='14'>楚军（子玉）</text><text x='560' y='132' text-anchor='middle' font-size='11'>陈蔡申息之师随行</text><line x1='320' y1='115' x2='436' y2='115' stroke='#8c1f28' marker-end='url(#cb4)'/><text x='380' y='200' text-anchor='middle' font-size='13'>晋“退避三舍”（九十里）诱敌</text><rect x='250' y='220' width='260' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='248' text-anchor='middle' font-size='14' fill='#8c1f28'>城濮会战</text><text x='380' y='272' text-anchor='middle' font-size='11'>佯退曳柴扬尘，破楚左右军</text><line x1='380' y1='290' x2='380' y2='318' stroke='#8c1f28' marker-end='url(#cb4)'/><rect x='190' y='322' width='380' height='56' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='345' text-anchor='middle' font-size='13'>践土之盟，晋霸确立</text><text x='380' y='368' text-anchor='middle' font-size='11'>孔子评：“晋文公谲而不正”</text></svg>",
+      "sources": ["zuozhuan", "lunyu", "shiji", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "cq-mibing-hui",
+      "title": "弭兵之会",
+      "year": -546,
+      "end_year": null,
+      "year_display": "前546年",
+      "end_year_display": null,
+      "year_note": "第二次弭兵之会（宋大夫向戌发起）据《春秋》襄公二十七年系于前546年，历表换算。",
+      "location": "宋都（今河南商丘）西门外",
+      "key_people": [],
+      "background": "晋楚百年争霸使中原小国疲于两属（朝晋暮楚），晋国内部六卿坐大、楚受吴国牵制，双方均有停战需求；此前前579年已有华元弭兵（未久即破）。",
+      "process": [
+        "宋大夫向戌奔走晋楚齐秦诸国发起会盟（“弭兵”即止战）。",
+        "前546年十四国会于宋：晋楚争先歃血，叔向劝晋让楚先。",
+        "盟约核心：“晋楚之从交相见”——晋的盟国朝楚、楚的盟国朝晋，齐秦除外。",
+        "此后中原大规模战争基本停歇约四十年。"
+      ],
+      "outcome": "大国共霸、小国双重贡赋的和平：中原相对安定，晋国内政演变（六卿）与吴楚战争继续发展；和平为各国变法与经济恢复提供窗口。",
+      "controversies": [
+        {"issue": "弭兵和平的性质", "views": [
+          {"holder": "《左传》叙事", "basis": "向戌以“弭兵”为功，子产等小国之卿自知贡赋加重（“晋楚之从交相见”）的负担。"},
+          {"holder": "现代史学研究", "basis": "强调其结构性：非道义成果而是大国力量均衡与小国“两属”制度化；和平同时也锁死了小国的外交空间。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>弭兵之会（前546年，宋都西门外）</text><rect x='270' y='80' width='220' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='108' text-anchor='middle' font-size='14'>十四国会盟于宋</text><text x='380' y='132' text-anchor='middle' font-size='11'>向戌发起·晋楚争先歃血</text><g font-size='12'><rect x='60' y='190' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='160' y='216' text-anchor='middle'>晋的盟国</text><text x='160' y='240' text-anchor='middle' font-size='11'>此后亦朝楚</text><rect x='500' y='190' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='600' y='216' text-anchor='middle'>楚的盟国</text><text x='600' y='240' text-anchor='middle' font-size='11'>此后亦朝晋</text><rect x='280' y='190' width='200' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='216' text-anchor='middle' fill='#8c1f28'>小国“两属”</text><text x='380' y='240' text-anchor='middle' font-size='11'>双重贡赋·负担加重</text><line x1='260' y1='230' x2='276' y2='230' stroke='#2b4a6f' marker-end='url(#cb5)'/><line x1='500' y1='230' x2='484' y2='230' stroke='#2b4a6f' marker-end='url(#cb5)'/></g><text x='380' y='310' text-anchor='middle' font-size='14'>结果：中原大规模战争停歇约40年</text><text x='380' y='340' text-anchor='middle' font-size='12'>各国得隙变法与发展；齐秦与吴楚战事未停</text></svg>",
+      "sources": ["zuozhuan", "shiji", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "cq-wuyue-bazheng",
+      "title": "吴越争霸",
+      "year": -496,
+      "end_year": -473,
+      "year_display": "前496年",
+      "end_year_display": "前473年",
+      "year_note": "檇里之战（阖闾伤死）据《春秋》定公十四年系于前496年；越灭吴据《左传》哀公二十二年系于前473年，历表换算。",
+      "location": "长江下游（吴：今苏州一带；越：今绍兴一带）",
+      "key_people": [],
+      "background": "吴在晋扶助下兴起（联晋制楚），阖闾用孙武、伍子胥破楚入郢；越于东南崛起，与吴争长。夫差继位誓报父仇。",
+      "process": [
+        "前496年檇里之战，吴王阖闾伤重而死，夫差立，使一人立于庭庭前提醒“汝忘杀父之仇乎”。",
+        "前494年夫椒之战大败越，勾践以残兵五千保栖会稽，用范蠡、文种计乞和为奴。",
+        "勾践归国“十年生聚，十年教训”，文种治政、范蠡治军，赂太宰嚭、间伍子胥（伍子胥被赐死）。",
+        "前482年黄池之会夫差与晋定公争长，越乘虚袭吴；前478—473年越连续攻吴，前473年破吴都，夫差自刎，吴亡。",
+        "范蠡泛舟五湖，遗书文种“飞鸟尽，良弓藏”；文种被赐属镂剑自尽。"
+      ],
+      "outcome": "越灭吴后北上会盟（琅琊迁都说有争议），东南霸业短暂；吴越之亡使中原均势变化，楚得渔利；勾践“兔死狗烹”的处置成为君臣关系的经典反面案例。",
+      "controversies": [
+        {"issue": "“卧薪尝胆”的形成", "views": [
+          {"holder": "《史记·越王勾践世家》", "basis": "只载“置胆于坐，饮食亦尝胆也”，无“卧薪”。"},
+          {"holder": "宋代文献考证", "basis": "“卧薪”始见于苏轼文章，宋以后“卧薪尝胆”合为成语；属后世叠加的道德叙事。"}
+        ]},
+        {"issue": "勾践的历史评价", "views": [
+          {"holder": "传统励志叙事", "basis": "忍辱负重、励精图治的楷模。"},
+          {"holder": "史料辨析视角", "basis": "《史记》并载其可共患难不可共乐的刻薄（赐死文种），功臣政治的残酷被励志叙事淡化；本站并列。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>吴越争霸（前496—前473）</text><g font-size='12'><rect x='40' y='80' width='180' height='64' fill='#fff' stroke='#2b4a6f'/><text x='130' y='106' text-anchor='middle'>前496 檇里</text><text x='130' y='126' text-anchor='middle' font-size='11'>阖闾伤死，夫差立</text><rect x='250' y='80' width='180' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='340' y='106' text-anchor='middle' fill='#8c1f28'>前494 夫椒</text><text x='340' y='126' text-anchor='middle' font-size='11'>越败，勾践入吴为奴</text><rect x='460' y='80' width='140' height='64' fill='#fff' stroke='#2b4a6f'/><text x='530' y='106' text-anchor='middle'>十年生聚</text><text x='530' y='126' text-anchor='middle' font-size='11'>范蠡·文种</text><rect x='620' y='80' width='120' height='64' fill='#efe4cf' stroke='#8c1f28'/><text x='680' y='106' text-anchor='middle' fill='#8c1f28'>前482 黄池</text><text x='680' y='126' text-anchor='middle' font-size='11'>越袭吴都</text><line x1='220' y1='112' x2='246' y2='112' stroke='#8c1f28' marker-end='url(#cb6)'/><line x1='430' y1='112' x2='456' y2='112' stroke='#8c1f28' marker-end='url(#cb6)'/><line x1='600' y1='112' x2='616' y2='112' stroke='#8c1f28' marker-end='url(#cb6)'/></g><line x1='680' y1='144' x2='440' y2='200' stroke='#8c1f28' marker-end='url(#cb6)'/><rect x='240' y='204' width='280' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='230' text-anchor='middle' font-size='14' fill='#8c1f28'>前473 越灭吴</text><text x='380' y='254' text-anchor='middle' font-size='11'>夫差自刎；范蠡去·文种死（属镂剑）</text><text x='380' y='320' text-anchor='middle' font-size='12'>争议：“卧薪”始见于宋，“尝胆”方为《史记》原文</text><text x='380' y='352' text-anchor='middle' font-size='12' fill='#7a7468'>“飞鸟尽，良弓藏”——功臣政治的经典案例</text></svg>",
+      "sources": ["shiji", "zuozhuan", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-sanjia-fenjin",
+      "title": "三家分晋",
+      "year": -453,
+      "end_year": -403,
+      "year_display": "前453年",
+      "end_year_display": "前403年",
+      "year_note": "两节点换算：前453年晋阳之战灭智氏（据《战国策》《史记》晋世家族年推排）；前403年周威烈王二十三年册命韩赵魏为诸侯（《资治通鉴》开篇所系，《史记》年表同）。本条以实际权力转移（前453）起、名义册命（前403）终。",
+      "location": "晋阳（今太原）及晋国全境",
+      "key_people": [],
+      "background": "晋国自献公尽逐群公子后公族弱、异姓卿大夫强；历经狐赵先郤栾范中行智诸卿兼并，至前5世纪末只剩赵魏韩智四卿，智氏最强。",
+      "process": [
+        "智伯瑶执政，向韩魏赵索地；韩魏惧而献，赵襄子拒绝。",
+        "前453年，智伯率韩魏围赵襄子于晋阳，引汾水灌城（水灌细节见《战国策》）。",
+        "赵暗使张孟谈说韩魏“唇亡齿寒”，三家倒戈决水灌智伯军，灭智氏分其地。",
+        "前403年，周威烈王正式册命韩虔、赵籍、魏斯为诸侯。",
+        "前376年，三国废晋静公，晋祀绝。"
+      ],
+      "outcome": "晋国一分为三，“战国七雄”格局正式成型；司马光以册命之年开《资治通鉴》，专论“天子之职莫大于礼”的名分崩坏。",
+      "controversies": [
+        {"issue": "分晋纪年：前453还是前403", "views": [
+          {"holder": "司马光《资治通鉴》", "basis": "以前403年册命为开篇：名分既坏而天下从此大乱，故系年于此以论“名分”。"},
+          {"holder": "现代史学主流", "basis": "以前453年灭智氏为实际权力转移节点；前403年只是追认。编年叙事取向不同则取年不同。"},
+          {"holder": "调和写法", "basis": "两阶段说：453分地、403命侯、376绝祀，本站即用此写法。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>三家分晋（前453—前403）</text><rect x='90' y='80' width='220' height='80' fill='#fff' stroke='#8c1f28'/><text x='200' y='108' text-anchor='middle' font-size='14'>晋阳之战（前453）</text><text x='200' y='132' text-anchor='middle' font-size='11'>智氏决水灌城→韩魏倒戈</text><rect x='360' y='80' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='450' y='108' text-anchor='middle' font-size='14' fill='#8c1f28'>灭智氏</text><text x='450' y='132' text-anchor='middle' font-size='11'>三家分其地</text><rect x='580' y='80' width='150' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='655' y='108' text-anchor='middle' font-size='14'>前403 册命</text><text x='655' y='132' text-anchor='middle' font-size='11'>韩赵魏为诸侯</text><line x1='310' y1='120' x2='356' y2='120' stroke='#8c1f28' marker-end='url(#cb7)'/><line x1='540' y1='120' x2='576' y2='120' stroke='#2b4a6f' marker-end='url(#cb7)'/><g font-size='13'><rect x='100' y='200' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='180' y='226' text-anchor='middle'>赵（北）</text><text x='180' y='246' text-anchor='middle' font-size='11'>邯郸·晋阳</text><rect x='300' y='200' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle'>魏（中）</text><text x='380' y='246' text-anchor='middle' font-size='11'>安邑·大梁</text><rect x='500' y='200' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='580' y='226' text-anchor='middle'>韩（南）</text><text x='580' y='246' text-anchor='middle' font-size='11'>平阳·阳翟·新郑</text></g><text x='380' y='310' text-anchor='middle' font-size='14'>“战国七雄”格局成型</text><text x='380' y='345' text-anchor='middle' font-size='12' fill='#7a7468'>司马光开篇论“天子之职莫大于礼”——纪年分歧本身是史学立场问题</text></svg>",
+      "sources": ["shiji", "tongjian", "zhanguoce", "zhushujinian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-likui-bianfa",
+      "title": "李悝变法与《法经》",
+      "year": -445,
+      "end_year": -400,
+      "year_display": "约前445年",
+      "end_year_display": "约前400年",
+      "year_note": "魏文侯在位约前445—前396年（据《史记》魏世家积年推排，约数），李悝变法行于其间；《法经》约成于前5世纪末，具体年份无载。",
+      "location": "魏国（都安邑，今山西夏县一带）",
+      "key_people": [],
+      "background": "三家分晋后魏居中原四战之地，文侯礼贤（子夏西河设教、任吴起西门豹乐羊等），以李悝主持变法求富强。",
+      "process": [
+        "“尽地力之教”：督农耕、精耕细作以提高亩产。",
+        "平籴法：丰年由官府平价籴粮储之，荒年平价粜出，稳定粮价（《汉书·食货志》载其数——数字存疑）。",
+        "“食有劳而禄有功”：夺淫民（无功贵族）之禄，开俸禄官僚制先声。",
+        "著《法经》六篇：盗、贼、囚、捕、杂、具，以刑事法总集授商鞅（商鞅携之入秦说见《唐律疏议》等后世追述）。"
+      ],
+      "outcome": "魏成战国首强（前5世纪末至前4世纪中），西取秦河西、南败楚、破中山；《法经》奠定中国成文刑法典框架，秦汉律学的源头。",
+      "controversies": [
+        {"issue": "《法经》的流传与内容", "views": [
+          {"holder": "《晋书·刑法志》等后世转述", "basis": "录六篇名目与“商鞅受之以相秦”的传承链。"},
+          {"holder": "现代法史学界", "basis": "《法经》原文先秦无引、汉志无目，六篇框架与传承细节无法用先秦文献确证；普遍视为可信的间接记载，内容复原属推测。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>李悝变法（约前445—前400，魏）</text><g font-size='12'><rect x='60' y='80' width='160' height='80' fill='#fff' stroke='#2b4a6f'/><text x='140' y='106' text-anchor='middle'>尽地力之教</text><text x='140' y='128' text-anchor='middle' font-size='11'>督农增产</text><rect x='250' y='80' width='160' height='80' fill='#fff' stroke='#2b4a6f'/><text x='330' y='106' text-anchor='middle'>平籴法</text><text x='330' y='128' text-anchor='middle' font-size='11'>丰籴荒粜·稳粮价</text><rect x='440' y='80' width='160' height='80' fill='#fff' stroke='#2b4a6f'/><text x='520' y='106' text-anchor='middle'>食有劳禄有功</text><text x='520' y='128' text-anchor='middle' font-size='11'>夺淫民之禄</text><rect x='630' y='80' width='110' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='685' y='106' text-anchor='middle' fill='#8c1f28'>《法经》</text><text x='685' y='128' text-anchor='middle' font-size='11'>六篇</text></g><rect x='130' y='190' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='216' text-anchor='middle' font-size='13'>《法经》六篇：盗·贼·囚·捕·杂·具</text><text x='380' y='240' text-anchor='middle' font-size='11'>中国成文刑法典框架之源；原文失传，六篇名目见《晋书·刑法志》转述</text><text x='380' y='262' text-anchor='middle' font-size='11'>商鞅携以入秦说系后世追述</text><text x='380' y='320' text-anchor='middle' font-size='14'>魏成战国首强：西取河西、南败楚、破中山</text><text x='380' y='356' text-anchor='middle' font-size='12' fill='#7a7468'>变法成效在数十年的国势上可证，制度细节依赖转述文献</text></svg>",
+      "sources": ["hanshu", "qianmu-guoshi", "zgbk"],
+      "needs_verification": true,
+      "pending_notes": "《法经》原文失传，六篇内容与“商鞅受之相秦”传承链无法以先秦文献确证；平籴法的粮价数字（《汉书·食货志》）系后世追记，未作实数引用。"
+    },
+    {
+      "id": "zg-wuqi-chubian",
+      "title": "吴起变法",
+      "year": -386,
+      "end_year": -381,
+      "year_display": "约前386年",
+      "end_year_display": "前381年",
+      "year_note": "吴起奔楚约前390年代末（《史记》系年有出入，学界取约前386年前后）；楚悼王卒于前381年，变法随之而败。均据《史记》纪年推排换算。",
+      "location": "楚国（都郢，今湖北荆州一带）",
+      "key_people": [],
+      "background": "楚地方数千里而政出多门：封君世袭、枝官冗滥；悼王欲变法图强，纳自魏奔楚的名将吴起（曾主持魏西河军事）。",
+      "process": [
+        "约前386—前385年，吴起任宛守，一年后升令尹，主持变法。",
+        "“损有余补不足”：封君传至三世者收其爵禄，裁汰冗官（“损不急之枝官”，《韩非子·和氏》所记）。",
+        "迁徙贵戚往广虚之地（实边），以削弱其在郢的势力。",
+        "前381年悼王卒，宗室作乱攻吴起；起伏于王尸，乱兵射中之并中王尸；肃王即位后夷灭射起者七十余家。"
+      ],
+      "outcome": "变法随悼王之死与人亡政息而中止，楚国富强未成体系；射王尸的结局使楚贵族与王权的矛盾公开化。吴起之死为“变法者人身悲剧”的最早著名案例。",
+      "controversies": [
+        {"issue": "吴起个人史料的可信度", "views": [
+          {"holder": "《史记·孙子吴起列传》", "basis": "记其鲁“杀妻求将”、魏李克评“贪而好色”等负面细节。"},
+          {"holder": "现代辨析", "basis": "指出杀妻等细节出自敌国传闻式叙事，与吴起治军“与士卒最下者同衣食”的记载张力明显；《吴子》今本六篇疑为后人缀辑，不能作一手史料。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>吴起变法（约前386—前381，楚）</text><g font-size='12'><rect x='60' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>损有余补不足</text><text x='160' y='130' text-anchor='middle' font-size='11'>封君三世收爵禄</text><rect x='290' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle'>裁冗官</text><text x='390' y='130' text-anchor='middle' font-size='11'>“损不急之枝官”（韩非子）</text><rect x='520' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='620' y='106' text-anchor='middle'>迁贵戚实边</text><text x='620' y='130' text-anchor='middle' font-size='11'>削弱郢都势力</text><line x1='260' y1='115' x2='286' y2='115' stroke='#2b4a6f' marker-end='url(#cb8)'/><line x1='490' y1='115' x2='516' y2='115' stroke='#2b4a6f' marker-end='url(#cb8)'/></g><line x1='380' y1='150' x2='380' y2='185' stroke='#8c1f28' marker-end='url(#cb8)'/><rect x='230' y='190' width='300' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='216' text-anchor='middle' font-size='14' fill='#8c1f28'>前381 悼王卒·宗室作乱</text><text x='380' y='242' text-anchor='middle' font-size='11'>吴起伏王尸被射；肃王夷七十余家</text><rect x='130' y='300' width='500' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='326' text-anchor='middle' font-size='13'>人亡政息：楚国富强未成体系</text><text x='380' y='352' text-anchor='middle' font-size='11'>史料辨析：“杀妻求将”等细节出自传闻式叙事，需谨慎引用</text></svg>",
+      "sources": ["shiji", "hanfeizi", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-jixia-xuegong",
+      "title": "百家争鸣与稷下学宫",
+      "year": -374,
+      "end_year": -250,
+      "year_display": "约前374年",
+      "end_year_display": "约前250年",
+      "year_note": "据《史记》《盐铁论》等间接记载推排：稷下学宫创建者两说（田齐桓公午或齐威王），创建约前374年前后（约数）；至战国末期（约前250年后）渐衰，齐亡前已不存。年代均为学界推排约数。",
+      "location": "齐国临淄稷门（西门）附近",
+      "key_people": [],
+      "background": "士阶层随私学兴起而壮大（孔子首开大规模私学）；田齐欲广纳贤才以强国势，设学宫“不治而议论”，优待诸子。",
+      "process": [
+        "约前374年起，齐国稷门下筑馆养士，学者称“稷下先生”。",
+        "孟子、淳于髡、慎到、邹衍、田骈、接子等先后游稷下；荀子年五十游学于齐，三为祭酒（据《史记》孟子荀卿列传）。",
+        "儒、道、法、阴阳、名家等各派互相辩难，形成“百家争鸣”的核心场域。",
+        "学宫著述与辩论深刻影响秦汉学术形态（《管子》一书即稷下学者集成的代表作）。"
+      ],
+      "outcome": "中国思想史上最集中的学派对话期：诸子学说的体系化与传播获得制度性平台；《管子》《晏子》等托名文献多成于稷下。",
+      "controversies": [
+        {"issue": "学宫创建者与创建年代", "views": [
+          {"holder": "传统两说", "basis": "一说田齐桓公午（约前374年前后）创建，一说齐威王（前356年即位）扩建定型。"},
+          {"holder": "学界现状", "basis": "以桓公午创建说为主流，但缺乏直接史料，均为据《史记》《盐铁论》等间接记载的推排。"}
+        ]},
+        {"issue": "稷下学宫的性质", "views": [
+          {"holder": "官方智库说", "basis": "“不治而议论”即以顾问身份议政。"},
+          {"holder": "早期大学说", "basis": "有学者认为其兼具讲学、著述、辩论的制度化功能，是世界最早的官办高等学术机构之一；两说可通，学界并行。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>稷下学宫与百家争鸣（约前374—约前250）</text><rect x='260' y='80' width='240' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>临淄稷门下·“不治而议论”</text><text x='380' y='128' text-anchor='middle' font-size='11'>齐国养士·优待稷下先生</text><g font-size='12'><rect x='50' y='170' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='120' y='196' text-anchor='middle'>儒家</text><text x='120' y='216' text-anchor='middle' font-size='11'>孟子·荀子</text><rect x='220' y='170' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='290' y='196' text-anchor='middle'>道家</text><text x='290' y='216' text-anchor='middle' font-size='11'>田骈·接子</text><rect x='390' y='170' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='460' y='196' text-anchor='middle'>法家</text><text x='460' y='216' text-anchor='middle' font-size='11'>慎到</text><rect x='560' y='170' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='630' y='196' text-anchor='middle'>阴阳家</text><text x='630' y='216' text-anchor='middle' font-size='11'>邹衍</text><rect x='140' y='260' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='220' y='286' text-anchor='middle'>名家·纵横家</text><text x='220' y='306' text-anchor='middle' font-size='11'>淳于髡等</text><rect x='420' y='260' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='500' y='286' text-anchor='middle'>《管子》集成</text><text x='500' y='306' text-anchor='middle' font-size='11'>稷下学者文集（托名）</text></g><text x='380' y='356' text-anchor='middle' font-size='13'>创建者两说并存（田齐桓公午/齐威王），年代系推排约数</text></svg>",
+      "sources": ["shiji", "guanzi", "qianmu-guoshi", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-shangyang-bianfa",
+      "title": "商鞅变法",
+      "year": -356,
+      "end_year": -338,
+      "year_display": "前356年",
+      "end_year_display": "前338年",
+      "year_note": "据《史记·秦本纪》，孝公元年（前361年）下求贤令，商鞅入秦；前356年（孝公六年前后）初行变法，前350年（十二年）二次变法迁都咸阳，前338年孝公卒、商鞅被诛。均据《史记》纪年推排换算。",
+      "location": "秦国（初都栎阳，前350年迁咸阳）",
+      "key_people": ["shang-yang"],
+      "background": "秦僻在雍州，戎狄环伺，被中原“夷翟遇之”；孝公感“诸侯卑秦”，下令求贤，“宾客群臣有能出奇计强秦者，吾且尊官，与之分土”。",
+      "process": [
+        "前361年商鞅（卫鞅）入秦，以“强国之术”说孝公，任左庶长主持变法。",
+        "前356年初次变法：编户什伍连坐、分户令、军功爵二十级、重农抑商、燔诗书而明法令（禁私斗）。",
+        "前350年二次变法：迁都咸阳、废井田开阡陌、普遍推行县制、统一度量衡。",
+        "太子犯法，刑其傅公子虔、黥其师公孙贾，“法之不行，自上犯之”。",
+        "前340年诱执魏公子卬破魏军，魏献河西地，迁都大梁。",
+        "前338年孝公卒，太子（惠文王）立，公子虔之徒告商鞅欲反，鞅走商邑举兵败，被车裂。"
+      ],
+      "outcome": "秦由西陲弱国转为耕战一体的强国，军功爵使秦国动员力冠绝诸国；商鞅虽死，“秦法未败”——变法框架为秦统一奠定制度基础。",
+      "controversies": [
+        {"issue": "变法分期与年代", "views": [
+          {"holder": "《史记·秦本纪》纪年", "basis": "两次变法系于孝公六年与十二年（前356/前350），学界通行。"},
+          {"holder": "睡虎地秦简与青川木牍研究", "basis": "出土秦律印证“分户”“什伍”等条目确实施行，但对“废井田”的实际含义（是否真有系统授田制的废除）有讨论。"}
+        ]},
+        {"issue": "商鞅的历史评价", "views": [
+          {"holder": "太史公（《史记》赞语）", "basis": "“天资刻薄”，少恩而严刑，卒受恶名。"},
+          {"holder": "法家传统", "basis": "“商君虽死，秦法未败”，制度之功不可没。"},
+          {"holder": "现代学界", "basis": "变法奠定秦制基础毋庸置疑，但其人身结局与法家“法自君出”的结构性矛盾是重要分析点。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>商鞅变法（前356—前338）</text><g font-size='12'><rect x='50' y='70' width='200' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='150' y='96' text-anchor='middle'>第一次（前356）</text><text x='150' y='118' text-anchor='middle' font-size='11'>什伍连坐·军功爵</text><text x='150' y='138' text-anchor='middle' font-size='11'>重农抑商·分户令</text><rect x='290' y='70' width='200' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='96' text-anchor='middle'>第二次（前350）</text><text x='390' y='118' text-anchor='middle' font-size='11'>迁都咸阳·开阡陌</text><text x='390' y='138' text-anchor='middle' font-size='11'>普遍县制·统一度量衡</text><rect x='530' y='70' width='190' height='90' fill='#fff' stroke='#2b4a6f'/><text x='625' y='96' text-anchor='middle'>法治执行</text><text x='625' y='118' text-anchor='middle' font-size='11'>刑太子傅师</text><text x='625' y='138' text-anchor='middle' font-size='11'>“法之不行自上犯之”</text><line x1='250' y1='115' x2='286' y2='115' stroke='#2b4a6f' marker-end='url(#cb9)'/><line x1='490' y1='115' x2='526' y2='115' stroke='#2b4a6f' marker-end='url(#cb9)'/></g><line x1='625' y1='160' x2='625' y2='195' stroke='#2b4a6f' marker-end='url(#cb9)'/><rect x='460' y='200' width='260' height='70' fill='#fff' stroke='#2b4a6f'/><text x='590' y='226' text-anchor='middle' font-size='13'>前340 破魏军·魏献河西</text><text x='590' y='250' text-anchor='middle' font-size='11'>秦转为第一强国</text><line x1='460' y1='235' x2='300' y2='260' stroke='#8c1f28' marker-end='url(#cb9)'/><rect x='60' y='264' width='240' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='180' y='290' text-anchor='middle' font-size='13' fill='#8c1f28'>前338 孝公卒</text><text x='180' y='314' text-anchor='middle' font-size='11'>商鞅车裂，而“秦法未败”</text><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>评价分歧：太史公“天资刻薄” vs 法家传统“制度之功”</text></svg>",
+      "sources": ["shiji", "shangjunshu", "zhwp-shangyang", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-maling-battle",
+      "title": "马陵之战",
+      "year": -341,
+      "end_year": null,
+      "year_display": "前341年",
+      "end_year_display": null,
+      "year_note": "据《史记·魏世家》魏惠王二十九年（前341年）齐救韩败魏于马陵；历表换算。",
+      "location": "马陵（地望有山东莘县、郯城等异说）",
+      "key_people": [],
+      "background": "魏惠王四面用兵：西失河西于秦，东争中原；前342年魏攻韩，韩求救于齐，齐以田忌为将、孙膑为师出兵。",
+      "process": [
+        "齐军直趋大梁迫魏回师（“批亢捣虚”之策，孙膑语）。",
+        "孙膑用减灶之计：第一日十万灶，次日五万，次日三万，诱庞涓轻骑兼程追击。",
+        "追至马陵道隘，万弩齐发，魏军大乱；庞涓自刭（据《史记·孙子吴起列传》，树白书“庞涓死于此树之下”）。",
+        "魏太子申被俘，魏精锐尽失；前334年魏惠王与齐威王徐州相王，魏霸终结。"
+      ],
+      "outcome": "魏国由中原首强跌落，齐取而代之；减灶诱敌成为经典战例，“围魏救赵”（前353桂陵之战）与马陵连为孙膑兵法的实战注脚。",
+      "controversies": [
+        {"issue": "马陵地望与战役归属", "views": [
+          {"holder": "《史记》系统", "basis": "桂陵（前353）、马陵（前341）两役分叙，庞涓死于马陵。"},
+          {"holder": "《战国策·齐策》相关记载", "basis": "有“禽（擒）庞涓”系于桂陵的读法；1972年银雀山汉墓《孙膑兵法》出土后，学界确认桂陵、马陵为两役，但马陵具体地点（莘县/郯城诸说）仍无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>马陵之战（前341年）</text><g font-size='12'><rect x='60' y='80' width='200' height='64' fill='#fff' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>魏攻韩·韩求救</text><text x='160' y='126' text-anchor='middle' font-size='11'>田忌将·孙膑师</text><rect x='300' y='80' width='200' height='64' fill='#efe4cf' stroke='#2b4a6f'/><text x='400' y='106' text-anchor='middle'>齐趋大梁</text><text x='400' y='126' text-anchor='middle' font-size='11'>“批亢捣虚”</text><rect x='540' y='80' width='180' height='64' fill='#fff' stroke='#8c1f28'/><text x='630' y='106' text-anchor='middle' fill='#8c1f28'>庞涓回师</text><text x='630' y='126' text-anchor='middle' font-size='11'>轻骑兼程追击</text><line x1='260' y1='112' x2='296' y2='112' stroke='#2b4a6f' marker-end='url(#cb10)'/><line x1='500' y1='112' x2='536' y2='112' stroke='#8c1f28' marker-end='url(#cb10)'/></g><rect x='250' y='170' width='280' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='196' text-anchor='middle' font-size='13'>减灶诱敌：十万→五万→三万</text><text x='390' y='220' text-anchor='middle' font-size='11'>《史记·孙子吴起列传》</text><line x1='390' y1='240' x2='390' y2='270' stroke='#8c1f28' marker-end='url(#cb10)'/><rect x='230' y='274' width='320' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='300' text-anchor='middle' font-size='14' fill='#8c1f28'>马陵道隘·万弩齐发</text><text x='390' y='326' text-anchor='middle' font-size='11'>庞涓自刭·太子申被俘·魏霸终结</text><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>地望异说（莘县/郯城）；桂陵马陵两役之辨经《孙膑兵法》出土厘清</text></svg>",
+      "sources": ["shiji", "zhanguoce", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-hezong-lianheng",
+      "title": "合纵连横与张仪欺楚",
+      "year": -313,
+      "end_year": -299,
+      "year_display": "前313年",
+      "end_year_display": "前299年",
+      "year_note": "据《史记·楚世家》，怀王十六年（前313年）张仪以商於六百里欺楚，翌年丹阳、蓝田之败；前299年怀王入秦被扣。均据《史记》楚世家纪年推排换算。",
+      "location": "楚（郢）、秦（咸阳）、武关",
+      "key_people": [],
+      "background": "战国中期，秦东出与关东合纵抗秦构成大博弈；楚齐联盟是秦东进最大障碍。张仪任秦相，主连横破纵。",
+      "process": [
+        "前313年，张仪使楚，许“商於之地六百里”诱楚与齐绝交；楚绝齐后秦翻悔只予六里。",
+        "怀王怒而攻秦，前312年丹阳之战大败（汉中之地为秦所取），再战蓝田又败。",
+        "韩魏乘虚袭楚，楚两面受敌；屈原谏不用（其策与联齐路线相关）。",
+        "前299年，秦诱怀王会于武关，劫入咸阳，怀王客死于秦（前296年），楚由盛转衰。"
+      ],
+      "outcome": "楚齐联盟破裂，楚国丧失汉中与战略主动；合纵屡聚屡散，连横占得上风，为秦各个击破奠定外交基础。",
+      "controversies": [
+        {"issue": "苏秦张仪的相对年代", "views": [
+          {"holder": "《史记》战国叙事", "basis": "苏秦、张仪为同时对手，苏秦合纵先于张仪连横。"},
+          {"holder": "马王堆帛书《战国纵横家书》（1973年出土）", "basis": "显示苏秦主要活动于张仪死后，长期在燕齐间活动、目标在弱齐；《史记》将两人年代提前并把张仪事迹系于苏秦名下系错置。学界普遍接受帛书修正。"}
+        ]},
+        {"issue": "“六百里/六里”数字", "views": [
+          {"holder": "《战国策》《史记》", "basis": "“六百里”与“六里”的对比叙事。"},
+          {"holder": "史学解读", "basis": "数字带有叙事修辞性质，事件框架（诱绝齐、悔约、两败）可信，具体里数不可确证。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>张仪欺楚与楚的衰落（前313—前299）</text><g font-size='12'><rect x='60' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>前313 张仪使楚</text><text x='160' y='130' text-anchor='middle' font-size='11'>许商於六百里诱绝齐</text><rect x='300' y='80' width='180' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='106' text-anchor='middle' fill='#8c1f28'>楚绝齐</text><text x='390' y='130' text-anchor='middle' font-size='11'>秦悔约，只予六里</text><rect x='520' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='620' y='106' text-anchor='middle'>前312 丹阳·蓝田</text><text x='620' y='130' text-anchor='middle' font-size='11'>楚两败·失汉中</text><line x1='260' y1='115' x2='296' y2='115' stroke='#8c1f28' marker-end='url(#cb11)'/><line x1='480' y1='115' x2='516' y2='115' stroke='#8c1f28' marker-end='url(#cb11)'/></g><line x1='620' y1='150' x2='430' y2='205' stroke='#8c1f28' marker-end='url(#cb11)'/><rect x='250' y='209' width='280' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='235' text-anchor='middle' font-size='14' fill='#8c1f28'>前299 怀王入秦被扣</text><text x='390' y='260' text-anchor='middle' font-size='11'>前296客死于秦·楚由盛转衰</text><rect x='100' y='300' width='560' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='326' text-anchor='middle' font-size='12'>史料修正：马王堆帛书《战国纵横家书》证明苏秦晚于张仪</text><text x='380' y='352' text-anchor='middle' font-size='11'>《史记》纵横家叙事的年代错置被帛书推翻——出土文献改写传世叙事的经典案例</text></svg>",
+      "sources": ["shiji", "zhanguoce", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-hufu-qishe",
+      "title": "赵武灵王胡服骑射",
+      "year": -307,
+      "end_year": null,
+      "year_display": "前307年",
+      "end_year_display": null,
+      "year_note": "据《史记·赵世家》武灵王十九年（前307年）令胡服，历表换算。",
+      "location": "赵国（都邯郸）",
+      "key_people": [],
+      "background": "赵处四战之地：北有林胡、楼烦、东胡与中山，南有强魏秦；赵军车战步卒难以机动应对游牧骑射。武灵王北略中山、经营代地，决意军事改革。",
+      "process": [
+        "前307年，武灵王与肥义谋五日，“胡服”令下，王先自服以示决心。",
+        "叔父公子成初反对（“变古之教，易古之道”），王亲往说以“衣服便于用、礼制便于事”，成乃服胡服。",
+        "“招骑射”：组建骑兵，教民骑射；北破林胡、楼烦，置云中、雁门、代郡。",
+        "此后灭中山（前296年），赵疆域北扩，成为秦之外最强军事国。"
+      ],
+      "outcome": "中原政权首次系统吸纳游牧军事技术，骑兵成为中国军队主战兵种的开端；赵国军力至长平之战前仍可与秦抗衡。",
+      "controversies": [
+        {"issue": "改革的内涵", "views": [
+          {"holder": "传统叙事", "basis": "集中于“胡服”与“骑射”两项军制改革。"},
+          {"holder": "现代研究", "basis": "指出其背后是针对贵族车战传统的组织革命（兵源、编制、俸禄化），且与北疆殖民（置郡、筑长城）一体；“仅服装改革”的流行说法大大简化了改革实质。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>胡服骑射（前307年，方位示意）</text><rect x='300' y='80' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>赵（邯郸）</text><text x='380' y='126' text-anchor='middle' font-size='11'>武灵王令下</text><g font-size='12'><rect x='60' y='170' width='200' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='160' y='196' text-anchor='middle'>北破林胡·楼烦</text><text x='160' y='216' text-anchor='middle' font-size='11'>置云中·雁门·代郡</text><rect x='300' y='170' width='160' height='64' fill='#fff' stroke='#2b4a6f'/><text x='380' y='196' text-anchor='middle'>灭中山（前296）</text><text x='380' y='216' text-anchor='middle' font-size='11'>赵腹地贯通</text><rect x='500' y='170' width='200' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='600' y='196' text-anchor='middle'>骑兵成主战兵种</text><text x='600' y='216' text-anchor='middle' font-size='11'>吸纳游牧军事技术</text><line x1='340' y1='140' x2='170' y2='166' stroke='#2b4a6f' marker-end='url(#cb12)'/><line x1='380' y1='140' x2='380' y2='166' stroke='#2b4a6f' marker-end='url(#cb12)'/><line x1='420' y1='140' x2='590' y2='166' stroke='#2b4a6f' marker-end='url(#cb12)'/></g><rect x='130' y='270' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='296' text-anchor='middle' font-size='13'>公子成之争：王亲往说“衣服便于用，礼制便于事”</text><text x='380' y='320' text-anchor='middle' font-size='11'>改革实质：军制+组织+北疆经营的系统工程，非仅服装</text><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>赵军力此后至长平之战前仍可抗秦</text></svg>",
+      "sources": ["shiji", "zhanguoce", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zg-changping-battle",
+      "title": "长平之战",
+      "year": -260,
+      "end_year": null,
+      "year_display": "前260年",
+      "end_year_display": null,
+      "year_note": "据《史记·白起王翦列传》《赵世家》，秦昭王四十七年（赵孝成王六年，前260年）长平之战，历表换算；“四十六日”“四十余万”等数字均系《史记》所载。",
+      "location": "长平（今山西高平一带）",
+      "key_people": ["baiqi"],
+      "background": "秦攻韩野王，上党郡隔绝；郡守冯亭以上党十七城献赵，赵受地引发秦赵决战。赵名将廉颇初战失利后坚壁固守，秦相持不下。",
+      "process": [
+        "前260年，赵孝成王中秦反间，以赵括代廉颇；秦密以武安君白起代王龁为将（“敢泄武安君将者斩”）。",
+        "赵括出击，白起佯败诱其离垒，断其粮道，分割赵军为二。",
+        "赵军被围四十六日，粮绝，“阴相杀食”；赵括亲率突围战死。",
+        "赵卒四十余万降（据《史记》），白起以“赵卒反覆，非尽杀之，恐为乱”尽坑之，遗二百四十人归赵报信。",
+        "秦亦“死者过半，国内空”（《史记》载秦昭王语意），邯郸之围（前259—前257）遭魏楚合救而败。"
+      ],
+      "outcome": "赵国精锐尽失，山东六国再无单独抗秦之力；秦虽胜亦元气大伤，统一进程延后三十年再起（前230年起灭六国）。",
+      "controversies": [
+        {"issue": "坑杀数字“四十余万”", "views": [
+          {"holder": "《史记·白起王翦列传》", "basis": "“前后斩首虏四十五万人”，降卒四十余万皆坑。"},
+          {"holder": "现代学界与考古", "basis": "数字普遍认为包含前后累战、有夸大；1995年山西永录尸骨坑发掘证实大规模杀降遗存，但遗骸计数远小于文献数字，学界对实际规模无定论。"}
+        ]},
+        {"issue": "赵括与换将决策", "views": [
+          {"holder": "《史记》叙事", "basis": "“徒能读其父书传，不知合变”，成“纸上谈兵”原型（成语本身为后世概括）。"},
+          {"holder": "军事史再分析", "basis": "换将或系赵国粮草不济、廉颇守势难以为继的结构性结果；赵括是否有其他选择、秦换将保密机制的作用，现代论著多有重新讨论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='cb13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>长平之战（前260年）</text><g font-size='12'><rect x='50' y='80' width='210' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='155' y='106' text-anchor='middle'>秦军（白起·王龁）</text><text x='155' y='128' text-anchor='middle' font-size='11'>密换主将·“敢泄者斩”</text><rect x='500' y='80' width='210' height='70' fill='#fff' stroke='#8c1f28'/><text x='605' y='106' text-anchor='middle'>赵军（廉颇→赵括）</text><text x='605' y='128' text-anchor='middle' font-size='11'>反间换将·廉颇免</text><line x1='260' y1='115' x2='496' y2='115' stroke='#8c1f28' marker-end='url(#cb13)'/></g><rect x='250' y='170' width='280' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='196' text-anchor='middle' font-size='14' fill='#8c1f28'>佯败诱敌·断粮道</text><text x='390' y='220' text-anchor='middle' font-size='11'>赵军被围46日·粮绝“阴相杀食”</text><line x1='390' y1='250' x2='390' y2='280' stroke='#8c1f28' marker-end='url(#cb13)'/><rect x='200' y='284' width='380' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='310' text-anchor='middle' font-size='14' fill='#8c1f28'>赵括战死·降卒“四十余万”被坑（史记数字）</text><text x='390' y='334' text-anchor='middle' font-size='11'>1995年永录尸骨坑证实杀降遗存，规模小于文献</text><text x='380' y='378' text-anchor='middle' font-size='12' fill='#7a7468'>六国再无单独抗秦之力；“纸上谈兵”为后世成语</text></svg>",
+      "sources": ["shiji", "zhanguoce", "zhwp-changping", "kaogu-cass"],
+      "needs_verification": true,
+      "pending_notes": "坑杀“四十余万”系《史记》单源数字，学界认为有夸大；永录遗址尸骨坑的遗骸规模与文献数字差距明显，实际伤亡规模无定论。"
+    }
+  ],
+  "people": [
+    {
+      "id": "kongzi",
+      "name": "孔子（孔丘）",
+      "birth_year": -551,
+      "death_year": -479,
+      "birth_display": "前551年",
+      "death_display": "前479年",
+      "birth_note": "据《史记·孔子世家》鲁襄公二十二年（前551年）生，历表换算；生月（十月/八月庚子）历代推算有异，年为通说。",
+      "death_note": "据《春秋》哀公十六年（前479年）卒，历表换算。",
+      "chronology": [
+        {"year": -551, "display": "前551年", "text": "生于鲁国陬邑，先世为宋贵族，少也贱，多能鄙事。"},
+        {"year": -501, "display": "前501年（约）", "text": "仕鲁为中都宰，继而司空、大司寇（仕途系年据《史记》，约数）。"},
+        {"year": -497, "display": "约前497年", "text": "去鲁周游列国十四年（卫、陈、蔡、楚等），“累累若丧家之狗”。"},
+        {"year": -484, "display": "前484年", "text": "归鲁，删《诗》《书》，定礼乐，赞《周易》，修《春秋》（此为传统“六经”叙事，见争议）。"},
+        {"year": -479, "display": "前479年", "text": "卒，弟子心丧三年；其言行由弟子辑为《论语》。"}
+      ],
+      "deeds": [
+        "开大规模私学之先，“有教无类”，弟子三千、贤者七十二。",
+        "以“仁”“礼”重构周制的伦理基础，奠定儒家学派。",
+        "整理文献与作《春秋》（传统叙事），确立中国史学与经学传统。",
+        "其政治生涯不达，而思想经弟子与汉代尊立成为两千年的官方学说。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁（《孔子世家》赞）", "view": "“高山仰止，景行行止”，以布衣传十余世，学者宗之，自天子王侯，中国言六艺者折中于夫子。", "basis": "《史记·孔子世家》。"},
+        {"holder": "历代官方", "view": "汉以后渐被尊为“素王”，唐宋封公封号，明清祭孔制度化；五四新文化运动则激烈批判其作为旧秩序象征。", "basis": "历代祀典与近代思想史。"},
+        {"holder": "现代文献学研究", "view": "“六经皆孔子作”的传统说法被修正：诸经多为长期层累文献，孔子与各经关系程度不同；《论语》为弟子辑录、成书有过程。", "basis": "经学史与出土文献研究通说。"}
+      ],
+      "sources": ["shiji", "lunyu", "whc-qufu", "brit-confucius"],
+      "needs_verification": false
+    },
+    {
+      "id": "laozi",
+      "name": "老子",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考",
+      "birth_note": "身世传闻互异：《史记》并载老聃、老莱子、太史儋三说，学界至今无法坐实。",
+      "death_note": "无载；“莫知其所终”。",
+      "chronology": [
+        {"year": -516, "display": "约前6世纪末—前5世纪初", "text": "相传为周守藏室之史，见周衰遂去，至关著书五千言（《史记》叙事，细节具传说性）。"}
+      ],
+      "deeds": [
+        "相传著《道德经》（《老子》）五千言，提出“道法自然”“无为而治”“柔弱胜刚强”。",
+        "道家学派的思想源头，其“小国寡民”政治观与儒法形成对照。"
+      ],
+      "evaluations": [
+        {"holder": "传统叙事", "view": "道祖：孔子问礼于老聃的记载强化其为春秋末人。", "basis": "《史记·老子韩非列传》。"},
+        {"holder": "现代文献学主流", "view": "《老子》成书经历长期层累，战国中期郭店楚简本（1993年出土）证明其时已有流传，但其定本晚于孔子时代；作者是否即老聃无法确证。", "basis": "郭店简、马王堆帛书《老子》研究通说。"}
+      ],
+      "sources": ["shiji", "qianmu-guoshi", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "sunwu",
+      "name": "孙武",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考",
+      "birth_note": "齐人，生卒无载；约活动于前6世纪末吴王阖闾时期。",
+      "death_note": "卒年无载。",
+      "chronology": [
+        {"year": -512, "display": "约前512年", "text": "以《兵法》十三篇见吴王阖闾（《史记》叙事），任将。"},
+        {"year": -506, "display": "前506年（约）", "text": "柏举之战五战五胜破楚入郢（《史记》所记战功，细节具叙事性）。"}
+      ],
+      "deeds": [
+        "著《孙子兵法》十三篇，系统总结战争规律（“知彼知己，百战不殆”“不战而屈人之兵”）。",
+        "助吴西破强楚，确立吴国霸业基础。"
+      ],
+      "evaluations": [
+        {"holder": "传统史家", "view": "兵家之祖，“世传其兵法”。", "basis": "《史记·孙子吴起列传》。"},
+        {"holder": "1972年银雀山汉墓出土后的学术定论", "view": "《孙子兵法》与《孙膑兵法》同墓出土，终结了“两书一人”的长期争论：孙武、孙膑各有其书，孙武真实存在获得出土证据支持。", "basis": "银雀山汉简整理报告。"}
+      ],
+      "sources": ["shiji", "sunzi", "kaogu-cass"],
+      "needs_verification": false
+    },
+    {
+      "id": "mozi",
+      "name": "墨子（墨翟）",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考（约前468年前后生、前376年前后卒，诸说）",
+      "death_display": "卒年不可考",
+      "birth_note": "生卒年学界推算互异（常见约前468—前376年说），均为约数。",
+      "death_note": "同上，不可确考。",
+      "chronology": [
+        {"year": -440, "display": "约前440年代", "text": "止楚攻宋（《墨子·公输》所载救宋故事，人物对话具文学性，框架反映墨家行动风格）。"}
+      ],
+      "deeds": [
+        "创墨家学派：兼爱、非攻、尚贤、节用、非命等主张，有严密组织与纪律。",
+        "《墨经》含光学、力学、几何与逻辑条目，为古代科学思想的重要文献。",
+        "门徒“赴汤蹈火”的团体性使墨家在战国前期与儒家并称“显学”。"
+      ],
+      "evaluations": [
+        {"holder": "孟子（《孟子·滕文公下》）", "view": "“墨氏兼爱，是无父也”——激烈批判其伦理立场。", "basis": "《孟子》。"},
+        {"holder": "现代学术评价", "view": "肯定其平民立场、逻辑学与科学思想的早熟；墨家中绝（汉以后）本身成为思想史之谜，清代以来学者（孙诒让等）始重加整理。", "basis": "《墨子间诂》及现代研究。"}
+      ],
+      "sources": ["shiji", "mengzi_shu", "qianmu-guoshi"],
+      "needs_verification": false
+    },
+    {
+      "id": "shang-yang",
+      "name": "商鞅（卫鞅、公孙鞅）",
+      "birth_year": -390,
+      "death_year": -338,
+      "birth_display": "约前390年",
+      "death_display": "前338年",
+      "birth_note": "生年为学界通行约数（约前390年），无信史明载。",
+      "death_note": "据《史记·秦本纪》孝公卒之明年（前338年）被车裂，历表换算。",
+      "chronology": [
+        {"year": -361, "display": "前361年", "text": "由魏入秦，见孝公，说以强国之术（初说帝道王道不纳）。"},
+        {"year": -356, "display": "前356年", "text": "任左庶长，初次变法。"},
+        {"year": -350, "display": "前350年", "text": "升大良造，二次变法，迁都咸阳。"},
+        {"year": -340, "display": "前340年（约）", "text": "诱执魏公子卬，大破魏军，受封商於十五邑，号商君。"},
+        {"year": -338, "display": "前338年", "text": "孝公卒，被诬谋反，兵败死于彤地，尸车裂。"}
+      ],
+      "deeds": [
+        "主持两次变法：什伍连坐、军功爵、分户、开阡陌、普遍县制、统一度量衡。",
+        "把秦国改造成耕战一体的战争机器，为秦统一奠定制度基础。",
+        "执法不避权贵（刑太子傅师），树立“法不阿贵”的行政原则。"
+      ],
+      "evaluations": [
+        {"holder": "太史公", "view": "“天资刻薄”，刑公子虔、欺魏将卬，“卒受恶名于秦”。", "basis": "《史记·商君列传》赞语。"},
+        {"holder": "后世法家与史家", "view": "“商君虽死，秦法未败”；变法使秦并六国，功在制度。", "basis": "《韩非子》及历代史论。"},
+        {"holder": "现代研究", "view": "既肯定其国家建构（state-building）意义的彻底性，也分析严刑峻法与社会支持的脆弱性——商鞅之死本身即法家政治与君主权力关系的注脚。", "basis": "秦简、秦史综合研究。"}
+      ],
+      "sources": ["shiji", "shangjunshu", "zhwp-shangyang"],
+      "needs_verification": false
+    },
+    {
+      "id": "mengzi",
+      "name": "孟子（孟轲）",
+      "birth_year": -372,
+      "death_year": -289,
+      "birth_display": "约前372年",
+      "death_display": "约前289年",
+      "birth_note": "生卒通行说为约前372—前289年，另有前385—前304年等异说，均系推排约数。",
+      "death_note": "同上。",
+      "chronology": [
+        {"year": -372, "display": "约前372年", "text": "生于邹，受业于子思之门人（据《史记》）。"},
+        {"year": -320, "display": "约前320年", "text": "游齐，居稷下（游历年代学界推排不一：先后历梁、齐、滕、薛、鲁等）。"},
+        {"year": -312, "display": "约前312年", "text": "见燕齐之乱，去齐，“天未欲平治天下也”之叹（《孟子》末章）。"},
+        {"year": -289, "display": "约前289年", "text": "卒；弟子万章等辑其言行成《孟子》七篇。"}
+      ],
+      "deeds": [
+        "提出性善论、四端说，系统论证仁政与民本（“民为贵，社稷次之，君为轻”）。",
+        "发展“王道”政治哲学，与当时“富国强兵”主流针锋相对（见梁惠王、滕文公诸篇对话）。",
+        "其论辩与人格塑造了后世士大夫的政治伦理。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁", "view": "见以为“迂远而阔于事情”——当世诸侯不能用；然序《诗》《书》，述仲尼之意。", "basis": "《史记·孟子荀卿列传》。"},
+        {"holder": "宋代以后官方", "view": "朱熹定《四书》，《孟子》升格为经；元代封亚圣公。", "basis": "经学史。"},
+        {"holder": "现代哲学讨论", "view": "性善论的道德心理学基础与民主潜质（民本与民权的区别）是持续讨论点；政治上民本≠民权为学界共识性区分。", "basis": "现代儒学研究。"}
+      ],
+      "sources": ["shiji", "mengzi_shu", "qianmu-guoshi"],
+      "needs_verification": false
+    },
+    {
+      "id": "quyuan",
+      "name": "屈原",
+      "birth_year": -340,
+      "death_year": -278,
+      "birth_display": "约前340年",
+      "death_display": "前278年（约）",
+      "birth_note": "生年为学界通行约数（据《离骚》自述与生辰“摄提贞于孟陬”的推算），另有异说。",
+      "death_note": "郢都陷落（前278年，据《史记》白起破郢纪年）后自沉汨罗江；卒年系于此年前后。",
+      "chronology": [
+        {"year": -340, "display": "约前340年", "text": "生于楚贵族（屈氏），博闻强志，明于治乱。"},
+        {"year": -318, "display": "约前318年", "text": "任左徒，“入则与王图议国事，出则接遇宾客”（《史记》，系年约数）。"},
+        {"year": -313, "display": "前313年前后", "text": "上官大夫谗之，见疏而绌；作《离骚》（创作系年有异说）。"},
+        {"year": -299, "display": "前299年", "text": "谏怀王毋入秦，不听；怀王被扣。"},
+        {"year": -278, "display": "前278年（约）", "text": "郢都为秦所破，自沉汨罗江；传《怀沙》为绝笔。"}
+      ],
+      "deeds": [
+        "主张联齐抗秦、举贤授能、修明法度（与张仪连横路线对抗）。",
+        "创“楚辞”体：《离骚》《九歌》《天问》《九章》等，把个体人格与政治悲情写入诗歌。",
+        "自沉之死使“宁赴湘流”的守节形象成为中国士人精神的重要原型。"
+      ],
+      "evaluations": [
+        {"holder": "司马迁（《屈原贾生列传》）", "view": "“悲其志”，推其文辞“与日月争光可也”。", "basis": "《史记》。"},
+        {"holder": "班固（《离骚序》）", "view": "批评其“露才扬己”“责数怀王”，责其不合“明哲保身”之义。", "basis": "《离骚序》。"},
+        {"holder": "近代“屈原否定论”与反驳", "view": "廖季平、胡适及部分日本学者怀疑屈原为文学虚构；胡适以《史记》屈贾传文中后人窜入成分立论；郭沫若等以文献与楚史系统反驳，主流学界肯定其存在，但承认其生平细节多由《离骚》自述推衍，史料单薄。", "basis": "20世纪楚辞学论争。"}
+      ],
+      "sources": ["shiji", "chuci", "qianmu-guoshi"],
+      "needs_verification": false
+    },
+    {
+      "id": "baiqi",
+      "name": "白起",
+      "birth_year": null,
+      "death_year": -257,
+      "birth_display": "生卒不可考",
+      "death_display": "前257年",
+      "birth_note": "生年无载（郿人，或谓秦武公后裔，存疑）。",
+      "death_note": "据《史记》秦昭王五十年（前257年）被赐死于杜邮，历表换算。",
+      "chronology": [
+        {"year": -293, "display": "前293年", "text": "伊阙之战破韩魏联军，斩首二十四万（《史记》数字，单源存疑）。"},
+        {"year": -279, "display": "前279—前278年", "text": "攻楚，破鄢、郢，焚夷陵，楚迁陈；受封武安君。"},
+        {"year": -260, "display": "前260年", "text": "长平之战：大破赵军，坑降卒四十余万（史记数字）。"},
+        {"year": -257, "display": "前257年", "text": "拒将攻邯郸，被赐死于杜邮。"}
+      ],
+      "deeds": [
+        "为秦将三十余年，攻城七十余，大小七十余战未尝败绩（据《史记》概述）。",
+        "歼灭战思想的实践者：不求据地而求歼敌有生力量（伊阙、鄢郢、长平为代表作）。",
+        "长平坑降使其成为战争史上争议最大的将领之一。"
+      ],
+      "evaluations": [
+        {"holder": "《史记》与后世军事传统", "view": "战国第一名将之列；同时“人屠”之名与坑降记录并存。", "basis": "《史记·白起王翦列传》。"},
+        {"holder": "史论传统", "view": "司马迁记其自叹“我固当死：长平之战，赵卒降者数十万人，我诈而尽坑之，是足以死”——将道德审判写入传记。", "basis": "《史记》本传（对话细节具文学性，引用需注明）。"}
+      ],
+      "sources": ["shiji", "zhwp-changping", "tongjian"],
+      "needs_verification": false
+    }
+  ]
+}
