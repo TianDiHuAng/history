@@ -1,0 +1,1315 @@
+{
+  "unit_id": "world-classical",
+  "region": "world",
+  "title": "古典时代（希腊·罗马·印度）",
+  "period_display": "约前500年—500年",
+  "start_year": -500,
+  "end_year": 500,
+  "overview": {
+    "main_threads": [
+      "希腊城邦：从梭伦—克利斯提尼改革到雅典直接民主与古典文化繁荣，伯罗奔尼撒战争耗竭城邦体系，马其顿终结城邦自主",
+      "罗马：经布匿战争称霸西地中海，共和政体在内战与军事强人手中终结，元首制确立后又经三世纪危机与君士坦丁改制，至395年东西分治、476年西帝被废",
+      "亚洲：孔雀王朝与贵霜帝国先后控印度与中亚商道，阿育王达摩政策与犍陀罗艺术使佛教成为跨区域宗教",
+      "欧亚交通：丝绸之路把中国、中亚、印度与地中海世界连成分段贸易网络，商品、技术与宗教循线传播",
+      "观念与宗教：从希腊哲学、成文法传统到基督教的兴起及其帝国化，构成古典时代的思想底色"
+    ],
+    "sub_periods": [
+      {
+        "name": "古典希腊",
+        "range_display": "约前594年—前338年",
+        "desc": "梭伦—克利斯提尼改革奠定雅典民主；希波战争胜利与提洛同盟带来雅典黄金时代；伯罗奔尼撒战争耗竭城邦，前338年喀罗尼亚之战后希腊并入马其顿体系。"
+      },
+      {
+        "name": "希腊化与共和罗马",
+        "range_display": "前334年—前27年",
+        "desc": "亚历山大十年东征灭阿契美尼帝国，开启希腊化时代；罗马经三次布匿战争与东征，将地中海大部纳入统治，共和体制在前49—前27年内战与改组中终结。"
+      },
+      {
+        "name": "帝国时代与欧亚联动",
+        "range_display": "前27年—公元284年",
+        "desc": "奥古斯都确立元首制；约前2世纪起丝绸之路贯通，汉、贵霜、帕提亚与罗马四极经转贩相连；1世纪基督教在罗马世界兴起；235—284年三世纪危机暴露帝国结构脆弱。"
+      },
+      {
+        "name": "晚期帝国",
+        "range_display": "284年—476年",
+        "desc": "戴克里先与君士坦丁重构帝国（四帝共治、基督教合法化、迁都君士坦丁堡）；395年东西分治制度化后，476年西罗马末帝被废，古典时代通常以此为下限。"
+      }
+    ],
+    "key_changes": [
+      "公民政治：从贵族政体经梭伦、克利斯提尼改革到雅典直接民主，再到罗马共和制的终结与元首制",
+      "军事组织：公民兵让位于职业军与雇佣军，军团与近卫军成为帝权的基础与变数",
+      "法律与统治技术：从十二铜表法到行省税制、官僚化与普遍公民权，帝国治理技术系统化",
+      "欧亚贸易网络：丝绸之路贯通促成跨文明商品、技术与宗教传播，分段贸易而非连续大道",
+      "宗教转型：多神教帝国经迫害、合法化（313年）走向官方支持基督教，古典多神传统退潮"
+    ]
+  },
+  "events": [
+    {
+      "id": "athens-democracy-594",
+      "title": "雅典民主改革：从梭伦到克利斯提尼",
+      "year": -594,
+      "end_year": -508,
+      "year_display": "前594年",
+      "end_year_display": "前508年",
+      "year_note": "梭伦任执政官之年通行系于前594/前593年（雅典执政官纪年，据普鲁塔克《梭伦传》与亚里士多德《雅典政制》所载传统换算），克利斯提尼改革系于前508/前507年；本条为跨期源头事件，起点早于本单元期界（约前500年）约百年，故注明并入。",
+      "location": "雅典（希腊阿提卡半岛）",
+      "key_people": ["solon"],
+      "background": "公元前7世纪末，阿提卡因债务束缚、土地集中而社会撕裂，平民与贵族冲突持续升级，德拉古立法（约前621年）以严酷著称而未缓和矛盾。梭伦出身贵族而家道中落、有经商经历，为各派所接受，于前594年当选执政官受命调停。此后经僭主时期，前508年克利斯提尼完成结构性重组，本条作为雅典民主之源跨期并入本单元。",
+      "process": [
+        "前594年梭伦任执政官，颁布“解负令”，废除公民债务奴役，禁止以人身作借贷担保（据普鲁塔克《梭伦传》所记）。",
+        "按财产（而非出身）将公民分为四级界定政治权利，高级官职仍由上层担任；设四百人会议与陪审法庭扩大公民参与。",
+        "梭伦自述立法取“中道”，给予平民恰如其分的权利而不许其过度得势（《雅典政制》引其诗篇转述），随后离雅典出游十年。",
+        "雅典陷入平原派、山地派、海岸派党争，庇西特拉图两度建僭主统治（前546年起独掌），名义上沿用梭伦体制（希罗多德《历史》1卷有其叙述）。",
+        "前508/前507年克利斯提尼在与伊萨哥拉斯的党争中争取民众（希罗多德《历史》5卷），推行地域部落制。",
+        "以村社（德莫）为基础重组为十个部落取代四个血缘部落，设五百人会议与十将军制，奠定直接民主框架。"
+      ],
+      "outcome": "雅典民主的制度框架（公民大会、五百人会议、陪审法庭、地域部落）在前508年后确立，经希波战争与埃菲阿尔提斯、伯里克利的推进而深化。梭伦—克利斯提尼改革被视为西方公民政治传统的起点，此后雅典政治长期以公民大会为最高机关。",
+      "controversies": [
+        {
+          "issue": "梭伦改革的性质与成效",
+          "views": [
+            {
+              "holder": "传统叙述（普鲁塔克《梭伦传》、亚里士多德《雅典政制》）",
+              "basis": "视梭伦为调停各方的立法贤者，其“中道”避免了革命与僭政，改革使雅典免于内乱。"
+            },
+            {
+              "holder": "现代古典学界（剑桥古代史等）",
+              "basis": "强调改革是贵族冲突与经济危机的产物，“解负令”解决人身束缚但未回应土地再分配诉求，结构性民主化要到克利斯提尼才完成。"
+            }
+          ]
+        },
+        {
+          "issue": "克利斯提尼改革的动因",
+          "views": [
+            {
+              "holder": "希罗多德《历史》第5卷",
+              "basis": "将改革描述为克利斯提尼在党争中“把民众拉入自己一伙”的策略选择。"
+            },
+            {
+              "holder": "部分现代学者",
+              "basis": "认为德莫组织与十部落制的高度系统性只能解释为深思熟虑的政体设计，党争只是契机。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>雅典民主改革流程示意（前594—前508）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>阿提卡债务束缚与贵族—平民冲突</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a1)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>前594年 梭伦任执政官颁解负令</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a1)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>财产四级制·四百人会议·陪审法庭</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a1)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>庇西特拉图僭主期：梭伦体制名义延续</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a1)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>前508年 克利斯提尼立十个地域部落</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a1)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>五百人会议与公民大会：直接民主奠基</text></g></svg>",
+      "sources": ["herodotus", "plutarch", "whc-acropolis", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "greco-persian-490",
+      "title": "希波战争：马拉松与萨拉米斯",
+      "year": -490,
+      "end_year": -480,
+      "year_display": "前490年",
+      "end_year_display": "前480年",
+      "year_note": "马拉松之战通行系于前490年、萨拉米斯海战系于前480年，据希罗多德《历史》所载事件序列与雅典执政官纪年换算；本条以波斯两度入侵（前490、前480）为叙事主线。",
+      "location": "希腊本土、爱琴海与西亚（马拉松、温泉关、萨拉米斯、普拉提亚）",
+      "key_people": [],
+      "background": "波斯帝国自居鲁士以来兼并小亚细亚希腊城邦；前499—前494年爱奥尼亚起义失败（希罗多德《历史》第5—6卷），雅典与埃雷特里亚曾出兵支援。大流士一世以惩罚援助者为由两度西征，希腊城邦面临臣服或抵抗的抉择。",
+      "process": [
+        "前490年波斯军渡海攻陷埃雷特里亚，在阿提卡马拉松登陆；雅典重装步兵与普拉提亚人迎战获胜，米太亚德指挥，步兵会战迫使波斯登船撤离（希罗多德《历史》第6卷）。",
+        "前480年薛西斯御驾亲征，海陆并进（希罗多德所记兵力数字庞大，现代学者普遍认为有所夸大）；温泉关隘口守军战殁，斯巴达王列奥尼达同殁。",
+        "雅典放弃阿提卡，居民撤往舰队，地米斯托克利“以城下海”的战略付诸实施。",
+        "前480年萨拉米斯海战：希腊联军舰队在狭窄水道击败波斯舰队（希罗多德《历史》第8卷），制海权易手。",
+        "前479年普拉提亚陆战与米卡莱海角之战获胜，波斯控制希腊本土的企图终结；此后雅典组织提洛同盟转入反攻。"
+      ],
+      "outcome": "希腊城邦保全政治独立，波斯转以外交与金钱影响希腊事务。雅典借提洛同盟扩张海上霸权，前454年同盟金库迁往雅典（修昔底德所载），进入修建帕特农神庙（卫城遗址今列入世界遗产）的黄金时代。东西对峙与雅典帝国化塑造了此后半个世纪的希腊政治格局。",
+      "controversies": [
+        {
+          "issue": "波斯兵力规模的记载",
+          "views": [
+            {
+              "holder": "希罗多德《历史》第7卷",
+              "basis": "所记薛西斯陆海军数字极其庞大，为古代流传的主要数字。"
+            },
+            {
+              "holder": "现代军事史研究",
+              "basis": "依补给能力与战场容量估算远小于希罗多德数字，各家估算差异很大，尚无定论。"
+            }
+          ]
+        },
+        {
+          "issue": "《卡里阿斯和约》（前449年前后）是否实有其约",
+          "views": [
+            {
+              "holder": "传统记载（普鲁塔克《客蒙传》等）",
+              "basis": "载雅典与波斯订立和约、限定彼此势力范围，敌对行动至此终止。"
+            },
+            {
+              "holder": "不少现代学者",
+              "basis": "认为和约可能是后世追认或文学建构，前449年只是敌对行动的事实性停止，铭文与当代史料无确证。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>希波战争战局示意（前490—前479）</text><g font-size='13'><rect x='9' y='78' width='112' height='48' fill='#fff' stroke='#2b4a6f'/><text x='65' y='96' text-anchor='middle' fill='#2c2c28'>波斯西征</text><text x='65' y='114' text-anchor='middle' fill='#2c2c28' font-size='12'>前490年</text><line x1='121' y1='102' x2='135' y2='102' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a2)'/><rect x='135' y='78' width='112' height='48' fill='#fff' stroke='#2b4a6f'/><text x='191' y='96' text-anchor='middle' fill='#2c2c28'>马拉松之战</text><text x='191' y='114' text-anchor='middle' fill='#2c2c28' font-size='12'>米太亚德指挥</text><line x1='247' y1='102' x2='261' y2='102' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a2)'/><rect x='261' y='78' width='112' height='48' fill='#fff' stroke='#2b4a6f'/><text x='317' y='96' text-anchor='middle' fill='#2c2c28'>温泉关</text><text x='317' y='114' text-anchor='middle' fill='#2c2c28' font-size='12'>前480年</text><line x1='373' y1='102' x2='387' y2='102' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a2)'/><rect x='387' y='78' width='112' height='48' fill='#fff' stroke='#2b4a6f'/><text x='443' y='96' text-anchor='middle' fill='#2c2c28'>萨拉米斯海战</text><text x='443' y='114' text-anchor='middle' fill='#2c2c28' font-size='12'>地米斯托克利</text><line x1='499' y1='102' x2='513' y2='102' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a2)'/><rect x='513' y='78' width='112' height='48' fill='#fff' stroke='#2b4a6f'/><text x='569' y='96' text-anchor='middle' fill='#2c2c28'>普拉提亚</text><text x='569' y='114' text-anchor='middle' fill='#2c2c28' font-size='12'>前479年陆战</text><line x1='625' y1='102' x2='639' y2='102' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a2)'/><rect x='639' y='78' width='112' height='48' fill='#efe4cf' stroke='#8c1f28'/><text x='695' y='96' text-anchor='middle' fill='#8c1f28'>提洛同盟反攻</text><text x='695' y='114' text-anchor='middle' fill='#8c1f28' font-size='12'>前478年起</text><polyline points='695,126 695,170 380,170 380,190' fill='none' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a2)'/><rect x='120' y='190' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='215' text-anchor='middle' fill='#8c1f28'>前449年前后战事渐止·雅典进入黄金时代</text><text x='380' y='268' text-anchor='middle' fill='#2c2c28' font-size='12'>波斯军力记载诸说分歧（希罗多德所记数字现代认为夸大）</text><text x='380' y='292' text-anchor='middle' fill='#2c2c28' font-size='12'>《卡里阿斯和约》真伪存争议</text></g></svg>",
+      "sources": ["herodotus", "thucydides", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "twelve-tables-451",
+      "title": "《十二铜表法》",
+      "year": -451,
+      "end_year": -450,
+      "year_display": "前451年",
+      "end_year_display": "前450年",
+      "year_note": "罗马传统纪年（李维、西塞罗与塔西佗《编年史》追述的年代框架）系十人委员会立法于前451—前450年，通行采用；现代对立法细节的可靠性有保留，故此处按传统纪年注明。",
+      "location": "罗马城",
+      "key_people": [],
+      "background": "前5世纪罗马平民与贵族围绕土地、债务与执法专断持续斗争：当时法律依习惯由贵族掌握，平民受司法不确定性所困。争取成文、公开的法律以约束贵族司法权，是平民与贵族斗争的核心议题之一。",
+      "process": [
+        "前462年起保民官持续提案，要求制定成文法以代替不成文的习惯法；罗马曾派使团考察希腊立法（罗马传统说法）。",
+        "前451年选出十人委员会（decemviri），颁成文法十表，镌示于公共场所。",
+        "前450年增补两表，合为十二表；条目涵盖诉讼程序、家父权、债务执行、土地相邻关系、继承与侵权。",
+        "第二届十人委员会专断引发反抗，罗马传统叙述以维吉尼娅事件为导火索；前449年委员会解散，保民官制度恢复，法典留传。"
+      ],
+      "outcome": "十二铜表法成为罗马法的成文起点，此后数百年被奉为法教育与法庭引据之本，公开成文使平民得以依文抗辩。债务奴役其后经立法（如前4世纪的彼特利乌斯法禁债奴）逐步废止；罗马法公开成文、逐条解释的传统自此确立。",
+      "controversies": [
+        {
+          "issue": "立法过程叙述的史料可靠性",
+          "views": [
+            {
+              "holder": "罗马传统记载（李维等）",
+              "basis": "叙述使团赴雅典、两届十人委员会与条文缘起，为通行叙事的基础。"
+            },
+            {
+              "holder": "现代罗马史学界",
+              "basis": "认为使团考察、部分条文与“维吉尼娅事件”含后世层累与传说成分；原刻铜表毁于前390年高卢焚城，现存条文系后人辑录，重构程度存争议。"
+            }
+          ]
+        },
+        {
+          "issue": "法的性质：平民胜利还是秩序重申",
+          "views": [
+            {
+              "holder": "传统评价",
+              "basis": "视为平民对贵族司法专断的胜利，开启罗马法治传统。"
+            },
+            {
+              "holder": "部分现代学者",
+              "basis": "指出条文同时巩固家父权与等级差异，“公开镌刻”的意义大于内容平等，其平民性被后世叙述放大。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>十二铜表法立法流程（前451—前450）</text><g font-size='13'><rect x='120' y='50' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='75' text-anchor='middle' fill='#2c2c28'>平民与贵族司法专断之争</text><line x1='380' y1='90' x2='380' y2='104' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a4)'/><rect x='120' y='104' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='129' text-anchor='middle' fill='#2c2c28'>前462年起保民官力主成文法</text><line x1='380' y1='144' x2='380' y2='158' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a4)'/><rect x='120' y='158' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='183' text-anchor='middle' fill='#2c2c28'>前451年十人委员会颁十表</text><line x1='380' y1='198' x2='380' y2='212' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a4)'/><rect x='120' y='212' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='237' text-anchor='middle' fill='#2c2c28'>前450年增补两表·合为十二表</text><line x1='380' y1='252' x2='380' y2='266' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a4)'/><rect x='120' y='266' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='291' text-anchor='middle' fill='#8c1f28'>前449年委员会解散·铜表法传世</text><text x='380' y='342' text-anchor='middle' fill='#2c2c28' font-size='12'>原文毁于前390年高卢焚城·现存条文系后人辑录</text></g></svg>",
+      "sources": ["tacitus", "cambridge-ancient", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "peloponnesian-431",
+      "title": "伯罗奔尼撒战争",
+      "year": -431,
+      "end_year": -404,
+      "year_display": "前431年",
+      "end_year_display": "前404年",
+      "year_note": "修昔底德《伯罗奔尼撒战争史》明载战争始于前431年（雅典与斯巴达及其同盟间之战），雅典受降于前404年，均据通行纪年换算。",
+      "location": "希腊本土、爱琴海、西西里",
+      "key_people": ["pericles"],
+      "background": "雅典帝国（提洛同盟）与斯巴达为首的伯罗奔尼撒同盟两大集团长期对峙；科林斯与科基拉、波提狄亚等边缘冲突将两大同盟拖入全面战争。修昔底德将深层原因归结为“雅典力量的增长引起斯巴达的恐惧”（《伯罗奔尼撒战争史》第1卷）。",
+      "process": [
+        "前431年战争爆发；伯里克利推行坚壁清野、依托城墙舰队与同盟金库的消耗战略。",
+        "前430年起瘟疫在雅典城内流行，前429年伯里克利病故，其战略后继无人（修昔底德第2—3卷）。",
+        "前421年《尼西阿斯和约》名义休战，但前418年曼丁尼亚等战事再起，和约形同虚设。",
+        "前415年雅典发动西西里远征，前413年围攻叙拉古全军覆没，海军主力与人力损失惨重（修昔底德第6—7卷）。",
+        "前411年雅典寡头政变，波斯转而资助斯巴达建舰队；前405年羊河之战斯巴达吕山德罗斯歼灭雅典最后舰队。",
+        "前404年雅典受降：拆城墙、交出舰队，接受“三十僭主”统治，提洛同盟解散。"
+      ],
+      "outcome": "雅典帝国终结，但希腊城邦体系整体失血：斯巴达霸权短暂（前371年留克特拉之战后衰落），底比斯与马其顿相继而起。长期战争强化了雇佣兵与职业军队，城邦公民兵体制走向解体，为希腊并入马其顿体系埋下伏笔。",
+      "controversies": [
+        {
+          "issue": "战争的“可避免性”与修昔底德的解释",
+          "views": [
+            {
+              "holder": "修昔底德《伯罗奔尼撒战争史》第1卷",
+              "basis": "以雅典增长与斯巴达恐惧为“最真实的原因”，突显结构性必然，边缘冲突只是导火索。"
+            },
+            {
+              "holder": "现代部分学者（剑桥古代史等）",
+              "basis": "认为修昔底德的后见之明框架低估了偶发因素与城邦内政的作用，战争并非注定。"
+            }
+          ]
+        },
+        {
+          "issue": "后半段史料的连续性",
+          "views": [
+            {
+              "holder": "古代与近代通行看法",
+              "basis": "修昔底德之书止于前411年，色诺芬《希腊史》自羊河战前夜续写至前362年。"
+            },
+            {
+              "holder": "现代史学批评",
+              "basis": "指出色诺芬的叙事偏于雅典与人物轶事，与前411—前404年细节重建须依赖铭文等其他材料互证。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>伯罗奔尼撒战争进程（前431—前404）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>提洛同盟对伯罗奔尼撒同盟两大集团</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a3)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>前431年开战·坚壁清野依托舰队</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a3)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>前430年瘟疫·前429年伯里克利病故</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a3)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>前421年尼西阿斯和约·战端复起</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a3)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>前415—前413年西西里远征覆没</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a3)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>前405羊河之战·前404雅典受降</text></g></svg>",
+      "sources": ["thucydides", "plutarch", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "alexander-campaign-334",
+      "title": "亚历山大东征与希腊化时代开端",
+      "year": -334,
+      "end_year": -323,
+      "year_display": "前334年",
+      "end_year_display": "前323年",
+      "year_note": "东征始于前334年春渡赫勒斯滂海峡，止于前323年亚历山大卒于巴比伦；均据普鲁塔克《亚历山大传》等所载事件序列与通行纪年换算。",
+      "location": "马其顿—小亚细亚—埃及—波斯—中亚—印度河流域",
+      "key_people": ["alexander-great"],
+      "background": "腓力二世整合马其顿并在前338年喀罗尼亚之战控制希腊，前336年遇刺后，年方二十的亚历山大继位，镇压希腊叛乱后执行其父筹划的东征计划。波斯阿契美尼王朝虽幅员庞大，但时值大流士三世新立、宫廷权争与埃及不稳。",
+      "process": [
+        "前334年渡海入亚细亚，格拉尼库斯河之战首胜，夺取小亚细亚沿岸（据普鲁塔克《亚历山大传》）。",
+        "前333年伊苏斯之战击败大流士三世；前332—前331年经围陷推罗入埃及，建亚历山大里亚城。",
+        "前331年高加米拉之战取得决定性胜利；前330年占领波斯波利斯，王宫焚毁（普鲁塔克记为酒宴纵火起意，责任问题存争议）。",
+        "前329—前327年追击贝苏斯深入中亚（巴克特里亚、索格狄亚那），镇压地方反抗，控制东伊朗与河中门户。",
+        "前326年希达斯皮斯河之战胜印度王波鲁斯，军中厌战，经印度河与陆路两线西返。",
+        "前324年苏萨集体婚配、推行波斯宫廷礼制与东西通婚政策；前323年病卒于巴比伦。"
+      ],
+      "outcome": "帝国旋即由部将瓜分，继业者战争后形成托勒密埃及、塞琉古亚洲与马其顿安提柯等希腊化王国。亚历山大所建城市与军屯移民带来希腊语言、钱币与城市制度东扩，希腊化上层文化与东方传统长期融合；罗马东进后希腊化世界渐次并入地中海帝国。",
+      "controversies": [
+        {
+          "issue": "焚毁波斯波利斯的责任与动机",
+          "views": [
+            {
+              "holder": "普鲁塔克《亚历山大传》所记",
+              "basis": "酒宴上雅典人泰伊丝怂恿、即时纵火之说。"
+            },
+            {
+              "holder": "另一些古代传统与现代学者",
+              "basis": "视为对薛西斯焚雅典的有意报复或摧毁波斯王权象征的政治行为；遗址焚毁痕迹对两种说法均可作解释。"
+            }
+          ]
+        },
+        {
+          "issue": "“希腊化使者”还是“波斯化君主”",
+          "views": [
+            {
+              "holder": "传统叙事",
+              "basis": "强调其传播希腊文化、建城与东西融合的理想主义形象。"
+            },
+            {
+              "holder": "现代研究（剑桥古代史等）",
+              "basis": "强调其大量沿用波斯行省、宫廷与税制，“希腊化”更多是继业者王国的长期产物而非其本意。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>亚历山大东征路线（前334—前323）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>前336年继位·平定希腊</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a5)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>前334年渡赫勒斯滂·格拉尼库斯首胜</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a5)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>前333伊苏斯·前332—331埃及建亚历山大里亚</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a5)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>前331高加米拉·前330焚波斯波利斯</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a5)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>前326年希达斯皮斯河·军心厌战东返</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a5)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>前323年病卒巴比伦·继业者分帝国</text></g></svg>",
+      "sources": ["plutarch", "brit-alexander", "whc-persepolis", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "maurya-ashoka-268",
+      "title": "孔雀王朝与阿育王的达摩治国",
+      "year": -268,
+      "end_year": -232,
+      "year_display": "约前268年",
+      "end_year_display": "约前232年",
+      "year_note": "阿育王在位约前268—前232年，为其铭文纪年与佛教传统结合的通行推算（据中国大百科全书阿育王条与学界通说换算）；即位年另有前273、前261诸说，学界未定，故取约数。",
+      "location": "印度次大陆（以华氏城为中心）",
+      "key_people": ["ashoka"],
+      "background": "约前321年旃陀罗笈多（月护王）推翻难陀王朝建孔雀王朝，传统谓其得大臣考底利耶辅佐（考底利耶著《政事论》为传统归属）。王朝控印度河至恒河广阔领土，与塞琉古王朝通约并娶姻（约前303年和约之传统记载），宾头沙罗（阿育王之父）时期进一步巩固。",
+      "process": [
+        "约前268年阿育王即位（取通行系年，即位年另有诸说）；即位初依常制统治。",
+        "约前261年征羯陵伽（今奥里萨一带）；其摩崖敕令自述战争惨烈、伤亡流徙甚众，并自述因而转向“达摩”治国。",
+        "设“达摩大官”监察地方，推行宗教宽容、限制杀生与奢靡等政策（据其敕令自述）。",
+        "约前250年前后颁摩崖与石柱敕令，以俗语及地方文字镌于帝国要道与圣地，内容兼涉伦理训诫、行政训示与宗教宽容。",
+        "遣使四境与邻邦传播佛教，佛教传统载其支持第三次结集并遣子（或弟）赴楞伽岛传教。",
+        "约前232年阿育王卒；王朝其后渐衰，约前185年为巽加王朝所代。"
+      ],
+      "outcome": "孔雀帝国成为印度史上首个大体统一次大陆的政治体，其行省、督察与交通体系为后世范式。阿育王敕令是印度现存最早的主体文字王权文献之一，其达摩政策与传教使佛教成为跨区域宗教，对亚洲宗教地理影响深远。",
+      "controversies": [
+        {
+          "issue": "阿育王即位与统治年代",
+          "views": [
+            {
+              "holder": "通行纪年",
+              "basis": "据铭文纪年与佛教传统推算约前268—前232年在位。"
+            },
+            {
+              "holder": "部分学者",
+              "basis": "据碑铭与编年线索提出前273或前261年即位等异说，年代框架尚有数年浮动。"
+            }
+          ]
+        },
+        {
+          "issue": "羯陵伽战争与“达摩转向”的因果",
+          "views": [
+            {
+              "holder": "阿育王摩崖敕令自述",
+              "basis": "将悔恨与达摩政策直接系于羯陵伽战争的伤亡（铭文所记伤亡数字仅此一源，现代多认为含王权修辞）。"
+            },
+            {
+              "holder": "现代部分学者",
+              "basis": "认为达摩政策或早于羯陵伽已有雏形，铭文叙事兼有王权宣传功能，因果链被叙事强化。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>孔雀王朝与阿育王（约前321—约前185）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>约前321年旃陀罗笈多建孔雀王朝</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a10)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>宾头沙罗时期控印度河—恒河</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a10)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>约前268年阿育王即位</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a10)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>约前261年征羯陵伽</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a10)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>达摩治国·摩崖石柱敕令（约前250）</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a10)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>遣使传佛·王朝约前185年衰亡</text></g></svg>",
+      "sources": ["zgbk", "bentley-cross", "met-toah"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "punic-wars-264",
+      "title": "布匿战争与地中海霸权",
+      "year": -264,
+      "end_year": -146,
+      "year_display": "前264年",
+      "end_year_display": "前146年",
+      "year_note": "三次布匿战争通行系于前264—前241、前218—前201、前149—前146年，据波利比乌斯所定战争序列与罗马纪年传统换算，此处取始末（前264—前146）。",
+      "location": "西地中海（西西里、意大利、伊比利亚、迦太基）",
+      "key_people": [],
+      "background": "罗马统一意大利半岛后，与控制西西里及西地中海商业网络的迦太基（腓尼基移民城市国家，海权强、用雇佣军）相遇。前264年墨西拿事件引发第一次布匿战争，两强围绕西西里与海上通道展开长期对抗。",
+      "process": [
+        "第一次布匿战争（前264—前241）：围绕西西里的陆海消耗战，罗马仿造舰队并配接舷桥（波利比乌斯有载），前241年埃加迪群岛海战获胜，迦太基割西西里赔款。",
+        "汉尼拔在伊比利亚扩张触怒罗马，前218年第二次布匿战争爆发；汉尼拔经陆路越阿尔卑斯山入意大利。",
+        "前216年坎尼之战汉尼拔歼灭罗马主力军团；罗马以费边拖延战略周旋，并在西班牙、非洲两翼反攻。",
+        "前204年西庇阿登陆非洲，前202年扎马之战罗马获胜，迦太基交舰队赔款、丧失海外领地。",
+        "迦太基复苏引发罗马警觉，加图等力主终战；前149—前146年第三次布匿战争，前146年小西庇阿攻陷并夷平迦太基城，改置阿非利加行省。"
+      ],
+      "outcome": "罗马取代迦太基成为西地中海霸主，继而东征马其顿与塞琉古，将东地中海纳入控制。海外行省、行省税制与大规模奴隶供给改变罗马经济与政治结构，军功贵族与财富集中为共和国危机埋下伏笔。",
+      "controversies": [
+        {
+          "issue": "战争叙事的史料偏倚",
+          "views": [
+            {
+              "holder": "波利比乌斯《历史》",
+              "basis": "身为罗马贵宾的希腊史家，以罗马崛起为主题，结构宏大而叙事亲罗马。"
+            },
+            {
+              "holder": "现代研究",
+              "basis": "指出其与李维均出自罗马视角，迦太基一侧文献尽失，汉尼拔的战略意图多经罗马史家转述重建。"
+            }
+          ]
+        },
+        {
+          "issue": "第三次战争与迦太基灭亡的性质",
+          "views": [
+            {
+              "holder": "传统叙述",
+              "basis": "以加图“迦太基必须毁灭”与安全竞争解释罗马的预防性毁灭。"
+            },
+            {
+              "holder": "现代部分学者",
+              "basis": "视其为罗马扩张主义与元老院政治的产物，迦太基并无再起之实，灭亡带有惩灭性。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='28' text-anchor='middle' font-size='17' fill='#2b4a6f'>布匿战争：罗马对迦太基（前264—前146）</text><g font-size='13'><rect x='140' y='44' width='150' height='40' fill='#fff' stroke='#2b4a6f'/><text x='215' y='69' text-anchor='middle' fill='#2c2c28'>罗马</text><rect x='470' y='44' width='150' height='40' fill='#fff' stroke='#8c1f28'/><text x='545' y='69' text-anchor='middle' fill='#8c1f28'>迦太基</text><line x1='290' y1='58' x2='470' y2='58' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a6)'/><line x1='470' y1='82' x2='290' y2='82' stroke='#8c1f28' stroke-width='1.6' marker-end='url(#a6)'/><text x='380' y='74' text-anchor='middle' fill='#2c2c28' font-size='12'>西地中海争霸</text><polyline points='215,84 215,104 380,104 380,116' fill='none' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a6)'/><rect x='120' y='116' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='141' text-anchor='middle' fill='#2c2c28'>第一次战争（前264—241）·罗马造舰夺西西里</text><line x1='380' y1='156' x2='380' y2='168' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a6)'/><rect x='120' y='168' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='193' text-anchor='middle' fill='#2c2c28'>第二次战争（前218—201）·汉尼拔越阿尔卑斯</text><line x1='380' y1='208' x2='380' y2='220' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a6)'/><rect x='120' y='220' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='245' text-anchor='middle' fill='#2c2c28'>前216年坎尼惨败·费边战略周旋</text><line x1='380' y1='260' x2='380' y2='272' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a6)'/><rect x='120' y='272' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='297' text-anchor='middle' fill='#2c2c28'>前202年扎马之战·迦太基乞和</text><line x1='380' y1='312' x2='380' y2='324' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a6)'/><rect x='120' y='324' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' fill='#8c1f28'>前146年迦太基城陷·置阿非利加行省</text></g></svg>",
+      "sources": ["plutarch", "cambridge-ancient", "whc-rome"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "silk-road-130",
+      "title": "丝绸之路贯通欧亚",
+      "year": -130,
+      "end_year": 97,
+      "year_display": "约前130年",
+      "end_year_display": "公元97年",
+      "year_note": "以约前130年代汉使西行、商路大体常态化为起点约数（张骞两度出使后汉与中亚交往制度化，据《汉书》《史记》与通行全球史叙述换算）；至公元97年甘英出使大秦抵西海而返（《后汉书·西域传》载），起点为约数。",
+      "location": "长安—河西走廊—塔里木盆地—中亚—西亚—地中海（陆海网络）",
+      "key_people": [],
+      "background": "西汉张骞两度出使西域（前138、前119年，其事归中国单元叙述），打通汉与中亚的官方通道；此后汉廷经营河西、置烽燧邮置，使团与商队循线往来。西方地中海世界对丝绸与香料的需求经中亚与海上转运形成对接，本特利《新全球史》等以“丝路”为跨欧亚网络的主要叙述框架。",
+      "process": [
+        "约前130年代起，河西走廊与塔里木南北道在汉廷经营下常态化，使团商队相望于道（《史记》《汉书》有其叙述）。",
+        "帕提亚（安息）与中亚绿洲国家居间转贩：丝绸、纸张西行，马匹、香料、玻璃与织物东来（《史记·大宛列传》载安息献鸵鸟蛋与魔术师于汉）。",
+        "罗马帝国兴起后地中海对丝与香料需求扩大，罗马文献以“赛里斯”（丝人）称东方产丝之国。",
+        "公元73—102年班超经营西域重建都护体系（其事归中国东汉单元），汉与西方通道再固。",
+        "公元97年西域都护班超遣甘英使大秦（罗马），甘英抵西海（波斯湾一带）为安息船人以海道凶险之说劝阻而返（《后汉书·西域传》）。"
+      ],
+      "outcome": "丝绸之路成为前工业时代欧亚最长的持续性交流网络：丝绸、香料、玻璃、纸张与宗教（佛教东传、基督教东渐之远因）经分段接力贸易传递。汉与罗马始终未建立直接官方往来——97年甘英止步与166年自称大秦商人者自海路抵汉（《后汉书》载），俱见居间转贩结构之深。",
+      "controversies": [
+        {
+          "issue": "“丝绸之路”概念的适用性",
+          "views": [
+            {
+              "holder": "李希霍芬（1877年创词）以来的传统用法",
+              "basis": "以丝绸贸易为主线命名欧亚商路网络，通行至今。"
+            },
+            {
+              "holder": "现代部分学者",
+              "basis": "强调其为分段接力、多商品（香料、马匹、玻璃）与多族群参与的网络，“连续大道”易生误解；概念也扩展至草原与海上通道。"
+            }
+          ]
+        },
+        {
+          "issue": "甘英使大秦细节的可信度",
+          "views": [
+            {
+              "holder": "《后汉书·西域传》",
+              "basis": "载甘英抵西海、安息船人以海中险恶之说劝阻，细节经史家转述。"
+            },
+            {
+              "holder": "现代研究",
+              "basis": "认为劝阻之说或反映安息居间转贩的商业利益，具体对话难以尽考；但甘英出使为汉廷经营西域的直接记录。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='28' text-anchor='middle' font-size='17' fill='#2b4a6f'>丝绸之路网络示意（约前2世纪—2世纪）</text><g font-size='13'><rect x='10' y='64' width='132' height='48' fill='#fff' stroke='#2b4a6f'/><text x='76' y='86' text-anchor='middle' fill='#2c2c28'>长安（汉）</text><text x='76' y='104' text-anchor='middle' fill='#2c2c28' font-size='12'>使团·商队出发</text><line x1='142' y1='88' x2='154' y2='88' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a11)'/><rect x='154' y='64' width='132' height='48' fill='#fff' stroke='#2b4a6f'/><text x='220' y='86' text-anchor='middle' fill='#2c2c28'>河西走廊·敦煌</text><text x='220' y='104' text-anchor='middle' fill='#2c2c28' font-size='12'>烽燧邮置</text><line x1='286' y1='88' x2='298' y2='88' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a11)'/><rect x='298' y='64' width='132' height='48' fill='#fff' stroke='#2b4a6f'/><text x='364' y='86' text-anchor='middle' fill='#2c2c28'>塔里木南北道</text><text x='364' y='104' text-anchor='middle' fill='#2c2c28' font-size='12'>分段接力</text><line x1='430' y1='88' x2='442' y2='88' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a11)'/><rect x='442' y='64' width='132' height='48' fill='#fff' stroke='#2b4a6f'/><text x='508' y='86' text-anchor='middle' fill='#2c2c28'>中亚（贵霜·安息）</text><text x='508' y='104' text-anchor='middle' fill='#2c2c28' font-size='12'>转贩居间</text><line x1='574' y1='88' x2='586' y2='88' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a11)'/><rect x='586' y='64' width='132' height='48' fill='#efe4cf' stroke='#8c1f28'/><text x='652' y='86' text-anchor='middle' fill='#8c1f28'>地中海（大秦·罗马）</text><text x='652' y='104' text-anchor='middle' fill='#8c1f28' font-size='12'>丝绸香料终点</text><line x1='120' y1='170' x2='640' y2='170' stroke='#8c1f28' stroke-width='1.6' stroke-dasharray='6 4' marker-end='url(#a11)'/><text x='380' y='162' text-anchor='middle' fill='#8c1f28' font-size='12'>丝绸·纸张西行</text><line x1='640' y1='196' x2='120' y2='196' stroke='#2b4a6f' stroke-width='1.6' stroke-dasharray='6 4' marker-end='url(#a11)'/><text x='380' y='214' text-anchor='middle' fill='#2b4a6f' font-size='12'>马匹·香料·玻璃东来</text><rect x='25' y='252' width='220' height='44' fill='#fff' stroke='#2b4a6f'/><text x='135' y='270' text-anchor='middle' fill='#2c2c28'>约前2世纪 通道常态化</text><text x='135' y='288' text-anchor='middle' fill='#2c2c28' font-size='12'>使团商队相望于道</text><line x1='245' y1='274' x2='270' y2='274' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a11)'/><rect x='270' y='252' width='220' height='44' fill='#fff' stroke='#2b4a6f'/><text x='380' y='270' text-anchor='middle' fill='#2c2c28'>公元97年 甘英使大秦</text><text x='380' y='288' text-anchor='middle' fill='#2c2c28' font-size='12'>抵西海为安息船人所阻而返</text><line x1='490' y1='274' x2='515' y2='274' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a11)'/><rect x='515' y='252' width='220' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='625' y='270' text-anchor='middle' fill='#8c1f28'>公元166年 大秦商人抵汉</text><text x='625' y='288' text-anchor='middle' fill='#8c1f28' font-size='12'>自海路至·见《后汉书》</text></g></svg>",
+      "sources": ["hanshu", "houhanshu", "shiji", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "spartacus-73",
+      "title": "斯巴达克起义",
+      "year": -73,
+      "end_year": -71,
+      "year_display": "前73年",
+      "end_year_display": "前71年",
+      "year_note": "起义通行系于前73年（卡普阿角斗士学校出逃）至前71年（克拉苏围歼），据普鲁塔克《克拉苏传》等所载事件序列与罗马纪年换算。",
+      "location": "意大利南部（卡普阿—维苏威—南意大利）",
+      "key_people": [],
+      "background": "罗马共和国后期，行省战争带来大规模奴隶供给，意大利庄园奴隶劳动普遍，角斗士训练市场发达；奴隶逃亡与暴动时有发生。卡普阿角斗士学校的训练条件成为起义导火索，斯巴达克（色雷斯出身，据古代传记）为出逃者之首。",
+      "process": [
+        "前73年约七十余名角斗士自卡普阿学校出逃（古代记载之数），暂据维苏威山，奴隶与贫民来附。",
+        "起义军击败坎帕尼亚地方军与首支罗马讨伐部队，获装备并扩充队伍。",
+        "前72年转战南意大利，先后击破两名执政官统率的军队；队伍一度北进又折返南意大利。",
+        "前71年克拉苏受命镇压，筑封锁线困起义军于布鲁提乌姆角；斯巴达克突围未成，战殁于最后会战。",
+        "起义失败后，据古代记载数千被俘者被钉死于阿皮亚大道沿线示众。"
+      ],
+      "outcome": "起义被镇压，未改变共和国制度，但暴露了奴隶制经济的脆弱与罗马军队动员的压力；此后与海盗、同盟者相关的不稳定仍在。近代以来斯巴达克被重新读作反抗压迫的象征，其形象经历显著的现代重构。",
+      "controversies": [
+        {
+          "issue": "起义规模与目标",
+          "views": [
+            {
+              "holder": "古代记载（普鲁塔克《克拉苏传》、萨鲁斯特残篇传统）",
+              "basis": "强调其为奴隶与贫民的逃亡—求生运动，规模与路线各记载互有出入。"
+            },
+            {
+              "holder": "现代研究",
+              "basis": "认为起义目标是摆脱奴役而非废除奴隶制的政治纲领；近代“奴隶革命”式解读为后起重构，学界对其规模估计不一。"
+            }
+          ]
+        },
+        {
+          "issue": "史料单一性问题",
+          "views": [
+            {
+              "holder": "罗马视角史料（普鲁塔克、阿庇安等）",
+              "basis": "现存叙述全部出自罗马作家，起义军一侧无文献。"
+            },
+            {
+              "holder": "现代史学批评",
+              "basis": "人数、战役细节与斯巴达克个人经历均经罗马史家转述，重建依赖小心翼翼的多源比对。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>斯巴达克起义进程（前73—前71）</text><g font-size='13'><rect x='120' y='50' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='75' text-anchor='middle' fill='#2c2c28'>前73年卡普阿角斗士学校出逃</text><line x1='380' y1='90' x2='380' y2='104' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a7)'/><rect x='120' y='104' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='129' text-anchor='middle' fill='#2c2c28'>据维苏威山·奴隶与贫民来附</text><line x1='380' y1='144' x2='380' y2='158' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a7)'/><rect x='120' y='158' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='183' text-anchor='middle' fill='#2c2c28'>转战南意大利·屡破罗马军</text><line x1='380' y1='198' x2='380' y2='212' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a7)'/><rect x='120' y='212' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='237' text-anchor='middle' fill='#2c2c28'>前71年克拉苏封锁围歼·斯巴达克战殁</text><line x1='380' y1='252' x2='380' y2='266' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a7)'/><rect x='120' y='266' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='291' text-anchor='middle' fill='#8c1f28'>起义终·被俘者钉死于阿皮亚大道</text><text x='380' y='342' text-anchor='middle' fill='#2c2c28' font-size='12'>现存叙述全部出自罗马作家·起义军一侧无文献</text></g></svg>",
+      "sources": ["plutarch", "zgbk", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "caesar-republic-49",
+      "title": "恺撒与共和国终结",
+      "year": -49,
+      "end_year": -44,
+      "year_display": "前49年",
+      "end_year_display": "前44年",
+      "year_note": "恺撒渡卢比孔河内战爆发通行系于前49年1月，其遇刺于前44年3月15日（儒略历），据苏维托尼乌斯《神圣尤利乌斯传》与普鲁塔克《恺撒传》所载及通行纪年换算。",
+      "location": "罗马—高卢—意大利—东方行省",
+      "key_people": ["julius-caesar"],
+      "background": "共和国后期，行省资源与军队私人效忠失衡：庞培、克拉苏与恺撒的前三头同盟垄断政治，高卢战争（前58—前50年）为恺撒积累军功、财富与一支效忠于己的军团。元老院与恺撒围绕任职安排的对峙使其面临起诉与失势。",
+      "process": [
+        "前49年元老院强令恺撒解散军团，恺撒渡卢比孔河，内战爆发（苏维托尼乌斯记其名句传统流传，是否原话存疑）。",
+        "前48年法萨卢斯之战击败庞培；庞培亡命埃及被杀，恺撒介入埃及政局（克利奥帕特拉复位）。",
+        "前47—前45年扫平非洲与西班牙的庞培余部，内战在全地中海展开。",
+        "独裁任内推行改革：儒略历（前45年施行）、解债安排、殖民与公民权扩授、元老院扩充。",
+        "前44年受终身独裁官尊号，礼仪屡近王政（“狄克推多”尊号与冠冕事件引发共和派警觉）。",
+        "前44年3月15日布鲁图斯、卡西乌斯等共和派元老在元老院刺杀恺撒。"
+      ],
+      "outcome": "刺杀未复共和：内战再起，养子屋大维与安东尼、雷必达后三头掌权，共和机制名存实亡。恺撒的军事集权与改革（历法沿用至今）成为从共和到帝制的直接过渡；其名字成为后世“皇帝”称号（Kaiser、Tsar）之源。",
+      "controversies": [
+        {
+          "issue": "恺撒的意图：王政还是被迫",
+          "views": [
+            {
+              "holder": "共和传统叙述（西塞罗一系及其后史家）",
+              "basis": "视恺撒为蓄意僭取王权者，刺杀为诛戮僭主。"
+            },
+            {
+              "holder": "现代罗马史学界",
+              "basis": "多视其为共和国结构性危机的产物：元老院—军队—行省资源失衡使其崛起，制度僵局使和解无门，个人野心与结构压力难以剥离。"
+            }
+          ]
+        },
+        {
+          "issue": "渡河名句等细节的史料可信度",
+          "views": [
+            {
+              "holder": "苏维托尼乌斯《神圣尤利乌斯传》",
+              "basis": "辑录“骰子已掷下”等名句并自注其来源不一，含有传说层。"
+            },
+            {
+              "holder": "现代研究",
+              "basis": "认为此类名句多系后世定型化叙述，用作史料须与同期书信（西塞罗书信）对勘。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>恺撒与共和国终结（前49—前44）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>前三头结盟·高卢战争积累实力</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a8)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>前49年渡卢比孔河·内战爆发</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a8)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>前48年法萨卢斯之战败庞培</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a8)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>扫平非洲西班牙余部·行儒略历等改革</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a8)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>前44年终身独裁官·礼仪近王政</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a8)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>前44年3月15日元老院遇刺·共和未复</text></g></svg>",
+      "sources": ["suetonius", "plutarch", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "augustus-principate-27",
+      "title": "屋大维与元首制的确立",
+      "year": -27,
+      "end_year": null,
+      "year_display": "前27年",
+      "end_year_display": null,
+      "year_note": "前27年1月屋大维在元老院交还非常权力并受“奥古斯都”尊号，通行以此为元首制确立之年；据苏维托尼乌斯《神圣奥古斯都传》所载与罗马纪年换算。",
+      "location": "罗马（帝国全境）",
+      "key_people": ["augustus"],
+      "background": "恺撒遇刺后，养子屋大维经后三头同盟与内战（前31年亚克兴角海战击败安东尼与克利奥帕特拉）成为唯一掌权者。长期内战使意大利渴望秩序，军队、行省与元老院的关系亟需重新安排。",
+      "process": [
+        "前31年亚克兴角海战击败安东尼，屋大维独掌大权；前29年班师，举行关闭雅努斯神庙大门的和平仪式。",
+        "前27年1月宣布“交还共和国”，元老院授“奥古斯都”尊号并划归其重要行省与军团（第一次宪政安排）。",
+        "前23年获保民官权力与最高统辖权（第二次宪政安排），不求官职而握实权，奠定元首制运作方式。",
+        "改组军团与近卫军、厘定莱茵—多瑙—幼发拉底边界，行省分治（元老院省与元首省）与税收整顿并行。",
+        "以“恢复共和”话语与道德立法巩固统治，赞助维吉尔、贺拉斯等文学（后世称“奥古斯都时代”）；统治至公元14年卒。"
+      ],
+      "outcome": "元首制（principate）以内战后军事君主之实加共和话语之形确立，帝国秩序维持约二百年（“罗马和平”）。奥古斯都的个人权威成为体制核心，此后帝位传递依赖其确立的家族与军队惯例；罗马城经其改建（苏维托尼乌斯记其自谓“砖城变大理石”）成为帝国都会。",
+      "controversies": [
+        {
+          "issue": "元首制的性质",
+          "views": [
+            {
+              "holder": "塔西佗《编年史》第1卷所记两派史论",
+              "basis": "或谓其以秩序终结内乱、功在国安；或谓其以怀柔与军权行专制、毁共和。"
+            },
+            {
+              "holder": "现代学界",
+              "basis": "多解读为内战后的军事君主制加“恢复共和”的政治广告：稳定有赖其个人权威，3世纪危机暴露体制对人身的依赖。"
+            }
+          ]
+        },
+        {
+          "issue": "“交还共和国”的诚意",
+          "views": [
+            {
+              "holder": "传统看法",
+              "basis": "视前27年为政治表演，实权早已在手。"
+            },
+            {
+              "holder": "部分现代学者",
+              "basis": "认为交还与受尊号是真实宪政安排的一部分，帝国行省与军团确归元首直辖，体制在博弈中成形，非单纯伪装。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>屋大维与元首制确立（前31—前27）</text><g font-size='13'><rect x='120' y='50' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='75' text-anchor='middle' fill='#2c2c28'>后三头内战·前31年亚克兴海战</text><line x1='380' y1='90' x2='380' y2='104' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a9)'/><rect x='120' y='104' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='129' text-anchor='middle' fill='#2c2c28'>前27年授奥古斯都号·交还非常权力</text><line x1='380' y1='144' x2='380' y2='158' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a9)'/><rect x='120' y='158' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='183' text-anchor='middle' fill='#2c2c28'>前23年获保民官权与最高统辖权</text><line x1='380' y1='198' x2='380' y2='212' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a9)'/><rect x='120' y='212' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='237' text-anchor='middle' fill='#2c2c28'>改组军团近卫·厘定边界·行省分治</text><line x1='380' y1='252' x2='380' y2='266' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a9)'/><rect x='120' y='266' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='291' text-anchor='middle' fill='#8c1f28'>元首制确立·罗马和平约二百年</text><text x='380' y='342' text-anchor='middle' fill='#2c2c28' font-size='12'>共和话语之形＋军事君主之实</text></g></svg>",
+      "sources": ["suetonius", "brit-augustus", "tacitus"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "kushan-gandhara-30",
+      "title": "贵霜帝国与犍陀罗艺术",
+      "year": 30,
+      "end_year": 250,
+      "year_display": "约公元30年",
+      "end_year_display": "约公元250年",
+      "year_note": "据《后汉书·西域传》“贵霜翕侯丘就却攻灭四翕侯，自立为王，国号贵霜”，学界通常将贵霜统一系于公元1世纪上半叶（此处取约30年代为约数）；帝国约3世纪中叶（约250年前后）西境为萨珊波斯攻掠而衰落。迦腻色伽在位纪年起点有诸说，见争议节。",
+      "location": "中亚—犍陀罗（今阿富汗北部至巴基斯坦北部、印度西北部）",
+      "key_people": [],
+      "background": "大月氏西迁巴克特里亚后分为五部翕侯（《后汉书·西域传》）。贵霜扼丝路中段，居汉、安息、罗马与印度之间，控制商道与转贩枢纽；其统治地域正是印度、伊朗与希腊化文化交汇之处。",
+      "process": [
+        "约公元1世纪上半叶，贵霜翕侯丘就却统一五部称王（钱币兼用希腊—罗马样式与本地神像），据《后汉书·西域传》。",
+        "其子维马·卡德菲塞斯（阎膏珍）时代南下犍陀罗，控制印度西北并通印度洋贸易。",
+        "迦腻色伽时期帝国极盛：都布路沙布罗（今白沙瓦一带），广建佛塔，佛教传统载其赞助第四次结集。",
+        "犍陀罗艺术成熟：希腊—罗马造型语言与佛教题材结合，佛像成为艺术主流形式之一；马图拉风格并行发展。",
+        "约3世纪中叶萨珊波斯东进攻掠，西部领土丧失，贵霜余部退守印度东部，渐为笈多等势力所代。"
+      ],
+      "outcome": "贵霜以居间商道与宗教宽容著称，诸王发行多神并存的钱币。佛教经其控制的商路东传中国西域，犍陀罗佛像风格随佛教艺术进入中亚与东亚，成为中国石窟造像艺术的远源之一；其钱币与铭文是贵霜史重建的主要材料。",
+      "controversies": [
+        {
+          "issue": "迦腻色伽纪年起点",
+          "views": [
+            {
+              "holder": "旧说",
+              "basis": "以公元78年起算（与塞种纪年关联），影响早期系年。"
+            },
+            {
+              "holder": "现代多数研究",
+              "basis": "倾向公元127或144年说（据钱币学与铭文交叉），尚无共识；系年差异直接影响帝国极盛期的绝对年代。"
+            }
+          ]
+        },
+        {
+          "issue": "贵霜史料的结构性不足",
+          "views": [
+            {
+              "holder": "汉文史料（《后汉书·西域传》）",
+              "basis": "提供王统与统一过程的最早完整叙述。"
+            },
+            {
+              "holder": "考古、钱币与铭文",
+              "basis": "可补充细节但彼此系年不易衔接；贵霜自身文献几乎无存，重建依赖多源拼合。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>贵霜帝国兴衰与犍陀罗艺术（1—3世纪）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>大月氏西迁巴克特里亚·分五翕侯</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a12)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>约公元1世纪上半叶丘就却统一建贵霜</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a12)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>南下犍陀罗·控丝路中段商道</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a12)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>迦腻色伽时期极盛·都布路沙布罗</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a12)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>犍陀罗艺术成熟·佛像样式确立</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a12)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>约3世纪中叶萨珊攻掠·帝国衰落</text></g></svg>",
+      "sources": ["houhanshu", "met-toah", "bentley-cross", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "christianity-rise-30",
+      "title": "基督教的兴起",
+      "year": 30,
+      "end_year": null,
+      "year_display": "公元30年",
+      "end_year_display": null,
+      "year_note": "以约公元30年前后耶稣受难与耶路撒冷初代教会形成为叙事锚点（受难年通行约30或33年；耶稣生年异说见争议节），据《新约》纪年框架与学界通行用法。",
+      "location": "犹地亚（罗马行省）—叙利亚—小亚细亚—希腊—罗马城",
+      "key_people": [],
+      "background": "罗马统治下的犹地亚社会经济紧张、末世期待浓厚；拿撒勒人耶稣于提比略在位时期在加利利与犹地亚传道（福音书记载），约30年前后被罗马总督彼拉多处十字架刑。其门徒宣称其复活，在耶路撒冷形成信仰团体。",
+      "process": [
+        "初代教会以耶路撒冷为中心；保罗（扫罗）改宗后向外邦人传教，经小亚细亚、希腊至罗马，确立外邦会众不必先行犹太律法的路线（据《使徒行传》与保罗书信传统叙述）。",
+        "会众组织（主教、长老、执事渐次成形）与书信往来维持跨城网络；1世纪中后期四福音书相继成文。",
+        "基督徒拒拜皇帝像引发与帝国祭仪的冲突；公元64年罗马大火后尼禄归罪并迫害基督徒（塔西佗《编年史》第15卷所载）。",
+        "2—3世纪教会扩及帝国各语区，护教士以书面回应指控；间受系统性迫害（如250年德西乌斯敕令、303年戴克里先敕令）。"
+      ],
+      "outcome": "基督教从犹地亚边缘团体发展为帝国范围的教会网络，教义（信经雏形）与主教制渐次成形。313年米兰敕令（见本单元末条）使其获得合法地位，4世纪走向帝国官方支持宗教；其组织与文本传统成为中世纪欧洲文明的基础之一。",
+      "controversies": [
+        {
+          "issue": "耶稣生平研究的史料分层",
+          "views": [
+            {
+              "holder": "新约研究通说",
+              "basis": "保罗书信成文早于四福音书；福音书含神学重构，须与罗马、犹太史料（塔西佗、约瑟夫斯之记）分层互证。"
+            },
+            {
+              "holder": "部分历史学者",
+              "basis": "认为“历史中的耶稣”与“信仰中的基督”须区分，可确考的生平细节有限。"
+            }
+          ]
+        },
+        {
+          "issue": "耶稣出生年",
+          "views": [
+            {
+              "holder": "通行纪年框架",
+              "basis": "以公元1年为纪元起点，但与史料线索不合。"
+            },
+            {
+              "holder": "圣经年代学诸说",
+              "basis": "据大希律卒年（前4年）与《路加福音》居里扭任叙利亚巡抚（公元6年）线索，出生年界于约前4年—公元6年间，诸说并存。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>基督教兴起进程（1—3世纪）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>约30年耶稣受难·耶路撒冷教会形成</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a13)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>保罗外邦传教·跨城会众网络</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a13)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>1世纪中后期福音书成文</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a13)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>64年罗马大火后尼禄迫害（塔西佗载）</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a13)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>2—3世纪扩及帝国各语区·间受迫害</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a13)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>教义与主教制成形·至313年获合法地位</text></g></svg>",
+      "sources": ["tacitus", "gibbon", "stearns-global", "met-toah"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "crisis-third-century-235",
+      "title": "三世纪危机与戴克里先",
+      "year": 235,
+      "end_year": 284,
+      "year_display": "公元235年",
+      "end_year_display": "公元284年",
+      "year_note": "危机通行以235年塞维鲁·亚历山大被部下所杀、马克西米努斯即位为始，以284年戴克里先即位为终；据罗马编年传统与吉本《罗马帝国衰亡史》采用的通行纪年换算。",
+      "location": "罗马帝国（莱茵—多瑙边墙、东方边境、埃及）",
+      "key_people": [],
+      "background": "塞维鲁王朝终结后，军队废立皇帝成为常态；同时萨珊波斯在东方复兴（224年阿尔达希尔立国）与莱茵—多瑙日耳曼压力并至。军费膨胀使银币持续贬值，城市精英负担加重，帝国财政与政治同时承压。",
+      "process": [
+        "235年皇帝被杀，此后约半个世纪皇帝更迭频繁、多有横死，篡立与僭号并起。",
+        "251年前后瘟疫流行（后世以西普里安主教命名），人口与税收受损。",
+        "260年前后帝国一度三分：高卢帝国（波斯图穆斯）、帕尔米拉（奥德纳图斯—芝诺比娅）与帝国本土。",
+        "奥勒利安（270—275年在位）先后收复帕尔米拉与高卢，复归一统，重启币制整顿。",
+        "284年戴克里先即位，293年设四帝共治（tetrarchy）分东西治理；行省细分、官僚化与军制改革铺开，301年颁《物价敕令》试图限价。"
+      ],
+      "outcome": "危机未瓦解帝国但重塑了它：皇帝护卫与东方宫廷礼制强化、城市自治萎缩、军政官僚国家兴起。戴克里先体制终结了军队随意废立的常态，也使统治成本大增，为东西分治与基督教帝国转型准备了框架。",
+      "controversies": [
+        {
+          "issue": "“危机”概念的适用范围",
+          "views": [
+            {
+              "holder": "传统叙述（吉本《罗马帝国衰亡史》以下）",
+              "basis": "以235—284年为系统性崩溃期，军队干政与货币崩溃为主线（吉本的内在衰朽叙事现代多已修正）。"
+            },
+            {
+              "holder": "现代部分学者",
+              "basis": "认为危机呈区域不均：东方与埃及多处稳定，高卢—多瑙与巴尔干受冲击最深；加利恩努斯时期已在军事与行政上部分修复。"
+            }
+          ]
+        },
+        {
+          "issue": "危机成因的主次",
+          "views": [
+            {
+              "holder": "外部压力说",
+              "basis": "萨珊与日耳曼边境战争迫使军费与征发扩大，引发财政与政治连锁反应。"
+            },
+            {
+              "holder": "内部结构说",
+              "basis": "货币贬值、税收下滑、城市精英退出与军队政变循环互为因果，难以单因解释。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>三世纪危机与戴克里先（235—284）</text><g font-size='13'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle' fill='#2c2c28'>235年军队废立皇帝成常态</text><line x1='380' y1='84' x2='380' y2='98' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a14)'/><rect x='120' y='98' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='123' text-anchor='middle' fill='#2c2c28'>东方萨珊复兴·莱茵多瑙边墙承压</text><line x1='380' y1='138' x2='380' y2='152' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a14)'/><rect x='120' y='152' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='177' text-anchor='middle' fill='#2c2c28'>瘟疫流行·银币贬值·财政恶化</text><line x1='380' y1='192' x2='380' y2='206' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a14)'/><rect x='120' y='206' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='231' text-anchor='middle' fill='#2c2c28'>260年前后帝国三分（高卢·帕尔米拉）</text><line x1='380' y1='246' x2='380' y2='260' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a14)'/><rect x='120' y='260' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='285' text-anchor='middle' fill='#2c2c28'>奥勒利安（270—275）复归一统</text><line x1='380' y1='300' x2='380' y2='314' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a14)'/><rect x='120' y='314' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='339' text-anchor='middle' fill='#8c1f28'>284年戴克里先即位·293年四帝共治</text></g></svg>",
+      "sources": ["gibbon", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "constantine-fall-rome-313",
+      "title": "君士坦丁改制、米兰敕令与476年西罗马灭亡",
+      "year": 313,
+      "end_year": 476,
+      "year_display": "公元313年",
+      "end_year_display": "公元476年",
+      "year_note": "米兰敕令系于313年（君士坦丁与李锡尼联合颁布之宗教宽容文书，通行纪年）；君士坦丁堡330年落成；395年狄奥多西一世死后帝国分授二子；476年西罗马末帝被废，均据通行纪年换算。本条依 scope 合并书写至476年。",
+      "location": "罗马—米兰—君士坦丁堡—拉文纳（意大利与东地中海）",
+      "key_people": [],
+      "background": "四帝共治体制在内战中解体，君士坦丁与李锡尼分掌东西；基督教经三个世纪扩展已在帝国东部形成教会网络，与帝国祭仪的冲突持续，宗教政策成为统一战争后的核心议题。",
+      "process": [
+        "312年君士坦丁于米尔维安桥战胜马克森提乌斯，据罗马城。",
+        "313年君士坦丁与李锡尼颁布宗教宽容文书（后通称“米兰敕令”），归还教会财产，基督教取得合法地位。",
+        "325年君士坦丁召集尼西亚会议，裁定“同质”信纲，帝国介入教义仲裁。",
+        "330年迁都博斯普鲁斯海峡畔的君士坦丁堡，设元老院、仿罗马建制，帝国政治重心东移。",
+        "395年狄奥多西一世卒，帝国分予阿卡狄乌斯与霍诺里乌斯，东西分治制度化。",
+        "5世纪西部屡遭哥特与汪达尔侵扰，410年罗马城遭西哥特人洗劫；476年日耳曼将领奥多亚克废黜末帝罗慕路斯·奥古斯都路斯，送皇徽于君士坦丁堡。"
+      ],
+      "outcome": "基督教由受禁宗教经合法化走向官方宗教（380年《萨洛尼卡敕令》立尼西亚基督教为国教）；帝国分裂为东西两支，西部政权更替为日耳曼诸王国，东部延续为拜占庭帝国。476年通常被用作古典时代终结的纪年，君士坦丁堡则成为此后千年东罗马的中心（其历史区列入世界遗产）。",
+      "controversies": [
+        {
+          "issue": "476年作为“罗马灭亡”的史学建构",
+          "views": [
+            {
+              "holder": "吉本《罗马帝国衰亡史》以来的传统框架",
+              "basis": "以末帝被废为西罗马灭亡的标志性节点，强调“衰亡”（decay）的长程叙事。"
+            },
+            {
+              "holder": "晚期古代研究（彼得·布朗等“转型”学派）",
+              "basis": "强调476年仅是西部政权更替：奥多亚克名义上承认东部皇帝权威，行政与教会结构延续，古典文化转型而未骤亡。"
+            }
+          ]
+        },
+        {
+          "issue": "“米兰敕令”的名称与性质",
+          "views": [
+            {
+              "holder": "通行叙述",
+              "basis": "称313年宗教宽容文书为米兰敕令，视其为基督教合法化的起点。"
+            },
+            {
+              "holder": "文献研究",
+              "basis": "现存文书以李锡尼名义发布于东境，“米兰敕令”为后世追称；其内容上承311年伽列里乌斯敕令，宽容与归还财产属连续政策。"
+            }
+          ]
+        }
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='a15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='26' text-anchor='middle' font-size='17' fill='#2b4a6f'>君士坦丁改制至西罗马终结（313—476）</text><g font-size='13'><rect x='120' y='40' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='65' text-anchor='middle' fill='#2c2c28'>312年米尔维安桥之战·君士坦丁入罗马</text><line x1='380' y1='80' x2='380' y2='90' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a15)'/><rect x='120' y='90' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='115' text-anchor='middle' fill='#2c2c28'>313年宗教宽容文书（通称米兰敕令）</text><line x1='380' y1='130' x2='380' y2='140' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a15)'/><rect x='120' y='140' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='165' text-anchor='middle' fill='#2c2c28'>325年尼西亚会议·330年迁都君士坦丁堡</text><line x1='380' y1='180' x2='380' y2='190' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a15)'/><rect x='120' y='190' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='215' text-anchor='middle' fill='#2c2c28'>395年狄奥多西一世死后东西分治</text><line x1='380' y1='230' x2='380' y2='240' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a15)'/><rect x='120' y='240' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='265' text-anchor='middle' fill='#2c2c28'>410年西哥特人洗劫罗马城</text><line x1='380' y1='280' x2='380' y2='290' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#a15)'/><rect x='120' y='290' width='520' height='40' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='315' text-anchor='middle' fill='#8c1f28'>476年奥多亚克废末帝·西罗马终结</text><text x='380' y='370' text-anchor='middle' fill='#2c2c28' font-size='12'>“衰亡”叙事与“转型”学派的分野</text></g></svg>",
+      "sources": ["gibbon", "whc-istanbul", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "solon",
+      "name": "梭伦",
+      "birth_year": -630,
+      "death_year": -560,
+      "birth_display": "约前630年",
+      "death_display": "约前560年",
+      "birth_note": "生年无直接记载，据普鲁塔克《梭伦传》所载活动年代与卒年倒推的通说约前630年。",
+      "death_note": "普鲁塔克称其年约八十而终；通行系于约前560年，具体年份诸说，取约数。",
+      "chronology": [
+        {
+          "year": -594,
+          "display": "前594年",
+          "text": "当选执政官，颁“解负令”、定财产四级制，开启雅典立法改革（据普鲁塔克《梭伦传》）。"
+        },
+        {
+          "year": -570,
+          "display": "约前570年",
+          "text": "离雅典出游十年（普鲁塔克记其游历埃及、塞浦路斯等地，细节含传说成分），观察他邦政制。"
+        },
+        {
+          "year": -560,
+          "display": "约前560年",
+          "text": "卒于雅典故里（普鲁塔克载其寿约八十）。"
+        }
+      ],
+      "deeds": [
+        "颁布“解负令”废除公民债务奴役，禁止以人身作借贷担保，拆除债务界碑（据普鲁塔克所记）。",
+        "按财产而非出身划分公民四级，界定政治权利层级；设四百人会议与陪审法庭扩大参与。",
+        "立法后自限权力、出国十年，拒绝僭主之请；其诗篇自述改革立场，为古代所传诵。"
+      ],
+      "evaluations": [
+        {
+          "holder": "普鲁塔克《梭伦传》",
+          "view": "视梭伦为以调解避免内乱的立法贤者，其“中道”与自限权力为后世政治美谈。",
+          "basis": "《梭伦传》叙事及其所引梭伦诗篇。"
+        },
+        {
+          "holder": "亚里士多德《雅典政制》",
+          "view": "批评梭伦仅按财产分配权力而未回应土地诉求，党争继起终致僭主政治。",
+          "basis": "《雅典政制》对改革后果的分析。"
+        },
+        {
+          "holder": "现代古典学界",
+          "view": "视其为贵族内争与经济危机下的改革者；结构性民主化关键在克利斯提尼，“梭伦神话”含后世层累。",
+          "basis": "剑桥古代史等对史源的批判研究。"
+        }
+      ],
+      "sources": ["plutarch", "herodotus", "zgbk"]
+    },
+    {
+      "id": "pericles",
+      "name": "伯里克利",
+      "birth_year": -495,
+      "death_year": -429,
+      "birth_display": "约前495年",
+      "death_display": "前429年",
+      "birth_note": "生年通说约前495年，据其家族事迹与卒年寿数倒推（古代记载未确载生年），取约数。",
+      "death_note": "前429年死于雅典瘟疫，据修昔底德《伯罗奔尼撒战争史》第2卷对瘟疫与其病殁的记载。",
+      "chronology": [
+        {
+          "year": -461,
+          "display": "前461年",
+          "text": "埃菲阿尔提斯遇刺后成为雅典民主派领袖，主导削弱贵族议事机构的后续改革。"
+        },
+        {
+          "year": -447,
+          "display": "前447年",
+          "text": "主持帕特农神庙等卫城重建（前447—前432年营造），卫城建筑群今列入世界遗产。"
+        },
+        {
+          "year": -443,
+          "display": "前443年",
+          "text": "当选首席将军，此后连选连任直至去世，主导雅典内政外交。"
+        },
+        {
+          "year": -431,
+          "display": "前431年",
+          "text": "伯罗奔尼撒战争爆发；冬季发表阵亡将士葬礼演说（修昔底德第2卷所载演说词）。"
+        },
+        {
+          "year": -429,
+          "display": "前429年",
+          "text": "染瘟疫病故，其战略后继无人。"
+        }
+      ],
+      "deeds": [
+        "推行公职津贴使贫民得以参与陪审与公职，深化直接民主。",
+        "主导卫城重建与艺术赞助（菲狄亚斯等参与），奠定雅典古典建筑群。",
+        "维持提洛同盟向雅典帝国的转化，战时提出依托舰队与城墙的消耗战略。"
+      ],
+      "evaluations": [
+        {
+          "holder": "修昔底德《伯罗奔尼撒战争史》",
+          "view": "称其为“第一公民”，借其葬礼演说提出“雅典是希腊的学校”，视其为雅典全盛的象征。",
+          "basis": "第2卷第65节对其领导力的总评。"
+        },
+        {
+          "holder": "普鲁塔克《伯里克利传》",
+          "view": "肯定其庄重与廉洁，同时录“奥林匹亚式的傲慢”与旧贵族喜剧对其个人生活的讥刺。",
+          "basis": "《伯里克利传》综合阿里斯托芬等喜剧传统。"
+        },
+        {
+          "holder": "现代学界",
+          "view": "视其为民主制度与帝国扩张的结合体：津贴民主、卫城工程与同盟财政一体化并存，遗产兼具成就与霸权代价。",
+          "basis": "剑桥古代史等综合研究。"
+        }
+      ],
+      "sources": ["thucydides", "plutarch", "whc-acropolis"]
+    },
+    {
+      "id": "socrates",
+      "name": "苏格拉底",
+      "birth_year": -469,
+      "death_year": -399,
+      "birth_display": "前469年",
+      "death_display": "前399年",
+      "birth_note": "生年据其在前399年受审时年约七十的通行推算（柏拉图《申辩》载其年七十），取通行纪年。",
+      "death_note": "前399年经雅典五百人法庭定罪处死，罪名“不敬城邦之神、败坏青年”，据柏拉图《申辩》与色诺芬记载。",
+      "chronology": [
+        {
+          "year": -431,
+          "display": "前431年",
+          "text": "作为重装步兵参加波提狄亚战役并救人（据柏拉图《会饮》追述）。"
+        },
+        {
+          "year": -424,
+          "display": "前424年",
+          "text": "参加德利乌姆之战并救护同袍（据柏拉图《会饮》）。"
+        },
+        {
+          "year": -406,
+          "display": "前406年",
+          "text": "任五百人会议轮值主席团成员，独力反对集体审判阿金努萨诸将（据柏拉图《申辩》自述）。"
+        },
+        {
+          "year": -399,
+          "display": "前399年",
+          "text": "以“不敬神、败坏青年”罪受审，定罪后拒逃亡，饮毒堇而死。"
+        }
+      ],
+      "deeds": [
+        "未著书立说，以问答（“诘问法”）在市井考察伦理概念，追问“何为正义、何为德性”。",
+        "不取酬授徒，门下有柏拉图、色诺芬等；战争年代以简朴与自制著称。",
+        "受审时自辩“未经省察的人生不值得过”，拒逃赴死，其死成为哲学与城邦张力的经典案例。"
+      ],
+      "evaluations": [
+        {
+          "holder": "柏拉图对话录",
+          "view": "以苏格拉底为哲学的化身与殉道者，视其追问为德性之学的起点。",
+          "basis": "《申辩》《克力同》等篇。"
+        },
+        {
+          "holder": "阿里斯托芬《云》",
+          "view": "同时代喜剧将其刻画为诡辩与亵渎的“自然哲人”，反映其形象在雅典公众中的争议性。",
+          "basis": "前423年上演的《云》。"
+        },
+        {
+          "holder": "现代研究（“苏格拉底问题”）",
+          "view": "认为柏拉图、色诺芬、阿里斯托芬三家形象差异巨大，历史苏格拉底只能谨慎重构；其受审兼涉政治派系清算与宗教紧张。",
+          "basis": "古典学界对史料分层的长期讨论。"
+        }
+      ],
+      "sources": ["plutarch", "zgbk", "stearns-global"]
+    },
+    {
+      "id": "aristotle",
+      "name": "亚里士多德",
+      "birth_year": -384,
+      "death_year": -322,
+      "birth_display": "前384年",
+      "death_display": "前322年",
+      "birth_note": "生于色雷斯斯塔基拉，前384年为通行记载。",
+      "death_note": "前322年卒于欧比亚卡尔基斯，据古代传记传统（离雅典避亲马其顿之嫌后病殁）。",
+      "chronology": [
+        {
+          "year": -367,
+          "display": "前367年",
+          "text": "年十七入雅典柏拉图学园，留居约二十年。"
+        },
+        {
+          "year": -343,
+          "display": "前343年",
+          "text": "受腓力二世之聘赴马其顿，任少年亚历山大之师（据普鲁塔克《亚历山大传》）。"
+        },
+        {
+          "year": -335,
+          "display": "前335年",
+          "text": "返雅典设吕克昂学园，“逍遥学派”由此得名。"
+        },
+        {
+          "year": -323,
+          "display": "前323年",
+          "text": "亚历山大死后因亲马其顿背景离雅典避居卡尔基斯。"
+        },
+        {
+          "year": -322,
+          "display": "前322年",
+          "text": "卒于卡尔基斯。"
+        }
+      ],
+      "deeds": [
+        "著述涵盖逻辑、自然学、形而上学、伦理学、政治学与诗学，建立分类科学体系。",
+        "《政治学》比较城邦政体，提出人“政治的动物”之论；主持收集各邦宪法与自然标本（传统记其收集城邦政制达百余种）。",
+        "为吕克昂建立图书与标本收藏，奠定系统性研究机构雏形。"
+      ],
+      "evaluations": [
+        {
+          "holder": "传统评价",
+          "view": "百科全书式学者与形式逻辑奠基人，中世纪尊称“哲人”。",
+          "basis": "其著作体系与拉丁中世纪的接受史。"
+        },
+        {
+          "holder": "现代政治哲学批评",
+          "view": "《政治学》为奴隶制与女性从属辩护的段落受到批评，被视为时代与阶级局限的例证。",
+          "basis": "文本本身与20世纪以来研究。"
+        },
+        {
+          "holder": "科学史视角",
+          "view": "其自然学以质料—形式与目的因解释自然，近代科学革命后权威崩解，但其分类与经验收集方法被承认为科学研究的先驱形态。",
+          "basis": "科学史学界通说。"
+        }
+      ],
+      "sources": ["plutarch", "zgbk", "cambridge-ancient"]
+    },
+    {
+      "id": "alexander-great",
+      "name": "亚历山大大帝",
+      "birth_year": -356,
+      "death_year": -323,
+      "birth_display": "前356年",
+      "death_display": "前323年",
+      "birth_note": "生于马其顿培拉，前356年为通行记载。",
+      "death_note": "前323年卒于巴比伦（普鲁塔克《亚历山大传》有载叙事）；死因疟疾、伤寒或中毒诸说并陈，古代记载互异。",
+      "chronology": [
+        {
+          "year": -336,
+          "display": "前336年",
+          "text": "腓力二世遇刺后继位，年二十；翌年镇压希腊反抗。"
+        },
+        {
+          "year": -334,
+          "display": "前334年",
+          "text": "渡赫勒斯滂东征，格拉尼库斯河首胜。"
+        },
+        {
+          "year": -333,
+          "display": "前333年",
+          "text": "伊苏斯之战败大流士三世，夺叙利亚。"
+        },
+        {
+          "year": -332,
+          "display": "前332年",
+          "text": "围陷推罗、入埃及；翌年建亚历山大里亚。"
+        },
+        {
+          "year": -331,
+          "display": "前331年",
+          "text": "高加米拉之战定胜局。"
+        },
+        {
+          "year": -330,
+          "display": "前330年",
+          "text": "入波斯波利斯，王宫焚毁（责任问题存争议）。"
+        },
+        {
+          "year": -326,
+          "display": "前326年",
+          "text": "希达斯皮斯河之战胜波鲁斯，东征止于印度河边。"
+        },
+        {
+          "year": -323,
+          "display": "前323年",
+          "text": "病卒于巴比伦，帝国随即进入继业者战争。"
+        }
+      ],
+      "deeds": [
+        "十年东征灭阿契美尼帝国，兵锋至印度河边，横跨欧亚建立空前军事帝国。",
+        "建数十座亚历山大里亚城并推行军屯殖民，希腊城市网络横贯亚洲。",
+        "推行波斯宫廷礼制与苏萨集体婚配，部将继承其混合统治模式。"
+      ],
+      "evaluations": [
+        {
+          "holder": "普鲁塔克《亚历山大传》",
+          "view": "以古典英雄观颂扬其抱负与慷慨，并录其饮宴失控与晚年多疑。",
+          "basis": "《亚历山大传》的褒贬并置。"
+        },
+        {
+          "holder": "现代古典学界",
+          "view": "强调其依托波斯行政机器的“征服—继承”结构：军事天才与毁灭性暴力（推罗屠城、焚波斯波利斯）并存，“传播希腊文明”更多为继业者与后世的建构。",
+          "basis": "剑桥古代史等研究。"
+        },
+        {
+          "holder": "全球史视角（本特利《新全球史》）",
+          "view": "视东征为欧亚交流的结构性事件：希腊化城市网络将地中海与中亚、印度连为一体，为丝路时代作铺垫。",
+          "basis": "《新全球史》古典时代章节。"
+        }
+      ],
+      "sources": ["plutarch", "brit-alexander", "whc-persepolis", "cambridge-ancient"]
+    },
+    {
+      "id": "ashoka",
+      "name": "阿育王",
+      "birth_year": null,
+      "death_year": -232,
+      "birth_display": "生卒不可考",
+      "death_display": "约前232年",
+      "birth_note": "生年无史料可考，通说按其约前268年即位与年龄记载倒推，故置空并标注不可考。",
+      "death_note": "约前232年卒，为“约前268年即位、在位约三十七年”框架下的通说（佛教传统与铭文纪年结合），具体年份学界有浮动，取约数。",
+      "chronology": [
+        {
+          "year": -268,
+          "display": "约前268年",
+          "text": "即位（取通行系年；即位年另有前273、前261诸说）。"
+        },
+        {
+          "year": -261,
+          "display": "约前261年",
+          "text": "征羯陵伽；战后敕令自述悔恨并转向“达摩”治国。"
+        },
+        {
+          "year": -250,
+          "display": "约前250年前后",
+          "text": "颁摩崖与石柱敕令于帝国要地，内容兼涉伦理训诫与行政；遣使四境传教。"
+        },
+        {
+          "year": -232,
+          "display": "约前232年",
+          "text": "卒；帝国其后渐衰，约前185年为巽加王朝所代。"
+        }
+      ],
+      "deeds": [
+        "羯陵伽战争后推行“达摩”政策：宗教宽容、限制杀生与奢靡，设“达摩大官”监察地方（据其敕令自述）。",
+        "修路植荫、凿井设驿等公共工程（其石柱敕令自述）。",
+        "遣使四境与邻邦传播佛教，佛教传统载其支持第三次结集并遣子（或弟）赴楞伽岛。",
+        "以俗语与地方文字镌刻敕令，其铭文为印度现存最早的主体文字王权文献之一。"
+      ],
+      "evaluations": [
+        {
+          "holder": "佛教传统（《阿育王经》类文献）",
+          "view": "尊为“转轮圣王”与佛教大护法，将其治下系于结集与传教盛事。",
+          "basis": "上座部编年传统。"
+        },
+        {
+          "holder": "H.G.威尔斯《世界史纲》",
+          "view": "谓在历代君主之中，阿育王之名几乎独放光明，将其列为人君施政合乎公益的典范。",
+          "basis": "《世界史纲》对阿育王的著名评语（转述）。"
+        },
+        {
+          "holder": "现代古代印度研究",
+          "view": "依铭文重建其统治：达摩敕令兼具王权意识形态与实用治理功能，其“和平主义”形象部分为后世与殖民时代学术的再诠释。",
+          "basis": "对敕令铭文的文本与功能研究。"
+        }
+      ],
+      "sources": ["zgbk", "bentley-cross", "met-toah"]
+    },
+    {
+      "id": "julius-caesar",
+      "name": "恺撒",
+      "birth_year": -100,
+      "death_year": -44,
+      "birth_display": "前100年",
+      "death_display": "前44年",
+      "birth_note": "生于罗马尤利乌斯家族，前100年为通行记载（另有前102年之少说）。",
+      "death_note": "前44年3月15日在元老院遇刺，据苏维托尼乌斯《神圣尤利乌斯传》与普鲁塔克《恺撒传》。",
+      "chronology": [
+        {
+          "year": -60,
+          "display": "前60年",
+          "text": "与庞培、克拉苏结成“前三头”同盟。"
+        },
+        {
+          "year": -58,
+          "display": "前58年",
+          "text": "就任山南高卢总督，开高卢战争（至前50年）。"
+        },
+        {
+          "year": -55,
+          "display": "前55年",
+          "text": "首次渡海远征不列颠，于莱茵河架桥示威。"
+        },
+        {
+          "year": -49,
+          "display": "前49年",
+          "text": "元老院强令解职，恺撒渡卢比孔河，内战爆发。"
+        },
+        {
+          "year": -48,
+          "display": "前48年",
+          "text": "法萨卢斯之战败庞培；庞培亡命埃及被杀。"
+        },
+        {
+          "year": -44,
+          "display": "前44年",
+          "text": "受终身独裁官尊号并推行改革，3月15日遇刺于元老院。"
+        }
+      ],
+      "deeds": [
+        "高卢八年征服（据其《高卢战记》自述与普鲁塔克），罗马疆界推至莱茵河与大西洋。",
+        "渡卢比孔河以武力决定内政，胜利后集权：施行儒略历、解债安排、殖民与公民权扩授。",
+        "独裁任内以赦免与修好元老并行，仍遭共和派刺杀；其名成为后世帝号之源。"
+      ],
+      "evaluations": [
+        {
+          "holder": "苏维托尼乌斯《十二帝王传》",
+          "view": "并录其军事天才、宽赦政策与“僭越礼仪”（冠冕事件等），以“被弑的独裁者”定调。",
+          "basis": "《神圣尤利乌斯传》。"
+        },
+        {
+          "holder": "普鲁塔克《恺撒传》",
+          "view": "与亚历山大对读，赞其果决与雄心，亦记其好大喜功。",
+          "basis": "《恺撒传》。"
+        },
+        {
+          "holder": "现代罗马史学界",
+          "view": "视恺撒为共和国结构性危机的产物而非单纯野心家：元老院—军队—行省资源的失衡使其崛起，其遇刺未救共和，反促元首制。",
+          "basis": "剑桥古代史等综合研究。"
+        }
+      ],
+      "sources": ["suetonius", "plutarch", "cambridge-ancient"]
+    },
+    {
+      "id": "augustus",
+      "name": "奥古斯都",
+      "birth_year": -63,
+      "death_year": 14,
+      "birth_display": "前63年",
+      "death_display": "公元14年",
+      "birth_note": "生于罗马，前63年为通行记载。",
+      "death_note": "公元14年8月卒于坎帕尼亚诺拉，据苏维托尼乌斯《神圣奥古斯都传》所载叙事；卒年用公元后正数纪年。",
+      "chronology": [
+        {
+          "year": -44,
+          "display": "前44年",
+          "text": "恺撒遇刺，遗嘱中被立为养子与主要继承人，时年十八。"
+        },
+        {
+          "year": -43,
+          "display": "前43年",
+          "text": "与安东尼、雷必达结成“后三头”，行公敌宣告清洗政敌。"
+        },
+        {
+          "year": -31,
+          "display": "前31年",
+          "text": "亚克兴角海战击败安东尼与克利奥帕特拉，成为唯一掌权者。"
+        },
+        {
+          "year": -27,
+          "display": "前27年",
+          "text": "元老院授“奥古斯都”尊号；交还非常权力、行省分治，元首制框架确立。"
+        },
+        {
+          "year": 14,
+          "display": "公元14年",
+          "text": "卒；元老院神化其人，提比略继位。"
+        }
+      ],
+      "deeds": [
+        "整军经武定内战之局：改组军团与近卫军，边界前推至莱茵—多瑙与幼发拉底一线。",
+        "以“恢复共和”名义重构政体：自任元老院首席、兼领行省与兵权，经前27、前23年宪政安排确立元首制。",
+        "主导罗马城改造（苏维托尼乌斯记其自谓“砖城变大理石”），推行道德立法并赞助维吉尔、贺拉斯等文学。"
+      ],
+      "evaluations": [
+        {
+          "holder": "塔西佗《编年史》第1卷",
+          "view": "同时记录两派史论：或谓其以秩序终结内乱、功在国安；或谓其以怀柔与军权行专制、毁共和。",
+          "basis": "《编年史》开卷对奥古斯都的对照评价。"
+        },
+        {
+          "holder": "苏维托尼乌斯《十二帝王传》",
+          "view": "生平细录其勤政、简朴与家族丑闻并存，制度经营与元首院运作细节为其特色材料。",
+          "basis": "《神圣奥古斯都传》。"
+        },
+        {
+          "holder": "现代学界",
+          "view": "元首制被解读为内战后的军事君主制加共和话语的政治广告：奥古斯都的稳定有赖其个人权威，3世纪危机证明体制对人身的依赖。",
+          "basis": "剑桥古代史等帝国政治研究。"
+        }
+      ],
+      "sources": ["suetonius", "brit-augustus", "tacitus"]
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "unit_id": "china-donghan",
+  "region": "china",
+  "title": "东汉",
+  "period_display": "公元25年—220年",
+  "start_year": 25,
+  "end_year": 220,
+  "overview": {
+    "main_threads": [
+      "光武“柔道”治国：与豪族共存的温和集权",
+      "西域经略与佛教东传：对外关系的两条新线",
+      "外戚与宦官交替专权，士人清议与党锢之祸",
+      "技术与社会转型：造纸术改进、道教佛教组织化、州牧制与军阀化"
+    ],
+    "sub_periods": [
+      {"name": "光武—明章", "range_display": "25年—88年", "desc": "统一与制度建设，国力与文教恢复（明章之治）。"},
+      {"name": "和帝—桓灵", "range_display": "88年—189年", "desc": "外戚宦官交替、党锢之祸，皇权根基持续削弱。"},
+      {"name": "汉末群雄", "range_display": "189年—220年", "desc": "董卓之乱、州牧割据，官渡与赤壁奠定三分格局，220年曹丕代汉。"}
+    ],
+    "key_changes": [
+      "造纸工艺实用化（蔡伦改进）",
+      "佛教入华、道教形成",
+      "士族与清议：门阀社会的雏形",
+      "废史立牧：地方军政合一导致军阀化"
+    ]
+  },
+  "events": [
+    {
+      "id": "dh-guangwu-zhongxing",
+      "title": "光武中兴与统一战争",
+      "year": 25,
+      "end_year": 36,
+      "year_display": "公元25年",
+      "end_year_display": "公元36年",
+      "year_note": "据《后汉书·光武帝纪》，更始三年六月（公元25年）刘秀即位于鄗南；建武十二年（36年）灭公孙述统一。公元纪年，无换算问题。",
+      "location": "鄗（今河北柏乡一带）即位；洛阳为都；巴蜀（灭公孙述）",
+      "key_people": ["liuxiu"],
+      "background": "王莽改制失败引发绿林（23年立更始帝）赤眉大起义；刘秀为刘縯之弟，昆阳之战（23年）以少胜多名震天下；更始政权内乱后，刘秀行大司马事北渡经营河北。",
+      "process": [
+        "公元25年六月，刘秀即皇帝位于鄗南千秋亭，改元建武，定都洛阳。",
+        "建武二年至五年（26—29年），先后平赤眉、收降梁王刘永势力集团、平张步。",
+        "建武五年至九年，镇压隗嚣（陇西）；建武十一年至十二年（35—36年）溯江灭公孙述（巴蜀）。",
+        "统一后罢郡国都尉、罢轻车骑士材官楼船士（《后汉书》所载建武六七年间废兵之举），地方武装收归中央。",
+        "明帝永平年间绘云台二十八将于南宫云台，功臣政治的官方叙事定型。"
+      ],
+      "outcome": "延续汉室（史称东汉）并重建统一；以“柔道治国”与豪族共存的路径，换取长期稳定，也埋下大土地兼并与门阀化的长期问题。",
+      "controversies": [
+        {"issue": "罢地方兵的评价", "views": [
+          {"holder": "传统叙事", "basis": "休养息民、中央集权的德政。"},
+          {"holder": "现代制度史分析", "basis": "罢郡国都尉使地方无正规军，长期看导致边备依赖募兵与内郡无兵，东汉后期镇压起义只能依靠临时募兵与边将私兵，军阀化的制度起点被追溯到此时。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>光武统一进程（25—36年）</text><rect x='300' y='70' width='160' height='56' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='94' text-anchor='middle' font-size='14'>25年 鄗南即位</text><text x='380' y='114' text-anchor='middle' font-size='11'>定都洛阳·建武</text><g font-size='12'><rect x='50' y='160' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='140' y='186' text-anchor='middle'>26—29 平赤眉</text><text x='140' y='206' text-anchor='middle' font-size='11'>关中·山东诸雄</text><rect x='260' y='160' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='350' y='186' text-anchor='middle'>30—33 平隗嚣</text><text x='350' y='206' text-anchor='middle' font-size='11'>陇西</text><rect x='470' y='160' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='560' y='186' text-anchor='middle'>35—36 灭公孙述</text><text x='560' y='206' text-anchor='middle' font-size='11'>巴蜀</text><line x1='380' y1='126' x2='150' y2='156' stroke='#2b4a6f' marker-end='url(#xc1)'/><line x1='380' y1='126' x2='355' y2='156' stroke='#2b4a6f' marker-end='url(#xc1)'/><line x1='380' y1='126' x2='555' y2='156' stroke='#2b4a6f' marker-end='url(#xc1)'/></g><rect x='130' y='250' width='500' height='90' fill='#fff' stroke='#8c1f28'/><text x='380' y='276' text-anchor='middle' font-size='13' fill='#8c1f28'>制度建设</text><text x='380' y='300' text-anchor='middle' font-size='11'>罢郡国都尉（地方兵收归中央）·云台二十八将叙事</text><text x='380' y='322' text-anchor='middle' font-size='11'>“柔道治国”与豪族共存——稳定与门阀化的双刃</text></svg>",
+      "sources": ["houhanshu", "lvsimian", "tianzheng-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-dutian-shijian",
+      "title": "度田事件",
+      "year": 39,
+      "end_year": null,
+      "year_display": "公元39年",
+      "end_year_display": null,
+      "year_note": "据《后汉书·光武帝纪》，建武十五年（39年）诏州郡检核垦田顷亩与户口年纪；历表换算。",
+      "location": "全国州郡；反抗集中于青徐幽冀等郡",
+      "key_people": ["liuxiu"],
+      "background": "秦末以来土地兼并与隐户逃户问题严重；度田旨在清丈垦田、核查户口，以定赋役，触动郡国大姓与豪强利益。",
+      "process": [
+        "建武十五年下度田令，州郡检核垦田顷亩及户口年纪。",
+        "刺史太守多不平均，或优饶豪右、侵刻羸弱；百姓遮道啼呼（《后汉书·刘隆传》事）。",
+        "歌谣云“颍川弘农可问，河南南阳不可问”——帝问为何，侍中称河南帝城多近臣、南阳帝乡多近亲（《后汉书》所载对话）。",
+        "郡国大姓兵长群盗处处并起，攻杀长吏；帝遣使循行，赦徙降者，度田因阻而缓行。"
+      ],
+      "outcome": "度田未全面推行成功，户口田亩核查不实延续至东汉中后期；国家财政与豪族势力的平衡以豪族得势告一段落。",
+      "controversies": [
+        {"issue": "度田“失败说”与“部分完成说”", "views": [
+          {"holder": "传统读法", "basis": "度田激起大姓反抗，光武妥协，度田失败。"},
+          {"holder": "现代研究", "basis": "结合出土田籍简牍与文献，认为度田在部分地区持续推行，“失败”指未在全国彻底执行；对“妥协”程度的评估不一。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>度田事件（39年）</text><rect x='280' y='80' width='200' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>建武十五年下度田令</text><text x='380' y='126' text-anchor='middle' font-size='11'>清丈垦田·核户口</text><line x1='380' y1='140' x2='380' y2='172' stroke='#8c1f28' marker-end='url(#xc2)'/><g font-size='12'><rect x='60' y='176' width='200' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='160' y='202' text-anchor='middle' fill='#8c1f28'>豪强抵制</text><text x='160' y='226' text-anchor='middle' font-size='11'>“颍川弘农可问”</text><text x='160' y='248' text-anchor='middle' font-size='11'>“河南南阳不可问”</text><rect x='290' y='176' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='202' text-anchor='middle' fill='#8c1f28'>大姓起兵</text><text x='380' y='226' text-anchor='middle' font-size='11'>攻杀长吏·赦徙降者</text><rect x='500' y='176' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='605' y='202' text-anchor='middle'>结果：缓行</text><text x='605' y='226' text-anchor='middle' font-size='11'>核查不实延续至东汉中后期</text><line x1='260' y1='220' x2='286' y2='220' stroke='#8c1f28' marker-end='url(#xc2)'/><line x1='470' y1='220' x2='496' y2='220' stroke='#8c1f28' marker-end='url(#xc2)'/></g><rect x='130' y='295' width='500' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='321' text-anchor='middle' font-size='12'>现代研究：部分地区持续推行，“失败”指未全国彻底执行</text><text x='380' y='346' text-anchor='middle' font-size='11'>豪族与国家财政的平衡以豪族得势告一段落</text></svg>",
+      "sources": ["houhanshu", "tianzheng-han", "lvsimian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-fojiao-dongchuan",
+      "title": "佛教东传与白马寺（约67年）",
+      "year": 67,
+      "end_year": null,
+      "year_display": "约公元67年",
+      "end_year_display": null,
+      "year_note": "“永平求法”（明帝遣使求法、迎摄摩腾竺法兰）约在永平十年（67年）前后，系传说层累的叙事，年代取通说“约”；楚王英奉佛诏见《后汉书·楚王英传》（65年前后），为最早可靠文献证据。",
+      "location": "洛阳（白马寺）；西域（求法路线）",
+      "key_people": [],
+      "background": "西域交通使佛教沿丝路传入：文献最早见于楚王刘英“尚浮屠之仁祠”（65年前后明帝诏）；“明帝夜梦金人”的求法叙事为后世佛教史著作层累形成。",
+      "process": [
+        "约65年，楚王英奉佛诏见《后汉书》，为佛教已入贵族生活之最早文字证据。",
+        "约67年前后，传说明帝遣使天竺求法，迎僧人携经像归，敕建白马寺（传说叙事）。",
+        "汉末桓帝“设华盖以祠浮图老子”（《后汉书·桓帝纪》），安世高、支娄迦谶等来华译经（二世纪）。"
+      ],
+      "outcome": "佛教以黄老方术附丽的方式进入中国社会，汉末渐成独立宗教形态；为魏晋南北朝佛道大发展奠定起点。",
+      "controversies": [
+        {"issue": "“永平求法”的史料性质", "views": [
+          {"holder": "佛教史传统叙事", "basis": "明帝感梦求法、白马驮经，为佛教入华的标志性起点。"},
+          {"holder": "现代学界通说", "basis": "感梦求法系后世层累的传说（最早见于东汉末《四十二章经序》与牟子《理惑论》），入华实为民间商旅与僧侣渐进过程；楚王英诏书才是最早可靠证据。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>佛教东传（约65—147年）</text><g font-size='12'><rect x='60' y='80' width='220' height='70' fill='#fff' stroke='#2b4a6f'/><text x='170' y='106' text-anchor='middle'>约65年 楚王英奉佛</text><text x='170' y='130' text-anchor='middle' font-size='11'>“尚浮屠之仁祠”（最早文献）</text><rect x='320' y='80' width='180' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='410' y='106' text-anchor='middle' fill='#8c1f28'>约67年 求法传说</text><text x='410' y='130' text-anchor='middle' font-size='11'>感梦求法·白马寺（层累叙事）</text><rect x='540' y='80' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='630' y='106' text-anchor='middle'>二世纪 译经</text><text x='630' y='130' text-anchor='middle' font-size='11'>安世高·支娄迦谶</text><line x1='280' y1='115' x2='316' y2='115' stroke='#2b4a6f' marker-end='url(#xc3)'/><line x1='500' y1='115' x2='536' y2='115' stroke='#2b4a6f' marker-end='url(#xc3)'/></g><rect x='130' y='190' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='216' text-anchor='middle' font-size='13'>路径之争</text><text x='380' y='240' text-anchor='middle' font-size='11'>西域陆路说（主流）·南方海路说（并存）——学界不取单一结论</text><rect x='130' y='295' width='500' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' font-size='12' fill='#8c1f28'>入华初期附丽黄老方术</text><text x='380' y='346' text-anchor='middle' font-size='11'>汉末渐成独立宗教，魏晋南北朝大发展</text></svg>",
+      "sources": ["houhanshu", "zgbk", "met-toah"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-banchao-xiyu",
+      "title": "班超经营西域",
+      "year": 73,
+      "end_year": 102,
+      "year_display": "公元73年",
+      "end_year_display": "公元102年",
+      "year_note": "据《后汉书·班超传》，永平十六年（73年）随窦固出塞、使西域；永元十二年（102年）归洛阳。公元纪年，无换算问题。",
+      "location": "西域南道（鄯善、于阗、疏勒）至西域都护辖区",
+      "key_people": ["banchao"],
+      "background": "王莽之乱后西域与汉绝，匈奴复控西域；明帝时汉欲复通西域，班超弃笔从戎随窦固出塞。",
+      "process": [
+        "73年，班超率三十六人使鄯善，夜袭匈奴使者营，“不入虎穴，不得虎子”（《后汉书》语），鄯善纳质归附。",
+        "继定于阗、疏勒，立疏勒王兄忠；以夷制夷，联结诸国抗匈奴。",
+        "87—90年间破莎车、击退月氏七万大军（贵霜）进攻。",
+        "91年出任西域都护，西域五十余国悉附汉；97年遣甘英使大秦（至西海而还）。",
+        "100年上书求归：“不敢望到酒泉郡，但愿生入玉门关”；102年返洛阳，拜射声校尉，同年卒。"
+      ],
+      "outcome": "西域再度纳入汉帝国体系近三十年；甘英行纪使汉人首次系统获知西亚至地中海方向的地理知识；“以夷制夷”成为后世经营边疆的经典策略。",
+      "controversies": [
+        {"issue": "“三十六人定西域”的叙事", "views": [
+          {"holder": "《后汉书·班超传》叙事传统", "basis": "以三十六人为单元的个人英雄书写。"},
+          {"holder": "现代研究", "basis": "实际依托屯田、都护府与诸国兵体系；三十六人是外交行动规模而非经营西域的全部力量。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>班超经营西域（73—102年，示意）</text><rect x='40' y='180' width='130' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='105' y='206' text-anchor='middle' font-size='13'>洛阳/玉门</text><g font-size='12'><rect x='210' y='120' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='280' y='144' text-anchor='middle'>鄯善</text><text x='280' y='164' text-anchor='middle' font-size='10'>夜袭匈奴使营</text><rect x='380' y='120' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='450' y='144' text-anchor='middle'>于阗·疏勒</text><text x='450' y='164' text-anchor='middle' font-size='10'>南道根基</text><rect x='550' y='120' width='170' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='144' text-anchor='middle' fill='#8c1f28'>破莎车·退月氏</text><text x='635' y='164' text-anchor='middle' font-size='10'>87—90年</text><rect x='380' y='250' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='450' y='274' text-anchor='middle'>甘英使大秦</text><text x='450' y='294' text-anchor='middle' font-size='10'>97年至西海而还</text><line x1='170' y1='205' x2='206' y2='160' stroke='#2b4a6f' marker-end='url(#xc4)'/><line x1='350' y1='148' x2='376' y2='148' stroke='#2b4a6f' marker-end='url(#xc4)'/><line x1='520' y1='148' x2='546' y2='148' stroke='#2b4a6f' marker-end='url(#xc4)'/><line x1='520' y1='176' x2='460' y2='246' stroke='#2b4a6f' marker-end='url(#xc4)'/></g><rect x='110' y='320' width='540' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='344' text-anchor='middle' font-size='12'>100年上书：“不敢望到酒泉郡，但愿生入玉门关”</text><text x='380' y='368' text-anchor='middle' font-size='11'>西域五十余国悉附汉；91年任西域都护</text></svg>",
+      "sources": ["houhanshu", "whc-silkroad", "tianzheng-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-yanran-lesi",
+      "title": "燕然勒石：窦宪破北匈奴",
+      "year": 89,
+      "end_year": null,
+      "year_display": "公元89年",
+      "end_year_display": null,
+      "year_note": "据《后汉书·窦宪传》，永元元年（89年）夏稽落山之战，登燕然山刻石记功；公元纪年，无换算问题。",
+      "location": "稽落山、燕然山（今蒙古国杭爱山一带）",
+      "key_people": ["bangu"],
+      "background": "北匈奴内部困弊、南匈奴请兵；外戚窦宪因刺杀都乡侯惧罪，自请击匈奴赎罪，率军与南匈奴联军北征。",
+      "process": [
+        "89年，窦宪、耿秉率军出塞三千里，与南匈奴军会于稽落山，大破北匈奴。",
+        "登燕然山，命随军史官班固作《封燕然山铭》刻石记功。",
+        "91年耿夔再破北单于于金微山，北单于西逃不知所踪；北匈奴势力退出漠北。",
+        "2017年中蒙联合考察在蒙古国杭爱山确认摩崖石刻《燕然山铭》（班固撰），文献记载获实物确证。"
+      ],
+      "outcome": "北匈奴溃散退出漠北，鲜卑渐据其地；“勒石燕然”成为武功象征；匈奴是否由此西迁入欧为长期争论话题。",
+      "controversies": [
+        {"issue": "窦宪北征的动机", "views": [
+          {"holder": "《后汉书·窦宪传》", "basis": "明书宪“惧诛”求击匈奴以赎罪——私心动机正史直书。"},
+          {"holder": "后世评价", "basis": "功过并书：战果重大而窦宪跋扈终被诛；“燕然勒功”的荣耀与外戚专权的开端同源于此。"}
+        ]},
+        {"issue": "北匈奴西迁与欧洲民族大迁徙的因果关系", "views": [
+          {"holder": "传统因果叙事", "basis": "北匈奴被汉击败后西迁，数百年后以匈人（Huns）身份出现于欧洲。"},
+          {"holder": "现代内亚研究主流", "basis": "汉北匈奴与四世纪欧洲匈人之间存在数代断裂，学界多持谨慎态度：不能建立直接连续性，西迁是长期、多阶段的假说性重建。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>燕然勒石（89年，方位示意）</text><rect x='60' y='220' width='170' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='145' y='246' text-anchor='middle' font-size='13'>汉军出塞三千里</text><text x='145' y='266' text-anchor='middle' font-size='11'>窦宪·耿秉+南匈奴</text><rect x='330' y='170' width='180' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='196' text-anchor='middle' font-size='14' fill='#8c1f28'>稽落山之战</text><text x='420' y='220' text-anchor='middle' font-size='11'>大破北匈奴</text><rect x='540' y='120' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='630' y='146' text-anchor='middle' font-size='14'>燕然山刻石</text><text x='630' y='170' text-anchor='middle' font-size='11'>班固撰《封燕然山铭》</text><line x1='230' y1='245' x2='326' y2='210' stroke='#8c1f28' marker-end='url(#xc5)'/><line x1='510' y1='195' x2='536' y2='165' stroke='#8c1f28' marker-end='url(#xc5)'/><rect x='110' y='310' width='540' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='334' text-anchor='middle' font-size='12'>2017年杭爱山摩崖确证《燕然山铭》——文献获实物印证</text><text x='380' y='360' text-anchor='middle' font-size='11'>争议：北匈奴与欧洲匈人无直接连续性（现代主流观点）</text></svg>",
+      "sources": ["houhanshu", "tianzheng-han", "kaogu-cass"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-cailun-zaozhi",
+      "title": "蔡伦改进造纸术",
+      "year": 105,
+      "end_year": null,
+      "year_display": "公元105年",
+      "end_year_display": null,
+      "year_note": "据《后汉书·蔡伦传》，元兴元年（105年）奏上之；公元纪年，无换算问题。",
+      "location": "洛阳（尚方作坊）",
+      "key_people": ["cailun"],
+      "background": "两汉书写载体以简牍、缣帛为主，昂贵笨重；此前已有麻质古纸（考古：放马滩纸、悬泉置纸等西汉纸），蔡伦在尚方监造中系统改进工艺。",
+      "process": [
+        "蔡伦为尚方令，用树肤、麻头及敝布、鱼网以为纸。",
+        "105年奏上之，帝善其能，“自是莫不从用焉”（《后汉书》语），天下咸称“蔡侯纸”。",
+        "114年封龙亭侯；121年卒（卷入宫廷旧案服毒）。",
+        "考古修正：1986年甘肃放马滩出土西汉纸质地图、悬泉置遗址出土西汉麻纸，表明蔡伦之前已有纸。"
+      ],
+      "outcome": "纸的工艺标准化使书写载体革命成为可能，三至四世纪纸渐代简帛，六世纪普及；造纸术沿丝路西传（八世纪撒马尔罕、十二世纪欧洲），影响世界文明进程。",
+      "controversies": [
+        {"issue": "蔡伦是“发明”还是“改进”", "views": [
+          {"holder": "《后汉书·蔡伦传》", "basis": "记其造作之术“自是莫不从用”，传统以蔡伦为纸的发明人。"},
+          {"holder": "考古学修正（主流学界）", "basis": "放马滩纸等西汉纸表明纸的出现早于蔡伦约两百年；蔡伦改进原料与工艺使纸廉价实用、进入行政流通——定位为“关键改进者”。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>蔡伦改进造纸术（105年）</text><g font-size='12'><rect x='60' y='90' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='160' y='116' text-anchor='middle'>原料</text><text x='160' y='140' text-anchor='middle' font-size='11'>树肤·麻头·敝布·鱼网</text><rect x='300' y='90' width='180' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='116' text-anchor='middle'>尚方工艺改进</text><text x='390' y='140' text-anchor='middle' font-size='11'>捣浆·抄造·干燥</text><rect x='520' y='90' width='200' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='620' y='116' text-anchor='middle' fill='#8c1f28'>105年奏上</text><text x='620' y='140' text-anchor='middle' font-size='11'>“自是莫不从用”·蔡侯纸</text><line x1='260' y1='125' x2='296' y2='125' stroke='#2b4a6f' marker-end='url(#xc6)'/><line x1='480' y1='125' x2='516' y2='125' stroke='#2b4a6f' marker-end='url(#xc6)'/></g><rect x='130' y='200' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='13'>考古修正：放马滩纸（1986）·悬泉置麻纸</text><text x='380' y='250' text-anchor='middle' font-size='11'>西汉已有原始纸——蔡伦定位为“关键改进者”（学界主流）</text><text x='380' y='274' text-anchor='middle' font-size='11'>三至四世纪纸代简帛，后经丝路西传</text><rect x='130' y='315' width='500' height='56' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='349' text-anchor='middle' font-size='12'>影响：书写革命→知识传播成本骤降</text></svg>",
+      "sources": ["houhanshu", "kaogu-cass", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-liangji-zhuanquan",
+      "title": "梁冀专权与诛梁冀",
+      "year": 141,
+      "end_year": 159,
+      "year_display": "公元141年",
+      "end_year_display": "公元159年",
+      "year_note": "据《后汉书·梁冀传》：梁冀任大将军约141年前后；本初元年（146年）鸩质帝；延熹二年（159年）桓帝联合宦官诛梁冀。公元纪年，无换算问题。",
+      "location": "洛阳",
+      "key_people": [],
+      "background": "梁氏两代为外戚（梁商、梁冀父子相继为大将军），梁冀专断朝政近二十年，行跋扈之事；质帝聪察，当面称其“跋扈将军”旋被鸩杀。",
+      "process": [
+        "141年前后梁冀继父为大将军，废立自专：先后立冲帝（2岁）、质帝（8岁）、桓帝。",
+        "146年质帝聪颖称其“跋扈将军”，冀使人置毒于饼，帝崩。",
+        "150年前后梁太后归政，冀独断：宾客横行、刺杀异己（崔琦、邴尊等）。",
+        "159年桓帝与宦官单超等五人密谋，发兵围冀府；冀与妻自杀，梁氏灭族，五宦官同日封侯（“五侯”）。"
+      ],
+      "outcome": "外戚专权时代终结，宦官时代开启；皇权在两种“代理人”之间反复，士人清议激化，通往党锢之祸。",
+      "controversies": [
+        {"issue": "外戚—宦官交替专权的解释", "views": [
+          {"holder": "传统叙事", "basis": "以“忠奸”框架写梁冀之恶与宦官之贪。"},
+          {"holder": "现代制度史分析", "basis": "东汉皇帝多幼年即位，母后临朝依赖外戚，皇帝成年后只能借身边宦官夺回权力——交替专权是帝制结构的产物，非单纯道德问题。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>梁冀专权（141—159年）</text><g font-size='12'><rect x='60' y='80' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='170' y='106' text-anchor='middle' fill='#8c1f28'>梁氏专断</text><text x='170' y='130' text-anchor='middle' font-size='11'>立冲帝·质帝·桓帝</text><text x='170' y='152' text-anchor='middle' font-size='11'>鸩质帝（“跋扈将军”）</text><rect x='320' y='80' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='410' y='106' text-anchor='middle'>159年密谋</text><text x='410' y='130' text-anchor='middle' font-size='11'>桓帝+单超等五宦官</text><text x='410' y='152' text-anchor='middle' font-size='11'>发兵围府</text><rect x='540' y='80' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='106' text-anchor='middle' fill='#8c1f28'>梁氏灭族</text><text x='630' y='130' text-anchor='middle' font-size='11'>五宦官同日封侯</text><line x1='280' y1='125' x2='316' y2='125' stroke='#8c1f28' marker-end='url(#xc7)'/><line x1='500' y1='125' x2='536' y2='125' stroke='#8c1f28' marker-end='url(#xc7)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>结果：外戚时代终结，宦官时代开启</text><text x='380' y='262' text-anchor='middle' font-size='11'>幼帝即位→母后临朝用外戚→皇帝成年借宦官夺权——结构循环</text><text x='380' y='286' text-anchor='middle' font-size='11'>士人清议激化→党锢之祸</text></svg>",
+      "sources": ["houhanshu", "tianzheng-han", "lvsimian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-danggu-zhihuo",
+      "title": "党锢之祸",
+      "year": 166,
+      "end_year": 169,
+      "year_display": "公元166年",
+      "end_year_display": "公元169年",
+      "year_note": "据《后汉书·党锢列传》：第一次党锢在延熹九年（166年），第二次在建宁二年（169年）；184年黄巾起，中常侍吕强请解党禁。公元纪年，无换算问题。",
+      "location": "洛阳（太学、三府狱）",
+      "key_people": [],
+      "background": "宦官专权与士人清议正面冲突：太学生与官僚名士（李膺、陈蕃等）以人物品评（“清议”）对抗宦官政治，互相指为朋党。",
+      "process": [
+        "166年，李膺处死宦官之弟张成之子案发，宦官集团告士人“共为部党，诽讪朝廷”；桓帝收李膺等二百余人下狱（数字系《后汉书》所载）。",
+        "翌年放归田里，禁锢终身（“党锢”得名）。",
+        "169年张俭案发，宦官侯览等扩大打击，第二次党锢：李膺、杜密、范滂等百余人死狱中，株连致千人（株连数系《后汉书》约记）。",
+        "184年黄巾起，吕强请解党禁以安士心，党人赦免。"
+      ],
+      "outcome": "士大夫与皇权-宦官体系决裂，士人转投地方大族与方镇，汉廷政治基础瓦解；“望门投止”成为士人道德勇气的象征语汇。",
+      "controversies": [
+        {"issue": "太学生“三万余”数字", "views": [
+          {"holder": "《后汉书·党锢列传》", "basis": "太学诸生三万余人。"},
+          {"holder": "现代研究", "basis": "为鼎盛期的叙述性约数，各期在学人数有波动；作为士人政治参与规模的象征被广泛引用。"}
+        ]},
+        {"issue": "清议的政治性质", "views": [
+          {"holder": "传统叙事", "basis": "忠臣义士对抗阉竖。"},
+          {"holder": "现代研究", "basis": "清议同时是名士群体的舆论权力与士族网络建构；党锢之祸的受害者群体构成汉末士族政治的骨干——道德叙事与结构分析并存。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>党锢之祸（166/169年两次）</text><g font-size='12'><rect x='50' y='80' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>士人清议</text><text x='160' y='130' text-anchor='middle' font-size='11'>太学生+名士（李膺陈蕃）</text><text x='160' y='152' text-anchor='middle' font-size='11'>品评人物·对抗宦官</text><rect x='300' y='80' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='106' text-anchor='middle' fill='#8c1f28'>166 第一次</text><text x='390' y='130' text-anchor='middle' font-size='11'>李膺等二百余人下狱</text><text x='390' y='152' text-anchor='middle' font-size='11'>禁锢终身</text><rect x='510' y='80' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='106' text-anchor='middle' fill='#8c1f28'>169 第二次</text><text x='615' y='130' text-anchor='middle' font-size='11'>张俭案扩大·百余人死狱</text><text x='615' y='152' text-anchor='middle' font-size='11'>“望门投止”</text><line x1='270' y1='125' x2='296' y2='125' stroke='#8c1f28' marker-end='url(#xc8)'/><line x1='480' y1='125' x2='506' y2='125' stroke='#8c1f28' marker-end='url(#xc8)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>184年黄巾起，解党禁</text><text x='380' y='262' text-anchor='middle' font-size='11'>士大夫与皇权体系决裂→投靠地方大族与方镇</text><text x='380' y='286' text-anchor='middle' font-size='11'>“三万余”太学生系后汉书约数</text></svg>",
+      "sources": ["houhanshu", "tianzheng-han", "lvsimian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-huangjin-qiyi",
+      "title": "黄巾起义",
+      "year": 184,
+      "end_year": null,
+      "year_display": "公元184年",
+      "end_year_display": null,
+      "year_note": "据《后汉书·皇甫嵩传》，中平元年（184年，甲子年）二月张角起兵；公元纪年，无换算问题。",
+      "location": "八州并起（冀州为主，今河北、河南、山东一带）",
+      "key_people": [],
+      "background": "桓灵之际赋敛苛急、天灾频仍；张角创太平道，十余年间信徒数十万（《后汉书》所记约数），青徐幽冀荆扬兖豫八州连结，以“甲子”为约。",
+      "process": [
+        "184年二月，张角自称天公将军，以黄巾裹头，谶言“苍天已死，黄天当立，岁在甲子，天下大吉”。",
+        "八州并起，焚烧官府旬日之间天下响应；汉发五校、募兵，以皇甫嵩、朱儁、卢植等分路镇压。",
+        "同年年底主力败亡（张角病死、张梁张宝败死），余部与黑山军等持续至190年代。",
+        "188年宗室刘焉建议“废史立牧”：改部分刺史为州牧，军政合一。"
+      ],
+      "outcome": "起义虽败却重创汉廷，中央允许地方募兵自筹；州牧制使地方军政合一，曹操、刘备、孙坚等皆起于平黄巾的战争——汉末军阀化的直接起点。",
+      "controversies": [
+        {"issue": "太平道与道教的关系", "views": [
+          {"holder": "宗教史研究", "basis": "太平道、五斗米道被视为道教组织化的早期形态，但教义与后世道教系统的连续性程度有讨论。"},
+          {"holder": "传统叙事", "basis": "以“妖贼”定性，强调其谶纬与巫术色彩；现代研究更注意其作为基层互助组织的功能。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>黄巾起义（184年）</text><rect x='280' y='80' width='200' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>张角·太平道</text><text x='380' y='130' text-anchor='middle' font-size='11'>“苍天已死，黄天当立，岁在甲子”</text><g font-size='12'><rect x='80' y='180' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='180' y='206' text-anchor='middle'>八州并起</text><text x='180' y='230' text-anchor='middle' font-size='11'>旬日天下响应</text><rect x='310' y='180' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='400' y='206' text-anchor='middle'>皇甫嵩朱儁镇压</text><text x='400' y='230' text-anchor='middle' font-size='11'>年底主力败亡</text><rect x='520' y='180' width='200' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='620' y='206' text-anchor='middle' fill='#8c1f28'>188 废史立牧</text><text x='620' y='230' text-anchor='middle' font-size='11'>州牧军政合一</text><line x1='280' y1='215' x2='306' y2='215' stroke='#2b4a6f' marker-end='url(#xc9)'/><line x1='490' y1='215' x2='516' y2='215' stroke='#2b4a6f' marker-end='url(#xc9)'/></g><rect x='130' y='290' width='500' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='316' text-anchor='middle' font-size='13'>汉廷允许地方募兵自筹 → 军阀化</text><text x='380' y='342' text-anchor='middle' font-size='11'>曹操·刘备·孙坚皆起于平黄巾之役</text></svg>",
+      "sources": ["houhanshu", "sanguozhi", "tianzheng-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-dongzhuo-luanzheng",
+      "title": "董卓之乱与迁都长安",
+      "year": 189,
+      "end_year": 190,
+      "year_display": "公元189年",
+      "end_year_display": "公元190年",
+      "year_note": "据《后汉书·董卓传》《三国志》：中平六年（189年）董卓入洛阳废立；初平元年（190年）迁都长安、焚洛阳。公元纪年，无换算问题。",
+      "location": "洛阳→长安；关东联军（讨董）",
+      "key_people": ["caocao"],
+      "background": "灵帝卒后何进与宦官火并：何进被杀，袁绍尽诛宦官，董卓应召带兵入京，收编残局，行废立（废少帝立献帝）。",
+      "process": [
+        "189年董卓入洛阳，废少帝、鸩何太后，立九岁献帝，自任相国，专断朝政。",
+        "曹操拒卓任命逃归陈留起兵（后汉书/三国志载），关东州郡同举义兵，推袁绍为盟主。",
+        "190年董卓挟献帝迁都长安，焚烧洛阳宫庙官府民居，“二百里内无复孑遗”（《后汉书》描述）。",
+        "关东联军内讧瓦解，州郡割据格局形成。"
+      ],
+      "outcome": "汉室中央权威彻底瓦解，皇帝成为诸侯争夺的象征性资源；群雄并起，进入军阀混战时代。",
+      "controversies": [
+        {"issue": "董卓形象的史料分层", "views": [
+          {"holder": "《三国志》《后汉书》", "basis": "董卓“性粗猛有谋”，凉州兵阀出身，废立暴虐皆有载；细节（如滥杀）带谴责叙事。"},
+          {"holder": "《三国演义》及后世文学", "basis": "董卓形象高度戏剧化；正史与演义的分层是三国史料使用的基本提醒。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>董卓之乱（189—190年）</text><g font-size='12'><rect x='50' y='80' width='220' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='160' y='106' text-anchor='middle' fill='#8c1f28'>189年 入京废立</text><text x='160' y='130' text-anchor='middle' font-size='11'>何进被杀·袁绍诛宦官</text><text x='160' y='152' text-anchor='middle' font-size='11'>董卓收残局·立献帝</text><rect x='310' y='80' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='400' y='106' text-anchor='middle'>关东举义</text><text x='400' y='130' text-anchor='middle' font-size='11'>袁绍为盟主</text><text x='400' y='152' text-anchor='middle' font-size='11'>曹操陈留起兵</text><rect x='530' y='80' width='190' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='625' y='106' text-anchor='middle' fill='#8c1f28'>190年 迁都焚洛</text><text x='625' y='130' text-anchor='middle' font-size='11'>挟献帝至长安</text><text x='625' y='152' text-anchor='middle' font-size='11'>“二百里无复孑遗”</text><line x1='270' y1='120' x2='306' y2='120' stroke='#8c1f28' marker-end='url(#xc10)'/><line x1='490' y1='120' x2='526' y2='120' stroke='#8c1f28' marker-end='url(#xc10)'/></g><rect x='130' y='200' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='13'>汉室权威彻底瓦解</text><text x='380' y='252' text-anchor='middle' font-size='11'>联军内讧瓦解→州郡割据</text><text x='380' y='276' text-anchor='middle' font-size='11'>史料提醒：正史叙事 vs 《三国演义》虚构需分层</text></svg>",
+      "sources": ["houhanshu", "sanguozhi", "tianzheng-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-guandu-zhizhan",
+      "title": "官渡之战",
+      "year": 200,
+      "end_year": null,
+      "year_display": "公元200年",
+      "end_year_display": null,
+      "year_note": "据《三国志·魏书·武帝纪》，建安五年（200年）袁曹决战于官渡；公元纪年，无换算问题。",
+      "location": "官渡（今河南中牟一带）、乌巢",
+      "key_people": ["caocao"],
+      "background": "袁绍据四州（冀青幽并）为北方最强，曹操奉天子都许；袁绍率大军南攻，曹操兵力粮草皆处劣势，退保官渡。",
+      "process": [
+        "200年袁绍进军黎阳，初战白马、延津曹军斩颜良文丑（《三国志》所载）。",
+        "曹军退保官渡相持数月，粮尽欲退；荀彧书劝守“此用奇之时，不可失也”。",
+        "袁绍谋士许攸叛投曹操，献计袭乌巢（袁军屯粮处）；曹操夜袭焚粮。",
+        "袁军大溃，张郃高览阵前降曹；袁绍仅八百骑北还，两年后忧愤而死，诸子内斗，207年曹操平河北。"
+      ],
+      "outcome": "北方主导权易手，曹操成为北方唯一强权，为统一北方与南征奠基；以少胜多的经典战例（兵力数字见争议）。",
+      "controversies": [
+        {"issue": "兵力对比“十万”", "views": [
+          {"holder": "《三国志·袁绍传》", "basis": "简精兵十万、骑万匹南下。"},
+          {"holder": "现代研究", "basis": "十万系账面动员数，实际投入前线者少于此；曹操兵力数千至两万间诸说并存（曹军“兵不满万”语见《武帝纪》注，被部分学者质疑为夸小）——双方数字皆有文学化嫌疑。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xc11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>官渡之战（200年）</text><g font-size='12'><rect x='80' y='80' width='220' height='80' fill='#fff' stroke='#8c1f28'/><text x='190' y='106' text-anchor='middle' fill='#8c1f28'>袁绍（四州）</text><text x='190' y='130' text-anchor='middle' font-size='11'>精兵十万·骑万匹（三国志数字）</text><rect x='460' y='80' width='220' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='570' y='106' text-anchor='middle'>曹操（奉天子都许）</text><text x='570' y='130' text-anchor='middle' font-size='11'>兵粮俱劣·退保官渡</text><line x1='300' y1='120' x2='456' y2='120' stroke='#8c1f28' marker-end='url(#xc11)'/></g><rect x='250' y='190' width='280' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='216' text-anchor='middle' font-size='14' fill='#8c1f28'>相持数月·粮尽欲退</text><text x='390' y='240' text-anchor='middle' font-size='11'>许攸叛绍献袭乌巢之计</text><line x1='390' y1='270' x2='390' y2='300' stroke='#8c1f28' marker-end='url(#xc11)'/><rect x='180' y='304' width='420' height='70' fill='#fff' stroke='#2b4a6f'/><text x='390' y='330' text-anchor='middle' font-size='13'>曹操夜袭乌巢焚粮·袁军溃</text><text x='390' y='356' text-anchor='middle' font-size='11'>北方主导权易手；207年曹操平定河北</text></svg>",
+      "sources": ["sanguozhi", "houhanshu", "tianzheng-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "dh-chibi-zhizhan",
+      "title": "赤壁之战",
+      "year": 208,
+      "end_year": null,
+      "year_display": "公元208年",
+      "end_year_display": null,
+      "year_note": "据《三国志·周瑜传》，建安十三年（208年）冬曹军与孙刘联军遇于赤壁；公元纪年，无换算问题。",
+      "location": "赤壁（今湖北赤壁市一带，地望有异说）、乌林",
+      "key_people": ["caocao"],
+      "background": "曹操平定北方后南下，刘琮举荆州降；刘备败走，与孙权结盟；曹军不习水战、疫病流行，谋士多劝孙权降，周瑜鲁肃力主战。",
+      "process": [
+        "208年曹操号称八十万南下（周瑜分析曹军实际不过十五六万中国兵+七八万荆州降卒，《三国志》注引江表传载周瑜语）。",
+        "孙刘联军约五万，曹军与联军初战于赤壁不利，退屯江北乌林。",
+        "黄盖献火攻，诈降以蒙冲斗舰载薪草膏油，乘风纵火，烧及岸上营落。",
+        "曹军疫病+火攻+退路危机，曹操北还，留曹仁守江陵；三分格局实际成形。"
+      ],
+      "outcome": "曹操统一中断，孙权巩固江东，刘备得荆州四郡起步；中国进入三国鼎立的长期分裂（直至280年）。中国历史上“南方对抗北方”的战略格局首次成形。",
+      "controversies": [
+        {"issue": "曹军兵力", "views": [
+          {"holder": "《三国志》正文与注引江表传", "basis": "号称八十万（震慑叙事）；周瑜分析不过十五六万+七八万降卒。"},
+          {"holder": "现代研究", "basis": "普遍采周瑜分析量级（二十余万上下）为接近实际的估计；“八十万”系宣传数字——同一部书内两种数字并存，是史料批判的标准案例。"}
+        ]},
+        {"issue": "演义虚构的识别", "views": [
+          {"holder": "《三国演义》（元末明初小说）", "basis": "借东风、草船借箭、蒋干中计等情节多为虚构或移花接木。"},
+          {"holder": "史学规范", "basis": "本站一律以《三国志》为据，演义情节不采——文学叙事与史料的分层为三国叙事的常设提醒。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0 width='760' height='400' fill='#faf7f0'/><defs><marker id='xc12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>赤壁之战（208年冬，江面示意）</text><rect x='150' y='90' width='240' height='70' fill='#fff' stroke='#8c1f28'/><text x='270' y='116' text-anchor='middle' font-size='14'>曹军（乌林·江北）</text><text x='270' y='140' text-anchor='middle' font-size='11'>号称八十万/周瑜估二十余万</text><rect x='420' y='90' width='190' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='515' y='116' text-anchor='middle'>孙刘联军约五万</text><text x='515' y='140' text-anchor='middle' font-size='11'>周瑜·诸葛亮联盟</text><rect x='150' y='200' width='460' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='226' text-anchor='middle' font-size='14' fill='#8c1f28'>黄盖诈降·蒙冲斗舰载薪膏油</text><text x='380' y='252' text-anchor='middle' font-size='11'>乘风纵火，烧及岸上营落（三国志周瑜传）</text><line x1='380' y1='160' x2='380' y2='196' stroke='#8c1f28' marker-end='url(#xc12)'/><line x1='380' y1='270' x2='380' y2='300' stroke='#8c1f28' marker-end='url(#xc12)'/><rect x='180' y='304' width='400' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='330' text-anchor='middle' font-size='13'>曹军疫病+火攻，曹操北还</text><text x='380' y='356' text-anchor='middle' font-size='11'>三分格局成形；南方对抗北方的战略格局首次出现</text></svg>",
+      "sources": ["sanguozhi", "houhanshu", "tianzheng-han"],
+      "needs_verification": true,
+      "pending_notes": "曹军兵力诸说不一（号称八十万 vs 周瑜估计二十余万上下），本站采用周瑜分析量级并在正文标注两种数字；赤壁战场地望（湖北赤壁市为主）有学术异说。"
+    }
+  ],
+  "people": [
+    {
+      "id": "liuxiu",
+      "name": "汉光武帝刘秀",
+      "birth_year": -5,
+      "death_year": 57,
+      "birth_display": "前5年",
+      "death_display": "公元57年",
+      "birth_note": "据《后汉书》建平元年（前5年）十二月生于济阳宫，历表换算。",
+      "death_note": "中元二年（57年）崩于洛阳南宫，公元纪年。",
+      "chronology": [
+        {"year": -5, "display": "前5年", "text": "生于济阳（今兰考一带），南阳刘氏宗室远支。"},
+        {"year": 23, "display": "23年", "text": "昆阳之战以少胜多；兄刘縯被更始帝所杀，隐忍自处。"},
+        {"year": 25, "display": "25年", "text": "即位于鄗南，建立东汉，定都洛阳。"},
+        {"year": 36, "display": "36年", "text": "灭公孙述，天下统一。"},
+        {"year": 39, "display": "39年", "text": "下度田令，受阻于豪强。"},
+        {"year": 57, "display": "57年", "text": "崩，庙号世祖。"}
+      ],
+      "deeds": [
+        "重建汉室与统一（经十二年战争）。",
+        "“柔道治国”：退功臣进文吏、度田受阻后不再强推、释放奴婢多道诏令。",
+        "罢地方兵、立尚书台，强化皇权但也埋下东汉军政结构的长期隐患。"
+      ],
+      "evaluations": [
+        {"holder": "《后汉书》赞与历代史家", "view": "“明慎政体，总揽权纲”，中兴之主中评价极高；度田之败与豪族共存被视为其统治的“软肋”。", "basis": "《后汉书》与秦汉史研究。"},
+        {"holder": "毛泽东评点", "view": "“最有学问、最会打仗、最会用人的皇帝”（在读史批注中的转述）——属现代政论评点，供参考不作定评。", "basis": "现代评点类转述文献。"}
+      ],
+      "sources": ["houhanshu", "lvsimian", "tianzheng-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "bangu",
+      "name": "班固",
+      "birth_year": 32,
+      "death_year": 92,
+      "birth_display": "公元32年",
+      "death_display": "公元92年",
+      "birth_note": "据《后汉书》本传建武八年（32年）生，公元纪年。",
+      "death_note": "永元四年（92年）受窦宪案牵连死于洛阳狱中，公元纪年。",
+      "chronology": [
+        {"year": 32, "display": "32年", "text": "生于扶风安陵，父班彪作《史记后传》。"},
+        {"year": 62, "display": "约62年", "text": "被人告“私改作国史”下狱，弟班超上书辩白，明帝奇其才，诏为兰台令史。"},
+        {"year": 82, "display": "约82年", "text": "《汉书》百篇大体完成（历经二十余年）。"},
+        {"year": 89, "display": "89年", "text": "随窦宪北征，作《封燕然山铭》。"},
+        {"year": 92, "display": "92年", "text": "受窦宪败亡牵连下狱死；《汉书》八表与天文志由其妹班昭与马续续成。"}
+      ],
+      "deeds": [
+        "撰《汉书》——第一部断代史，确立正史断代体例。",
+        "作《两都赋》《典引》，开启京都大赋传统。",
+        "燕然勒石之铭随2017年石刻发现获实物确证。"
+      ],
+      "evaluations": [
+        {"holder": "传统史学", "view": "与司马迁并称“史汉”；批评者谓其“论国体则饰主阙而抑忠臣”（范晔语）。", "basis": "《后汉书·班固传论》。"},
+        {"holder": "现代史学", "view": "《汉书》的官方立场（为汉室张目）与史料的系统保存并重；断代体例对后世影响甚至超过纪传通史体例。", "basis": "史学史研究。"}
+      ],
+      "sources": ["houhanshu", "hanshu", "tianzheng-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "banchao",
+      "name": "班超",
+      "birth_year": 32,
+      "death_year": 102,
+      "birth_display": "公元32年",
+      "death_display": "公元102年",
+      "birth_note": "据《后汉书》本传建武八年（32年）生，公元纪年。",
+      "death_note": "永元十四年（102年）卒于洛阳，公元纪年。",
+      "chronology": [
+        {"year": 32, "display": "32年", "text": "生于扶风安陵，班固之弟。"},
+        {"year": 62, "display": "约62年", "text": "为官府抄书，“投笔从戎”之叹。"},
+        {"year": 73, "display": "73年", "text": "随窦固出塞，率三十六人使西域，袭匈奴使营定鄯善。"},
+        {"year": 91, "display": "91年", "text": "任西域都护，西域五十余国悉附。"},
+        {"year": 100, "display": "100年", "text": "上书求归：“但愿生入玉门关”。"},
+        {"year": 102, "display": "102年", "text": "归洛阳，拜射声校尉，同年卒。"}
+      ],
+      "deeds": [
+        "以三十六人为核心重新打通并维系西域隶属汉廷近三十年。",
+        "97年遣甘英出使大秦（罗马），至西海（波斯湾一带）而还，为汉人最远行程记录之一。",
+        "其子班勇继之复安西域，父子两代经营西域四十年。"
+      ],
+      "evaluations": [
+        {"holder": "《后汉书》赞", "view": "“行外国，若转圆石于万仞之谿”——不劳中国之师而西域定。", "basis": "《后汉书·班超传》。"},
+        {"holder": "现代研究", "view": "“三十六人”叙事须与屯田都护体系合观；其“以夷制夷”是外交军事混合体，依赖汉廷持续投入，东汉后期国力衰退即难以维持。", "basis": "西域史研究。"}
+      ],
+      "sources": ["houhanshu", "whc-silkroad", "tianzheng-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "cailun",
+      "name": "蔡伦",
+      "birth_year": null,
+      "death_year": 121,
+      "birth_display": "生年不可考（约公元63年前后，存疑）",
+      "death_display": "公元121年",
+      "birth_note": "生年无载，通行推测约明帝永平年间（63年前后），不可确证。",
+      "death_note": "建光元年（121年）因卷入宫廷旧案服毒卒，公元纪年。",
+      "chronology": [
+        {"year": 75, "display": "约75年", "text": "入宫为宦官，后转任尚方令监造器械。"},
+        {"year": 105, "display": "105年", "text": "改进造纸工艺并奏上，“自是莫不从用”，天下称“蔡侯纸”。"},
+        {"year": 114, "display": "114年（约）", "text": "封龙亭侯。"},
+        {"year": 121, "display": "121年", "text": "安帝亲政清算旧事，服毒卒。"}
+      ],
+      "deeds": [
+        "系统改进造纸：以树肤、麻头、敝布、鱼网为原料，降低成本并提高质量。",
+        "推动纸进入行政书写体系，为三世纪后纸代简帛奠定工艺基础。"
+      ],
+      "evaluations": [
+        {"holder": "《后汉书·蔡伦传》", "view": "记录其工艺与封侯；也直书其“监典内奏事”卷入宫廷斗争的死亡。", "basis": "《后汉书》。"},
+        {"holder": "现代技术史", "view": "定位为造纸工艺的关键改进者与推广者而非发明者（放马滩纸等西汉纸为据）；其封侯显荣与宦官身份也提示技术官僚在汉宫的处境。", "basis": "科技考古与秦汉史研究。"}
+      ],
+      "sources": ["houhanshu", "kaogu-cass", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhangheng",
+      "name": "张衡",
+      "birth_year": 78,
+      "death_year": 139,
+      "birth_display": "公元78年",
+      "death_display": "公元139年",
+      "birth_note": "据《后汉书》本传建初三年（78年）生，公元纪年。",
+      "death_note": "永和四年（139年）卒，公元纪年。",
+      "chronology": [
+        {"year": 78, "display": "78年", "text": "生于南阳西鄂，善属文，作《二京赋》十年乃成。"},
+        {"year": 115, "display": "约115年", "text": "任太史令，掌天文历法。"},
+        {"year": 117, "display": "约117年", "text": "制浑天仪（水运浑象）。"},
+        {"year": 132, "display": "132年", "text": "造候风地动仪，“验之以事，合契若神”。"},
+        {"year": 138, "display": "138年", "text": "陇西地震，京师地动仪龙口铜丸落下，驿骑驰报——史载实证（细节见争议）。"},
+        {"year": 139, "display": "139年", "text": "卒于河间相任上。"}
+      ],
+      "deeds": [
+        "浑天仪、地动仪等仪器的制造（地动仪原理细节今存《后汉书》记载，原器失传）。",
+        "《二京赋》《归田赋》为汉赋转变期代表作。",
+        "反对图谶之学，主张“图谶虚妄”——科学理性与谶纬迷信之争的名例。"
+      ],
+      "evaluations": [
+        {"holder": "《后汉书》传论", "view": "“数术穷天地，制作侔造化”。", "basis": "《后汉书·张衡传》。"},
+        {"holder": "现代科技史", "view": "地动仪原理复原为持续研究课题（王振铎复原模型流行，但学界指出史料不足复原其真实构造）；《后汉书》记载的可靠性讨论是标准案例。", "basis": "中国科技史研究。"}
+      ],
+      "sources": ["houhanshu", "zgbk", "kaogu-cass"],
+      "needs_verification": false
+    },
+    {
+      "id": "huatuo",
+      "name": "华佗",
+      "birth_year": null,
+      "death_year": 208,
+      "birth_display": "生卒不可考（沛国谯人）",
+      "death_display": "约公元208年（前后，存疑）",
+      "birth_note": "生年无载。",
+      "death_note": "被曹操所杀，时间通说约建安十三年（208年）前后，无确切记载。",
+      "chronology": [
+        {"year": 168, "display": "约168年", "text": "游学徐土，行医于江淮一带（《三国志·华佗传》所记行迹，系年约数）。"},
+        {"year": 200, "display": "约200年前后", "text": "为曹操治头风，“然本作士人，以医见业，意常自悔”。"},
+        {"year": 208, "display": "约208年", "text": "托妻疾不返，曹操按验下狱，拷问而死；《青囊书》不传（焚书情节系传说叙事）。"}
+      ],
+      "deeds": [
+        "精外科，创“麻沸散”行腹部手术（《三国志》记载，药方失传）。",
+        "创五禽戏（导引养生体系）。",
+        "医案记录于《三国志·华佗传》与《后汉书》，为汉代临床医学的重要文献。"
+      ],
+      "evaluations": [
+        {"holder": "《三国志》陈寿", "view": "“医所不治”之外科水平与案验俱录；同时记录其“恃能厌事”的性格与曹操杀之的因果。", "basis": "《三国志·华佗传》。"},
+        {"holder": "现代医学史", "view": "麻沸散的成分（曼陀罗说等）与手术真实性的讨论持续；“华佗再世”成为医德医术的文化符号。", "basis": "中国医学史研究。"}
+      ],
+      "sources": ["sanguozhi", "houhanshu", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhangzhongjing",
+      "name": "张仲景",
+      "birth_year": 150,
+      "death_year": 219,
+      "birth_display": "约公元150年（存疑）",
+      "death_display": "约公元219年（存疑）",
+      "birth_note": "生卒年无正史明载，通行推定约150—219年，均系约数（本条整体存疑度较高，见待核实）。",
+      "death_note": "同上。",
+      "chronology": [
+        {"year": 150, "display": "约150年", "text": "相传生于南阳郡（今河南南阳一带），事迹多据后世追记。"},
+        {"year": 200, "display": "约200年前后（建安年间）", "text": "自序言“余宗族素多，向余二百，建安纪年以来，犹未十稔，其死亡者三分有二，伤寒十居其七”——感往昔之沦丧而著书。"},
+        {"year": 205, "display": "约205年（建安年间）", "text": "著《伤寒杂病论》（成书年代通说系于建安年间，约数）。"},
+        {"year": 219, "display": "约219年", "text": "卒年通行推定。"}
+      ],
+      "deeds": [
+        "著《伤寒杂病论》，后析为《伤寒论》《金匮要略》，确立辨证论治体系。",
+        "创六经辨证框架与方剂规范（“方书之祖”），柴胡桂枝等经方沿用至今。",
+        "其著作经西晋王叔和整理传世——文本层累史本身是文献学课题。"
+      ],
+      "evaluations": [
+        {"holder": "传统医学尊奉", "view": "“医圣”；《伤寒论》为中医临床规范化的奠基之作。", "basis": "中医学术史。"},
+        {"holder": "现代医学史与文献学", "view": "正史无传、生平几全赖后世（皇甫谧序及宋代校订）追记，生卒与行医细节不可确证；“辨证论治”概念的提炼亦有学科史建构成分——本条整体按存疑处理。", "basis": "中医文献学研究。"}
+      ],
+      "sources": ["sanguozhi", "houhanshu", "zgbk"],
+      "needs_verification": true
+    },
+    {
+      "id": "caocao",
+      "name": "曹操（曹孟德）",
+      "birth_year": 155,
+      "death_year": 220,
+      "birth_display": "公元155年",
+      "death_display": "公元220年",
+      "birth_note": "据《三国志》武帝纪注引《曹瞒传》等，生于桓帝永寿元年（155年），通说；出生地谯（今亳州），生年学界基本一致。",
+      "death_note": "据《三国志》建安二十五年（220年）正月卒于洛阳，公元纪年。",
+      "chronology": [
+        {"year": 155, "display": "155年", "text": "生于谯，父曹嵩为宦官曹腾养子（出身细节见争议）。"},
+        {"year": 184, "display": "184年", "text": "起兵讨黄巾，后收编青州兵（192年）奠定军事基础。"},
+        {"year": 196, "display": "196年", "text": "迎献帝都许昌，“奉天子以令不臣”。"},
+        {"year": 200, "display": "200年", "text": "官渡之战破袁绍。"},
+        {"year": 208, "display": "208年", "text": "赤壁败于孙刘联军，统一中断。"},
+        {"year": 216, "display": "216年", "text": "进爵魏王。"},
+        {"year": 220, "display": "220年", "text": "卒于洛阳；同年曹丕代汉称帝。"}
+      ],
+      "deeds": [
+        "统一北方（官渡—北征乌桓），结束北方长期混战。",
+        "屯田（许下屯田196年起）与“唯才是举”三令，恢复北方经济与官僚体系。",
+        "建安文学的轴心人物：与二曹七子构成“建安风骨”。"
+      ],
+      "evaluations": [
+        {"holder": "陈寿（《三国志》评）", "view": "“非常之人，超世之杰”；同时明记其多疑好杀（如吕伯奢案之歧异记载）。", "basis": "《三国志·武帝纪》及注。"},
+        {"holder": "许劭“治世之能臣，乱世之奸雄”评语", "view": "此评语出自《后汉书·许劭传》等汉末人物品藻记载，被后世演义放大为定性；学界视为当时人物品评文化的产物。", "basis": "《后汉书·许劭传》。"},
+        {"holder": "现代史学研究", "view": "区分文学形象（演义之“奸雄”）与史实功过：北方重建、屯田、唯才是举为实绩；徐州屠城等记载为道德污点。", "basis": "三国史研究通说。"}
+      ],
+      "sources": ["sanguozhi", "houhanshu", "tianzheng-han"],
+      "needs_verification": false
+    }
+  ]
+}
