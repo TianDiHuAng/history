@@ -1,0 +1,1247 @@
+{
+ "unit_id": "china-ming",
+ "region": "china",
+ "title": "明",
+ "period_display": "1368年—1644年",
+ "start_year": 1368,
+ "end_year": 1644,
+ "overview": {
+  "main_threads": [
+   "皇权的极端化：废丞相、厂卫、廷杖——皇帝个人与官僚体系的紧张",
+   "财政与海洋的转向：宝船远航的中止、白银货币化与隆庆开关",
+   "士大夫政治的困境：内阁、党争（东林-阉党）与地方社会",
+   "边疆变局：卫所体系的衰败与女真（后金）崛起"
+  ],
+  "sub_periods": [
+   {
+    "name": "洪武—永乐",
+    "range_display": "1368年—1424年",
+    "desc": "建国定制、靖难夺位、迁都下西洋——帝国框架定型。"
+   },
+   {
+    "name": "仁宣—正德",
+    "range_display": "1425年—1521年",
+    "desc": "土木之变为由盛转衰节点；宦官政治与内阁成长并行。"
+   },
+   {
+    "name": "嘉靖—崇祯",
+    "range_display": "1522年—1644年",
+    "desc": "白银经济与开关、张居正改革、党争、三饷加派与农民军，1644年亡于李自成。"
+   }
+  ],
+  "key_changes": [
+   "白银货币化与“一条鞭法”财政转型",
+   "卫所制崩坏→募兵制（戚家军、辽东铁骑）",
+   "全球贸易入华：马尼拉大帆船-丝银对流",
+   "西学东渐（耶稣会士与士大夫合作译书）"
+  ]
+ },
+ "events": [
+  {
+   "id": "ming-zhuyuanzhang-jianguo",
+   "title": "朱元璋建明与北伐",
+   "year": 1368,
+   "end_year": null,
+   "year_display": "1368年",
+   "end_year_display": null,
+   "year_note": "据《明实录·太祖实录》与《明史·太祖纪》：洪武元年正月（1368年）朱元璋即帝位于应天；同年八月徐达入大都；公元纪年，无换算问题。",
+   "location": "应天（今南京）→大都",
+   "key_people": [
+    "zhu-yuanzhang"
+   ],
+   "background": "元末红巾军起义后，朱元璋以集庆（应天）为基地，先灭陈友谅（1363年鄱阳湖）、再灭张士诚（1367年），削平方国珍、陈友定。",
+   "process": [
+    "1367年十月北伐：以“驱逐胡虏，恢复中华”为号召（宋濂奉敕撰檄文），徐达常遇春统军。",
+    "1368年正月朱元璋即帝位，国号大明，年号洪武。",
+    "同年闰七月徐达入大都，元顺帝北走；此后数次北征（岭北之战1372年受挫）。",
+    "洪武年间陆续平定四川明氏、云南梁王、辽东纳哈出（至1387年）。"
+   ],
+   "outcome": "中国史上首次由南方统一北方（学界常引此点）；明代政制（卫所、黄册、里甲、布政司体系）在洪武一朝定型。",
+   "controversies": [
+    {
+     "issue": "“得国最正”论",
+     "views": [
+      {
+       "holder": "孟森《明史讲义》",
+       "basis": "以布衣起兵、无篡窃之嫌，谓明代“得国最正”——此评成为后世引用的经典论断。"
+      },
+      {
+       "holder": "现代研究补充",
+       "basis": "强调朱元璋对韩林儿（龙凤政权）的隶属与最终取代的暧昧处理——得国过程的伦理讨论并未终结。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>建明与北伐（1367—1387年，示意）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>先南后北</text><text x='190' y='140' text-anchor='middle' font-size='11'>1363鄱阳湖灭陈友谅</text><text x='190' y='162' text-anchor='middle' font-size='11'>1367灭张士诚</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>1367年十月北伐</text><text x='430' y='140' text-anchor='middle' font-size='11'>“驱逐胡虏，恢复中华”</text><rect x='550' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1368 正月即位</text><text x='640' y='140' text-anchor='middle' font-size='11'>八月徐达入大都</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xj1)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#2b4a6f' marker-end='url(#xj1)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>中国史上首次由南方统一北方</text><text x='380' y='262' text-anchor='middle' font-size='11'>洪武体制定型：卫所·黄册·里甲·布政司</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>孟森“得国最正”论 vs 龙凤政权取代的伦理讨论</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-hulan-an",
+   "title": "胡惟庸案与蓝玉案",
+   "year": 1380,
+   "end_year": 1393,
+   "year_display": "1380年",
+   "end_year_display": "1393年",
+   "year_note": "据《明史》：洪武十三年（1380年）胡惟庸案发，洪武二十三年追论“通倭通虏”；洪武二十六年（1393年）蓝玉案发；公元纪年，无换算问题。",
+   "location": "应天",
+   "key_people": [
+    "zhu-yuanzhang"
+   ],
+   "background": "中书省丞相胡惟庸专断日久，太祖以“谋反”诛之；武将蓝玉骄纵（北元战功后封凉国公），太子朱标死后（1392年）武人集团成为皇太孙之患。",
+   "process": [
+    "1380年诛胡惟庸；洪武十九至二十三年间追论“胡党”，株连李善长等（株连规模数字见争议）。",
+    "1393年蓝玉案：以谋逆诛蓝玉，牵连功臣宿将（数字见争议）。",
+    "两案合计诛戮元功宿将及其家族，“淮西勋贵”集团基本清空。",
+    "1382年起锦衣卫设（洪武十五年），诏狱与侦缉制度化（1387年一度焚刑具）。"
+   ],
+   "outcome": "开国功臣集团被系统清除，皇权独大；太子朱标早死使布局落空，靖难之役时燕王已无掣肘的宿将制衡——胡蓝案的远期后果。",
+   "controversies": [
+    {
+     "issue": "株连规模与罪名真实性",
+     "views": [
+      {
+       "holder": "《明史》所载数字",
+       "basis": "胡案“词所连及坐诛者三万余人”、蓝案牵连一万五千——数字广被引用。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "认为数字系官方叙事，实际规模或有夸大；胡惟庸“谋反”证据薄弱（“云奇告变”等细节带传说色彩），案件实为废相与集权的政治工程——学界主流取此框架。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>胡蓝之狱（1380/1393年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='190' y='116' text-anchor='middle' fill='#8c1f28'>1380 胡惟庸案</text><text x='190' y='140' text-anchor='middle' font-size='11'>“谋反”诛相·追论胡党</text><text x='190' y='162' text-anchor='middle' font-size='11'>株连李善长等</text><rect x='330' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' fill='#8c1f28'>1393 蓝玉案</text><text x='420' y='140' text-anchor='middle' font-size='11'>武人集团清空</text><rect x='540' y='90' width='190' height='90' fill='#fff' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>皇权独大</text><text x='635' y='140' text-anchor='middle' font-size='11'>锦衣卫（1382设）诏狱</text><line x1='300' y1='135' x2='326' y2='135' stroke='#8c1f28' marker-end='url(#xj2)'/><line x1='510' y1='135' x2='536' y2='135' stroke='#8c1f28' marker-end='url(#xj2)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>靖难之役时已无宿将制衡燕王（远期后果）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>株连数字系《明史》官方叙事，或有夸大；“谋反”证据薄弱（现代主流）</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": true,
+   "pending_notes": "胡案“三万余人”、蓝案“一万五千”均系《明史》官方数字，学界认为有夸大成分；胡惟庸谋反的直接证据在史料中薄弱。"
+  },
+  {
+   "id": "ming-feixiangcheng",
+   "title": "废丞相与三司分立",
+   "year": 1380,
+   "end_year": null,
+   "year_display": "1380年",
+   "end_year_display": null,
+   "year_note": "据《明史·职官志》：洪武十三年（1380年）正月诏罢中书省、废丞相，政归六部；公元纪年，无换算问题。",
+   "location": "应天",
+   "key_people": [
+    "zhu-yuanzhang"
+   ],
+   "background": "胡惟庸案后，太祖以《皇明祖训》明令“后世嗣君毋得议置丞相”，将六部直属皇帝；地方改行中书省为三司（布政使司、按察司、都司）。",
+   "process": [
+    "1380年罢中书省、废丞相，六部尚书直接对皇帝负责。",
+    "设四辅官（旋废），1382年置殿阁大学士（华盖殿等）为顾问（内阁的前身）。",
+    "地方三司分立：承宣布政使司（行政）、提刑按察司（监察）、都指挥使司（军事）。",
+    "《皇明祖训》钦定制度：以祖训形式冻结政制变革空间。"
+   ],
+   "outcome": "中国一千六百年丞相制度终结：皇权与文官体系之间失去缓冲层；内阁（顾问→票拟）与司礼监（批红）填补空缺——明代政治结构（皇帝-内阁-宦官三角）由此奠定。",
+   "controversies": [
+    {
+     "issue": "废相的制度后果",
+     "views": [
+      {
+       "holder": "传统史论",
+       "basis": "皇权极端化、明代“君主独裁”的顶点（钱穆等对明代政制的批判性论述）。"
+      },
+      {
+       "holder": "现代修正研究",
+       "basis": "内阁票拟与司礼监批红形成新的“隐形丞相”结构；皇帝实际行使的是选择权而非全程决策——皇权运作被官僚程序部分驯化（明代政治研究的通行视角）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>废丞相（1380年）</text><g font-size='12'><rect x='250' y='80' width='260' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='106' text-anchor='middle' font-size='14' fill='#8c1f28'>罢中书省·废丞相</text><text x='380' y='130' text-anchor='middle' font-size='11'>《皇明祖训》冻结政制</text><line x1='380' y1='150' x2='380' y2='182' stroke='#2b4a6f' marker-end='url(#xj3)'/><g font-size='12'><rect x='60' y='186' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='160' y='212' text-anchor='middle'>六部直属皇帝</text><rect x='280' y='186' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='212' text-anchor='middle'>殿阁大学士（顾问）</text><text x='380' y='236' text-anchor='middle' font-size='11' >→内阁票拟</text><rect x='500' y='186' width='220' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='610' y='212' text-anchor='middle'>三司分立（地方）</text><text x='610' y='236' text-anchor='middle' font-size='11'>布政·按察·都司</text></g><rect x='130' y='290' width='500' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='316' text-anchor='middle' font-size='13'>一千六百年丞相制终结</text><text x='380' y='342' text-anchor='middle' font-size='11'>皇帝-内阁-宦官三角（票拟/批红）由此形成</text></g></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "yan-gengwang"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-jingnan",
+   "title": "靖难之役",
+   "year": 1399,
+   "end_year": 1402,
+   "year_display": "1399年",
+   "end_year_display": "1402年",
+   "year_note": "据《明实录》与《明史》：建文元年七月（1399年）朱棣于北平起兵（称“奉天靖难”）；建文四年六月（1402年）燕军入南京，宫中火起，建文帝下落不明；公元纪年，无换算问题。",
+   "location": "北平→河北、山东→南京",
+   "key_people": [
+    "zhu-di"
+   ],
+   "background": "太祖分封诸王掌兵（“塞王”守边），建文帝与齐泰黄子澄急于削藩（先削周、湘、齐等五王），燕王朱棣以“清君侧”起兵。",
+   "process": [
+    "1399年七月朱棣起兵北平，杀张昺谢贵，据北平、并宁王军（朵颜三卫）。",
+    "1399—1401年河北山东拉锯（白沟河、济南铁铉守城、东昌之败）。",
+    "1402年朱棣绕过济南直趋南京；六月谷王与李景隆开金川门降燕。",
+    "南京宫中火起，建文帝下落不明（出亡传说与正史“焚死”记载并存——千年公案）；朱棣称帝（永乐）。"
+   ],
+   "outcome": "藩王夺嫡成功：削藩以迁都北平、内徙诸王的方式完成；建文旧臣被清算（方孝孺“十族”殉难——株连细节的史料层次见争议），永乐朝以武功文治重建合法性。",
+   "controversies": [
+    {
+     "issue": "建文帝下落",
+     "views": [
+      {
+       "holder": "《明实录·太宗实录》",
+       "basis": "宫中火起帝“不知所终”的模糊记载与焚死暗示。"
+      },
+      {
+       "holder": "出亡传说与地方谱牒",
+       "basis": "“逊国出亡”说（出家为僧、游滇黔等）依托地方传说与晚出文献，正史无确证。"
+      },
+      {
+       "holder": "学界现状",
+       "basis": "下落不明为定论，各种“踪迹说”均属推测——本站如实并列。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>靖难之役（1399—1402年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>建文削藩</text><text x='190' y='140' text-anchor='middle' font-size='11'>先削五王→燕王“清君侧”</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>三年拉锯</text><text x='430' y='140' text-anchor='middle' font-size='11'>白沟河·济南·东昌</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>1402 入南京</text><text x='640' y='140' text-anchor='middle' font-size='11'>宫中火起·建文不知所终</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xj4)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xj4)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>永乐朝以迁都与武功重建合法性</text><text x='380' y='262' text-anchor='middle' font-size='11'>方孝孺殉难株连细节的史料层次需注意（“十族”说晚出成分）</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-zhenghe-xixiyang",
+   "title": "郑和下西洋",
+   "year": 1405,
+   "end_year": 1433,
+   "year_display": "1405年",
+   "end_year_display": "1433年",
+   "year_note": "据《明史·郑和传》与《瀛涯胜览》等：永乐三年（1405年）六月首航（宝船六十二艘、二万七千八百余人——《明史》数字）；永乐五年至宣德五年间七下西洋，宣德八年（1433年）郑和卒于古里（一说归途）；公元纪年，无换算问题。",
+   "location": "刘家港出发→占城→满剌加→古里→忽鲁谟斯→东非麻林地",
+   "key_people": [
+    "zhenghe"
+   ],
+   "background": "永乐帝欲建朝贡体系与海上帝国声威（“耀兵异域，示中国富强”——《明史》所概括）；郑和（云南穆斯林出身、靖难功宦官）率宝船舰队。",
+   "process": [
+    "1405—1407年首航：占城、爪哇、满剌加、古里；擒陈祖义（海盗）。",
+    "1407—1421年间六次远航：至东非（麻林地）、红海方向；锡兰山之役（1411年）俘虏其王。",
+    "1421年第六次远航与永乐迁都同年——国家动员高峰。",
+    "1431—1433年第七次（宣德）远航；郑和卒于古里（一说归国后）。",
+    "1433年后下西洋中止；正统朝焚海船图纸之说见争议（流传的“焚宝船”记载史料层次低）。"
+   ],
+   "outcome": "十五世纪世界最大规模的远洋活动（比欧洲地理大发现早约八十年）；朝贡贸易网络与妈祖信仰海外传播；1433年后海禁回摆，海上力量让位于沿海走私与倭寇问题。",
+   "controversies": [
+    {
+     "issue": "宝船尺度",
+     "views": [
+      {
+       "holder": "《明史·郑和传》与《瀛涯胜览》",
+       "basis": "“大船长四十四丈，阔一十八丈”之说。"
+      },
+      {
+       "holder": "现代造船史研究",
+       "basis": "多认为四十四丈（约138米）超出木质海船结构极限，或系尺度单位误读/夸大；实际大型宝船长度估计多在50—80米级——争论至今，本站不采具体尺寸。"
+      }
+     ]
+    },
+    {
+     "issue": "下西洋动机",
+     "views": [
+      {
+       "holder": "传统“踪迹建文”说",
+       "basis": "《明史》传末“成祖疑惠帝亡海外，欲踪迹之”。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "视为朝贡体系构建与陆权-海权并举的战略行动（建文帝说仅为附带因素之一）——学界主流。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>七下西洋（1405—1433年，航线示意）</text><g font-size='12'><rect x='50' y='170' width='120' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='110' y='196' text-anchor='middle'>刘家港</text><rect x='210' y='140' width='130' height='60' fill='#fff' stroke='#2b4a6f'/><text x='275' y='166' text-anchor='middle'>占城·满剌加</text><rect x='380' y='140' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='450' y='166' text-anchor='middle'>古里（印度）</text><rect x='550' y='120' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='146' text-anchor='middle' fill='#8c1f28'>忽鲁谟斯·东非</text><text x='635' y='168' text-anchor='middle' font-size='10'>麻林地（今肯尼亚）</text><rect x='380' y='240' width='140' height='60' fill='#fff' stroke='#2b4a6f'/><text x='450' y='266' text-anchor='middle'>锡兰山之役</text><text x='450' y='288' text-anchor='middle' font-size='10'>1411俘其王</text><line x1='170' y1='195' x2='206' y2='175' stroke='#2b4a6f' marker-end='url(#xj5)'/><line x1='340' y1='170' x2='376' y2='170' stroke='#2b4a6f' marker-end='url(#xj5)'/><line x1='520' y1='170' x2='546' y2='160' stroke='#2b4a6f' marker-end='url(#xj5)'/><line x1='450' y1='200' x2='450' y2='236' stroke='#2b4a6f' marker-end='url(#xj5)'/></g><rect x='100' y='310' width='560' height='66' fill='#fff' stroke='#2b4a6f'/><text x='380' y='336' text-anchor='middle' font-size='12'>1433年后中止——海禁回摆，海上力量让位于走私与倭患</text><text x='380' y='360' text-anchor='middle' font-size='11'>宝船“四十四丈”超出木质船极限（现代研究质疑），本站不采尺寸</text></svg>",
+   "sources": [
+    "mingshi",
+    "zhwp-zhenghe",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": true,
+   "pending_notes": "首航兵力“二万七千八百余人”系《明史》数字（官方账面）；宝船尺度“四十四丈”被造船史研究普遍质疑，实际尺寸无定论。"
+  },
+  {
+   "id": "ming-yongle-qianlu",
+   "title": "永乐迁都北京",
+   "year": 1406,
+   "end_year": 1421,
+   "year_display": "1406年",
+   "end_year_display": "1421年",
+   "year_note": "据《明实录》：永乐四年（1406年）诏建北京宫殿（预备期）；永乐十九年（1421年）正月正式迁都，改北京为京师；公元纪年，无换算问题。",
+   "location": "南京→北京",
+   "key_people": [
+    "zhu-di"
+   ],
+   "background": "朱棣以北平为龙兴之地，且需直面蒙古（“天子守边”）；营建工程历时十五年，以疏浚会通河恢复漕运为前提。",
+   "process": [
+    "1406年诏建北京宫殿（采木湖广川贵、烧砖临清）。",
+    "1411年疏浚会通河，1415年后海运罢而漕运专行——南粮北运的制度化。",
+    "1421年正月正式定都北京，南京降为留都（两京制）。",
+    "迁都当年（1421年）三大殿遭雷火焚毁——时人视为不祥的政治隐喻（朝野争议）。"
+   ],
+   "outcome": "北京自此为首都（除1928—1949年间）七百年格局的起点；紫禁城现存格局为永乐规制（1987年列入世界遗产）；两京制与漕运依赖构成明代财政地理的基本面。",
+   "controversies": [
+    {
+     "issue": "迁都的利弊评价",
+     "views": [
+      {
+       "holder": "“天子守国门”叙事",
+       "basis": "迁都强化对蒙古的防御姿态（后世概括性说法）。"
+      },
+      {
+       "holder": "成本批判",
+       "basis": "迁都使财政重心（江南）与政治重心（北京）分离，漕运成为帝国命脉与软肋（明代财政史研究的通行论点）；1421年大火引发的迁都争议（陈谠等请还南京被贬）显示当时即有激烈分歧。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>迁都北京（1406—1421年）</text><g font-size='12'><rect x='110' y='90' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='210' y='116' text-anchor='middle'>1406 诏建北京</text><text x='210' y='140' text-anchor='middle' font-size='11'>采木烧砖·营建十五年</text><rect x='350' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='440' y='116' text-anchor='middle'>1411 疏浚会通河</text><text x='440' y='140' text-anchor='middle' font-size='11'>漕运专行（南粮北运）</text><rect x='560' y='90' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>1421 正式迁都</text><text x='645' y='140' text-anchor='middle' font-size='11'>两京制确立</text><line x1='310' y1='130' x2='346' y2='130' stroke='#2b4a6f' marker-end='url(#xj7)'/><line x1='530' y1='130' x2='556' y2='130' stroke='#2b4a6f' marker-end='url(#xj7)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>紫禁城永乐规制沿用至今（1987年列入世界遗产）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>利弊之辩：天子守国门 vs 漕运命脉的成本（财政史通说）</text></svg>",
+   "sources": [
+    "mingshi",
+    "whc-forbidden",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-yongle-dadian",
+   "title": "《永乐大典》编成",
+   "year": 1408,
+   "end_year": null,
+   "year_display": "1408年",
+   "end_year_display": null,
+   "year_note": "据《明实录》与《明史·艺文志》：永乐五年（1407年）书成初名《文献大成》，永乐帝不满再修，永乐六年（1408年）冬重修完成，定名《永乐大典》；公元纪年，无换算问题。",
+   "location": "南京文渊阁",
+   "key_people": [
+    "zhu-di"
+   ],
+   "background": "解缙、胡广等奉敕编类书；太子少师姚广孝、刑部侍郎刘季篪二次领衔重修，动用朝野文士两千余人（人数见《明实录》，约数）。",
+   "process": [
+    "1403年敕修，1404年成《文献大成》；帝以其“尚多未备”命重修。",
+    "1408年冬重修完成：正文22877卷（另凡例目录60卷），装成11095册，约3.7亿字（《明实录》与进呈表所记）。",
+    "按《洪武正韵》韵目编排，“用韵以统字，用字以系事”。",
+    "正本藏文渊阁，嘉靖年间录副本（1562—1567年完成）；正本下落成谜（毁于明末说/随葬说等，无定论）。"
+   ],
+   "outcome": "世界最大规模的类书之一（“世界有史以来最大的百科全书”常被引用——按卷帙计）；明末清初正本散佚、副本屡经劫掠，今存约四百余册（约原书4%）散藏世界各馆——文化遗产的悲剧性样本。",
+   "controversies": [
+    {
+     "issue": "正本下落",
+     "views": [
+      {
+       "holder": "毁于明末说/万历焚毁说",
+       "basis": "多据清人笔记推测。"
+      },
+      {
+       "holder": "嘉靖随葬说/藏于皇史宬夹墙说",
+       "basis": "现代学者提出的假说，均有间接证据与困难——至今无定论。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>《永乐大典》（1403—1408年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1404初成《文献大成》</text><text x='190' y='140' text-anchor='middle' font-size='11'>帝命重修·姚广孝领衔</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>1408年冬重修完成</text><text x='430' y='140' text-anchor='middle' font-size='11'>22877卷·11095册·约3.7亿字</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>嘉靖录副（1562—67）</text><text x='640' y='140' text-anchor='middle' font-size='11'>正本下落成谜</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xj6)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xj6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>今存约四百余册（约4%）散藏世界各馆</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>正本下落诸说（焚毁/随葬/夹墙）均无定论</text></svg>",
+   "sources": [
+    "mingshi",
+    "chnmuseum",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-tumu-baowei",
+   "title": "土木之变与北京保卫战",
+   "year": 1449,
+   "end_year": null,
+   "year_display": "1449年",
+   "end_year_display": null,
+   "year_note": "据《明实录·英宗实录》与《明史》：正统十四年八月（1449年）土木堡之变，英宗被瓦剌也先所俘；同年十月于谦主持北京保卫战；公元纪年，无换算问题。",
+   "location": "土木堡（今河北怀来一带）→北京",
+   "key_people": [
+    "yuqian"
+   ],
+   "background": "王振怂恿英宗亲征（仓促集结），行军混乱；二十万上下大军（《明实录》与《明史》兵力数字诸说）在土木堡被瓦剌歼灭，英宗被俘。",
+   "process": [
+    "1449年七月亲征出居庸；八月土木堡被围，军溃，英宗被俘（“土木之变”）。",
+    "京师震动，徐珵（有贞）倡议南迁；于谦力主固守：“言南迁者可斩也”。",
+    "九月郕王即位（景帝），于谦任兵部尚书，调二京备操军、备倭军入卫，整饬武备。",
+    "十月也先挟英宗至北京城下；于谦列阵九门背城而战，五日退敌（德胜门之战石亨火器建功）。",
+    "1450年英宗被送还（景泰议和后的结果），居南宫。"
+   ],
+   "outcome": "明朝避免了“南渡”式崩溃；京营精锐尽失使边防转为守势（九边成型）；于谦与景帝的君臣组合为夺门之变埋下政治伏线。",
+   "controversies": [
+    {
+     "issue": "土木堡明军兵力",
+     "views": [
+      {
+       "holder": "《明实录》英宗实录",
+       "basis": "亲征大军约五十万（后世常引）。"
+      },
+      {
+       "holder": "现代研究",
+       "basis": "认为五十万系最大动员叙述，实际京营诸军合计多估在二十万级（各家考证不一）——本站以“二十万上下”表述并注明。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>土木之变与北京保卫战（1449年）</text><g font-size='12'><rect x='90' y='90' width='230' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='205' y='116' text-anchor='middle' fill='#8c1f28'>八月 土木堡军溃</text><text x='205' y='140' text-anchor='middle' font-size='11'>英宗被俘（兵力诸说：20万级）</text><rect x='360' y='90' width='170' height='90' fill='#fff' stroke='#2b4a6f'/><text x='445' y='116' text-anchor='middle'>于谦力主固守</text><text x='445' y='140' text-anchor='middle' font-size='11'>“言南迁者可斩”</text><rect x='560' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='645' y='116' text-anchor='middle'>九月 郕王即位</text><text x='645' y='140' text-anchor='middle' font-size='11'>整饬武备·调兵入卫</text><line x1='320' y1='135' x2='356' y2='135' stroke='#8c1f28' marker-end='url(#xj8)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#2b4a6f' marker-end='url(#xj8)'/></g><line x1='645' y1='180' x2='450' y2='225' stroke='#2b4a6f' marker-end='url(#xj8)'/><rect x='250' y='230' width='300' height='80' fill='#fff' stroke='#2b4a6f'/><text x='400' y='256' text-anchor='middle' font-size='13'>十月九门背城而战·五日退敌</text><text x='400' y='282' text-anchor='middle' font-size='11'>1450年英宗送还居南宫</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>京营精锐尽失→九边守势；君臣组合埋下夺门伏线</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-duomen-zhibian",
+   "title": "夺门之变与于谦之死",
+   "year": 1457,
+   "end_year": null,
+   "year_display": "1457年",
+   "end_year_display": null,
+   "year_note": "据《明史》：景泰八年正月（1457年）石亨、徐有贞、曹吉祥拥英宗复辟（夺门之变）；同年正月于谦被杀（“意欲”罪名）；公元纪年，无换算问题。",
+   "location": "北京（南宫、午门、崇文门外）",
+   "key_people": [
+    "yuqian"
+   ],
+   "background": "景帝病重、储位未定（太子早夭）；武将石亨、文臣徐有贞与宦官曹吉祥合谋迎立英宗复辟——宫廷政变定君统。",
+   "process": [
+    "1457年正月十六夜，夺门入南宫迎英宗升奉天殿复辟（改元天顺）。",
+    "即日下于谦、王文于狱；徐有贞主政。",
+    "正月廿二以“意欲迎立外藩”定罪——于谦被杀于崇文门外，“天下冤之”（《明史》本传语）。",
+    "英宗亦悔（“于谦实有功”语见史载），宪宗时平反（1478年前后）。"
+   ],
+   "outcome": "夺门集团得势复旋败（石曹之乱1461年）；“意欲”与“莫须有”并称冤案话语；于谦成为明清官方与民间共同尊奉的忠臣符号（西湖三杰之一）。",
+   "controversies": [
+    {
+     "issue": "于谦之死的责任与罪名",
+     "views": [
+      {
+       "holder": "《明史·于谦传》",
+       "basis": "徐有贞曰“不杀于谦，此举（夺门）为无名”——政变合法性与冤案制造的直接关联被史笔点明。"
+      },
+      {
+       "holder": "现代评价",
+       "basis": "夺门之变的“必要性”本身被质疑（景帝已病危、英宗复位本可自然发生）——政变是为集团夺权而非社稷所需（现代明史研究的主流分析）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>夺门之变（1457年正月）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>景帝病重·储位未定</text><text x='200' y='140' text-anchor='middle' font-size='11'>石亨徐有贞曹吉祥合谋</text><rect x='350' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='435' y='116' text-anchor='middle' fill='#8c1f28'>夺门复辟</text><text x='435' y='140' text-anchor='middle' font-size='11'>英宗改元天顺</text><rect x='550' y='90' width='190' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>于谦以“意欲”被杀</text><text x='645' y='140' text-anchor='middle' font-size='11'>“天下冤之”（明史）</text><line x1='310' y1='135' x2='346' y2='135' stroke='#8c1f28' marker-end='url(#xj9)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xj9)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>“不杀于谦，此举为无名”——政变合法性与冤案制造</text><text x='380' y='262' text-anchor='middle' font-size='11'>夺门“必要性”被现代研究质疑（景帝已病危）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“意欲”与“莫须有”并称冤案话语；宪宗时平反</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-longqing-kaiguan",
+   "title": "隆庆开关",
+   "year": 1567,
+   "end_year": null,
+   "year_display": "1567年",
+   "end_year_display": null,
+   "year_note": "据《明史》及《明穆宗实录》：隆庆元年（1567年）福建巡抚涂泽民请开海禁获准，月港（漳州）准贩东西二洋（日本除外）；公元纪年，无换算问题。",
+   "location": "漳州月港",
+   "key_people": [],
+   "background": "嘉靖倭患（走私贸易武装化）暴露海禁失效；隆庆初年高拱张居正当国，以有限开放（月港一港）治理海上秩序。",
+   "process": [
+    "1567年准开月港“洋市”：商船引票制（每年定额引票，后增至百余张）。",
+    "白银大量流入：马尼拉大帆船贸易（1571年马尼拉建城后规模化）以美洲白银交换中国丝货。",
+    "倭患渐平（戚继光俞大猷平定东南）与开港的秩序重建并行。",
+    "对日贸易仍禁——走私路线持续存在。"
+   ],
+   "outcome": "中国被纳入以白银为媒介的全球贸易体系（“银本位”财政的实际确立）；月港体制为民间海外贸易合法化首例；其税收与引票制度成为清代海关管理的前身。",
+   "controversies": [
+    {
+     "issue": "倭患的根源",
+     "views": [
+      {
+       "holder": "传统“倭寇外患”叙事",
+       "basis": "以日本海盗为主体的侵扰叙事。"
+      },
+      {
+       "holder": "现代研究主流（田中健夫、林仁川等）",
+       "basis": "嘉靖“大倭寇”实以中国走私商人为主体（“假倭”），海禁与朝贡体制的失效是结构性根源；戚继光平定的对象多为武装走私集团——本站采修正框架。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>隆庆开关（1567年，月港）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>嘉靖倭患的教训</text><text x='200' y='140' text-anchor='middle' font-size='11'>走私集团武装化（“假倭”为主）</text><rect x='350' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='440' y='116' text-anchor='middle' fill='#8c1f28'>1567 月港开禁</text><text x='440' y='140' text-anchor='middle' font-size='11'>引票制·贩东西二洋（日本除外）</text><rect x='560' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>白银大量流入</text><text x='645' y='140' text-anchor='middle' font-size='11'>马尼拉大帆船-丝银对流</text><line x1='310' y1='135' x2='346' y2='135' stroke='#8c1f28' marker-end='url(#xj10)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#8c1f28' marker-end='url(#xj10)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>中国纳入全球白银贸易体系</text><text x='380' y='262' text-anchor='middle' font-size='11'>“银本位”财政实际确立；清代海关管理前身</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>倭患根源修正：海禁失效的结构性产物（现代主流）</text></svg>",
+   "sources": [
+    "mingshi",
+    "cambridge-china",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-zhangjuzheng-gaige",
+   "title": "张居正改革与一条鞭法",
+   "year": 1573,
+   "end_year": 1582,
+   "year_display": "1573年",
+   "end_year_display": "1582年",
+   "year_note": "据《明史·张居正传》与《万历会计录》：万历元年（1573年）行考成法；万历九年（1581年）通令全国推行一条鞭法；万历十年（1582年）张居正卒；公元纪年，无换算问题。",
+   "location": "北京；全国（一条鞭法）",
+   "key_people": [
+    "zhangjuzheng"
+   ],
+   "background": "嘉靖隆庆以来财政亏空、边患（俺答封贡1571年后北边暂稳）与吏治涣散；张居正以内阁首辅+司礼监冯保 alliance 行使近乎摄政的权力。",
+   "process": [
+    "1573年考成法：以三本账簿考核六部与地方，“月有考，岁有稽”。",
+    "1578—1580年清丈田亩（全国田额大增——数字见《万历会计录》）。",
+    "1581年通令一条鞭法：赋役合并、折银征收、官收官解——白银财政的完成形态。",
+    "任用戚继光镇蓟州、李成梁镇辽东；治理黄河（潘季驯束水攻沙）。",
+    "1582年张居正卒；1584年被抄家清算（死后政息的标本）。"
+   ],
+   "outcome": "万历前期国库充盈（“太仓粟可支十年”类的评价见时人记述）；一条鞭法使赋役制度全面货币化，白银经济定型；其人亡政息被黄仁宇《万历十五年》以之为传统官僚制度无法支持技术性长期改革的核心案例。",
+   "controversies": [
+    {
+     "issue": "张居正的评价",
+     "views": [
+      {
+       "holder": "《明史》本传",
+       "basis": "“通识时变，勇于任事”与“威柄之操，几于震主”并书——功业与专权并置。"
+      },
+      {
+       "holder": "现代史家（黄仁宇等）",
+       "basis": "以其改革论证传统官僚体系的数字管理能力极限：“从制度上无法维持长期改革”——技术官僚改革失败的框架。"
+      },
+      {
+       "holder": "政治史视角",
+       "basis": "考成法的高效依赖其个人权势而非制度，故人亡政息；夺情事件（1577年父丧不守制）引发道德争议，为其身后清算埋线。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>张居正改革（1573—1582年）</text><g font-size='12'><rect x='70' y='90' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='170' y='116' text-anchor='middle'>1573 考成法</text><text x='170' y='140' text-anchor='middle' font-size='11'>月有考·岁有稽</text><rect x='290' y='90' width='190' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='385' y='116' text-anchor='middle'>1578—80 清丈田亩</text><rect x='510' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='116' text-anchor='middle' fill='#8c1f28'>1581 一条鞭法</text><text x='615' y='140' text-anchor='middle' font-size='11'>赋役合并·折银征收</text><line x1='270' y1='135' x2='286' y2='135' stroke='#2b4a6f' marker-end='url(#xj11)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#2b4a6f' marker-end='url(#xj11)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>白银财政定型；戚继光李成梁守边；潘季驯治河</text><text x='380' y='262' text-anchor='middle' font-size='11'>1582年卒→1584年抄家清算：人亡政息</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>黄仁宇论：官僚制度无法支持技术性长期改革</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-lima-dou-xixue",
+   "title": "利玛窦入华与西学东渐",
+   "year": 1583,
+   "end_year": 1610,
+   "year_display": "1583年",
+   "end_year_display": "1610年",
+   "year_note": "据《明史·意大里亚传》与耶稣会文献：1583年利玛窦偕罗明坚入居肇庆；1601年入京朝见神宗；1610年卒于北京；公元纪年，无换算问题。",
+   "location": "肇庆→韶州→南昌→南京→北京",
+   "key_people": [
+    "xuguangqi"
+   ],
+   "background": "耶稣会士以“适应策略”（学汉语、着儒服、以科学与西器结交士大夫）寻求传教立足点；范礼安远东传教方针的执行。",
+   "process": [
+    "1583年入肇庆（建仙花寺、绘《坤舆万国全图》初稿）。",
+    "1595—1598年辗转南昌南京；1598年初次北上未果。",
+    "1601年入京贡献自鸣钟、《坤舆万国全图》等，获赐居所——耶稣会士常驻北京之始。",
+    "1607年与徐光启合译《几何原本》前六卷（利徐译本）；李之藻译《同文算指》。",
+    "1610年卒，赐葬阜成门外（滕公栅栏墓地）——钦定葬礼为传教事业正名。"
+   ],
+   "outcome": "西学东渐第一波：几何学、天文学、世界地理进入士大夫知识圈（“西学中源”论的争论对象）；徐光启等“会通中西”的路线与保守士人的反对并行，为清初中西对话与雍正禁教（1723年）的远期伏笔。",
+   "controversies": [
+    {
+     "issue": "耶稣会适应策略的评价",
+     "views": [
+      {
+       "holder": "传统教会史叙事",
+       "basis": "利玛窦规矩（适应政策）为传教典范。"
+      },
+      {
+       "holder": "现代多视角研究",
+       "basis": "既肯定其文化交流媒介作用，也有“文化工具论”批评（科学作为传教诱饵）与清中叶禁教后的断裂分析——学界以“交流史”框架取代单向“传入”叙事。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>利玛窦在华路线（1583—1610年）</text><g font-size='12'><rect x='70' y='150' width='160' height='60' fill='#fff' stroke='#2b4a6f'/><text x='150' y='176' text-anchor='middle'>1583 肇庆</text><rect x='270' y='150' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='350' y='176' text-anchor='middle'>韶州·南昌·南京</text><rect x='470' y='150' width='230' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='585' y='176' text-anchor='middle' fill='#8c1f28'>1601 入京贡献</text><text x='585' y='198' text-anchor='middle' font-size='10'>自鸣钟·坤舆万国全图</text><line x1='230' y1='180' x2='266' y2='180' stroke='#2b4a6f' marker-end='url(#xj13)'/><line x1='430' y1='180' x2='466' y2='180' stroke='#2b4a6f' marker-end='url(#xj13)'/></g><rect x='130' y='250' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='276' text-anchor='middle' font-size='13'>1607 与徐光启合译《几何原本》前六卷</text><text x='380' y='302' text-anchor='middle' font-size='11'>西学东渐第一波：几何·天文·世界地理入士大夫知识圈</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>交流史框架取代单向“传入”叙事（现代研究）</text></svg>",
+   "sources": [
+    "mingshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-wanli-sanda-zheng",
+   "title": "万历三大征",
+   "year": 1592,
+   "end_year": 1600,
+   "year_display": "1592年",
+   "end_year_display": "1600年",
+   "year_note": "据《明史》与《明实录》：宁夏哱拜之乱（1592年）、朝鲜之役（1592—1598年，万历朝鲜战争/壬辰倭乱）、播州杨应龙之乱（1594—1600年，会战1600年）合称三大征；公元纪年，无换算问题。",
+   "location": "宁夏、朝鲜半岛、播州（今遵义）",
+   "key_people": [],
+   "background": "万历朝中期边防仍具实力；三场战争相继爆发：西北兵变、东北亚国际战争（丰臣秀吉侵朝）、西南土司叛乱。",
+   "process": [
+    "1592年宁夏平哱拜（麻贵等）；同年四月丰臣秀吉侵朝，明军入援（第一次援朝1592—1593年，平壤之战李如松建功）。",
+    "1597—1598年第二次援朝（杨镐、邢玠、陈璘、邓子龙等；露梁海战1598年，秀吉已死、日军撤退）。",
+    "1600年李化龙督师平播州杨应龙（海龙囤之围）。",
+    "三役军费合计约千万两级（时人奏报汇总口径，约数）。"
+   ],
+   "outcome": "三役皆胜，显示明军余威与朝鲜存续（对朝鲜而言壬辰倭乱为存亡之战）；军费加重财政负担，辽东兵力被抽调——努尔哈赤坐大的战略窗口（学界通行关联）。",
+   "controversies": [
+    {
+     "issue": "军费与碧蹄馆之战",
+     "views": [
+      {
+       "holder": "《明实录》汇总口径",
+       "basis": "三役用银合计约一千万两（约数，学界引用时多有区间）。"
+      },
+      {
+       "holder": "碧蹄馆之战（1594年初）兵力与胜负",
+       "basis": "中朝日三方史料记载矛盾（日军“败明军精锐”与明方“挫敌前锋”并存），现代研究视为遭遇战性质的互有损伤——三方史料对读为此役研究方法。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>万历三大征（1592—1600年）</text><g font-size='12'><rect x='70' y='90' width='190' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='165' y='116' text-anchor='middle' fill='#8c1f28'>宁夏平哱拜</text><text x='165' y='140' text-anchor='middle' font-size='11'>1592年</text><rect x='290' y='90' width='190' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='385' y='116' text-anchor='middle' fill='#8c1f28'>朝鲜之役</text><text x='385' y='140' text-anchor='middle' font-size='11'>1592—98·平壤之战</text><text x='385' y='162' text-anchor='middle' font-size='11'>1598露梁海战</text><rect x='510' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='116' text-anchor='middle' fill='#8c1f28'>播州平杨应龙</text><text x='615' y='140' text-anchor='middle' font-size='11'>1600海龙囤</text><line x1='260' y1='135' x2='286' y2='135' stroke='#2b4a6f' marker-end='url(#xj12)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#2b4a6f' marker-end='url(#xj12)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>三役皆胜·军费约千万两（约数）</text><text x='380' y='262' text-anchor='middle' font-size='11'>辽东兵力被抽调→努尔哈赤坐大的战略窗口</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>碧蹄馆之战：中朝日三方史料矛盾——三方对读为研究方法</text></svg>",
+   "sources": [
+    "mingshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-donglin-dangzheng",
+   "title": "东林党争与魏忠贤专权",
+   "year": 1594,
+   "end_year": 1627,
+   "year_display": "1594年起",
+   "end_year_display": "1627年",
+   "year_note": "据《明史》：1594年（万历二十二年）顾宪成革职还乡，1604年修复东林书院讲学（东林之目自此始）；天启年间（1621—1627）魏忠贤专权，1625—1626年杀六君子；1627年崇祯即位诛魏忠贤；公元纪年，无换算问题。",
+   "location": "无锡（东林书院）、北京",
+   "key_people": [],
+   "background": "万历朝国本之争（争国本、京察）激化士大夫派系；顾宪成等以东林书院讲学议政，渐成清流网络；天启帝倚信宦官魏忠贤，阉党以《三朝要典》与东林对立。",
+   "process": [
+    "1594年顾宪成革职；1604年东林书院重修，“风声雨声读书声”联语流传（此联实为顾宪成撰，广泛引用）。",
+    "万历后期齐楚浙宣昆诸党与东林互攻；梃击、红丸、移宫三案（1615—1620）叠加。",
+    "1621—1627年魏忠贤专权：五虎五彪构陷，1625—26年杨涟左光斗等六君子、七君子死于诏狱；东林书院毁。",
+    "1627年崇祯即位，魏忠贤贬死，东林名义恢复；但党争延至明亡。"
+   ],
+   "outcome": "党争耗尽士大夫共识与行政效率（“国之将亡，必有妖孽”式的传统归因之外，学界更强调财政与军制的结构性失败）；东林作为道德符号与党争标签的双重性为明史研究焦点。",
+   "controversies": [
+    {
+     "issue": "“东林党”概念本身",
+     "views": [
+      {
+       "holder": "传统叙事",
+       "basis": "东林为君子清流、阉党为小人——忠奸框架。"
+      },
+      {
+       "holder": "现代史学反思（樊树志等）",
+       "basis": "“东林党”非严密政党，是政治标签的建构；万历党争的派系交织（东林内部亦分派）使忠奸叙事失真——概念史反思为晚明政治史的重要动向。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>东林与阉党（1594—1627年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1594 顾宪成革职</text><text x='190' y='140' text-anchor='middle' font-size='11'>1604 东林书院讲学议政</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>1621—27 魏忠贤专权</text><text x='430' y='140' text-anchor='middle' font-size='11'>六君子七君子死诏狱</text><rect x='550' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1627 崇祯诛魏</text><text x='640' y='140' text-anchor='middle' font-size='11'>党争延至明亡</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xj14)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xj14)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>党争耗尽共识与行政效率</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“东林党”为政治标签的建构（概念史反思，樊树志等）</text></svg>",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "ming-saerhu-houjim",
+   "title": "后金建国与萨尔浒之战",
+   "year": 1616,
+   "end_year": 1619,
+   "year_display": "1616年",
+   "end_year_display": "1619年",
+   "year_note": "据《明史》与《清实录》系统：1616年努尔哈赤称汗建国（国号金，史称后金）；1619年（万历四十七年）萨尔浒之战明军四路皆败；公元纪年，无换算问题。",
+   "location": "赫图阿拉；萨尔浒（今抚顺一带）",
+   "key_people": [],
+   "background": "努尔哈赤以十三副遗甲起兵（1583年）统一建州、兼并海西女真；1616年称“覆育列国英明汗”；1618年以“七大恨”告天伐明，取抚顺。",
+   "process": [
+    "1616年努尔哈赤建后金（国号大金）。",
+    "1618年“七大恨”誓师，袭抚顺、清河。",
+    "1619年明四路大军（杨镐节制：杜松、马林、李如柏、刘綎）分进合击；努尔哈赤“凭尔几路来，我只一路去”，五日之内各个击破——杜松刘綎战死。",
+    "开原铁岭继失；辽沈之战（1621年）后明军退守宁远一线。"
+   ],
+   "outcome": "明辽东防御战略崩溃，由攻转守；“萨尔浒之后明与后金攻守易形”（学界通行表述）；后金/清入主中原的军事起点。",
+   "controversies": [
+    {
+     "issue": "明军兵力数字",
+     "views": [
+      {
+       "holder": "明方宣称",
+       "basis": "号称四十七万（《明史纪事本末》等晚出文献）。"
+      },
+      {
+       "holder": "现代考证",
+       "basis": "实际约八万至十一万（各路合计，学界考证区间）；后金兵力约六万——双方数字均按考证区间处理，不采号称数。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xj15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>萨尔浒之战（1619年，四路进兵示意）</text><g font-size='12'><rect x='60' y='100' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='150' y='126' text-anchor='middle'>杜松军（西路）</text><text x='150' y='150' text-anchor='middle' font-size='10'>冒进渡浑河·覆灭</text><rect x='60' y='200' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='150' y='226' text-anchor='middle'>马林军（北路）</text><text x='150' y='250' text-anchor='middle' font-size='10'>尚间崖败</text><rect x='520' y='200' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='610' y='226' text-anchor='middle'>刘綎军（东路）</text><text x='610' y='250' text-anchor='middle' font-size='10'>中伏·战死</text><rect x='520' y='100' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='610' y='126' text-anchor='middle'>李如柏军（南路）</text><text x='610' y='150' text-anchor='middle' font-size='10'>未及接战·奉令撤</text><rect x='300' y='150' width='160' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='180' text-anchor='middle' fill='#8c1f28'>后金（努尔哈赤）</text><text x='380' y='204' text-anchor='middle' font-size='10'>“只一路去”各个击破</text><line x1='240' y1='135' x2='296' y2='170' stroke='#8c1f28' marker-end='url(#xj15)'/><line x1='240' y1='235' x2='296' y2='210' stroke='#8c1f28' marker-end='url(#xj15)'/><line x1='516' y1='235' x2='464' y2='210' stroke='#8c1f28' marker-end='url(#xj15)'/></g><rect x='130' y='310' width='500' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='346' text-anchor='middle' font-size='12'>明军由攻转守；辽东战局逆转（学界通行表述）</text></svg>",
+   "sources": [
+    "mingshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "people": [
+  {
+   "id": "zhu-yuanzhang",
+   "name": "明太祖朱元璋",
+   "birth_year": 1328,
+   "death_year": 1398,
+   "birth_display": "1328年",
+   "death_display": "1398年",
+   "birth_note": "据《明实录·太祖实录》天历元年（1328年）九月生，公元纪年换算；濠州钟离人。",
+   "death_note": "洪武三十一年闰五月（1398年）崩于应天（南京），公元纪年。",
+   "chronology": [
+    {
+     "year": 1328,
+     "display": "1328年",
+     "text": "生于濠州钟离贫农之家，早年为僧游方。"
+    },
+    {
+     "year": 1352,
+     "display": "1352年",
+     "text": "投郭子兴红巾军（“重八”→名兴宗→字国瑞）。"
+    },
+    {
+     "year": 1363,
+     "display": "1363年",
+     "text": "鄱阳湖之战灭陈友谅。"
+    },
+    {
+     "year": 1367,
+     "display": "1367年",
+     "text": "灭张士诚；遣徐达北伐。"
+    },
+    {
+     "year": 1368,
+     "display": "1368年",
+     "text": "即位建明。"
+    },
+    {
+     "year": 1380,
+     "display": "1380年",
+     "text": "废丞相；胡惟庸案。"
+    },
+    {
+     "year": 1398,
+     "display": "1398年",
+     "text": "崩，传太孙允炆（建文帝）。"
+    }
+   ],
+   "deeds": [
+    "由赤贫而开国：驱逐元廷，重建汉人王朝。",
+    "洪武定制：卫所、黄册鱼鳞图册、里甲、《大明律》与《大诰》、学校贡举。",
+    "铁腕肃贪与功臣清洗；分封诸王（靖难之变与藩镇化的制度根源）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "孟森（《明史讲义》）",
+     "view": "“得国最正”与治绩（民安吏肃的洪武之治）并重；对其杀戮直言不讳。",
+     "basis": "《明史讲义》。"
+    },
+    {
+     "holder": "《明史》官修评",
+     "view": "“武定祸乱，文致太平”与“晚岁尤尚严峻”并书。",
+     "basis": "《明史·太祖纪》赞。"
+    },
+    {
+     "holder": "现代史学",
+     "view": "视为从游民到皇帝的政治工程标本：其制度设计（户籍冻结、职业世袭）追求静态秩序，与明代后期商业化社会脱节——制度意图与历史进程的张力。",
+     "basis": "明史研究通说。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "zhu-di",
+   "name": "明成祖朱棣（永乐帝）",
+   "birth_year": 1360,
+   "death_year": 1424,
+   "birth_display": "1360年",
+   "death_display": "1424年",
+   "birth_note": "据《明实录》至正二十年（1360年）生，公元纪年换算；太祖第四子。",
+   "death_note": "永乐二十二年（1424年）卒于北征回师途中的榆木川，公元纪年。",
+   "chronology": [
+    {
+     "year": 1360,
+     "display": "1360年",
+     "text": "生于应天。"
+    },
+    {
+     "year": 1380,
+     "display": "1380年",
+     "text": "就藩北平（燕王）。"
+    },
+    {
+     "year": 1399,
+     "display": "1399—1402年",
+     "text": "靖难之役，夺位称帝。"
+    },
+    {
+     "year": 1405,
+     "display": "1405—1433年",
+     "text": "遣郑和七下西洋（首航在其朝）。"
+    },
+    {
+     "year": 1406,
+     "display": "1406—1421年",
+     "text": "营建并迁都北京。"
+    },
+    {
+     "year": 1424,
+     "display": "1424年",
+     "text": "第五次北征途中卒于榆木川。"
+    }
+   ],
+   "deeds": [
+    "五征漠北、南收安南（1407—1427年短暂设省）、设置奴儿干都司。",
+    "下西洋、迁都北京、修《永乐大典》、凿会通河。",
+    "设立内阁（殿阁大学士）与东厂，恢复锦衣卫——厂卫体系成型。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史·成祖纪》",
+     "view": "“雄武之略，同符高祖”与“革除之际，倒行逆施”并书——功业与篡夺并置。",
+     "basis": "《明史》。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "永乐体制（迁都+下西洋+亲征+内阁）为其个人意志的国家化；瓜蔓抄、诛十族说（方孝孺案）的史料层次需辨析——武功文治与合法性焦虑的交织为其统治底色。",
+     "basis": "明史研究通说。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "zhenghe",
+   "name": "郑和",
+   "birth_year": null,
+   "death_year": 1433,
+   "birth_display": "生年不可考（约洪武年间，约1371年前后，存疑）",
+   "death_display": "1433年",
+   "birth_note": "生年无载，通行推测约1371年（洪武四年前后）；云南昆阳人，回族，明初入宫为宦官。",
+   "death_note": "宣德八年（1433年）卒，卒地有古里（途中）与南京诸说（学界并存）。",
+   "chronology": [
+    {
+     "year": 1405,
+     "display": "1405年",
+     "text": "率首航舰队出刘家港（永乐三年六月）。"
+    },
+    {
+     "year": 1409,
+     "display": "1409年",
+     "text": "第三次远航（永乐七年）。"
+    },
+    {
+     "year": 1413,
+     "display": "1413年",
+     "text": "第四次远航，抵忽鲁谟斯。"
+    },
+    {
+     "year": 1421,
+     "display": "1421年（前后）",
+     "text": "第六次远航（永乐十九年）。"
+    },
+    {
+     "year": 1431,
+     "display": "1431年",
+     "text": "第七次远航（宣德五年）。"
+    },
+    {
+     "year": 1433,
+     "display": "1433年",
+     "text": "卒（卒地两说并存）。"
+    }
+   ],
+   "deeds": [
+    "七次统帅宝船舰队远航东南亚-印度洋-东非，俘锡兰王、擒海盗、建朝贡网络。",
+    "以穆斯林出身通番语、以宦官身份统帅水师——明代宦官政治与海洋事业的交织标本。",
+    "其航海档案（郑和航海图存于茅元仪《武备志》）为明代航海技术的核心实物文献。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史·郑和传》",
+     "view": "“且欲耀兵异域，示中国富强”——动机的官方概括。",
+     "basis": "《明史》。"
+    },
+    {
+     "holder": "现代海洋史研究",
+     "view": "郑和航行与欧洲大航海的比较（目的-组织-持续性差异）：其停止被归因于财政（宝船开支与朝贡贸易的亏本结构）与陆地优先的战略传统——比较史框架为主流。",
+     "basis": "中外海洋史研究。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "zhwp-zhenghe",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "yuqian",
+   "name": "于谦",
+   "birth_year": 1398,
+   "death_year": 1457,
+   "birth_display": "1398年",
+   "death_display": "1457年",
+   "birth_note": "据《明史·于谦传》洪武三十一年（1398年）生，公元纪年换算；钱塘人。",
+   "death_note": "天顺元年正月（1457年）被杀于北京崇文门外，公元纪年。",
+   "chronology": [
+    {
+     "year": 1398,
+     "display": "1398年",
+     "text": "生于钱塘，“少保”其死后追赠（生前官兵部尚书）。"
+    },
+    {
+     "year": 1421,
+     "display": "1421年（前后）",
+     "text": "永乐十九年进士（巡抚河南山西十九年，平冤狱赈灾）。"
+    },
+    {
+     "year": 1449,
+     "display": "1449年",
+     "text": "土木之变后力主固守，整军备战；十月北京保卫战。"
+    },
+    {
+     "year": 1457,
+     "display": "1457年",
+     "text": "夺门之变后被杀；成化初平反，弘治谥肃愍（后改忠肃）。"
+    }
+   ],
+   "deeds": [
+    "北京保卫战的最高决策者与组织者：“社稷为重，君为轻”（《明史》所载其语）。",
+    "整饬京营、加强九边、改革军屯——景泰朝军政复兴的主政者。",
+    "《石灰吟》“粉身碎骨浑不怕，要留清白在人间”（传为其少作，作者归属有讨论——通行归于于谦）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史·于谦传》",
+     "view": "“忠心义烈，与日月争光”——官方忠臣叙事的顶点之一；并明书徐有贞“不杀于谦，此举为无名”的构陷逻辑。",
+     "basis": "《明史》。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "其军政才干（北京保卫战的备战细节）被具体研究确认；其悲剧的实质是皇位正统叙事对社稷功臣的逻辑碾压——制度性悲剧的标本。",
+     "basis": "明史研究。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "zhangjuzheng",
+   "name": "张居正",
+   "birth_year": 1525,
+   "death_year": 1582,
+   "birth_display": "1525年",
+   "death_display": "1582年",
+   "birth_note": "据《明史》嘉靖四年（1525年）生，公元纪年换算；湖广江陵人。",
+   "death_note": "万历十年（1582年）卒于北京；死后两年（1584年）被抄家。",
+   "chronology": [
+    {
+     "year": 1525,
+     "display": "1525年",
+     "text": "生于江陵，少年以“神童”著称。"
+    },
+    {
+     "year": 1547,
+     "display": "1547年",
+     "text": "二十三岁中进士（庶吉士，入翰林）。"
+    },
+    {
+     "year": 1567,
+     "display": "1567年",
+     "text": "隆庆间入阁（与高拱并相）。"
+    },
+    {
+     "year": 1572,
+     "display": "1572年",
+     "text": "穆宗卒、神宗冲龄即位，居正为首辅，联合冯保执政。"
+    },
+    {
+     "year": 1573,
+     "display": "1573年",
+     "text": "行考成法；此后清丈、一条鞭法次第推行。"
+    },
+    {
+     "year": 1582,
+     "display": "1582年",
+     "text": "卒；死后被清算抄家，长子自尽。"
+    }
+   ],
+   "deeds": [
+    "考成法重建行政问责，清丈全国田亩，推行一条鞭法——明代财政的最后一次系统整顿。",
+    "任用戚继光李成梁巩固北边，重用潘季驯治河。",
+    "与冯保、李太后构成的神宗早期“三人执政”结构。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史》本传",
+     "view": "“通识时变，勇于任事”与“威柄之操，几于震主”并书。",
+     "basis": "《明史·张居正传》。"
+    },
+    {
+     "holder": "黄仁宇（《万历十五年》）",
+     "view": "以其结局论证“本朝以道德代替法律”的体制无法容纳技术性长期改革——万历十五年（1587年）的叙事框架使其成为标志性案例。",
+     "basis": "《万历十五年》。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "其改革高度依赖个人权势（与冯保太后联盟），未能制度化——人亡政息为学界共识；对其夺情、专权的道德争议与改革实效分开评价。",
+     "basis": "明史研究。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "lishizhen",
+   "name": "李时珍",
+   "birth_year": 1518,
+   "death_year": 1593,
+   "birth_display": "1518年",
+   "death_display": "1593年",
+   "birth_note": "据《明史·方伎传》及家谱推算（正德十三年，1518年生），通说；蕲州人。",
+   "death_note": "万历二十一年（1593年）卒（卒年通说，《本草纲目》金陵本刊行于1596年，在其身后）。",
+   "chronology": [
+    {
+     "year": 1518,
+     "display": "1518年",
+     "text": "生于蕲州（今湖北蕲春）世医之家。"
+    },
+    {
+     "year": 1552,
+     "display": "1552年（前后）",
+     "text": "始撰《本草纲目》（“渔猎群书，搜罗百氏”——自述写作过程）。"
+    },
+    {
+     "year": 1578,
+     "display": "1578年",
+     "text": "《本草纲目》初稿完成（历27年，三易其稿）。"
+    },
+    {
+     "year": 1590,
+     "display": "1590年（前后）",
+     "text": "携书赴南京谋刊刻（王世贞序，1590年前后作）。"
+    },
+    {
+     "year": 1593,
+     "display": "1593年",
+     "text": "卒；1596年金陵本《本草纲目》刊行。"
+    }
+   ],
+   "deeds": [
+    "《本草纲目》52卷、收药1892种：药物分类法（从矿物到生物的等级分类）突破传统本草框架。",
+    "对前代本草的讹误辨正（如对服食长生说的批判）。",
+    "其书后被译为多种文字（达尔文曾引用中国文献论金鱼变异，学者认为其参考了《本草纲目》——引用链条有讨论）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史·方伎传》与王世贞序",
+     "view": "“性理之精蕴，格物之通典”——博物学与医学并重的定位。",
+     "basis": "王世贞《本草纲目》序。"
+    },
+    {
+     "holder": "现代科学史",
+     "view": "其分类体系与观察方法被视为前林奈时代的博物学高峰；同时“本草”体系的阴阳五行框架与近代科学范式之别被学界明确区分——避免以近代标准简单褒贬。",
+     "basis": "中国科技史研究。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "zgbk",
+    "kaogu-cass"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "xuguangqi",
+   "name": "徐光启",
+   "birth_year": 1562,
+   "death_year": 1633,
+   "birth_display": "1562年",
+   "death_display": "1633年",
+   "birth_note": "据《明史》嘉靖四十一年（1562年）生于上海，公元纪年换算。",
+   "death_note": "崇祯六年（1633年）卒于北京，公元纪年。",
+   "chronology": [
+    {
+     "year": 1562,
+     "display": "1562年",
+     "text": "生于上海县。"
+    },
+    {
+     "year": 1604,
+     "display": "1604年",
+     "text": "中进士（万历三十二年），选翰林院庶吉士。"
+    },
+    {
+     "year": 1607,
+     "display": "1607年",
+     "text": "与利玛窦合译《几何原本》前六卷。"
+    },
+    {
+     "year": 1619,
+     "display": "1619年（前后）",
+     "text": "练兵通州，引进西洋火器（《徐氏庖言》所记军事主张）。"
+    },
+    {
+     "year": 1629,
+     "display": "1629年",
+     "text": "主持《崇祯历书》编纂（引进西方天文学体系）。"
+    },
+    {
+     "year": 1633,
+     "display": "1633年",
+     "text": "卒于北京（《农政全书》身后由陈子龙刊行）。"
+    }
+   ],
+   "deeds": [
+    "中西会通第一人：《几何原本》译本、《崇祯历书》、屯盐荒政（《农政全书》60卷）。",
+    "天文历法改革的主持人：引进欧洲天文学计算体系（“熔彼方之材质，入大统之型模”——其语）。",
+    "天主教徒身份（1603年受洗）与士大夫身份的并存。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史》本传",
+     "view": "“从西洋人利玛窦学……尽其术”——官方记载其会通之学。",
+     "basis": "《明史·徐光启传》。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "被视为“闭关时代士大夫中最早接受西方科学”的代表（竺可桢语式定位广为引用）；其改革方案未被朝廷系统采纳，折射晚明体制的保守性——个案与结构并置。",
+     "basis": "中国科学史研究。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "lizicheng",
+   "name": "李自成",
+   "birth_year": 1606,
+   "death_year": 1645,
+   "birth_display": "1606年",
+   "death_display": "1645年",
+   "birth_note": "据《明史·流贼传》万历三十四年（1606年）生，通说；陕西米脂人（银川驿卒出身）。",
+   "death_note": "顺治二年（1645年）死于湖北通山县九宫山（地方武装袭击说为通说；另说禅隐石门夹山寺——传说，无确证）。",
+   "chronology": [
+    {
+     "year": 1606,
+     "display": "1606年",
+     "text": "生于米脂。"
+    },
+    {
+     "year": 1629,
+     "display": "1629年（前后）",
+     "text": "因裁驿失业，投起义军（不沾泥部后转高迎祥部）。"
+    },
+    {
+     "year": 1636,
+     "display": "1636年",
+     "text": "高迎祥死后继称闯王。"
+    },
+    {
+     "year": 1643,
+     "display": "1643年",
+     "text": "襄阳建“大顺”（称新顺王），翌年西安称帝，国号大顺，年号永昌。"
+    },
+    {
+     "year": 1644,
+     "display": "1644年",
+     "text": "三月十九日破北京，崇祯自缢煤山；四月山海关一片石之战败于吴三桂+清军联兵，弃京西走。"
+    },
+    {
+     "year": 1645,
+     "display": "1645年",
+     "text": "死于九宫山。"
+    }
+   ],
+   "deeds": [
+    "“均田免赋”口号与“迎闯王，不纳粮”民谣的动员效应（民谣见诸史料记载）。",
+    "1644年推翻明朝（崇祯自缢）——明亡的直接执行者。",
+    "大顺政权四十余日的北京治理（拷掠追赃、军纪恶化）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "《明史·流贼传》",
+     "view": "“盗贼”定调与“自成虽起武夫，颇能礼贤下士”的矛盾记录并存。",
+     "basis": "《明史》。"
+    },
+    {
+     "holder": "传统农民战争史学（20世纪中叶）",
+     "view": "将其塑造为农民起义英雄（李自成研究热、郭沫若《甲申三百年祭》——1944年，史学界重要文本）。",
+     "basis": "郭沫若《甲申三百年祭》。"
+    },
+    {
+     "holder": "当代史学综合",
+     "view": "既承认其推翻明朝的历史作用，也分析大顺政权的治理失败（缺乏士绅合作、追赃助饷的短视）；其成败成为政权转型能力的经典案例——超出忠奸框架。",
+     "basis": "明末清初史研究。"
+    }
+   ],
+   "sources": [
+    "mingshi",
+    "dengtuo-ming",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
