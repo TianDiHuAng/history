@@ -238,6 +238,27 @@ def unit_page(unit, srcmap, depth):
         f"<tr><td><a href='{rel(depth)}people/{p['id']}.html'>{esc(p['name'])}</a></td>"
         f"<td>{esc(str(p.get('birth_display') or '生卒不可考'))}—{esc(str(p.get('death_display') or '卒年不可考'))}</td></tr>"
         for p in unit["people"])
+    ex = unit.get("_extra") or {}
+    xev = ex.get("extra_events") or []
+    xpp = ex.get("extra_people") or []
+    warn_tag2 = "<span class='tag warn'>待核实</span>"
+    xev_rows = "".join(
+        f"<tr><td class='year'>{esc(e['year_display'])}</td>"
+        f"<td><b>{esc(e['title'])}</b>{warn_tag2 if e.get('needs_verification') else ''}<br>"
+        f"<span class='meta'>{esc(e.get('desc',''))}</span></td></tr>"
+        for e in xev)
+    xpp_rows = "".join(
+        f"<tr><td><b>{esc(p['name'])}</b></td>"
+        f"<td>{esc(str(p.get('birth_display') or '生卒不可考'))}—{esc(str(p.get('death_display') or '卒年不可考'))}</td>"
+        f"<td><span class='meta'>{esc(p.get('desc',''))}</span></td></tr>"
+        for p in xpp)
+    extra_html = ""
+    if xev_rows:
+        extra_html += f"<h2>延伸事件（{len(xev)}）</h2><p class='meta'>主线事件之外的补充条目，不计入关键事件清单。</p>"
+        extra_html += f"<table><tr><th>年份</th><th>事件与简介</th></tr>{xev_rows}</table>"
+    if xpp_rows:
+        extra_html += f"<h2>其他重要人物（{len(xpp)}）</h2>"
+        extra_html += f"<table><tr><th>人物</th><th>生卒</th><th>简介</th></tr>{xpp_rows}</table>"
     body = f"""
 <h1>{esc(unit['title'])}<span class="meta" style="font-size:1rem">（{esc(unit.get('period_display',''))}）</span></h1>
 <p class="crumb"><a href="{rel(depth)}{'china/' if unit['region']=='china' else 'world/'}">{esc('中国' if unit['region']=='china' else '世界')}</a> / 单元总览</p>
@@ -249,6 +270,7 @@ def unit_page(unit, srcmap, depth):
 <ul class="tight">{changes}</ul>
 <h2>关键事件（{len(unit['events'])}）</h2>
 <table><tr><th>年份</th><th>事件</th><th>地点</th></tr>{evs}</table>
+{extra_html}
 <h2>关键人物（{len(unit['people'])}）</h2>
 <table><tr><th>人物</th><th>生卒</th></tr>{ppl}</table>
 """
@@ -272,28 +294,48 @@ def timeline_page(units, region, depth):
     for u in sorted(units, key=lambda x: x["start_year"]):
         items.append(f"<h2><a href='{rel(depth)}{region}/{u['unit_id']}/'>{esc(u['title'])}</a> "
                      f"<span class='meta'>{esc(u.get('period_display',''))}</span></h2>")
+        ex = u.get("_extra") or {}
+        merged = [(e["year"], 0, e) for e in u["events"]] + \
+                 [(e["year"], 1, e) for e in (ex.get("extra_events") or [])]
+        merged.sort(key=lambda t: (t[0], t[1]))
         rows = []
-        for ev in sorted(u["events"], key=lambda e: e["year"]):
+        for y, is_x, ev in merged:
             tag = '<span class="tag warn">待核实</span>' if ev.get("needs_verification") else ""
-            rows.append(f"<div class='tl-item'><span class='tl-year'>{esc(ev['year_display'])}</span>"
-                        f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>{tag}</div>")
+            if is_x:
+                rows.append(f"<div class='tl-item tl-extra'><span class='tl-year'>{esc(ev['year_display'])}</span>"
+                            f"{esc(ev['title'])}{tag}</div>")
+            else:
+                rows.append(f"<div class='tl-item'><span class='tl-year'>{esc(ev['year_display'])}</span>"
+                            f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>{tag}</div>")
         items.append(f"<div class='tl'>{''.join(rows)}</div>")
-    body = f"<h1>{cn}时间线</h1><p class='meta'>按年份先后排列；点击事件查看详情。</p>" + "".join(items)
+    body = (f"<h1>{cn}时间线</h1><p class='meta'>按年份先后排列；主事件可点击查看详情，"
+            f"灰色条目为延伸事件（详见单元页）。</p>" + "".join(items))
     return header(f"{cn}时间线", depth, active=f"{cn}时间线") + body + footer()
 
 
 def compare_page(china_units, world_units, depth):
     rows = {}
+
+    def add(u, ev, col):
+        rows.setdefault(ev["year"], ["", ""])
+        if ev.get("_is_extra"):
+            piece = f"<span class='xitem'>〔{esc(u['title'])}〕{esc(ev['title'])}</span>"
+        else:
+            piece = f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
+        rows[ev["year"]][col] += ("" if not rows[ev["year"]][col] else "<br>") + piece
+
     for u in china_units:
         for ev in u["events"]:
-            rows.setdefault(ev["year"], ["", ""])
-            rows[ev["year"]][0] += ("" if not rows[ev["year"]][0] else "<br>") + \
-                f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
+            add(u, ev, 0)
+        for ev in (u.get("_extra") or {}).get("extra_events") or []:
+            ev = dict(ev); ev["_is_extra"] = True
+            add(u, ev, 0)
     for u in world_units:
         for ev in u["events"]:
-            rows.setdefault(ev["year"], ["", ""])
-            rows[ev["year"]][1] += ("" if not rows[ev["year"]][1] else "<br>") + \
-                f"<a href='{rel(depth)}events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
+            add(u, ev, 1)
+        for ev in (u.get("_extra") or {}).get("extra_events") or []:
+            ev = dict(ev); ev["_is_extra"] = True
+            add(u, ev, 1)
     trs = []
     for y in sorted(rows):
         c, w = rows[y]
@@ -361,6 +403,14 @@ def main():
         doc = json.load(open(fp, encoding="utf-8"))
         doc["_pmap"] = {p["id"]: p for p in doc.get("people") or []}
         units[doc["unit_id"]] = doc
+    # 延伸条目（丰富扩展）：data/enrich/*.json 按 unit_id 合并
+    for fp in sorted(glob.glob(os.path.join(ROOT, "data", "enrich", "*.json"))):
+        ed = json.load(open(fp, encoding="utf-8"))
+        u = units.get(ed.get("unit_id"))
+        if u is None:
+            print(f"!! 延伸文件 {os.path.basename(fp)} 的 unit_id 无对应单元，跳过")
+            continue
+        u["_extra"] = ed
     china = sorted([u for u in units.values() if u["region"] == "china"], key=lambda u: u["start_year"])
     world = sorted([u for u in units.values() if u["region"] == "world"], key=lambda u: u["start_year"])
 

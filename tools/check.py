@@ -65,6 +65,7 @@ import xml.etree.ElementTree as ET
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 DATA_GLOBS = ["data/china/*.json", "data/world/*.json"]
+ENRICH_GLOB = "data/enrich/*.json"
 SOURCES_FILE = "sources.json"
 
 ALLOWED_SVG_TAGS = {
@@ -325,6 +326,85 @@ def check_sources(sources, src_ids, src_dead, rep, where, is_person):
         rep.err(where, "sources 存在重复条目")
 
 
+def check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep, target_only):
+    """R11：延伸事件/其他重要人物校验（轻量 schema，服务于"丰富各时期"扩展）。"""
+    uid = ed.get("unit_id", "?")
+    where = f"enrich:{uid}"
+    if unit is None:
+        rep.err(where, f"unit_id {uid} 无对应的单元数据文件")
+        return
+    sy, ey = unit.get("start_year"), unit.get("end_year")
+    main_keys = {(e.get("year"), re.sub(r"\s", "", e.get("title", ""))) for e in unit.get("events") or []}
+    xes = ed.get("extra_events") or []
+    require(len(xes) <= 20, rep, where, f"延伸事件数 {len(xes)} 超过 20")
+    prev = None
+    seen = set()
+    for ev in xes:
+        ew = f"{where}/extra:{ev.get('id', '?')}"
+        for k in ("id", "title", "year", "year_display", "year_note", "desc", "sources", "needs_verification", "pending_notes"):
+            require(k in ev, rep, ew, f"延伸事件缺少字段 {k}")
+        y = ev.get("year")
+        require(year_valid(y), rep, ew, f"年份非法: {y}")
+        require(display_year_matches(ev.get("year_display"), y), rep, ew,
+                f"year_display({ev.get('year_display')}) 与 year({y}) 不一致")
+        require(isinstance(ev.get("year_note"), str) and ev["year_note"].strip(), rep, ew, "year_note 必须非空")
+        if y is not None and y < 0:
+            require(re.search(r"据|换算|断代|公元前|公历|通行|通说", ev.get("year_note", "")),
+                    rep, ew, "公元前年份的 year_note 应说明换算依据")
+        require(bool(str(ev.get("desc") or "").strip()), rep, ew, "desc 为空")
+        require(isinstance(ev.get("needs_verification"), bool), rep, ew, "needs_verification 须为布尔")
+        pn = ev.get("pending_notes") or ""
+        if ev.get("needs_verification") and not pn.strip():
+            rep.err(ew, "needs_verification=true 但 pending_notes 为空")
+        check_sources(ev.get("sources"), src_ids, src_dead, rep, ew, is_person=False)
+        if len(set(ev.get("sources") or [])) < 2 and not ev.get("needs_verification"):
+            rep.err(ew, "延伸事件来源不足 2 条，须置 needs_verification=true")
+        if y is not None and year_valid(sy) and year_valid(ey):
+            if not (sy - 40 <= y <= ey + 2):
+                rep.warn(ew, f"年份 {y} 超出单元期界 [{sy},{ey}]")
+        if y is not None and prev is not None and y < prev:
+            rep.err(ew, f"年份 {y} 早于前一延伸事件 {prev}（未按时间顺序）")
+        if y is not None:
+            prev = y
+        t = re.sub(r"\s", "", ev.get("title", ""))
+        if (y, t) in main_keys:
+            rep.err(ew, f"与主事件重复（{y}, {ev.get('title')}）")
+        if ev.get("id") in seen:
+            rep.err(ew, "延伸事件 id 重复")
+        seen.add(ev.get("id"))
+
+    xps = ed.get("extra_people") or []
+    require(len(xps) <= 10, rep, where, f"其他人物数 {len(xps)} 超过 10")
+    for p in xps:
+        pw = f"{where}/xperson:{p.get('id', '?')}"
+        for k in ("id", "name", "birth_display", "death_display", "desc", "sources"):
+            require(k in p, rep, pw, f"其他人物缺少字段 {k}")
+        require(bool(str(p.get("desc") or "").strip()), rep, pw, "desc 为空")
+        by, dy = p.get("birth_year"), p.get("death_year")
+        if by is not None:
+            require(year_valid(by), rep, pw, f"出生年非法: {by}")
+            require(display_year_matches(p.get("birth_display"), by), rep, pw,
+                    f"birth_display 与 birth_year({by}) 不一致")
+        else:
+            bd = str(p.get("birth_display") or "")
+            require("不可考" in bd or "?" in bd or "约" in bd or "不详" in bd,
+                    rep, pw, f"出生年未给定时须标注'不可考/约/不详'：{bd}")
+        if dy is not None:
+            require(year_valid(dy), rep, pw, f"卒年非法: {dy}")
+            require(display_year_matches(p.get("death_display"), dy), rep, pw,
+                    f"death_display 与 death_year({dy}) 不一致")
+        else:
+            dd = str(p.get("death_display") or "")
+            require("不可考" in dd or "?" in dd or "约" in dd or "不详" in dd,
+                    rep, pw, f"卒年未给定时须标注'不可考/约/不详'：{dd}")
+        if by is not None and dy is not None and by > dy:
+            rep.err(pw, f"出生年({by}) > 卒年({dy})")
+        check_sources(p.get("sources"), src_ids, src_dead, rep, pw, is_person=True)
+        if p.get("id") in all_extra_pids:
+            rep.err(pw, f"其他人物 id 全局重复: {p.get('id')}")
+        all_extra_pids.add(p.get("id"))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", help="只报告该文件的问题（仍加载全部数据做全局检查）")
@@ -368,6 +448,25 @@ def main():
             continue
         check_unit(doc, docs, src_ids, src_dead, rep)
 
+    # ---- R11 延伸条目（丰富扩展）校验 ----
+    unit_by_id = {d.get("unit_id"): d for d in docs.values()}
+    enrich_files = sorted(glob.glob("data/enrich/*.json"))
+    all_extra_pids = set(pids_global)
+    enrich_target = None
+    if args.file and "enrich" in args.file.replace("\\", "/"):
+        enrich_target = os.path.normpath(args.file)
+    for fp in enrich_files:
+        if enrich_target is not None and os.path.normpath(fp) != enrich_target:
+            continue
+        try:
+            ed = json.load(open(fp, encoding="utf-8"))
+        except Exception as e:
+            rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
+            continue
+        unit = unit_by_id.get(ed.get("unit_id"))
+        check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep,
+                     target_only=(enrich_target is not None))
+
     # 跨单元重复事件（同 年份+标题）
     seen = {}
     for fp, doc in docs.items():
@@ -379,7 +478,7 @@ def main():
             seen.setdefault(key, fp)
 
     # 输出
-    target = args.file or "全部文件"
+    target = args.file or f"全部文件（{len(docs)} 单元 + {len(enrich_files)} 延伸文件）"
     print(f"=== check.py 校验报告（目标：{target}，共加载 {len(docs)} 个单元）===")
     for w in rep.warnings:
         print(w)
