@@ -1,0 +1,1253 @@
+{
+ "unit_id": "world-modern",
+ "region": "world",
+ "title": "近现代（工业革命—冷战终结）",
+ "period_display": "约1760年代—1991年",
+ "start_year": 1760,
+ "end_year": 1991,
+ "overview": {
+  "main_threads": [
+   "双元革命（工业革命+政治革命）重塑世界：生产方式与政治合法性的同时转型（霍布斯鲍姆框架）",
+   "民族国家与世界体系：统一的民族国家、帝国主义瓜分与全球化的第一波",
+   "总体战时代：两次世界大战、大萧条与极权主义的挑战",
+   "冷战及其终结：两极体系的兴衰与1991年的节点"
+  ],
+  "sub_periods": [
+   {
+    "name": "双元革命时代",
+    "range_display": "约1760年代—1848年",
+    "desc": "工业革命、美国与法国革命——现代世界的双引擎。"
+   },
+   {
+    "name": "资本帝国时代",
+    "range_display": "1848年—1914年",
+    "desc": "民族国家建成、第二次工业革命、列强瓜分世界。"
+   },
+   {
+    "name": "危机与总体战",
+    "range_display": "1914年—1945年",
+    "desc": "一战、革命、大萧条、法西斯主义与二战。"
+   },
+   {
+    "name": "冷战时代",
+    "range_display": "1945年—1991年",
+    "desc": "两极对峙、非殖民化、全球化重启与1991年苏联解体。"
+   }
+  ],
+  "key_changes": [
+   "人口爆炸与世界市场一体化（铁路、轮船、电报）",
+   "大众政治与意识形态时代（自由主义、社会主义、民族主义）",
+   "武器与组织技术的飞跃：从线膛炮到核武器",
+   "世界殖民国版图的扩张与非殖民化的逆转"
+  ]
+ },
+ "events": [
+  {
+   "id": "wm-industrial-revolution",
+   "title": "工业革命（英国）",
+   "year": 1760,
+   "end_year": 1840,
+   "year_display": "约1760年代",
+   "end_year_display": "约1840年代",
+   "year_note": "经济史学界对起点年代与“革命”性质有争论（渐进论 vs 断裂论），通行表述以1760年代为工业革命启动期、1840年代为英国工业化基本完成期——“约”即此义。",
+   "location": "英国（兰开夏、格拉斯哥等地）",
+   "key_people": [],
+   "background": "英国具备能源（煤）、市场（殖民贸易）、制度（专利与金融）与劳动力（圈地）的综合条件；棉纺业作为先行部门突破手工业瓶颈。",
+   "process": [
+    "1760年代起，珍妮纺纱机（1764）、水力纺纱机等发明推动棉纺机械化。",
+    "1776年瓦特改良蒸汽机进入实用（与博尔顿合作量产），能源革命展开。",
+    "1780—1830年代：工厂制确立、铁路时代开启（1825年斯托克顿—达灵顿铁路、1830年利物浦—曼彻斯特铁路）。",
+    "城市化与社会结构剧变：曼彻斯特等工业城市膨胀；工厂劳动纪律与宪章运动（1836—1848）作为社会回应。"
+   ],
+   "outcome": "人类生产方式的根本转型：从有机经济到矿物能源经济；英国成为“世界工厂”，工业化成为19世纪全球竞争的核心变量——各国工业化路线（国家主导型等）成为比较史课题。",
+   "controversies": [
+    {
+     "issue": "“革命”还是“渐进”与生活水平争论",
+     "views": [
+      {
+       "holder": "渐进论（经济史主流之一）",
+       "basis": "强调1688年前后的缓慢积累，革命叙事被连续性数据稀释。"
+      },
+      {
+       "holder": "断裂论",
+       "basis": "以棉纺-蒸汽-铁路的集群突破为“革命”辩护。"
+      },
+      {
+       "holder": "生活水平“悲观论 vs 乐观论”",
+       "basis": "对1780—1840年代工人实际工资的统计研究两派长期论战（以实际工资序列与人口压力的不同解读为核心）——无最终定论，本站并列。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>工业革命（约1760—1840年代）</text><g font-size='12'><rect x='60' y='90' width='190' height='90' fill='#fff' stroke='#2b4a6f'/><text x='155' y='116' text-anchor='middle'>棉纺机械化</text><text x='155' y='140' text-anchor='middle' font-size='11'>珍妮机1764</text><rect x='290' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='116' text-anchor='middle'>蒸汽动力</text><text x='380' y='140' text-anchor='middle' font-size='11'>瓦特机1776实用</text><rect x='510' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='116' text-anchor='middle' fill='#8c1f28'>铁路时代</text><text x='615' y='140' text-anchor='middle' font-size='11'>1825/1830首线通车</text><line x1='250' y1='135' x2='286' y2='135' stroke='#2b4a6f' marker-end='url(#xo1)'/><line x1='470' y1='135' x2='506' y2='135' stroke='#2b4a6f' marker-end='url(#xo1)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>工厂制确立·城市膨胀·劳动纪律</text><text x='380' y='262' text-anchor='middle' font-size='11'>宪章运动（1836—48）为社会回应；英国成为“世界工厂”</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“革命 vs 渐进”、“悲观 vs 乐观”两对争论无定论</text></svg>",
+   "sources": [
+    "brit-industrial-revolution",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-american-revolution",
+   "title": "美国独立与建国",
+   "year": 1776,
+   "end_year": 1789,
+   "year_display": "1776年",
+   "end_year_display": "1789年",
+   "year_note": "据《独立宣言》（1776年7月4日通过）与《联邦宪法》（1787年制宪、1789年第一届联邦政府成立）；公元纪年，无换算问题。",
+   "location": "费城、北美十三州",
+   "key_people": [
+    "washington"
+   ],
+   "background": "七年战争后英国对殖民地加税（印花税法、汤森税、茶税），殖民地以“无代表不纳税”抗争；莱克星顿枪声（1775年）开启独立战争。",
+   "process": [
+    "1776年7月4日大陆会议通过《独立宣言》（杰斐逊执笔）——“人人生而平等”的政治宣言。",
+    "1775—1781年独立战争：萨拉托加（1777）促成法国参战；约克镇（1781）围歼英军主力。",
+    "1783年《巴黎条约》英国承认独立。",
+    "1787年制宪会议通过《联邦宪法》（三权分立、联邦制）；1789年华盛顿就任首任总统；1791年权利法案。"
+   ],
+   "outcome": "第一个大规模现代共和国：成文宪法、联邦制、权力的制度更替先例（华盛顿两任引退——政治规范的建立）；其宪法为后世成文宪法的母本之一。",
+   "controversies": [
+    {
+     "issue": "革命的“激进程度”",
+     "views": [
+      {
+       "holder": "“保守革命”论",
+       "basis": "强调其维护殖民地精英既有自由的性质，社会结构变动有限。"
+      },
+      {
+       "holder": "激进论",
+       "basis": "强调其政治民主化（扩大选举权、州宪改革）与“约翰·洛克式”观念创新的激进后果——两种史学框架并存（伍德等研究）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>美国建国（1776—1789年）</text><g font-size='12'><rect x='70' y='90' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='170' y='116' text-anchor='middle'>1776《独立宣言》</text><text x='170' y='140' text-anchor='middle' font-size='11'>“人人生而平等”</text><rect x='300' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='385' y='116' text-anchor='middle'>1775—81独立战争</text><text x='385' y='140' text-anchor='middle' font-size='11'>萨拉托加→约克镇</text><rect x='500' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='610' y='116' text-anchor='middle' fill='#8c1f28'>1787制宪·1789联邦政府</text><text x='610' y='140' text-anchor='middle' font-size='11'>三权分立·联邦制</text><line x1='270' y1='135' x2='296' y2='135' stroke='#2b4a6f' marker-end='url(#xo2)'/><line x1='470' y1='135' x2='496' y2='135' stroke='#8c1f28' marker-end='url(#xo2)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>第一个大规模现代共和国</text><text x='380' y='262' text-anchor='middle' font-size='11'>华盛顿两任引退——权力更替的政治规范</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>革命激进程度之争（保守革命论 vs 激进论）并存</text></svg>",
+   "sources": [
+    "decl-independence",
+    "us-constitution",
+    "brit-lincoln",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-french-revolution",
+   "title": "法国大革命",
+   "year": 1789,
+   "end_year": 1799,
+   "year_display": "1789年",
+   "end_year_display": "1799年",
+   "year_note": "据通行史学期分：1789年5月三级会议、7月14日攻占巴士底狱；至1799年11月雾月政变（拿破仑上台）为革命十年；公元纪年，无换算问题。",
+   "location": "凡尔赛—巴黎",
+   "key_people": [
+    "napoleon"
+   ],
+   "background": "财政破产（援美战争债务）、三级会议等级制与启蒙思想的结合引爆政治危机；1789年6月网球场宣誓、7月14日攻占巴士底狱。",
+   "process": [
+    "1789年8月《人权与公民权宣言》；制宪会议废除封建特权（八月四日夜）。",
+    "1792年废除君主制、建第一共和国；1793年处死路易十六。",
+    "1793—1794年恐怖统治（革命法庭与断头台，罗伯斯庇尔主导）——被此后的“热月”反动终结。",
+    "1795—1799年督政府时期；1799年11月雾月十八政变，拿破仑任第一执政——革命十年落幕。"
+   ],
+   "outcome": "现代政治的语汇库（左/右、民族、公民、恐怖、反革命）在此生成；《拿破仑法典》（1804）把革命成果制度化并随军传播欧洲；“自由-平等-博爱”与恐怖并存的现代性悖论。",
+   "controversies": [
+    {
+     "issue": "大革命起因的解释史",
+     "views": [
+      {
+       "holder": "马克思主义范式（勒费弗尔等）",
+       "basis": "资产阶级革命论：贵族与资产阶级的阶级斗争。"
+      },
+      {
+       "holder": "修正派（孚雷 François Furet 等）",
+       "basis": "以政治话语与文化（“意识形态的诞生”）取代阶级分析——1970年代起的范式转移。"
+      },
+      {
+       "holder": "恐怖统治评价",
+       "basis": "革命救国论（非常状态的正当性）与极权先声论的对立——现代史学的持久争论。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>法国大革命十年（1789—1799年）</text><g font-size='12'><rect x='60' y='90' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='160' y='116' text-anchor='middle'>1789 巴士底狱</text><text x='160' y='140' text-anchor='middle' font-size='11'>《人权宣言》八月</text><rect x='290' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='116' text-anchor='middle' fill='#8c1f28'>1792—94 共和国</text><text x='380' y='140' text-anchor='middle' font-size='11'>处死路易十六·恐怖统治</text><rect x='500' y='90' width='220' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='610' y='116' text-anchor='middle'>1799 雾月政变</text><text x='610' y='140' text-anchor='middle' font-size='11'>拿破仑第一执政</text><line x1='260' y1='135' x2='286' y2='135' stroke='#8c1f28' marker-end='url(#xo3)'/><line x1='470' y1='135' x2='496' y2='135' stroke='#8c1f28' marker-end='url(#xo3)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>现代政治语汇库的生成（左右翼、民族、公民、恐怖）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>解释史：马克思主义范式 vs 修正派（孚雷）的范式转移</text></svg>",
+   "sources": [
+    "brit-french-revolution",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-napoleonic-wars",
+   "title": "拿破仑战争",
+   "year": 1803,
+   "end_year": 1815,
+   "year_display": "1803年",
+   "end_year_display": "1815年",
+   "year_note": "通史期分以1803年英法再战为拿破仑战争起点（此前1800—1802年之第二此反法同盟战争常并入“大革命战争”）；至1815年滑铁卢战败、第二次《巴黎条约》止；公元纪年，无换算问题。",
+   "location": "欧洲全域（从里斯本到莫斯科）、埃及与海地",
+   "key_people": [
+    "napoleon"
+   ],
+   "background": "革命法国与旧欧洲的战争演变为拿破仑的帝国征服：奥斯特里茨（1805）后法国支配大陆；英国以海权与封锁对抗（特拉法尔加1805年确立海权优势）。",
+   "process": [
+    "1804年拿破仑称帝；1805年奥斯特里茨大捷、特拉法尔加海战英国胜。",
+    "1806年解散神圣罗马帝国、莱茵同盟；大陆封锁体系对英经济战。",
+    "1808—1813年半岛战争（西班牙-葡萄牙抵抗）；1812年征俄惨败（六十万大军仅残部而归——数字诸说并存）。",
+    "1813年莱比锡“民族会战”联军胜；1814年巴黎陷、厄尔巴岛流放；1815年百日王朝与滑铁卢战败、圣赫勒拿流放（1821年卒）。",
+    "1815年维也纳会议确立“势力均衡”体系（梅特涅体系）。"
+   ],
+   "outcome": "封建欧洲被系统性改造（法典、官僚制、民族动员）；民族主义被战争本身激发（西班牙、德意志）；维也纳体系维持近百年无全欧大战——现代国际关系史的基点。",
+   "controversies": [
+    {
+     "issue": "拿破仑的历史评价",
+     "views": [
+      {
+       "holder": "“解放者”视角",
+       "basis": "法典废除封建、犹太人解放、行政现代化随法军传播。"
+      },
+      {
+       "holder": "“征服者”视角",
+       "basis": "为掠兵源财源而战，各国死伤惨重（战争死亡总数学界估计在三百万至六百万间，口径不一——本站不采单一数字）。"
+      },
+      {
+       "holder": "征俄兵力“六十万”",
+       "basis": "传统数字（ Grande Armée 全兵力账面）；现代研究对实际入俄兵力与损失给出更低估计区间——数字存疑。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>拿破仑战争（1803—1815年）</text><g font-size='12'><rect x='70' y='90' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='170' y='116' text-anchor='middle'>1804 称帝</text><text x='170' y='140' text-anchor='middle' font-size='11'>1805奥斯特里茨</text><rect x='300' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='116' text-anchor='middle'>1806 莱茵同盟</text><text x='390' y='140' text-anchor='middle' font-size='11'>大陆封锁体系</text><rect x='510' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='116' text-anchor='middle' fill='#8c1f28'>1812 征俄惨败</text><text x='615' y='140' text-anchor='middle' font-size='11'>“六十万”数字存疑</text><line x1='270' y1='135' x2='296' y2='135' stroke='#8c1f28' marker-end='url(#xo4)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#8c1f28' marker-end='url(#xo4)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1813莱比锡→1815滑铁卢；维也纳体系（梅特涅）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>评价：解放者 vs 征服者；死亡总数估计区间大，不采单一数字</text></svg>",
+   "sources": [
+    "brit-napoleon",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-latin-american-independence",
+   "title": "拉丁美洲独立运动",
+   "year": 1810,
+   "end_year": 1826,
+   "year_display": "1810年",
+   "end_year_display": "1826年",
+   "year_note": "通史期分：1810年墨西哥与布宜诺斯艾利斯起义为大规模独立运动起点；1826年（西班牙美洲最后一支保皇军投降）前后运动基本完成；巴西1822年和平独立（分期并入本条叙述）；公元纪年，无换算问题。",
+   "location": "墨西哥、南美北部（玻利瓦尔）、南美南部（圣马丁）、巴西",
+   "key_people": [],
+   "background": "拿破仑入侵西班牙（1808年）造成宗主国合法性真空；克里奥尔精英的自治诉求、原住民与混血群体的不满、启蒙与美法革命的示范。",
+   "process": [
+    "1810—1815年，墨西哥伊达尔戈-莫雷洛斯起义（“多洛雷斯呼声”）与南美首次起义阶段。",
+    "1816—1824年，玻利瓦尔（委内瑞拉—哥伦比亚—厄瓜多尔—秘鲁—玻利维亚）与圣马丁（阿根廷—智利—秘鲁）两线解放；1824年阿亚库乔之战终结西班牙统治。",
+    "1822年巴西在佩德罗王子领导下和平脱离葡萄牙。",
+    "1823年美国“门罗宣言”表态美洲事务不容欧洲干涉。"
+   ],
+   "outcome": "拉美诸共和国诞生（西班牙美洲碎为多国而非统一国家——玻利瓦尔的“大哥伦比亚”很快分裂）；考迪罗（军阀）政治与单一出口经济结构构成此后百年拉美发展的难题。",
+   "controversies": [
+    {
+     "issue": "独立运动的社会性质",
+     "views": [
+      {
+       "holder": "“克里奥尔革命”论",
+       "basis": "独立主要是白人精英的权力转移，社会结构（大地产、奴役劳动）基本延续。"
+      },
+      {
+       "holder": "“大众参与”修正研究",
+       "basis": "近年研究强调原住民、黑人与混血群体在军队中的大规模参与及其后政治权的有限收获——两种框架互补并存。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>拉美独立（1810—1826年，两线示意）</text><g font-size='12'><rect x='70' y='90' width='230' height='80' fill='#fff' stroke='#2b4a6f'/><text x='185' y='116' text-anchor='middle'>1810 墨西哥起义</text><text x='185' y='140' text-anchor='middle' font-size='11'>伊达尔戈“多洛雷斯呼声”</text><rect x='330' y='90' width='200' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>北线：玻利瓦尔</text><text x='430' y='140' text-anchor='middle' font-size='11'>委内瑞拉→秘鲁→玻利维亚</text><rect x='560' y='90' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>南线：圣马丁</text><text x='645' y='140' text-anchor='middle' font-size='11'>阿根廷→智利→秘鲁</text><line x1='300' y1='130' x2='326' y2='130' stroke='#2b4a6f' marker-end='url(#xo5)'/><line x1='530' y1='130' x2='556' y2='130' stroke='#8c1f28' marker-end='url(#xo5)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1824 阿亚库乔之战终结西班牙统治；1822巴西和平独立</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>性质之争：克里奥尔精英革命论 vs 大众参与修正研究（互补并存）</text></svg>",
+   "sources": [
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-1848-revolutions",
+   "title": "1848年欧洲革命",
+   "year": 1848,
+   "end_year": 1849,
+   "year_display": "1848年",
+   "end_year_display": "1849年",
+   "year_note": "革命自1848年1月（西西里）蔓延至巴黎、维也纳、柏林、米兰、布达佩斯等，至1849年夏先后被镇压（罗马与威尼斯坚持至年中）；公元纪年，无换算问题。",
+   "location": "巴黎、维也纳、柏林、米兰、布达佩斯等",
+   "key_people": [],
+   "background": "1845—1847年马铃薯疫病与粮食危机、工业化初期的社会痛苦、自由主义与民族主义诉求的叠加；二月巴黎革命（推翻七月王朝）点燃全欧。",
+   "process": [
+    "1848年2月巴黎革命建第二共和国；3月维也纳梅特涅出逃、柏林“三月革命”。",
+    "法兰克福议会（1848—1849）试图以议会统一德意志——失败于君主权力。",
+    "匈牙利革命（科苏特）与奥地利帝国危机；俄军应请镇压匈牙利。",
+    "1849年夏革命在各地被镇压；“民族之春”退潮。"
+   ],
+   "outcome": "自由-民族革命失败，但封建残余被清除（农奴制在多地废除）；“议会道路”的失败推动此后德意统一转向强权政治路线；马克思《共产党宣言》（1848年2月发表）与革命的失败共同塑造工人运动的走向。",
+   "controversies": [
+    {
+     "issue": "1848年失败的归因",
+     "views": [
+      {
+       "holder": "“自由派与激进派分裂”论",
+       "basis": "城市中产阶级恐惧“社会革命”（六月事件后巴黎工人被镇压）导致统一阵线瓦解。"
+      },
+      {
+       "holder": "“反革命组织能力”论",
+       "basis": "普鲁士、奥地利、俄国军队的协调镇压与农民的保守性——两种归因在史学界互补。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>1848年“民族之春”</text><g font-size='12'><rect x='80' y='90' width='200' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='180' y='116' text-anchor='middle' fill='#8c1f28'>2月 巴黎革命</text><text x='180' y='140' text-anchor='middle' font-size='11'>推翻七月王朝</text><rect x='310' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='400' y='116' text-anchor='middle' fill='#8c1f28'>3月 维也纳柏林</text><text x='400' y='140' text-anchor='middle' font-size='11'>梅特涅出逃</text><rect x='520' y='90' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='620' y='116' text-anchor='middle'>法兰克福议会</text><text x='620' y='140' text-anchor='middle' font-size='11'>议会统一德意志失败</text><line x1='280' y1='130' x2='306' y2='130' stroke='#8c1f28' marker-end='url(#xo6)'/><line x1='490' y1='130' x2='516' y2='130' stroke='#8c1f28' marker-end='url(#xo6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>革命失败，但农奴制多地废除；强权统一路线自此转向</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>失败归因：派系分裂论 vs 反革命组织能力论（互补）</text></svg>",
+   "sources": [
+    "hobsbawm",
+    "communist-manifesto",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-germany-italy-unification",
+   "title": "意大利与德意志统一",
+   "year": 1859,
+   "end_year": 1871,
+   "year_display": "1859年",
+   "end_year_display": "1871年",
+   "year_note": "意大利统一战争1859年起（1859—1870年罗马收复完成）；德意志统一1864（对丹麦）—1866（普奥）—1870—71（普法）三次战争完成，1871年1月帝国在凡尔赛宣告成立；公元纪年，无换算问题。",
+   "location": "都灵-罗马；柏林-凡尔赛",
+   "key_people": [
+    "bismarck"
+   ],
+   "background": "1848年失败的遗产：民族统一需以战争与强权完成；加富尔的现实外交与俾斯麦的“铁血”路线为两个平行案例。",
+   "process": [
+    "意大利：1859年对奥战争（萨伏依-伦巴第）→1860年加里波第千人远征西西里→1861年意大利王国成立→1870年收复罗马。",
+    "德意志：1862年俾斯麦任普鲁士首相（“当代的重大问题不是靠演说与多数决议解决……而是靠铁与血”——其语见回忆录转述，广被引用）；1864普丹、1866普奥（解散德意志邦联）、1870—71普法。",
+    "1871年1月德意志帝国于凡尔赛镜厅宣告成立（普王威廉一世称帝）。",
+    "普法战争促成法兰西第三共和国（1870）；阿尔萨斯-洛林割让埋下法德世仇。"
+   ],
+   "outcome": "中欧与南欧的民族国家地图重绘；德国统一改变欧洲均势（“德国问题”成为此后七十年欧洲战争的根源之一）；意大利统一后南北差距成为长期难题。",
+   "controversies": [
+    {
+     "issue": "德意志道路（Sonderweg）论争",
+     "views": [
+      {
+       "holder": "“特殊道路”论",
+       "basis": "统一未伴生议会民主，容克-军官团支配政治为纳粹灾难埋线（比勒费尔德学派框架）。"
+      },
+      {
+       "holder": "修正派",
+       "basis": "质疑“特殊道路”的目的论叙事，强调德意志与西欧发展的可比性——争论为德国现代史学的核心论战（本站并列）。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>意德统一（1859—1871年）</text><g font-size='12'><rect x='80' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>意大利：1859—1870</text><text x='195' y='140' text-anchor='middle' font-size='11'>加富尔外交+加里波第远征</text><rect x='350' y='90' width='190' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='445' y='116' text-anchor='middle' fill='#8c1f28'>德国：1864/66/70三战</text><text x='445' y='140' text-anchor='middle' font-size='11'>俾斯麦“铁与血”</text><rect x='570' y='90' width='150' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='645' y='116' text-anchor='middle'>1871 帝国成立</text><text x='645' y='140' text-anchor='middle' font-size='11'>凡尔赛镜厅</text><line x1='310' y1='135' x2='346' y2='135' stroke='#8c1f28' marker-end='url(#xo7)'/><line x1='540' y1='135' x2='566' y2='135' stroke='#8c1f28' marker-end='url(#xo7)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>欧洲均势改变；“德国问题”成为此后七十年战争根源之一</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>Sonderweg（特殊道路）论战：德国现代史学的核心争论</text></svg>",
+   "sources": [
+    "brit-bismarck",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-us-civil-war",
+   "title": "美国内战",
+   "year": 1861,
+   "end_year": 1865,
+   "year_display": "1861年",
+   "end_year_display": "1865年",
+   "year_note": "据通行史学分期：1861年4月萨姆特堡开战；1865年4月李军投降（阿波马托克斯）；公元纪年，无换算问题。",
+   "location": "美国（东线弗吉尼亚、西线田纳西-密西西比）",
+   "key_people": [
+    "lincoln"
+   ],
+   "background": "奴隶制扩张问题（堪萨斯冲突、斯科特案）撕裂联邦；林肯1860年当选成为南方脱离的引信，十一州组成南部邦联。",
+   "process": [
+    "1861年萨姆特堡开战；南北各征兵数十万（战争期间双方动员总数约三百万人上下——学界通行估计）。",
+    "1862—1863年转折：安提塔姆、葛底斯堡（1863年7月）与维克斯堡；1863年《解放宣言》生效（解放叛乱州奴隶）。",
+    "1864—1865年格兰特-谢尔曼总攻（亚特兰大焚城、“向海洋进军”）。",
+    "1865年4月李军投降；六天后林肯遇刺身亡；宪法第十三修正案（1865）废除奴隶制。"
+   ],
+   "outcome": "联邦保全、奴隶制废除（约400万奴隶获得自由——1860年人口普查口径的通行数字）；联邦权力扩张与重建时期（1865—1877）的种族问题延续——美国宪政史的最大转折。",
+   "controversies": [
+    {
+     "issue": "战争的起因定性",
+     "views": [
+      {
+       "holder": "奴隶制核心论",
+       "basis": "以脱离声明文本与战前辩论为据，奴隶制为根本原因（现代主流）。"
+      },
+      {
+       "holder": "“失落的田园”论及其批驳",
+       "basis": "战后南方的“州权”辩护叙事被学界系统批驳（脱离声明明确以奴隶制为诉由）——本站采主流框架并说明该争论存在。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>美国内战（1861—1865年）</text><g font-size='12'><rect x='80' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1861 萨姆特堡开战</text><text x='190' y='140' text-anchor='middle' font-size='11'>十一州脱离联邦</text><rect x='340' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>1863 葛底斯堡</text><text x='430' y='140' text-anchor='middle' font-size='11'>《解放宣言》生效</text><rect x='550' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1865 阿波马托克斯</text><text x='640' y='140' text-anchor='middle' font-size='11'>第13修正案废奴</text><line x1='300' y1='130' x2='336' y2='130' stroke='#8c1f28' marker-end='url(#xo8)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xo8)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>约400万奴隶获自由（1860普查口径）；重建时期种族问题延续</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“州权”辩护叙事被学界系统批驳——奴隶制为核心原因（主流）</text></svg>",
+   "sources": [
+    "brit-lincoln",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-meiji-restoration",
+   "title": "明治维新",
+   "year": 1868,
+   "end_year": null,
+   "year_display": "1868年",
+   "end_year_display": null,
+   "year_note": "据《明治维新》通史期分：1867年大政奉还、1868年戊辰战争与“王政复古”（明治改元）为维新起点；至1889年《大日本帝国宪法》为维新体制建成期；公元纪年，无换算问题。",
+   "location": "京都—东京（江户改称东京）",
+   "key_people": [
+    "itohirobumi"
+   ],
+   "background": "佩里来航（1853—1854年开国）与不平等条约冲击暴露幕藩体制危机；萨长土肥四藩倒幕联盟以“王政复古”名义推翻幕府。",
+   "process": [
+    "1867年大政奉还；1868年戊辰战争（鸟羽伏之战）确立新政府。",
+    "1869年版籍奉还、1871年废藩置县——中央集权国家建成。",
+    "1872—1873年学制、征兵令、地租改正——社会基础性改革；1876年废刀令剥夺武士特权（士族叛乱如西南战争1877年被镇压）。",
+    "1871—1873年岩仓使节团考察欧美；1889年《大日本帝国宪法》（普鲁士式君主立宪）；1890年首届帝国议会。",
+    "1894—95年甲午战争、1902年英日同盟——日本进入列强体系。"
+   ],
+   "outcome": "非西方国家的第一个成功工业化与宪政化（明治日本成为后发国家转型的研究范本）；其军国主义扩张（甲午、日俄战争后）亦为此后日本近代史埋线。",
+   "controversies": [
+    {
+     "issue": "明治维新的性质",
+     "views": [
+      {
+       "holder": "“革命”论",
+       "basis": "社会结构（身份制、土地、政权）根本重组，视为不彻底的资产阶级革命（日本马克思主义史学传统）。"
+      },
+      {
+       "holder": "“复辟-改革双重性”论",
+       "basis": "以“王政复古”为名行变革之实的双重结构（现代日本史学界主流表述之一）；两种框架并存。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>明治维新（1868年起）</text><g font-size='12'><rect x='70' y='90' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='170' y='116' text-anchor='middle'>1868 戊辰战争</text><text x='170' y='140' text-anchor='middle' font-size='11'>“王政复古”</text><rect x='300' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='116' text-anchor='middle'>1869—71 废藩置县</text><text x='390' y='140' text-anchor='middle' font-size='11'>中央集权建成</text><rect x='510' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='615' y='116' text-anchor='middle' fill='#8c1f28'>1872—76 三大改革</text><text x='615' y='140' text-anchor='middle' font-size='11'>学制·征兵·地租改正</text><line x1='270' y1='135' x2='296' y2='135' stroke='#2b4a6f' marker-end='url(#xo9)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#2b4a6f' marker-end='url(#xo9)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1889《大日本帝国宪法》→1890首届议会；1894—95甲午</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>性质之争：“革命”论 vs “复辟-改革双重性”论并存</text></svg>",
+   "sources": [
+    "brit-meiji",
+    "hobsbawm",
+    "stearns-global",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-2nd-industrial-scramble",
+   "title": "第二次工业革命与列强瓜分世界",
+   "year": 1870,
+   "end_year": 1914,
+   "year_display": "1870年代",
+   "end_year_display": "1914年",
+   "year_note": "第二次工业革命以1870年代电力-化学-内燃机产业兴起为标志；列强瓜分非洲以1884—85年柏林会议为制度化节点，至1914年一战前夕瓜分基本完成；公元纪年，无换算问题。",
+   "location": "欧美与日本；非洲、亚洲沿海与内陆",
+   "key_people": [],
+   "background": "电力、钢铁、化工、内燃机的新工业体系使列强实力差距拉大；非洲内陆勘探完成与奎宁、马克沁机枪等技术使征服成本骤降；“正统帝国主义”理论（霍布森、列宁的表述）提供解释传统。",
+   "process": [
+    "1870年代起：西门子-爱迪生电气化、贝塞麦炼钢、化工染料工业、内燃机。",
+    "1876年比利时国王利奥波德二世发起“非洲国际协会”；1884—85年柏林会议确立瓜分规则（“有效占领”原则，非洲无代表）。",
+    "1880—1914年非洲几乎全境被瓜分（埃塞俄比亚1896年阿杜瓦之战保持独立为重要例外）；亚洲：印度完全殖民地化、东南亚与太平洋岛屿分割、中国部分沦为势力范围。",
+    "利奥波德二世“刚果自由邦”（1885—1908）的掠夺暴行引发国际抗议（死亡数字估计差异极大，见争议），1908年转比利时政府接管。"
+   ],
+   "outcome": "世界被瓜分完毕：殖民帝国体系与全球不平衡定型；第一次全球化（贸易、移民、资本流动）与帝国主义竞争并存——1914年战争的系统性背景。",
+   "controversies": [
+    {
+     "issue": "刚果暴行与帝国主义死亡统计",
+     "views": [
+      {
+       "holder": "人道抗议传统与霍士李（Hochschild）通俗研究",
+       "basis": "估计刚果自由邦时期死亡“一千万级”（流行引用）。"
+      },
+      {
+       "holder": "人口史修正研究",
+       "basis": "指出基数普查不可靠，估计区间从数百万到上千万不等，方法论仍在争论——本站按“区间巨大、无精确统计”处理。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>新工业与瓜分（1870—1914年）</text><g font-size='12'><rect x='70' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='180' y='116' text-anchor='middle'>电力·钢铁·化工·内燃机</text><text x='180' y='140' text-anchor='middle' font-size='11'>第二次工业革命</text><rect x='330' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' fill='#8c1f28'>1884—85 柏林会议</text><text x='420' y='140' text-anchor='middle' font-size='11'>瓜分规则·非洲无代表</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>1880—1914 非洲瓜分完毕</text><text x='640' y='140' text-anchor='middle' font-size='11'>埃塞俄比亚为例外</text><line x1='290' y1='135' x2='326' y2='135' stroke='#8c1f28' marker-end='url(#xo10)'/><line x1='510' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xo10)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>第一次全球化与帝国主义竞争并存→1914年战争背景</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>刚果死亡数字估计区间巨大（数百万至上千万），无精确统计</text></svg>",
+   "sources": [
+    "enwp-berlin-conference",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": true,
+   "pending_notes": "刚果自由邦时期死亡人数估计从数百万到上千万不等，方法与基数均有争议；瓜分非洲的具体领土转移数据依殖民档案，各国口径略有出入。"
+  },
+  {
+   "id": "wm-ww1",
+   "title": "第一次世界大战与凡尔赛体系",
+   "year": 1914,
+   "end_year": 1919,
+   "year_display": "1914年",
+   "end_year_display": "1919年",
+   "year_note": "1914年6月萨拉热窝事件、7月危机与8月开战；1918年11月停战；1919年6月《凡尔赛条约》签订；公元纪年，无换算问题。",
+   "location": "西线（法比）、东线、意大利线、中东、海上",
+   "key_people": [],
+   "background": "两大军事集团（三国同盟与三国协约）、军备竞赛与巴尔干危机的系统性紧张；萨拉热窝刺杀点燃七月危机——“ sleeps 归责”为百年论题。",
+   "process": [
+    "1914年8月开战：施里芬计划与马恩河战役（运动战转为堑壕战）。",
+    "1915—1917年：凡尔登（“绞肉机”）、索姆河；俄国退出（1918年布列斯特和约）；美国1917年参战。",
+    "1918年春季攻势失败、联军反攻；11月11日停战协定。",
+    "1919年《凡尔赛条约》：第231条“战争罪责”条款、德国割地赔款（赔款委员会）；国际联盟成立。",
+    "战争死亡约千万级（军人死亡约九百万至一千万间——各国统计口径不一，学界通行区间表述）。"
+   ],
+   "outcome": "四大帝国（俄、德、奥匈、奥斯曼）解体；民族自决话语与新兴民族国家潮；凡尔赛体系的不稳定性（赔款、边境、“容忍但记仇”的结构）为二战的远因——学界通行框架。",
+   "controversies": [
+    {
+     "issue": "战争责任",
+     "views": [
+      {
+       "holder": "《凡尔赛条约》第231条",
+       "basis": "德国及其盟国承担战争罪责——条约法理表述。"
+      },
+      {
+       "holder": "费舍尔论战（1960年代起）",
+       "basis": "德国史学家费舍尔论证德国蓄意扩张的“主责说”，引发大战责任研究的大论战。"
+      },
+      {
+       "holder": "“共担责任”修正研究（克拉克《梦游者》为代表）",
+       "basis": "强调各国决策链的连锁与“睡游”性质——责任被分散化，但主流也承认德奥主动性最强；本站并列三种立场。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>一战（1914—1918年）</text><g font-size='12'><rect x='70' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='180' y='116' text-anchor='middle' fill='#8c1f28'>1914 八月开战</text><text x='180' y='140' text-anchor='middle' font-size='11'>马恩河→堑壕战</text><rect x='330' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' fill='#8c1f28'>凡尔登·索姆河</text><text x='420' y='140' text-anchor='middle' font-size='11'>1917美国参战</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1918.11 停战</text><text x='640' y='140' text-anchor='middle' font-size='11'>1919凡尔赛条约</text><line x1='290' y1='135' x2='326' y2='135' stroke='#8c1f28' marker-end='url(#xo11)'/><line x1='510' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xo11)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>四大帝国解体；国际联盟成立；凡尔赛体系不稳定（学界通说）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>责任论战：231条款 vs 费舍尔主责说 vs “梦游者”分散责任论</text></svg>",
+   "sources": [
+    "brit-ww1",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": true,
+   "pending_notes": "一战军人死亡数各国统计口径不一（通行区间约九百万至一千万级）；具体战役伤亡数字各国档案差异明显，本站采用区间表述。"
+  },
+  {
+   "id": "wm-russian-revolution",
+   "title": "俄国十月革命",
+   "year": 1917,
+   "end_year": null,
+   "year_display": "1917年",
+   "end_year_display": null,
+   "year_note": "据通行纪年：二月革命（公历3月）推翻沙皇、临时政府成立；十月革命（公历11月7日，俄历十月廿五）布尔什维克夺权；公元纪年，无换算问题。",
+   "location": "彼得格勒（圣彼得堡）",
+   "key_people": [
+    "lenin"
+   ],
+   "background": "一战失败、经济崩溃与二月革命的民主化真空；列宁《四月提纲》提出“全部政权归苏维埃”——在立宪会议前以武装夺权。",
+   "process": [
+    "1917年3月二月革命：沙皇退位，临时政府与苏维埃“双重政权”并存。",
+    "11月7日（俄历10月25日）阿芙乐尔号炮响，布尔什维克攻占冬宫（事件细节的戏剧化程度见史料讨论）。",
+    "1918年1月解散立宪会议；3月布列斯特和约退出大战；1918—1922年内战（红军vs白军+外国干涉）。",
+    "1922年苏联成立（苏维埃社会主义共和国联盟）。"
+   ],
+   "outcome": "人类史上第一个宣称以马克思主义为指导的国家政权；世界分裂为资本主义与社会主义两大体系的起点——20世纪全球政治的基本轴线。",
+   "controversies": [
+    {
+     "issue": "十月革命的性质",
+     "views": [
+      {
+       "holder": "苏联史学",
+       "basis": "“伟大社会主义革命”，人民起义的必然性叙事。"
+      },
+      {
+       "holder": "自由派与修正派研究",
+       "basis": "定性为武装政变式的夺权（少数先锋政党利用临时政府的合法性真空）；理查德·派普斯等与埃里克·霍布斯鲍姆等不同立场并存——现代西方学界主流承认其事件真实性与历史重要性，但否定“自发人民起义”叙事。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>1917年俄国革命</text><g font-size='12'><rect x='80' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>3月 二月革命</text><text x='190' y='140' text-anchor='middle' font-size='11'>双重政权并存</text><rect x='340' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>11月7日 十月革命</text><text x='430' y='140' text-anchor='middle' font-size='11'>布尔什维克夺权</text><rect x='550' y='90' width='190' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='645' y='116' text-anchor='middle'>1918—22 内战</text><text x='645' y='140' text-anchor='middle' font-size='11'>1922 苏联成立</text><line x1='300' y1='130' x2='336' y2='130' stroke='#8c1f28' marker-end='url(#xo12)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xo12)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>20世纪两大体系分裂的起点</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>定性之争：人民起义叙事（苏联史学） vs 夺权政变（修正派）——并列</text></svg>",
+   "sources": [
+    "brit-russian-revolution",
+    "brit-lenin",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-great-depression",
+   "title": "大萧条",
+   "year": 1929,
+   "end_year": 1933,
+   "year_display": "1929年",
+   "end_year_display": "1933年",
+   "year_note": "1929年10月纽约股市崩盘（10月24日“黑色星期四”、29日“黑色星期二”）为标志；至1933年美国经济触底（失业率约25%——美国官方普查与统计口径）；公元纪年，无换算问题。",
+   "location": "美国发端，波及全球（德国、日本尤甚）",
+   "key_people": [
+    "fdr-roosevelt"
+   ],
+   "background": "1920年代美股投机膨胀、农业长期萧条、国际金本位制的紧缩传导；银行体系脆弱。",
+   "process": [
+    "1929年10月股市崩盘；1930—1932年银行倒闭潮（美国近万银行停业）。",
+    "全球产出萎缩、失业剧增（美国失业率1933年约25%——官方统计口径；德国数百万人失业）。",
+    "1933年罗斯福新政（银行整顿、公共工程、社会保障立法——新政立法体系）。",
+    "贸易保护（斯姆特-霍利关税法1930）与金本位崩溃加剧全球收缩；德国与日本的极端政权在大萧条中上台。"
+   ],
+   "outcome": "自由放任信条破产、国家干预范式确立（凯恩斯主义的实践前奏）；极端主义政权的经济土壤——通往二战的政治经济链条。",
+   "controversies": [
+    {
+     "issue": "起因与新政效果",
+     "views": [
+      {
+       "holder": "货币主义解释（弗里德曼-施瓦茨）",
+       "basis": "美联储货币收缩把衰退变成大萧条。"
+      },
+      {
+       "holder": "总需求/凯恩斯解释",
+       "basis": "消费投资崩塌与财政紧缩为因——两派共同构成现代宏观经济学的基础争论。"
+      },
+      {
+       "holder": "新政效果之争",
+       "basis": "“新政缓解但未终结萧条”（1937—38年二次衰退）与“新政重构了国家-社会关系”两种评价并存——本站并列。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>大萧条（1929—1933年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='190' y='116' text-anchor='middle' fill='#8c1f28'>10月 股市崩盘</text><text x='190' y='140' text-anchor='middle' font-size='11'>银行倒闭潮</text><rect x='340' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>全球收缩</text><text x='430' y='140' text-anchor='middle' font-size='11'>美失业率约25%（官方口径）</text><rect x='550' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1933 罗斯福新政</text><text x='640' y='140' text-anchor='middle' font-size='11'>国家干预范式</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xo13)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xo13)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>极端政权（德日）在大萧条中上台——通往二战的链条</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>起因与新政效果：货币主义 vs 凯恩斯主义（宏观经济学基础争论）</text></svg>",
+   "sources": [
+    "brit-great-depression",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-ww2-un",
+   "title": "第二次世界大战与联合国成立",
+   "year": 1939,
+   "end_year": 1945,
+   "year_display": "1939年",
+   "end_year_display": "1945年",
+   "year_note": "1939年9月1日德国入侵波兰、3日英法宣战（欧洲战场起点）；亚洲战场的起点（1937年卢沟桥/1931年九一八）为学界讨论的多元起点问题；1945年5月欧洲停战、8月亚洲停战、10月24日联合国成立；公元纪年，无换算问题。",
+   "location": "欧洲、北非、太平洋、东亚",
+   "key_people": [
+    "fdr-roosevelt"
+   ],
+   "background": "凡尔赛体系不满、大萧条政治后果（德日意极端政权）、绥靖政策的失败（慕尼黑1938）；亚洲战场的爆发早于欧战。",
+   "process": [
+    "1939年9月德国入侵波兰，欧战爆发；1940年法国沦陷、不列颠空战。",
+    "1941年6月德国入侵苏联；12月珍珠港事件、美国参战——全球战争成型。",
+    "1942—43年转折：斯大林格勒、中途岛、阿拉曼；1943年意大利投降。",
+    "1944年6月诺曼底登陆；1945年5月德国投降；8月广岛长崎原子弹、苏联对日宣战；9月2日日本投降。",
+    "1945年10月24日联合国成立（《联合国宪章》生效——中国为创始会员国与安理会常任理事国）。"
+   ],
+   "outcome": "人类史上最大规模的战争（死亡估计在六千万至八千万间，学界口径不一）；犹太人大屠杀（约六百万——纽伦堡审判与 Yad Vashem 等机构通说）与原子弹使用标志暴力新维度；联合国体系与战后秩序（雅尔塔-波茨坦框架）确立；殖民体系开始瓦解。",
+   "controversies": [
+    {
+     "issue": "战争起点与原子弹使用的伦理",
+     "views": [
+      {
+       "holder": "战争起点多元论",
+       "basis": "欧战1939、中日战争1937、九一八1931——全球史学界已普遍接受多起点框架（本站采用并列表述）。"
+      },
+      {
+       "holder": "原子弹使用的争论",
+       "basis": "“终结战争、减少总伤亡”说与“针对苏联的政治威慑/非必要”说持续争论（传统派 vs 修正派美国史学）；无最终共识。"
+      },
+      {
+       "holder": "死亡数字",
+       "basis": "总死亡估计六千万至八千万间（各国口径不一）；大屠杀六百万为法庭与档案通说——本站采用区间与通说并置。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>二战与联合国（1939—1945年）</text><g font-size='12'><rect x='70' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='175' y='116' text-anchor='middle' fill='#8c1f28'>1939.9 德国侵波兰</text><text x='175' y='140' text-anchor='middle' font-size='11'>亚洲起点更早（1937/1931）</text><rect x='310' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='400' y='116' text-anchor='middle' fill='#8c1f28'>1941 全球战争成型</text><text x='400' y='140' text-anchor='middle' font-size='11'>苏联·美国参战</text><rect x='520' y='90' width='210' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='625' y='116' text-anchor='middle'>1942—43 转折</text><text x='625' y='140' text-anchor='middle' font-size='11'>斯大林格勒·中途岛</text><line x1='280' y1='135' x2='306' y2='135' stroke='#8c1f28' marker-end='url(#xo14)'/><line x1='490' y1='135' x2='516' y2='135' stroke='#8c1f28' marker-end='url(#xo14)'/></g><line x1='625' y1='180' x2='450' y2='225' stroke='#2b4a6f' marker-end='url(#xo14)'/><rect x='240' y='230' width='300' height='80' fill='#fff' stroke='#2b4a6f'/><text x='390' y='256' text-anchor='middle' font-size='13'>1945 停战·10月24日联合国成立</text><text x='390' y='282' text-anchor='middle' font-size='11'>死亡六千万至八千万（口径不一）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>原子弹使用与大屠杀：伦理与数字的持久争论（并列）</text></svg>",
+   "sources": [
+    "brit-ww2",
+    "un-charter",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-cold-war-end",
+   "title": "冷战及其终结",
+   "year": 1947,
+   "end_year": 1991,
+   "year_display": "1947年",
+   "end_year_display": "1991年",
+   "year_note": "1947年“杜鲁门主义”与“马歇尔计划”通常被视为冷战制度化起点（有1945/1946起点的异说）；1991年12月苏联解体（戈尔巴乔夫辞职、联盟解体）为冷战终结标志；公元纪年，无换算问题。",
+   "location": "全球（欧洲对峙线、朝鲜半岛、古巴、越南、阿富汗）",
+   "key_people": [],
+   "background": "二战结束时的力量真空与意识形态对立（资本主义vs社会主义）；核武器使对抗以代理人战争与军备竞赛形式展开。",
+   "process": [
+    "1947—1955年体系化：杜鲁门主义/马歇尔计划 vs 共产党情报局/华约（1955）；北约1949。",
+    "1961—1962年柏林墙与古巴导弹危机（核战争最近时刻）。",
+    "代理人战争：朝鲜（1950—53）、越南（1965—75）、阿富汗（1979—89）。",
+    "1979—1985年“新冷战”（阿富汗入侵、星球大战计划）；1985年戈尔巴乔夫改革（公开性、新思维）。",
+    "1989年东欧剧变（柏林墙11月开放）；1991年8月未遂政变后苏联解体（12月25—26日）。"
+   ],
+   "outcome": "两极体系终结、单极时刻开启；核不扩散体系与联合国框架延续；冷战的“无大战”记录（美苏未直接开战）与其代理人战争的巨大代价并存——冷战史新研究（利用前苏联档案）不断修正细节。",
+   "controversies": [
+    {
+     "issue": "冷战起源与苏联解体原因",
+     "views": [
+      {
+       "holder": "正统派（1950年代）",
+       "basis": "苏联扩张主义为因（ Williams-Feis 时代的美国官方叙事）。"
+      },
+      {
+       "holder": "修正派（1960年代）",
+       "basis": "美国经济霸权与强硬政策为因（Williams《美国外交的悲剧》一系）。"
+      },
+      {
+       "holder": "后修正派与冷战史新研究",
+       "basis": "双方互动与第三世界变量并重（利用苏联档案的加迪斯等）；苏联解体归因（体制僵化 vs 戈尔巴乔夫个人选择）亦无单一答案——本站并列各派。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xo15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>冷战（1947—1991年）</text><g font-size='12'><rect x='70' y='90' width='210' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='175' y='116' text-anchor='middle'>1947 杜鲁门主义</text><text x='175' y='140' text-anchor='middle' font-size='11'>马歇尔计划·北约1949</text><rect x='310' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='400' y='116' text-anchor='middle' fill='#8c1f28'>1961—62 柏林墙</text><text x='400' y='140' text-anchor='middle' font-size='11'>古巴导弹危机</text><rect x='520' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='625' y='116' text-anchor='middle'>1989 东欧剧变</text><text x='625' y='140' text-anchor='middle' font-size='11'>1991 苏联解体</text><line x1='280' y1='135' x2='306' y2='135' stroke='#2b4a6f' marker-end='url(#xo15)'/><line x1='490' y1='135' x2='516' y2='135' stroke='#2b4a6f' marker-end='url(#xo15)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>美苏未直接开战（代理人战争代价巨大）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>起源论战：正统派 vs 修正派 vs 后修正派（冷战史新研究）</text></svg>",
+   "sources": [
+    "enwp-cold-war",
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "people": [
+  {
+   "id": "washington",
+   "name": "乔治·华盛顿",
+   "birth_year": 1732,
+   "death_year": 1799,
+   "birth_display": "1732年",
+   "death_display": "1799年",
+   "birth_note": "据通行传记（儒略历1732年2月11日/格里历2月22日——当时英国殖民地用儒略历）生于弗吉尼亚；本站按格里历1732年计。",
+   "death_note": "1799年12月14日卒于弗农山庄，公元纪年。",
+   "chronology": [
+    {
+     "year": 1732,
+     "display": "1732年",
+     "text": "生于弗吉尼亚种植园主家庭。"
+    },
+    {
+     "year": 1754,
+     "display": "1754—1758年",
+     "text": "法印战争中初露军事才能（俄亥俄河谷作战）。"
+    },
+    {
+     "year": 1775,
+     "display": "1775年",
+     "text": "任大陆军总司令，苦战八年。"
+    },
+    {
+     "year": 1787,
+     "display": "1787年",
+     "text": "主持费城制宪会议。"
+    },
+    {
+     "year": 1789,
+     "display": "1789年",
+     "text": "就任首任总统（连任两届）。"
+    },
+    {
+     "year": 1797,
+     "display": "1797年",
+     "text": "两任后引退（《告别演说》）。"
+    },
+    {
+     "year": 1799,
+     "display": "1799年",
+     "text": "卒于弗农山庄。"
+    }
+   ],
+   "deeds": [
+    "独立战争统帅与首任总统：共和国军事与文治的双重奠基。",
+    "两任引退、拒绝王位（“纽堡阴谋”时的安抚）——确立文官控制军队与权力和平更替的政治规范。",
+    "《告别演说》确立孤立主义外交传统（至1941年前美国外交的基准）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "美国“国父”传统",
+     "view": "“国父之首”与公民美德的象征（帕森·威姆斯《华盛顿传》更添神话——传记传统中被学界剥离的传说如樱桃树故事）。",
+     "basis": "美国传记传统与史学批评。"
+    },
+    {
+     "holder": "现代史学",
+     "view": "军事才能平平而政治品格卓越的定位（学界通行）；其奴隶主身份与晚年释放奴隶的矛盾被如实纳入传记。",
+     "basis": "美国建国史研究。"
+    }
+   ],
+   "sources": [
+    "us-constitution",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "napoleon",
+   "name": "拿破仑·波拿巴",
+   "birth_year": 1769,
+   "death_year": 1821,
+   "birth_display": "1769年",
+   "death_display": "1821年",
+   "birth_note": "据通行传记1769年8月15日生于科西嘉阿雅克肖（法国兼并科西嘉次年）。",
+   "death_note": "1821年5月5日卒于圣赫勒拿岛（胃癌说为主，砷中毒说曾流行后遭质疑）。公元纪年。",
+   "chronology": [
+    {
+     "year": 1769,
+     "display": "1769年",
+     "text": "生于科西嘉，炮兵军官出身。"
+    },
+    {
+     "year": 1796,
+     "display": "1796—99年",
+     "text": "意大利战役成名、埃及远征；雾月十八政变任第一执政。"
+    },
+    {
+     "year": 1804,
+     "display": "1804年",
+     "text": "称帝；《法国民法典》（1804）颁行。"
+    },
+    {
+     "year": 1805,
+     "display": "1805年",
+     "text": "奥斯特里茨大捷；特拉法尔加海战失利。"
+    },
+    {
+     "year": 1812,
+     "display": "1812年",
+     "text": "征俄惨败。"
+    },
+    {
+     "year": 1815,
+     "display": "1815年",
+     "text": "滑铁卢战败，流放圣赫勒拿。"
+    },
+    {
+     "year": 1821,
+     "display": "1821年",
+     "text": "卒于圣赫勒拿。"
+    }
+   ],
+   "deeds": [
+    "以战争改造欧洲：法典、行政、教育与度量衡制度随军传播。",
+    "战争艺术的革新（军团制、炮兵集中）成为此后一个半世纪军事教科书。",
+    "其失败证明以武力整合欧洲的极限——维也纳体系以其为反面教材。"
+   ],
+   "evaluations": [
+    {
+     "holder": "欧洲各民族视角的分裂",
+     "view": "法、荷、莱茵地区视为现代化推行者；西、俄、德视为侵略者——评价随民族史立场分裂（学界通识）。",
+     "basis": "各国近代史叙事。"
+    },
+    {
+     "holder": "现代史学综合",
+     "view": "“现代国家的工程师”与“战争贩子”并存：其制度遗产（法典）存续两百年，其战争死亡代价巨大——传记研究（如塔基耶等）强调其权力意志与时代机遇的复合。",
+     "basis": "拿破仑研究。"
+    }
+   ],
+   "sources": [
+    "brit-napoleon",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "lincoln",
+   "name": "亚伯拉罕·林肯",
+   "birth_year": 1809,
+   "death_year": 1865,
+   "birth_display": "1809年",
+   "death_display": "1865年",
+   "birth_note": "据通行传记1809年2月12日生于肯塔基州哈丁县小木屋。",
+   "death_note": "1865年4月15日卒（4月14日晚福特剧院遇刺，翌日晨死亡），公元纪年。",
+   "chronology": [
+    {
+     "year": 1809,
+     "display": "1809年",
+     "text": "生于肯塔基边疆小屋，自学成才的律师。"
+    },
+    {
+     "year": 1858,
+     "display": "1858年",
+     "text": "与道格拉斯参议员辩论（“分裂之家不能持久”）。"
+    },
+    {
+     "year": 1861,
+     "display": "1861年",
+     "text": "就任总统；南方脱离、内战爆发。"
+    },
+    {
+     "year": 1863,
+     "display": "1863年",
+     "text": "《解放宣言》与葛底斯堡演说。"
+    },
+    {
+     "year": 1865,
+     "display": "1865年",
+     "text": "连任、战争胜利；4月遇刺身亡。"
+    }
+   ],
+   "deeds": [
+    "领导内战保全联邦、废除奴隶制（第13修正案在其任内推动）。",
+    "葛底斯堡演说重释美国立国（“民有、民治、民享”政府——演说原文）。",
+    "第二任就职演说的和解基调（“对任何人不怀恶意”）为战后重建定调（未及实施）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "美国传统叙事",
+     "view": "“伟大解放者”与宪法守护者的双重圣像（拉什莫尔山四像之一）。",
+     "basis": "美国纪念传统。"
+    },
+    {
+     "holder": "现代史学修正",
+     "view": "林肯在种族观上的时代局限（早期支持殖民方案——把 freed slaves 迁往海外的主张）被如实研究；“伟大解放者”与“审慎的政治家”并置（学界研究甚多）。",
+     "basis": "林肯研究（如 D. Donald、E. Foner）。"
+    }
+   ],
+   "sources": [
+    "brit-lincoln",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "bismarck",
+   "name": "奥托·冯·俾斯麦",
+   "birth_year": 1815,
+   "death_year": 1898,
+   "birth_display": "1815年",
+   "death_display": "1898年",
+   "birth_note": "据通行传记1815年4月1日生于勃兰登堡申豪森庄园（容克贵族）。",
+   "death_note": "1898年7月30日卒于汉堡附近 Friedrichsruh 庄园，公元纪年。",
+   "chronology": [
+    {
+     "year": 1815,
+     "display": "1815年",
+     "text": "生于申豪森容克家庭。"
+    },
+    {
+     "year": 1862,
+     "display": "1862年",
+     "text": "任普鲁士首相（“铁与血”演说）。"
+    },
+    {
+     "year": 1864,
+     "display": "1864—1871年",
+     "text": "三场王朝战争完成德意志统一。"
+    },
+    {
+     "year": 1871,
+     "display": "1871年",
+     "text": "德意志帝国首相（至1890年）；大陆政策与结盟体系。"
+    },
+    {
+     "year": 1890,
+     "display": "1890年",
+     "text": "被威廉二世解职。"
+    },
+    {
+     "year": 1898,
+     "display": "1898年",
+     "text": "卒。"
+    }
+   ],
+   "deeds": [
+    "以三场有限战争完成德意志统一，避免全欧大战（“政治是不可能的的艺术”式的操作）。",
+    "帝国内政：文化斗争（对天主教）、反社会主义法与社会保障立法并存。",
+    "大陆联盟体系（三皇同盟、德奥同盟、再保险条约）维持欧洲均势至其去职。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统“现实政治大师”叙事",
+     "view": "欧洲外交的天才与德意志统一的工程师（各国传记传统的主流定位）。",
+     "basis": "俾斯麦传记传统。"
+    },
+    {
+     "holder": "现代修正研究",
+     "view": "其体系依赖个人技巧而未制度化，去职后即失衡；“白色革命”（1866）造成的德奥敌对与国内宪政未开的遗产被重新权衡——Sonderweg 论战的相关人物。",
+     "basis": "德国史研究。"
+    }
+   ],
+   "sources": [
+    "brit-bismarck",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "marx",
+   "name": "卡尔·马克思",
+   "birth_year": 1818,
+   "death_year": 1883,
+   "birth_display": "1818年",
+   "death_display": "1883年",
+   "birth_note": "据通行传记1818年5月5日生于特里尔（普鲁士莱茵省）。",
+   "death_note": "1883年3月14日卒于伦敦（寓居英国三十四年），公元纪年。",
+   "chronology": [
+    {
+     "year": 1818,
+     "display": "1818年",
+     "text": "生于特里尔犹太律师家庭。"
+    },
+    {
+     "year": 1848,
+     "display": "1848年",
+     "text": "与恩格斯合著《共产党宣言》发表。"
+    },
+    {
+     "year": 1867,
+     "display": "1867年",
+     "text": "《资本论》第一卷出版（大英博物馆阅览室的长年研究）。"
+    },
+    {
+     "year": 1871,
+     "display": "1871年",
+     "text": "为巴黎公社辩护（《法兰西内战》）。"
+    },
+    {
+     "year": 1883,
+     "display": "1883年",
+     "text": "卒于伦敦；恩格斯整理《资本论》二、三卷（1885、1894年出版）。"
+    }
+   ],
+   "deeds": [
+    "创立历史唯物主义与政治经济学批判体系（《资本论》剩余价值理论）。",
+    "《共产党宣言》使共产主义运动获得纲领性文本——“全世界无产者，联合起来！”。",
+    "第一国际（国际工人协会）的实际组织者与思想领袖。"
+   ],
+   "evaluations": [
+    {
+     "holder": "马克思主义传统",
+     "view": "科学社会主义的奠基人，“千年思想家”评选榜首（1999年 BBC 网络评选等——该评选的媒体性质需注明）。",
+     "basis": "马克思主义传统与媒体评选。"
+    },
+    {
+     "holder": "批评传统与学院研究",
+     "view": "对劳动价值论与历史预言的批评（庞巴维克等经济批评、20世纪计划经济实践的失败记录）；学界则区分马克思的思想遗产（批判方法）与20世纪以其命名的政权实践——思想与实践的分层为当代通行研究框架。",
+     "basis": "现代学术讨论。"
+    }
+   ],
+   "sources": [
+    "communist-manifesto",
+    "hobsbawm",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "itohirobumi",
+   "name": "伊藤博文",
+   "birth_year": 1841,
+   "death_year": 1909,
+   "birth_display": "1841年",
+   "death_display": "1909年",
+   "birth_note": "据通行传记天保十二年（1841年10月16日）生于长州萩城下（今山口县）。",
+   "death_note": "1909年10月26日于哈尔滨火车站被安重根刺杀身亡，公元纪年。",
+   "chronology": [
+    {
+     "year": 1841,
+     "display": "1841年",
+     "text": "生于长州（萩），下级武士家庭。"
+    },
+    {
+     "year": 1863,
+     "display": "1863年",
+     "text": "留学英国（长州五杰之一）。"
+    },
+    {
+     "year": 1885,
+     "display": "1885年",
+     "text": "日本首任内阁总理大臣（此后四度组阁）。"
+    },
+    {
+     "year": 1889,
+     "display": "1889年",
+     "text": "主持《大日本帝国宪法》制定（普鲁士模式）。"
+    },
+    {
+     "year": 1905,
+     "display": "1905年",
+     "text": "首任韩国统监（日韩合并的实际推动者）。"
+    },
+    {
+     "year": 1909,
+     "display": "1909年",
+     "text": "哈尔滨遇刺身亡（安重根）。"
+    }
+   ],
+   "deeds": [
+    "明治宪法体制的总设计师：钦定立宪与藩阀政治的框架。",
+    "四度组阁（1885—1901年间），主导甲午战后外交与韩国统监政治。",
+    "其遇刺成为日韩近代关系史的核心记忆事件（安重根义士叙事）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "日本主流评价",
+     "view": "“明治宪政之父”——近代日本国家制度的主要设计者。",
+     "basis": "日本近代史叙事。"
+    },
+    {
+     "holder": "韩国及朝鲜半岛视角",
+     "view": "殖民统监与侵略设计师（安重根刺杀的正义性叙事）——日韩史学立场的显著分歧。",
+     "basis": "韩日近现代史研究。"
+    },
+    {
+     "holder": "现代研究补充",
+     "view": "其宪政设计对政党政治的防范（超然内阁理念）被重新评估为日本民主发育迟缓的制度远因之一——修正视角。",
+     "basis": "日本政治史研究。"
+    }
+   ],
+   "sources": [
+    "brit-meiji",
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "lenin",
+   "name": "弗拉基米尔·列宁（乌里扬诺夫）",
+   "birth_year": 1870,
+   "death_year": 1924,
+   "birth_display": "1870年",
+   "death_display": "1924年",
+   "birth_note": "据通行传记1870年4月22日（儒略历4月10日）生于辛比尔斯克。",
+   "death_note": "1924年1月21日卒于莫斯科附近的哥尔克村（中风连续发作后），公元纪年。",
+   "chronology": [
+    {
+     "year": 1870,
+     "display": "1870年",
+     "text": "生于辛比尔斯克，兄长因谋刺沙皇被处死（1887年）。"
+    },
+    {
+     "year": 1903,
+     "display": "1903年",
+     "text": "《怎么办？》与党的先锋队理论；俄国社会民主工党分裂（布尔什维克/孟什维克）。"
+    },
+    {
+     "year": 1917,
+     "display": "1917年",
+     "text": "四月提纲、十月革命领导夺权。"
+    },
+    {
+     "year": 1921,
+     "display": "1921年",
+     "text": "新经济政策（NEP）转向。"
+    },
+    {
+     "year": 1922,
+     "display": "1922年",
+     "text": "苏联成立；晚年《给代表大会的信》（对斯大林的批评——遗训问题）。"
+    },
+    {
+     "year": 1924,
+     "display": "1924年",
+     "text": "卒；遗体陈放莫斯科红场陵墓。"
+    }
+   ],
+   "deeds": [
+    "把马克思主义与俄国的先锋队建党学说结合（列宁主义），领导十月革命。",
+    "创建苏维埃国家与红军，推行战时共产主义与新经济政策。",
+    "成立共产国际（1919年），塑造20世纪国际共产主义运动。"
+   ],
+   "evaluations": [
+    {
+     "holder": "苏联与左翼传统",
+     "view": "革命导师与理论家的崇高定位（个人崇拜的制度化与后来的去斯大林化波及列宁形象的复杂过程）。",
+     "basis": "苏联史学传统。"
+    },
+    {
+     "holder": "现代西方与俄罗斯修正研究",
+     "view": "肯定其政治组织天才与理论独创（先锋队、帝国主义论），同时把红色恐怖（契卡镇压、集中营雏形）纳入其历史责任的直接考量——近年俄罗斯学界与西方研究的共识性方向之一。",
+     "basis": "冷战后的俄国革命史研究。"
+    }
+   ],
+   "sources": [
+    "brit-lenin",
+    "brit-russian-revolution",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "fdr-roosevelt",
+   "name": "富兰克林·德拉诺·罗斯福（FDR）",
+   "birth_year": 1882,
+   "death_year": 1945,
+   "birth_display": "1882年",
+   "death_display": "1945年",
+   "birth_note": "据通行传记1882年1月30日生于纽约州海德公园（与西奥多·罗斯福为远亲）。",
+   "death_note": "1945年4月12日卒于佐治亚州温泉（第四届任内），公元纪年。",
+   "chronology": [
+    {
+     "year": 1882,
+     "display": "1882年",
+     "text": "生于海德公园。"
+    },
+    {
+     "year": 1933,
+     "display": "1933年",
+     "text": "就任总统，推行新政（银行整顿百日）。"
+    },
+    {
+     "year": 1936,
+     "display": "1936年",
+     "text": "压倒性连任（新政联盟成型）。"
+    },
+    {
+     "year": 1941,
+     "display": "1941年",
+     "text": "珍珠港事件后对日宣战，领导同盟国（“四大自由”演说、大西洋宪章）。"
+    },
+    {
+     "year": 1945,
+     "display": "1945年",
+     "text": "雅尔塔会议后病逝；杜鲁门继任。"
+    }
+   ],
+   "deeds": [
+    "新政重塑美国国家-社会关系（社保、劳工立法、证券监管、田纳西流域管理局）。",
+    "领导美国参加二战并与盟国设计战后秩序（联合国构想、雅尔塔安排）。",
+    "四次当选总统——打破两任传统（1951年第22修正案将其制度化废除）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "主流评价",
+     "view": "美国20世纪最伟大总统之一（学界排名长期前三），危机领导与国家能力建设的典范。",
+     "basis": "美国总统研究（学界排名调查）。"
+    },
+    {
+     "holder": "批评与修正",
+     "view": "新政未终结大萧条（1937—38二次衰退）、日裔美国人拘禁令（1942年9066号行政令）为其纪录污点——修正研究将这些纳入总体评价。",
+     "basis": "美国史修正研究。"
+    }
+   ],
+   "sources": [
+    "brit-great-depression",
+    "brit-ww2",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
