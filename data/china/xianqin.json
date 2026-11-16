@@ -1,0 +1,610 @@
+{
+  "unit_id": "china-xianqin",
+  "region": "china",
+  "title": "先秦：夏、商、西周",
+  "period_display": "约前2070年—前771年",
+  "start_year": -2070,
+  "end_year": -771,
+  "overview": {
+    "main_threads": [
+      "早期国家的形成：从夏的传说框架到商的考古实证，再到西周的成熟王权",
+      "天命与王权观念的起源：商人尚鬼神、周人讲\"天命靡常\"的转换",
+      "封建与礼乐：西周分封、宗法、礼制构成此后中国政治文化的基本语汇"
+    ],
+    "sub_periods": [
+      {"name": "夏（传说与争议中）", "range_display": "约前2070年—前1600年", "desc": "文献中第一个世袭王朝；考古上对应二里头文化，但\"二里头=夏\"尚无文字自证。"},
+      {"name": "商", "range_display": "约前1600年—前1046年", "desc": "甲骨文证实王朝存在，殷墟为都两百余年；贞人与青铜礼器构成精神世界。"},
+      {"name": "西周", "range_display": "前1046年—前771年", "desc": "分封、宗法、礼乐制度成熟，宣王中兴后犬戎破镐京而亡。"}
+    ],
+    "key_changes": [
+      "世袭\"家天下\"王朝的开端",
+      "汉字书写传统确立（甲骨文—金文）",
+      "分封宗法制与礼乐文明成型",
+      "青铜器从礼器到铭文载体的演变"
+    ]
+  },
+  "events": [
+    {
+      "id": "xia-dayu-jianshi",
+      "title": "大禹治水与夏朝建立（传统叙事）",
+      "year": -2070,
+      "end_year": null,
+      "year_display": "约前2070年",
+      "end_year_display": null,
+      "year_note": "据\"夏商周断代工程\"年表，夏朝始于约前2070年；该年代系工程整合文献推算与碳十四测年的结果，本身即为争议对象。",
+      "location": "中原（文献称伊洛、河济之间；考古对应二里头文化区）",
+      "key_people": ["dayu"],
+      "background": "文献记载尧舜时期洪水泛滥，禹受命治水，\"居外十三年，过家门不敢入\"（《史记》），功成后舜禅位于禹，禹子启继位，开启世袭。",
+      "process": [
+        "传说时代：鲧治水失败被诛，禹继任，改壅堵为疏导（此为文献追述）。",
+        "禹联合各部族导河积石、通九川，划分九州贡赋（战国文献的框架性追述）。",
+        "禹会诸侯于涂山、执玉帛者万国（传说叙事）。",
+        "禹传启，\"公天下\"变\"家天下\"，夏朝建立（夏商周断代工程系年约前2070年）。"
+      ],
+      "outcome": "夏被视为中国王朝史的开端：世袭王权、天下观念与治水-国家能力的关联由此定型；但夏的绝对年代与存在形态仍是学术争议焦点。",
+      "controversies": [
+        {"issue": "夏朝年代与\"信史\"地位", "views": [
+          {"holder": "夏商周断代工程专家组", "basis": "以文献推排+碳十四测年给出约前2070—前1600年，作为阶段性成果公布。"},
+          {"holder": "国际及部分国内学者", "basis": "认为夏是周人的追述建构，二里头文化规模尚不足以称\"王朝\"；二里头无出土文字，\"二里头=夏\"无法自证。"},
+          {"holder": "古史辨派（顾颉刚等，1920年代）", "basis": "认为禹最初为神话人物，尧舜禹禅让为战国层累造成的古史观。"}
+        ]},
+        {"issue": "治水叙事的性质", "views": [
+          {"holder": "传统史观", "basis": "视治水为国家组织能力的起点，反映集体记忆中的真实洪水治理。"},
+          {"holder": "神话学与环境史研究", "basis": "倾向于把\"大禹治水\"看作以叙事形式保存的洪水记忆（如有学者对应约前2000年黄河改道假说），细节不可作史实。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>夏朝建立：文献叙事与考古对应（示意）</text><g font-size='12'><rect x='50' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='150' y='106' text-anchor='middle'>文献层</text><text x='150' y='128' text-anchor='middle' font-size='11'>《史记》《尚书》《竹书纪年》</text><rect x='50' y='170' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='150' y='196' text-anchor='middle'>大禹治水传说</text><text x='150' y='218' text-anchor='middle' font-size='11'>疏导·涂山会盟·禅让→世袭</text><rect x='300' y='80' width='200' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='400' y='106' text-anchor='middle' fill='#8c1f28'>断代工程年表</text><text x='400' y='128' text-anchor='middle' font-size='11'>夏约前2070—前1600</text><rect x='300' y='170' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='400' y='196' text-anchor='middle'>考古层</text><text x='400' y='218' text-anchor='middle' font-size='11'>二里头文化（偃师）</text><line x1='250' y1='205' x2='296' y2='205' stroke='#2b4a6f' marker-end='url(#xa1)'/><line x1='400' y1='150' x2='400' y2='166' stroke='#2b4a6f' marker-end='url(#xa1)'/></g><rect x='540' y='80' width='180' height='160' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='110' text-anchor='middle' font-size='14' fill='#8c1f28'>争议</text><text x='630' y='136' text-anchor='middle' font-size='11'>无文字自证</text><text x='630' y='158' text-anchor='middle' font-size='11'>\"二里头=夏\"未定</text><text x='630' y='180' text-anchor='middle' font-size='11'>\"信史\"地位分歧</text><text x='630' y='202' text-anchor='middle' font-size='11'>古史辨：神话层累</text><line x1='500' y1='205' x2='536' y2='205' stroke='#8c1f28' marker-end='url(#xa1)'/><text x='380' y='300' text-anchor='middle' font-size='14'>世袭王权（启）→ 天下观念 → 治水与国家能力的关联</text><text x='380' y='345' text-anchor='middle' font-size='12' fill='#7a7468'>本条年代为断代工程推定值，非考古确证</text></svg>",
+      "sources": ["duandai", "shiji", "zhushujinian"],
+      "needs_verification": true,
+      "pending_notes": "夏朝始年（约前2070）为断代工程推定，无文字自证；\"二里头=夏\"的对应关系学界未定；大禹事迹属传说时代追述，不可作史实。"
+    },
+    {
+      "id": "shang-tang-miexia",
+      "title": "商汤灭夏与商朝建立（约前1600）",
+      "year": -1600,
+      "end_year": null,
+      "year_display": "约前1600年",
+      "end_year_display": null,
+      "year_note": "据夏商周断代工程年表，夏商分界约在前1600年；商汤伐桀系于该年前后，\"约\"即此义。",
+      "location": "鸣条（文献地名，一说今山西或河南境）",
+      "key_people": ["shang-tang"],
+      "background": "夏桀暴虐，诸侯离心；商部族起于东方（亳，地望有争议），汤用伊尹、仲虺，先翦除夏之羽翼（葛、韦、顾、昆吾），而后伐夏。",
+      "process": [
+        "汤以伊尹为相，经营亳都，收服东方诸国（文献追述）。",
+        "夏桀失政，汤誓师伐桀：《尚书·汤誓》\"时日曷丧，予及汝皆亡\"。",
+        "鸣条之战败夏军，桀败走三朡后死；汤灭夏，回亳作《汤诰》。",
+        "商朝建立，历十七世三十一王，至盘庚迁殷前数迁其都。"
+      ],
+      "outcome": "中国第二个王朝确立，商的甲骨文与青铜器使其成为首个有同时代文字自证的王朝；灭夏叙事成为后世\"革命\"话语的原型（\"汤武革命\"）。",
+      "controversies": [
+        {"issue": "商初年代的绝对性", "views": [
+          {"holder": "夏商周断代工程", "basis": "以商前期（前1600—前1300）与考古（郑州商城、偃师商城始建年代）互校，定夏商分界约前1600年。"},
+          {"holder": "考古学界", "basis": "偃师商城与郑州商城何者为\"亳\"长期争论（\"郑亳说\"与\"西亳说\"），直接影响商初年代定位的精度。"}
+        ]},
+        {"issue": "伊尹事迹的史书差异", "views": [
+          {"holder": "《史记》", "basis": "太甲失道，伊尹放之桐宫三年，悔过自责后迎归，还政于太甲。"},
+          {"holder": "《竹书纪年》", "basis": "记伊尹放太甲自立，太甲潜出杀伊尹；两说截然相反，清华简《赤鹄之集汤之屋》等新出材料又提供神话化版本，学界尚无定论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>商汤灭夏（约前1600年）</text><g font-size='13'><rect x='60' y='80' width='180' height='64' fill='#efe4cf' stroke='#2b4a6f'/><text x='150' y='106' text-anchor='middle'>商（亳）</text><text x='150' y='128' text-anchor='middle' font-size='11'>汤·伊尹·仲虺</text><rect x='300' y='80' width='180' height='64' fill='#fff' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle'>翦除羽翼</text><text x='390' y='128' text-anchor='middle' font-size='11'>葛·韦·顾·昆吾</text><rect x='540' y='80' width='180' height='64' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='106' text-anchor='middle' fill='#8c1f28'>夏桀失政</text><text x='630' y='128' text-anchor='middle' font-size='11'>诸侯离心</text><line x1='240' y1='112' x2='296' y2='112' stroke='#2b4a6f' marker-end='url(#xa2)'/><line x1='480' y1='112' x2='536' y2='112' stroke='#8c1f28' marker-end='url(#xa2)'/></g><line x1='150' y1='144' x2='330' y2='200' stroke='#8c1f28' marker-end='url(#xa2)'/><line x1='630' y1='144' x2='450' y2='200' stroke='#8c1f28' marker-end='url(#xa2)'/><rect x='280' y='204' width='200' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='228' text-anchor='middle' font-size='14' fill='#8c1f28'>鸣条之战</text><text x='380' y='250' text-anchor='middle' font-size='11'>《汤誓》：\"时日曷丧\"</text><line x1='380' y1='264' x2='380' y2='292' stroke='#2b4a6f' marker-end='url(#xa2)'/><rect x='190' y='296' width='380' height='70' fill='#fff' stroke='#2b4a6f'/><text x='380' y='322' text-anchor='middle' font-size='14'>商朝建立（约前1600年）</text><text x='380' y='346' text-anchor='middle' font-size='11'>首个有同时代文字自证的王朝；\"汤武革命\"话语原型</text></svg>",
+      "sources": ["shiji", "zhushujinian", "duandai"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "shang-pangeng-qianyin",
+      "title": "盘庚迁殷",
+      "year": -1300,
+      "end_year": null,
+      "year_display": "约前1300年",
+      "end_year_display": null,
+      "year_note": "据夏商周断代工程，盘庚迁殷约在前1300年；此前传统有前1384、前1320等异说，\"约\"即此义。",
+      "location": "自奄迁于殷（今河南安阳殷墟一带）",
+      "key_people": ["pan-geng"],
+      "background": "商前期屡迁其都（前八后五之说），文献记\"不常厥邑\"；迁殷后商都稳定二百七十余年，故商亦称\"殷\"。",
+      "process": [
+        "盘庚即位，以水患与贵族奢侈为由议迁（此为《尚书·盘庚》篇的君臣对话所呈现）。",
+        "贵族反对激烈，盘庚以\"若网在纲\"等训诫晓喻（《尚书·盘庚》三篇）。",
+        "迁殷后营建洹北—小屯宫殿区，商的政治重心固定于安阳一带。",
+        "殷墟考古显示洹北商城（中商）与小屯殷墟（晚商）在年代与位置上前后衔接。"
+      ],
+      "outcome": "商都稳定带来甲骨文、青铜器工艺的高峰期；殷墟成为商代考古与编年的基点。",
+      "controversies": [
+        {"issue": "迁殷的绝对年代与迁都次数", "views": [
+          {"holder": "夏商周断代工程", "basis": "盘庚迁殷约前1300年，据商后期诸王积年与殷墟一期测年。"},
+          {"holder": "传统记载与早期研究", "basis": "\"前八后五\"的迁都次数本身即有省并之争（是否包含追尊的先公时期）；盘庚迁殷具体年份因商前期积年不明而无定说。"},
+          {"holder": "考古学界", "basis": "洹北商城与小屯的关系（先后还是并存）曾有讨论，主流倾向盘庚初迁洹北、武丁前后重心移小屯的演进说。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>盘庚迁殷（约前1300年，方位示意）</text><rect x='80' y='90' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='165' y='115' text-anchor='middle'>旧都（奄）</text><text x='165' y='135' text-anchor='middle' font-size='11'>今曲阜一带（地望有异说）</text><rect x='450' y='90' width='200' height='60' fill='#efe4cf' stroke='#8c1f28'/><text x='550' y='115' text-anchor='middle' fill='#8c1f28'>殷（安阳）</text><text x='550' y='135' text-anchor='middle' font-size='11'>洹河两岸，此后270余年</text><line x1='250' y1='120' x2='446' y2='120' stroke='#2b4a6f' marker-end='url(#xa3)'/><text x='348' y='108' text-anchor='middle' font-size='12'>迁都</text><g font-size='12'><rect x='80' y='190' width='260' height='110' fill='#fff' stroke='#2b4a6f'/><text x='210' y='216' text-anchor='middle'>迁都阻力</text><text x='210' y='240' text-anchor='middle' font-size='11'>贵族反对，《尚书·盘庚》训诫</text><text x='210' y='262' text-anchor='middle' font-size='11'>\"若网在纲\"\"无起秽以自臭\"</text><text x='210' y='284' text-anchor='middle' font-size='11'>（谈话文体，细节经史官润色）</text><rect x='420' y='190' width='260' height='110' fill='#fff' stroke='#2b4a6f'/><text x='550' y='216' text-anchor='middle'>殷墟考古</text><text x='550' y='240' text-anchor='middle' font-size='11'>洹北商城（中商）→小屯（晚商）</text><text x='550' y='262' text-anchor='middle' font-size='11'>宫殿宗庙区·王陵区·铸铜作坊</text><text x='550' y='284' text-anchor='middle' font-size='11'>1928年起科学发掘</text></g><text x='380' y='345' text-anchor='middle' font-size='13'>\"殷\"由此成为商的代称；都城稳定带来文字与青铜工艺高峰</text></svg>",
+      "sources": ["shiji", "duandai", "zhushujinian", "kaogu-cass"],
+      "needs_verification": true,
+      "pending_notes": "迁殷绝对年代（约前1300）为断代工程推定值，传统另有前1384、前1320等异说；\"前八后五\"迁都次数本身存在省并争议。"
+    },
+    {
+      "id": "shang-jiagu-yinxu",
+      "title": "甲骨文与殷墟：商代文字与考古实证",
+      "year": -1250,
+      "end_year": -1046,
+      "year_display": "约前1250年",
+      "end_year_display": "约前1046年",
+      "year_note": "甲骨文集中出现于武丁至帝辛时期（约前1250—前1046年，断代工程商后期年表）；考古层位据殷墟发掘报告。",
+      "location": "殷墟（今河南安阳小屯一带）",
+      "key_people": [],
+      "background": "商人以龟甲兽骨占卜，将卜问与应验刻于甲骨，形成档案；清末出土后被金石学家识别为商代文字。",
+      "process": [
+        "武丁前后贞人集团制度化，占卜记录涵盖祭祀、征伐、田猎、天象、疾病等。",
+        "殷墟甲骨在1899年前后被王懿荣等学者识别为古文字（发现叙事细节见争议）。",
+        "1928年起中央研究院历史语言研究所对殷墟进行科学发掘（董作宾、李济等）。",
+        "甲骨文单字约4500个，已释读约三分之一；2017年甲骨文入选联合国教科文组织《世界记忆名录》。"
+      ],
+      "outcome": "商朝的存在获得同时代文字自证，中国有文字可考的历史上推至商代；甲骨文奠定汉字体系基础，其占卜档案构成商史重建的第一手材料。",
+      "controversies": [
+        {"issue": "发现经过的叙事", "views": [
+          {"holder": "通行叙事", "basis": "1899年金石学家王懿荣在中药\"龙骨\"上发现契刻符号。"},
+          {"holder": "学术史研究", "basis": "药店发现的故事细节系后来渲染，早期流向可考者为古董商与范维卿等；\"谁最先识别\"的细节学界认为不可确考，但1899年为学界公认节点。"}
+        ]},
+        {"issue": "甲骨断代体系", "views": [
+          {"holder": "董作宾五期断代法", "basis": "以世系、称谓、贞人等标准分期，奠定甲骨学框架。"},
+          {"holder": "\"历组卜辞\"论争", "basis": "1970年代末起李学勤等提出历组卜辞年代应提前（武乙文丁改武丁晚期说），引发甲骨学界长期论争，分期体系至今仍在修正。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>甲骨文：从占卜档案到信史基石</text><g font-size='12'><rect x='60' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='160' y='106' text-anchor='middle'>占卜制度</text><text x='160' y='128' text-anchor='middle' font-size='11'>龟甲兽骨·贞人集团</text><rect x='290' y='80' width='200' height='70' fill='#fff' stroke='#2b4a6f'/><text x='390' y='106' text-anchor='middle'>刻辞内容</text><text x='390' y='128' text-anchor='middle' font-size='11'>祭祀·征伐·田猎·天象</text><rect x='520' y='80' width='200' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='620' y='106' text-anchor='middle' fill='#8c1f28'>王室档案</text><text x='620' y='128' text-anchor='middle' font-size='11'>商史第一手材料</text><line x1='260' y1='115' x2='286' y2='115' stroke='#2b4a6f' marker-end='url(#xa4)'/><line x1='490' y1='115' x2='516' y2='115' stroke='#2b4a6f' marker-end='url(#xa4)'/></g><g font-size='12'><rect x='60' y='180' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='160' y='206' text-anchor='middle'>约前1250年起</text><text x='160' y='230' text-anchor='middle' font-size='11'>武丁期刻辞高峰</text><rect x='290' y='180' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='390' y='206' text-anchor='middle'>1899年前后</text><text x='390' y='230' text-anchor='middle' font-size='11'>王懿荣等识别（细节存疑）</text><rect x='520' y='180' width='200' height='80' fill='#fff' stroke='#2b4a6f'/><text x='620' y='206' text-anchor='middle'>1928年起</text><text x='620' y='230' text-anchor='middle' font-size='11'>殷墟科学发掘</text><line x1='260' y1='220' x2='286' y2='220' stroke='#2b4a6f' marker-end='url(#xa4)'/><line x1='490' y1='220' x2='516' y2='220' stroke='#2b4a6f' marker-end='url(#xa4)'/></g><rect x='130' y='290' width='500' height='70' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='316' text-anchor='middle' font-size='14' fill='#8c1f28'>意义</text><text x='380' y='340' text-anchor='middle' font-size='11'>商代获得同时代文字自证；单字约4500，2017年入选世界记忆名录</text></svg>",
+      "sources": ["whc-yinxu", "kaogu-cass", "chnmuseum", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "shang-wuding-shengshi",
+      "title": "武丁盛世与妇好征战",
+      "year": -1250,
+      "end_year": -1192,
+      "year_display": "约前1250年",
+      "end_year_display": "约前1192年",
+      "year_note": "据夏商周断代工程，武丁在位约前1250—前1192年；妇好墓1976年发掘，器物与甲骨文互证。",
+      "location": "殷（安阳）；战事在土方、羌方、鬼方等方向",
+      "key_people": ["wu-ding"],
+      "background": "武丁少年时相传“旧劳于外”，即位后以傅说为相（“版筑”传说），振兴商政；甲骨文显示其期对外用兵频繁，王后妇好多次统军出征。",
+      "process": [
+        "武丁即位，三年不言（守孝观政说），后任用傅说等（傅说形象含传说成分）。",
+        "甲骨卜辞显示对土方、𠫑方、羌方的历次征伐，武丁期战事记录最密集。",
+        "妇好率军征羌方、土方（卜辞有“登妇好三千”等记载）；1976年殷墟妇好墓出土青铜器等1928件，铭“妇好”诸器与卜辞互证。",
+        "武丁朝商的势力范围扩展至北方与西方，商后期进入鼎盛。"
+      ],
+      "outcome": "商代国力与疆域的高峰期；妇好墓是迄今唯一可与甲骨文人物对应、未经扰动的商王室墓，直接改写对商代女性地位与军事组织的认识。",
+      "controversies": [
+        {"issue": "武丁年代", "views": [
+          {"holder": "夏商周断代工程", "basis": "在位约前1250—前1192年（整合《尚书》“肆中宗之享国七十五年”类记载与测年）。"},
+          {"holder": "早期研究", "basis": "此前推算多在（前1324—前1266）等异说；差异源于商后期诸王积年的不同复原。"}
+        ]},
+        {"issue": "妇好的军事地位", "views": [
+          {"holder": "主流考古-甲骨学界", "basis": "卜辞“登妇好三千，登旅万，呼伐羌”等与墓中钺等兵器互证，认为其确曾统军。"},
+          {"holder": "个别辨析意见", "basis": "对“妇好”为同一人还是多个“妇”的合称有讨论，但主流依墓葬与卜辞对应认为单人说成立。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>武丁朝（约前1250—前1192）</text><rect x='300' y='70' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='96' text-anchor='middle' font-size='14'>殷都（武丁）</text><text x='380' y='116' text-anchor='middle' font-size='11'>傅说为相（含传说）</text><g font-size='12'><rect x='60' y='170' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='150' y='194' text-anchor='middle'>北：土方·𠫑方</text><text x='150' y='214' text-anchor='middle' font-size='11'>卜辞征伐记录</text><rect x='290' y='170' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='194' text-anchor='middle'>西：羌方</text><text x='380' y='214' text-anchor='middle' font-size='11'>妇好率军（卜辞）</text><rect x='520' y='170' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='610' y='194' text-anchor='middle'>西北：鬼方</text><text x='610' y='214' text-anchor='middle' font-size='11'>方向性记载</text><line x1='350' y1='130' x2='160' y2='166' stroke='#8c1f28' marker-end='url(#xa5)'/><line x1='380' y1='130' x2='380' y2='166' stroke='#8c1f28' marker-end='url(#xa5)'/><line x1='410' y1='130' x2='600' y2='166' stroke='#8c1f28' marker-end='url(#xa5)'/></g><line x1='380' y1='230' x2='380' y2='262' stroke='#2b4a6f' marker-end='url(#xa5)'/><rect x='130' y='266' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='292' text-anchor='middle' font-size='13'>1976年妇好墓（殷墟，唯一未扰动商王后墓）</text><text x='380' y='316' text-anchor='middle' font-size='11'>青铜器等随葬品1928件，铭“妇好”与卜辞人物互证</text><text x='380' y='340' text-anchor='middle' font-size='11'>改写对商代女性军事地位的认识</text></svg>",
+      "sources": ["shiji", "duandai", "whc-yinxu", "kaogu-cass"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zhou-muye-zhizhan",
+      "title": "牧野之战与西周建立",
+      "year": -1046,
+      "end_year": null,
+      "year_display": "约前1046年",
+      "end_year_display": null,
+      "year_note": "克商年代有约前1046（夏商周断代工程）、约前1044（清华简《系年》支持）、约前1027（据古本《竹书纪年》的长历推算）诸说；本站取断代工程前1046年为默认值。利簋铭“甲子朝岁鼎”为关键考古参照。",
+      "location": "牧野（今河南淇县南、卫河以北）",
+      "key_people": ["zhou-wuwang"],
+      "background": "商纣王（帝辛）征东夷消耗国力，贵族离心（微子去、箕子囚、比干死）；周自文王起经略西土，“三分天下有其二”，武王会盟孟津后待机而发。",
+      "process": [
+        "武王继文王志，两年后（约前1046年一月）率戎车三百乘、虎贲三千人、甲士四万五千人会诸侯于孟津（兵力据《史记》，数字存疑）。",
+        "渡孟津，陈师牧野；作《牧誓》，誓师“称尔戈，比尔干，立尔矛”。",
+        "一月甲子日拂晓会战，商军阵前倒戈（倒戈细节系《史记》叙述），纣王逃回，登鹿台自焚。",
+        "利簋铭文“武王征商，唯甲子朝，岁鼎”与天象回推互相印证（支持前1046甲子日克商说）。",
+        "武王分封先代之后与功臣，封纣子武庚于殷，设三监；两年后武王卒，周公摄政。"
+      ],
+      "outcome": "周取代商，建立延续约八百年的王朝框架；“天命靡常”的政治神学由此形成，成为此后中国王朝更替合法性的基本论述。",
+      "controversies": [
+        {"issue": "克商年代三说", "views": [
+          {"holder": "夏商周断代工程（前1046）", "basis": "整合利簋“岁鼎”天象、懿王元年天再旦、碳十四与文献积年。"},
+          {"holder": "前1044年说", "basis": "据《尚书》武成历日与清华简《系年》记载重新推排（李学勤等）。"},
+          {"holder": "前1027年说", "basis": "依古本《竹书纪年》“自武王灭殷…七百七十三年”推算的长历传统（陈梦家等主张）。"},
+          {"holder": "学界现状", "basis": "前1046年为国内通行取值，国际学界亦有采前1044者；无最终定论，本站取前1046并标注。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>牧野之战（约前1046年，方位示意）</text><rect x='80' y='90' width='180' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='170' y='116' text-anchor='middle' font-size='14'>周师（西）</text><text x='170' y='140' text-anchor='middle' font-size='11'>戎车300乘·虎贲3000·甲士45000（史记数字，存疑）</text><rect x='500' y='90' width='180' height='70' fill='#fff' stroke='#8c1f28'/><text x='590' y='116' text-anchor='middle' font-size='14'>商（纣王）</text><text x='590' y='140' text-anchor='middle' font-size='11'>主力征东夷在外</text><line x1='260' y1='125' x2='380' y2='190' stroke='#8c1f28' marker-end='url(#xa6)'/><line x1='500' y1='125' x2='420' y2='190' stroke='#8c1f28' marker-end='url(#xa6)'/><rect x='280' y='194' width='200' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='218' text-anchor='middle' font-size='14' fill='#8c1f28'>牧野会战</text><text x='380' y='240' text-anchor='middle' font-size='11'>甲子日拂晓·阵前倒戈（史记叙述）</text><line x1='380' y1='254' x2='380' y2='284' stroke='#8c1f28' marker-end='url(#xa6)'/><rect x='190' y='288' width='380' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='312' text-anchor='middle' font-size='13'>纣登鹿台自焚，周建，封先代与三监</text><text x='380' y='336' text-anchor='middle' font-size='11'>利簋铭“唯甲子朝岁鼎”——考古+天象互证</text><text x='380' y='356' text-anchor='middle' font-size='11'>克商年代三说：前1046/前1044/前1027，本站取前1046</text></svg>",
+      "sources": ["shiji", "zhushujinian", "zhwp-muye", "duandai", "chnmuseum"],
+      "needs_verification": true,
+      "pending_notes": "克商年代三说并存（前1046/前1044/前1027），本站取断代工程值；参战兵力（戎车三百乘等）出自《史记》约数，无双源印证。"
+    },
+    {
+      "id": "zhou-fengjian-lifa",
+      "title": "周初分封与周公制礼作乐",
+      "year": -1042,
+      "end_year": -1036,
+      "year_display": "约前1042年",
+      "end_year_display": "约前1036年",
+      "year_note": "周公摄政七年（前1042—前1036年，据夏商周断代工程成王元年约前1042年推算）；武王克商后即有初步分封，成王初年大封建。",
+      "location": "镐京及关东（鲁、燕、卫、宋、齐等封国）",
+      "key_people": ["zhou-gong-dan"],
+      "background": "武王克商后两年而卒，成王年幼，周公摄政引发管叔、蔡叔联合武庚的“三监之乱”；平乱后周公主持大分封与制度建设，确立周家天下。",
+      "process": [
+        "约前1042年，三监之乱起，周公东征三年，诛武庚、放蔡叔，营洛邑（成周）以控制东方。",
+        "大规模分封：封周公子伯禽于鲁、召公奭于燕、康叔于卫，封微子启于宋（存殷祀），姜太公于齐。",
+        "制礼作乐：确立宗法制（嫡长继承）、畿服/朝觐/丧祭仪节与雅乐体系（细节为后世追记，见争议）。",
+        "约前1036年，周公还政成王，“北面就臣位”。"
+      ],
+      "outcome": "分封制将周王室与诸侯以血缘-功勋纽带绑定，形成“封邦建卫”的政治网络；礼乐与宗法成为此后中国政治文化的核心语汇，孔子“郁郁乎文哉，吾从周”即指此。",
+      "controversies": [
+        {"issue": "分封的时序", "views": [
+          {"holder": "《史记》本纪叙事", "basis": "武王克商当封即已封（封武庚、三监等），成王初为大规模追封。"},
+          {"holder": "现代研究", "basis": "结合青铜器铭文（如克罍克盉记燕国之封）认为分封是一个延续数十年的过程，“一次性大封建”为简化叙事。"}
+        ]},
+        {"issue": "《周礼》所载制度是否周公原制", "views": [
+          {"holder": "传统经学", "basis": "《周礼》为周公致太平之书。"},
+          {"holder": "现代学界主流", "basis": "《周礼》成书于战国（一说西汉初），反映的是理想化的官制蓝图；西周实际制度需以金文与《尚书》周书各篇为据。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>周初大分封（约前1042—前1036，方位示意）</text><rect x='300' y='80' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='106' text-anchor='middle' font-size='14'>镐京（宗周）</text><text x='380' y='126' text-anchor='middle' font-size='11'>周王室·周公摄政</text><g font-size='12'><rect x='60' y='180' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='130' y='204' text-anchor='middle'>燕（召公）</text><text x='130' y='222' text-anchor='middle' font-size='11'>今北京房山琉璃河</text><rect x='230' y='180' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='300' y='204' text-anchor='middle'>卫（康叔）</text><text x='300' y='222' text-anchor='middle' font-size='11'>殷墟故地</text><rect x='400' y='180' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='470' y='204' text-anchor='middle'>宋（微子）</text><text x='470' y='222' text-anchor='middle' font-size='11'>存殷祀</text><rect x='570' y='180' width='140' height='56' fill='#fff' stroke='#2b4a6f'/><text x='640' y='204' text-anchor='middle'>齐·鲁（东）</text><text x='640' y='222' text-anchor='middle' font-size='11'>太公·伯禽</text><line x1='360' y1='140' x2='135' y2='176' stroke='#2b4a6f' marker-end='url(#xa7)'/><line x1='380' y1='140' x2='300' y2='176' stroke='#2b4a6f' marker-end='url(#xa7)'/><line x1='390' y1='140' x2='470' y2='176' stroke='#2b4a6f' marker-end='url(#xa7)'/><line x1='400' y1='140' x2='630' y2='176' stroke='#2b4a6f' marker-end='url(#xa7)'/></g><rect x='130' y='270' width='500' height='90' fill='#fff' stroke='#8c1f28'/><text x='380' y='296' text-anchor='middle' font-size='13' fill='#8c1f28'>制礼作乐（细节为后世追记）</text><text x='380' y='320' text-anchor='middle' font-size='11'>宗法嫡长继承·朝觐丧祭仪节·雅乐体系</text><text x='380' y='344' text-anchor='middle' font-size='11'>《周礼》为战国理想化蓝图，西周实制以金文为据</text></svg>",
+      "sources": ["shangshu", "shiji", "qianmu-guoshi", "kaogu-cass"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zhou-chengkang-zhizhi",
+      "title": "成康之治",
+      "year": -1042,
+      "end_year": -996,
+      "year_display": "约前1042年",
+      "end_year_display": "约前996年",
+      "year_note": "成王（约前1042—前1021）、康王（约前1020—前996）在位年据夏商周断代工程；康王卒年据王表推排。",
+      "location": "镐京、成周及诸夏封国",
+      "key_people": [],
+      "background": "成王亲政后承周公所立制度，康王继之，四十年间史称“天下安宁，刑错四十余年不用”（《史记·周本纪》）。",
+      "process": [
+        "成王亲政，营建成周洛邑，迁殷顽民；巩固分封与朝觐巡狩体制。",
+        "康王时期对外仍有征伐：小盂鼎铭文记伐鬼方获俘（数字存疑），为康王武功的实物证据。",
+        "册命制度成熟：金文所见册命礼（授职、赐服、命服）成为西周官僚体系的仪式化表达。"
+      ],
+      "outcome": "西周体制的稳定期，史家以“刑错不用”称之；册命金文与《尚书》周书为研究西周官僚制与王权仪式提供双轨材料。",
+      "controversies": [
+        {"issue": "\"刑错四十余年不用\"的史实性", "views": [
+          {"holder": "《史记·周本纪》", "basis": "成康之际天下安宁，刑错不用四十余年。"},
+          {"holder": "现代研究", "basis": "视为对成康期相对安定与铭文稀见争讼的概括性夸饰；小盂鼎的战俘记录与青铜器诉讼铭文（此期以后渐多）显示刑罚与军事并未消失。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>成康之治（约前1042—前996）</text><g font-size='13'><rect x='80' y='80' width='240' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='200' y='106' text-anchor='middle'>成王（约前1042—前1021）</text><text x='200' y='130' text-anchor='middle' font-size='11'>亲政·营成周·迁殷顽民</text><rect x='440' y='80' width='240' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='560' y='106' text-anchor='middle'>康王（约前1020—前996）</text><text x='560' y='130' text-anchor='middle' font-size='11'>伐鬼方（小盂鼎铭）</text></g><g font-size='12'><rect x='100' y='180' width='260' height='90' fill='#fff' stroke='#2b4a6f'/><text x='230' y='206' text-anchor='middle'>制度成果</text><text x='230' y='230' text-anchor='middle' font-size='11'>分封朝觐体系·册命礼</text><text x='230' y='252' text-anchor='middle' font-size='11'>金文册命：授职·赐服·命服</text><rect x='400' y='180' width='260' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='530' y='206' text-anchor='middle' fill='#8c1f28'>\"刑错不用\"辨析</text><text x='530' y='230' text-anchor='middle' font-size='11'>《史记》夸饰性概括</text><text x='530' y='252' text-anchor='middle' font-size='11'>刑罚军事并未消失</text></g><text x='380' y='330' text-anchor='middle' font-size='13'>西周体制的稳定期：礼制成熟、官僚仪式化</text></svg>",
+      "sources": ["shiji", "shijing", "qianmu-guoshi", "kaogu-cass"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zhou-hezun-zhongguo",
+      "title": "何尊铸铭与\"宅兹中国\"",
+      "year": -1038,
+      "end_year": null,
+      "year_display": "约前1038年",
+      "end_year_display": null,
+      "year_note": "何尊铭文记成王五年（一说亲政五年）营成周之事，约前1038年（据夏商周断代工程成王纪年推算，铭文纪年与营洛邑事系学界通说，具体年份有数年出入）。",
+      "location": "陕西宝鸡（1963年出土）",
+      "key_people": [],
+      "background": "西周成王时期贵族“何”铸尊记其先父随武王克商与成王营建成周洛邑之事，尊内底铸铭122字（一说119字，因残泐计数有差）。",
+      "process": [
+        "铭文追述武王克商后告祭于天：“余其宅兹中国，自兹乂民”。",
+        "记录成王五年迁宅成周、在京室祭告，并训诰“何”。",
+        "1963年何尊出土于宝鸡贾村塬，1975年除锈发现内底铭文，现存宝鸡青铜器博物院。"
+      ],
+      "outcome": "“宅兹中国”是“中国”二字的最早连文实例之一（铭文之“中国”指成周洛邑一带的天下之中），成为中华文明空间观念与国名溯源的标志性文物；何尊为首批禁止出境展览文物。",
+      "controversies": [
+        {"issue": "铭文纪年与作器时间", "views": [
+          {"holder": "唐兰等", "basis": "释为成王五年，系于成王亲政五年营洛邑。"},
+          {"holder": "马承源等", "basis": "以“唯王五祀”对应成王摄政五年，各家对成王纪年起算（元年）口径不同，作器年份有数年浮动。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><text x='380' y='36' text-anchor='middle' font-size='20'>何尊与\"宅兹中国\"（约前1038年）</text><rect x='280' y='70' width='200' height='140' fill='#c8a45c' stroke='#8c1f28' stroke-width='2'/><polygon points='280,70 300,40 460,40 480,70' fill='#c8a45c' stroke='#8c1f28'/><text x='380' y='150' text-anchor='middle' font-size='16' fill='#8c1f28'>何尊</text><text x='380' y='176' text-anchor='middle' font-size='11'>青铜酒器·铭122字（计数有差）</text><g font-size='12'><rect x='60' y='240' width='300' height='100' fill='#fff' stroke='#2b4a6f'/><text x='210' y='266' text-anchor='middle'>铭文要旨</text><text x='210' y='290' text-anchor='middle' font-size='11'>武王克商告天：\"余其宅兹中国\"</text><text x='210' y='312' text-anchor='middle' font-size='11'>成王五年迁宅成周（洛邑）</text><rect x='420' y='240' width='280' height='100' fill='#fff' stroke='#2b4a6f'/><text x='560' y='266' text-anchor='middle'>断代分歧</text><text x='560' y='290' text-anchor='middle' font-size='11'>唐兰：成王亲政五年</text><text x='560' y='312' text-anchor='middle' font-size='11'>马承源：摄政五年（纪年口径不同）</text></g><text x='380' y='376' text-anchor='middle' font-size='12'>1963年宝鸡出土，1975年除锈发现铭文，现藏宝鸡青铜器博物院</text></svg>",
+      "sources": ["chnmuseum", "zgbk", "kaogu-cass"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zhou-guoren-baodong",
+      "title": "国人暴动与共和行政",
+      "year": -841,
+      "end_year": -828,
+      "year_display": "前841年",
+      "end_year_display": "前828年",
+      "year_note": "前841年（厉王三十七年）国人暴动，同年起为“共和”纪年；此为中国历史有连续确切纪年之始（据《史记》十二诸侯年表，历表换算），厉王卒于前828年。",
+      "location": "镐京",
+      "key_people": ["zhou-liwang"],
+      "background": "厉王任用荣夷公行“专利”（垄断山林川泽之利），又使卫巫监谤，“国人莫敢言，道路以目”（《国语》载召公谏语）。",
+      "process": [
+        "厉王“专利”激起国人（居于国都的贵族与平民）不满，召公谏“防民之口，甚于防川”，厉王不听。",
+        "前841年，国人暴动，厉王奔彘（今山西霍州一带）。",
+        "此后十四年为“共和”纪年：一说周公、召公二相共同行政（《史记》），一说共伯和摄行天子政（《竹书纪年》等）。",
+        "前828年厉王死于彘，太子静（宣王）由召公养护长大，即位，共和行政结束。"
+      ],
+      "outcome": "王权被国人力量短暂中断十四年，开创了“共和”纪年；前841年成为此后中国编年史连续可考的起点。",
+      "controversies": [
+        {"issue": "共和行政是谁主政", "views": [
+          {"holder": "《史记·周本纪》", "basis": "召公、周公二相行政，号曰“共和”。"},
+          {"holder": "《竹书纪年》及《吕氏春秋》等", "basis": "共伯和（共国国君）入主王政；清华简《系年》亦记“共伯和”摄政，倾向于支持共伯和说。"},
+          {"holder": "调和说", "basis": "有学者认为共伯和为共地之君、行王政即由周召二相辅佐，两说可通；本站并列，不下结论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>国人暴动与共和行政（前841—前828）</text><g font-size='12'><rect x='60' y='80' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='170' y='106' text-anchor='middle'>厉王专利+监谤</text><text x='170' y='130' text-anchor='middle' font-size='11'>荣夷公·卫巫</text><text x='170' y='150' text-anchor='middle' font-size='11'>\"道路以目\"（国语）</text><rect x='320' y='80' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='410' y='106' text-anchor='middle' fill='#8c1f28'>前841 国人暴动</text><text x='410' y='130' text-anchor='middle' font-size='11'>厉王奔彘（今霍州）</text><text x='410' y='150' text-anchor='middle' font-size='11'>连续纪年之始</text><rect x='540' y='80' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='630' y='106' text-anchor='middle'>共和十四年</text><text x='630' y='130' text-anchor='middle' font-size='11'>前828 厉王卒于彘</text><text x='630' y='150' text-anchor='middle' font-size='11'>宣王即位</text><line x1='280' y1='120' x2='316' y2='120' stroke='#8c1f28' marker-end='url(#xa8)'/><line x1='500' y1='120' x2='536' y2='120' stroke='#8c1f28' marker-end='url(#xa8)'/></g><rect x='130' y='200' width='240' height='110' fill='#fff' stroke='#2b4a6f'/><text x='250' y='226' text-anchor='middle' font-size='13'>共和行政：两说</text><text x='250' y='252' text-anchor='middle' font-size='11'>《史记》：周召二相行政</text><text x='250' y='276' text-anchor='middle' font-size='11'>《竹书纪年》：共伯和摄政</text><text x='250' y='298' text-anchor='middle' font-size='11'>清华简《系年》支持共伯和说</text><rect x='410' y='200' width='240' height='110' fill='#efe4cf' stroke='#8c1f28'/><text x='530' y='226' text-anchor='middle' font-size='13' fill='#8c1f28'>意义</text><text x='530' y='252' text-anchor='middle' font-size='11'>王权被国人中断14年</text><text x='530' y='276' text-anchor='middle' font-size='11'>前841年起编年连续可考</text><text x='530' y='298' text-anchor='middle' font-size='11'>贵族政治力量首次登台</text></svg>",
+      "sources": ["shiji", "zhushujinian", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zhou-xuanwang-zhongxing",
+      "title": "宣王中兴",
+      "year": -827,
+      "end_year": -782,
+      "year_display": "前827年",
+      "end_year_display": "前782年",
+      "year_note": "宣王于前827年（共和十四年之次年）即位，在位四十六年至前782年（据《史记》积年与共和纪年推排，历表换算）。",
+      "location": "镐京及北疆、淮夷方向",
+      "key_people": [],
+      "background": "厉王奔彘、共和十四年后西周王权重建；宣王整顿“不籍千亩”以来的农政与军事，对猃狁、淮夷、徐方等用兵。",
+      "process": [
+        "前827年宣王即位，修复公田耕籍之礼，任用召穆公、周定公、尹吉甫等（卿士系据金文与《诗》零合）。",
+        "北伐猃狁（“薄伐猃狁，至于大原”，《诗·小雅·六月》），南征淮夷、徐方（《诗·大雅》江汉、常武诸篇所咏）。",
+        "封韩侯、申伯等以屏藩要地（金文与《诗》互证，如兮甲盘记管理成周四方委积与诸侯贸易）。",
+        "晚年失利：约前789年千亩之战败于姜氏之戎，“丧南国之师”；“料民于太原”清查人口被仲山父谏阻（《国语》）。",
+        "前782年宣王卒，幽王立。"
+      ],
+      "outcome": "西周军事与王权短暂复兴（“中兴”），但损耗巨大：南国之师尽丧加深王畿防御空虚，为幽王之乱埋下伏笔。",
+      "controversies": [
+        {"issue": "中兴的成色", "views": [
+          {"holder": "传统叙事（《诗序》及史家）", "basis": "视宣王为中兴令主，强调武功与礼制修复。"},
+          {"holder": "现代研究", "basis": "注意其晚年内政失利（千亩之败、料民之争）与诸侯离心（立鲁君废长立少致鲁乱），中兴实为盛极转衰的过渡；本站并列。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>宣王中兴（前827—前782）</text><rect x='300' y='70' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='96' text-anchor='middle' font-size='14'>镐京（宣王）</text><text x='380' y='116' text-anchor='middle' font-size='11'>修复耕籍·任贤</text><g font-size='12'><rect x='60' y='170' width='190' height='60' fill='#fff' stroke='#2b4a6f'/><text x='155' y='194' text-anchor='middle'>北伐猃狁</text><text x='155' y='214' text-anchor='middle' font-size='11'>《诗·六月》\"至于大原\"</text><rect x='290' y='170' width='180' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='194' text-anchor='middle'>南征淮夷·徐方</text><text x='380' y='214' text-anchor='middle' font-size='11'>《诗》江汉·常武</text><rect x='510' y='170' width='190' height='60' fill='#fff' stroke='#2b4a6f'/><text x='605' y='194' text-anchor='middle'>封韩侯·申伯</text><text x='605' y='214' text-anchor='middle' font-size='11'>屏藩要地·金文互证</text><line x1='350' y1='130' x2='165' y2='166' stroke='#2b4a6f' marker-end='url(#xa9)'/><line x1='380' y1='130' x2='380' y2='166' stroke='#2b4a6f' marker-end='url(#xa9)'/><line x1='410' y1='130' x2='595' y2='166' stroke='#2b4a6f' marker-end='url(#xa9)'/></g><rect x='130' y='260' width='240' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='250' y='286' text-anchor='middle' font-size='13' fill='#8c1f28'>晚年失利</text><text x='250' y='310' text-anchor='middle' font-size='11'>约前789千亩之战败</text><text x='250' y='332' text-anchor='middle' font-size='11'>\"丧南国之师\"·料民之争</text><rect x='410' y='260' width='240' height='90' fill='#fff' stroke='#2b4a6f'/><text x='530' y='286' text-anchor='middle' font-size='13'>中兴成色之辩</text><text x='530' y='310' text-anchor='middle' font-size='11'>传统：中兴令主</text><text x='530' y='332' text-anchor='middle' font-size='11'>现代：盛极转衰的过渡</text></svg>",
+      "sources": ["shiji", "shijing", "lvsimian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "zhou-youwang-wang",
+      "title": "犬戎破镐京与西周灭亡",
+      "year": -771,
+      "end_year": null,
+      "year_display": "前771年",
+      "end_year_display": null,
+      "year_note": "幽王十一年（前771年）申侯联合缯与犬戎攻镐京，幽王死于骊山下；据《史记》幽王在位积年推排（历表换算）。",
+      "location": "镐京、骊山（今西安临潼一带）",
+      "key_people": ["zhou-youwang"],
+      "background": "幽王宠褒姒，废申后与太子宜臼；宜臼奔西申，申侯怒，联合缯、犬戎攻周。王室内斗外引边族，西周军事重心（南国之师）此前已损耗。",
+      "process": [
+        "幽王废申后、太子宜臼，立褒姒之子伯服（伯盘）为储（废立过程有史料歧异）。",
+        "申侯联合缯、犬戎攻入镐京，幽王与伯服死于骊山下，褒姒被掳。",
+        "诸侯与申、缯等共立宜臼于申，是为平王；另一系立携王（携王余臣，见《竹书纪年》，“二王并立”约十余年）。",
+        "前770年平王东迁洛邑，西周亡，东周（春秋）开始。"
+      ],
+      "outcome": "西周王权瓦解，周室东迁后仅存共主名义；权力下移至诸侯（“礼乐征伐自诸侯出”），春秋争霸时代开启。",
+      "controversies": [
+        {"issue": "\"烽火戏诸侯\"的真实性", "views": [
+          {"holder": "《史记·周本纪》", "basis": "幽王为博褒姒一笑数举烽火，诸侯数至而无寇，犬戎至而莫救——戏剧化叙事。"},
+          {"holder": "钱穆（《国史大纲》）", "basis": "斥为“委巷小人之说”，指出诸侯兵不能朝发夕至、烽火传信体制不合情理。"},
+          {"holder": "清华简《系年》（2011年公布）", "basis": "记幽王之亡无烽火情节，系申侯主动攻周；学界据此重审烽火叙事为后世层累。"}
+        ]},
+        {"issue": "二王并立", "views": [
+          {"holder": "古本《竹书纪年》", "basis": "幽王死后“邦君诸正”立王子余臣于虢，是为携王，与平王并立至约前750年前后（携王被杀年份有异说）。"},
+          {"holder": "《史记》系统", "basis": "不载携王，直接叙平王东迁；现代研究多认为携王记载可信，东迁前的王位之争持续多年。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xa10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>西周灭亡（前771年）</text><g font-size='12'><rect x='50' y='80' width='210' height='76' fill='#fff' stroke='#2b4a6f'/><text x='155' y='106' text-anchor='middle'>幽王废申后·太子</text><text x='155' y='128' text-anchor='middle' font-size='11'>立褒姒子伯服为储</text><text x='155' y='148' text-anchor='middle' font-size='11'>宜臼奔西申</text><rect x='300' y='80' width='170' height='76' fill='#f3d9d3' stroke='#8c1f28'/><text x='385' y='106' text-anchor='middle' fill='#8c1f28'>申侯联缯·犬戎</text><text x='385' y='128' text-anchor='middle' font-size='11'>攻镐京</text><text x='385' y='148' text-anchor='middle' font-size='11'>幽王死于骊山</text><rect x='510' y='80' width='210' height='76' fill='#fff' stroke='#2b4a6f'/><text x='615' y='106' text-anchor='middle'>宜臼立于申（平王）</text><text x='615' y='128' text-anchor='middle' font-size='11'>另有携王余臣并立</text><text x='615' y='148' text-anchor='middle' font-size='11'>（《竹书纪年》二王说）</text><line x1='260' y1='118' x2='296' y2='118' stroke='#8c1f28' marker-end='url(#xa10)'/><line x1='470' y1='118' x2='506' y2='118' stroke='#8c1f28' marker-end='url(#xa10)'/></g><line x1='615' y1='156' x2='420' y2='216' stroke='#2b4a6f' marker-end='url(#xa10)'/><rect x='230' y='220' width='300' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='244' text-anchor='middle' font-size='14'>前770年 平王东迁洛邑</text><text x='380' y='266' text-anchor='middle' font-size='11'>西周亡，东周（春秋）开始</text><rect x='130' y='300' width='500' height='70' fill='#fff' stroke='#8c1f28'/><text x='380' y='324' text-anchor='middle' font-size='12' fill='#8c1f28'>争议：\"烽火戏诸侯\"——《史记》戏剧化叙事，钱穆斥之，清华简《系年》无烽火情节</text><text x='380' y='352' text-anchor='middle' font-size='11'>王权瓦解 → \"礼乐征伐自诸侯出\"</text></svg>",
+      "sources": ["shiji", "zhushujinian", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "dayu",
+      "name": "大禹",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考（传说时代人物）",
+      "death_display": "卒年不可考",
+      "birth_note": "传说时代人物，无信史生卒。",
+      "death_note": "文献记其巡狩会稽而崩（越地葬禹传说），年代不可考。",
+      "chronology": [
+        {"year": -2070, "display": "约前2070年（断代工程推定）", "text": "受舜命治水成功，被禅让为王（传说叙事）；其子启继位，开世袭之端。"}
+      ],
+      "deeds": [
+        "治水：文献追述其改壅堵为疏导、划九州、定贡赋（细节为战国文本层累）。",
+        "开创世袭王权：传位于子启，“公天下”变“家天下”。",
+        "其形象成为后世治水、勤政与“公而忘私”的政治道德符号。"
+      ],
+      "evaluations": [
+        {"holder": "传统经史叙事", "view": "圣王典型：勤俭、公忠，治水体现早期国家组织能力。", "basis": "《史记·夏本纪》《尚书》诸篇。"},
+        {"holder": "古史辨派（顾颉刚，1923年）", "view": "禹的最初形象可能是神话/图腾（引发“禹为虫”论战），尧舜禹禅让为战国层累古史。", "basis": "《与钱玄同先生论古史书》及论战文章。"},
+        {"holder": "现代学界综合", "view": "把大禹视为以叙事形式保存的洪水记忆与王权起源记忆的结合体；不做人物真实性判定。", "basis": "环境考古与传说研究综述。"}
+      ],
+      "sources": ["shiji", "duandai", "qianmu-guoshi"],
+      "needs_verification": false
+    },
+    {
+      "id": "shang-tang",
+      "name": "商汤（成汤）",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考",
+      "birth_note": "商代早期人物，无信史生卒。",
+      "death_note": "卒年不可考，在位年数诸书异说（13年/30年等）。",
+      "chronology": [
+        {"year": -1600, "display": "约前1600年", "text": "灭夏建商（断代工程系年）；作《汤诰》。"}
+      ],
+      "deeds": [
+        "以伊尹、仲虺为辅，翦除夏之羽翼后鸣条灭夏。",
+        "宽政治民：文献记其“网开三面”（德政叙事）。",
+        "其伐桀成为后世“汤武革命”改朝换代正当性的原型。"
+      ],
+      "evaluations": [
+        {"holder": "传统史观", "view": "革命开国之君：以有道伐无道。", "basis": "《史记·殷本纪》《周易》革卦彖传。"},
+        {"holder": "现代史学研究", "view": "灭夏为部族联盟政治与区域权力转移的结果；“网开三面”等德政为周人的追述塑造。", "basis": "对早期商史材料的分层分析。"}
+      ],
+      "sources": ["shiji", "zhushujinian"],
+      "needs_verification": false
+    },
+    {
+      "id": "pan-geng",
+      "name": "盘庚",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考",
+      "birth_note": "商中期君主，生卒无信史。",
+      "death_note": "卒年不可考；在位年数诸说（28年等）不可确证。",
+      "chronology": [
+        {"year": -1300, "display": "约前1300年", "text": "迁殷（《尚书·盘庚》三篇记其迁都训诫）。"}
+      ],
+      "deeds": [
+        "迁殷安定商都两百七十余年，奠定商后期发展空间。",
+        "《尚书·盘庚》三篇是商代政治训诫的最早文献遗存（经周人整理）。"
+      ],
+      "evaluations": [
+        {"holder": "传统叙事", "view": "力排众议的中兴之君。", "basis": "《史记·殷本纪》《尚书》序。"},
+        {"holder": "文献学研究", "view": "《盘庚》篇的年代与文本性质（商代原文 vs 周人追记）长期讨论，主流认为是商代底本的周人写定本。", "basis": "《尚书》学界通说。"}
+      ],
+      "sources": ["shiji", "duandai"],
+      "needs_verification": false
+    },
+    {
+      "id": "wu-ding",
+      "name": "武丁",
+      "birth_year": null,
+      "death_year": -1192,
+      "birth_display": "生卒不可考",
+      "death_display": "约前1192年",
+      "birth_note": "生年无载。",
+      "death_note": "在位约前1250—前1192年（夏商周断代工程推定）。",
+      "chronology": [
+        {"year": -1250, "display": "约前1250年", "text": "即位，初期“三年不言”守观政（卜辞与文献参证）。"},
+        {"year": -1240, "display": "约前1240年代", "text": "对土方、𠫑方、羌方用兵，卜辞征伐记录最密集期。"},
+        {"year": -1192, "display": "约前1192年", "text": "卒，庙号高宗。"}
+      ],
+      "deeds": [
+        "任用傅说（版筑传说）、甘盘，振兴商政。",
+        "对外大规模用兵，扩展商势力范围（卜辞互证）。",
+        "其朝刻辞数量居商代之冠，为商史重建提供最丰富档案。"
+      ],
+      "evaluations": [
+        {"holder": "传统史观（《尚书·无逸》）", "view": "周公举之为勤政典型：“享国五十有九年”，不敢荒宁。", "basis": "《尚书·无逸》。"},
+        {"holder": "现代商史研究", "view": "其朝的对外战争与贵族婚姻（娶诸方国之女）构成商代的权力网络；“高宗”叙事与卜辞记录大体相合。", "basis": "甲骨学综合研究。"}
+      ],
+      "sources": ["shiji", "duandai", "whc-yinxu"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhou-wuwang",
+      "name": "周武王（姬发）",
+      "birth_year": null,
+      "death_year": -1043,
+      "birth_display": "生卒不可考",
+      "death_display": "约前1043年",
+      "birth_note": "生年无载（文王次子，长兄伯邑考早卒）。",
+      "death_note": "克商（约前1046）后二年崩（据《史记》“后而崩”与断代工程积年）。",
+      "chronology": [
+        {"year": -1046, "display": "约前1046年", "text": "会诸侯于孟津，牧野克商，建周。"},
+        {"year": -1045, "display": "克商后（约前1045年）", "text": "分封先代之后（神农、黄帝、尧舜禹之后及功臣），封武庚于殷，设三监。"},
+        {"year": -1043, "display": "约前1043年", "text": "崩，周公摄政辅成王。"}
+      ],
+      "deeds": [
+        "完成克商大业，结束商王朝统治。",
+        "确立“小邦周”统治“大邑商”的政治安排（三监与先代之封）。",
+        "《牧誓》《泰誓》等誓师文辞成为周初政治文本（经周人写定）。"
+      ],
+      "evaluations": [
+        {"holder": "传统史观", "view": "吊民伐罪的开国之君，“汤武革命”的完成者。", "basis": "《史记·周本纪》《周易》。"},
+        {"holder": "现代研究", "view": "克商联盟的性质（西方诸族的联合行动）与克商后的安排仓促（两年后卒，遗政由周公完成）值得关注。", "basis": "青铜器铭文与文献综合。"}
+      ],
+      "sources": ["shiji", "duandai", "zhwp-muye"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhou-gong-dan",
+      "name": "周公旦",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "卒年不可考（约还政后数年）",
+      "birth_note": "文王之子、武王之弟，生年无载。",
+      "death_note": "还政成王后数年而卒，具体年份诸说（传统有“约前1095年卒”等不可确证的推算），本站置空处理。",
+      "chronology": [
+        {"year": -1042, "display": "约前1042年", "text": "摄政：平三监之乱，东征三年。"},
+        {"year": -1040, "display": "约前1040年", "text": "营建成周洛邑，迁殷顽民。"},
+        {"year": -1038, "display": "约前1038年", "text": "制礼作乐，大分封诸姬与功臣（过程性）。"},
+        {"year": -1036, "display": "约前1036年", "text": "还政成王，北面就臣位。"}
+      ],
+      "deeds": [
+        "平定三监之乱，稳定新生的周政权。",
+        "营建成周、主持大分封，奠定西周政治地理格局。",
+        "制礼作乐、确立宗法嫡长继承，成为儒家政治理想的原型人物。",
+        "传说作《周易》爻辞、定礼经——皆属后世附会，学界不采为史实。"
+      ],
+      "evaluations": [
+        {"holder": "儒家传统", "view": "元圣：摄政不僭、还政成王，为臣道与礼制的化身；孔子梦见周公即此象征。", "basis": "《论语》《礼记》传统。"},
+        {"holder": "现代史学研究", "view": "其摄政引发的政治危机（三监之乱）与重建（封建、成周）是西周国制的真正起点；个人德行叙事与制度建构需分开评估。", "basis": "金文、简牍与《尚书》综合研究。"},
+        {"holder": "古代权臣视角的另解", "view": "历代亦有人以“周公恐惧流言日”讨论摄政者的处境与嫌疑（《汉书》王莽曾自比周公）。", "basis": "《尚书·金縢》及后世政论。"}
+      ],
+      "sources": ["shiji", "shangshu", "qianmu-guoshi"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhou-liwang",
+      "name": "周厉王（姬胡）",
+      "birth_year": null,
+      "death_year": -828,
+      "birth_display": "生卒不可考",
+      "death_display": "前828年",
+      "birth_note": "生年无载。",
+      "death_note": "奔彘十四年后卒于彘（据《史记》共和积年推排）。",
+      "chronology": [
+        {"year": -841, "display": "前841年", "text": "国人暴动，奔彘；同年起共和行政。"},
+        {"year": -828, "display": "前828年", "text": "卒于彘。"}
+      ],
+      "deeds": [
+        "行“专利”垄断山林川泽之利，引发国人普遍不满。",
+        "使卫巫监谤，压制批评（“防民之口，甚于防川”的典故所出）。",
+        "其在位期的青铜器铭文（如㝬钟自称“余虽小子”）显示王权与贵族关系的紧张。"
+      ],
+      "evaluations": [
+        {"holder": "传统史观", "view": "暴君典型：专利与监谤直接导致王权中断。", "basis": "《史记》《国语》召公谏厉王。"},
+        {"holder": "现代研究", "view": "专利可能是王权试图收回贵族占有山林川泽的财政改革，失败于执行方式；其倾覆反映西周晚期王权与国人都邑力量的结构性冲突。", "basis": "金文与《国语》对读。"}
+      ],
+      "sources": ["shiji", "zhushujinian", "kaogu-cass"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhou-youwang",
+      "name": "周幽王（姬宫湦）",
+      "birth_year": null,
+      "death_year": -771,
+      "birth_display": "生卒不可考",
+      "death_display": "前771年",
+      "birth_note": "生年无载（宣王之子）。",
+      "death_note": "前771年死于骊山下（据《史记》幽王十一年）。",
+      "chronology": [
+        {"year": -779, "display": "约前779年", "text": "褒姒入宫（约数），后立为后。"},
+        {"year": -771, "display": "前771年", "text": "申侯联犬戎破镐京，王与伯服死于骊山下。"}
+      ],
+      "deeds": [
+        "废申后与太子宜臼，立褒姒、伯服，引发外戚与边族联合反噬。",
+        "其废立处置直接触发西周灭亡；死后出现平王、携王二王并立的长期内争。"
+      ],
+      "evaluations": [
+        {"holder": "《史记》传统叙事", "view": "昏聩之君典型（烽火戏诸侯、任虢石父）。", "basis": "《史记·周本纪》。"},
+        {"holder": "现代研究", "view": "废立之争是西周晚期王权、外戚（西申）与犬戎关系危机的总爆发；“烽火”叙事为后世层累（钱穆、清华简《系年》）。", "basis": "《系年》与相关研究。"}
+      ],
+      "sources": ["shiji", "zhushujinian", "qianmu-guoshi"],
+      "needs_verification": false
+    }
+  ]
+}
