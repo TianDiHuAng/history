@@ -1819,6 +1819,39 @@
       "url2": null,
       "link_ok": null,
       "note": "私修正史，以春秋笔法重评五代人物（冯道评价之争关键文本）"
+    },
+    {
+      "id": "xu-tongjian-changbian",
+      "title": "《续资治通鉴长编》",
+      "author": "李焘（南宋）",
+      "type": "原典",
+      "lang": "zh",
+      "url": "https://zh.wikisource.org/wiki/續資治通鑑長編",
+      "url2": null,
+      "link_ok": null,
+      "note": "北宋编年史第一手史料（960—1170年间事）"
+    },
+    {
+      "id": "xu-tongjian",
+      "title": "《续资治通鉴》",
+      "author": "毕沅（清）",
+      "type": "原典",
+      "lang": "zh",
+      "url": "https://zh.wikisource.org/wiki/續資治通鑑",
+      "url2": null,
+      "link_ok": null,
+      "note": "宋元编年（接续《资治通鉴》）"
+    },
+    {
+      "id": "deng-xiaonan-zuzong",
+      "title": "邓小南《祖宗之法——北宋前期政治述略》",
+      "author": "邓小南，三联书店",
+      "type": "学术著作",
+      "lang": "zh",
+      "url": null,
+      "url2": null,
+      "link_ok": null,
+      "note": "北宋“祖宗之法”与政治文化研究代表作，离线文献"
     }
   ]
 }

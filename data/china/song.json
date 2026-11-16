@@ -1,0 +1,703 @@
+{
+  "unit_id": "china-song",
+  "region": "china",
+  "title": "宋（北宋与南宋）",
+  "period_display": "960年—1279年",
+  "start_year": 960,
+  "end_year": 1279,
+  "overview": {
+    "main_threads": [
+      "“防弊”之政的建立与代价：强干弱枝、崇文抑武、冗官冗兵",
+      "与辽、西夏、金、蒙古的长期对峙：岁币-和议体系与军事困境",
+      "经济与文化的“近世化”：商业革命、市民社会、科举社会与理学",
+      "从靖康之变到崖山海战：两次亡国的不同方式"
+    ],
+    "sub_periods": [
+      {"name": "北宋", "range_display": "960年—1127年", "desc": "太祖立制→庆历、熙丰变法→新旧党争→海上之盟与靖康之变。"},
+      {"name": "南宋", "range_display": "1127年—1279年", "desc": "建炎南渡、绍兴体制、经济文化高峰与蒙宋战争的长期抵抗。"}
+    ],
+    "key_changes": [
+      "官僚政治成熟：科举取士规模扩大、士大夫与皇帝“共治”话语",
+      "商业革命：交子（纸币）、市舶、城市坊市制瓦解",
+      "理学定型与书院制度",
+      "火器初兴与军事技术变革（对峙时代的产物）"
+    ]
+  },
+  "events": [
+    {
+      "id": "song-chenqiao-jianguo",
+      "title": "陈桥兵变与北宋建立",
+      "year": 960,
+      "end_year": null,
+      "year_display": "960年",
+      "end_year_display": null,
+      "year_note": "据《续资治通鉴长编》《宋史·太祖纪》：建隆元年正月（960年）赵匡胤陈桥兵变、回师开封受禅；公元纪年，无换算问题。",
+      "location": "陈桥驿（今河南封丘一带）→开封",
+      "key_people": ["song-taizu"],
+      "background": "后周世宗新丧、幼主恭帝继位，主少国疑；殿前都点检赵匡胤统禁军北征“契丹入侵”（军情真伪即争议点），行至陈桥驿。",
+      "process": [
+        "960年正月，军士“黄袍加身”拥立赵匡胤（预谋与偶然之辩见争议）。",
+        "回师开封，兵不血刃：约束部众不掠府库、秋毫无犯。",
+        "恭帝禅位，赵匡胤称帝（宋太祖），国号宋，都开封。",
+        "此后三年间平李筠、李重进之乱，后周势力消化完毕。"
+      ],
+      "outcome": "五代军政轮回的第五次换牌，但这一次以“防弊”制度设计终结循环：杯酒释兵权、更戍法、文官政治由此展开。",
+      "controversies": [
+        {"issue": "兵变的预谋程度", "views": [
+          {"holder": "官修叙事（《宋史》等）", "basis": "军士拥戴、太祖被迫的“黄袍”剧本。"},
+          {"holder": "史料对读（《续资治通鉴长编》考异、现代研究）", "basis": "出征前禁军人事已全部换成赵氏集团、回师计划周密——预谋说为主流学界共识；“契丹军情”的真伪亦被质疑（辽史无对应出兵记载）。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>陈桥兵变（960年正月）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>“契丹入侵”军情</text><text x='190' y='140' text-anchor='middle' font-size='11'>禁军北征（军情真伪存疑）</text><rect x='340' y='90' width='160' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' fill='#8c1f28'>陈桥驿“黄袍加身”</text><text x='420' y='140' text-anchor='middle' font-size='11'>预谋 vs 拥戴之辩</text><rect x='540' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='630' y='116' text-anchor='middle'>回师开封</text><text x='630' y='140' text-anchor='middle' font-size='11'>不掠府库·恭帝禅位</text><line x1='300' y1='135' x2='336' y2='135' stroke='#2b4a6f' marker-end='url(#xh1)'/><line x1='500' y1='135' x2='536' y2='135' stroke='#2b4a6f' marker-end='url(#xh1)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>宋建立：五代军政轮回的终结</text><text x='380' y='267' text-anchor='middle' font-size='11'>防弊之政由此展开：释兵权·更戍法·文官政治</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>学界共识：兵变预谋说（禁军人事早已换成赵氏集团）</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "deng-xiaonan-zuzong"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-beijiu-shibingquan",
+      "title": "杯酒释兵权与中央集权",
+      "year": 961,
+      "end_year": 963,
+      "year_display": "961年",
+      "end_year_display": "963年",
+      "year_note": "据《续资治通鉴长编》建隆二年（961年）七月侍宴“杯酒释兵权”事（细节的史料层次见争议）；963年收藩镇支郡、置转运使等集权措施渐次完成；公元纪年，无换算问题。",
+      "location": "开封",
+      "key_people": ["song-taizu"],
+      "background": "五代武人乱政的记忆；太祖以“富贵易权”的和平方式收回宿将兵权（石守信、王审琦等），继而拆分中央军权与地方财权。",
+      "process": [
+        "961年七月宴罢宿将：授节钺、厚禄美宅，皆罢典禁军。",
+        "禁军“三衙”与枢密院分权：调兵权与统兵权分离，更戍法使“兵无常帅、帅无常师”。",
+        "963年起收藩镇支郡为直属州，置转运使收地方财赋，“强干弱枝”格局定型。",
+        "设参知政事分相权、通判监州，文官政治制度化。"
+      ],
+      "outcome": "宋三百二十年无大的内部军事政变（较五代根本改观）；代价是军事效率低、机构重叠的“冗官冗兵”，对外用兵长期不利。",
+      "controversies": [
+        {"issue": "“杯酒释兵权”的史料层次", "views": [
+          {"holder": "《续资治通鉴长编》与笔记（《涑水记闻》等）", "basis": "宴席对话的戏剧性叙事。"},
+          {"holder": "现代研究", "basis": "对话细节系笔记层累（事件框架可信），收权实为一组制度措施的渐进过程——“一杯酒定乾坤”的说法被学界修正。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>杯酒释兵权（961—963年）</text><g font-size='12'><rect x='90' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>961年 宴罢宿将</text><text x='200' y='140' text-anchor='middle' font-size='11'>富贵易权·罢典禁军</text><rect x='340' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>军权拆分</text><text x='430' y='140' text-anchor='middle' font-size='11'>三衙-枢密院·更戍法</text><rect x='550' y='90' width='180' height='80' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>地方集权</text><text x='640' y='140' text-anchor='middle' font-size='11'>收支郡·转运使</text><line x1='310' y1='130' x2='336' y2='130' stroke='#2b4a6f' marker-end='url(#xh2)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#2b4a6f' marker-end='url(#xh2)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>“强干弱枝”定型：320年无军政内乱</text><text x='380' y='262' text-anchor='middle' font-size='11'>代价：冗官冗兵·军事效率低</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>对话细节系笔记层累——“一杯酒定乾坤”被学界修正为渐进过程</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "deng-xiaonan-zuzong"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-miebeihan-tongyi",
+      "title": "灭北汉与统一基本完成",
+      "year": 979,
+      "end_year": null,
+      "year_display": "979年",
+      "end_year_display": null,
+      "year_note": "据《宋史·太宗纪》，太平兴国四年（979年）五月北汉主刘继元降；同年六月太宗乘胜伐辽，高梁河之败；公元纪年，无换算问题。",
+      "location": "太原；幽州方向（高梁河）",
+      "key_people": [],
+      "background": "太祖朝已平荆湖、后蜀、南汉、南唐（963—975年）；吴越纳土、漳泉归顺（978年），唯北汉倚辽自存。",
+      "process": [
+        "979年太宗亲征，围太原；辽援军被击退（白马岭之战）。",
+        "五月北汉降，五代十国分裂局面基本结束（中原-南方统一）。",
+        "太宗乘胜北伐幽州，围城不克；高梁河之战大败，太宗中箭乘驴车逃。",
+        "雍熙北伐（986年）再败，“守内虚外”战略自此固化。"
+      ],
+      "outcome": "统一（不含燕云）完成，宋辽进入长期对峙；高梁河之败开启宋对辽的战略守势，燕云问题贯穿两宋。",
+      "controversies": [
+        {"issue": "高梁河之败的责任", "views": [
+          {"holder": "传统叙事", "basis": "归咎太宗亲征冒进与赏赐不均（军中欲立德昭之谣）。"},
+          {"holder": "现代军事史分析", "basis": "宋军灭汉后未休整即北上、后勤与骑兵劣势结构性存在——败因重于个人责任；两种解释并存。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>灭北汉与统一（979年）</text><g font-size='12'><rect x='70' y='90' width='250' height='80' fill='#fff' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>963—975 先南后北</text><text x='195' y='140' text-anchor='middle' font-size='11'>荆湖·后蜀·南汉·南唐</text><rect x='360' y='90' width='160' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='440' y='116' text-anchor='middle' fill='#8c1f28'>979 灭北汉</text><text x='440' y='140' text-anchor='middle' font-size='11'>太原降·统一基本完成</text><rect x='560' y='90' width='160' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>高梁河之败</text><text x='640' y='140' text-anchor='middle' font-size='11'>伐辽受挫·转守势</text><line x1='320' y1='130' x2='356' y2='130' stroke='#2b4a6f' marker-end='url(#xh3)'/><line x1='520' y1='130' x2='556' y2='130' stroke='#8c1f28' marker-end='url(#xh3)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>五代十国分裂局面结束（不含燕云）</text><text x='380' y='262' text-anchor='middle' font-size='11'>986雍熙北伐再败→“守内虚外”固化；燕云贯穿两宋</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "xu-tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-chanyuan-zhimeng",
+      "title": "澶渊之盟",
+      "year": 1004,
+      "end_year": 1005,
+      "year_display": "1004年",
+      "end_year_display": "1005年",
+      "year_note": "据《宋史》《续资治通鉴长编》：景德元年十二月（公历1005年1月）宋辽盟于澶州——条约以1005年生效、交战在1004年秋冬；公元纪年，无换算问题。",
+      "location": "澶州（今河南濮阳）",
+      "key_people": [],
+      "background": "萧太后与辽圣宗举国南征深入至澶州；宰相寇准力主真宗亲征，射杀辽将萧挞凛后形成和议契机。",
+      "process": [
+        "1004年闰九月辽军大举南侵；十一月真宗亲征至澶州（寇准强请，王钦若等主迁都金陵或成都）。",
+        "宋军伏弩射杀辽帅萧挞凛，辽军士气受挫。",
+        "十二月经曹利用议和：宋岁输银十万两、绢二十万匹；兄弟之国、罢兵互市。",
+        "此后宋辽约120年无大规模战争。"
+      ],
+      "outcome": "以岁币买得长期和平与边境贸易（榷场），宋辽礼制上约为“兄弟之国”；为宋朝“以财换安”的国防模式定调，也埋下“澶渊之盟=屈辱”与“和平红利”两种评价的长期争论。",
+      "controversies": [
+        {"issue": "岁币与和平的评价", "views": [
+          {"holder": "传统“屈辱”论", "basis": "以岁币为耻（王钦若“城下之盟”说激化此论）。"},
+          {"holder": "现代财政史分析", "basis": "岁币不足宋财政收入的百分之一二，换取120年和平与边境贸易收益；“和议体系”是宋处理强邻的理性制度（学界主流不再简单以屈辱论之），但军备松懈的长期代价同样被强调——两说并陈。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>澶渊之盟（1004—1005年）</text><g font-size='12'><rect x='80' y='90' width='210' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='185' y='116' text-anchor='middle' fill='#8c1f28'>辽军南征至澶州</text><text x='185' y='140' text-anchor='middle' font-size='11'>萧挞凛中伏弩死</text><rect x='330' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='415' y='116' text-anchor='middle'>真宗亲征（寇准强请）</text><rect x='530' y='90' width='190' height='90' fill='#fff' stroke='#2b4a6f'/><text x='625' y='116' text-anchor='middle'>议和</text><text x='625' y='140' text-anchor='middle' font-size='11'>岁币银10万两绢20万匹</text><text x='625' y='162' text-anchor='middle' font-size='11'>兄弟之国·榷场互市</text><line x1='290' y1='135' x2='326' y2='135' stroke='#2b4a6f' marker-end='url(#xh4)'/><line x1='500' y1='135' x2='526' y2='135' stroke='#2b4a6f' marker-end='url(#xh4)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>约120年宋辽无大规模战争</text><text x='380' y='262' text-anchor='middle' font-size='11'>“以财换安”模式定调；屈辱论与和平红利论长期并陈</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>现代财政史：岁币不足宋岁入百分之一二（学界测算）</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "xu-tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-qingli-xinzheng",
+      "title": "庆历新政",
+      "year": 1043,
+      "end_year": 1045,
+      "year_display": "1043年",
+      "end_year_display": "1045年",
+      "year_note": "据《宋史·仁宗纪》及范仲淹行状：庆历三年（1043年）范仲淹上《答手诏条陈十事》，新政行至庆历五年（1045年）范仲淹罢政；公元纪年，无换算问题。",
+      "location": "开封",
+      "key_people": [],
+      "background": "对西夏战争失利与财政危机暴露“冗官冗兵冗费”痼疾；范仲淹、富弼、韩琦、欧阳修等主政推行整顿。",
+      "process": [
+        "1043年范仲淹《答手诏条陈十事》：明黜陟、抑侥幸、精贡举、择官长等十项。",
+        "以考核磨勘与限恩荫为核心冲击既得利益（官员裙带）。",
+        "1044年毁谤四起（“朋党”论），夏竦等构陷；蔡襄四贤一不肖诗案。",
+        "1045年范仲淹、富弼罢政出朝，新政中止；欧阳修《朋党论》为此期政治论争名篇。"
+      ],
+      "outcome": "新政虽败，其议题（冗官、贡举、地方监察）为二十年后王安石变法铺路；“朋党”话语成为宋代党争的固定框架。",
+      "controversies": [
+        {"issue": "新政失败的原因", "views": [
+          {"holder": "传统叙事", "basis": "官僚集团抵制（既得利益反扑）。"},
+          {"holder": "现代研究", "basis": "加之一揽子急进、仁宗意志不坚、改革者人事网络化（被视为朋党）——失败是节奏与政治联盟结构的产物。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>庆历新政（1043—1045年）</text><g font-size='12'><rect x='90' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='205' y='116' text-anchor='middle'>范仲淹《条陈十事》</text><text x='205' y='140' text-anchor='middle' font-size='11'>明黜陟·抑侥幸·精贡举</text><rect x='350' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='435' y='116' text-anchor='middle' fill='#8c1f28'>“朋党”论反扑</text><text x='435' y='140' text-anchor='middle' font-size='11'>夏竦等构陷</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1045 中止</text><text x='640' y='140' text-anchor='middle' font-size='11'>范富罢政·欧修《朋党论》</text><line x1='320' y1='135' x2='346' y2='135' stroke='#2b4a6f' marker-end='url(#xh5)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xh5)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>新政虽败，议题为王安石变法铺路</text><text x='380' y='267' text-anchor='middle' font-size='11'>“朋党”话语成为宋代党争固定框架</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "xu-tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-wangan-shibianfa",
+      "title": "王安石变法",
+      "year": 1069,
+      "end_year": 1085,
+      "year_display": "1069年",
+      "end_year_display": "1085年",
+      "year_note": "据《宋史·神宗纪》《续资治通鉴长编》：熙宁二年（1069年）设制置三司条例司、颁青苗法等；元丰八年（1085年）神宗卒，新法体系实际延续至元丰末。公元纪年，无换算问题。",
+      "location": "开封",
+      "key_people": ["wanganshi"],
+      "background": "财政危机（三冗）与对辽夏军事不振；神宗锐意进取，任王安石设制置三司条例司，推行理财强兵诸法。",
+      "process": [
+        "1069年设制置三司条例司；颁青苗法（官贷青苗钱取息二分）。",
+        "1071—1074年：免役法（纳钱免役）、农田水利法、方田均税法、市易法；保甲保马法整军。",
+        "科举改革（罢诗赋用经义）、三舍法；王安石《三经新义》颁为教材。",
+        "旧党反对激烈（司马光、韩琦、欧阳修、苏轼等）；1074年、1076年两度罢相，退居江宁著《字说》。",
+        "神宗元丰年间亲自主导元丰改制（官制改革）；1085年神宗卒，新法进入存废之争。"
+      ],
+      "outcome": "财政状况显著改善（“中外府库无不充衍”——《宋史》所载印象性表述），保甲等军制重整；但官僚执行变形、党争固化，为北宋后期的政治撕裂埋根。",
+      "controversies": [
+        {"issue": "新法评价的两千年翻转", "views": [
+          {"holder": "南宋至清代主流", "basis": "以《宋史》奸臣传框架视王安石为“亡国祸首”（《宋史》成于元人托宋史之旧，立场承南宋道学）。"},
+          {"holder": "梁启超（《王荆公》）", "basis": "1908年前后为荆公全面翻案，称其为社会主义式理财家与改革家——近代翻案的起点。"},
+          {"holder": "现代史学分期评价", "basis": "肯定其国家能力建设（金融-财政-军制系统化），批评其执行变形（青苗法在基层变为强制摊派）与政治文化撕裂；“理念-执行-后果”三层分拆成为学界通行框架。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>王安石变法（1069—1085年）</text><g font-size='12'><rect x='60' y='90' width='200' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='160' y='116' text-anchor='middle'>理财诸法</text><text x='160' y='140' text-anchor='middle' font-size='11'>青苗·免役·市易·方田</text><rect x='290' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='116' text-anchor='middle'>强兵诸法</text><text x='380' y='140' text-anchor='middle' font-size='11'>保甲·保马·将兵法</text><rect x='500' y='90' width='220' height='90' fill='#fff' stroke='#8c1f28'/><text x='610' y='116' text-anchor='middle' fill='#8c1f28'>反对与撕裂</text><text x='610' y='140' text-anchor='middle' font-size='11'>司马光·苏轼等反对</text><text x='610' y='162' text-anchor='middle' font-size='11'>两度罢相·党争固化</text><line x1='260' y1='135' x2='286' y2='135' stroke='#2b4a6f' marker-end='url(#xh6)'/><line x1='470' y1='135' x2='496' y2='135' stroke='#8c1f28' marker-end='url(#xh6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>财政改善 vs 执行变形（青苗基层摊派化）</text><text x='380' y='262' text-anchor='middle' font-size='11'>评价史：南宋“祸首”论→梁启超翻案→现代三层分拆</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>理念-执行-后果的分拆框架为学界通行</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "xu-tongjian", "deng-xiaonan-zuzong"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-yuanyou-genghua",
+      "title": "元祐更化",
+      "year": 1085,
+      "end_year": 1093,
+      "year_display": "1085年",
+      "end_year_display": "1093年",
+      "year_note": "据《宋史》：元丰八年（1085年）神宗卒、高太后垂帘、司马光执政；至元祐八年（1093年）高太后卒、哲宗亲政；公元纪年，无换算问题。",
+      "location": "开封",
+      "key_people": ["simaguang"],
+      "background": "神宗卒，十岁哲宗即位，高太后（太皇太后）垂帘；司马光被召还执政，旧党（元祐党人）全面回朝。",
+      "process": [
+        "1085—1086年“以母改子”废新法：罢保甲、方田、市易、免役复差役（五日罢保甲、十日罢方田……急进节奏）。",
+        "1086年司马光卒；旧党内部分裂：苏轼等对尽废免役法持异议（司马光坚持尽废）。",
+        "车盖亭诗案（蔡确案）开以文字罪人先例；元祐党人碑（1102年刻）为后来绍述党的反向清算。",
+        "1093年高太后卒，哲宗亲政，绍圣绍述——新党复起，政治钟摆全面启动。"
+      ],
+      "outcome": "新旧党争从政策之争转为身份清算（“党人碑”模式），此后北宋政治再无共识空间；“元祐”与“绍述”的钟摆耗尽朝廷的政治资本。",
+      "controversies": [
+        {"issue": "尽废新法的功过", "views": [
+          {"holder": "传统褒扬", "basis": "司马光为“元祐君子”典范（宋以来道学叙事）。"},
+          {"holder": "现代研究", "basis": "尽废免役等良法（连苏轼都主张缓废）显示党派逻辑压倒政策理性；“以母改子”的合法性争议与钟摆政治的制度代价——新旧并陈。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>元祐更化（1085—1093年）</text><g font-size='12'><rect x='80' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>高太后垂帘·司马光执政</text><text x='195' y='140' text-anchor='middle' font-size='11'>“以母改子”废新法</text><rect x='350' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='440' y='116' text-anchor='middle' fill='#8c1f28'>急进尽废</text><text x='440' y='140' text-anchor='middle' font-size='11'>连苏轼亦主缓废免役</text><rect x='560' y='90' width='170' height='90' fill='#fff' stroke='#2b4a6f'/><text x='645' y='116' text-anchor='middle'>1093太后卒</text><text x='645' y='140' text-anchor='middle' font-size='11'>哲宗亲政·绍圣绍述</text><line x1='310' y1='135' x2='346' y2='135' stroke='#2b4a6f' marker-end='url(#xh7)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#8c1f28' marker-end='url(#xh7)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>党争从政策之争转为身份清算</text><text x='380' y='267' text-anchor='middle' font-size='11'>元祐党人碑（1102年刻）为反向清算的标本；政治钟摆耗尽共识</text></svg>",
+      "sources": ["songshi", "xu-tongjian-changbian", "xu-tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-haishang-zhimeng",
+      "title": "海上之盟与联金灭辽",
+      "year": 1120,
+      "end_year": 1125,
+      "year_display": "1120年",
+      "end_year_display": "1125年",
+      "year_note": "据《三朝北盟会编》系统与《宋史》：重和元年（1118年）起遣使浮海联金，宣和二年（1120年）前后成盟；宣和七年（1125年）金灭辽；公元纪年，无换算问题。",
+      "location": "登州-莱州海上通道；燕京方向",
+      "key_people": [],
+      "background": "女真崛起败辽（宁江州、出河店之战后），宋徽宗朝欲借金复燕云，遣使自登州浮海赴金（马政使团→正式盟约）。",
+      "process": [
+        "1118年起马政等使节浮海联络完颜阿骨打。",
+        "1120年前后口头约定（海上之盟）：金取辽中京、宋取燕京，灭辽后宋以原给辽岁币转输于金，燕云归宋。",
+        "1122—1123年宋两度伐燕（童贯、种师道）皆败，请金代取燕京；燕京交割时金人已看穿宋军虚弱。",
+        "1125年金灭辽后南侵（张觉事件为借口），靖康序幕开启。"
+      ],
+      "outcome": "宋短暂取得燕京空城而暴露军力，金人由此定南下决心；联金灭辽成为“引狼入室”的经典决策案例。",
+      "controversies": [
+        {"issue": "联金灭辽的决策评价", "views": [
+          {"holder": "传统“引狼入室”论", "basis": "破坏澶渊百年和平体系、自速其亡（宋以后主流）。"},
+          {"holder": "地缘现实主义分析", "basis": "辽亡已不可逆，宋不参与亦难独善；问题在于执行（军力暴露、外交草率）而非方向本身——现代研究多持此修正视角。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>海上之盟（1118—1125年）</text><g font-size='12'><rect x='60' y='170' width='170' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='145' y='200' text-anchor='middle'>宋（登州浮海）</text><rect x='300' y='120' width='180' height='70' fill='#fff' stroke='#2b4a6f'/><text x='390' y='150' text-anchor='middle'>金（完颜阿骨打）</text><text x='390' y='172' text-anchor='middle' font-size='10'>夹攻灭辽之约</text><rect x='540' y='170' width='180' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='630' y='200' text-anchor='middle' fill='#8c1f28'>辽（1222—1125灭亡）</text><rect x='300' y='240' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='390' y='266' text-anchor='middle' fill='#8c1f28'>宋两度伐燕皆败</text><text x='390' y='288' text-anchor='middle' font-size='10'>金代取燕京·看穿宋弱</text><line x1='230' y1='200' x2='296' y2='165' stroke='#2b4a6f' marker-end='url(#xh8)'/><line x1='480' y1='165' x2='536' y2='195' stroke='#8c1f28' marker-end='url(#xh8)'/><line x1='390' y1='190' x2='390' y2='236' stroke='#8c1f28' marker-end='url(#xh8)'/></g><rect x='100' y='310' width='560' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='336' text-anchor='middle' font-size='12'>1125年金灭辽后南侵——靖康序幕</text><text x='380' y='360' text-anchor='middle' font-size='11'>“引狼入室”论 vs 地缘现实主义分析（两说并陈）</text></svg>",
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-jingkang-zhibian",
+      "title": "靖康之变",
+      "year": 1126,
+      "end_year": 1127,
+      "year_display": "1126年",
+      "end_year_display": "1127年",
+      "year_note": "据《宋史》与《三朝北盟会编》系统：靖康元年（1126年）金军两度围汴京，闰十一月城破；靖康二年（1127年）徽钦二帝被掳北去；公元纪年，无换算问题。",
+      "location": "汴京（开封）",
+      "key_people": [],
+      "background": "金军南下（1125年末），徽宗禅位钦宗；宋廷和战不定，主战主和互相拆台，勤王军进退失据。",
+      "process": [
+        "1126年正月金军首次围汴，李纲守城有功、议和赔款退兵。",
+        "同年秋冬金军再围汴京；郭京“六甲神兵”开城遁败的荒唐插曲（城破直接原因之一）。",
+        "闰十一月城陷；翌年（1127年）二帝被废为庶人、携宗室后妃北迁（“北狩”），宋廷珍玩图籍被劫掠一空。",
+        "徽宗卒于五国城（1135年）；钦宗卒于金地（1156年）。"
+      ],
+      "outcome": "北宋亡（167年）：一次政权存续的崩溃而非王朝衰竭的缓慢终结；宗室南渡重建（南宋），中原文物制度南移，中国的政治经济重心南移完成。",
+      "controversies": [
+        {"issue": "亡国责任", "views": [
+          {"holder": "传统叙事", "basis": "徽宗-蔡京-童贯集团昏聩与“六贼”责任（《宋史》奸臣传框架）。"},
+          {"holder": "现代研究", "basis": "叠加军事动员体制失败（陕西军解体）、和战二元决策混乱、财政与漕运依赖单点汴京的结构脆弱性——责任分层为学界通行。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>靖康之变（1126—1127年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1126年 正月首围</text><text x='190' y='140' text-anchor='middle' font-size='11'>李纲守城·赔款退兵</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>秋冬再围</text><text x='430' y='140' text-anchor='middle' font-size='11'>郭京“六甲神兵”开城</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>城破·二帝北掳</text><text x='640' y='140' text-anchor='middle' font-size='11'>宗室图籍被掠</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xh9)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xh9)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>北宋亡（167年）</text><text x='380' y='267' text-anchor='middle' font-size='11'>宗室南渡→南宋；政治经济重心南移完成</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>责任分层：人事昏聩+动员体制失败+都城依赖单点（学界通行）</text></svg>",
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-jianyan-nandu",
+      "title": "建炎南渡与南宋建立",
+      "year": 1127,
+      "end_year": 1138,
+      "year_display": "1127年",
+      "end_year_display": "1138年",
+      "year_note": "据《宋史·高宗纪》：建炎元年（1127年）五月赵构即位于南京应天府；绍兴八年（1138年）定都临安（此前行在屡迁）；公元纪年，无换算问题。",
+      "location": "应天府→扬州→杭州（临安）",
+      "key_people": [],
+      "background": "靖康之变中康王赵构在外勤王得免，为宗室硕果仅存的亲王；北方溃军与勤王军并存，政权重建于流亡中。",
+      "process": [
+        "1127年五月赵构即位（高宗）；李纲短暂主政、宗泽守汴北伐呼声被搁置。",
+        "1129—1130年金军“搜山检海”追击，高宗浮海避难（温州海域）。",
+        "1130年黄天荡之战（韩世忠阻金军四十余日）、富平之战（川陕会战失利）；吴玠守蜀（和尚原、仙人关）。",
+        "1138年定都临安；绍兴体制（对金和议+内政集权）逐步定型。"
+      ],
+      "outcome": "南宋立国于半壁江山：财政依赖东南与市舶，军事上形成川陕、荆襄、两淮三大防区；“南渡”完成经济重心与士族社会的南移。",
+      "controversies": [
+        {"issue": "高宗的战略选择", "views": [
+          {"holder": "传统批评", "basis": "畏敌主和、置父兄与中原于不顾（秦桧问题连带）。"},
+          {"holder": "现代研究", "basis": "高宗的“防线优先”选择（保江南腹地、以战促和）被视为南宋得以立足的结构性原因；评价从道德谴责转向战略理性与代价的并置。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>建炎南渡（1127—1138年，路线示意）</text><g font-size='12'><rect x='80' y='120' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='165' y='146' text-anchor='middle' fill='#8c1f28'>1127 应天即位</text><rect x='300' y='120' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='385' y='146' text-anchor='middle'>1129 搜山检海</text><text x='385' y='168' text-anchor='middle' font-size='10'>高宗浮海避难</text><rect x='520' y='120' width='190' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='615' y='146' text-anchor='middle'>1138 定都临安</text><rect x='300' y='220' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='385' y='246' text-anchor='middle'>三大防区形成</text><text x='385' y='268' text-anchor='middle' font-size='10'>川陕·荆襄·两淮</text><line x1='250' y1='150' x2='296' y2='150' stroke='#2b4a6f' marker-end='url(#xh10)'/><line x1='470' y1='150' x2='516' y2='150' stroke='#2b4a6f' marker-end='url(#xh10)'/><line x1='385' y1='180' x2='385' y2='216' stroke='#2b4a6f' marker-end='url(#xh10)'/></g><rect x='100' y='310' width='560' height='60' fill='#fff' stroke='#2b4a6f'/><text x='380' y='336' text-anchor='middle' font-size='12'>财政依赖东南与市舶；绍兴体制（和议+集权）定型</text><text x='380' y='360' text-anchor='middle' font-size='11'>评价：道德谴责 vs 战略理性与代价并置（两说并陈）</text></svg>",
+      "sources": ["songshi", "xu-tongjian", "deng-xiaonan-zuzong"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-shaoxing-yuefei",
+      "title": "绍兴和议与岳飞之死",
+      "year": 1141,
+      "end_year": 1142,
+      "year_display": "1141年",
+      "end_year_display": "1142年",
+      "year_note": "据《宋史》：绍兴十一年（1141年）岳飞被召还、下狱；十一月宋金和议成（绍兴和议），岁贡银绢各二十五万两匹、以淮河-大散关为界；绍兴十一年十二月廿九日（1142年1月，通行历日换算）岳飞被赐死于大理寺。公元纪年，无换算问题。",
+      "location": "临安、大理寺狱",
+      "key_people": ["yuefei"],
+      "background": "岳飞等北伐连捷（郾城、颍昌之战），高宗与秦桧决策收兵权、促成和议；“收兵权”与“诛飞”互为表里。",
+      "process": [
+        "1141年四月三大将（张俊韩世忠岳飞）明升暗降收兵权。",
+        "十月岳飞被诬（张俊构陷、王俊诬告），下大理寺狱；狱中“莫须有”三字（《宋史》秦桧答韩世忠语）。",
+        "十一月末绍兴和议成立：称臣、岁贡、割唐邓等地。",
+        "十二月廿九（1142年1月27日，通行换算）岳飞赐死，张宪岳云斩首；狱卒隗顺负尸出葬（后迁葬西湖）。"
+      ],
+      "outcome": "南宋与金划淮为界进入对峙期；“岳飞之死”成为忠奸叙事的原型（西湖岳庙与秦桧跪像的文化传统），“莫须有”进入汉语。",
+      "controversies": [
+        {"issue": "岳飞之死的主责", "views": [
+          {"holder": "传统叙事（《宋史》）", "basis": "秦桧主谋、高宗默许。"},
+          {"holder": "现代研究主流", "basis": "决策者实际是高宗：收兵权、诛飞为绍兴体制的配套工程，秦桧为执行者；以邓广铭等宋史大家的系列研究为代表，高宗首责说为主流。"}
+        ]},
+        {"issue": "“精忠报国”与“尽忠报国”", "views": [
+          {"holder": "《宋史·岳飞传》", "basis": "背刺“尽忠报国”四字；后世讹传与强化为“精忠”（高宗曾赐“精忠岳飞”旗）。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>绍兴和议与岳飞之死（1141—1142年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1141 收三大将兵权</text><text x='190' y='140' text-anchor='middle' font-size='11'>岳飞郾城颍昌连捷</text><rect x='340' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='425' y='116' text-anchor='middle' fill='#8c1f28'>构陷下狱</text><text x='425' y='140' text-anchor='middle' font-size='11'>“莫须有”三字（宋史）</text><rect x='540' y='90' width='190' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='116' text-anchor='middle' fill='#8c1f28'>1142年1月 赐死</text><text x='635' y='140' text-anchor='middle' font-size='11'>和议：称臣·岁贡·划淮</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xh11)'/><line x1='510' y1='135' x2='536' y2='135' stroke='#8c1f28' marker-end='url(#xh11)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>南宋-金对峙格局定型</text><text x='380' y='267' text-anchor='middle' font-size='11'>岳庙与跪像：忠奸叙事的原型；背刺原文“尽忠报国”（宋史）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>现代主流：高宗为决策者，秦桧为执行者（邓广铭等研究）</text></svg>",
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-zhanchandao-jingji",
+      "title": "占城稻推广与经济重心南移",
+      "year": 1012,
+      "end_year": null,
+      "year_display": "1012年起",
+      "end_year_display": null,
+      "year_note": "据《宋史·食货志》：大中祥符五年（1012年）遣使取占城稻种分赐江淮两浙；经济重心南移为长时段过程（学界通说至南宋完成）；公元纪年，无换算问题。",
+      "location": "江淮、两浙、福建",
+      "key_people": [],
+      "background": "江南人口增长与土地开发接近极限，需早熟、耐旱品种提高复种；占城稻自福建路传入被朝廷规模化推广。",
+      "process": [
+        "1012年取占城稻种三万斛分给三路，令择田试种；帝作诗劝农（《宋史》所载）。",
+        "占城稻与本地种杂交培育（“早禾”“晚禾”品种群），实现稻麦复种、双季稻扩展。",
+        "圩田、梯田、淤田扩张；苏州圩田与两浙成为全国粮仓（“苏湖熟，天下足”谚语定型于南宋）。",
+        "手工业（丝织、瓷、造船）与商业（交子1023年官办、市舶收入）同步扩张。"
+      ],
+      "outcome": "中国经济重心南移完成（南宋定型）；“农业革命+商业革命”支撑宋的财政与市民社会，宋代被视为中国“近世”开端的重要经济依据（内藤湖南假说及后续讨论）。",
+      "controversies": [
+        {"issue": "宋代是否“近世”开端", "views": [
+          {"holder": "内藤湖南“唐宋变革论”", "basis": "以贵族政治瓦解、平民社会与商业化为据，主张宋代为中国近世开端。"},
+          {"holder": "修正与批评", "basis": "后续研究（如美国学界“宋元明过渡论”）指出变革延续至明代，唐宋分期不应绝对化——两种框架并存，本站并列。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>占城稻与经济南移（1012年起）</text><g font-size='12'><rect x='90' y='90' width='230' height='80' fill='#fff' stroke='#2b4a6f'/><text x='205' y='116' text-anchor='middle'>1012 遣使取占城稻种</text><text x='205' y='140' text-anchor='middle' font-size='11'>三万斛分赐江淮两浙</text><rect x='350' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='440' y='116' text-anchor='middle'>复种与圩田</text><text x='440' y='140' text-anchor='middle' font-size='11'>稻麦复种·圩田梯田</text><rect x='560' y='90' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='645' y='116' text-anchor='middle' fill='#8c1f28'>商业革命</text><text x='645' y='140' text-anchor='middle' font-size='11'>交子1023官办·市舶</text><line x1='320' y1='130' x2='346' y2='130' stroke='#2b4a6f' marker-end='url(#xh12)'/><line x1='530' y1='130' x2='556' y2='130' stroke='#8c1f28' marker-end='url(#xh12)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>“苏湖熟，天下足”（南宋定型）</text><text x='380' y='262' text-anchor='middle' font-size='11'>经济重心南移完成；“唐宋变革论”及其修正并存</text></svg>",
+      "sources": ["songshi", "zgbk", "xiehe-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-lixue-shuyuan",
+      "title": "理学定型与书院制度",
+      "year": 1175,
+      "end_year": 1180,
+      "year_display": "1175年",
+      "end_year_display": "1180年",
+      "year_note": "鹅湖之会在淳熙二年（1175年）夏（朱熹陆九渊江西铅山之会）；白鹿洞书院学规约在淳熙七年（1180年）前后订立（《朱子大全》所载）；公元纪年，无换算问题。",
+      "location": "江西鹅湖寺、庐山白鹿洞书院",
+      "key_people": ["zhuxi"],
+      "background": "南宋道学（理学）诸派（朱熹闽学、陆九渊心学、张栻湖湘学）经过北宋周敦颐张载二程的积累趋于体系化；书院成为理学传播的制度载体。",
+      "process": [
+        "1175年吕祖谦邀朱熹、陆九渊会于鹅湖，论“为学之方”：朱主“道问学”（格物致知）、陆主“尊德性”（发明本心）——理学两大路径的公开对话。",
+        "1179—1180年朱熹知南康军，重建白鹿洞书院，订《白鹿洞书院揭示》（学规）。",
+        "朱熹集注四书（《四书章句集注》陆续完成）——元明清科举标准文本的基础奠定。",
+        "1196年庆元党禁，道学被斥“伪学”，朱熹身败名谤之际讲学不辍（1200年卒）。"
+      ],
+      "outcome": "理学在党禁之后反而官学化：南宋末被立为官学，元代以《四书集注》取士——此后七百年中国思想的正统框架在此期定型。",
+      "controversies": [
+        {"issue": "朱陆异同的评价", "views": [
+          {"holder": "朱学正统叙事", "basis": "以“道问学”为治学正途（元明清官学立场）。"},
+          {"holder": "心学及现代解读", "basis": "陆九渊一系在明代（王阳明）复兴；现代哲学史视鹅湖之争为“知识论路径 vs 道德主体性”的哲学分歧，无正误判分——并列呈现。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>理学定型（1175—1180年）</text><g font-size='12'><rect x='80' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>1175 鹅湖之会</text><text x='195' y='140' text-anchor='middle' font-size='11'>朱熹“道问学” vs 陆九渊“尊德性”</text><rect x='350' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='435' y='116' text-anchor='middle'>白鹿洞书院</text><text x='435' y='140' text-anchor='middle' font-size='11'>1180前后订立学规</text><rect x='550' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='116' text-anchor='middle' fill='#8c1f28'>1196 庆元党禁</text><text x='635' y='140' text-anchor='middle' font-size='11'>“伪学”之斥</text><line x1='310' y1='135' x2='346' y2='135' stroke='#2b4a6f' marker-end='url(#xh13)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xh13)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>《四书章句集注》→七百年科举标准</text><text x='380' y='267' text-anchor='middle' font-size='11'>南宋末官学化、元代取士——理学正统定型</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>朱陆之辨为哲学分歧，无正误判分（现代哲学史立场）</text></svg>",
+      "sources": ["songshi", "zgbk", "xiehe-han"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-duanping-ruluo",
+      "title": "端平入洛与蒙宋战争开始",
+      "year": 1234,
+      "end_year": 1235,
+      "year_display": "1234年",
+      "end_year_display": "1235年",
+      "year_note": "据《宋史·理宗纪》与《续资治通鉴》：端平元年（1234年）宋蒙联兵灭金，宋军六月入洛引发冲突；翌年（1235年）蒙古全面南侵；公元纪年，无换算问题。",
+      "location": "汴京、洛阳；川陕荆襄防线",
+      "key_people": [],
+      "background": "金亡（1234年蔡州），宋欲收回河南故地；朝廷“据关守河”策（守黄河、据潼关）急于求成。",
+      "process": [
+        "1234年六月宋军（赵葵等）收复汴京、前锋入洛阳（“端平入洛”）。",
+        "蒙古决黄河水灌军、断粮道，入洛宋军溃退——“端平入洛”以惨败收场。",
+        "1235年起蒙古三路南下（阔端入蜀、曲出攻襄汉、口温不花攻两淮）。",
+        "宋依托川陕（钓鱼城等山城体系）、荆襄（襄阳）、两淮防线长期抵抗（至1279年崖山）。"
+      ],
+      "outcome": "蒙宋战争全面爆发：宋以三大防区抵抗近半个世纪（世界史上对蒙作战最长政权之一）；“据关守河”冒进决策成为南宋后期战略批评的焦点。",
+      "controversies": [
+        {"issue": "端平入洛的决策评价", "views": [
+          {"holder": "冒进误国论", "basis": "主政者（郑清之、赵葵等）轻举妄动，给蒙古以口实。"},
+          {"holder": "战略选择有限论", "basis": "蒙古南下几不可免，先取河南或可建立缓冲；失败主因在后勤与军事准备不足——两说并陈，学界倾向执行失败重于方向错误。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>端平入洛（1234—1235年，示意）</text><g font-size='12'><rect x='90' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>1234 宋蒙灭金</text><text x='200' y='140' text-anchor='middle' font-size='11'>“据关守河”策</text><rect x='350' y='90' width='170' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='435' y='116' text-anchor='middle' fill='#8c1f28'>六月入洛</text><text x='435' y='140' text-anchor='middle' font-size='11'>蒙古决河断粮·溃退</text><rect x='550' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>1235 蒙古三路南侵</text><rect x='180' y='220' width='420' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='246' text-anchor='middle'>三大防区：川陕（钓鱼城）·荆襄（襄阳）·两淮</text><text x='390' y='272' text-anchor='middle' font-size='11'>抵抗近半个世纪（至1279崖山）</text><line x1='310' y1='130' x2='346' y2='130' stroke='#8c1f28' marker-end='url(#xh14)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xh14)'/></g><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>评价：冒进误国论 vs 执行失败重于方向错误（学界倾向后者）</text></svg>",
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "song-yashan-haizhan",
+      "title": "崖山海战与宋亡",
+      "year": 1279,
+      "end_year": null,
+      "year_display": "1279年",
+      "end_year_display": null,
+      "year_note": "据《宋史·瀛国公纪》与《续资治通鉴》：祥兴二年二月初六（1279年3月19日，通行历日换算）崖山海战，宋军覆灭，陆秀夫负帝昺蹈海；公元纪年，无换算问题。",
+      "location": "崖山（今广东新会一带海域）",
+      "key_people": ["wentianxiang"],
+      "background": "临安1276年已陷（恭帝出降）；张世杰、陆秀夫拥立二王（端宗、帝昺）流亡海上，以崖山为最后基地。",
+      "process": [
+        "1279年正月张弘范率元军水师合围崖山；宋军以连环船阵背海列阵。",
+        "二月初六决战，宋军败溃；陆秀夫负八岁幼帝赵昺蹈海殉国，军民从死者众（《宋史》描述性记载）。",
+        "文天祥此前（1278年）被俘，拘于元军舟中目睹战败，作诗记之；后囚大都三年，1283年就义（《正气歌》成于狱中）。",
+        "宋亡（立国319年）；元完成大一统——中国历史上第一次全境由北方游牧-渔猎王朝统一。"
+      ],
+      "outcome": "两宋结束，官僚-科举-理学体系为元承继改造；“宋亡”的历史意义与身份叙事（见争议）成为近世中国记忆的长期议题。",
+      "controversies": [
+        {"issue": "“崖山之后无中国”说", "views": [
+          {"holder": "流行论断（网络与通俗读物）", "basis": "常被归为宋遗民诗句，实际查无此句原典；含义为元灭宋即中华文明断绝。"},
+          {"holder": "史学界主流", "basis": "明确否定：宋的官僚、科举、理学、技术与族群在元代延续并转型（“宋元明过渡”论）；所谓遗民诗句系后人伪托——本站按学界立场处理。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xh15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>崖山海战（1279年二月初六）</text><g font-size='12'><rect x='80' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1276 临安已陷</text><text x='190' y='140' text-anchor='middle' font-size='11'>二王流亡海上</text><rect x='340' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>崖山决战</text><text x='430' y='140' text-anchor='middle' font-size='11'>连环船阵·元军合围</text><rect x='550' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>陆秀夫负帝昺蹈海</text><rect x='230' y='215' width='300' height='80' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>宋亡（319年）</text><text x='380' y='267' text-anchor='middle' font-size='11'>文天祥1278被俘·1283就义（正气歌）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“崖山之后无中国”查无原典、被史学界否定（本站按学界立场）</text></svg>",
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "song-taizu",
+      "name": "宋太祖赵匡胤",
+      "birth_year": 927,
+      "death_year": 976,
+      "birth_display": "927年",
+      "death_display": "976年",
+      "birth_note": "据《宋史·太祖纪》天成二年（927年）生于洛阳夹马营，公元纪年换算。",
+      "death_note": "开宝九年（976年）十月卒于万岁殿——“烛影斧声”之疑（死因诸说见评价分歧），公元纪年。",
+      "chronology": [
+        {"year": 927, "display": "927年", "text": "生于洛阳，将门出身（赵弘殷次子）。"},
+        {"year": 951, "display": "951年（前后）", "text": "投郭威帐下，屡立战功。"},
+        {"year": 959, "display": "959年", "text": "世宗卒，任殿前都点检（禁军统帅）。"},
+        {"year": 960, "display": "960年", "text": "陈桥兵变即位，建立宋朝。"},
+        {"year": 961, "display": "961年", "text": "杯酒释兵权。"},
+        {"year": 976, "display": "976年", "text": "卒；“金匮之盟”与“烛影斧声”围绕其传位问题形成千年公案。"}
+      ],
+      "deeds": [
+        "终结五代武人轮回：以杯酒释兵权、更戍法、收藩镇支郡等“防弊”制度重建中央集权。",
+        "先南后北统一战略（荆湖、后蜀、南汉、南唐先后平定）。",
+        "文官政治与不杀士大夫的家法（“不得杀士大夫及上书言事人”誓碑传说——出自野史，学界存疑）。"
+      ],
+      "evaluations": [
+        {"holder": "《宋史》与历代史家", "view": "“创业垂统”之君：宽仁、去酷刑、抑武兴文；两《宋史》并记其军事保守的代价。", "basis": "《宋史·太祖纪》。"},
+        {"holder": "邓小南等现代研究", "view": "其制度设计（“祖宗之法”）是一套防弊哲学的物化，宋代的一切强项与弱项皆由此而来——“祖宗之法”研究成为理解宋的钥匙。", "basis": "《祖宗之法——北宋前期政治述略》。"},
+        {"holder": "“烛影斧声”“金匮之盟”公案", "view": "太祖之死与传位太宗的合法性争论自宋以来聚讼不休；现代史家多认为证据不足以定案，作为史料批判的标本保留。", "basis": "宋史学界通说。"}
+      ],
+      "sources": ["songshi", "xu-tongjian-changbian", "deng-xiaonan-zuzong"],
+      "needs_verification": false
+    },
+    {
+      "id": "wanganshi",
+      "name": "王安石",
+      "birth_year": 1021,
+      "death_year": 1086,
+      "birth_display": "1021年",
+      "death_display": "1086年",
+      "birth_note": "据《宋史》天禧五年（1021年）生，通说；临川人。",
+      "death_note": "元祐元年（1086年）卒于江宁（钟山半山园），公元纪年。",
+      "chronology": [
+        {"year": 1021, "display": "1021年", "text": "生于临川，随父宦游各地（地方经验的积累）。"},
+        {"year": 1042, "display": "1042年", "text": "进士第四人及第，签书淮南判官。"},
+        {"year": 1058, "display": "1058年", "text": "上万言书言“天下财力日以困穷”之事（《本朝百年无事札子》作于1068年——本条系年取上仁宗言事书1058年）。"},
+        {"year": 1069, "display": "1069年", "text": "参知政事，设制置三司条例司，变法开始。"},
+        {"year": 1074, "display": "1074年", "text": "第一次罢相；1076年再罢，退居江宁。"},
+        {"year": 1086, "display": "1086年", "text": "卒于江宁；新法随之多废。"}
+      ],
+      "deeds": [
+        "主导熙宁变法：青苗、免役、市易、方田、保甲、农田水利诸法与三经新义科举改革。",
+        "财政国家化的系统尝试：金融手段（官方信贷）与行政动员结合。",
+        "唐宋八大家之一：《读孟尝君传》《游褒禅山记》等文与半山诗风。"
+      ],
+      "evaluations": [
+        {"holder": "南宋至清传统评价", "view": "《宋史》以其新党入奸臣传，“亡国祸首”论长期主导（道学立场的产物）。", "basis": "《宋史》。"},
+        {"holder": "梁启超（《王荆公》）", "view": "称其“三代以下第一完人”，全面翻案——近代人物评价史翻转的标志性文本。", "basis": "梁启超《王荆公》（1908年前后）。"},
+        {"holder": "现代史学", "view": "三层分拆：理念（国家理财现代化）可取、执行（摊派化、用人失察）有罪、后果（党争固化）有害；学界不再整体褒贬。", "basis": "宋史研究通说。"}
+      ],
+      "sources": ["songshi", "xu-tongjian-changbian", "xu-tongjian", "deng-xiaonan-zuzong"],
+      "needs_verification": false
+    },
+    {
+      "id": "simaguang",
+      "name": "司马光",
+      "birth_year": 1019,
+      "death_year": 1086,
+      "birth_display": "1019年",
+      "death_display": "1086年",
+      "birth_note": "据《宋史》天禧三年（1019年）生，通说；陕州夏县人。",
+      "death_note": "元祐元年（1086年）卒于汴京（相位任内），公元纪年。",
+      "chronology": [
+        {"year": 1019, "display": "1019年", "text": "生于夏县涑水乡。"},
+        {"year": 1038, "display": "1038年", "text": "进士及第。"},
+        {"year": 1066, "display": "1066年（前后）", "text": "进《历年图》；受诏续《通鉴》编纂（书局成立）。"},
+        {"year": 1071, "display": "1071年", "text": "以反对新法出判西京御史台，居洛阳专修《资治通鉴》十五年。"},
+        {"year": 1084, "display": "1084年", "text": "《资治通鉴》294卷完成进呈。"},
+        {"year": 1085, "display": "1085年", "text": "高太后垂帘，召还执政；尽废新法。"},
+        {"year": 1086, "display": "1086年", "text": "卒于相位。"}
+      ],
+      "deeds": [
+        "主编《资治通鉴》：上起前403年下迄959年，为编年体通史巅峰（“帝王教科书”定位）。",
+        "新法的总反对者：“祖宗之法不可变”与《与王介甫书》往返论辩。",
+        "元祐执政尽废新法（与苏轼在免役法上的分歧为著名案例）。"
+      ],
+      "evaluations": [
+        {"holder": "《宋史》与理学传统", "view": "“元祐君子”典范、涑水先生；史学上被尊为编年史宗师。", "basis": "《宋史·司马光传》。"},
+        {"holder": "现代史学", "view": "史学成就（严谨的考异方法）与政治判断（尽废良法、党争化）被分开评价；“砸缸”故事系晚出传说，不作信史引用。", "basis": "宋史与史学史研究。"}
+      ],
+      "sources": ["songshi", "tongjian", "xu-tongjian-changbian", "deng-xiaonan-zuzong"],
+      "needs_verification": false
+    },
+    {
+      "id": "sushi",
+      "name": "苏轼",
+      "birth_year": 1037,
+      "death_year": 1101,
+      "birth_display": "1037年",
+      "death_display": "1101年",
+      "birth_note": "据《宋史》景祐三年（1037年，一说十二年月异说）生，通说；眉山人。",
+      "death_note": "建中靖国元年（1101年）卒于常州，公元纪年。",
+      "chronology": [
+        {"year": 1037, "display": "1037年", "text": "生于眉州眉山。"},
+        {"year": 1057, "display": "1057年", "text": "与弟辙同榜进士（欧阳修主考，误疑为曾巩避嫌置第二的佳话）。"},
+        {"year": 1079, "display": "1079年", "text": "乌台诗案下狱，贬黄州团练副使（“东坡居士”自此号）。"},
+        {"year": 1085, "display": "1085—1094年", "text": "元祐间回朝（翰林学士），又因党争屡迁；哲宗绍圣后贬惠州、儋州。"},
+        {"year": 1101, "display": "1101年", "text": "遇赦北归，卒于常州。"}
+      ],
+      "deeds": [
+        "诗、词、文、书、画全才：《赤壁赋》《念奴娇·赤壁怀古》《水调歌头》等与寒食帖。",
+        "豪放词开派（与辛弃疾并称苏辛）；以诗为词的词体革命。",
+        "杭州任内浚西湖筑苏堤、徐州抗洪——地方治理实绩。"
+      ],
+      "evaluations": [
+        {"holder": "南宋以来经典化", "view": "“唐宋八大家”与文人画理论（《枯木怪石图》题跋传统）的枢纽；其旷达人格成为中国文化的人格理想之一。", "basis": "文学史与艺术史通说。"},
+        {"holder": "现代研究", "view": "其“以诗为词”的文体革命与乌台诗案（以文字罪人）互为表里——苏轼是被党争政治制造又超越政治的文化人格标本。", "basis": "宋代文学史研究。"}
+      ],
+      "sources": ["songshi", "zgbk", "xiehe-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "shenkuo",
+      "name": "沈括",
+      "birth_year": 1031,
+      "death_year": 1095,
+      "birth_display": "1031年",
+      "death_display": "1095年",
+      "birth_note": "据《宋史》相关传记材料推排（1031年生，通说约数）；钱塘人。",
+      "death_note": "绍圣二年（1095年）卒于润州梦溪园，公元纪年。",
+      "chronology": [
+        {"year": 1031, "display": "1031年", "text": "生于钱塘。"},
+        {"year": 1063, "display": "1063年", "text": "进士及第；后入昭文馆、提举司天监（历法与天文仪器改革）。"},
+        {"year": 1075, "display": "1075年", "text": "使辽，划界谈判据《熙宁使虏图抄》力争（外交实绩）。"},
+        {"year": 1082, "display": "1082年", "text": "永乐城之败（西夏）连坐贬谪——军事生涯的终点。"},
+        {"year": 1088, "display": "1088年（前后）", "text": "居润州梦溪园，撰《梦溪笔谈》。"},
+        {"year": 1095, "display": "1095年", "text": "卒。"}
+      ],
+      "deeds": [
+        "《梦溪笔谈》六十卷（26卷本通行）：天文、数学（隙积术会圆术）、地质（化石与石油命名）、医学、音乐、艺文——百科式笔记。",
+        "“石油”一词首见于其笔谈并预言“此物后必大行于世”。",
+        "首创“十二气历”（纯阳历方案）与飞鸟图（地图学）设想。"
+      ],
+      "evaluations": [
+        {"holder": "李约瑟（Needham）", "view": "称《梦溪笔谈》为“中国科学史上的坐标”——该定位被中外学界广泛引用。", "basis": "李约瑟《中国科学技术史》。"},
+        {"holder": "现代研究补充", "view": "其政治生涯（依附新党、永乐城之败）与其科学成就长期被分开评价；“士大夫科学传统”的独特性与限度（未成建制学科）被学界讨论。", "basis": "宋代科技史研究。"}
+      ],
+      "sources": ["songshi", "mengxibitan", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "yuefei",
+      "name": "岳飞",
+      "birth_year": 1103,
+      "death_year": 1142,
+      "birth_display": "1103年",
+      "death_display": "1142年",
+      "birth_note": "据《宋史·岳飞传》崇宁二年（1103年）生，通说；相州汤阴人。",
+      "death_note": "绍兴十一年十二月廿九日（1142年1月，通行历日换算）被赐死于大理寺狱（风波亭传说为后人叙事）。",
+      "chronology": [
+        {"year": 1103, "display": "1103年", "text": "生于相州汤阴农家。"},
+        {"year": 1122, "display": "1122年（前后）", "text": "应募从军（四次从军经历开始）。"},
+        {"year": 1134, "display": "1134年", "text": "收复襄阳六郡（第一次大规模北伐）。"},
+        {"year": 1140, "display": "1140年", "text": "郾城、颍昌大捷，进军朱仙镇（朱仙镇之役的记载见于岳珂《金佗稡编》，规模有讨论）。"},
+        {"year": 1141, "display": "1141年", "text": "被召还、解除兵权、下狱。"},
+        {"year": 1142, "display": "1142年1月", "text": "赐死于大理寺；狱卒隗顺负尸潜葬。"}
+      ],
+      "deeds": [
+        "岳家军（背嵬军）为南宋野战主力之一：“冻死不拆屋，饿死不掳掠”的军纪记载（《宋史》本传）。",
+        "郾城之战破金军“铁浮屠拐子马”战术记载（《宋史》，战术细节现代有辨析）。",
+        "北伐主张“直捣黄龙”与连结河朔方针。"
+      ],
+      "evaluations": [
+        {"holder": "《宋史》官方平反叙事", "view": "“文臣不爱钱，武臣不惜死，天下太平矣”（岳飞语）与“精忠”传统——宋孝宗平反后（1162年）官方叙事定型。", "basis": "《宋史·岳飞传》。"},
+        {"holder": "现代宋史研究", "view": "区分史实与层累：其军功真实、北伐战略价值极高，而“朱仙镇五百破十万”等细节出自岳珂家传史料需谨慎；“尽忠报国”背刺原文与“精忠”旗之别为经典辨析。", "basis": "邓广铭《岳飞传》等。"}
+      ],
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "zhuxi",
+      "name": "朱熹",
+      "birth_year": 1130,
+      "death_year": 1200,
+      "birth_display": "1130年",
+      "death_display": "1200年",
+      "birth_note": "据《宋史》建炎四年（1130年）生于尤溪，公元纪年换算；祖籍婺源。",
+      "death_note": "庆元六年（1200年）卒于建阳考亭，公元纪年。",
+      "chronology": [
+        {"year": 1130, "display": "1130年", "text": "生于尤溪。"},
+        {"year": 1148, "display": "1148年", "text": "进士及第。"},
+        {"year": 1175, "display": "1175年", "text": "鹅湖之会与陆九渊论学。"},
+        {"year": 1180, "display": "1180年（前后）", "text": "重建白鹿洞书院、订学规；《四书章句集注》陆续成书。"},
+        {"year": 1196, "display": "1196年", "text": "庆元党禁，“伪学逆党”之斥。"},
+        {"year": 1200, "display": "1200年", "text": "卒；后配享孔庙，《四书集注》为科举定本。"}
+      ],
+      "deeds": [
+        "集理学之大成：理气论、心性论（《中庸章句》）、格物致知认识论的系统化。",
+        "重建书院与社仓（朱子社仓法）：教育与社会救济并行的实践。",
+        "《四书章句集注》成为此后七百年科举标准文本。"
+      ],
+      "evaluations": [
+        {"holder": "元明清官学传统", "view": "“集大成而绪千百年绝传之学”的圣人定位（元代封徽号、清代从祀位次至圣）。", "basis": "历代祀典文献。"},
+        {"holder": "现代哲学史", "view": "既承认其为宋明理学最高峰，也批评其“存理灭欲”说对人性的收紧与“格物”说的知识论限度——哲学讨论（牟宗三、余英时等朱子研究传统）持续。", "basis": "现代中国哲学研究。"}
+      ],
+      "sources": ["songshi", "zgbk", "xiehe-han"],
+      "needs_verification": false
+    },
+    {
+      "id": "wentianxiang",
+      "name": "文天祥",
+      "birth_year": 1236,
+      "death_year": 1283,
+      "birth_display": "1236年",
+      "death_display": "1283年",
+      "birth_note": "据《宋史·文天祥传》端平三年（1236年）生于吉州庐陵，公元纪年换算。",
+      "death_note": "至元十九年十二月（1283年1月，通行历日换算）就义于大都柴市，公元纪年。",
+      "chronology": [
+        {"year": 1236, "display": "1236年", "text": "生于吉州庐陵。"},
+        {"year": 1256, "display": "1256年", "text": "状元及第（理宗亲拔第一）。"},
+        {"year": 1275, "display": "1275年", "text": "勤王起兵（散家财募军），知平江府；出使元营被拘，脱归。"},
+        {"year": 1278, "display": "1278年", "text": "海丰兵败被俘；《过零丁洋》“人生自古谁无死，留取丹心照汗青”。"},
+        {"year": 1279, "display": "1279年", "text": "被押至崖山目睹宋亡。"},
+        {"year": 1283, "display": "1283年1月", "text": "就义于大都；《正气歌》成于囚中（1281年）。"}
+      ],
+      "deeds": [
+        "散尽家财勤王，官至右丞相拒降被俘。",
+        "《过零丁洋》《正气歌》《衣带赞》构成宋末气节书写的顶点；狱中拒忽必烈亲劝（许以中书宰相）。"
+      ],
+      "evaluations": [
+        {"holder": "《宋史》本传", "view": "“自貌其执当死……观其从容伏质，就死如归，是又欲得其所”——平生议论与最终实践合一。", "basis": "《宋史·文天祥传》。"},
+        {"holder": "现代史学", "view": "其“成仁取义”是理学人格理想的历史实践标本；同时学界将其政治军事贡献（江西勤王、临安谈判）与符号价值分开评估。", "basis": "宋末元初史研究。"}
+      ],
+      "sources": ["songshi", "xu-tongjian", "zgbk"],
+      "needs_verification": false
+    }
+  ]
+}

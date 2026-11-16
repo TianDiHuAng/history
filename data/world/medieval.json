@@ -1,0 +1,794 @@
+{
+  "unit_id": "world-medieval",
+  "region": "world",
+  "title": "中世纪（欧洲·伊斯兰·内亚）",
+  "period_display": "约500年—1500年",
+  "start_year": 500,
+  "end_year": 1500,
+  "overview": {
+    "main_threads": [
+      "罗马遗产的重组：西欧日耳曼诸王国、拜占庭帝国与罗马教会的三分格局，及其向封建制与教皇权威的演化",
+      "伊斯兰世界的形成与扩张：从622年希吉拉到750年阿拔斯革命，哈里发国家塑造新的欧亚非政治与商贸网络",
+      "内亚力量的周期性冲击：塞尔柱、蒙古与奥斯曼相继重塑欧亚大陆的政权版图与陆上商路",
+      "教会与王权的互动：从加洛林政教合作到十字军动员、以及《大宪章》式“王在法下”的约束机制",
+      "欧亚之外的同步发展：西非马里的黄金时代与美洲阿兹特克、印加两帝国的扩张"
+    ],
+    "sub_periods": [
+      {"name": "早期中世纪", "range_display": "约500年—约800年", "desc": "西罗马故地上日耳曼诸王国定型，拜占庭与伊斯兰先后扩张；法兰克王国整合西欧，克洛维皈依与查士丁尼复兴是两条主线。"},
+      {"name": "盛期中世纪", "range_display": "约800年—约1300年", "desc": "加洛林帝制、维京活动、罗斯受洗、塞尔柱崛起、十字军与蒙古西征相继展开；西欧人口、城市与教会组织扩张，王权约束机制萌芽。"},
+      {"name": "中世纪晚期", "range_display": "约1300年—1500年", "desc": "黑死病与百年战争造成人口与社会震荡；马里的黄金时代与美洲两帝国并立；1453年君士坦丁堡陷落，奥斯曼成为东地中海支配力量。"}
+    ],
+    "key_changes": [
+      "西欧由罗马行省秩序演化为封建采邑—庄园经济与等级王权",
+      "基督教会从地方网络发展为跨政权的教皇权威，政教关系成为欧洲政治结构的核心变量",
+      "伊斯兰教从阿拉伯半岛信仰扩展为跨欧亚非的文明圈，阿拉伯语与伊斯兰法律—学术传统成型",
+      "草原—绿洲政权（塞尔柱、蒙古）打通并重组欧亚陆上商路，驿站体系短期贯通东西",
+      "14世纪瘟疫与战争造成人口锐减，劳动力短缺推动西欧土地与社会关系松动",
+      "君士坦丁堡陷落与奥斯曼扩张改变东地中海格局，欧洲重心向大西洋过渡的背景形成"
+    ]
+  },
+  "events": [
+    {
+      "id": "clovis-franks-481",
+      "title": "克洛维皈依与法兰克王国",
+      "year": 481,
+      "end_year": 511,
+      "year_display": "481年",
+      "end_year_display": "511年",
+      "year_note": "克洛维即位系于481年（其父希尔德里克一世卒年，通行纪年）；卒于511年。受洗年份有496与508两说，见争议节。均据通行公历纪年。",
+      "location": "高卢北部：图尔奈—苏瓦松—兰斯（今法国北部与比利时一带）",
+      "key_people": [],
+      "background": "西罗马帝国覆灭后，高卢由多个日耳曼政权与罗马残余势力分治。撒利法兰克人首领克洛维（墨洛温家族）于约481年继承其父希尔德里克一世的王位，逐步吞并邻近部族，成为法兰克诸王中最有力者。当时多数日耳曼政权皈依阿里乌派基督教，与罗马正统教会（后世称天主教）关系紧张。",
+      "process": [
+        "约486年，克洛维在苏瓦松击败罗马高卢最后一任将领西格里乌斯，控制高卢北部。",
+        "约496年（一说508年，见争议节），克洛维在兰斯受洗，皈依罗马正统派基督教；据图尔主教格雷戈里《法兰克人史》，其皈依与对阿勒曼尼人之战相联系。",
+        "507年，克洛维在武耶之战击败西哥特国王阿拉里克二世，夺取卢瓦尔河以南高卢大部；西哥特势力退往伊比利亚。",
+        "其后克洛维陆续兼并里普利安法兰克等邻邦；据东罗马史料与《法兰克人史》记载，拜占庭皇帝阿纳斯塔修斯一世授予其执政官荣誉。",
+        "511年克洛维卒，王国按法兰克习惯分与四子，墨洛温王朝在此后二百余年间分合延续。"
+      ],
+      "outcome": "法兰克王国成为西罗马故地上延续最久的日耳曼政权，并率先皈依罗马正统教会，奠定了法兰克王权与罗马教会长期合作的格局，为加洛林时代及此后西欧政教关系埋下基础。",
+      "controversies": [
+        {"issue": "克洛维受洗的年份", "views": [
+          {"holder": "图尔主教格雷戈里《法兰克人史》（约594年成书）", "basis": "叙事将克洛维皈依置于与阿勒曼尼之战后，传统据此系于约496年。"},
+          {"holder": "主张508年前后的研究", "basis": "依据主教阿维图斯书信、东罗马编年史等旁证，认为受洗与507年武耶之战及对拜占庭的外交相衔接，应晚于496年。两说至今并存。"}
+        ]},
+        {"issue": "皈依动机的解释", "views": [
+          {"holder": "教会传统叙事", "basis": "以信仰皈依与神意为核心解释。"},
+          {"holder": "现代史学", "basis": "指出皈依兼具政治考量：罗马正统教会有助整合高卢罗马化精英，并使其区别于阿里乌派邻国；动机问题被视为复合因素而非单选。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>克洛维皈依与法兰克王国（481—511）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>481年即位（图尔奈）·撒利法兰克人首领</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw1)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>约486年苏瓦松之战·击败罗马将领西格里乌斯</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw1)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='169' text-anchor='middle' fill='#8c1f28'>约496年兰斯受洗·皈依罗马正统教会（另有508年说）</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw1)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>507年武耶之战·败西哥特·夺卢瓦尔河以南高卢</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw1)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>511年卒·王国分与四子·墨洛温王朝分合延续</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw1)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>法兰克王权与罗马教会长期合作的格局自此奠定</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>受洗年份496/508两说并存（见争议节）</text></svg>",
+      "sources": ["cambridge-medieval", "le-goaa-jp", "british-museum"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "justinian-reconquest-527",
+      "title": "查士丁尼复兴与《民法大全》",
+      "year": 527,
+      "end_year": 565,
+      "year_display": "527年",
+      "end_year_display": "565年",
+      "year_note": "查士丁尼一世527年8月即位、565年卒，通行纪年；法典各部颁行年：529年《查士丁尼法典》首版、533年《学说汇纂》与《法学阶梯》、534年法典修订版。",
+      "location": "君士坦丁堡及地中海西部（北非、意大利）",
+      "key_people": ["justinian"],
+      "background": "西罗马灭亡后，东罗马（拜占庭）保有地中海东部的财政与行政资源。查士丁尼一世即位后以“恢复罗马帝国”为号召，同时命大臣特里波尼安主持罗马法典编纂；对波斯萨珊王朝的战争时断时续，构成其西部政策的后方约束。",
+      "process": [
+        "527年即位；532年君士坦丁堡“尼卡”暴动几乎倾覆政权，皇后狄奥多拉力主镇压后，大建筑工程重启。",
+        "529年颁《查士丁尼法典》首版，533年颁《学说汇纂》与《法学阶梯》，534年颁法典修订版——三者与后来的《新律》合称《民法大全》。",
+        "533—534年，贝利撒留率军灭北非汪达尔王国；535年起转攻东哥特人统治的意大利，哥特战争延宕至554年方告结束。",
+        "537年君士坦丁堡圣索菲亚大教堂落成；552年东哥特主力败亡后战事渐定，意大利名义上重归帝国。",
+        "541—542年鼠疫大流行（后世称“查士丁尼瘟疫”）重创人口与财政；565年查士丁尼卒。"
+      ],
+      "outcome": "《民法大全》汇编罗马法遗产，成为后世拜占庭法与中世纪及近代欧洲大陆法系的文本基础；西部收复在北非、意大利建立行省但未巩固，伦巴德人568年入意大利后大部丧失；帝国资源在长期战争与瘟疫中消耗，6世纪末东罗马转入守势。",
+      "controversies": [
+        {"issue": "“复兴”的成本与评价", "views": [
+          {"holder": "吉本《罗马帝国衰亡史》以来的传统评断", "basis": "认为西征与浩大工程耗竭帝国元气，其野心加速了后续危机（此说在现代表述中需修正）。"},
+          {"holder": "现代拜占庭研究", "basis": "指出哥特战争延宕、541年瘟疫与对波斯的长期战争是消耗主因；西部收复在其身前大体成功，失败主要发生在后继者时代；同时强调法典与建筑的长远制度遗产。"}
+        ]},
+        {"issue": "《民法大全》的性质", "views": [
+          {"holder": "通说", "basis": "以罗马法学家（盖尤斯、乌尔比安等）既有文献为基础的官方汇编与教材，配以新颁敕令。"},
+          {"holder": "法制史讨论", "basis": "编纂中有删改与重写（含基督教化时代的政策调整），并非纯粹保存古法，其文本本身就是6世纪拜占庭国家的产物。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>查士丁尼一世的时代（527—565）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>527年即位·532年平“尼卡”暴动（狄奥多拉力主镇压）</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw2)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>529—534年《民法大全》各部颁行（法典·学说汇纂·法学阶梯）</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw2)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='169' text-anchor='middle'>533—554年西部收复：灭汪达尔·哥特战争延宕</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw2)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>537年圣索菲亚大教堂落成·君士坦丁堡重建</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw2)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>541—542年鼠疫大流行·人口与财政受创</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw2)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>565年卒·《民法大全》成为拜占庭法与欧陆法系的文本基础</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>评价分野：吉本“耗竭国力”说与现代“波斯战争—瘟疫消耗”说（见争议节）</text></svg>",
+      "sources": ["brit-justinian", "cambridge-medieval", "met-toah", "gibbon"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "islam-caliphate-622",
+      "title": "伊斯兰教兴起与哈里发国家扩张",
+      "year": 622,
+      "end_year": 750,
+      "year_display": "622年",
+      "end_year_display": "750年",
+      "year_note": "以622年穆罕默德自麦加迁往麦地那（“希吉拉”）为叙事锚点，伊斯兰历即以此为纪元起点；750年阿拔斯革命推翻倭马亚王朝为下限。通行公历纪年换算。",
+      "location": "阿拉伯半岛—黎凡特—埃及—波斯—北非—伊比利亚",
+      "key_people": ["muhammad"],
+      "background": "6世纪末阿拉伯半岛处于拜占庭与萨珊两大帝国夹缝之中，麦加以商队贸易与克尔白圣殿为经济与宗教中心。穆罕默德约570年生于麦加古莱西部落，610年前后开始传布一神教义，与麦加贵族的冲突日深。",
+      "process": [
+        "622年，穆罕默德与信众迁往麦地那（希吉拉），建立以乌玛（信仰共同体）为框架的政教组织。",
+        "630年穆罕默德兵不血刃进入麦加；632年卒，半岛大部已在麦地那政权支配之下。",
+        "632—661年四大哈里发时期：636年雅穆克之战破拜占庭军、卡迪西亚之战破萨珊军，叙利亚、埃及、波斯相继易手。",
+        "661年倭马亚王朝定都大马士革，扩张继续：7世纪末至8世纪初进抵北非西部，711年渡海峡入伊比利亚，同年进抵中亚信德。",
+        "750年阿拔斯人以呼罗珊为基地起事，推翻倭马亚王朝，哈里发国家重心东移。"
+      ],
+      "outcome": "在约一个世纪内，从大西洋沿岸到中亚信德的广阔地带纳入哈里发国家统治，地中海世界格局改观；阿拉伯语成为行政与学术语言，伊斯兰文明圈形成；750年后帝国虽分立，伊斯兰教的宗教与法律共同体延续。",
+      "controversies": [
+        {"issue": "早期史料的年代与可靠性", "views": [
+          {"holder": "主流学术立场", "basis": "《古兰经》定型较早（7世纪已有编纂传统），是核心原始文本；先知传记（如伊本·伊沙克，成书于8世纪）与编年史为后世编纂，须分层使用。"},
+          {"holder": "20世纪70年代以来的部分西方研究者", "basis": "以克朗、库克《哈加里主义》（1977）等为代表，对7世纪叙事提出激进重估；后续铭文与写本研究多不支持其最激进结论，主流仍承认622—750年框架的基本可靠。"}
+        ]},
+        {"issue": "扩张的性质", "views": [
+          {"holder": "传统叙述", "basis": "以宗教扩张或“圣战”框架解释征服速度。"},
+          {"holder": "现代研究主流", "basis": "强调拜占庭—萨珊长期战争造成的消耗、拜占庭行省精英的倒戈，以及阿拉伯国家逐步成型的政治过程；宗教热情与国家建构并重，单一动因解释均被放弃。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>伊斯兰教兴起与哈里发国家扩张（622—750）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>622年希吉拉·麦地那乌玛（政教共同体）建立</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw3)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>630年入麦加·632年穆罕默德卒·半岛大部归附</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw3)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='169' text-anchor='middle'>636年雅穆克与卡迪西亚之战·叙利亚埃及波斯相继易手</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw3)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>661年倭马亚王朝·定都大马士革</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw3)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>711年渡海峡入伊比利亚·同年进抵中亚信德</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw3)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>750年阿拔斯革命·帝国重心东移·伊斯兰文明圈成型</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>扩张动因：宗教热情与两大帝国消耗、行省精英倒戈并重（见争议节）</text></svg>",
+      "sources": ["brit-muhammad", "quran", "cambridge-medieval", "stearns-global"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "viking-norman-793",
+      "title": "维京时代与诺曼征服",
+      "year": 793,
+      "end_year": 1066,
+      "year_display": "793年",
+      "end_year_display": "1066年",
+      "year_note": "以793年6月林迪斯法恩修道院遭劫掠为“维京时代”通行开端（阿尔昆致书感叹为时人证据）；以1066年黑斯廷斯之战与诺曼征服为通行下限。通行公历纪年。",
+      "location": "斯堪的纳维亚—不列颠群岛—诺曼底—北大西洋与东欧水路",
+      "key_people": [],
+      "background": "8世纪末，斯堪的纳维亚人口增长、龙骨船航海技术与商路网络扩张，北欧人开始以劫掠、贸易、殖民并行的方式进入北海与波罗的海世界。793年林迪斯法恩劫掠是盎格鲁—撒克逊文献中首次明确记载的大规模袭击。",
+      "process": [
+        "8世纪末至9世纪，劫掠从修道院扩展至河口城镇；丹麦人深深入侵盎格鲁—撒克逊诸国，878年威塞克斯国王阿尔弗雷德与之定约，形成“丹法区”。",
+        "911年，诺曼人首领罗洛受西法兰克国王查理三世（“天真汉”）册封于诺曼底，成为维京—法兰克混合政权。",
+        "10世纪，北欧王权与基督教化推进（丹麦王“蓝牙”哈拉尔受洗等），定居与国家形成并行；北欧人经东欧水路进入拜占庭与里海贸易圈。",
+        "1066年，诺曼底公爵威廉渡海，10月黑斯廷斯之战获胜，盎格鲁—撒克逊国王哈罗德战死；诺曼征服建立跨海峡王国。"
+      ],
+      "outcome": "维京活动重塑北海—大西洋世界：定居点（冰岛、诺曼底、丹法区）、贸易网络与造船技术扩散，“维京时代”通以1066年为终点。诺曼征服将英格兰纳入北欧—法兰克贵族网络，封建化与教会重组加速，语言与制度遗产延续。",
+      "controversies": [
+        {"issue": "诺曼征服的断裂程度", "views": [
+          {"holder": "传统叙述", "basis": "强调1066年是英格兰制度与贵族的“断裂点”，盎格鲁—撒克逊精英被整体替换。"},
+          {"holder": "20世纪后期以来的修正研究", "basis": "强调地方行政（郡制、百户区）与教会网络在征服前后大体延续，征服更像上层替换与混合过程；土地大换血的规模虽无争议，但“中断叙事”被显著修正。"}
+        ]},
+        {"issue": "“维京人”形象的构建", "views": [
+          {"holder": "19世纪浪漫化叙事", "basis": "海盗—武士形象经民族浪漫主义放大。"},
+          {"holder": "现代考古与文献研究", "basis": "强调劫掠、贸易、殖民与国家形成的复合性：斯堪的纳维亚本地国家建构与加洛林世界的互动才是扩张背景；文字记载多出自受害者一方，须与考古互证。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>维京时代与诺曼征服（793—1066）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>793年林迪斯法恩修道院遭劫掠·维京时代通行开端</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw5)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>9世纪劫掠、贸易与定居并行·丹法区形成（878年阿尔弗雷德定约）</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw5)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='169' text-anchor='middle'>911年罗洛受封诺曼底·维京—法兰克混合政权</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw5)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>10世纪北欧王权与基督教化推进·东欧水路贸易展开</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw5)'/><rect x='120' y='244' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='271' text-anchor='middle' fill='#8c1f28'>1066年黑斯廷斯之战·诺曼征服建立跨海峡王国</text></g><text x='380' y='340' text-anchor='middle' font-size='12' fill='#7a7468'>断裂叙事与延续性研究并存：地方行政与教会网络大体延续（见争议节）</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>“维京时代”起讫（793/1066）为学界通行约定</text></svg>",
+      "sources": ["cambridge-medieval", "british-museum", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "charlemagne-coronation-800",
+      "title": "查理曼加冕与帝国分裂",
+      "year": 800,
+      "end_year": 843,
+      "year_display": "800年",
+      "end_year_display": "843年",
+      "year_note": "加冕系于800年12月25日（据艾因哈德《查理曼传》与宫廷编年史）；《凡尔登条约》843年三分帝国。通行公历纪年。",
+      "location": "罗马（加冕）、凡尔登（条约）；帝国核心在今法、德、意北部",
+      "key_people": ["charlemagne"],
+      "background": "768年查理曼即法兰克王位，771年独掌国政后连年征战（萨克森、伦巴德、阿瓦尔、西班牙边区等），势力横跨今法、德、意。教皇利奥三世799年遭罗马贵族攻击出逃，求援于查理曼，促成其南下罗马。",
+      "process": [
+        "773—774年，查理曼平伦巴德王国，兼领伦巴德王号；其后对萨克森战争延至804年，将征服与强制基督教化并行推进。",
+        "8世纪末，宫廷学术圈（阿尔昆等）推动文本校勘与拉丁语教育，后世称“加洛林文艺复兴”。",
+        "800年12月25日，教皇利奥三世在罗马圣彼得大教堂为查理曼加冕，称“罗马人的皇帝”。",
+        "813年查理曼在世时加冕其子“虔诚者”路易；814年查理曼卒。",
+        "路易死后诸子内争，843年《凡尔登条约》将帝国一分为三：西法兰克（秃头查理）、中王国（洛泰尔，承帝号与两京）、东法兰克（日耳曼人路易）。"
+      ],
+      "outcome": "加冕在西欧重建了与拜占庭并立的帝制传统，政教关系进入新阶段，“帝国理念”成为中世纪欧洲政治想象的持久资源。凡尔登三分是王朝内争的产物，帝国的统一此后再未恢复，加洛林后期王权碎片化与封建化加深。",
+      "controversies": [
+        {"issue": "加冕的主动方与查理曼的态度", "views": [
+          {"holder": "艾因哈德《查理曼传》", "basis": "记查理曼若早知教皇意图则不会当日入教堂，暗示加冕出乎其意外，成为长期争论的起点。"},
+          {"holder": "现代研究主流", "basis": "多认为加冕经过事先沟通（教皇处境、帝位空悬论均有文本依据），“不知情说”多被解读为政治表态；具体协商细节因史料不足不可复原。"}
+        ]},
+        {"issue": "帝国分裂的性质", "views": [
+          {"holder": "传统叙事", "basis": "将843年视为“德法起源”的民族国家前史。"},
+          {"holder": "现代史学", "basis": "指出法兰克分产继承传统下843年三分是王朝内争的临时安排而非民族分界；加洛林后期政权重组频繁，直接套用后世国界叙述属时代错置。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>查理曼加冕与帝国分裂（800—843）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>768年即位（与弟共治）·771年独掌国政</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw4)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>774年平伦巴德·萨克森等连年征战（至804年）</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw4)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='169' text-anchor='middle' fill='#8c1f28'>800年12月25日教皇利奥三世于罗马加冕称帝</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw4)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>813年加冕子“虔诚者”路易·814年查理曼卒</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw4)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>843年《凡尔登条约》：西法兰克·中王国·东法兰克</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw4)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>西欧帝制传统重建·帝国统一此后再未恢复</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>加冕主动方之争：艾因哈德“不知情说”与事先沟通说（见争议节）</text></svg>",
+      "sources": ["brit-charlemagne", "cambridge-medieval", "le-goaa-jp"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "kievan-rus-baptism-988",
+      "title": "基辅罗斯受洗",
+      "year": 988,
+      "end_year": null,
+      "year_display": "988年",
+      "end_year_display": null,
+      "year_note": "受洗系于988年（罗斯《往年纪事》所记传统年份，学界有987—990年间的浮动）；《往年纪事》成书于12世纪初（约1113年），为后世编纂。通行公历纪年。",
+      "location": "基辅（第聂伯河流域）、拜占庭克里米亚的赫尔松",
+      "key_people": [],
+      "background": "9世纪以来东斯拉夫人与瓦良格人（北欧系）诸公国聚合为以基辅为中心的罗斯政权，与拜占庭保持贸易、战争与外交的多重关系。弗拉基米尔一世统治时期（约980—1015年）需要一个能统合多神信仰部族的宗教—政治框架。",
+      "process": [
+        "约987—988年，弗拉基米尔与拜占庭皇帝瓦西里二世结盟：罗斯出兵助其平定内乱，弗拉基米尔与皇帝之妹安娜联姻。",
+        "988年（传统系年），弗拉基米尔在赫尔松受洗，返基辅后下令拆毁多神偶像，命基辅居民在第聂伯河集体受洗。",
+        "教会组织自拜占庭导入：设都主教区（初隶君士坦丁堡牧首），教士、圣像与斯拉夫语礼仪文本进入罗斯。",
+        "雅罗斯拉夫“智者”时期（1019—1054年在位），教堂兴建与法典（《雅罗斯拉夫法典》）并行，基督教化深入精英层。"
+      ],
+      "outcome": "罗斯进入拜占庭—斯拉夫文化圈：教会历法、文字与建筑传统落地，为此后俄罗斯、乌克兰、白俄罗斯区域的东正教认同奠定起点；多神信仰在农村长期并存，基督教化是延续数代的渐进过程。",
+      "controversies": [
+        {"issue": "988年叙事的史料性质", "views": [
+          {"holder": "《往年纪事》（12世纪初编纂）", "basis": "提供“信仰选择”叙事（比较诸教后择东正教）与赫尔松受洗、集体受洗等情节。"},
+          {"holder": "拜占庭史料与现代研究", "basis": "拜占庭编年史所记与罗斯叙事不尽一致（借兵细节与联姻时间等），集体受洗细节被视为后世加工；受洗年份有987—990年浮动，事件框架被主流接受而细节存疑。"}
+        ]},
+        {"issue": "基督教化的速度", "views": [
+          {"holder": "传统教会叙事", "basis": "988年一次性皈依，信仰自上而下确立。"},
+          {"holder": "考古与铭文研究", "basis": "10—12世纪墓葬与乡村遗存显示多神信仰长期延续，基督教化是数百年渐进过程，988年是国家与精英层面的转折。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>基辅罗斯受洗与拜占庭—斯拉夫文化圈（988）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='42' fill='#fff' stroke='#2b4a6f'/><text x='380' y='70' text-anchor='middle'>约987—988年与拜占庭结盟·出兵助瓦西里二世·联姻安娜</text><line x1='380' y1='86' x2='380' y2='94' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw6)'/><rect x='120' y='96' width='520' height='42' fill='#fff' stroke='#8c1f28'/><text x='380' y='122' text-anchor='middle' fill='#8c1f28'>988年弗拉基米尔于赫尔松受洗·基辅第聂伯河集体受洗（传统系年）</text><line x1='380' y1='138' x2='380' y2='146' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw6)'/><rect x='120' y='148' width='520' height='42' fill='#fff' stroke='#2b4a6f'/><text x='380' y='174' text-anchor='middle'>设都主教区·斯拉夫语礼仪·教堂与教士自拜占庭导入</text><line x1='380' y1='190' x2='380' y2='198' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw6)'/><rect x='120' y='200' width='520' height='42' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle'>雅罗斯拉夫“智者”时期（1019—1054）法典与兴建并行</text><line x1='380' y1='242' x2='380' y2='250' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw6)'/><rect x='120' y='252' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='279' text-anchor='middle' fill='#8c1f28'>罗斯进入拜占庭—斯拉夫文化圈·多神信仰长期并存</text></g><text x='380' y='340' text-anchor='middle' font-size='12' fill='#7a7468'>基督教化为渐进过程：精英转折（988）与乡村延续并行</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>《往年纪事》（约1113年成书）细节系后世追记（见争议节）</text></svg>",
+      "sources": ["cambridge-medieval", "stearns-global", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "manzikert-seljuk-1071",
+      "title": "塞尔柱崛起与曼齐刻尔特之战",
+      "year": 1071,
+      "end_year": null,
+      "year_display": "1071年",
+      "end_year_display": null,
+      "year_note": "曼齐刻尔特之战系于1071年8月26日（拜占庭与伊斯兰史料互证，通行纪年）。",
+      "location": "亚美尼亚要塞曼齐刻尔特（今土耳其马拉兹吉尔特）、安纳托利亚",
+      "key_people": [],
+      "background": "11世纪土库曼乌古斯部落联盟在塞尔柱家族统领下崛起：1040年丹丹纳干之战后建立塞尔柱政权，旋即兼并波斯西部，1055年图格里勒入巴格达，受阿拔斯哈里发授予“苏丹”称号。拜占庭自1025年后陷入宫廷政变与军区制瓦解，边防日益依赖雇佣军。",
+      "process": [
+        "1064年塞尔柱军取亚美尼亚故都阿尼；土库曼游牧部族持续渗入安纳托利亚东部。",
+        "1071年，拜占庭皇帝罗曼努斯四世亲率大军东进围曼齐刻尔特；苏丹阿尔普·阿尔斯兰回军应战。",
+        "8月26日会战：拜占庭军中雇佣与近卫部队临阵退走，皇帝被俘；塞尔柱获胜后与拜占庭缔约放人，未立即大规模进占。",
+        "其后近十年拜占庭内战频仍，小亚细亚防务瓦解；土库曼部族立足，约1077年建立鲁姆苏丹国。",
+        "1090年代，皇帝阿历克修斯一世向教皇与西方求援，成为第一次十字军的背景之一。"
+      ],
+      "outcome": "战败的直接损失有限，但其引发的内战使安纳托利亚腹地在十年内失控，拜占庭失去主要兵源与财政腹地，转而依赖西方；小亚细亚的突厥化由此展开，为此后拜占庭四百年的战略收缩定调。",
+      "controversies": [
+        {"issue": "曼齐刻尔特作为转折点的程度", "views": [
+          {"holder": "传统通史框架（如奥斯特洛格尔斯基《拜占庭国家史》）", "basis": "将1071年视为拜占庭失去小亚细亚的决定性转折。"},
+          {"holder": "近数十年的修正研究", "basis": "指出战败与被俘的条约后果有限，决定性的是其后近十年内战对安纳托利亚驻防体系的自毁；小亚突厥化是数十乃至上百年的人口与政权更替过程，不宜压缩为一场会战的结果。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>塞尔柱崛起与曼齐刻尔特之战（1071）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>1040年塞尔柱政权建立·1055年图格里勒入巴格达受“苏丹”号</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw7)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>1064年取阿尼·土库曼部族渗入安纳托利亚东部</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw7)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='169' text-anchor='middle' fill='#8c1f28'>1071年8月26日曼齐刻尔特之战·皇帝罗曼努斯四世被俘</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw7)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>战后近十年内战·小亚防务瓦解·鲁姆苏丹国立足（约1077年）</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw7)'/><rect x='120' y='244' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='271' text-anchor='middle' fill='#8c1f28'>拜占庭失去兵源与财政腹地·向西方求援（十字军前奏）</text></g><text x='380' y='340' text-anchor='middle' font-size='12' fill='#7a7468'>转折点程度有争论：小亚突厥化是长期过程（见争议节）</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>战败直接损失有限·内战与驻防瓦解才是失控主因（修正研究）</text></svg>",
+      "sources": ["cambridge-medieval", "stearns-global", "brit-crusades"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "crusades-1096",
+      "title": "十字军东征",
+      "year": 1096,
+      "end_year": 1291,
+      "year_display": "1096年",
+      "end_year_display": "1291年",
+      "year_note": "以1096年第一次十字军诸路出发为起点（克莱蒙会议系于1095年11月）；1291年阿卡陷落为黎凡特十字军国家终结的通行下限。通行公历纪年。",
+      "location": "西欧—黎凡特（叙利亚—巴勒斯坦）；旁及伊比利亚、波罗的海与君士坦丁堡",
+      "key_people": [],
+      "background": "曼齐刻尔特后拜占庭求援、教皇权威上升（格里高利改革）、贵族继承压力与赎罪神学结合。1095年11月教皇乌尔班二世在克莱蒙召集会议号召东征并许诺赦罪，次年诸路武装分头东进。",
+      "process": [
+        "1096年，平民十字军先行，沿途劫掠并在小亚被歼；诸侯十字军1097年进抵君士坦丁堡，与拜占庭皇帝阿历克修斯约定效忠。",
+        "1098年取埃德萨、安条克；1099年7月攻陷耶路撒冷，建立耶路撒冷王国等四个十字军国家，城内居民遭屠杀（时人史家记载）。",
+        "12世纪，军事修会（圣殿骑士团、医院骑士团）与当地政权长期拉锯；1187年萨拉丁哈丁之战重创十字军国家，第三次十字军（1189—1192）收复沿海而未取耶路撒冷。",
+        "1202—1204年第四次十字军因欠威尼斯债务与拜占庭政局变化转向，1204年攻陷并洗劫君士坦丁堡，建拉丁帝国（至1261），东西教会裂痕加深。",
+        "13世纪后续东征成效有限；皇帝腓特烈二世1229年以外交取回耶路撒冷十余年，1250年前后埃及战役失利；1291年阿卡陷落，黎凡特十字军国家终结。"
+      ],
+      "outcome": "十字军运动两百年间深刻改变地中海与波罗的海、伊比利亚的政教格局：骑士团、赎罪契约与教皇动员机制制度化；对黎凡特本土政权与拜占庭的打击深远；东西方贸易与知识交流扩展。其遗产在宗教对抗记忆与欧洲扩张传统两方面的现代诠释中仍具争议。",
+      "controversies": [
+        {"issue": "第四次十字军转向君士坦丁堡的原因与后果", "views": [
+          {"holder": "威尼斯债务与既成事实说", "basis": "舰队运费欠付、皇子阿历克修斯求援许诺、1203—1204年君士坦丁堡政局剧变层层推进，转向系偶然累积。"},
+          {"holder": "结构性动因说", "basis": "强调威尼斯商业利益、十字军领袖的扩张野心与教皇对东西教会合一的期待共同作用。"},
+          {"holder": "后果共识", "basis": "1204年洗劫使拜占庭长期衰弱、东西教会裂痕加深（拉丁帝国1261年终被推翻），此点为各派共同承认。"}
+        ]},
+        {"issue": "十字军的动机构成", "views": [
+          {"holder": "传统宗教叙事", "basis": "以赎罪与信仰为核心动机的救赎远征。"},
+          {"holder": "现代多元研究", "basis": "家族策略、领地渴求、赎罪契约与朝圣文化交织；不同阶层动机差异大，单一“宗教狂热”或“经济动因”解释均被放弃。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>十字军东征（1096—1291）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>1095年克莱蒙会议·1096年诸路东进</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw8)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>1099年攻陷耶路撒冷·四个十字军国家建立</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw8)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='169' text-anchor='middle'>1187年哈丁之战·第三次十字军（1189—1192）未复圣城</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw8)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='219' text-anchor='middle' fill='#8c1f28'>1204年第四次十字军攻陷君士坦丁堡·拉丁帝国（至1261）</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw8)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>13世纪后续东征成效有限·1229年外交取回圣城十余年</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw8)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>1291年阿卡陷落·黎凡特十字军国家终结</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>1204年洗劫使东西教会裂痕加深（见争议节）</text></svg>",
+      "sources": ["brit-crusades", "cambridge-medieval", "le-goaa-jp", "met-toah"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "magna-carta-1215",
+      "title": "《大宪章》",
+      "year": 1215,
+      "end_year": null,
+      "year_display": "1215年",
+      "end_year_display": null,
+      "year_note": "用印系于1215年6月15日兰尼米德（据当时文书与编年史传统）；1216、1217、1225年三次再颁。通行公历纪年。",
+      "location": "兰尼米德（泰晤士河畔，今伦敦以西）",
+      "key_people": [],
+      "background": "约翰王在位期间（1199—1216）对法战争失利（1204年失诺曼底），为筹军费屡次加税并涉入教会选举之争（1208年起遭教皇禁罚），男爵与教会积怨集中爆发；1214年布汶战败后反叛男爵控制伦敦。",
+      "process": [
+        "1215年6月15日，约翰在兰尼米德接受男爵条款，用印《大宪章》，共63条（1215年本条数）。",
+        "第39条（非经同侪合法审判与国法不得监禁、剥夺财产或流放）与第40条（不得拖延、拒绝或变卖司法公正）成为后世引用的核心条款。",
+        "同年8月教皇英诺森三世宣布废黜宪章，英格兰陷入第一次男爵战争；约翰1216年死，幼王亨利三世时期宪章于1216、1217、1225年多次修订再颁。",
+        "1225年本（删并为37条）成为此后长期有效的定本，历代法典汇编沿用。"
+      ],
+      "outcome": "《大宪章》确立“王在法下”的文本先例：征税须得“全国公意”（后世议会的前史）、司法程序保障等条款经再颁与再诠释进入英国宪政传统；中世纪本义是封建特权契章，其“自由基石”的普遍意义是17世纪以来政治斗争（如柯克与议会派的引用）重新赋予的。",
+      "controversies": [
+        {"issue": "《大宪章》的性质与历史意义", "views": [
+          {"holder": "传统辉格叙事", "basis": "视之为英国自由与宪政的起点。"},
+          {"holder": "现代宪政史研究", "basis": "指出1215年文本主要保障男爵、教会与自治市利益，多数居民不在其列；普遍化意义是17世纪以来再诠释的产物；但其再颁机制确实训练了“以书面条款约束王权”的政治技术。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>《大宪章》（1215）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='42' fill='#fff' stroke='#2b4a6f'/><text x='380' y='70' text-anchor='middle'>约翰王失诺曼底（1204）·加税与教会之争·男爵反叛</text><line x1='380' y1='86' x2='380' y2='94' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw9)'/><rect x='120' y='96' width='520' height='42' fill='#fff' stroke='#8c1f28'/><text x='380' y='122' text-anchor='middle' fill='#8c1f28'>1215年6月15日兰尼米德用印《大宪章》（63条）</text><line x1='380' y1='138' x2='380' y2='146' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw9)'/><rect x='120' y='148' width='520' height='42' fill='#fff' stroke='#2b4a6f'/><text x='380' y='174' text-anchor='middle'>第39条合法审判·第40条不得拖延或变卖司法公正</text><line x1='380' y1='190' x2='380' y2='198' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw9)'/><rect x='120' y='200' width='520' height='42' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle'>1216·1217·1225年三次再颁·1225年本（37条）成定本</text><line x1='380' y1='242' x2='380' y2='250' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw9)'/><rect x='120' y='252' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='279' text-anchor='middle' fill='#8c1f28'>“王在法下”的文本先例·经17世纪再诠释进入宪政传统</text></g><text x='380' y='340' text-anchor='middle' font-size='12' fill='#7a7468'>1215年本主要保障男爵与教会利益（见争议节）</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>同年8月即遭教皇废黜·再颁机制使条款成为常制</text></svg>",
+      "sources": ["magna-carta", "cambridge-medieval", "le-goaa-jp"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "mongol-west-1219",
+      "title": "蒙古西征与金帐汗国",
+      "year": 1219,
+      "end_year": 1260,
+      "year_display": "1219年",
+      "end_year_display": "1260年",
+      "year_note": "以1219年成吉思汗对花剌子模开战为西征起点（据《世界征服者史》等与蒙元史通行系年）；1260年艾因贾鲁特之战为西南方向扩张受挫的节点。通行公历纪年。",
+      "location": "中亚（花剌子模）—罗斯草原—伏尔加—波斯—黎凡特",
+      "key_people": [],
+      "background": "13世纪初蒙古统一后，花剌子模边城讹答剌劫杀蒙古商队与使节（1218年）引发大规模西征。本条取西征（中亚—罗斯—中东）视角；蒙古政权在中国境内的征服与统治史归中国元单元，两者为同一进程的不同地域侧面。",
+      "process": [
+        "1219—1221年，成吉思汗军破花剌子模：布哈拉、撒马尔罕陷落，玉龙杰赤毁；哲别、速不台追击越高加索，1223年卡尔卡河之战败罗斯诸公联军。",
+        "1236—1242年，拔都与速不台统军再征西北：1237—1240年罗斯诸城（梁赞、弗拉基米尔、基辅等）相继陷落；1241年入波兰、匈牙利（里格尼茨、穆希之战），同年窝阔台死，大军东返。",
+        "拔都以伏尔加河畔萨莱为都建金帐汗国（术赤兀鲁思），罗斯诸公以纳贡与受封形式臣属，至1480年前后。",
+        "1253—1260年，旭烈兀西征波斯与黎凡特：1258年破巴格达、杀末代阿拔斯哈里发；1260年艾因贾鲁特之战败于埃及马穆鲁克，西南扩张止步。",
+        "1260年前后蒙哥死后诸汗国分立，统一的蒙古帝国转为数个兀鲁思并存的格局。"
+      ],
+      "outcome": "西征重塑欧亚大陆：罗斯进入金帐汗国朝贡体系，中亚与波斯部分城市与灌溉系统遭受重大破坏，巴格达陷落终结阿拔斯哈里发实体；同时驿站与商路体系一度贯通欧亚，使节、教士与商人往来增多。马穆鲁克埃及与西欧在军事对抗与外交接触中进入同一个欧亚网络。",
+      "controversies": [
+        {"issue": "破坏程度与人口数字", "views": [
+          {"holder": "罗斯与波斯编年史", "basis": "记载城市毁灭、屠城与人口锐减；具体数字多为单源、整数化，不宜作实数使用。"},
+          {"holder": "考古与经济史研究", "basis": "证实伏尔加—中亚多城确遭焚毁与长期废弃，但部分地区（金帐核心区、商路城镇）数十年内恢复；总体破坏呈区域差异极大的图景。"}
+        ]},
+        {"issue": "“蒙古枷锁”的评价框架", "views": [
+          {"holder": "俄国及苏联史学传统", "basis": "以“蒙古—鞑靼枷锁”概括罗斯被统治期，强调贡赋与政治依附的压制。"},
+          {"holder": "全球史与欧亚研究", "basis": "强调金帐汗国的贸易整合、驿站制度与宗教宽容（东正教会获免税特权等），评价从单一“压制”转向多面向分析；两种框架并存。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>蒙古西征与金帐汗国（1219—1260）方位示意</text><rect x='280' y='50' width='200' height='44' fill='#efe4cf' stroke='#2b4a6f'/><text x='380' y='77' text-anchor='middle' font-size='14' fill='#2c2c28'>蒙古草原·成吉思汗（1219年开战）</text><line x1='320' y1='94' x2='190' y2='146' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw10)'/><line x1='440' y1='94' x2='570' y2='146' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw10)'/><g font-size='13' fill='#2c2c28'><rect x='60' y='150' width='220' height='70' fill='#fff' stroke='#2b4a6f'/><text x='170' y='178' text-anchor='middle'>花剌子模（1219—1221）</text><text x='170' y='200' text-anchor='middle' font-size='12'>布哈拉·撒马尔罕陷落</text><rect x='480' y='150' width='220' height='70' fill='#fff' stroke='#2b4a6f'/><text x='590' y='178' text-anchor='middle'>罗斯诸城（1237—1240）</text><text x='590' y='200' text-anchor='middle' font-size='12'>梁赞·弗拉基米尔·基辅陷落</text></g><line x1='170' y1='220' x2='170' y2='246' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw10)'/><line x1='590' y1='220' x2='590' y2='246' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw10)'/><g font-size='13' fill='#2c2c28'><rect x='60' y='250' width='220' height='70' fill='#fff' stroke='#8c1f28'/><text x='170' y='278' text-anchor='middle'>波斯—黎凡特（1253—1260）</text><text x='170' y='300' text-anchor='middle' font-size='12'>巴格达1258陷落·艾因贾鲁特1260受挫</text><rect x='480' y='250' width='220' height='70' fill='#fff' stroke='#8c1f28'/><text x='590' y='278' text-anchor='middle'>金帐汗国·萨莱（拔都）</text><text x='590' y='300' text-anchor='middle' font-size='12'>罗斯臣属至1480年前后</text></g><text x='380' y='352' text-anchor='middle' font-size='12' fill='#7a7468'>本条取西征（中亚—罗斯—中东）视角；蒙元在中国境内史事归中国元单元</text><text x='380' y='372' text-anchor='middle' font-size='12' fill='#7a7468'>1223年卡尔卡河之战为蒙古—罗斯首次交锋</text></svg>",
+      "sources": ["cambridge-medieval", "stearns-global", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "mali-mansa-musa-1312",
+      "title": "马里帝国与曼萨·穆萨朝觐",
+      "year": 1312,
+      "end_year": 1337,
+      "year_display": "1312年",
+      "end_year_display": "1337年",
+      "year_note": "曼萨·穆萨在位通行框架约1312—1337年（据阿拉伯史家所记，卒年有1332、1337诸说）；朝觐系于1324—1326年（艾尔—奥马里访问开罗时得自亲历者）。均为约数纪年。",
+      "location": "西尼日尔河湾（马里）—撒哈拉商路—开罗—麦加—廷巴克图",
+      "key_people": ["mansa-musa"],
+      "background": "马里帝国继加纳之后控制西苏丹黄金产区与跨撒哈拉商路北端，13世纪中叶起成为西非最大政权。曼萨·穆萨即位前后，帝国已兼并廷巴克图与加奥等商路枢纽；伊斯兰教为宫廷与商旅精英的宗教，与地方传统信仰长期并存。",
+      "process": [
+        "约1312年，曼萨·穆萨即位；帝国沿尼日尔河与撒哈拉商路扩张，控制廷巴克图、加奥与盐矿要地塔加扎。",
+        "1324—1326年，曼萨·穆萨赴麦加朝觐，携大规模扈从与大量黄金经开罗；据埃及史家艾尔—奥马里等记载，其沿途施散使开罗金价多年不振（时长各书说法不一）。",
+        "朝觐归来延请伊斯兰学者与工匠至廷巴克图，营建金格里贝尔清真寺（约1327年）等工程；桑科雷清真寺—学术圈渐成撒哈拉以南伊斯兰学术中心。",
+        "1337年前后曼萨·穆萨卒（有1332年说），其后马里的集权与商路控制渐弱。",
+        "14世纪欧洲地图（如1375年加泰罗尼亚地图集）绘曼萨·穆萨持金锭像，马里成为欧洲地理知识中的西非富庶象征。"
+      ],
+      "outcome": "朝觐使西非政权进入伊斯兰世界与地中海的知识—外交网络，廷巴克图确立为学术与图书贸易中心（廷巴克图历史城区列入世界遗产）；马里的黄金—盐—图书贸易体系支撑其一个世纪的强盛。14世纪后期起王位纷争与桑海的崛起使帝国渐衰。",
+      "controversies": [
+        {"issue": "朝觐规模与金价效应", "views": [
+          {"holder": "埃及史家艾尔—奥马里、伊本·赫勒敦等阿拉伯史料", "basis": "记其扈从与施散规模巨大、开罗金价多年不振；具体人数与黄金数量各书数字互有出入。"},
+          {"holder": "现代西非史研究", "basis": "认为人数与金量系传闻化数字，不可作实数；“金价不振”的真实时长与幅度难以核证，但其传达的马里面向地中海世界的财政能量为学界公认。"}
+        ]},
+        {"issue": "在位与卒年", "views": [
+          {"holder": "阿拉伯史料互证", "basis": "通行框架取约1312—1337年在位；伊本·赫勒敦等所记传位世系有出入，卒年有1332、1337诸说。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>马里帝国与曼萨·穆萨朝觐（约1312—1337）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>约1312年曼萨·穆萨即位·控制黄金—盐—图书贸易网络</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw11)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>1324—1326年朝觐经开罗·埃及史家记金价多年不振</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw11)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='169' text-anchor='middle'>归国延聘学者与工匠·廷巴克图营建金格里贝尔清真寺等（约1327年）</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw11)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>1375年加泰罗尼亚地图集绘其持金锭像·进入欧洲地理知识</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw11)'/><rect x='120' y='244' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='271' text-anchor='middle' fill='#8c1f28'>廷巴克图成为撒哈拉以南伊斯兰学术中心（世界遗产）</text></g><text x='380' y='340' text-anchor='middle' font-size='12' fill='#7a7468'>朝觐人数与黄金数量系传闻化数字·不可作实数（见待核实）</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>卒年有1332与1337两说·在位框架为通说约数</text></svg>",
+      "sources": ["whc-timbuktu", "cambridge-medieval", "stearns-global", "bentley-cross"],
+      "needs_verification": true,
+      "pending_notes": "朝觐扈从人数与黄金数量仅见于阿拉伯史家记载（艾尔—奥马里、伊本·赫勒敦等）且互有出入，无旁证核证，正文不取具体人数；曼萨·穆萨生卒无考，在位框架为通说约数（约1312—1337），卒年有1332年说。"
+    },
+    {
+      "id": "hundred-years-war-1337",
+      "title": "百年战争",
+      "year": 1337,
+      "end_year": 1453,
+      "year_display": "1337年",
+      "end_year_display": "1453年",
+      "year_note": "以1337年爱德华三世对法宣战、自称法兰西国王为起点（编年史与文书通行系年）；1453年波尔多陷落（英方此后仅存加来）为通行下限。“百年战争”之名系19世纪史学通称，实为间歇116年的多场冲突。",
+      "location": "法国北部与西南部、低地、英格兰；加斯科尼—阿基坦为核心争议区",
+      "key_people": ["joan-of-arc"],
+      "background": "英格兰王室自亨利二世起在法国持有大片领地（加斯科尼等）；1328年卡佩直系绝嗣，瓦卢瓦的腓力六世继位，英王爱德华三世以外孙身份主张继承权；加上佛兰德斯毛织贸易、加斯科尼酒贸与苏格兰—法国同盟等结构性矛盾，1337年战争爆发。",
+      "process": [
+        "1337年爱德华三世自称法兰西国王；1346年克雷西之战、1356年普瓦捷之战，英军长弓战术两度大胜，法王约翰二世被俘。",
+        "1360年《布雷蒂尼和约》后战事间歇，法国在查理五世时期重组军队与财政，收复大部失地。",
+        "1415年亨利五世阿金库尔之战大胜；1420年《特鲁瓦条约》约定英王或其嗣继承法国王位。",
+        "1428—1429年英军围奥尔良；1429年圣女贞德解围，查理七世在兰斯加冕；1431年贞德被俘处死，但法军攻势已转。",
+        "1435年勃艮第转投法国（阿拉斯和约）；1450年诺曼底光复，1453年卡斯蒂永之战后法军收复加斯科尼，10月波尔多陷落，战争结束（英格兰仅存加来）。"
+      ],
+      "outcome": "英格兰失去除加来外的全部大陆领地，战争负担促成其议会财政的常态化与军事重心转向；法国完成政治整合，常备军与王权集中加强，两地战争记忆与民族认同强化；勃艮第问题遗留为15世纪后期欧洲政治的主轴之一。",
+      "controversies": [
+        {"issue": "战争定名与整体框架", "views": [
+          {"holder": "19世纪以来的通称", "basis": "“百年战争”概括1337—1453年英法冲突，便于叙述。"},
+          {"holder": "现代史学", "basis": "指出其间有长期和约与停战（1360—1369、1396—1415等），实为多场冲突的集合；动因兼含王朝继承、封建领地、贸易与低地政治，当时民族认同尚在形成，不宜简单写成英法民族对抗。"}
+        ]},
+        {"issue": "贞德的军事—政治作用", "views": [
+          {"holder": "传统叙事", "basis": "以贞德为战局转折的象征性英雄，兰斯加冕强化王权合法性。"},
+          {"holder": "修正研究", "basis": "认为1430年代战局逆转更依赖法军炮兵与后勤改革、勃艮第转投与财政重建；贞德的作用在于士气与合法性象征，两者并重而非单因。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>百年战争（1337—1453）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>1337年爱德华三世自称法兰西国王·战争爆发</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw12)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>1346克雷西·1356普瓦捷·长弓战术与封建骑兵对垒</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw12)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='169' text-anchor='middle'>1415年阿金库尔大胜·1420年《特鲁瓦条约》</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw12)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='219' text-anchor='middle' fill='#8c1f28'>1429年贞德解奥尔良之围·查理七世兰斯加冕</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw12)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>1435年勃艮第转投法国·1450年诺曼底光复</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw12)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>1453年卡斯蒂永战后收复加斯科尼·英格兰仅存加来</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>“百年战争”为19世纪通称·实为间歇116年的多场冲突（见争议节）</text></svg>",
+      "sources": ["brit-hundred-years-war", "cambridge-medieval", "le-goaa-jp", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "black-death-1347",
+      "title": "黑死病",
+      "year": 1347,
+      "end_year": 1351,
+      "year_display": "1347年",
+      "end_year_display": "1351年",
+      "year_note": "以1347年秋疫病经西西里墨西拿传入欧洲为通行起点，1351年前后第一波大流行在西欧消退为通行下限（各地传入年份有季节差异）。通行公历纪年。",
+      "location": "欧亚大陆—克里米亚—地中海—西欧—北欧",
+      "key_people": [],
+      "background": "14世纪30—40年代，鼠疫沿中亚—草原—黑海沿线人群传播；1346年蒙古军围攻克里米亚的卡法（热那亚商站），1347年热那亚商船将疫病带回西西里墨西拿。当时欧洲人口处于14世纪初的高峰，城市密集与营养脆弱放大了疫病风险。",
+      "process": [
+        "1347年秋，疫病经墨西拿、热那亚、马赛等港口进入地中海世界；“卡法围城投尸”之说出自后出的商人记述，传播细节存疑。",
+        "1348年疫病蔓延意大利、法兰西、伊比利亚，同年夏经英格兰南部港口入境。",
+        "1349—1350年，疫情深入英格兰、低地与德意志，并沿波罗的海推进北欧；1351年前后第一波大流行在西欧消退。",
+        "城市死亡率高于乡村，港口与商路首当其冲；同期中东、中亚亦受重创，但各地均无统计体系，死亡规模只能据遗嘱、地租、教职空缺等间接史料估计。",
+        "社会反应包括教会救护与忏悔运动（鞭身者游行）、针对犹太人的迫害（多城发生，教皇克雷芒六世1348年敕令试图制止）与劳动力市场动荡。",
+        "此后鼠疫在欧洲反复流行（1361—1362年等波次接连出现，延续至17世纪）。"
+      ],
+      "outcome": "第一波大流行使欧洲人口锐减（学界估计区间见争议节），劳动力短缺推高实际工资，土地关系与租佃形态松动，西欧多地的农奴制与劳役体系走向瓦解；教会权威与既有死亡观受到冲击。疫情与百年战争叠加，构成14世纪欧洲总体危机的核心部分。",
+      "controversies": [
+        {"issue": "死亡人数的估计区间", "views": [
+          {"holder": "传统估计", "basis": "欧洲人口损失约三分之一（20世纪通说）。"},
+          {"holder": "现代人口史的区间估计", "basis": "依遗嘱、地籍与教职空缺等间接史料，估计欧洲整体损失约三成至六成（有学者主张个别城市与地区高达五成以上），折算为数千万人；数字均为学者估计，无精确统计，地区差异极大。"},
+          {"holder": "近年再估计", "basis": "部分地区研究主张死亡率低于旧说（与气候、传播方式、地方免疫差异有关），总体区间仍未收敛。"}
+        ]},
+        {"issue": "病原与传播方式", "views": [
+          {"holder": "主流医学史结论", "basis": "1894年耶尔森与北里鉴定鼠疫杆菌以来，结合21世纪初疫骸古DNA研究，确认鼠疫杆菌为病原（对具体传播模式细节仍有讨论）。"},
+          {"holder": "20世纪末的替代假说", "basis": "曾有学者提出炭疽、出血热等替代病原说；古DNA证据公布后主流回归鼠疫杆菌。"}
+        ]},
+        {"issue": "社会经济后果", "views": [
+          {"holder": "英格兰研究传统", "basis": "劳动力短缺加速农奴制衰亡与工资上涨，社会结构发生实质变动。"},
+          {"holder": "大陆比较研究", "basis": "中欧与东欧部分地区领主反而收紧控制，农奴制延续甚至强化；各地后果差异大，单一“解放”叙事不成立。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>黑死病在欧洲的传播（1347—1351）示意</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>中亚—黑海沿线疫情·1346年卡法之围（投尸之说细节存疑）</text><line x1='380' y1='84' x2='380' y2='92' stroke='#8c1f28' stroke-width='1.6' marker-end='url(#mw13)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='119' text-anchor='middle'>1347年秋经墨西拿等港口传入地中海世界</text><line x1='380' y1='134' x2='380' y2='142' stroke='#8c1f28' stroke-width='1.6' marker-end='url(#mw13)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='169' text-anchor='middle'>1348年意大利·法兰西·伊比利亚·同年夏入英格兰</text><line x1='380' y1='184' x2='380' y2='192' stroke='#8c1f28' stroke-width='1.6' marker-end='url(#mw13)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='219' text-anchor='middle'>1349—1350年低地·德意志·波罗的海与北欧</text><line x1='380' y1='234' x2='380' y2='242' stroke='#8c1f28' stroke-width='1.6' marker-end='url(#mw13)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='269' text-anchor='middle'>1351年前后第一波消退·此后欧洲反复流行至17世纪</text><line x1='380' y1='284' x2='380' y2='292' stroke='#8c1f28' stroke-width='1.6' marker-end='url(#mw13)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>人口锐减（估计见争议节）·劳动力短缺·社会关系松动</text></g><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>死亡数字均为学者估计·无精确统计（见待核实）</text></svg>",
+      "sources": ["brit-black-death", "cambridge-medieval", "le-goaa-jp", "stearns-global"],
+      "needs_verification": true,
+      "pending_notes": "死亡人数与城市死亡率均为学者基于间接史料（遗嘱、地籍、教职空缺等）的估计，区间互异（欧洲整体约三成至六成），数字均为学者估计，无精确统计；正文不取具体总人口数字。卡法投尸之说系后出记述，仅作存疑背景。教皇克雷芒六世1348年敕令依通说转述。"
+    },
+    {
+      "id": "americas-aztec-inca-1428",
+      "title": "美洲文明：阿兹特克联盟与印加扩张",
+      "year": 1428,
+      "end_year": null,
+      "year_display": "1428年",
+      "end_year_display": null,
+      "year_note": "阿兹特克三城联盟推翻阿兹卡波察尔科系于1428年（本土编年史传统）；印加扩张通行以1438年帕查库提即位为起点（系年出自殖民时期编年史与口传王表，见争议节）。两文明均无原生公元纪年，系年由后世编年史换算。",
+      "location": "墨西哥盆地（特诺奇蒂特兰等）与安第斯库斯科—秘鲁高地",
+      "key_people": [],
+      "background": "14世纪墨西哥盆地城邦竞争激烈，特诺奇蒂特兰是阿兹卡波察尔科的属邦；安第斯的库斯科王国在13—14世纪为区域性政权。两个体系在15世纪先后完成各自的帝国化：前者以贡赋联盟、后者以国家劳役与再分配扩张。",
+      "process": [
+        "1428年，特诺奇蒂特兰与特斯科科、特拉科潘结成三城联盟，击败阿兹卡波察尔科，此为阿兹特克帝国的起点。",
+        "伊茨科阿特尔与蒙特祖马一世时期（15世纪中叶），联盟经“花之战争”与盟约征伐，将贡赋网络扩至墨西哥大部；都城特诺奇蒂特兰的人口与市场规模居当时美洲前列（人口为估计值）。",
+        "安第斯方面，1438年（传统系年）起，库斯科的帕查库提与继任者经数十年战争与联盟，将控制区扩至今秘鲁、玻利维亚、厄瓜多尔及智利北部等地，形成“塔万廷苏尤”（四域之国）。",
+        "印加以道路网、驿馆与“米塔”劳役制整合帝国，库斯科为中心的再分配体系与太阳神祭仪支撑王权；马丘比丘等高地遗址为其时代遗存（列入世界遗产）。",
+        "至15世纪末，两大帝国均处于扩张高峰；西班牙人抵达（1519年起）后相继崩溃（详见近代早期单元）。"
+      ],
+      "outcome": "15世纪美洲出现两个本土帝国：阿兹特克以贡赋联盟控制墨西哥盆地及周边，印加以行政整合控制安第斯；两者在欧洲人到来前均已建立大规模人口、贸易与仪式中心，其城市遗址、道路、文本与口传构成美洲前哥伦布史的关键遗产。",
+      "controversies": [
+        {"issue": "印加王表与扩张纪年", "views": [
+          {"holder": "殖民时期西班牙编年史（如萨尔米恩托·德·甘博亚1572年本）", "basis": "所记王表与在位年代（含帕查库提1438年起）源自印加口传，是通行纪年的依据。"},
+          {"holder": "现代考古与文献批评", "basis": "王表年代可靠性有限（口传重组、王名重复的可能），扩张更可能是多代累积的渐进过程；考古年代学与文献纪年的对应仍有分歧。"}
+        ]},
+        {"issue": "阿兹特克“帝国”的性质", "views": [
+          {"holder": "贡赋霸权说", "basis": "联盟不经直接统治，而以武力威慑与贡赋索取控制属邦，属邦保留自治。"},
+          {"holder": "再评估", "basis": "强调联盟内部三城权力结构（特斯科科的地位）与边缘区名义臣属的实际松动；传统“帝国”叙述部分为西班牙征服叙事的放大。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>15世纪美洲两大帝国（传统系年）</text><rect x='60' y='52' width='280' height='36' fill='#efe4cf' stroke='#2b4a6f'/><text x='200' y='76' text-anchor='middle' font-size='14' fill='#2b4a6f'>阿兹特克（墨西哥盆地）</text><line x1='200' y1='88' x2='200' y2='96' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><g font-size='13' fill='#2c2c28'><rect x='60' y='98' width='280' height='52' fill='#fff' stroke='#2b4a6f'/><text x='200' y='120' text-anchor='middle'>1428年三城联盟击败阿兹卡波察尔科</text><text x='200' y='140' text-anchor='middle' font-size='12'>帝国的起点</text><line x1='200' y1='150' x2='200' y2='158' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><rect x='60' y='160' width='280' height='52' fill='#fff' stroke='#2b4a6f'/><text x='200' y='182' text-anchor='middle'>特诺奇蒂特兰·特斯科科·特拉科潘</text><text x='200' y='202' text-anchor='middle' font-size='12'>三城联盟的权力结构</text><line x1='200' y1='212' x2='200' y2='220' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><rect x='60' y='222' width='280' height='52' fill='#fff' stroke='#2b4a6f'/><text x='200' y='244' text-anchor='middle'>贡赋网络与“花之战争”</text><text x='200' y='264' text-anchor='middle' font-size='12'>扩至墨西哥大部</text></g><rect x='420' y='52' width='280' height='36' fill='#efe4cf' stroke='#8c1f28'/><text x='560' y='76' text-anchor='middle' font-size='14' fill='#8c1f28'>印加（安第斯）</text><line x1='560' y1='88' x2='560' y2='96' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><g font-size='13' fill='#2c2c28'><rect x='420' y='98' width='280' height='52' fill='#fff' stroke='#8c1f28'/><text x='560' y='120' text-anchor='middle'>1438年（传统系年）起扩张</text><text x='560' y='140' text-anchor='middle' font-size='12'>帕查库提开启（王表纪年存疑）</text><line x1='560' y1='150' x2='560' y2='158' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><rect x='420' y='160' width='280' height='52' fill='#fff' stroke='#8c1f28'/><text x='560' y='182' text-anchor='middle'>塔万廷苏尤·道路网与驿馆</text><text x='560' y='202' text-anchor='middle' font-size='12'>米塔劳役制整合帝国</text><line x1='560' y1='212' x2='560' y2='220' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><rect x='420' y='222' width='280' height='52' fill='#fff' stroke='#8c1f28'/><text x='560' y='244' text-anchor='middle'>库斯科再分配体系</text><text x='560' y='264' text-anchor='middle' font-size='12'>太阳神祭仪支撑王权</text></g><line x1='200' y1='274' x2='300' y2='288' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><line x1='560' y1='274' x2='460' y2='288' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw14)'/><rect x='140' y='292' width='480' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='319' text-anchor='middle' font-size='13' fill='#8c1f28'>至15世纪末均处扩张高峰·1519年后相继崩溃（见近代早期单元）</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>印加纪年出自殖民时期编年史与口传王表·系年为约数（见争议节）</text></svg>",
+      "sources": ["met-toah", "whc-machu", "bentley-cross", "stearns-global"],
+      "needs_verification": true,
+      "pending_notes": "印加扩张“1438年起”出自殖民时期编年史（萨尔米恩托·德·甘博亚等）与口传王表，系年为约数，学界对王表年代可靠性有保留；特诺奇蒂特兰人口为考古估计值，未在正文取数。阿兹特克与印加皆无本源公元纪年。"
+    },
+    {
+      "id": "constantinople-1453",
+      "title": "君士坦丁堡陷落与奥斯曼帝国",
+      "year": 1453,
+      "end_year": null,
+      "year_display": "1453年",
+      "end_year_display": null,
+      "year_note": "攻城自1453年4月上旬至5月29日城陷（拜占庭与奥斯曼史料互证）；东罗马（拜占庭）国家终结以此为通行纪年。",
+      "location": "君士坦丁堡（今伊斯坦布尔）、巴尔干与小亚",
+      "key_people": [],
+      "background": "奥斯曼政权14世纪初自安纳托利亚西北崛起，1360年代起深入巴尔干（1389年科索沃之战后塞尔维亚臣属），1396年尼科波利斯十字军失败后君士坦丁堡已成孤立据点；1402年帖木儿之战一度中断其扩张，1420年代后恢复。拜占庭此时仅存君士坦丁堡及伯罗奔尼撒等地。",
+      "process": [
+        "1452年，穆罕默德二世在博斯普鲁斯海峡最窄处筑鲁梅利堡垒，切断黑海航路；次年围城开始，奥斯曼军力远超守军（双方兵力各家估计差异大，见争议节）。",
+        "围城自4月上旬至5月29日；奥斯曼以重炮破狄奥多西城墙，热那亚将领朱斯蒂尼亚尼负伤离阵后防御崩溃。",
+        "5月29日城陷，末帝君士坦丁十一世死于巷战；短暂劫掠后穆罕默德二世入城。",
+        "圣索菲亚大教堂改为清真寺；奥斯曼迁都于此，此后帝国以君士坦丁堡（伊斯坦布尔）为都。",
+        "伯罗奔尼撒与特拉比松先后并入（1460、1461年），拜占庭残余政权终结；希腊学者与典籍西迁（其影响见争议节的修正）。"
+      ],
+      "outcome": "延续千年的拜占庭国家终结，奥斯曼帝国成为东地中海与巴尔干的支配政权，欧亚商路的政治版图改变；君士坦丁堡（伊斯坦布尔）作为新都开启奥斯曼的鼎盛期。欧洲对奥斯曼威胁的外交与航海反应，与近代早期的大西洋扩张相互交织。",
+      "controversies": [
+        {"issue": "围城兵力数字", "views": [
+          {"holder": "奥斯曼与拉丁史料", "basis": "所记奥斯曼兵力从数万到二十余万不等，守军数字同样悬殊（均系估计，无精确统计）。"},
+          {"holder": "现代研究", "basis": "多认为奥斯曼战斗部队约六至八万人（另含大量辅助人员），拜占庭守军与外援数千人；具体数字仍属推断。"}
+        ]},
+        {"issue": "陷落与文艺复兴的因果叙事", "views": [
+          {"holder": "传统叙事", "basis": "以1453年后希腊学者携典籍西迁为意大利文艺复兴的重要刺激。"},
+          {"holder": "现代学术史研究", "basis": "指出拜占庭人文主义向意大利的转移早在14世纪已开始（赫里索洛拉斯等自1397年前后长期在意大利任教），1453年加速而非启动；单因叙事被放弃。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='mw15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='30' text-anchor='middle' font-size='17' fill='#2b4a6f'>君士坦丁堡陷落与奥斯曼帝国（1453）</text><g font-size='13' fill='#2c2c28'><rect x='120' y='44' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='69' text-anchor='middle'>14世纪初奥斯曼崛起·1360年代入巴尔干·1389科索沃之战</text><line x1='380' y1='84' x2='380' y2='92' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw15)'/><rect x='120' y='94' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='119' text-anchor='middle'>1452年筑鲁梅利堡垒·切断黑海航路</text><line x1='380' y1='134' x2='380' y2='142' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw15)'/><rect x='120' y='144' width='520' height='40' fill='#fff' stroke='#8c1f28'/><text x='380' y='169' text-anchor='middle' fill='#8c1f28'>1453年4月至5月29日围城·末帝君士坦丁十一世死于城陷</text><line x1='380' y1='184' x2='380' y2='192' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw15)'/><rect x='120' y='194' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='219' text-anchor='middle'>圣索菲亚改清真寺·迁都伊斯坦布尔</text><line x1='380' y1='234' x2='380' y2='242' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw15)'/><rect x='120' y='244' width='520' height='40' fill='#fff' stroke='#2b4a6f'/><text x='380' y='269' text-anchor='middle'>1460·1461年伯罗奔尼撒与特拉比松并入</text><line x1='380' y1='284' x2='380' y2='292' stroke='#2b4a6f' stroke-width='1.6' marker-end='url(#mw15)'/><rect x='120' y='294' width='520' height='44' fill='#efe4cf' stroke='#8c1f28'/><text x='380' y='321' text-anchor='middle' fill='#8c1f28'>拜占庭国家终结·奥斯曼成东地中海支配力量</text></g><text x='380' y='340' text-anchor='middle' font-size='12' fill='#7a7468'>围城兵力各家估计差异大·现代研究多取六至八万战斗员（见争议节）</text><text x='380' y='366' text-anchor='middle' font-size='12' fill='#7a7468'>希腊学者西迁为文艺复兴“加速”而非“启动”（见争议节）</text></svg>",
+      "sources": ["whc-istanbul", "cambridge-medieval", "stearns-global", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "justinian",
+      "name": "查士丁尼一世",
+      "birth_year": 482,
+      "death_year": 565,
+      "birth_display": "公元482年（一说483年）",
+      "death_display": "公元565年",
+      "birth_note": "生年两说：通说482年，另有483年说（依普罗柯比等记载推算的差异），取482年。",
+      "death_note": "565年11月卒于君士坦丁堡，据宫廷编年史与通行纪年。",
+      "chronology": [
+        {"year": 527, "display": "公元527年", "text": "叔父查士丁一世卒后即位，独掌大政。"},
+        {"year": 529, "display": "公元529年", "text": "颁《查士丁尼法典》首版，罗马法编纂工程启动（主持者特里波尼安）。"},
+        {"year": 532, "display": "公元532年", "text": "平“尼卡”暴动（狄奥多拉力主镇压）；同年与波斯媾和，圣索菲亚重建启动。"},
+        {"year": 534, "display": "公元534年", "text": "《学说汇纂》《法学阶梯》（533年）与法典修订版（534年）相继颁行；贝利撒留灭汪达尔王国。"},
+        {"year": 537, "display": "公元537年", "text": "圣索菲亚大教堂落成。"},
+        {"year": 541, "display": "公元541年", "text": "鼠疫大流行开始（后世称“查士丁尼瘟疫”），人口与财政受创。"},
+        {"year": 554, "display": "公元554年", "text": "哥特战争结束，意大利名义上重归帝国。"},
+        {"year": 565, "display": "公元565年", "text": "卒；西部收复的成果在其身后相继丧失。"}
+      ],
+      "deeds": [
+        "主持编纂《民法大全》（法典、学说汇纂、法学阶梯、新律），奠定拜占庭法与后来欧洲大陆法系的文本基础。",
+        "发动西部收复战争：533—534年灭汪达尔、535—554年哥特战争，意大利与北非一度重归帝国。",
+        "大兴建筑：圣索菲亚大教堂与君士坦丁堡重建，成为拜占庭建筑与王权象征的高峰。",
+        "强化官僚与税收体系（约翰·卡帕多奇亚主持财政整顿），镇压尼卡暴动后巩固皇权。",
+        "宗教政策上推动“三章之争”与教会合一尝试，效果有限。"
+      ],
+      "evaluations": [
+        {"holder": "普罗柯比（同时代史家）", "view": "《战史》肯定其收复功业与法律编纂，《秘史》则讥刺其与狄奥多拉苛虐、任用爪牙——同一作者的两种笔法构成评价的双重源头。", "basis": "普罗柯比《战史》与《秘史》并存，为史料学上著名的双重传统。"},
+        {"holder": "吉本《罗马帝国衰亡史》", "view": "以“衰亡”框架评其野心：西部征服与浩大工程耗竭国力，盛世背后是枯竭（此说在现代表述中需修正）。", "basis": "吉本对查士丁尼时代的经典论断。"},
+        {"holder": "现代拜占庭研究", "view": "肯定其制度遗产（《民法大全》、行省重组）的长时段意义，把消耗归因于波斯长期战争与541年瘟疫而非单纯“野心”；对其个人能力的评价趋于结构化。", "basis": "近数十年拜占庭经济史与瘟疫研究。"}
+      ],
+      "sources": ["brit-justinian", "cambridge-medieval", "met-toah", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "muhammad",
+      "name": "穆罕默德",
+      "birth_year": null,
+      "death_year": 632,
+      "birth_display": "约公元570年",
+      "death_display": "公元632年",
+      "birth_note": "生年通说约570年（伊斯兰传统系于“象年”，具体年份无考），置空并标约数。",
+      "death_note": "632年卒于麦地那（伊历11年），据伊斯兰史料通行纪年。",
+      "chronology": [
+        {"year": 570, "display": "约公元570年", "text": "（约）生于麦加，属古莱西部落哈希姆家族；幼年失怙，由叔父阿布·塔利卜抚养。"},
+        {"year": 610, "display": "约公元610年", "text": "（约）在麦加希拉山洞获“启示”的宗教经历（伊斯兰传统所记），开始传布一神教义。"},
+        {"year": 613, "display": "约公元613年", "text": "（约）公开传教，与麦加贵族的冲突渐起。"},
+        {"year": 622, "display": "公元622年", "text": "迁往麦地那（希吉拉），建立乌玛；伊斯兰历以此为纪元元年。"},
+        {"year": 624, "display": "公元624年", "text": "白德尔之战，麦地那政权对麦加商路首次军事胜利。"},
+        {"year": 628, "display": "公元628年", "text": "侯达比亚和约，与麦加达成暂和。"},
+        {"year": 630, "display": "公元630年", "text": "兵不血刃进入麦加，清除克尔白偶像；半岛诸部渐次归附。"},
+        {"year": 632, "display": "公元632年", "text": "举行“辞朝”后病逝于麦地那；半岛统一的框架交由哈里发继承。"}
+      ],
+      "deeds": [
+        "创立伊斯兰教：传布一神信仰，确立五功与《古兰经》启示文本的口传体系。",
+        "622年建立麦地那乌玛，将宗教共同体与政治军事组织合为一体，成为政教合一体制的原型。",
+        "以军事与外交统一阿拉伯半岛大部，为哈里发国家的扩张奠基。",
+        "确立麦地那政权的司法、济贫与部族整合框架（宪章性文件与济贫税制的传统叙述）。"
+      ],
+      "evaluations": [
+        {"holder": "伊斯兰传统", "view": "封印先知与使者的典范，其言行（圣训）为教法与信仰生活的第二权威。", "basis": "伊斯兰教义传统。"},
+        {"holder": "西方学术主流", "view": "视其为宗教创立者与国家—共同体缔造者：政教合一的组织设计塑造了此后伊斯兰世界的政治形态；同时强调早期史料多为8世纪编纂，须与《古兰经》文本、铭文互证。", "basis": "伊斯兰研究通行立场（如《剑桥中世纪史》相关章节与百科条目）。"}
+      ],
+      "sources": ["brit-muhammad", "quran", "stearns-global", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "charlemagne",
+      "name": "查理曼（查理大帝）",
+      "birth_year": null,
+      "death_year": 814,
+      "birth_display": "生年不可考（742/747/748年三说），卒于814年",
+      "death_display": "公元814年",
+      "birth_note": "生年无原始登记：艾因哈德《查理曼传》不载生年，编年史推算互异，742、747、748年三说并存，故置空并标注；卒年814年。",
+      "death_note": "814年1月28日卒于亚琛（艾因哈德《查理曼传》及宫廷编年史所记）。",
+      "chronology": [
+        {"year": 768, "display": "公元768年", "text": "父丕平卒，与弟卡洛曼分治法兰克。"},
+        {"year": 771, "display": "公元771年", "text": "卡洛曼卒，查理兼并其领地，独掌国政。"},
+        {"year": 774, "display": "公元774年", "text": "平伦巴德王国，兼领“法兰克与伦巴德王”称号。"},
+        {"year": 785, "display": "约公元785年", "text": "萨克森首领维杜金德受洗，萨克森战争取得阶段成果（战争延至804年）。"},
+        {"year": 796, "display": "公元796年", "text": "阿瓦尔汗国崩溃，多瑙河流域并入势力范围。"},
+        {"year": 800, "display": "公元800年12月25日", "text": "教皇利奥三世在罗马为其加冕，称“罗马人的皇帝”。"},
+        {"year": 813, "display": "公元813年", "text": "加冕其子“虔诚者”路易为共帝，安排继承。"},
+        {"year": 814, "display": "公元814年", "text": "卒于亚琛；帝国由路易独承，843年再三分。"}
+      ],
+      "deeds": [
+        "在位四十余年发动数十场战役：萨克森战争、伦巴德征服、对阿瓦尔与西班牙边区的经营，构建西欧最大的政治体。",
+        "800年加冕称帝，重建西欧帝制传统并确立与教皇合作的新型政教关系。",
+        "推动“加洛林文艺复兴”：以宫廷学术圈（阿尔昆等）整理圣经文本、拉丁语教育与古典文献抄写。",
+        "以巡回使（missi dominici）与诏令体系治理帝国，行政依赖个人效忠而非职业官僚。",
+        "其分封与采邑实践为西欧封建制的制度起点之一；萨克森的强制基督教化与迁徙是其征服的代价面。"
+      ],
+      "evaluations": [
+        {"holder": "艾因哈德《查理曼传》（9世纪）", "view": "以古代帝王为范本颂扬其体魄、征战与文教宽容，是加洛林官方立场的经典评价。", "basis": "《查理曼传》文本。"},
+        {"holder": "中世纪传统与后世追封", "view": "1165年被教会（弗里德里希·巴巴罗萨时期）册封为圣徒（未获罗马正式承认），成为“欧洲之父”形象的历史资源；这一形象本身是后世建构。", "basis": "加洛林传说传统与中世纪帝国政治。"},
+        {"holder": "现代研究", "view": "承认其国家建构规模空前，但强调帝国治理依赖个人效忠与巡回使，制度化程度有限；萨克森战争的强制基督教化在评价中被作为代价明确处理。", "basis": "加洛林史学界通说。"}
+      ],
+      "sources": ["brit-charlemagne", "cambridge-medieval", "le-goaa-jp", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "alfred-great",
+      "name": "阿尔弗雷德大帝",
+      "birth_year": 849,
+      "death_year": 899,
+      "birth_display": "公元849年",
+      "death_display": "公元899年",
+      "birth_note": "849年生于威塞克斯王室（据阿瑟《阿尔弗雷德王传》与编年史传统）。",
+      "death_note": "899年10月卒（《盎格鲁—撒克逊编年史》所记）。",
+      "chronology": [
+        {"year": 849, "display": "公元849年", "text": "生于威塞克斯王室。"},
+        {"year": 871, "display": "公元871年", "text": "兄埃塞尔雷德死后即威塞克斯王位，时值丹麦人大举入侵。"},
+        {"year": 878, "display": "公元878年", "text": "埃丁顿之战击败丹麦王古特鲁姆，随后订立和约，确立丹法区与威塞克斯的分界。"},
+        {"year": 886, "display": "公元886年", "text": "收复伦敦，成为盎格鲁—撒克逊诸国公认的领袖（“盎格鲁—撒克逊人的王”称号）。"},
+        {"year": 892, "display": "公元892年", "text": "丹麦人再度入侵，经数年野战与堡垒防御战将其逐退，军制改革经实战检验。"},
+        {"year": 899, "display": "公元899年", "text": "卒；其子长者爱德华继位，至10世纪中叶逐步统一英格兰。"}
+      ],
+      "deeds": [
+        "871—899年在位期间率威塞克斯抵抗丹麦人入侵，878年埃丁顿之战后与丹法定约，保全盎格鲁—撒克逊政治核心。",
+        "推行军制改革：分军轮替制、堡寨（burgh）网络与海军，为王国提供纵深防御。",
+        "主持翻译计划：《教牧关怀》等拉丁著作译成古英语颁行教区；组织《盎格鲁—撒克逊编年史》的编纂传统。",
+        "颁布法典（domboc），融合教会法与习惯法，强化王权与教会的合作。"
+      ],
+      "evaluations": [
+        {"holder": "阿瑟《阿尔弗雷德王传》（9世纪末）与编年史传统", "view": "塑造“智慧而虔诚的大王”形象，文治武功并称，是英格兰最早的理想君主范本。", "basis": "阿瑟传记与《盎格鲁—撒克逊编年史》。"},
+        {"holder": "现代盎格鲁—撒克逊研究", "view": "承认其军政改革与翻译计划的历史意义，同时指出部分著作的作者归属与“阿尔弗雷德神话”的建构性（后世尤其是维多利亚时代的放大）；评价从个人英雄转向国家—文化工程。", "basis": "20世纪以来对阿瑟传记与译本归属的文本批评。"}
+      ],
+      "sources": ["cambridge-medieval", "british-museum", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "mansa-musa",
+      "name": "曼萨·穆萨",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考",
+      "death_display": "生卒不可考（约1312—1337年在位）",
+      "birth_note": "生年无史料可考；其生平以在位年（约1312—1337，据阿拉伯史家所记的通说框架）组织，生卒置空。",
+      "death_note": "卒年无定论：在位终点有1332与1337诸说，取1337年前后为通说约数，卒年置空。",
+      "chronology": [
+        {"year": 1312, "display": "约1312年", "text": "（约）即位为曼萨（马里之王）；帝国已控制廷巴克图、加奥与盐矿要地。"},
+        {"year": 1324, "display": "约1324年", "text": "（约）启程赴麦加朝觐，1324—1326年间经开罗、汉志；埃及史家记其施散使开罗金价多年不振。"},
+        {"year": 1327, "display": "约1327年", "text": "（约）在廷巴克图营建金格里贝尔清真寺（其营建工程的通行系年）；桑科雷学术圈渐兴。"},
+        {"year": 1337, "display": "约1337年", "text": "（约）卒（另有1332年说）；其后帝国渐由盛转衰。"}
+      ],
+      "deeds": [
+        "在位期间（约1312—1337）马里帝国控制西苏丹黄金产区与跨撒哈拉商路，势力覆盖廷巴克图、加奥与盐矿要地塔加扎。",
+        "1324—1326年赴麦加朝觐，经开罗时的大规模施散使马里进入伊斯兰世界与地中海的政治视野。",
+        "延请伊斯兰学者、法官与工匠至廷巴克图，推进伊斯兰学术与建筑（金格里贝尔清真寺等）建设。",
+        "其形象见于1375年加泰罗尼亚地图集（持金锭坐于王座），成为欧洲地理学中西非富庶的标志。"
+      ],
+      "evaluations": [
+        {"holder": "埃及史家艾尔—奥马里（1324年前后在开罗采访）", "view": "据亲历者描述其富有与施散，记开罗金价多年不振——是关于曼萨·穆萨最直接的目击层史料。", "basis": "艾尔—奥马里对马里的记述。"},
+        {"holder": "欧洲地图学传统", "view": "以1375年加泰罗尼亚地图集为代表，将其塑造为西非黄金之王的欧洲形象，影响此后两个世纪的西非地理想象。", "basis": "加泰罗尼亚地图集图绘。"},
+        {"holder": "现代西非史研究", "view": "视其为跨撒哈拉贸易体系与西非伊斯兰学术网络的核心节点；同时指出“史上首富”之类现代排名缺乏史学依据，廷巴克图手稿遗产（世界遗产）是更坚实的评价基础。", "basis": "西非史学界与UNESCO遗产评定。"}
+      ],
+      "sources": ["whc-timbuktu", "cambridge-medieval", "stearns-global", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "ibn-battutah",
+      "name": "伊本·白图泰",
+      "birth_year": 1304,
+      "death_year": null,
+      "birth_display": "公元1304年",
+      "death_display": "约1368年或1377年（异说）",
+      "birth_note": "1304年生于摩洛哥丹吉尔，据其《旅途奇观》（里赫拉）自述。",
+      "death_note": "卒年无定论：通行有1368年与1377年两说（摩洛哥史料简略），置空并标注异说。",
+      "chronology": [
+        {"year": 1304, "display": "公元1304年", "text": "生于摩洛哥丹吉尔的法学（马立克派）世家。"},
+        {"year": 1325, "display": "公元1325年", "text": "21岁赴麦加朝觐，此后近三十年连续旅行。"},
+        {"year": 1333, "display": "约公元1333年", "text": "抵德里，受聘于图格鲁克王朝任卡迪（法官）多年。"},
+        {"year": 1342, "display": "约公元1342年", "text": "奉德里苏丹之命出使中国，经马尔代夫、锡兰、苏门答腊，约1346年抵中国南方港口。"},
+        {"year": 1349, "display": "公元1349年", "text": "返抵摩洛哥故里；同年赴格拉纳达。"},
+        {"year": 1352, "display": "公元1352年", "text": "自摩洛哥南行入马里帝国，1353年返，留下关于14世纪西非的珍贵记述。"},
+        {"year": 1355, "display": "约公元1355年", "text": "在苏丹阿布·伊南指令下，由书吏伊本·朱扎伊将其口述整理成《旅途奇观》（里赫拉）。"},
+        {"year": 1368, "display": "约1368年或1377年", "text": "卒年异说（1368或1377年两说并存）。"}
+      ],
+      "deeds": [
+        "近三十年行程遍及北非、阿拉伯、波斯、中亚、印度、东南亚、中国、安达卢斯与西非马里，地理覆盖为其时代之最。",
+        "以卡迪与旅行者的双重身份记述各政权的司法、市场、社会风俗与奴隶贸易等细节。",
+        "其《里赫拉》是14世纪西非马里、马尔代夫与印度图格鲁克政权的重要同时代文献。",
+        "部分行程段落（尤其中国部分）被后世研究者质疑可能揉入他人游记，文本批评仍在进行。"
+      ],
+      "evaluations": [
+        {"holder": "摩洛哥宫廷（14世纪）", "view": "以官方口述记录其见闻（苏丹阿布·伊南敕令成书），视其为帝国知识与声望的资产。", "basis": "《里赫拉》成书背景。"},
+        {"holder": "现代东方学与旅行史研究", "view": "肯定其记述的总体价值与不可替代性（尤其西非、印度、马尔代夫部分），同时以文献比对指出若干段落存在转述与增饰；评价从“完全真实的旅行者”调整为“有编辑加工的口述文本”。", "basis": "《里赫拉》文本批评传统。"}
+      ],
+      "sources": ["brit-ibn-battutah", "cambridge-medieval", "zgbk", "stearns-global"],
+      "needs_verification": false
+    },
+    {
+      "id": "joan-of-arc",
+      "name": "圣女贞德（让娜·达尔克）",
+      "birth_year": null,
+      "death_year": 1431,
+      "birth_display": "约1412年",
+      "death_display": "公元1431年",
+      "birth_note": "生年无确切记载，通行估计约1412年（据审判记录自述年龄“约十九岁”倒推），置空并标约数。",
+      "death_note": "1431年5月30日于鲁昂火刑处死（判决与行刑记录俱存）。",
+      "chronology": [
+        {"year": 1412, "display": "约1412年", "text": "（约）生于洛林边境的栋雷米村农家。"},
+        {"year": 1428, "display": "公元1428年", "text": "（一说1429年初）经守将博德里库尔引介，辗转至希农谒见王储查理。"},
+        {"year": 1429, "display": "公元1429年", "text": "5月率援军解奥尔良之围；7月随查理七世在兰斯加冕。"},
+        {"year": 1430, "display": "公元1430年", "text": "5月在贡比涅城郊作战时被勃艮第人俘虏，转售英格兰方面。"},
+        {"year": 1431, "display": "公元1431年", "text": "1—5月鲁昂教会法庭审判，定罪“异端”，5月30日火刑处死。"}
+      ],
+      "deeds": [
+        "1429年以“天启”名义参与奥尔良解围战，成为法军士气与王权合法性的象征。",
+        "推动查理七世完成兰斯加冕，强化瓦卢瓦王权的神圣性叙事。",
+        "1430年贡比涅被俘，1431年经教会法庭定罪处死；其审判记录（含1456年翻案程序的记录）完整保存至今。",
+        "1456年翻案程序撤销原判；1920年罗马天主教正式封圣，成为法国民族象征。"
+      ],
+      "evaluations": [
+        {"holder": "1431年鲁昂判决记录（英格兰方面）", "view": "以异端与着装违礼定罪，将其塑造为对王权与教会有害的煽动者——审判程序的政治性质在记录本身可见。", "basis": "1431年审判记录（判决书与审讯笔录俱存）。"},
+        {"holder": "1456年翻案程序与法国传统", "view": "撤销原判并恢复名誉，此后经民族主义叙事升格为民族圣女与殉道者。", "basis": "1456年复审记录及后世法国传统。"},
+        {"holder": "现代史学", "view": "依托审判记录复原其言行与军事角色：其作用在于士气与合法性象征而非统帅才能；对“天启”内容按史料学处理而不作神学裁定。", "basis": "审判笔录的现代校勘与研究。"}
+      ],
+      "sources": ["brit-joan-of-arc", "cambridge-medieval", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "timur",
+      "name": "帖木儿",
+      "birth_year": 1336,
+      "death_year": 1405,
+      "birth_display": "公元1336年",
+      "death_display": "公元1405年",
+      "birth_note": "1336年生于撒马尔罕附近的渴石（今沙赫里萨布兹），据帖木儿朝编年史传统。",
+      "death_note": "1405年2月卒于东征明朝途中的讹答剌（今哈萨克斯坦境内），据帖木儿朝编年史。",
+      "chronology": [
+        {"year": 1336, "display": "公元1336年", "text": "生于突厥化的蒙古贵族家庭（巴鲁剌思部）。"},
+        {"year": 1370, "display": "公元1370年", "text": "在河中夺权，定都撒马尔罕，自号“古列干”（成吉思汗系驸马，借合法性而不称汗）。"},
+        {"year": 1381, "display": "约公元1381年", "text": "（约）起对波斯与呼罗珊的连年征服，至1393年前后控制波斯大部。"},
+        {"year": 1391, "display": "公元1391年", "text": "北征金帐汗国（脱脱迷失）。"},
+        {"year": 1395, "display": "公元1395年", "text": "再破金帐、焚萨莱，金帐汗国由此转衰。"},
+        {"year": 1398, "display": "公元1398年", "text": "破德里，德里苏丹国遭重创。"},
+        {"year": 1401, "display": "公元1401年", "text": "陷大马士革与巴格达，各地工匠被迁往撒马尔罕。"},
+        {"year": 1402, "display": "公元1402年", "text": "安卡拉之战俘奥斯曼苏丹巴耶济德一世，延缓奥斯曼扩张约一代人。"},
+        {"year": 1405, "display": "公元1405年", "text": "卒于东征明朝途中；帝国由子沙哈鲁继立，撒马尔罕系延续其建筑与学术遗产。"}
+      ],
+      "deeds": [
+        "以撒马尔罕为中心建立帖木儿帝国，版图一度西至安纳托利亚、东至印度河、北达伏尔加。",
+        "两度重创金帐汗国（1391、1395—1396），改变东欧草原与罗斯的力量格局。",
+        "1398年德里、1401年大马士革与巴格达的屠城与劫掠造成大规模破坏；同时集中各地工匠于撒马尔罕，催生帖木儿建筑与艺术高峰。",
+        "1402年安卡拉之战重创奥斯曼，间接影响巴尔干—地中海格局；晚年计划东征明朝，1405年途中病亡。"
+      ],
+      "evaluations": [
+        {"holder": "帖木儿朝宫廷编年史", "view": "塑造“伊斯兰世界的保护者与征服者”双重形象，对外征服被叙述为圣战与秩序恢复。", "basis": "帖木儿朝史官传统（如雅兹迪《胜利之书》）。"},
+        {"holder": "罗斯与欧洲传统", "view": "以“帖木儿之灾”记忆其毁灭性征服（德里、大马士革、萨莱），视为15世纪前期欧亚大陆的最大灾难源。", "basis": "各地编年史与后来的欧洲叙述。"},
+        {"holder": "现代中亚研究", "view": "区分破坏与建设两面向：征服造成人口与城市重创，但撒马尔罕与赫拉特成为15世纪波斯—中亚文艺复兴（建筑、天文、细密画）的中心；其借驸马身份而不称汗的合法性操作被视为内亚政治文化的典型。", "basis": "中亚史与艺术史研究。"}
+      ],
+      "sources": ["cambridge-medieval", "stearns-global", "zgbk", "bentley-cross"],
+      "needs_verification": false
+    }
+  ]
+}
