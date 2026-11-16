@@ -431,18 +431,35 @@ def sources_page(srcdoc, depth):
 
 
 def index_page(china_units, world_units, depth):
-    n_ev = sum(len(u["events"]) for u in china_units + world_units)
-    n_pe = sum(len(u["people"]) for u in china_units + world_units)
+    def cnt(units, ev_key, pe_key):
+        e = p = 0
+        for u in units:
+            e += len(u.get(ev_key) or [])
+            p += len(u.get(pe_key) or [])
+        return e, p
+
+    ch_e, ch_p = cnt(china_units, "events", "people")
+    wo_e, wo_p = cnt(world_units, "events", "people")
+    ch_xe = sum(len((u.get("_extra") or {}).get("extra_events") or []) for u in china_units)
+    wo_xe = sum(len((u.get("_extra") or {}).get("extra_events") or []) for u in world_units)
+    ch_xp = sum(len((u.get("_extra") or {}).get("extra_people") or []) for u in china_units)
+    wo_xp = sum(len((u.get("_extra") or {}).get("extra_people") or []) for u in world_units)
+    n_ev = ch_e + wo_e + ch_xe + wo_xe
+    n_pe = ch_p + wo_p + ch_xp + wo_xp
+    n_th = sum(len(u.get("_themes") or []) for u in china_units + world_units)
     body = f"""
 <h1>中外历史脉络库</h1>
 <p>一部按"时期—事件—人物"组织的静态历史资料库：中国部分按朝代（先秦至清），世界部分按五大时期（古代文明、古典时代、中世纪、近代早期、近现代）。
-每个事件页固定包含时间地点、背景、经过、结果、史料与史学争议、示意图、待核实七个部分。</p>
+每个关键事件页固定包含时间地点、背景、经过、结果、史料与史学争议、示意图、待核实七个部分。</p>
 <div class="grid">
-<div class="card"><h3><a href="china/">中国部分</a></h3><p>{len(china_units)} 个单元 · {sum(len(u['events']) for u in china_units)} 事件 · {sum(len(u['people']) for u in china_units)} 人物</p></div>
-<div class="card"><h3><a href="world/">世界部分</a></h3><p>{len(world_units)} 个时期 · {sum(len(u['events']) for u in world_units)} 事件 · {sum(len(u['people']) for u in world_units)} 人物</p></div>
+<div class="card"><h3><a href="china/">中国部分</a></h3><p>{len(china_units)} 个单元 · 事件 {ch_e}+{ch_xe} 延伸 · 人物 {ch_p}+{ch_xp}</p></div>
+<div class="card"><h3><a href="world/">世界部分</a></h3><p>{len(world_units)} 个时期 · 事件 {wo_e}+{wo_xe} 延伸 · 人物 {wo_p}+{wo_xp}</p></div>
 <div class="card"><h3><a href="timeline/china.html">中国时间线</a></h3><p>自前2070年至1912年</p></div>
 <div class="card"><h3><a href="timeline/world.html">世界时间线</a></h3><p>自约前3500年至1991年</p></div>
 <div class="card"><h3><a href="compare/">中外同期对照表</a></h3><p>同年事件并排对照（不做因果解释）</p></div>
+<div class="card"><h3><a href="all-events.html">全站事件索引</a></h3><p>{n_ev} 条按公元纪年排序</p></div>
+<div class="card"><h3><a href="all-people.html">人物总索引</a></h3><p>{n_pe} 位按出生年排序</p></div>
+<div class="card"><h3><a href="centuries.html">世纪总览</a></h3><p>{n_th} 个专题 · 按世纪粒度汇总</p></div>
 <div class="card"><h3><a href="sources/">来源列表</a></h3><p>原典 · 学术著作 · 权威百科 · 官方机构</p></div>
 </div>
 <h2>阅读须知</h2>
@@ -451,7 +468,7 @@ def index_page(china_units, world_units, depth):
 <li>关键年份与事实须由两个独立来源印证；不足者在页面上以"待核实"标注并列出缺口。</li>
 <li>争议性事件列明各方说法与史料依据，本站不代读者下结论。</li>
 <li>示意图为示意性质，非精确地图或比例。</li>
-<li>共 {n_ev} 个事件页、{n_pe} 个人物页。</li>
+<li>共 {n_ev} 条事件（含延伸）、{n_pe} 位人物（含其他重要人物）、{n_th} 个专题。</li>
 </ul>
 """
     return header("中外历史脉络库", 0, active="首页") + body + footer()

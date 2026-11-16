@@ -1,0 +1,40 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 780 400' font-family='sans-serif'>
+<rect width='780' height='400' fill='#ffffff'/>
+<text x='390.0' y='24' text-anchor='middle' font-size='16' fill='#2c2c28'>站点结构（584 个静态文件）</text>
+<rect x='300' y='30' width='120' height='40' rx='6' fill='#2b4a6f' stroke='#2b4a6f'/>
+<text x='360.0' y='54' text-anchor='middle' font-size='12' fill='#ffffff'>首页</text>
+<rect x='80' y='110' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='140.0' y='134' text-anchor='middle' font-size='12' fill='#2c2c28'>中国 13单元</text>
+<rect x='300' y='110' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='360.0' y='134' text-anchor='middle' font-size='12' fill='#2c2c28'>世界 5时期</text>
+<rect x='520' y='110' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='580.0' y='134' text-anchor='middle' font-size='12' fill='#2c2c28'>中国时间线</text>
+<rect x='640' y='110' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='700.0' y='134' text-anchor='middle' font-size='12' fill='#2c2c28'>世界时间线</text>
+<rect x='40' y='190' width='193' height='40' rx='6' fill='#efe4cf' stroke='#2b4a6f'/>
+<text x='136.5' y='214' text-anchor='middle' font-size='12' fill='#2c2c28'>单元页（线索/分期/变化）</text>
+<rect x='200' y='190' width='128' height='40' rx='6' fill='#efe4cf' stroke='#2b4a6f'/>
+<text x='264.0' y='214' text-anchor='middle' font-size='12' fill='#2c2c28'>延伸事件 179</text>
+<rect x='360' y='190' width='120' height='40' rx='6' fill='#efe4cf' stroke='#2b4a6f'/>
+<text x='420.0' y='214' text-anchor='middle' font-size='12' fill='#2c2c28'>专题 81</text>
+<rect x='480' y='190' width='128' height='40' rx='6' fill='#efe4cf' stroke='#2b4a6f'/>
+<text x='544.0' y='214' text-anchor='middle' font-size='12' fill='#2c2c28'>其他人物 116</text>
+<rect x='80' y='270' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='140.0' y='294' text-anchor='middle' font-size='12' fill='#2c2c28'>事件页 418</text>
+<rect x='200' y='270' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='260.0' y='294' text-anchor='middle' font-size='12' fill='#2c2c28'>人物页 137</text>
+<rect x='320' y='270' width='128' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='384.0' y='294' text-anchor='middle' font-size='12' fill='#2c2c28'>中外对照 418</text>
+<rect x='440' y='270' width='120' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='500.0' y='294' text-anchor='middle' font-size='12' fill='#2c2c28'>世纪总览</text>
+<rect x='560' y='270' width='128' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='624.0' y='294' text-anchor='middle' font-size='12' fill='#2c2c28'>事件索引 418</text>
+<rect x='680' y='270' width='128' height='40' rx='6' fill='#ffffff' stroke='#2b4a6f'/>
+<text x='744.0' y='294' text-anchor='middle' font-size='12' fill='#2c2c28'>人物索引 253</text>
+<rect x='320' y='340' width='128' height='40' rx='6' fill='#efe4cf' stroke='#2b4a6f'/>
+<text x='384.0' y='364' text-anchor='middle' font-size='12' fill='#2c2c28'>来源列表 169</text>
+<line x1='350' y1='70' x2='140' y2='110' stroke='#7a7468'/>
+<line x1='350' y1='70' x2='360' y2='110' stroke='#7a7468'/>
+<line x1='350' y1='70' x2='580' y2='110' stroke='#7a7468'/>
+<line x1='350' y1='70' x2='700' y2='110' stroke='#7a7468'/>
+</svg>
