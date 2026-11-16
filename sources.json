@@ -1808,6 +1808,17 @@
       "url2": null,
       "link_ok": null,
       "note": "围耶路撒冷与巴比伦编年史互证"
+    },
+    {
+      "id": "xinwudaishi",
+      "title": "《新五代史》",
+      "author": "欧阳修（北宋）",
+      "type": "原典",
+      "lang": "zh",
+      "url": "https://zh.wikisource.org/wiki/新五代史",
+      "url2": null,
+      "link_ok": null,
+      "note": "私修正史，以春秋笔法重评五代人物（冯道评价之争关键文本）"
     }
   ]
 }

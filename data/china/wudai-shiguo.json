@@ -1,0 +1,488 @@
+{
+  "unit_id": "china-wudai-shiguo",
+  "region": "china",
+  "title": "五代十国",
+  "period_display": "907年—979年",
+  "start_year": 907,
+  "end_year": 979,
+  "overview": {
+    "main_threads": [
+      "中原五朝更迭（梁唐晋汉周）与南方十国并立的“碎片化帝国”格局",
+      "武人政治与枢密院-禁军制度的演进（宋制的直接前史）",
+      "南方经济中心地位的实质推进（吴越、南唐、闽的保境与开发）",
+      "燕云十六州问题与契丹（辽）的强势介入"
+    ],
+    "sub_periods": [
+      {"name": "梁晋争霸", "range_display": "907年—923年", "desc": "朱温后梁与李克用-李存勖河东集团的死斗。"},
+      {"name": "后唐—后晋—后汉", "range_display": "923年—950年", "desc": "沙陀三朝更迭，契丹南下，燕云失守。"},
+      {"name": "后周与统一前夜", "range_display": "951年—979年", "desc": "郭威柴荣改革强兵，959年后北宋接棒完成统一（979年灭北汉）。"}
+    ],
+    "key_changes": [
+      "枢密院与殿前诸军：文官化军事中枢的雏形",
+      "雕版印刷官刻化（冯道刻九经）",
+      "南方水利圩田与海外贸易（吴越闽）",
+      "燕云防线丧失重塑宋辽关系"
+    ]
+  },
+  "events": [
+    {
+      "id": "wd-yangwu-jianghuai",
+      "title": "杨吴立国与江淮开发",
+      "year": 902,
+      "end_year": 937,
+      "year_display": "902年",
+      "end_year_display": "937年",
+      "year_note": "杨行密902年受唐封吴王（吴国基业之始）；937年杨吴禅位于李昪（南唐代吴）。公元纪年，无换算问题。",
+      "location": "江淮（扬州、金陵）",
+      "key_people": [],
+      "background": "唐末淮南战乱后，杨行密（庐州行伍出身）据有江淮，败朱温于清口（891—892年前后之战，阻止北方势力南下），吴国转攻为守。",
+      "process": [
+        "902年杨行密受唐封吴王；与吴越钱镠划界休兵（“保境”方针成型）。",
+        "轻徭薄赋、招抚流亡、兴修水利（塘浦圩田系统在江南加速成形）。",
+        "905年杨行密卒，徐温掌权养子李昪（徐知诰）渐握大政。",
+        "937年李昪受吴禅建南唐——杨吴一朝三十余年经济重建有成而政归权臣。"
+      ],
+      "outcome": "江淮从唐末战场恢复为财赋重地，圩田-水利-桑茶体系为南唐与北宋江南繁荣奠基；南方“保境息民”的多国共存格局（吴越南唐闽楚）成为五代经济重心南移的实质载体。",
+      "controversies": [
+        {"issue": "清口之战的记载差异", "views": [
+          {"holder": "《旧五代史》《新五代史》", "basis": "叙杨行密败朱温大军于清口（淮南防御战），细节详略有异。"},
+          {"holder": "现代研究", "basis": "确认此战为五代南北攻防的转折点之一；兵力数字诸说并存，宜作约数。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>杨吴—南唐更替（902—937年）</text><g font-size='12'><rect x='90' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='205' y='116' text-anchor='middle'>902 杨行密受封吴王</text><text x='205' y='140' text-anchor='middle' font-size='11'>清口败朱温·划界休兵</text><text x='205' y='162' text-anchor='middle' font-size='11'>“保境”方针</text><rect x='350' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='435' y='116' text-anchor='middle'>经济重建</text><text x='435' y='140' text-anchor='middle' font-size='11'>圩田水利·桑茶</text><rect x='550' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='116' text-anchor='middle' fill='#8c1f28'>937 李昪受禅</text><text x='635' y='140' text-anchor='middle' font-size='11'>建南唐（徐知诰复姓李）</text><line x1='320' y1='135' x2='346' y2='135' stroke='#2b4a6f' marker-end='url(#xg1)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xg1)'/></g><rect x='130' y='220' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='246' text-anchor='middle' font-size='13'>江淮恢复为财赋重地</text><text x='380' y='272' text-anchor='middle' font-size='11'>南方“保境息民”格局：吴越·南唐·闽·楚并存</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>经济重心南移的实质载体；清口兵力数字诸说并存</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-zhuwen-houliang",
+      "title": "朱温代唐建后梁；王建建前蜀",
+      "year": 907,
+      "end_year": null,
+      "year_display": "907年",
+      "end_year_display": null,
+      "year_note": "据两《五代史》：天祐四年四月（907年）朱温受唐禅建国号梁（史称后梁），唐亡；同年九月王建在成都称帝建前蜀。公元纪年，无换算问题。",
+      "location": "汴州（开封）、成都",
+      "key_people": ["zhuwen"],
+      "background": "朱温（朱全忠）以宣武军起家，904年弑昭宗、907年逼哀帝禅位；北方藩镇混战中汴州集团压倒河东李克用集团成为中原主导。",
+      "process": [
+        "907年四月朱温受禅称帝（后梁太祖），改元开平，都汴州——唐亡。",
+        "九月，剑南王建称帝（前蜀）；杨吴、吴越等实际独立而名义上或仍奉唐朔。",
+        "后梁与河东晋王李克用集团的“梁晋争霸”全面展开。",
+        "912年朱温被其子朱友珪弑杀，后梁内乱。"
+      ],
+      "outcome": "唐亡与五代开端；汴州（开封）取代长安洛阳成为政治中心的地缘转折；中原王朝正统性与南方诸国并立的新格局。",
+      "controversies": [
+        {"issue": "朱温的历史形象", "views": [
+          {"holder": "两《五代史》与《资治通鉴》", "basis": "弑君、荒暴的“篡逆”定调（《旧五代史》梁书本纪因宋初政治需要而直书其恶）。"},
+          {"holder": "现代研究", "basis": "承认其军事与行政能力（汴州体制、租庸整理），形象暴虐与宋人正统叙事有关——贬抑叙事与史料立场问题被学界明示。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>唐亡：后梁与前蜀并立（907年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='190' y='116' text-anchor='middle' fill='#8c1f28'>907年四月 朱温受禅</text><text x='190' y='140' text-anchor='middle' font-size='11'>后梁·都汴州（开封）</text><text x='190' y='162' text-anchor='middle' font-size='11'>政治中心东移</text><rect x='340' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>907年九月</text><text x='430' y='140' text-anchor='middle' font-size='11'>王建称帝（前蜀）</text><rect x='550' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>梁晋争霸</text><text x='635' y='140' text-anchor='middle' font-size='11'>vs 李克用河东集团</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xg2)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#2b4a6f' marker-end='url(#xg2)'/></g><rect x='130' y='220' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='246' text-anchor='middle' font-size='13'>五代十国格局成型</text><text x='380' y='272' text-anchor='middle' font-size='11'>912年朱温被弑——武人政治常态：弑立相寻</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>朱温形象：宋人正统叙事的贬抑与史实能力并存（现代重估）</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-houtang-miehoulaiang",
+      "title": "后唐灭后梁与庄宗兴亡",
+      "year": 923,
+      "end_year": 926,
+      "year_display": "923年",
+      "end_year_display": "926年",
+      "year_note": "同光元年十月（923年）李存勖灭后梁、都洛阳建国号唐；同光四年（926年）兴教门之变庄宗被杀。公元纪年，无换算问题。",
+      "location": "汴州→洛阳；魏州（兴唐府）",
+      "key_people": ["licunxu"],
+      "background": "李克用临终授三矢遗恨之托（传说叙事，见《新五代史》）；李存勖连年苦战破燕灭梁，以“复兴唐室”名义建后唐。",
+      "process": [
+        "913年李存勖灭燕（刘仁恭刘守光）；922年取河北大部。",
+        "923年称帝于魏州（国号唐），同年奇袭汴州，梁末帝自尽，后梁亡——十五年内翻盘。",
+        "灭梁后宠信伶宦（景进等）、皇后干政、猜忌功臣（郭崇韬冤死）。",
+        "926年魏博兵变（贝州皇甫晖首乱），李嗣源受推为主；兴教门之变中庄宗中流矢死，伶人郭从谦所部参与的戏剧性结局。"
+      ],
+      "outcome": "沙陀李氏首次统一中原大部；庄宗“得天下不过三年又失之”成为治乱速变的经典案例；后唐灭前蜀（925年）使版图达五代最大。",
+      "controversies": [
+        {"issue": "“三矢遗恨”的叙事性质", "views": [
+          {"holder": "《新五代史·伶官传序》", "basis": "欧阳修以三矢故事构造“忧劳可以兴国，逸豫可以亡身”的道德戏剧。"},
+          {"holder": "史料批判", "basis": "三矢托孤事晚出（见于《新五代史》采摭），旧史无载，学界视为文学化叙事；“伶官亡国”的归因亦有放大成分。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>后唐兴亡（923—926年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>913灭燕→922取河北</text><text x='190' y='140' text-anchor='middle' font-size='11'>李存勖十五年翻盘</text><rect x='340' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>923 灭后梁</text><text x='430' y='140' text-anchor='middle' font-size='11'>奇袭汴州·都洛阳</text><rect x='550' y='90' width='170' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='635' y='116' text-anchor='middle' fill='#8c1f28'>926 兴教门之变</text><text x='635' y='140' text-anchor='middle' font-size='11'>伶宦乱政·庄宗中矢死</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#xg3)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#xg3)'/></g><rect x='130' y='220' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='246' text-anchor='middle' font-size='13'>“得天下不过三年又失之”</text><text x='380' y='272' text-anchor='middle' font-size='11'>后唐灭前蜀（925年）——五代最大版图</text><rect x='130' y='320' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='354' text-anchor='middle' font-size='11' fill='#8c1f28'>“三矢遗恨”系《新五代史》文学化叙事（旧史无载）</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-jiujing-keben",
+      "title": "冯道监刻九经",
+      "year": 932,
+      "end_year": 953,
+      "year_display": "932年",
+      "end_year_display": "953年",
+      "year_note": "据两《五代史》冯道传与《册府元龟》相关记载：932年（长兴三年）冯道、李愚奏请依石经文字刻《九经》印板，至953年（广顺三年前后）刻成；公元纪年，无换算问题。",
+      "location": "洛阳（国子监）",
+      "key_people": ["fengdao"],
+      "background": "雕版印刷已在民间（历书、佛经）流行；国子监奏请以官方力量校刻儒家九经并刷印颁行——国家出版工程的起点。",
+      "process": [
+        "932年冯道、李愚奏请刻印九经，依唐开成石经文字校定。",
+        "校勘历经四朝二十余年，至953年前后刻成颁行（历时约二十一年）。",
+        "国子监本九经成为科举标准文本的物质基础。"
+      ],
+      "outcome": "儒家经典首次由政府大规模印刷发行——出版史与经学史双重节点；此后官刻-私刻体系成型，宋代出版繁荣的直接前史。",
+      "controversies": [
+        {"issue": "刻成年代与“监本”细节", "views": [
+          {"holder": "传统记载", "basis": "刻成于953年前后（广顺年间），诸书系年微异。"},
+          {"holder": "现代版本学研究", "basis": "九经刻板历经梁唐晋汉周更迭，主持者冯道死（954年）于刻成前后，成书细节（是否全部刷印颁行）有讨论。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>监本九经（932—953年）</text><g font-size='12'><rect x='100' y='90' width='240' height='80' fill='#fff' stroke='#2b4a6f'/><text x='220' y='116' text-anchor='middle'>932 冯道李愚奏请</text><text x='220' y='140' text-anchor='middle' font-size='11'>依开成石经校定刻板</text><rect x='420' y='90' width='240' height='80' fill='#efe4cf' stroke='#8c1f28'/><text x='540' y='116' text-anchor='middle' fill='#8c1f28'>约953年刻成</text><text x='540' y='140' text-anchor='middle' font-size='11'>历四朝二十余年</text><line x1='340' y1='130' x2='416' y2='130' stroke='#2b4a6f' marker-end='url(#xg4)'/></g><rect x='130' y='200' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='226' text-anchor='middle' font-size='13'>儒家经典首次官方大规模印刷</text><text x='380' y='252' text-anchor='middle' font-size='11'>出版史与经学史双重节点；宋代出版繁荣前史</text><rect x='130' y='310' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='344' text-anchor='middle' font-size='11' fill='#8c1f28'>成书细节（刷印颁行范围）有版本学讨论</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-shijingtang-yanyun",
+      "title": "石敬瑭割燕云、称“儿皇帝”",
+      "year": 936,
+      "end_year": 938,
+      "year_display": "936年",
+      "end_year_display": "938年",
+      "year_note": "936年石敬瑭借契丹兵灭后唐建后晋；938年（天福三年前后）正式割燕云十六州、行“儿皇帝”礼（岁输帛三十万匹，数字见《旧五代史》契丹传）；公元纪年，无换算问题。",
+      "location": "晋阳→洛阳/汴；燕云十六州",
+      "key_people": ["shijingtang"],
+      "background": "后唐末年内乱，河东节度使石敬瑭为对抗李从珂，向契丹求援，许割燕云十六州、称臣称子。",
+      "process": [
+        "936年契丹耶律德光册立石敬瑭为“大晋皇帝”（儿皇帝），助其灭后唐。",
+        "938年前后正式交割燕（幽州）云（大同）等十六州，岁贡帛三十万匹（《旧五代史》所记）。",
+        "中原王朝自此失去长城防线与战马产地，华北平原直面骑兵威胁。",
+        "942年石敬瑭卒，侄石重贵继位改称“孙不称臣”，946—947年契丹灭晋。"
+      ],
+      "outcome": "燕云问题成为此后四百年（至1368年明军北伐收复）中原-北方关系的核心地理变量；宋辽以白沟为界的战略格局由此预置。",
+      "controversies": [
+        {"issue": "割地的责任与评价", "views": [
+          {"holder": "传统叙事", "basis": "石敬瑭“卖国求荣”的定论（欧阳修春秋笔法集大成）。"},
+          {"holder": "现代研究补充", "basis": "指出燕云防线的失守有唐末以来藩镇失控的结构背景，割地为五代权宜外交的一环（刘知远当时即讥其“称臣可矣，以父事之太过”——《旧五代史》所载，时人已有不同意见）；后果评价（影响宋辽格局）则属共识。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>割燕云十六州（936—938年，方位示意）</text><g font-size='12'><rect x='520' y='70' width='200' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='620' y='96' text-anchor='middle' fill='#8c1f28'>契丹（辽）</text><text x='620' y='118' text-anchor='middle' font-size='10'>册立“儿皇帝”</text><rect x='440' y='160' width='180' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='530' y='186' text-anchor='middle' fill='#8c1f28'>燕云十六州</text><text x='530' y='208' text-anchor='middle' font-size='10'>幽州·大同…割于契丹</text><rect x='180' y='220' width='180' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='270' y='246' text-anchor='middle'>后晋（石敬瑭）</text><text x='270' y='268' text-anchor='middle' font-size='10'>岁贡帛三十万匹</text><line x1='560' y1='130' x2='540' y2='156' stroke='#8c1f28' marker-end='url(#xg5)'/><line x1='460' y1='230' x2='380' y2='246' stroke='#8c1f28' marker-end='url(#xg5)'/></g><rect x='100' y='310' width='560' height='66' fill='#fff' stroke='#2b4a6f'/><text x='380' y='336' text-anchor='middle' font-size='12'>后果：失去长城防线与战马产地——直至1368年明军收复</text><text x='380' y='360' text-anchor='middle' font-size='11'>时人刘知远已讥“以父事之太过”；后果评价（宋辽格局）属共识</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-nantang-jianguo",
+      "title": "南唐建国",
+      "year": 937,
+      "end_year": null,
+      "year_display": "937年",
+      "end_year_display": null,
+      "year_note": "据《资治通鉴》与《江南野史》系统记载：升元元年（937年）李昪受吴禅称帝，国号齐，939年改国号唐（南唐）；公元纪年，无换算问题。",
+      "location": "金陵（今南京）",
+      "key_people": ["libian"],
+      "background": "李昪（徐知诰）为杨吴权臣徐温养子，937年受禅；自称唐宪宗后裔建大唐（史称南唐）——合法性建构的典型操作。",
+      "process": [
+        "937年李昪称帝于金陵（国号齐）；939年改国号唐、复姓李。",
+        "息兵安民：与吴越闽楚修好，劝课农桑、兴学校（庐山国学）。",
+        "943年李昪卒，李璟继位后攻闽楚接连消耗国力。",
+        "961年后主李煜继位；975年宋灭南唐。"
+      ],
+      "outcome": "南唐为十国中文化最盛之国（词学、书画、典籍收藏）；其“文艺亡国”意象（李煜）与经济发达并存，构成江南文化的原型叙事。",
+      "controversies": [
+        {"issue": "李昪身世建构", "views": [
+          {"holder": "南唐官方叙事", "basis": "自称唐宪宗子建王恪之后，以承唐统。"},
+          {"holder": "现代研究", "basis": "多认为其出身微贱（孤儿入徐氏），自称李唐后裔系政治建构——身世之辨是五代南方政权合法性操作的标准案例。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>南唐建国（937年）</text><g font-size='12'><rect x='90' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>杨吴权臣李昪受禅</text><text x='200' y='140' text-anchor='middle' font-size='11'>937国号齐→939改唐</text><rect x='350' y='90' width='180' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='440' y='116' text-anchor='middle'>保境安民</text><text x='440' y='140' text-anchor='middle' font-size='11'>兴学校·劝农桑</text><rect x='560' y='90' width='160' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>十国文化之最</text><text x='640' y='140' text-anchor='middle' font-size='11'>词学书画·庐山国学</text><line x1='310' y1='130' x2='346' y2='130' stroke='#2b4a6f' marker-end='url(#xg6)'/><line x1='530' y1='130' x2='556' y2='130' stroke='#8c1f28' marker-end='url(#xg6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>江南文化的原型叙事</text><text x='380' y='262' text-anchor='middle' font-size='11'>975年宋灭南唐·李煜“文艺亡国”意象（后世建构）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>李昪自称李唐后裔系政治建构（现代研究共识）</text></svg>",
+      "sources": ["tongjian", "jiuwudaishi", "xinwudaishi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-qidan-miejim",
+      "title": "契丹南下灭后晋",
+      "year": 947,
+      "end_year": null,
+      "year_display": "947年",
+      "end_year_display": null,
+      "year_note": "据两《五代史》契丹传：946年末契丹陷汴京，947年正月耶律德光入汴改国号大辽；同年北返，中原残破；公元纪年，无换算问题。",
+      "location": "汴京（开封）、恒州",
+      "key_people": [],
+      "background": "石重贵（出帝）改称孙不称臣，契丹三度南征；杜重威率主力降，946年末契丹入汴。",
+      "process": [
+        "946年杜重威降，契丹军入汴京。",
+        "947年正月耶律德光入汴，改国号为大辽（辽国号首次用于中原）。",
+        "“打草谷”劫掠与括钱政策激化反抗；刘知远在晋阳称帝（后汉）。",
+        "耶律德光北返途中病死于杀胡林（栾城），“帝羓”腌尸北归（辽史著名记载）。"
+      ],
+      "outcome": "契丹直入中原又被迫退出，说明中原虽空虚而统治成本过高；后汉乘虚建国，中原与辽的战略均衡逐步形成。",
+      "controversies": [
+        {"issue": "辽朝国号的启用时间", "views": [
+          {"holder": "《辽史》系统", "basis": "947年改国号大辽；其后辽-契丹国号多次往复（983年复称契丹、1066年再称辽）。"},
+          {"holder": "辽史研究修正", "basis": "契丹语碑刻与汉文材料对读显示国号使用比传统记载更复杂（“辽”“契丹”双号并用问题）——学界长期课题。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>契丹灭晋与北返（946—947年）</text><g font-size='12'><rect x='80' y='90' width='220' height='80' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>946 杜重威降</text><text x='190' y='140' text-anchor='middle' font-size='11'>契丹入汴京</text><rect x='340' y='90' width='180' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>947 改国号大辽</text><text x='430' y='140' text-anchor='middle' font-size='11'>“打草谷”劫掠激变</text><rect x='550' y='90' width='170' height='80' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>北返·德光病死</text><text x='635' y='140' text-anchor='middle' font-size='11'>刘知远建后汉</text><line x1='300' y1='130' x2='336' y2='130' stroke='#8c1f28' marker-end='url(#xg7)'/><line x1='520' y1='130' x2='546' y2='130' stroke='#8c1f28' marker-end='url(#xg7)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>中原直入又被迫退出</text><text x='380' y='262' text-anchor='middle' font-size='11'>统治成本过高→中原-辽战略均衡逐步形成</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“辽/契丹”双国号问题为辽史研究长期课题</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-guowei-houzhou",
+      "title": "郭威建后周与改革",
+      "year": 951,
+      "end_year": 954,
+      "year_display": "951年",
+      "end_year_display": "954年",
+      "year_note": "据两《五代史》：951年正月郭威称帝（后周太祖）；954年卒，养子柴荣继位。公元纪年，无换算问题。",
+      "location": "汴京",
+      "key_people": [],
+      "background": "汉隐帝诛杀权臣引发郭威（枢密使）起兵；950年澶州兵变士兵裂黄旗加身（黄袍加身的先例），951年郭威称帝。",
+      "process": [
+        "951年郭威称帝，改革：罢除ouverte杂税（牛租等）、放免“营田户”为编户。",
+        "惩贪、省刑罚；漕运整顿，汴京物资充裕。",
+        "文化转向：亲至曲阜拜孔子祠——五代武人政治中少见的文治姿态。",
+        "954年卒，传位内侄柴荣（异姓传贤的罕见案例）。"
+      ],
+      "outcome": "后周改革纠正五代苛政，为柴荣改革与北宋制度（如“不抑兼并”税制、禁军制度）奠基；黄旗加身成为陈桥兵变的模板。",
+      "controversies": [
+        {"issue": "“黄旗加身”与陈桥兵变的模板关系", "views": [
+          {"holder": "传统叙事", "basis": "澶州兵变与陈桥兵变的相似性被视为赵宋效仿的直接模板。"},
+          {"holder": "现代研究", "basis": "两次兵变的组织机制（禁军拥立）确实同构，但郭威“被迫”叙事同样出自宋人整理——细节需分层。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>郭威建周（951—954年）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='200' y='116' text-anchor='middle'>950 澶州兵变</text><text x='200' y='140' text-anchor='middle' font-size='11'>士兵裂黄旗加身</text><rect x='350' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='440' y='116' text-anchor='middle'>951 称帝建周</text><text x='440' y='140' text-anchor='middle' font-size='11'>罢杂税·放营田户</text><rect x='560' y='90' width='160' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>954 传位柴荣</text><text x='640' y='140' text-anchor='middle' font-size='11'>异姓传贤（罕见）</text><line x1='310' y1='135' x2='346' y2='135' stroke='#2b4a6f' marker-end='url(#xg8)'/><line x1='530' y1='135' x2='556' y2='135' stroke='#8c1f28' marker-end='url(#xg8)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>纠正五代苛政·文治转向（亲拜孔庙）</text><text x='380' y='267' text-anchor='middle' font-size='11'>北宋制度（禁军、税制）的直接奠基</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“黄旗加身”与陈桥兵变同构——细节出自宋人整理需分层</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-gaoping-chaige-gaige",
+      "title": "高平之战与柴荣改革",
+      "year": 954,
+      "end_year": 959,
+      "year_display": "954年",
+      "end_year_display": "959年",
+      "year_note": "据两《五代史》：显德元年（954年）三月高平之战，柴荣亲征大败北汉-契丹联军；此后颁毁佛令（955年）、整顿禁军、修《大周刑统》；公元纪年，无换算问题。",
+      "location": "高平（今山西晋城一带）→汴京",
+      "key_people": ["chai-rong"],
+      "background": "柴荣继位即遭北汉刘崇联合契丹南犯；樊爱能何徽部临阵溃逃，柴荣亲督赵匡胤等死战翻盘——此役催生禁军大整编。",
+      "process": [
+        "954年三月高平之战大捷；战后斩樊爱能何徽等七十余人立军威。",
+        "选殿前诸班：赵匡胤受命整顿禁军，“兵不精锐者尽汰之”（强干弱枝的禁军雏形）。",
+        "955年显德毁佛（“三武一宗”之宗）：废寺院三万余所（数字见会要系统记载，约数），以铜像铸钱。",
+        "修《大周刑统》（宋《宋刑统》的蓝本）；均定田赋、修漕运、编纂《显德通礼》。"
+      ],
+      "outcome": "禁军—刑统—财政的系统整合为北宋统一提供全部工具；柴荣遂行“十年开拓天下”之志（其语见《旧五代史》世宗纪）。",
+      "controversies": [
+        {"issue": "“王朴《平边策》与统一顺序”", "views": [
+          {"holder": "《旧五代史》《新五代史》王朴传", "basis": "王朴献“先易后难、先南后北”之策。"},
+          {"holder": "现代研究", "basis": "统一顺序是否真按《平边策》执行（柴荣末年实先北伐）有讨论；赵匡胤“先南后北”与柴荣遗产的继承-修改关系被细化。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>高平之战与柴荣改革（954—959年）</text><g font-size='12'><rect x='90' y='90' width='220' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='200' y='116' text-anchor='middle' fill='#8c1f28'>954 高平大捷</text><text x='200' y='140' text-anchor='middle' font-size='11'>亲督赵匡胤翻盘</text><rect x='340' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>整军</text><text x='430' y='140' text-anchor='middle' font-size='11'>汰弱选强·殿前诸班</text><rect x='550' y='90' width='170' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>制度</text><text x='635' y='140' text-anchor='middle' font-size='11'>《大周刑统》·毁佛铸钱</text><line x1='310' y1='135' x2='336' y2='135' stroke='#2b4a6f' marker-end='url(#xg9)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#2b4a6f' marker-end='url(#xg9)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>北宋统一的全部工具在此集成</text><text x='380' y='267' text-anchor='middle' font-size='11'>“以十年开拓天下”（《旧五代史》世宗纪所载其语）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>统一顺序（先南后北）是否按《平边策》执行有讨论</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "wd-chaige-beifa",
+      "title": "周世宗北伐",
+      "year": 959,
+      "end_year": null,
+      "year_display": "959年",
+      "end_year_display": null,
+      "year_note": "据两《五代史》：显德六年（959年）柴荣北伐契丹，四十二日之间收复瀛、莫、宁三州与瓦桥关等三关地；四月末病重回师，六月卒；公元纪年，无换算问题。",
+      "location": "沧州→瓦桥关、益津关、瀛州、莫州",
+      "key_people": ["chai-rong"],
+      "background": "平定淮南后，柴荣转锋北向，欲复燕云；水陆并进，契丹州县多望风而降。",
+      "process": [
+        "959年四月北伐，水军循河道、陆军沿堤并进。",
+        "辽宁州、益津关、瓦桥关守将相继降；收复三关三州十七县（史载县数）。",
+        "议取幽州之际柴荣病重，班师；六月卒于汴京，年三十九。",
+        "幼子柴宗训继位；960年正月赵匡胤陈桥兵变代周。"
+      ],
+      "outcome": "北伐为五代对辽的最大战果，瓦桥关等三关成为宋辽对峙的前沿（“三关”防线的由来）；世宗早逝使燕云问题留给宋辽百年相持。",
+      "controversies": [
+        {"issue": "北伐中止的原因与假设史学", "views": [
+          {"holder": "传统叙事", "basis": "“惜哉天不假年”——以世宗早逝解释燕云未复。"},
+          {"holder": "现代研究态度", "basis": "拒绝“假如世宗不死”式假设史学，转而分析：幽州攻坚与辽主力会战的真实难度被低估，北伐战果主要是辽方收缩所致——两说并存，本站倾向后者为分析框架。"}
+        ]}
+      ],
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='xg10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>周世宗北伐（959年，进军示意）</text><g font-size='12'><rect x='90' y='160' width='160' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='170' y='186' text-anchor='middle'>沧州（出发）</text><rect x='300' y='120' width='170' height='60' fill='#fff' stroke='#2b4a6f'/><text x='385' y='146' text-anchor='middle'>瓦桥·益津关</text><text x='385' y='168' text-anchor='middle' font-size='10'>望风而降</text><rect x='510' y='120' width='170' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='595' y='146' text-anchor='middle' fill='#8c1f28'>瀛·莫三州</text><text x='595' y='168' text-anchor='middle' font-size='10'>42日复三关三州</text><line x1='250' y1='185' x2='296' y2='158' stroke='#2b4a6f' marker-end='url(#xg10)'/><line x1='470' y1='150' x2='506' y2='150' stroke='#2b4a6f' marker-end='url(#xg10)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>议取幽州时病重班师·六月卒（39岁）</text><text x='380' y='267' text-anchor='middle' font-size='11'>三关成为宋辽对峙前沿；960年陈桥兵变代周</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“惜哉天不假年”叙事 vs 现代对攻坚难度的分析（两说并存）</text></svg>",
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "zhuwen",
+      "name": "朱温（后梁太祖，朱全忠）",
+      "birth_year": 852,
+      "death_year": 912,
+      "birth_display": "852年",
+      "death_display": "912年",
+      "birth_note": "据两《五代史》生于大中六年（852年），公元纪年换算；宋州砀山人。",
+      "death_note": "乾化二年（912年）为其子朱友珪所弑，公元纪年。",
+      "chronology": [
+        {"year": 852, "display": "852年", "text": "生于砀山，家贫，早年为黄巢部将。"},
+        {"year": 882, "display": "882年", "text": "降唐，赐名全忠，任宣武军节度使。"},
+        {"year": 904, "display": "904年", "text": "弑唐昭宗，迁都洛阳。"},
+        {"year": 907, "display": "907年", "text": "受禅建后梁。"},
+        {"year": 912, "display": "912年", "text": "被亲子朱友珪弑于洛阳宫。"}
+      ],
+      "deeds": [
+        "终结唐王朝，开启五代。",
+        "经营汴州，建宣武军政体制（漕运、租庸的整理有实绩）。",
+        "与河东李克用集团三十年死斗，塑造五代南北攻防的基本格局。"
+      ],
+      "evaluations": [
+        {"holder": "两《五代史》", "view": "弑君篡逆、荒淫暴虐的定调（《旧五代史》梁纪存其恶）。", "basis": "《旧五代史·梁书》。"},
+        {"holder": "现代研究", "view": "承认其军事行政能力与汴州体制的奠基意义；“暴君”形象部分出自宋初正统化叙事——立场与史料的辨析被学界明示。", "basis": "五代史研究。"}
+      ],
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "licunxu",
+      "name": "李存勖（后唐庄宗）",
+      "birth_year": 885,
+      "death_year": 926,
+      "birth_display": "885年",
+      "death_display": "926年",
+      "birth_note": "据两《五代史》光启元年（885年）生，公元纪年换算；沙陀李克用之子。",
+      "death_note": "同光四年（926年）兴教门之变中流矢死，公元纪年。",
+      "chronology": [
+        {"year": 885, "display": "885年", "text": "生于晋阳。"},
+        {"year": 908, "display": "908年", "text": "袭晋王位，败梁军于夹寨。"},
+        {"year": 913, "display": "913年", "text": "灭燕（刘守光）。"},
+        {"year": 923, "display": "923年", "text": "称帝建后唐，灭后梁。"},
+        {"year": 925, "display": "925年", "text": "灭前蜀，五代最大版图。"},
+        {"year": 926, "display": "926年", "text": "兴教门之变中被杀。"}
+      ],
+      "deeds": [
+        "军事天才（“生子当如李亚子”——朱温语，见《旧五代史》所载）：十五年翻盘灭梁。",
+        "灭梁灭蜀完成中原-巴蜀统一，后唐为五代最强政权。",
+        "宠信伶宦、猜忌功臣致速亡——“忧劳兴国、逸豫亡身”的教科案例。"
+      ],
+      "evaluations": [
+        {"holder": "欧阳修（《伶官传序》）", "view": "“忧劳可以兴国，逸豫可以亡身”——以庄宗为道德戏剧主角（三矢叙事见争议）。", "basis": "《新五代史》。"},
+        {"holder": "司马光与现代研究", "view": "承认其军事才能与灭梁功业；“伶官亡国”归因被现代研究部分修正为制度性（禁军-枢密体制与沙陀军事集团的整合失败）。", "basis": "《资治通鉴》与五代史研究。"}
+      ],
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "shijingtang",
+      "name": "石敬瑭（后晋高祖）",
+      "birth_year": 892,
+      "death_year": 942,
+      "birth_display": "892年",
+      "death_display": "942年",
+      "birth_note": "据两《五代史》景福元年（892年）生，公元纪年换算；沙陀化塞北部族出身（其族属诸说）。",
+      "death_note": "天福七年（942年）卒于汴京，公元纪年。",
+      "chronology": [
+        {"year": 892, "display": "892年", "text": "生于汾阳里（太原一带），代北武人家庭。"},
+        {"year": 936, "display": "936年", "text": "借契丹兵灭后唐，受册立为“大晋皇帝”（儿皇帝）。"},
+        {"year": 938, "display": "938年（前后）", "text": "割燕云十六州，岁贡帛三十万匹。"},
+        {"year": 942, "display": "942年", "text": "忧愤而卒。"}
+      ],
+      "deeds": [
+        "以割地称子换契丹支持建后晋——五代外交依赖强邻的极端案例。",
+        "对内仍行整治：均定田赋、整顿刑法（具宽政色彩）。"
+      ],
+      "evaluations": [
+        {"holder": "欧阳修（《新五代史》）", "view": "春秋笔法的严斥：“父事契丹”为绝大耻辱——传统定调的制造者。", "basis": "《新五代史·晋本纪》。"},
+        {"holder": "现代研究", "view": "在承认后果严重（燕云问题）的同时，将其置于五代军政困局的语境：不引契丹则败亡于李从珂，时人即有“称臣可矣”的分歧意见（《旧五代史》载刘知远语）——评价从道德标签转向决策情境分析。", "basis": "五代史研究。"}
+      ],
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "fengdao",
+      "name": "冯道",
+      "birth_year": 882,
+      "death_year": 954,
+      "birth_display": "882年",
+      "death_display": "954年",
+      "birth_note": "据两《五代史》中和二年（882年）生，公元纪年换算；瀛州景城人。",
+      "death_note": "显德元年（954年）卒，与周世宗同年，公元纪年。",
+      "chronology": [
+        {"year": 882, "display": "882年", "text": "生于瀛州耕读之家。"},
+        {"year": 923, "display": "923年（前后）", "text": "仕后唐为翰林学士，此后历仕四朝十帝。"},
+        {"year": 932, "display": "932年", "text": "奏请监刻九经。"},
+        {"year": 947, "display": "947年（前后）", "text": "仕辽与后汉；自号“长乐老”。"},
+        {"year": 954, "display": "954年", "text": "卒，七十三岁。"}
+      ],
+      "deeds": [
+        "历仕后唐、后晋、辽、后汉、后周五朝十帝（外加臣事契丹），居相位二十余年而“朝代如流水”。",
+        "主持刻印监本九经——乱世中保存文教的实际功臣。",
+        "《长乐老自叙》自陈历官与“在孝于家，在忠于国”的自我定位。"
+      ],
+      "evaluations": [
+        {"holder": "欧阳修（《新五代史》）", "view": "斥其“无廉耻”：“礼义廉耻，国之四维……（冯道）可谓无廉耻者矣”——传统道德评判的顶点。", "basis": "《新五代史·冯道传论》。"},
+        {"holder": "司马光（《资治通鉴》）", "view": "同斥其“为臣不忠”，然亦录其救民实事（如进谏、赎人）。", "basis": "《资治通鉴》。"},
+        {"holder": "现代史学重估", "view": "在“忠”观念重构（宋代理学化之后）之前，五代人对冯道评价颇高（时人誉为“当世之士无贤愚皆仰道为元老”）；现代研究肯定其乱世中庇护民生、保存文献的功绩，将其视为“官僚理性”与“士大夫气节”两种伦理的历史分水岭案例。", "basis": "五代史与观念史研究。"}
+      ],
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "chai-rong",
+      "name": "周世宗柴荣",
+      "birth_year": 921,
+      "death_year": 959,
+      "birth_display": "921年",
+      "death_display": "959年",
+      "birth_note": "据两《五代史》天祐十八年（921年）生，公元纪年换算；邢州龙冈人，郭威内侄（后收为养子）。",
+      "death_note": "显德六年（959年）六月卒于汴京，公元纪年。",
+      "chronology": [
+        {"year": 921, "display": "921年", "text": "生于邢州，早年随商贩南北（颍上茶货经历）。"},
+        {"year": 954, "display": "954年", "text": "继位；高平之战亲征大捷，整编禁军。"},
+        {"year": 955, "display": "955年", "text": "显德毁佛（废寺铸钱）；修《大周刑统》。"},
+        {"year": 957, "display": "957年", "text": "三次亲征淮南，尽得江北十四州。"},
+        {"year": 959, "display": "959年", "text": "北伐收三关三州；六月病逝，年三十九。"}
+      ],
+      "deeds": [
+        "禁军整编、刑统修订、毁佛铸钱、均定田赋、扩建汴京——北宋统一与制度的全部准备。",
+        "三次淮南战役与北伐三关，五代武功之最（除庄宗灭梁外）。",
+        "“以十年开拓天下，十年养百姓，十年致太平”的施政纲领（《旧五代史》所载）。"
+      ],
+      "evaluations": [
+        {"holder": "两《五代史》与《资治通鉴》", "view": "“神武雄略，乃一代之英主”；司马光亦叹其“不世出之君”，惜其早逝。", "basis": "两《五代史》世宗纪与《通鉴》。"},
+        {"holder": "现代研究", "view": "五代改革的集大成者，北宋制度几乎全盘继承其框架；同时显德毁佛的财政动机与“十年之约”未竟的历史偶然性被冷静分析。", "basis": "五代宋初史研究。"}
+      ],
+      "sources": ["jiuwudaishi", "xinwudaishi", "tongjian"],
+      "needs_verification": false
+    },
+    {
+      "id": "libian",
+      "name": "李昪（南唐烈祖，徐知诰）",
+      "birth_year": 888,
+      "death_year": 943,
+      "birth_display": "888年",
+      "death_display": "943年",
+      "birth_note": "据《江南野史》系统记载推排（888年生，通说约数）；徐州人，孤儿出身。",
+      "death_note": "升元七年（943年）卒于金陵，公元纪年。",
+      "chronology": [
+        {"year": 888, "display": "888年（约）", "text": "生于徐州，战乱中为杨吴权臣徐温养子，改名徐知诰。"},
+        {"year": 927, "display": "927年（前后）", "text": "掌握杨吴朝政。"},
+        {"year": 937, "display": "937年", "text": "受吴禅称帝（国号齐）。"},
+        {"year": 939, "display": "939年", "text": "改国号唐，复姓李，名昪，自称唐室后裔。"},
+        {"year": 943, "display": "943年", "text": "卒于金陵。"}
+      ],
+      "deeds": [
+        "建立南唐，行“保境息民”国策，与四邻修好。",
+        "兴学（庐山国学）、劝农、宽刑，江南经济文化在乱世的稳定岛。",
+        "以其出身与合法性建构（自称李唐后裔）成为五代南方政权操作的标本。"
+      ],
+      "evaluations": [
+        {"holder": "传统史评", "view": "赞其“宽厚”而讥其冒姓——身世建构被传统史笔视为“僭伪”的组成部分。", "basis": "《新五代史》及《江南野史》系统。"},
+        {"holder": "现代研究", "view": "将合法性建构视为乱世政权的常规技术；其治绩（江南稳定）在十国比较中获得较高评价。", "basis": "五代十国史研究。"}
+      ],
+      "sources": ["tongjian", "jiuwudaishi", "xinwudaishi"],
+      "needs_verification": false
+    }
+  ]
+}
