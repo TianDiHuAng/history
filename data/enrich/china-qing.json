@@ -1,0 +1,129 @@
+{
+  "unit_id": "china-qing",
+  "extra_events": [
+    {
+      "id": "x-qing-liushiban-chan",
+      "title": "六世班禅东来与避暑山庄",
+      "year": 1780,
+      "end_year": null,
+      "year_display": "1780年",
+      "end_year_display": null,
+      "year_note": "据《清实录》：乾隆四十五年（1780年）六世班禅罗桑班丹益西赴热河祝乾隆七十大寿，十一月病逝于京师黄寺；历表换算。",
+      "desc": "六世班禅跋涉两万里赴承德祝寿（须弥福寿之庙为其特建），清廷以金册金印礼待——班禅东来与五世达赖1652年入京构成清代西藏政教关系的两大标志性事件。乾隆在此期广建外八庙（仿扎什伦布寺等），避暑山庄成为多族群帝国的礼仪舞台（1994年列入世界遗产）。",
+      "sources": ["qingshigao", "zgbk", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-qing-qianjia-kaoju",
+      "title": "乾嘉考据学",
+      "year": 1750,
+      "end_year": 1820,
+      "year_display": "约1750年",
+      "end_year_display": "约1820年",
+      "year_note": "考据学（乾嘉朴学）高峰学界通行定为乾隆中期至嘉庆年间（约1750—1820年），惠栋、戴震、段玉裁、王念孙王引之父子为代表；取约数。",
+      "desc": "文字音韵训诂、辑佚辨伪、天文历算的\"实事求是\"之学：戴震《孟子字义疏证》以考据为思想批判（\"以理杀人\"之论），段玉裁《说文解字注》、王氏父子《经义述闻》为方法标杆。其兴起与文字狱环境（避今而考古）、《四库全书》辑佚及江南学术共同体有关——考据是否是\"科学方法的前史\"为学界持续讨论。",
+      "sources": ["zgbk", "cambridge-china", "qianmu-guoshi"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-qing-jinping-cheqian",
+      "title": "金瓶掣签",
+      "year": 1793,
+      "end_year": null,
+      "year_display": "1793年",
+      "end_year_display": null,
+      "year_note": "据《清实录》与《钦定藏内善后章程二十九条》：乾隆五十八年（1793年）福康安等定章程，设金瓶（金奔巴瓶）掣签定制；历表换算。",
+      "desc": "廓尔喀战争（1788—1792）后清廷整顿西藏：设金瓶掣签认定达赖班禅及呼图克图转世灵童（金瓶置拉萨大昭寺与北京雍和宫各一），驻藏大臣地位与达赖班禅平等、外事与边防归驻藏大臣——清对西藏治理的制度化顶点（该制度延续至今）。",
+      "sources": ["qingshigao", "zgbk", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-qing-haiguotu-zhiyuan",
+      "title": "魏源《海国图志》与\"师夷长技\"",
+      "year": 1842,
+      "end_year": null,
+      "year_display": "1842年（初版）",
+      "end_year_display": null,
+      "year_note": "《海国图志》五十卷本1842年刊行（据林则徐《四洲志》扩编），1847年增为六十卷、1852年百卷本；取初版年份。",
+      "desc": "魏源以\"为以夷攻夷而作，为以夷款夷而作，为师夷长技以制夷而作\"（自序原语）编成世界地理军事百科。书在中国反应平淡却在日本被广泛翻刻（幕末志士的启蒙书之一）——同一文本在中日的不同命运成为比较现代化的经典案例。",
+      "sources": ["guotingyi-jindaishi", "zgbk", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-qing-zuozongtang-xinjiang",
+      "title": "左宗棠收复新疆",
+      "year": 1876,
+      "end_year": 1878,
+      "year_display": "1876年",
+      "end_year_display": "1878年",
+      "year_note": "据《清实录》与左宗棠奏议：光绪二年（1876年）出关，1877年收复南疆，1878年1月阿古柏势力覆灭；历表换算。",
+      "desc": "阿古柏1870年代建立\"哲德沙尔\"政权、俄占伊犁：海防塞防之争（李鸿章弃疆 vs 左宗棠力主复疆）后，左以\"缓进急战\"策略抬棺出征，胡雪岩协借外债筹饷，两年收复除伊犁外新疆全境（伊犁经曾纪泽1881年改约索回大部）。1884年新疆建省——中国近代边疆治理的关键胜利。",
+      "sources": ["qingshigao", "guotingyi-jindaishi", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-qing-zhongfa-zhanzheng",
+      "title": "中法战争",
+      "year": 1883,
+      "end_year": 1885,
+      "year_display": "1883年",
+      "end_year_display": "1885年",
+      "year_note": "据《清实录》：光绪九年（1883年）中法正式交战（马江之战1884年8月、镇南关大捷1885年3月），1885年6月《中法新约》；历表换算。",
+      "desc": "法国为殖民越南与华南渗透对清开战：福建水师在马江全军覆没（半小时内十一舰沉没），而冯子材镇南关大捷（老将白刃逆袭）又在陆上挫败法军——\"不败而败\"（中国放弃对越宗主权）与\"不胜而胜\"（法国茹费理内阁倒台）的双向悖论成为近代外交史的经典讨论。",
+      "sources": ["qingshigao", "guotingyi-jindaishi", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "extra_people": [
+    {
+      "id": "x-qing-zengguofan",
+      "name": "曾国藩",
+      "birth_year": 1811,
+      "death_year": 1872,
+      "birth_display": "1811年",
+      "death_display": "1872年",
+      "desc": "湘乡人，理学名臣而创湘军（1853年团练起家），平定太平天国（1864年克金陵）；\"以学术维持世运\"的家书与幕府（李鸿章、左宗棠、彭玉麟皆出其门）塑造晚清军政格局。天津教案（1870年）使其名望受损，一生毁誉参半；其修身日记与家书被后世奉为治身治家范本。",
+      "sources": ["qingshigao", "cambridge-china", "guotingyi-jindaishi"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-qing-zuozongtang",
+      "name": "左宗棠",
+      "birth_year": 1812,
+      "death_year": 1885,
+      "birth_display": "1812年",
+      "death_display": "1885年",
+      "desc": "湘阴人，举人出身而以幕僚起家，平定陕甘回乱、收复新疆（见延伸事件条）；创办福州船政局与兰州织呢局，为西北近代工业之始。其\"身无半亩，心忧天下；读破万卷，神交古人\"（早年自题联）与晚年饮恨中法（遗疏荐防海尤重）构成其人格两极。",
+      "sources": ["qingshigao", "guotingyi-jindaishi", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-qing-weiyuan",
+      "name": "魏源",
+      "birth_year": 1794,
+      "death_year": 1857,
+      "birth_display": "1794年",
+      "death_display": "1857年",
+      "desc": "邵阳人，今文经学家与\"开眼看世界\"先声：《海国图志》（见延伸事件条）、《圣武记》与漕运盐政改革论。龚自珍挚友（\"龚魏\"并称），晚年受戒礼佛（\"魏源晚年皈依佛门\"为学术史讨论其思想转向的公案）。",
+      "sources": ["guotingyi-jindaishi", "zgbk", "qianmu-guoshi"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-qing-tansitong",
+      "name": "谭嗣同",
+      "birth_year": 1865,
+      "death_year": 1898,
+      "birth_display": "1865年",
+      "death_display": "1898年",
+      "desc": "浏阳人，维新激进派：《仁学》融汇中西（\"冲决网罗\"之论），批判三纲五常；戊戌政变后拒绝出亡（\"各国变法无不从流血而成……有之，请自嗣同始\"——据梁启超《谭嗣同传》转述），与五君子同死菜市口。其就义使其从变法者转为革命先声的精神符号。",
+      "sources": ["qingshigao", "guotingyi-jindaishi", "zgbk"],
+      "needs_verification": false
+    }
+  ]
+}

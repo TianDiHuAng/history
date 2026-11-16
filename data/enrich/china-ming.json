@@ -1,0 +1,142 @@
+{
+  "unit_id": "china-ming",
+  "extra_events": [
+    {
+      "id": "x-ming-nvergan-dusi",
+      "title": "奴儿干都司",
+      "year": 1409,
+      "end_year": null,
+      "year_display": "1409年（设）",
+      "end_year_display": null,
+      "year_note": "据《明实录》与《明史·兵志》：永乐七年（1409年）设奴儿干都指挥使司（辖地远至黑龙江下游库页岛方向），永乐十年（1412年）永宁寺碑纪功；公元纪年，无换算问题。",
+      "desc": "奴儿干都司统女真、吉列迷等卫所四百余（羁縻军政），宦官亦失哈多次巡抚黑龙江口并立永宁寺碑（两碑19世纪发现于特林——俄方调查记录）。明中期后巡抚停止、卫所名存实亡，但其册封体系为清代对东北的治理提供了历史记忆与法理资源。",
+      "sources": ["mingshi", "zgbk", "cambridge-china"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-ming-annan-sheng",
+      "title": "南征安南与弃置交趾",
+      "year": 1406,
+      "end_year": 1427,
+      "year_display": "1406年",
+      "end_year_display": "1427年",
+      "year_note": "据《明实录》与《明史·外国传》：永乐四年（1406年）以援陈抗胡为名南征，翌年设交趾布政司；宣德二年（1427年）明军败退、正式弃置；历表换算。",
+      "desc": "朱棣以黎季牦篡陈为由南征，设交趾布政使司（第四次收入版图）；黎利蓝山起义（1418年起）与明军消耗，宣德朝全面撤军（\"此皆陛下之德，非战之功\"式的撤军说辞见实录）。二十二年统治的失败成为明代扩张极限的教材（对安南主权的中断也塑造了越南的国家叙事）。",
+      "sources": ["mingshi", "cambridge-china", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-ming-xicaowan-folangji",
+      "title": "屯门海战：葡萄牙人的第一次接触",
+      "year": 1521,
+      "end_year": null,
+      "year_display": "1521年",
+      "end_year_display": null,
+      "year_note": "据《明史·佛郎机传》：正德十六年（1521年）广东海道副使汪鋐击佛郎机船于屯门（驱逐葡人马六甲总督派出的舰队）；历表换算。",
+      "desc": "葡萄牙人（明人称\"佛郎机\"）1514年即抵广东，皮雷斯使团入京被逐后双方动武：屯门之战明军以人力优势围攻取胜并缴获弗郎机铳（仿制为\"佛郎机炮\"——明朝火器更新的直接契机）。1557年葡萄牙人获准居留澳门——欧洲人进入东亚的军事摩擦与商业立足点。",
+      "sources": ["mingshi", "cambridge-china", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-ming-aomen-kaibu",
+      "title": "澳门开埠",
+      "year": 1557,
+      "end_year": null,
+      "year_display": "1557年（通说）",
+      "end_year_display": null,
+      "year_note": "葡萄牙人1554—1557年间获准居留澳门，通说取1557年（嘉靖三十六年前后，据《明史》与葡方档案对读的通行结论）。",
+      "desc": "葡萄牙人以晾晒货物与助剿海盗为名获准居留澳门半岛南端，缴纳地租（年银五百两）而受香山县管辖——\"租居地\"而非割让。澳门成为西学东渐（见主事件利玛窦条）、耶稣会东方基地（圣保禄学院1594年）与马尼拉-长崎三角贸易的枢纽，直至1887年《中葡和好通商条约》确认\"永居管理\"（1999年回归）。",
+      "sources": ["mingshi", "cambridge-china", "zgbk"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-ming-qi-jiguang-pingwo",
+      "title": "戚继光平倭与戚家军",
+      "year": 1559,
+      "end_year": 1565,
+      "year_display": "1559年",
+      "end_year_display": "1565年",
+      "year_note": "戚继光1559年（嘉靖三十八年）赴浙江募义乌兵组建戚家军，1565年与俞大猷会师平闽粤倭患主体；历表换算。",
+      "desc": "戚继光募义乌矿工农民四千，创鸳鸯阵、编《纪效新书》《练兵实纪》，台州九战九捷（1561年）后转福建广东，与俞大猷肃清倭患主体。其兵制（募兵+严格训练+军饷独立）为明军从卫所到募兵转型的样板；调防蓟州后修长城敌台（金山岭），北边同样留其手笔。",
+      "sources": ["mingshi", "zgbk", "dengtuo-ming"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-ming-sanyue-jiaopai",
+      "title": "三饷加派与财政总崩溃",
+      "year": 1618,
+      "end_year": 1640,
+      "year_display": "1618年（起）",
+      "end_year_display": "1640年",
+      "year_note": "辽饷始于万历四十六年（1618年，每亩加派九厘），剿饷（1637年）、练饷（1639年）相继——三饷合计加征约两千万两（学界依《明实录》与《石匮书》口径估算）；历表换算。",
+      "desc": "辽东战事与镇压民变的军费使明廷在一条鞭法后的白银财政上连年加派：三饷使负担集中于自耕农（官绅享有优免），\"加派愈多，逃亡愈众\"的税基收缩螺旋。三饷被普遍视为压垮崇祯朝的财政稻草（学界通行），李自成\"迎闯王不纳粮\"的动员正以此为反向口号。",
+      "sources": ["mingshi", "cambridge-china", "dengtuo-ming"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-ming-tiangong-kaiwu",
+      "title": "宋应星《天工开物》",
+      "year": 1637,
+      "end_year": null,
+      "year_display": "1637年",
+      "end_year_display": null,
+      "year_note": "据《天工开物》宋应星自序：崇祯十年（1637年）刊行（涂绍煃资助刊刻于南昌府）；公元纪年，无换算问题。",
+      "desc": "奉新人宋应星著《天工开物》十八卷：水稻、蚕桑、冶铸、舟车、火药、曲蘖等三百余项生产技术，配图一百二十余幅（\"贵五谷而贱金玉\"的编纂伦理）。其冶铸与纺织插图是研究明代手工业的第一手材料；日本、欧洲的译介使其成为世界工艺史文献（\"开物\"取《易·系辞》\"开物成务\"义）。",
+      "sources": ["zgbk", "cambridge-china", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "extra_people": [
+    {
+      "id": "x-ming-wangyangming",
+      "name": "王阳明（王守仁）",
+      "birth_year": 1472,
+      "death_year": 1529,
+      "birth_display": "1472年",
+      "death_display": "1529年",
+      "desc": "余姚人，心学集大成者：龙场悟道（1508年贬谪贵州龙场驿）、\"知行合一\"与\"致良知\"；平宁王之乱（1519年）以军功封新建伯。《传习录》与书院讲会使阳明学成为16世纪东亚（含日本阳明学）最有活力的思想运动——对晚明士风的解放与空谈之弊的双重评价并存。",
+      "sources": ["mingshi", "chenyinke-tang", "zgbk"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-ming-qijiguang",
+      "name": "戚继光",
+      "birth_year": 1528,
+      "death_year": 1588,
+      "birth_display": "1528年",
+      "death_display": "1588年",
+      "desc": "登州人，将门之后（见延伸事件条）：南平倭、北御蒙古，两部兵书（《纪效新书》《练兵实纪》）为明清武举教科书。晚年因张居正死后受牵连调广东、罢归，\"一年三百六十日，多是横戈马上行\"（其《马上作》诗）为武人自况名句。",
+      "sources": ["mingshi", "zgbk", "dengtuo-ming"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-ming-songyingxing",
+      "name": "宋应星",
+      "birth_year": 1587,
+      "death_year": null,
+      "birth_display": "1587年",
+      "death_display": "约1666年（卒年存疑）",
+      "desc": "奉新人，举人出身历任教谕、知州：《天工开物》（见延伸事件条）为其躬察之作；另著《野议》《论气》《谈天》（对气论与声音传播的思辨）。清初其书一度罕见于国内（大量存于日本——和刻本与《图书集成》引述），20世纪重新发现为科技史大事。",
+      "sources": ["zgbk", "cambridge-china", "bentley-cross"],
+      "needs_verification": true
+    },
+    {
+      "id": "x-ming-xuxiake",
+      "name": "徐霞客（徐弘祖）",
+      "birth_year": 1587,
+      "death_year": 1641,
+      "birth_display": "1587年",
+      "death_display": "1641年",
+      "desc": "江阴人，放弃科举以双足丈量中国三十余年：《徐霞客游记》六十余万字，对西南喀斯特地貌（岩溶洞穴）的系统考察领先世界岩溶学一个多世纪（科技史学界通说）。其\"达人所之未达，探人所之未知\"的实证精神与日记体地理写作，被视为中国地理学从沿革考订转向实地考察的标志性人物。",
+      "sources": ["zgbk", "xiehe-han", "cambridge-china"],
+      "needs_verification": false
+    }
+  ]
+}

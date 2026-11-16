@@ -1,0 +1,137 @@
+{
+ "unit_id": "china-qin",
+ "extra_events": [
+  {
+   "id": "x-qin-chidao",
+   "title": "修驰道与直道",
+   "year": -220,
+   "end_year": null,
+   "year_display": "前220年（起）",
+   "end_year_display": null,
+   "year_note": "据《史记·秦始皇本纪》，二十七年（前220年）\"治驰道\"；直道于三十五年（前212年）命蒙恬修筑。历表换算。",
+   "desc": "以咸阳为中心修驰道（\"道广五十步，三丈而树\"——《史记·贾山传》追述），北修直道通九原。道路网使政令、军令与漕运可快速传导，与郡县制互为表里；秦直道遗迹经现代考古调查连续可辨（秦直道考古为秦交通史的实证基础）。",
+   "sources": [
+    "shiji",
+    "yan-gengwang",
+    "kaogu-cass"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qin-keshi",
+   "title": "刻石颂德：泰山、琅琊等七次刻石",
+   "year": -219,
+   "end_year": -210,
+   "year_display": "前219年",
+   "end_year_display": "前210年",
+   "year_note": "据《史记·秦始皇本纪》，始皇二十八年（前219年）泰山、琅琊刻石为首，此后至三十七年（前210年）巡游沿途刻石；历表换算。",
+   "desc": "始皇巡游途中先后于峄山、泰山、琅琊、芝罘、碣石、会稽等地立石刻辞，颂秦德、明法度（琅琊刻石尚存残石，藏中国国家博物馆）。刻石以官方文体建构统一合法性，是\"文字政治\"的早期实践；秦二世元年（前209年）补刻诏书于诸石。",
+   "sources": [
+    "shiji",
+    "chnmuseum",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qin-shuihudi-jian",
+   "title": "睡虎地秦简：基层官吏喜的法律世界",
+   "year": -217,
+   "end_year": null,
+   "year_display": "约前217年",
+   "end_year_display": null,
+   "year_note": "睡虎地11号秦墓墓主\"喜\"葬于秦始皇三十年前后（约前217年，据墓中《编年记》推定）；简牍内容抄录于战国末至秦初。",
+   "desc": "1975年湖北云梦睡虎地出土秦简1155枚（另残片），包含《秦律十八种》《法律答问》《封诊式》《编年记》等，墓主\"喜\"为基层司法官吏。秦简证实秦律的细密程度远超传世想象（\"失期\"罚则、验尸格式、仓储审计），引发对秦政\"暴\"叙事的再平衡讨论。",
+   "sources": [
+    "shuihudi-qinjian",
+    "kaogu-cass",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qin-liye-jian",
+   "title": "里耶秦简与洞庭郡文书",
+   "year": -213,
+   "end_year": null,
+   "year_display": "约前213年",
+   "end_year_display": null,
+   "year_note": "里耶秦简纪年由秦王政二十五年至秦二世二年（约前222—前208年），据简牍纪年推排，本条取其中段约前213年为代表年份。",
+   "desc": "2002年湖南龙山里耶古城1号井出土简牍三万八千余枚，为迁陵县行政档案（户籍、仓廪、邮书、律令），首次以实物系统呈现秦代县级行政运作（\"迁陵洞庭郡\"等记载改写对秦郡的认识）。其中九九口诀表为最早的中国乘法口诀实物之一。",
+   "sources": [
+    "kaogu-cass",
+    "zgbk",
+    "shuihudi-qinjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qin-zhaotuo-nanyue",
+   "title": "赵佗建南越国",
+   "year": -204,
+   "end_year": null,
+   "year_display": "前204年（前后）",
+   "end_year_display": null,
+   "year_note": "据《史记·南越列传》，秦亡后南海尉赵佗击并桂林象郡，\"自立为南越武王\"，系于秦亡汉兴之际（前204年前后，通说约数）。",
+   "desc": "秦置三郡（见主事件）后，中原动乱使岭南政权本土化：赵佗闭关自守建立南越国，历五世九十三年（前204—前111年），至汉武帝时灭国。南越国宫署遗址（广州，1995年后发掘）与南越王墓（1983年）出土的秦汉文物显示其中原-百越混合的国家形态。",
+   "sources": [
+    "shiji",
+    "kaogu-cass",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-qin-lübuwei",
+   "name": "吕不韦",
+   "birth_year": -292,
+   "death_year": -235,
+   "birth_display": "约前292年（推算）",
+   "death_display": "前235年",
+   "desc": "阳翟大商人，以\"奇货可居\"扶持质子异人（庄襄王）上位，任丞相封文信侯，\"仲父\"摄政；组织编《吕氏春秋》（见延伸事件）。秦王政亲政后被免相、迁蜀，途中饮鸩死——从商人到权臣再到弃子的完整弧线，是战国晚期政治资本运作的最大案例（生年为学界推算约数）。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qin-fusu",
+   "name": "扶苏",
+   "birth_year": null,
+   "death_year": -210,
+   "birth_display": "生年不可考（始皇长子）",
+   "death_display": "前210年",
+   "desc": "因谏坑儒被外遣上郡监蒙恬军；沙丘矫诏赐死（见主事件条）。其\"仁\"的形象（《史记》\"扶苏为人仁\"）与蒙恬军的关系使其成为秦末政治合法性的幽灵：陈胜起兵尚且\"诈自称公子扶苏\"以号召——败亡储君的政治符号价值。",
+   "sources": [
+    "shiji",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qin-wangjian",
+   "name": "王翦",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（频阳东乡人）",
+   "death_display": "卒年不可考",
+   "desc": "秦灭六国的军事总执行者：破赵、下燕、灭楚（\"非六十万人不可\"的持重方略，见主事件争议条）；其子王贲灭魏齐。与白起并为秦国名将之最；\"王翦请田宅以安秦王之心\"的自污自保叙事（《史记》所载）成为功臣避祸的经典话本。",
+   "sources": [
+    "shiji",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

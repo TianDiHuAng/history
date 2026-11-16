@@ -1,0 +1,137 @@
+{
+ "unit_id": "china-donghan",
+ "extra_events": [
+  {
+   "id": "x-dh-shuowen-jiezi",
+   "title": "许慎《说文解字》成书",
+   "year": 100,
+   "end_year": 121,
+   "year_display": "100年",
+   "end_year_display": "121年",
+   "year_note": "据《说文解字》许冲上书与《后汉书·儒林传》：永元十二年（100年）草成、建光元年（121年）遣子献上；公元纪年，无换算问题。",
+   "desc": "许慎以\"六书\"理论系统分析九千三百五十三个小篆字头（兼收古文籀文异体），首创部首编排（540部），\"分别部居，不相杂厕\"。汉字的字源学分析自此有体系化文本；清代乾嘉小学（段玉裁注等）以之为基——中国文字学的奠基之作。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "kaogu-cass"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh-qiang-luan",
+   "title": "羌乱与凉州问题",
+   "year": 107,
+   "end_year": 160,
+   "year_display": "107年",
+   "end_year_display": "160年",
+   "year_note": "据《后汉书·西羌传》，安帝永初元年（107年）大规模羌乱起，至桓帝时期（160年前后段颎平定东羌）方息；公元纪年，无换算问题。",
+   "desc": "东汉对羌人的强制迁徙与边吏苛虐引发三次大规模羌乱（107—118、140—145、159—169），战争耗资数百亿（后汉书所记军费口径），凉州残破。\"凉州三明\"（皇甫规、张奂、段颎）以剿抚两途镇压——羌乱耗尽东汉边防财政，是凉州军阀（董卓）崛起的土壤（学界通行关联）。",
+   "sources": [
+    "houhanshu",
+    "tongjian",
+    "tianzheng-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh-banyong-futong",
+   "title": "班勇复通西域",
+   "year": 125,
+   "end_year": 127,
+   "year_display": "125年",
+   "end_year_display": "127年",
+   "year_note": "据《后汉书·班勇传》：延光三年（125年）班勇发诸国兵击车师；127年（永建二年）西域复通、增置屯兵；公元纪年，无换算问题。",
+   "desc": "班超之子班勇以西域长史身份再度经营西域，破车师后部、平定诸国，使中断十余年的西域交通复通。其后朝廷因凉州之乱渐弃西域（127年后势力收缩）——东汉对西域的经营随国力起伏的周期性在此完成最后一轮。",
+   "sources": [
+    "houhanshu",
+    "tongjian",
+    "tianzheng-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh-daojiao-xingcheng",
+   "title": "道教的组织化：五斗米道与太平道",
+   "year": 142,
+   "end_year": null,
+   "year_display": "142年（前后）",
+   "end_year_display": null,
+   "year_note": "张陵创五斗米道（天师道）通说系于顺帝汉安元年至桓帝时期（142年前后，据《后汉书》《华阳国志》推排，约数）。",
+   "desc": "张陵在鹤鸣山奉老子为教主创五斗米道（设二十四治、以符水治病收米五斗），张角创太平道（以《太平经》动员，见主事件黄巾条）。道教从民间方术集结为有组织教团——与佛教东传共同构成中古宗教格局的两大源头。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh-tanshihuai-xianbei",
+   "title": "檀石槐统一鲜卑",
+   "year": 156,
+   "end_year": 181,
+   "year_display": "156年",
+   "end_year_display": "181年",
+   "year_note": "据《后汉书·鲜卑传》：永寿二年（156年）檀石槐庭立弹汗山、兵马甚盛，至光和四年（181年）死后联盟瓦解；公元纪年，无换算问题。",
+   "desc": "北匈奴西迁后的权力真空被鲜卑填补：檀石槐建庭弹汗山，东却夫余、西击乌孙、尽据匈奴故地，分三部设大人统之，\"兵利马疾，过于匈奴\"。汉廷拒绝和亲并出兵皆不利；檀石槐死（181年）后联盟瓦解——但其部落框架为三世纪慕容、拓跋、宇文诸部的先声。",
+   "sources": [
+    "houhanshu",
+    "tongjian",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-dh-zhengxuan",
+   "name": "郑玄",
+   "birth_year": 127,
+   "death_year": 200,
+   "birth_display": "127年",
+   "death_display": "200年",
+   "desc": "北海高密人，遍注群经（三礼、诗、易等），兼采今古文而集其大成（\"郑学\"），经学古今文之争在其注中终结性的融合。黄巾过其乡皆拜（党锢后高名所致），晚年被袁绍逼随军，病卒于元城。其注为唐宋经典正义的文本基础。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-dh-xushen",
+   "name": "许慎",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约公元58—约147年，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "汝南召陵人，古文经学家，\"五经无双许叔重\"（时人语，见《后汉书》）。著《说文解字》（见延伸事件条）与《五经异义》；其文字学体系使汉字分析从经验校勘升为理论学科。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "kaogu-cass"
+   ],
+   "needs_verification": true
+  },
+  {
+   "id": "x-dh-marong",
+   "name": "马融",
+   "birth_year": 79,
+   "death_year": 166,
+   "birth_display": "79年",
+   "death_display": "166年",
+   "desc": "扶风茂陵人，外戚家族出身的经学大师，设绛帐授徒（\"绛帐传薪\"典故），门徒千人（卢植、郑玄出其门）。注《易》《书》《诗》《三礼》《论语》《老子》《淮南》——古文经学从书斋走向大规模授受的转折人物；其奢乐作风（生性奢华，鼓琴吹笙）与经师形象的张力为后世话头。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

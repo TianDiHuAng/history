@@ -1,0 +1,186 @@
+{
+ "unit_id": "china-sanguo-liangjin-nanbeichao",
+ "extra_events": [
+  {
+   "id": "x-sg-tuntian",
+   "title": "屯田制：许下屯田到军屯体系",
+   "year": 196,
+   "end_year": null,
+   "year_display": "196年",
+   "end_year_display": null,
+   "year_note": "据《三国志·武帝纪》注引《魏书》，建安元年（196年）用枣祗韩浩议兴许下屯田；公元纪年，无换算问题。",
+   "desc": "曹操\"奉天子\"同年推行屯田：民屯（典农校尉管理、官牛官六民四分成）与后来军屯并行，\"数年中所在积粟，仓廪皆满\"。屯田解决乱世军粮，为官渡与统一北方提供经济基础；西晋占田、北魏均田皆承其思路（土地-国家-军事三合一的制度系谱）。",
+   "sources": [
+    "sanguozhi",
+    "tongjian",
+    "tianzheng-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg-jiupin-zhongzheng",
+   "title": "九品中正制的确立",
+   "year": 220,
+   "end_year": null,
+   "year_display": "220年",
+   "end_year_display": null,
+   "year_note": "据《三国志·陈群传》，魏文帝黄初元年（220年）纳陈群之议立九品官人法；公元纪年，无换算问题。",
+   "desc": "各州郡设中正官品评人物（家世、行状、定品），作为授官依据。制度初衷在乱世中延续选官，但中正多出士族，\"上品无寒门，下品无势族\"（《晋书》刘毅语）——门阀政治的人事引擎。隋唐科举兴起后方退出历史。",
+   "sources": [
+    "sanguozhi",
+    "jinshu",
+    "yan-gengwang"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg-zhengshi-xuanxue",
+   "title": "正始玄学与竹林七贤",
+   "year": 240,
+   "end_year": 262,
+   "year_display": "约240年",
+   "end_year_display": "262年",
+   "year_note": "正始年间（240—249年）何晏王弼开玄学清谈之风；嵇康卒于262年（景元三年）——竹林名士的活动期以约数处理。",
+   "desc": "何晏、王弼以《老子》《庄子》《周易》\"三玄\"为核心的辨名析理（贵无论），竹林名士（嵇康、阮籍等七贤）以放达任诞对抗名教。嵇康《与山巨源绝交书》与《广陵散》绝响（刑前索琴弹之——《世说新语》名场）成为魏晋风度的极限符号；清谈与政治高压的关系是魏晋思想史的核心议题。",
+   "sources": [
+    "shishuoxinyu",
+    "jinshu",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg-yungang-lungmen",
+   "title": "云冈与龙门石窟",
+   "year": 460,
+   "end_year": null,
+   "year_display": "约460年",
+   "end_year_display": null,
+   "year_note": "云冈石窟据《魏书·释老志》昙曜五窟开凿于文成帝和平年间（460年起）；龙门石窟继起于迁洛后（493年起）。取云冈开凿为主年。",
+   "desc": "昙曜奏请于武州山开窟五所（\"昙曜五窟\"），造大佛\"如帝身\"——佛教造像与皇帝崇拜合一；迁洛后龙门石窟（宾阳三洞等）续凿。犍陀罗-笈多风格经凉州-平城-洛阳传播并本土化，北朝造像成为唐式佛雕的直系祖先（云冈2001年、龙门2000年列入世界遗产）。",
+   "sources": [
+    "weishu",
+    "kaogu-cass",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg-fanzhen-shenmie-lun",
+   "title": "范缜《神灭论》",
+   "year": 507,
+   "end_year": null,
+   "year_display": "约507年",
+   "end_year_display": null,
+   "year_note": "据《梁书·范缜传》，《神灭论》论战在天监六年（507年）前后（梁武帝组织围攻范缜），取约507年。",
+   "desc": "范缜以\"形存则神存，形谢则神灭\"驳佛教神不灭论，梁武帝敕王公贵臣六十余人作答围攻而不能屈（\"辩摧众口，日服千人\"——《梁书》语）。中国思想史上最系统的唯物倾向论辩之一；其论以\"形神相即\"的本体论证而非经验举证展开，成为中古哲学的方法论样本。",
+   "sources": [
+    "tongjian",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg-qimin-yaoshu",
+   "title": "贾思勰《齐民要术》",
+   "year": 533,
+   "end_year": 544,
+   "year_display": "约533年",
+   "end_year_display": "约544年",
+   "year_note": "《齐民要术》成书年代通说在北魏末至东魏（约533—544年之间），贾思勰自序言\"采捃经传，爰及歌谣\"；成书无确年，取约数。",
+   "desc": "现存最早最完整的综合性农书：十卷九十二篇，涵盖耕作、选种、畜牧、酿造、烹饪（\"起自耕农，终于醯醢\"——自序语）。其\"宁失不烦\"的实证记录态度与作物杂交、嫁接技术使欧洲科学史界视为前近代农学的高峰之一；北方农牧交错经验的总账。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg-mulan-yuefu",
+   "title": "《木兰诗》与北朝乐府",
+   "year": 550,
+   "end_year": null,
+   "year_display": "约550年（6世纪中期，北朝）",
+   "end_year_display": null,
+   "year_note": "《木兰诗》为北朝乐府民歌（\"朔气传金柝\"的北地意象），郭茂倩《乐府诗集》收入《横吹曲辞》；具体成诗年代无法确指，学界通说为北朝晚期（约数），故 year 为示意性取值。",
+   "desc": "\"唧唧复唧唧\"的木兰叙事（《乐府诗集》录智匠《古今乐录》已引其诗——陈代已流传）以女性代父从军为核心，兼有北族军事社会的氛围。诗的年代与木兰其人的历史性均为学术讨论对象（唐代已有人题咏、明清考证纷纭）——文学史与史实性需分层。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "cambridge-china"
+   ],
+   "needs_verification": true,
+   "pending_notes": "《木兰诗》成诗年代与木兰真实性均无法确证（北朝乐府通说），year 为示意值；其流传至少可溯至陈代（《古今乐录》引）。"
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-sg-wangxizhi",
+   "name": "王羲之",
+   "birth_year": 303,
+   "death_year": 361,
+   "birth_display": "303年（通说，另有321年说）",
+   "death_display": "361年",
+   "desc": "琅琊王氏，\"书圣\"：《兰亭序》（353年兰亭雅集）被尊为天下第一行书（真迹不传，现存皆摹本——神龙本等）；其行草变革与卫夫人师承、王氏家族书风（王献之\"小圣\"）构成魏晋书法谱系。唐太宗对《兰亭》的痴迷（殉葬昭陵传说）使其真迹之谜成为千年悬案。",
+   "sources": [
+    "jinshu",
+    "zgbk",
+    "npm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-sg-taoyuanming",
+   "name": "陶渊明（陶潜）",
+   "birth_year": 365,
+   "death_year": 427,
+   "birth_display": "约365年",
+   "death_display": "427年",
+   "desc": "浔阳柴桑人，五仕五隐（《归去来兮辞》\"不为五斗米折腰\"），《桃花源记》与\"采菊东篱下\"塑造了中国隐逸文化的原型。《宋书》入隐逸传、萧统编集作序——其\"平淡\"诗风在唐代被低估、宋以后被推为诗家极致（苏轼和陶百余首），是经典化过程的标本。",
+   "sources": [
+    "jinshu",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-sg-jikang",
+   "name": "嵇康",
+   "birth_year": 223,
+   "death_year": 262,
+   "birth_display": "223年（通说）",
+   "death_display": "262年",
+   "desc": "谯郡人，竹林七贤精神领袖，《与山巨源绝交书》\"非汤武而薄周孔\"直斥名教；被司马昭借吕安案处死，刑前索琴奏《广陵散》（\"《广陵散》于今绝矣\"——《世说新语》）。《养生论》《声无哀乐论》为魏晋玄学名篇；其死是名教与自然之争的流血终点。",
+   "sources": [
+    "jinshu",
+    "shishuoxinyu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-sg-lidaoyuan",
+   "name": "郦道元",
+   "birth_year": 470,
+   "death_year": 527,
+   "birth_display": "约470年",
+   "death_display": "527年",
+   "desc": "范阳涿州人，北魏地理学家：《水经注》四十卷为桑钦《水经》作注，实际篇幅二十倍于原书，记河流1252条，兼及城邑、物产、风土、传说（\"山水之美，古来共谈\"式的描写性地理）。其文兼地理实征与文学写景（三峡一段为中学名篇）；为注水而注山川，成为中古地理学的巅峰。",
+   "sources": [
+    "weishu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

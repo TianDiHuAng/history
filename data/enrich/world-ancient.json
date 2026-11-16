@@ -1,0 +1,118 @@
+{
+  "unit_id": "world-ancient",
+  "extra_events": [
+    {
+      "id": "x-wa-zoser-pyramid",
+      "title": "左塞尔阶梯金字塔",
+      "year": -2670,
+      "end_year": null,
+      "year_display": "约前2670年",
+      "end_year_display": null,
+      "year_note": "第三王朝左塞尔（尼特杰里赫特）在位约前2670年前后（埃及年代学通说，约数）；萨卡拉阶梯金字塔为其陵墓。",
+      "desc": "建筑师伊姆霍特普为左塞尔建造六层阶梯式陵墓（高约62米），是石造巨型建筑的开端——从泥砖马斯塔巴到石造金字塔的技术飞跃。伊姆霍特普因医术与建筑被后世神化（托勒密时期被当作医神），成为史上第一位留下名字的建筑师。",
+      "sources": ["enwp-ancient-egypt", "met-toah", "cambridge-ancient"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-wa-urnammu-code",
+      "title": "乌尔第三王朝与《乌尔纳姆法典》",
+      "year": -2112,
+      "end_year": -2004,
+      "year_display": "约前2112年",
+      "end_year_display": "约前2004年",
+      "year_note": "乌尔纳姆建立乌尔第三王朝约前2112年（近东中年代说），王朝终于前2004年（埃兰人攻灭）；\"约\"即年代说差异。",
+      "desc": "乌尔纳姆颁布的《乌尔纳姆法典》残片为现存最早的成文法典（早于汉谟拉比约三百年）：以\"使正义不致被强力所毁灭\"开篇，罚金刑多于同态复仇。乌尔第三王朝复兴苏美尔语文化（乌尔大塔庙存世），其官僚文书为苏美尔语的最后辉煌期。",
+      "sources": ["cambridge-ancient", "met-toah", "enwp-sumer"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-wa-gilgamesh-epic",
+      "title": "《吉尔伽美什史诗》古巴比伦版本",
+      "year": -1700,
+      "end_year": null,
+      "year_display": "约前18世纪",
+      "end_year_display": null,
+      "year_note": "古巴比伦版《吉尔伽美什》史诗抄本约成于前18世纪（乌尔三版与宾夕法尼亚残片年代，亚述学界通说约数）；尼尼微标准版（前7世纪）为其最终形态。",
+      "desc": "乌鲁克王吉尔伽美什与恩奇都的友谊、对杉林怪物洪巴巴的远征、恩奇都之死与吉尔伽美什寻求永生的失败（洪水叙述的著名段落）——人类最早的伟大文学作品之一。其洪水叙事与《创世记》的平行关系自1872年史密斯宣布发现以来，成为比较神话学与圣经研究的持续课题。",
+      "sources": ["cambridge-ancient", "british-museum", "met-toah"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-wa-phoenician-alphabet",
+      "title": "腓尼基字母的扩散",
+      "year": -1050,
+      "end_year": null,
+      "year_display": "约前1050年",
+      "end_year_display": null,
+      "year_note": "比布鲁斯铭文（阿希拉姆石棺铭文，约前10世纪）等证据显示字母文字在铁器时代初期定型（约前1050年为学界通行表述，约数）。",
+      "desc": "腓尼基商人在原西奈-迦南符号基础上定型22个辅音字母——辅音化使文字学习成本骤降，随黎凡特港口贸易扩散。希腊人增加元音字母形成希腊字母，再衍生拉丁与西里尔字母；亚洲方向衍生阿拉米字母及其后的印度、蒙古文字系——现代世界大多数文字的共同祖先。",
+      "sources": ["cambridge-ancient", "met-toah", "bentley-cross"],
+      "needs_verification": false,
+      "pending_notes": ""
+    },
+    {
+      "id": "x-wa-carthage-founding",
+      "title": "腓尼基殖民与迦太基建城",
+      "year": -814,
+      "end_year": null,
+      "year_display": "约前814年（传统系年）",
+      "end_year_display": null,
+      "year_note": "迦太基建城的\"传统系年\"（前814年）出自蒂迈欧与维吉尔叙事的推算；考古证据显示定居始于前9世纪后期——两系年代基本兼容，取传统系年并标注。",
+      "desc": "推罗公主狄多建城的传说（维吉尔《埃涅阿斯纪》的文学化）背后是腓尼基人的西地中海殖民网络（加的斯、乌蒂卡、迦太基）。迦太基凭商贸-雇佣军体制发展为西地中海霸权，成为罗马的第一个对手（布匿战争见古典时代单元）。",
+      "sources": ["cambridge-ancient", "bentley-cross", "brit-crusades"],
+      "needs_verification": true,
+      "pending_notes": "建城年代（前814年）系传统推算，考古定居证据始于前9世纪后期；狄多建城为传说叙事。"
+    },
+    {
+      "id": "x-wa-kush-kingdom",
+      "title": "库施王国：黑非洲的帝国",
+      "year": -780,
+      "end_year": null,
+      "year_display": "约前780年（起）",
+      "end_year_display": null,
+      "year_note": "库施（努比亚）第二十五王朝（\"埃塞俄比亚王朝\"）入主埃及约前747—前656年，纳帕塔-麦罗埃王国延续至约350年（本条以约前780年库施国家兴起为主年）。",
+      "desc": "库施王皮耶征服埃及（前727年前后入主），其弟沙巴卡建立第二十五王朝；亚述入侵后退守纳帕塔，前6世纪迁都麦罗埃，发展自己的麦罗埃文字（仍未完全破译）与冶铁工业（\"非洲伯明翰\"之喻）。麦罗埃金字塔群（二百余座）1987年列入世界遗产——撒哈拉以南古代国家文明的标杆。",
+      "sources": ["cambridge-ancient", "met-toah", "british-museum"],
+      "needs_verification": false,
+      "pending_notes": ""
+    }
+  ],
+  "extra_people": [
+    {
+      "id": "x-wa-hatshepsut",
+      "name": "哈特谢普苏特",
+      "birth_year": null,
+      "death_year": -1458,
+      "birth_display": "生年不可考（图特摩斯一世之女）",
+      "death_display": "约前1458年",
+      "desc": "以法老身份统治埃及约二十年（前1479—前1458年在位，以摄政渐至称王）：远征彭特（红海贸易）、复活海路、建德尔巴赫里神庙（三级台地式建筑）。其继子图特摩斯三世亲政后系统抹除其名像（同置一条——毁像与修复的现代考古课题）；女法老的合法性叙事是埃及学的经典议题。",
+      "sources": ["enwp-ancient-egypt", "cambridge-ancient", "met-toah"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-wa-akhenaten",
+      "name": "埃赫那吞（阿蒙霍特普四世）",
+      "birth_year": null,
+      "death_year": -1336,
+      "birth_display": "生年不可考（约前14世纪）",
+      "death_display": "约前1336年",
+      "desc": "推行阿顿一神崇拜（迁都阿玛纳、改名\"阿顿的仆人\"），是历史上最早的系统一神实验之一；死后其改革被全盘清算（都城废弃、名字从王表删除——阿玛纳书信为其外交档案）。其妻奈费尔提蒂胸像（柏林）成为古埃及艺术的标志；一神改革与《出埃及记》一神传统的关联为学界长期假说（无确证）。",
+      "sources": ["enwp-ancient-egypt", "cambridge-ancient", "met-toah"],
+      "needs_verification": false
+    },
+    {
+      "id": "x-wa-solomon",
+      "name": "所罗门王",
+      "birth_year": null,
+      "death_year": null,
+      "birth_display": "生卒不可考（传统谓约前970—前931年在位）",
+      "death_display": "卒年不可考",
+      "desc": "大卫之子，传统叙事中的智慧之王与圣殿建造者。与大卫同样处于极小主义-极大主义之争（见主事件条）：所罗门圣殿与马厩的考古证据至今未能确证，而《列王纪》的智慧故事（断子案）与列国通商叙事构成文化记忆的核心——历史真实性与叙事价值并存。",
+      "sources": ["enwp-ancient-israel", "cambridge-ancient", "british-museum"],
+      "needs_verification": true
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+ "unit_id": "china-xihan",
+ "extra_events": [
+  {
+   "id": "x-xh-wengwen-xingxue",
+   "title": "文翁兴学与地方官学之始",
+   "year": -141,
+   "end_year": null,
+   "year_display": "约前141年",
+   "end_year_display": null,
+   "year_note": "据《汉书·循吏传》，景帝末年（约前141年）文翁为蜀郡守\"起学官于成都市中\"；系年取景帝末（约数）。",
+   "desc": "蜀郡守文翁选郡县小吏至长安受业，学成还教，又在成都修学宫招生徒——\"巴蜀好文雅\"自文翁始（《汉书》语）。武帝朝\"令天下郡国皆立学校官\"即以文翁为范本：地方官学自此成为中国教育的制度骨架，成都石室中学延续办学至今。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh-mayi-mou",
+   "title": "马邑之谋",
+   "year": -133,
+   "end_year": null,
+   "year_display": "前133年",
+   "end_year_display": null,
+   "year_note": "据《史记·韩长孺列传》与《汉书》，元光二年（前133年）马邑豪商聂壹诱匈奴之谋败露；历表换算。",
+   "desc": "大行令王恢主战、韩安国主和，武帝用聂壹诈降之计欲诱歼匈奴单于；单于中途察觉（攻亭俘吏泄密）退走，伏兵三十万无功。此后汉匈和亲破裂、全面开战——马邑之谋是\"和亲体制\"到\"战争体制\"的转折点，也是武帝朝财政扩张的军事起点。",
+   "sources": [
+    "shiji",
+    "hanshu",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh-yuefu",
+   "title": "扩充乐府：官方采诗制度",
+   "year": -112,
+   "end_year": null,
+   "year_display": "约前112年",
+   "end_year_display": null,
+   "year_note": "据《汉书·礼乐志》，\"乃立乐府，采诗夜诵\"系于武帝时期；《汉书》另系于元鼎五年（前112年）定郊祀之礼前后——取约前112年（通说约数）。",
+   "desc": "武帝扩充乐府机构，命赵代秦楚各地采集歌谣配乐（\"感于哀乐，缘事而发\"——《汉书·艺文志》评语），李延年等任协律都尉。乐府诗（\"江南可采莲\"《战城南》《陌上桑》等）保存了两汉社会生活的声音，汉乐府是建安诗歌与唐诗的直接源头之一。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh-diannwang-yin",
+   "title": "经营西南夷与\"滇王之印\"",
+   "year": -109,
+   "end_year": null,
+   "year_display": "前109年",
+   "end_year_display": null,
+   "year_note": "据《史记·西南夷列传》，元封二年（前109年）滇王降汉\"赐滇王王印\"；1956年云南晋宁石寨山出土\"滇王之印\"金印与之互证；历表换算。",
+   "desc": "武帝经略西南夷（今云贵川南），夜郎、滇相继内附设郡，赐滇王印令\"复长其民\"。1956年石寨山六号墓出土蛇钮金印\"滇王之印\"，与《史记》记载吻合——文献-考古互证的经典案例（日本学界曾以\"汉委奴国王\"金印类比讨论）。西南夷经营打通通往身毒（印度）的探路设想。",
+   "sources": [
+    "shiji",
+    "kaogu-cass",
+    "chnmuseum"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh-taichu-lifa",
+   "title": "太初改历与《太初历》",
+   "year": -104,
+   "end_year": null,
+   "year_display": "前104年",
+   "end_year_display": null,
+   "year_note": "据《汉书·律历志》，太初元年（前104年）颁行《太初历》（邓平、落下闳等造），并改元\"太初\"；历表换算。",
+   "desc": "以唐都、落下闳的天文实测为基础定太初历：回归年365又385/1539日，首次把二十四节气纳入官历、以孟春正月为岁首（延续至今的春节之历法源头）。改历同时确立年号纪年体系（此前仅有\"一元、二元\"追称）——年号制度自此成为东亚政治纪年的标准形式。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh-suwu-muyang",
+   "title": "苏武牧羊",
+   "year": -100,
+   "end_year": -81,
+   "year_display": "前100年",
+   "end_year_display": "前81年",
+   "year_note": "据《汉书·苏武传》，天汉元年（前100年）出使匈奴被扣，留匈奴十九年，始元六年（前81年）归汉；历表换算。",
+   "desc": "苏武以中郎将使匈奴，因副使卷入匈奴内乱被扣，\"卧啮雪与旃毛并咽之\"，北海（贝加尔湖一带）牧羊十九年\"节旄尽落\"而不降；李陵劝降与苏武的对话为《汉书》名篇。昭帝时汉匈和议，苏武归汉，须发尽白——其使节气节成为后世忠节符号的原型之一。",
+   "sources": [
+    "hanshu",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh-zhaojun-chusai",
+   "title": "昭君出塞",
+   "year": -33,
+   "end_year": null,
+   "year_display": "前33年",
+   "end_year_display": null,
+   "year_note": "据《汉书·匈奴传》，竟宁元年（前33年）呼韩邪单于来朝求和亲，元帝以王嫱（昭君）赐之；历表换算。",
+   "desc": "呼韩邪单于第三次朝汉后自请为婿，元帝以宫女王嫱妻之（\"昭君\"号与\"出塞\"细节经《后汉书》与后世文学层累）。和亲延续汉匈和平近六十年；王昭君在诗词与戏曲中从和亲宫女演变为\"琵琶出塞\"的文化符号——史实层与文学层需分层理解。",
+   "sources": [
+    "hanshu",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-xh-suwu",
+   "name": "苏武",
+   "birth_year": null,
+   "death_year": -60,
+   "birth_display": "生年不可考（杜陵人）",
+   "death_display": "前60年",
+   "desc": "出使匈奴被扣十九年守节不降（见延伸事件条）；归汉后官典属国，图形麒麟阁。《汉书》以\"使于四方，不辱君命\"概括其类型；苏武-李陵的对手戏（北海劝降）成为忠诚叙事的经典场景。",
+   "sources": [
+    "hanshu",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xh-huoguang",
+   "name": "霍光",
+   "birth_year": null,
+   "death_year": -68,
+   "birth_display": "生年不可考（河东平阳人）",
+   "death_display": "前68年",
+   "desc": "霍去病异母弟，武帝托孤首辅（见主事件条）：辅昭帝、立废昌邑王、立宣帝，\"政事一决于光\"凡二十年。宣帝谒见高庙时\"若有芒刺在背\"（《汉书》语）——权臣与皇帝关系的经典表述；其身后霍氏族灭，与张安世的对比常被引用。",
+   "sources": [
+    "hanshu",
+    "tianzheng-han",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xh-jinridi",
+   "name": "金日磾",
+   "birth_year": -134,
+   "death_year": -86,
+   "birth_display": "前134年（通说）",
+   "death_display": "前86年",
+   "desc": "匈奴休屠王太子，浑邪王降汉后没入官为奴，养马出身被武帝擢用，后为托孤大臣之一。以匈奴质子身份位至侯爵而\"未尝有过\"（《汉书》本传语），与霍光并受遗诏——汉廷多族群用人的标志性案例；其家族后来因谋反族灭（次子事件），荣辱对照常被史家引用。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "tianzheng-han"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
