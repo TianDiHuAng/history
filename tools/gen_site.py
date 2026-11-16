@@ -200,6 +200,11 @@ def person_page(unit, p, srcmap, depth):
         f"<div class='card'><p><b>{esc(e.get('holder',''))}：</b>{esc(e.get('view',''))}</p>"
         f"<p class='meta'>依据：{esc(e.get('basis',''))}</p></div>"
         for e in p.get("evaluations") or [])
+    rel_events = "".join(
+        f"<li><a href='{rel(depth)}events/{unit['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a> "
+        f"<span class='meta'>({esc(ev['year_display'])})</span></li>"
+        for ev in unit["events"] if p["id"] in (ev.get("key_people") or []))
+    rel_html = f"<h2>相关事件</h2><ul class='tight'>{rel_events}</ul>" if rel_events else ""
     body = f"""
 <h1>{esc(p.get('name',''))}</h1>
 <p class="crumb"><a href="{rel(depth)}{'china/' if unit['region']=='china' else 'world/'}">{esc('中国' if unit['region']=='china' else '世界')}</a> /
@@ -211,6 +216,7 @@ def person_page(unit, p, srcmap, depth):
 <ul class="tight">{chrono}</ul>
 <h2>主要事迹</h2>
 <ul class="tight">{deeds}</ul>
+{rel_html}
 <h2>评价分歧</h2>
 {evals}
 <h2>参考来源</h2>
@@ -259,6 +265,15 @@ def unit_page(unit, srcmap, depth):
     if xpp_rows:
         extra_html += f"<h2>其他重要人物（{len(xpp)}）</h2>"
         extra_html += f"<table><tr><th>人物</th><th>生卒</th><th>简介</th></tr>{xpp_rows}</table>"
+    themes = unit.get("_themes") or []
+    if themes:
+        th_html = []
+        for t in themes:
+            nv = "<span class='tag warn'>待核实</span>" if t.get("needs_verification") else ""
+            srcs = "、".join(f"<a class='meta' href='{rel(depth)}sources/'>{esc(s)}</a>" for s in (t.get("sources") or []))
+            th_html.append(f"<h3>{esc(t['title'])}{nv}</h3><p>{esc(t.get('text',''))}</p>"
+                           f"<p class='meta'>来源：{srcs}</p>")
+        extra_html += f"<h2>专题（{len(themes)}）</h2><p class='meta'>经济、社会、技术、文化与生活维度的补充论述。</p>{''.join(th_html)}"
     body = f"""
 <h1>{esc(unit['title'])}<span class="meta" style="font-size:1rem">（{esc(unit.get('period_display',''))}）</span></h1>
 <p class="crumb"><a href="{rel(depth)}{'china/' if unit['region']=='china' else 'world/'}">{esc('中国' if unit['region']=='china' else '世界')}</a> / 单元总览</p>
@@ -413,6 +428,14 @@ def main():
             print(f"!! 延伸文件 {os.path.basename(fp)} 的 unit_id 无对应单元，跳过")
             continue
         u["_extra"] = ed
+    # 专题层：data/themes/*.json 按 unit_id 合并
+    for fp in sorted(glob.glob(os.path.join(ROOT, "data", "themes", "*.json"))):
+        td = json.load(open(fp, encoding="utf-8"))
+        u = units.get(td.get("unit_id"))
+        if u is None:
+            print(f"!! 专题文件 {os.path.basename(fp)} 的 unit_id 无对应单元，跳过")
+            continue
+        u["_themes"] = td.get("themes") or []
     china = sorted([u for u in units.values() if u["region"] == "china"], key=lambda u: u["start_year"])
     world = sorted([u for u in units.values() if u["region"] == "world"], key=lambda u: u["start_year"])
 

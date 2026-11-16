@@ -66,6 +66,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 
 DATA_GLOBS = ["data/china/*.json", "data/world/*.json"]
 ENRICH_GLOB = "data/enrich/*.json"
+THEMES_GLOB = "data/themes/*.json"
 SOURCES_FILE = "sources.json"
 
 ALLOWED_SVG_TAGS = {
@@ -405,6 +406,38 @@ def check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep, target_only):
         all_extra_pids.add(p.get("id"))
 
 
+def check_themes(td, unit, src_ids, src_dead, rep):
+    """R12：专题校验（经济社会文化技术维度，服务于"丰富各时期"）。"""
+    uid = td.get("unit_id", "?")
+    where = f"themes:{uid}"
+    if unit is None:
+        rep.err(where, f"unit_id {uid} 无对应的单元数据文件")
+        return
+    themes = td.get("themes") or []
+    require(3 <= len(themes) <= 8, rep, where, f"专题数 {len(themes)} 应在 3—8 之间")
+    seen = set()
+    for t in themes:
+        tw = f"{where}/theme:{t.get('title', '?')}"
+        for k in ("title", "text", "sources"):
+            require(k in t, rep, tw, f"专题缺少字段 {k}")
+        require(bool(str(t.get("title") or "").strip()), rep, tw, "title 为空")
+        body = str(t.get("text") or "")
+        require(len(body.strip()) >= 40, rep, tw, "text 过短（专题应至少一段实质内容）")
+        title = re.sub(r"\s", "", t.get("title", ""))
+        if title in seen:
+            rep.err(tw, "专题标题重复")
+        seen.add(title)
+        srcs = t.get("sources") or []
+        require(len(srcs) >= 1, rep, tw, "来源至少 1 条")
+        for s in srcs:
+            if s not in src_ids:
+                rep.err(tw, f"来源 id 未在 sources.json 中定义: {s}")
+        if len(set(srcs)) < 2 and not t.get("needs_verification"):
+            rep.err(tw, "专题来源不足 2 条，须置 needs_verification=true（或补足双源）")
+        nv = t.get("needs_verification", False)
+        require(isinstance(nv, bool), rep, tw, "needs_verification 须为布尔值")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", help="只报告该文件的问题（仍加载全部数据做全局检查）")
@@ -466,6 +499,18 @@ def main():
         unit = unit_by_id.get(ed.get("unit_id"))
         check_enrich(ed, unit, all_extra_pids, src_ids, src_dead, rep,
                      target_only=(enrich_target is not None))
+
+    # ---- R12 专题校验 ----
+    theme_files = sorted(glob.glob("data/themes/*.json"))
+    for fp in theme_files:
+        if enrich_target is not None:
+            continue
+        try:
+            td = json.load(open(fp, encoding="utf-8"))
+        except Exception as e:
+            rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
+            continue
+        check_themes(td, unit_by_id.get(td.get("unit_id")), src_ids, src_dead, rep)
 
     # 跨单元重复事件（同 年份+标题）
     seen = {}
