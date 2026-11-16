@@ -1,0 +1,1230 @@
+{
+ "unit_id": "world-early-modern",
+ "region": "world",
+ "title": "近代早期（大航海·宗教改革·绝对主义）",
+ "period_display": "1500年—1789年",
+ "start_year": 1500,
+ "end_year": 1789,
+ "overview": {
+  "main_threads": [
+   "海洋把世界连成一体：哥伦布大交换与全球白银-商品网络的成型",
+   "宗教改革与信仰地图的重绘：新教诞生、反宗教改革与宗教战争",
+   "绝对主义国家的黄金时代与荷兰例外（商业共和国）",
+   "科学革命与启蒙运动：人类理解世界方式的转型"
+  ],
+  "sub_periods": [
+   {
+    "name": "大航海与宗教改革",
+    "range_display": "1500年—1600年",
+    "desc": "美洲征服、宗教分裂、莫卧儿与西班牙-葡萄牙的全球帝国。"
+   },
+   {
+    "name": "17世纪危机与转型",
+    "range_display": "1600年—1700年",
+    "desc": "三十年战争、荷兰黄金时代、英国革命、科学革命。"
+   },
+   {
+    "name": "启蒙与旧制度的黄昏",
+    "range_display": "1700年—1789年",
+    "desc": "启蒙运动、绝对主义改革、七年战争与奴隶贸易的扩张。"
+   }
+  ],
+  "key_changes": [
+   "哥伦布大交换：作物、人种、病菌的跨洋流动",
+   "白银货币化全球（波托西-马尼拉-中国）",
+   "印刷术与识字率：宗教改革的技术条件",
+   "科学方法（实验+数学化）与理性批判的兴起"
+  ]
+ },
+ "events": [
+  {
+   "id": "wem-columbus-exchange",
+   "title": "哥伦布到达美洲与哥伦布大交换",
+   "year": 1492,
+   "end_year": null,
+   "year_display": "1492年",
+   "end_year_display": null,
+   "year_note": "据哥伦布航海日志（幸存抄本）与《哥伦布航海日志选》（Fordham Sourcebook 收录）：1492年10月12日抵巴哈马圣萨尔瓦多岛；公元纪年，无换算问题。",
+   "location": "巴哈马（圣萨尔瓦多岛）→加勒比海→美洲大陆海岸",
+   "key_people": [
+    "columbus"
+   ],
+   "background": "欧亚贸易通道（丝绸之路东段）被奥斯曼势力控制后，西欧寻找向西航道；哥伦布基于托斯卡内利等地理设想，获西班牙双王资助。",
+   "process": [
+    "1492年8月出航（三艘船、约九十人），10月12日登上圣萨尔瓦多岛。",
+    "此后四次航行（1493、1498、1502）到达加勒比大部与中美海岸，始终以为到了“印度”。",
+    "“哥伦布大交换”展开：玉米、马铃薯、番茄、烟草传入旧大陆；小麦、马、牛、蔗糖进入美洲；旧大陆疾病（天花、麻疹）摧毁美洲原住民社会。",
+    "1493年教皇子午线与《托尔德西里亚斯条约》（1494）划定西葡全球势力范围。"
+   ],
+   "outcome": "人类历史的全球性转折：生物圈被重塑（后世学者 Crosby 命名“哥伦布大交换”）；美洲人口在接触后一个世纪内灾难性下降（估计各家差异极大，见争议）；美洲白银（16世纪波托西等矿）进入全球货币体系。",
+   "controversies": [
+    {
+     "issue": "接触时期美洲人口估计",
+     "views": [
+      {
+       "holder": "高估派（Dobyns 等）",
+       "basis": "1492年美洲人口上亿（最高估计一亿以上）。"
+      },
+      {
+       "holder": "低估派",
+       "basis": "数千万级（以考古聚落与文献回推的不同口径）。"
+      },
+      {
+       "holder": "学界现状",
+       "basis": "主流区间为数千万至一亿之间；下降幅度（一世纪内损失一半至九成）各家估计差异大——无精确统计，本站只用区间表述。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp1' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>1492：大西洋航路与哥伦布大交换</text><g font-size='12'><rect x='60' y='150' width='170' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='145' y='180' text-anchor='middle'>欧洲（西班牙）</text><text x='145' y='202' text-anchor='middle' font-size='11'>小麦·马·牛·疾病</text><rect x='530' y='150' width='170' height='70' fill='#fff' stroke='#2b4a6f'/><text x='615' y='180' text-anchor='middle'>美洲</text><text x='615' y='202' text-anchor='middle' font-size='11'>玉米·马铃薯·番茄·烟草</text><path d='M230,175 L530,175' stroke='#2b4a6f' stroke-width='3' marker-end='url(#yp1)'/><path d='M530,190 L230,190' stroke='#8c1f28' stroke-width='3' marker-end='url(#yp1)'/><text x='380' y='165' text-anchor='middle' font-size='11'>东向：白银→全球货币</text><text x='380' y='212' text-anchor='middle' font-size='11'>西向：作物与人种流动</text><rect x='180' y='260' width='400' height='80' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='286' text-anchor='middle' font-size='13' fill='#8c1f28'>1494《托尔德西里亚斯条约》</text><text x='380' y='312' text-anchor='middle' font-size='11'>西葡瓜分全球势力范围；原住民人口灾难性下降（区间估计）</text></g></svg>",
+   "sources": [
+    "columbus-journal",
+    "brit-columbus",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": true,
+   "pending_notes": "接触时期美洲人口及其下降幅度各家估计差异极大（主流区间数千万至一亿、下降一半至九成），无精确统计；本站只使用区间表述。"
+  },
+  {
+   "id": "wem-luther-reformation",
+   "title": "马丁·路德与宗教改革",
+   "year": 1517,
+   "end_year": null,
+   "year_display": "1517年",
+   "end_year_display": null,
+   "year_note": "据《九十五条论纲》（1517年）与沃尔姆斯会议（1521年）记录：1517年10月31日（通说日期）路德致美因茨大主教并“张贴论纲”（张贴地点与方式的史料层次见争议）；公元纪年，无换算问题。",
+   "location": "维滕贝格（威登堡）；沃尔姆斯帝国会议",
+   "key_people": [
+    "luther"
+   ],
+   "background": "赎罪券贸易（尤利乌斯二世起的大赦收入体系）与德国教会税负引发普遍怨恨；印刷术（谷登堡1450年代发明）使论辩文本廉价传播。",
+   "process": [
+    "1517年《九十五条论纲》挑战赎罪券神学效力（“当钱入箱叮当作响，灵魂即上天堂？”——论纲第27条所质疑的布道辞）。",
+    "1519年莱比锡辩论中承认教会会议可能出错；1520年三篇改革檄文；1521年沃尔姆斯会议拒绝悔罪（“这是我的立场”——名句的流传版本问题见争议）。",
+    "1521年帝国禁令（沃尔姆斯敕令）；萨克森选侯庇护下翻译德文圣经（1522年新约）。",
+    "1524—25年德意志农民战争（改革的社会激进化被路德反对）；1530年《奥格斯堡信纲》确立路德宗。"
+   ],
+   "outcome": "西方基督教世界永久分裂：新教诸宗（路德宗、归正宗、圣公会等）与天主教并存；印刷术+民族语言使宗教与政治认同重绘（“教随国定”原则）；宗教战争直到1648年威斯特伐利亚体系才制度化收束。",
+   "controversies": [
+    {
+     "issue": "论纲“张贴”的史料层次",
+     "views": [
+      {
+       "holder": "传统叙事",
+       "basis": "1517年10月31日路德将论纲钉在维滕贝格城堡教堂门上（梅兰希顿1546年回忆始载此说）。"
+      },
+      {
+       "holder": "现代文献学研究",
+       "basis": "张贴细节首见于路德身后回忆，当时更可靠的证据是他以书信把论纲寄给同僚与主教——“张贴”或为戏剧化追记；争论持续，学界多视“寄送传播”为核心事实。"
+      }
+     ]
+    },
+    {
+     "issue": "“这是我的立场”名句",
+     "views": [
+      {
+       "holder": "流传版本",
+       "basis": "沃尔姆斯会议上“这是我的立场，我只能如此”。"
+      },
+      {
+       "holder": "速记文本比对",
+       "basis": "官方速记无此句（有近似表述），名句或系后人润色——引用需注明版本问题。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp2' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>宗教改革（1517年起）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1517《九十五条论纲》</text><text x='190' y='140' text-anchor='middle' font-size='11'>挑战赎罪券·印刷术传播</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>1521 沃尔姆斯会议</text><text x='430' y='140' text-anchor='middle' font-size='11'>拒绝悔罪·帝国禁令</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1522德译圣经</text><text x='640' y='140' text-anchor='middle' font-size='11'>1530奥格斯堡信纲</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#yp2)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#yp2)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>西方基督教永久分裂；“教随国定”重绘欧洲政治地图</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“张贴论纲”细节系后出回忆（梅兰希顿1546年）——文献学修正</text></svg>",
+   "sources": [
+    "luther-95",
+    "brit-luther",
+    "brit-reformation",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wem-magellan-circumnavigation",
+   "title": "麦哲伦船队环球航行",
+   "year": 1519,
+   "end_year": 1522,
+   "year_display": "1519年",
+   "end_year_display": "1522年",
+   "year_note": "据通史与航海档案：1519年9月20日五船自塞维利亚出发；1522年9月6日“维多利亚号”返抵西班牙——历时约三年；公元纪年，无换算问题。",
+   "location": "塞维利亚→麦哲伦海峡→太平洋→菲律宾→印度洋→塞维利亚",
+   "key_people": [],
+   "background": "寻找通往香料群岛（摩鹿加）的西方航道；麦哲伦（葡萄牙人）说服西班牙王室；260—270人、五船（出发人数为档案通行口径）。",
+   "process": [
+    "1519年9月出发；1520年11月穿过后来以他命名的海峡进入“平静之海”（太平洋）。",
+    "1521年3月抵菲律宾；四月麦哲伦介入宿务部族战争，死于马克坦岛（麦丹岛）之战。",
+    "埃尔卡诺率维多利亚号经帝汶、印度洋、好望角返航。",
+    "1522年9月抵塞维利亚：仅一船18人（一说17人加3个早归者——档案口径差异）完成环球。"
+   ],
+   "outcome": "首次实证地球为连通球体与海洋的连通性；太平洋的规模进入欧洲知识；西班牙据此获得摩鹿加之争的谈判筹码（1529年萨拉戈萨条约）。",
+   "controversies": [
+    {
+     "issue": "归航人数",
+     "views": [
+      {
+       "holder": "通行表述",
+       "basis": "“18人生还”。"
+      },
+      {
+       "holder": "档案对读修正",
+       "basis": "另有13人早于维多利亚号经不同路线归欧（被俘葡萄牙人的释放等），合计31人；“18人”指同一船生还者——精确表述需按此口径。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp3' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>首次环球航行（1519—1522年，路线示意）</text><g font-size='12'><rect x='50' y='170' width='130' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='115' y='196' text-anchor='middle'>塞维利亚</text><rect x='230' y='110' width='150' height='60' fill='#fff' stroke='#2b4a6f'/><text x='305' y='136' text-anchor='middle'>麦哲伦海峡</text><rect x='420' y='110' width='150' height='60' fill='#fff' stroke='#2b4a6f'/><text x='495' y='136' text-anchor='middle'>太平洋（“平静之海”）</text><rect x='600' y='170' width='140' height='60' fill='#f3d9d3' stroke='#8c1f28'/><text x='670' y='196' text-anchor='middle' fill='#8c1f28'>菲律宾（麦哲伦死）</text><rect x='420' y='240' width='150' height='60' fill='#fff' stroke='#2b4a6f'/><text x='495' y='266' text-anchor='middle'>印度洋·好望角</text><rect x='230' y='240' width='150' height='60' fill='#efe4cf' stroke='#2b4a6f'/><text x='305' y='266' text-anchor='middle'>1522维多利亚号归航</text><line x1='180' y1='195' x2='226' y2='150' stroke='#2b4a6f' marker-end='url(#yp3)'/><line x1='380' y1='140' x2='416' y2='140' stroke='#2b4a6f' marker-end='url(#yp3)'/><line x1='570' y1='140' x2='596' y2='170' stroke='#8c1f28' marker-end='url(#yp3)'/><line x1='600' y1='230' x2='570' y2='260' stroke='#2b4a6f' marker-end='url(#yp3)'/><line x1='416' y1='270' x2='384' y2='270' stroke='#2b4a6f' marker-end='url(#yp3)'/></g><rect x='180' y='320' width='400' height='56' fill='#fff' stroke='#2b4a6f'/><text x='380' y='354' text-anchor='middle' font-size='11'>仅一船生还（“18人”为同船口径，另有13人异路早归）</text></svg>",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wem-slave-trade",
+   "title": "大西洋奴隶贸易的扩张",
+   "year": 1520,
+   "end_year": null,
+   "year_display": "约1520年代起",
+   "end_year_display": null,
+   "year_note": "葡萄牙人1510年代已开始向美洲贩运非洲奴隶，1520年代规模化（加勒比蔗糖殖民地需求）；至1860年代巴西最后一批奴隶船——跨期约350年的长过程，本条以近代早期的扩张期为叙事主体。“约”即此义。",
+   "location": "西非（塞内冈比亚、几内亚湾）→加勒比与巴西",
+   "key_people": [],
+   "background": "美洲殖民地种植园经济（蔗糖、烟草、棉花）对劳动力的需求，与非洲沿海王国（贝宁、达荷美、刚果等）的战争与绑架供给链结合。",
+   "process": [
+    "1510—1520年代起，葡萄牙人开始规模化向美洲贩运非洲奴隶。",
+    "17世纪荷兰、英国、法国加入三角贸易：欧洲工业品→非洲奴隶→美洲作物→欧洲。",
+    "蔗糖革命（巴西16世纪、加勒比17世纪）使奴隶贸易规模跃升；18世纪为顶峰。",
+    "中段航程（Middle Passage）条件极其恶劣；反抗（海地革命1791年起的奴隶革命）与废奴运动（英国1787年废奴委员会、1807废奴法案）最终终结合法贸易。"
+   ],
+   "outcome": "非洲人口与社会的长期创伤（性别比失衡、王国军事化）；美洲人口构成的永久改变；奴隶制遗产成为现代种族问题的历史根源——跨大西洋体系是近代全球化的黑暗支柱。",
+   "controversies": [
+    {
+     "issue": "贩运人数的估计",
+     "views": [
+      {
+       "holder": "Slave Voyages 数据库口径（主流）",
+       "basis": "约1200万非洲人被运抵美洲（另有约150万死于中途——该数据库按出港与到港差记录）。"
+      },
+      {
+       "holder": "更广的死亡口径",
+       "basis": "把非洲内陆抓捕与战争死亡计入者给出更高估计——口径差异大；本站以数据库通行口径“约1200万”并标注性质。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp4' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>三角贸易（16—18世纪扩张）</text><g font-size='12'><rect x='80' y='100' width='190' height='70' fill='#fff' stroke='#2b4a6f'/><text x='175' y='130' text-anchor='middle'>欧洲</text><text x='175' y='152' text-anchor='middle' font-size='11'>工业品→</text><rect x='310' y='100' width='190' height='70' fill='#f3d9d3' stroke='#8c1f28'/><text x='405' y='130' text-anchor='middle' fill='#8c1f28'>西非</text><text x='405' y='152' text-anchor='middle' font-size='11'>奴隶输出（约1200万）</text><rect x='540' y='100' width='190' height='70' fill='#efe4cf' stroke='#2b4a6f'/><text x='635' y='130' text-anchor='middle'>美洲种植园</text><text x='635' y='152' text-anchor='middle' font-size='11'>蔗糖·烟草·棉花→</text><path d='M270,135 L306,135' stroke='#2b4a6f' marker-end='url(#yp4)'/><path d='M500,135 L536,135' stroke='#8c1f28' marker-end='url(#yp4)'/><path d='M635,170 L270,170' stroke='#2b4a6f' marker-end='url(#yp4)'/><text x='380' y='190' text-anchor='middle' font-size='11'>“中段航程”条件极其恶劣</text><rect x='130' y='240' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='266' text-anchor='middle' font-size='13'>非洲社会长期创伤·美洲人口构成改变</text><text x='380' y='292' text-anchor='middle' font-size='11'>1807英国废奴法案→海地革命（1791起）为奴隶革命案例</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“约1200万”为 Slave Voyages 数据库通行口径（估计性质）</text></g></svg>",
+   "sources": [
+    "enwp-slave-trade",
+    "hobsbawm",
+    "bentley-cross"
+   ],
+   "needs_verification": true,
+   "pending_notes": "贩运总人数以 Slave Voyages 数据库“约1200万”为通行口径，属估计性质；计入内陆抓捕死亡则估计显著升高，无精确统计。"
+  },
+  {
+   "id": "wem-england-calvin",
+   "title": "英国宗教改革与加尔文改革",
+   "year": 1534,
+   "end_year": 1560,
+   "year_display": "1534年",
+   "end_year_display": "1560年",
+   "year_note": "据英国国会法令与《至尊法案》：1534年《至尊法案》确立英王为英国教会最高首脑（亨利八世与教廷决裂）；1560年前后加尔文在日内瓦的改革体制成熟（《要义》1559年最终版）；公元纪年，无换算问题。",
+   "location": "伦敦；日内瓦",
+   "key_people": [
+    "elizabeth"
+   ],
+   "background": "亨利八世因婚姻废止之争与教皇决裂（安 ·博林事件），借议会立法完成教会国家化；加尔文则以日内瓦为改革共和国模板。",
+   "process": [
+    "1534年《至尊法案》：英王取代教皇成为英国教会最高首脑；修道院解散（1536—1540）。",
+    "爱德华六世新教化→玛丽一世复归天主教（血腥玛丽，1553—1558）→伊丽莎白一世1558年即位后确立“伊丽莎白 settlement”（39条信纲1563年）。",
+    "日内瓦：加尔文1536年《基督教要义》、1541年起主导市政宗教改革；1560年代日内瓦成为归正宗（加尔文宗）的“新教罗马”。",
+    "清教徒运动在英格兰发育（“再改革”诉求），胡格诺派（法）、长老派（苏格兰诺克斯）传播加尔文主义。"
+   ],
+   "outcome": "新教谱系的地缘政治化：英国确立国家教会与海外新教移民网络；日内瓦模式输出（荷兰、苏格兰、北美清教）；“英国例外”（国家主导改革）与其后的议会-王权斗争相关。",
+   "controversies": [
+    {
+     "issue": "亨利八世改革的动机定位",
+     "views": [
+      {
+       "holder": "“婚姻政治”论",
+       "basis": "以离婚问题为直接诱因的偶然性叙事。"
+      },
+      {
+       "holder": "“主权建构”论",
+       "basis": "王权最高化是英格兰国家主权建设的必然步骤，婚姻问题只是触发点（现代英国史主流）；伊丽莎白 settlement 的长期性支持此论。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp5' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>两条改革路线（1534—1560年）</text><g font-size='12'><rect x='70' y='90' width='250' height='100' fill='#fff' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>英格兰：自上而下</text><text x='195' y='140' text-anchor='middle' font-size='11'>1534《至尊法案》</text><text x='195' y='162' text-anchor='middle' font-size='11'>伊丽莎白 settlement（1563三十九条）</text><rect x='360' y='90' width='190' height='100' fill='#f3d9d3' stroke='#8c1f28'/><text x='455' y='116' text-anchor='middle' fill='#8c1f28'>日内瓦：加尔文</text><text x='455' y='140' text-anchor='middle' font-size='11'>《要义》·教政体制</text><rect x='580' y='90' width='150' height='100' fill='#fff' stroke='#2b4a6f'/><text x='655' y='116' text-anchor='middle'>输出</text><text x='655' y='140' text-anchor='middle' font-size='11'>荷兰·苏格兰</text><text x='655' y='162' text-anchor='middle' font-size='11'>北美清教</text><line x1='320' y1='140' x2='356' y2='140' stroke='#8c1f28' marker-end='url(#yp5)'/><line x1='550' y1='140' x2='576' y2='140' stroke='#8c1f28' marker-end='url(#yp5)'/></g><rect x='130' y='215' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='241' text-anchor='middle' font-size='13'>新教谱系地缘政治化；玛丽复辟（1553—58）被伊丽莎白 settle 取代</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>亨利八世动机：婚姻偶然论 vs 主权建构论（现代主流取后者）</text></svg>",
+   "sources": [
+    "brit-reformation",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wem-scientific-revolution",
+   "title": "科学革命：从哥白尼到牛顿",
+   "year": 1543,
+   "end_year": 1687,
+   "year_display": "1543年",
+   "end_year_display": "1687年",
+   "year_note": "哥白尼《天球运行论》1543年出版为通行的科学革命起点；牛顿《自然哲学的数学原理》1687年出版为体系化终点；“科学革命”概念本身（Koyré、Butterfield 的历史建构）见争议。公元纪年，无换算问题。",
+   "location": "欧洲（哥白尼：波兰；伽利略：帕多瓦；牛顿：剑桥）",
+   "key_people": [],
+   "background": "文艺复兴的文本复兴（托勒密、阿基米德）、印刷术、仪器（望远镜1608年发明后立即用于天文）与数学传统结合；大学与宫廷赞助提供制度空间。",
+   "process": [
+    "1543年哥白尼《天球运行论》提出日心地动说（序言的“假说”修辞掩盖其革命性）。",
+    "1572年第谷新星观测、1577彗星观测动摇“天不变”信仰；开普勒以第谷数据得行星椭圆定律（1609、1619）。",
+    "1610年伽利略《星际信使》公布望远镜发现（木星卫星、月面）；1632年《对话》支持哥白尼，1633年受宗教裁判所审判软禁。",
+    "笛卡尔机械论哲学（1637—1644）；培根经验主义方法论（1620《新工具》）。",
+    "1687年牛顿《自然哲学的数学原理》：三大运动定律+万有引力——把天上地下统一为同一种数学力学。"
+   ],
+   "outcome": "自然观念的根本转型：数学化、实验化、机械化的自然图景取代亚里士多德-经院体系；科学社团（伦敦皇家学会1660、巴黎科学院1666）与期刊制度成型——启蒙运动的知识基础。",
+   "controversies": [
+    {
+     "issue": "“科学革命”概念与宗教关系",
+     "views": [
+      {
+       "holder": "断裂叙事（Koyré/Butterfield 传统）",
+       "basis": "17世纪发生思维方式的根本革命。"
+      },
+      {
+       "holder": "连续性修正（如 Steven Shapin：'从未有过科学革命'）",
+       "basis": "强调转变的渐进、异质与地方性；同时伽利略审判显示科学与教会关系的复杂性（并非简单的“科学vs宗教”）——两种框架并存，本站并列。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp6' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>科学革命（1543—1687年）</text><g font-size='12'><rect x='60' y='90' width='200' height='90' fill='#fff' stroke='#2b4a6f'/><text x='160' y='116' text-anchor='middle'>1543 哥白尼</text><text x='160' y='140' text-anchor='middle' font-size='11'>《天球运行论》日心说</text><rect x='290' y='90' width='190' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='385' y='116' text-anchor='middle' fill='#8c1f28'>1610—33 伽利略</text><text x='385' y='140' text-anchor='middle' font-size='11'>望远镜观测·审判</text><rect x='510' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='615' y='116' text-anchor='middle'>1687 牛顿《原理》</text><text x='615' y='140' text-anchor='middle' font-size='11'>统一天上地下</text><line x1='260' y1='135' x2='286' y2='135' stroke='#8c1f28' marker-end='url(#yp6)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#2b4a6f' marker-end='url(#yp6)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>开普勒椭圆定律·培根方法论·皇家学会1660</text><text x='380' y='262' text-anchor='middle' font-size='11'>数学化+实验化取代经院自然观——启蒙的知识基础</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“科学革命”概念与宗教关系：断裂叙事 vs 连续性修正（并列）</text></svg>",
+   "sources": [
+    "brit-galileo",
+    "brit-newton",
+    "newton-principia",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wem-trent-counter-reformation",
+   "title": "特伦托会议与反宗教改革",
+   "year": 1545,
+   "end_year": 1563,
+   "year_display": "1545年",
+   "end_year_display": "1563年",
+   "year_note": "据《特伦托会议教令》：会议1545年12月开幕，分三阶段（1545—47、1551—52、1562—63），1563年12月闭幕；公元纪年，无换算问题。",
+   "location": "特伦托（今意大利北境）",
+   "key_people": [],
+   "background": "新教扩张的压力迫使天主教会改革自身与澄清教义；查理五世与教皇保罗三世推动召开大公会议（“补赎式”改革与教义防御双轨）。",
+   "process": [
+    "1545—1563年（分三阶段）会议：重申传统教义（七圣事、善功、炼狱、圣传与圣经并重）——拒绝与新教和解。",
+    "修道院改革：耶稣会（1534年创立，1540年获准）成为教育与海外传教的先锋。",
+    "教廷整肃：禁书目录（1559）、主教驻任制、神学院体系（罗耀拉等）。",
+    "海外传教：利玛窦等入华（1583年，见中国明单元）、菲律宾与拉美的教会体系扩张。"
+   ],
+   "outcome": "天主教在波兰、南德、法国部分地区成功“再征服”（巴洛克艺术的宗教动员）；教会纪律与教义澄清使天主教在近代早期保持全球性宗教的地位——宗教地图的东西分割定型。",
+   "controversies": [
+    {
+     "issue": "“反宗教改革”还是“天主教改革”",
+     "views": [
+      {
+       "holder": "“反宗教改革”（Counter-Reformation）传统命名",
+       "basis": "以对新教的反应为中心（19世纪史学命名）。"
+      },
+      {
+       "holder": "“天主教改革”（Catholic Reformation）修正命名",
+       "basis": "强调其独立于新教的内部改革源头（会前改革运动）——现代学界倾向使用更中性的名称，本站两说并注。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp7' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>特伦托会议（1545—1563年，三阶段）</text><g font-size='12'><rect x='80' y='90' width='230' height='90' fill='#fff' stroke='#2b4a6f'/><text x='195' y='116' text-anchor='middle'>教义澄清</text><text x='195' y='140' text-anchor='middle' font-size='11'>七圣事·善功·炼狱·圣传</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>纪律改革</text><text x='430' y='140' text-anchor='middle' font-size='11'>主教驻任·禁书目录·神学院</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>海外传教</text><text x='640' y='140' text-anchor='middle' font-size='11'>耶稣会（1534创）</text><line x1='310' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#yp7)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#yp7)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>天主教“再征服”波兰、南德、法国部分地区；巴洛克动员</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>命名之争：“反宗教改革” vs “天主教改革”（现代学界倾向后者）</text></svg>",
+   "sources": [
+    "brit-reformation",
+    "bentley-cross",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wem-mughal-akbar",
+   "title": "莫卧儿帝国与阿克巴改革",
+   "year": 1556,
+   "end_year": 1605,
+   "year_display": "1556年",
+   "end_year_display": "1605年",
+   "year_note": "阿克巴1556年即位（第二任帕尼帕特之战同年击败苏尔王朝复辟势力），至1605年卒——本条以阿克巴在位期为界（莫卧儿帝国建立于1526年巴布尔）；公元纪年，无换算问题。",
+   "location": "印度北部（阿格拉、法特普尔·西克里、德里）",
+   "key_people": [],
+   "background": "巴布尔1526年建立莫卧儿帝国，胡马雍一度失国；阿克巴少年即位，由拜拉姆汗摄政起步，经潘尼帕特之战奠定北印度霸权。",
+   "process": [
+    "1556年阿克巴即位；第二次帕尼帕特之战击败赫穆——北印度统一战争开始。",
+    "行政改革：曼萨卜达尔制（军阶-俸禄-封地一体化）、萨卡尔（省）制与财税调查。",
+    "宗教政策：废除吉兹亚（人头税，1564）、婚姻与官僚跨宗教化、伊巴达特·哈纳（1575年宗教对话厅）——宗教宽容的国策化。",
+    "文化：法特普尔·西克里都城（1571年）、宫廷绘画与波斯-印度文化融合。"
+   ],
+   "outcome": "莫卧儿帝国进入鼎盛期（阿克巴-贾汉吉尔-沙贾汗百年黄金时代）；其宗教宽容政策（后为奥朗则布逆转）与曼萨卜制度构成帝国兴衰的解释轴心（学界通行框架）。",
+   "controversies": [
+    {
+     "issue": "阿克巴宗教政策的评价",
+     "views": [
+      {
+       "holder": "宽容开明叙事",
+       "basis": "以废吉兹亚、宗教对话厅为“世俗国家”先声（印度尼赫鲁传统史学）。"
+      },
+      {
+       "holder": "帝国政治解读",
+       "basis": "宽容亦为拉拢拉吉普特贵族的统治技术；后期帝国的伊斯兰化回摆（奥朗则布）说明宽容并非不可逆的制度——两种框架并存。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp8' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>莫卧儿黄金时代（1556—1605年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1556 阿克巴即位</text><text x='190' y='140' text-anchor='middle' font-size='11'>潘尼帕特之战定北印度</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>曼萨卜达尔制</text><text x='430' y='140' text-anchor='middle' font-size='11'>军阶-俸禄-封地一体</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>宗教宽容</text><text x='640' y='140' text-anchor='middle' font-size='11'>废吉兹亚·宗教对话厅</text><line x1='300' y1='135' x2='336' y2='135' stroke='#2b4a6f' marker-end='url(#yp8)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#yp8)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>百年黄金时代；宽容政策后被奥朗则布逆转——帝国兴衰轴心</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>宽容评价：开明国策论 vs 统治技术论（并列）</text></svg>",
+   "sources": [
+    "brit-akbar",
+    "bentley-cross",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-dutch-revolt-golden-age",
+   "title": "尼德兰革命与荷兰黄金时代",
+   "year": 1568,
+   "end_year": 1648,
+   "year_display": "1568年",
+   "end_year_display": "1648年",
+   "year_note": "据通行史学期分：1568年奥兰治亲王起兵（八十年战争开始），1648年《明斯特和约》（威斯特伐利亚体系一部分）西班牙承认荷兰独立；黄金时代约1585—1670年；公元纪年，无换算问题。",
+   "location": "尼德兰北部七省（荷兰省为核心）",
+   "key_people": [],
+   "background": "西班牙腓力二世的宗教迫害与重税激起尼德兰新教贵族与市民反抗（1566年破坏圣像运动）；奥兰治的威廉领导起义。",
+   "process": [
+    "1568年起义爆发；1579年乌特勒支同盟（北方七省联合）。",
+    "1581年《誓绝法令》废黜腓力二世——第一个近代意义上的共和国宣言。",
+    "1602年荷兰东印度公司（VOC，世界第一家股份制跨国公司）；1609年阿姆斯特丹银行。",
+    "黄金时代：荷兰为世界贸易与金融中心，伦勃朗维米尔的绘画黄金期（十七世纪），思想宽容（笛卡尔、斯宾诺莎、洛克先后居荷）。",
+    "1648年《明斯特和约》正式承认独立。"
+   ],
+   "outcome": "第一个以商业资本立国的现代国家：股份公司、证券交易所、宽容与共和实验的制度创新；其模式成为英国金融革命与近代资本主义的先声（学界通行表述）。",
+   "controversies": [
+    {
+     "issue": "荷兰黄金时代的解释",
+     "views": [
+      {
+       "holder": "“第一现代经济”论",
+       "basis": "以金融市场、企业组织与人均产出的领先论证其“现代性”起点。"
+      },
+      {
+       "holder": "修正研究",
+       "basis": "强调其经济仍植根于传统部门（波罗的海转口贸易）与不平等（东印度公司奴隶贸易与殖民剥削也属黄金时代的一部分）——近年荷兰学界（“黑暗面”研究）对黄金叙事的重要修正。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp9' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>尼德兰革命与黄金时代（1568—1648年）</text><g font-size='12'><rect x='70' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='175' y='116' text-anchor='middle'>1568 起义·八十年战争</text><text x='175' y='140' text-anchor='middle' font-size='11'>1579乌特勒支同盟</text><rect x='310' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='400' y='116' text-anchor='middle' fill='#8c1f28'>1602 VOC·1609 银行</text><text x='400' y='140' text-anchor='middle' font-size='11'>股份制·金融创新</text><rect x='520' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='625' y='116' text-anchor='middle'>黄金时代</text><text x='625' y='140' text-anchor='middle' font-size='11'>贸易·绘画·思想宽容</text><line x1='280' y1='135' x2='306' y2='135' stroke='#8c1f28' marker-end='url(#yp9)'/><line x1='490' y1='135' x2='516' y2='135' stroke='#8c1f28' marker-end='url(#yp9)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1648《明斯特和约》承认独立——第一个商业资本共和国</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“黑暗面”修正：殖民剥削与奴隶贸易同属黄金时代的一部分</text></svg>",
+   "sources": [
+    "stearns-global",
+    "hobsbawm",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wem-thirty-years-war",
+   "title": "三十年战争与威斯特伐利亚体系",
+   "year": 1618,
+   "end_year": 1648,
+   "year_display": "1618年",
+   "end_year_display": "1648年",
+   "year_note": "1618年5月布拉格掷窗事件为战争起点；1648年《威斯特伐利亚和约》（明斯特与奥斯纳布吕克两约合称）签订；公元纪年，无换算问题。",
+   "location": "神圣罗马帝国（波希米亚、德意志）、丹麦、瑞典、法国",
+   "key_people": [],
+   "background": "帝国内天主教-新教诸侯冲突、哈布斯堡-波旁两大王朝争霸、丹麦瑞典法国的干预——宗教冲突叠加权力政治。",
+   "process": [
+    "1618年布拉格掷窗事件（波希米亚新教贵族反抗哈布斯堡）。",
+    "四阶段：波希米亚-普法尔茨阶段（1618—23，白山之战）→丹麦阶段（1625—29）→瑞典阶段（1630—35，古斯塔夫二世战死吕岑）→法国-瑞典阶段（1635—48）。",
+    "战争以雇佣军劫掠方式进行，德意志人口损失惨重（部分地区人口减半诸说——学界估计区间巨大）。",
+    "1648年《威斯特伐利亚和约》：承认荷兰瑞士独立、帝国诸侯主权扩大、教随国定扩展至加尔文宗。"
+   ],
+   "outcome": "神圣罗马帝国碎化为三百余邦国；主权国家体系（互不干涉、领土主权、外交惯例）的制度起点（“威斯特伐利亚神话”的现代建构见争议）；宗教战争时代终结。",
+   "controversies": [
+    {
+     "issue": "人口损失与“威斯特伐利亚主权”神话",
+     "views": [
+      {
+       "holder": "人口损失",
+       "basis": "帝国人口损失估计从八分之一到三分之一以上不等，各邦差异巨大——无可靠普查，区间表述。"
+      },
+      {
+       "holder": "“威斯特伐利亚神话”（Osiander、Krasner 等）",
+       "basis": "近代国际关系理论把1648年追认为“主权体系起点”，但条约实际内容（宗教条款、帝国结构）与之不符——“神话”修正研究成为国际关系史学的通行观点；本站并列。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp10' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>三十年战争（1618—1648年，四阶段）</text><g font-size='12'><rect x='70' y='90' width='200' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='170' y='116' text-anchor='middle' fill='#8c1f28'>1618 掷窗事件</text><text x='170' y='140' text-anchor='middle' font-size='11'>白山之战1620</text><rect x='300' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='390' y='116' text-anchor='middle'>丹麦·瑞典阶段</text><text x='390' y='140' text-anchor='middle' font-size='11'>1632吕岑（古斯塔夫战死）</text><rect x='510' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='615' y='116' text-anchor='middle'>1648 威斯特伐利亚</text><text x='615' y='140' text-anchor='middle' font-size='11'>荷兰瑞士独立·教随国定</text><line x1='270' y1='135' x2='296' y2='135' stroke='#8c1f28' marker-end='url(#yp10)'/><line x1='480' y1='135' x2='506' y2='135' stroke='#8c1f28' marker-end='url(#yp10)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>帝国碎化为三百余邦国；宗教战争时代终结</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>人口损失区间巨大；“威斯特伐利亚主权”系后世神话（国际关系史修正）</text></svg>",
+   "sources": [
+    "westphalia-treaty",
+    "enwp-westphalia",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-english-revolution",
+   "title": "英国革命与光荣革命",
+   "year": 1640,
+   "end_year": 1689,
+   "year_display": "1640年",
+   "end_year_display": "1689年",
+   "year_note": "据通史期分：1640年长期国会召开为革命起点；1649年处死查理一世、共和政体（1649—1660）；1660年复辟；1688—89年光荣革命与《权利法案》（1689年12月）；公元纪年，无换算问题。",
+   "location": "伦敦、英伦三岛",
+   "key_people": [],
+   "background": "斯图亚特王朝的财政专断与宗教政策（劳德大主教的高教会路线）与国会-清教诉求冲突；苏格兰祈祷书叛乱（1639—1640）迫使查理一世召开长期国会。",
+   "process": [
+    "1640年长期国会：废星室法院等专断机构；1642年内战爆发（圆颅党vs骑士党）。",
+    "1645年纳斯比之战国会军胜；1649年处死查理一世，建共和政体（克伦威尔护国公1649—1658）。",
+    "1660年查理二世复辟；1685年詹姆士二世天主教化引发危机。",
+    "1688年光荣革命（七贵族邀请，奥兰治威廉入英，未流血）；1689年《权利法案》——议会主权与限制王权的宪政框架。",
+    "1694年英格兰银行成立；1707年英格兰-苏格兰合并为大不列颠。"
+   ],
+   "outcome": "英国确立议会主权君主立宪制（与欧陆绝对主义分道）；财政-军事国家（公债、银行、消费税）支撑其此后霸权；“光荣革命”的保守叙事 vs 真正的革命解读为史学争论。",
+   "controversies": [
+    {
+     "issue": "“光荣革命”的性质",
+     "views": [
+      {
+       "holder": "保守叙事（传统辉格史观）",
+       "basis": "和平的宪政修复、保守的传统回归（“光荣”之名即此）。"
+      },
+      {
+       "holder": "激进解读（Pincus 等）",
+       "basis": "1688年为现代国家的暴力转型（对外战争、金融革命、意识形态斗争俱全）——“未流血”只是英伦本岛；现代史学界多接受激进修正。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp11' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>英国革命（1640—1689年）</text><g font-size='12'><rect x='70' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='175' y='116' text-anchor='middle'>1640 长期国会</text><text x='175' y='140' text-anchor='middle' font-size='11'>1649 处死查理一世·共和</text><rect x='310' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='400' y='116' text-anchor='middle' fill='#8c1f28'>1660 复辟</text><text x='400' y='140' text-anchor='middle' font-size='11'>1688 光荣革命（未流血）</text><rect x='520' y='90' width='210' height='90' fill='#fff' stroke='#2b4a6f'/><text x='625' y='116' text-anchor='middle'>1689《权利法案》</text><text x='625' y='140' text-anchor='middle' font-size='11'>议会主权·1694英格兰银行</text><line x1='280' y1='135' x2='306' y2='135' stroke='#8c1f28' marker-end='url(#yp11)'/><line x1='490' y1='135' x2='516' y2='135' stroke='#8c1f28' marker-end='url(#yp11)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>君主立宪+财政军事国家——英国霸权的制度底座</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“光荣”保守叙事 vs 激进解读（Pincus 等）——现代主流接受修正</text></svg>",
+   "sources": [
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-peter-reform",
+   "title": "彼得一世改革与北方战争",
+   "year": 1682,
+   "end_year": 1721,
+   "year_display": "1682年",
+   "end_year_display": "1721年",
+   "year_note": "彼得1682年即位（与其兄伊凡五世共治，1696年亲政）；北方战争1700—1721年，《尼斯塔德条约》同年签订，彼得称“全俄罗斯皇帝”（1721年）；1725年卒（本条以改革与战争主体期为界）。公元纪年，无换算问题。",
+   "location": "莫斯科→圣彼得堡；波罗的海战场",
+   "key_people": [
+    "peter"
+   ],
+   "background": "沙俄需出海口与近代军队；彼得1697—98年“大使团”西欧考察（化名米哈伊洛夫），归国即推行政制-军事-社会全盘改革。",
+   "process": [
+    "1697—98年西欧考察；1698年射军（禁军）叛乱被镇压后废射军制。",
+    "1699—1705年征兵制（征募新军）、行省制、参政院（1711）、九院（college 制，1717—21）。",
+    "1700—1721年北方战争：纳尔瓦初败（1700）→波尔塔瓦大捷（1709）→海战与登陆芬兰→1721年《尼斯塔德条约》得波罗的海东岸。",
+    "1703年建圣彼得堡并迁都（1712年）；1721年称“皇帝”——俄罗斯帝国成立。",
+    "教会改制：圣主教公会（1721）取代牧首制——国家控制教会。"
+   ],
+   "outcome": "俄国进入欧洲大国体系（“打开一扇朝向欧洲的窗户”）；强制西化造成贵族与农民、首都与乡村的长期分裂——俄国现代化的“彼得范式”（国家强推、社会撕裂）成为此后俄国史的母题。",
+   "controversies": [
+    {
+     "issue": "彼得改革的代价与评价",
+     "views": [
+      {
+       "holder": "“现代化之父”叙事",
+       "basis": "军队、官僚、海军、教育与都城的系统创设。"
+      },
+      {
+       "holder": "代价批判",
+       "basis": "人头税加重农奴负担、强制西化的文化断裂、农民负担与逃亡——“彼得范式的裂缝”为俄国史研究通说；两说并存。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp12' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>彼得一世改革（1682—1721年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1697—98 大使团西行</text><text x='190' y='140' text-anchor='middle' font-size='11'>化名考察·归国改革</text><rect x='330' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='420' y='116' text-anchor='middle' fill='#8c1f28'>1709 波尔塔瓦大捷</text><text x='420' y='140' text-anchor='middle' font-size='11'>北方战争转折</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1721 称皇帝</text><text x='640' y='140' text-anchor='middle' font-size='11'>俄罗斯帝国·圣彼得堡</text><line x1='300' y1='135' x2='326' y2='135' stroke='#8c1f28' marker-end='url(#yp12)'/><line x1='510' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#yp12)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>俄国进入欧洲大国体系；“彼得范式”：国家强推、社会撕裂</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>评价：现代化之父 vs 代价批判（两说并存）</text></svg>",
+   "sources": [
+    "brit-peter-the-great",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-enlightenment",
+   "title": "启蒙运动",
+   "year": 1685,
+   "end_year": 1789,
+   "year_display": "约1685年",
+   "end_year_display": "1789年",
+   "year_note": "启蒙运动的年代框架学界有异：以斯宾诺莎与培尔（1670—1690年代）为“早期启蒙”起点的宽口径，或以1720—1750年代法国启蒙家活动为准的窄口径；本条以约1685年（宽口径）起、1789年法国大革命为终点。公元纪年，无换算问题。",
+   "location": "欧洲（巴黎、爱丁堡、柏林、日内瓦）与北美",
+   "key_people": [],
+   "background": "科学革命的认识论成果（理性、实验）、印刷市场与沙龙咖啡屋的公共领域（Habermas 概念——学界通行的分析工具）、绝对主义国家与教会的紧张。",
+   "process": [
+    "早期：斯宾诺莎《神学政治论》（1670）、培尔《历史与批判辞典》（1697）开启对启示宗教的批判。",
+    "法国高峰：孟德斯鸠《论法的精神》（1748）、伏尔泰的批判与《哲学辞典》、狄德罗《百科全书》（1751—1772，28卷）、卢梭《社会契约论》（1762）。",
+    "苏格兰启蒙（休谟、亚当·斯密《国富论》1776）与德意志启蒙（康德《什么是启蒙？》1784——“敢于运用你自己的理智”）。",
+    "实践扩散：普鲁士腓特烈二世、俄国叶卡捷琳娜二世自称“启蒙君主”；美国革命与波兰宪法（1791）受其直接影响。"
+   ],
+   "outcome": "现代价值体系的奠基：世俗化批判、人权、宪政、进步观念、宗教宽容——1789年法国大革命与其后的政治现代化以此为思想资源；“启蒙”的欧洲中心性也受到后殖民批评（见争议）。",
+   "controversies": [
+    {
+     "issue": "启蒙的评价与全球视角",
+     "views": [
+      {
+       "holder": "传统进步叙事",
+       "basis": "理性解放与普世人权的思想源头。"
+      },
+      {
+       "holder": "批判性研究",
+       "basis": "指出其种族主义残余（部分启蒙家为奴隶制辩护）、殖民语境；后殖民与全球史研究提出“多重启蒙”（非西方思想传统的平行发展）——修正研究为近年学界主流趋势之一。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp13' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>启蒙运动（约1685—1789年）</text><g font-size='12'><rect x='70' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='180' y='116' text-anchor='middle'>早期启蒙</text><text x='180' y='140' text-anchor='middle' font-size='11'>斯宾诺莎·培尔批判启示宗教</text><rect x='320' y='90' width='190' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='415' y='116' text-anchor='middle' fill='#8c1f28'>法国高峰</text><text x='415' y='140' text-anchor='middle' font-size='11'>《百科全书》1751—72</text><rect x='540' y='90' width='190' height='90' fill='#fff' stroke='#2b4a6f'/><text x='635' y='116' text-anchor='middle'>苏格兰·德意志</text><text x='635' y='140' text-anchor='middle' font-size='11'>斯密1776·康德1784</text><line x1='290' y1='135' x2='316' y2='135' stroke='#8c1f28' marker-end='url(#yp13)'/><line x1='510' y1='135' x2='536' y2='135' stroke='#8c1f28' marker-end='url(#yp13)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>世俗批判·人权·宪政·进步观念——1789年的思想资源</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>后殖民批评：欧洲中心性被质疑，“多重启蒙”研究兴起</text></svg>",
+   "sources": [
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-seven-years-war",
+   "title": "七年战争",
+   "year": 1756,
+   "end_year": 1763,
+   "year_display": "1756年",
+   "end_year_display": "1763年",
+   "year_note": "1756年英普同盟与法奥同盟形成（“外交革命”），5月英国对法宣战；1763年《巴黎条约》与《胡贝图斯堡条约》结束战争；公元纪年，无换算问题。",
+   "location": "欧洲、北美（“法国-印第安人战争”）、印度、海上",
+   "key_people": [],
+   "background": "英法争夺殖民与贸易霸权、普奥争夺中欧；外交革命（法国与宿敌奥地利结盟对抗普鲁士）重组欧洲阵营。",
+   "process": [
+    "1756—1757年普鲁士四面受敌（腓特烈二世以内线作战苦撑）；英国开始在海外取得优势。",
+    "1757年罗斯巴赫-洛伊滕双捷；1759年魁北克之战英胜、米诺卡失守。",
+    "1760—1762年英军连克加拿大、印度本地治里、古巴与马尼拉。",
+    "1763年《巴黎条约》：法国放弃加拿大与印度（除少数据点）；英国成为全球殖民霸主。"
+   ],
+   "outcome": "“第一次世界大战”（丘吉尔对该战争的世界性命名——史学界广为引用的表述）：全球权力从法国移向英国；英国战争债务引发对北美征税——十三年后美国革命的财政根源。",
+   "controversies": [
+    {
+     "issue": "战争的全球性定位",
+     "views": [
+      {
+       "holder": "“真正的第一次世界大战”说",
+       "basis": "丘吉尔命名、全球史学界广泛引用：战区横跨五大洲。"
+      },
+      {
+       "holder": "分期谨慎说",
+       "basis": "以战争的世界体系意义而非名称为重——“一战”命名或引起混淆；本站以“全球性争霸战争”表述并保留通行名称。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp14' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#8c1f28'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>七年战争（1756—1763年）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1756 外交革命</text><text x='190' y='140' text-anchor='middle' font-size='11'>法奥同盟 vs 英普同盟</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#2b4a6f'/><text x='430' y='116' text-anchor='middle'>1759 魁北克</text><text x='430' y='140' text-anchor='middle' font-size='11'>英国海外全面优势</text><rect x='550' y='90' width='180' height='90' fill='#f3d9d3' stroke='#8c1f28'/><text x='640' y='116' text-anchor='middle' fill='#8c1f28'>1763《巴黎条约》</text><text x='640' y='140' text-anchor='middle' font-size='11'>法国弃加拿大印度</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#yp14)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#yp14)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>全球权力移向英国；战争债务→北美征税→美国革命（13年后）</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>“第一次世界大战”命名：丘吉尔说被广引，学界有分期谨慎说</text></svg>",
+   "sources": [
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "wm-american-revolution2",
+   "title": "美国独立战争与建国",
+   "year": 1776,
+   "end_year": 1789,
+   "year_display": "1776年",
+   "end_year_display": "1789年",
+   "year_note": "同 W5 近现代单元的同名事件（1776—1789）——本单元保留该条以维持单元完整性，正文视角侧重英帝国与全球贸易脉络（与近现代单元互为补充，不做重复叙述）。公元纪年，无换算问题。",
+   "location": "北美十三州",
+   "key_people": [],
+   "background": "七年战争后英国债务与《糖税法》《印花税法》等征税引发“无代表不纳税”抗争；1773年波士顿倾茶事件。",
+   "process": [
+    "1775年莱克星顿枪声；1776年7月4日《独立宣言》。",
+    "1778年法国参战（条约同盟）、西班牙荷兰相继加入——战争全球化。",
+    "1781年约克镇围城（法军海军封锁配合）决定性胜利；1783年《巴黎条约》。",
+    "1787年制宪、1789年联邦政府成立。"
+   ],
+   "outcome": "英国失去最大殖民地但保持贸易主导；美国宪政实验（成文宪法、联邦制、分权）成为19世纪立国的模板；法国内债（援美战争）成为大革命财政导火索——事件的全球链条。",
+   "controversies": [
+    {
+     "issue": "与法国大革命的因果链",
+     "views": [
+      {
+       "holder": "财政链条论",
+       "basis": "援美战争的巨额债务使法国财政破产、被迫召开三级会议——革命链条说（学界通行）。"
+      },
+      {
+       "holder": "观念传播论",
+       "basis": "《人权宣言》与《独立宣言》的观念谱系关系（文本互证）——两种解释互为补充。"
+      }
+     ]
+    }
+   ],
+   "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 400'><rect x='0' y='0' width='760' height='400' fill='#faf7f0'/><defs><marker id='yp15' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#2b4a6f'/></marker></defs><text x='380' y='36' text-anchor='middle' font-size='20'>美国独立（1775—1789年，全球链条视角）</text><g font-size='12'><rect x='80' y='90' width='220' height='90' fill='#fff' stroke='#2b4a6f'/><text x='190' y='116' text-anchor='middle'>1775 莱克星顿</text><text x='190' y='140' text-anchor='middle' font-size='11'>1776《独立宣言》</text><rect x='340' y='90' width='180' height='90' fill='#efe4cf' stroke='#8c1f28'/><text x='430' y='116' text-anchor='middle' fill='#8c1f28'>1778 法国参战</text><text x='430' y='140' text-anchor='middle' font-size='11'>战争全球化</text><rect x='550' y='90' width='180' height='90' fill='#fff' stroke='#2b4a6f'/><text x='640' y='116' text-anchor='middle'>1781 约克镇</text><text x='640' y='140' text-anchor='middle' font-size='11'>1783巴黎条约</text><line x1='300' y1='135' x2='336' y2='135' stroke='#8c1f28' marker-end='url(#yp15)'/><line x1='520' y1='135' x2='546' y2='135' stroke='#8c1f28' marker-end='url(#yp15)'/></g><rect x='130' y='210' width='500' height='90' fill='#fff' stroke='#2b4a6f'/><text x='380' y='236' text-anchor='middle' font-size='13'>1787制宪·1789联邦政府——现代立宪模板</text><rect x='130' y='315' width='500' height='56' fill='#f3d9d3' stroke='#8c1f28'/><text x='380' y='349' text-anchor='middle' font-size='11' fill='#8c1f28'>法国内债（援美）→大革命财政导火索：全球链条（学界通行）</text></svg>",
+   "sources": [
+    "decl-independence",
+    "us-constitution",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "people": [
+  {
+   "id": "columbus",
+   "name": "克里斯托弗·哥伦布",
+   "birth_year": 1451,
+   "death_year": 1506,
+   "birth_display": "1451年",
+   "death_display": "1506年",
+   "birth_note": "据通行传记1451年生于热那亚（出生年通行说法，出生地亦有争议微弱）。",
+   "death_note": "1506年5月20日卒于巴利亚多利德（至死坚信所至为亚洲东缘）。",
+   "chronology": [
+    {
+     "year": 1451,
+     "display": "1451年",
+     "text": "生于热那亚，早年为热那亚商船水手。"
+    },
+    {
+     "year": 1476,
+     "display": "1476年（前后）",
+     "text": "海难后定居里斯本（葡萄牙航海圈与马略卡制图传统的吸收）。"
+    },
+    {
+     "year": 1486,
+     "display": "1486年（前后）",
+     "text": "向西班牙王室提出西航计划（久拖未决）。"
+    },
+    {
+     "year": 1492,
+     "display": "1492年",
+     "text": "首航抵美洲；被任命为“海军上将”与总督。"
+    },
+    {
+     "year": 1498,
+     "display": "1498年",
+     "text": "第三次航行抵南美大陆（奥里诺科河口）。"
+    },
+    {
+     "year": 1500,
+     "display": "1500年",
+     "text": "因殖民地治理暴政被逮捕解回西班牙（总督职被夺）。"
+    },
+    {
+     "year": 1506,
+     "display": "1506年",
+     "text": "卒于巴利亚多利德。"
+    }
+   ],
+   "deeds": [
+    "四次横渡大西洋（1492—1504），打开欧洲与美洲的持续接触。",
+    "其加勒比殖民统治（朝贡制与镇压原住民反抗）的残酷记录（包括其本人被逮捕的调查档案）构成对其评价的黑暗面。",
+    "至死坚信“印度”——地理误认本身成为“美洲”被误称“印第安”的语言史后果。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统“发现者”叙事",
+     "view": "大航海的英雄与美洲门户的开启者（纪念传统：哥伦布日）。",
+     "basis": "欧美纪念传统。"
+    },
+    {
+     "holder": "现代批判研究",
+     "view": "殖民暴力与原住民灾难的直接责任人之一；多个美国城市以“原住民日”取代或并列“哥伦布日”（近年政治文化变迁）——评价史随政治文化显著移动。",
+     "basis": "当代美国政治文化与史学讨论。"
+    }
+   ],
+   "sources": [
+    "columbus-journal",
+    "brit-columbus",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "luther",
+   "name": "马丁·路德",
+   "birth_year": 1483,
+   "death_year": 1546,
+   "birth_display": "1483年",
+   "death_display": "1546年",
+   "birth_note": "据通行传记1483年11月10日生于艾斯莱本（图林根）。",
+   "death_note": "1546年2月18日卒于其出生地艾斯莱本。",
+   "chronology": [
+    {
+     "year": 1483,
+     "display": "1483年",
+     "text": "生于艾斯莱本，矿工家庭。"
+    },
+    {
+     "year": 1505,
+     "display": "1505年",
+     "text": "雷雨誓言入奥古斯丁修会（“圣安娜救我”传说叙事）。"
+    },
+    {
+     "year": 1517,
+     "display": "1517年",
+     "text": "《九十五条论纲》问世。"
+    },
+    {
+     "year": 1521,
+     "display": "1521年",
+     "text": "沃尔姆斯会议拒绝悔罪；瓦特堡隐居译圣经。"
+    },
+    {
+     "year": 1525,
+     "display": "1525年",
+     "text": "与修女凯瑟琳成婚；反对农民战争（“镇压暴徒”檄文）。"
+    },
+    {
+     "year": 1546,
+     "display": "1546年",
+     "text": "卒于艾斯莱本。"
+    }
+   ],
+   "deeds": [
+    "因信称义的神学突破与圣经德译（奠定近代德语）。",
+    "以小册子与讲道动员德意志社会，使宗教改革从学院争论变为大众运动。",
+    "其反犹著述（1543年《论犹太人及其谎言》）成为后世反犹传统的污点遗产（现代路德宗公开忏悔此段历史）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "新教传统",
+     "view": "宗教解放者：恢复福音、反抗教廷专断。",
+     "basis": "新教史学传统。"
+    },
+    {
+     "holder": "现代史学",
+     "view": "肯定其神学与语言贡献，同时明确其保守的社会政治立场（镇压农民战争、反犹著述）与后来路德教会在纳粹时期的态度关联——人物评价的多层化。",
+     "basis": "德国宗教改革研究。"
+    }
+   ],
+   "sources": [
+    "luther-95",
+    "brit-luther",
+    "brit-reformation"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "calvin",
+   "name": "约翰·加尔文",
+   "birth_year": 1509,
+   "death_year": 1564,
+   "birth_display": "1509年",
+   "death_display": "1564年",
+   "birth_note": "据通行传记1509年7月10日生于努瓦永（法国皮卡第）。",
+   "death_note": "1564年5月27日卒于日内瓦。",
+   "chronology": [
+    {
+     "year": 1509,
+     "display": "1509年",
+     "text": "生于努瓦永，法学出身。"
+    },
+    {
+     "year": 1536,
+     "display": "1536年",
+     "text": "《基督教要义》首版；途经日内瓦被法雷尔挽留。"
+    },
+    {
+     "year": 1541,
+     "display": "1541年",
+     "text": "重返日内瓦主持改革（《教会法规》确立长老制）。"
+    },
+    {
+     "year": 1553,
+     "display": "1553年",
+     "text": "塞尔维特异端案——加尔文赞同处以火刑（其历史污点）。"
+    },
+    {
+     "year": 1559,
+     "display": "1559年",
+     "text": "《要义》最终版；日内瓦学院创办。"
+    },
+    {
+     "year": 1564,
+     "display": "1564年",
+     "text": "卒于日内瓦。"
+    }
+   ],
+   "deeds": [
+    "系统化新教神学（《要义》）与教会治理制度（长老制）——加尔文宗的形成。",
+    "把日内瓦建成改革欧洲的“学校”（学院与印刷网络输出改革）。",
+    "预定论的严格教义与日内瓦道德治理（监督日常生活）塑造其争议形象。"
+   ],
+   "evaluations": [
+    {
+     "holder": "归正宗传统",
+     "view": "改革神学的系统者与“日内瓦奇迹”的营造者。",
+     "basis": "加尔文宗史学传统。"
+    },
+    {
+     "holder": "现代史学",
+     "view": "既承认其制度创新（长老制、教育体系）对近代宪政与资本主义伦理的影响（韦伯命题的相关性仍有争论），也如实记录塞尔维特火刑与日内瓦神权治理的严酷——韦伯命题（加尔文宗与资本主义精神）为持续争论。",
+     "basis": "宗教改革与经济社会史研究。"
+    }
+   ],
+   "sources": [
+    "brit-reformation",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "elizabeth",
+   "name": "伊丽莎白一世",
+   "birth_year": 1533,
+   "death_year": 1603,
+   "birth_display": "1533年",
+   "death_display": "1603年",
+   "birth_note": "据通行传记1533年9月7日生于格林尼治宫（亨利八世与安妮·博林之女）。",
+   "death_note": "1603年3月24日卒于里士满宫（都铎王朝终结，斯图亚特王朝继统）。",
+   "chronology": [
+    {
+     "year": 1533,
+     "display": "1533年",
+     "text": "生于格林尼治；母安妮·博林1536年被处死（其童年政治阴影）。"
+    },
+    {
+     "year": 1558,
+     "display": "1558年",
+     "text": "即位（“伊丽莎白 settlement”：宗教和解）。"
+    },
+    {
+     "year": 1571,
+     "display": "1571年",
+     "text": "三十九条信纲确立；国会与王权的财政交换制度（专卖、垄断）成型。"
+    },
+    {
+     "year": 1588,
+     "display": "1588年",
+     "text": "击败西班牙无敌舰队（德雷克等私掠船体系）。"
+    },
+    {
+     "year": 1601,
+     "display": "1601年",
+     "text": "金言演说（“与你们同在的皆是国王的身体”）与伊丽莎白时代的落幕。"
+    },
+    {
+     "year": 1603,
+     "display": "1603年",
+     "text": "卒，终身未婚（“童贞女王”）。"
+    }
+   ],
+   "deeds": [
+    "宗教和解（39条信纲）使英格兰走出信教内战的边缘。",
+    "以私掠体系对抗西班牙、支持海外探险（德雷克环球1577—80）——英国海权的胚胎。",
+    "宫廷政治与议会的平衡术：其“身体的两个身体”表演式统治（学界常用分析框架）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "英国传统叙事",
+     "view": "“黄金时代”：莎士比亚、德雷克与民族认同的盛世（伊丽莎白时代文学的黄金期）。",
+     "basis": "英国史学传统。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "指出其治下的贫困危机、爱尔兰战争（1594—1603蒂龙战争）与专卖权腐败——“黄金时代”叙事被社会史与爱尔兰视角修正。",
+     "basis": "英国近代史研究。"
+    }
+   ],
+   "sources": [
+    "brit-reformation",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "galileo",
+   "name": "伽利略·伽利莱",
+   "birth_year": 1564,
+   "death_year": 1642,
+   "birth_display": "1564年",
+   "death_display": "1642年",
+   "birth_note": "据通行传记1564年2月15日生于比萨（莎士比亚同年出生——常被引用的巧合）。",
+   "death_note": "1642年1月8日卒于阿切特里（软禁居所）。",
+   "chronology": [
+    {
+     "year": 1564,
+     "display": "1564年",
+     "text": "生于比萨。"
+    },
+    {
+     "year": 1589,
+     "display": "1589年（前后）",
+     "text": "任比萨大学数学讲师（斜面实验与落体研究——其“比萨斜塔实验”传说见史学讨论）。"
+    },
+    {
+     "year": 1610,
+     "display": "1610年",
+     "text": "《星际信使》：木星卫星、月面、金星相位观测。"
+    },
+    {
+     "year": 1632,
+     "display": "1632年",
+     "text": "《关于两大世界体系的对话》出版；1633年宗教裁判所审判、“强烈怀疑异端”定谳、软禁。"
+    },
+    {
+     "year": 1638,
+     "display": "1638年",
+     "text": "《两门新科学》出版（ smuggled 至荷兰刊行）。"
+    },
+    {
+     "year": 1642,
+     "display": "1642年",
+     "text": "卒于软禁中。"
+    }
+   ],
+   "deeds": [
+    "望远镜天文学的奠基观测（动摇地心体系的直接证据）。",
+    "运动学（《两门新科学》）奠定近代力学基础（惯性概念的雏形与落体定律）。",
+    "1633年审判成为“科学与教会关系”的世界性符号（1992年教廷表态承认判决错误）。"
+   ],
+   "evaluations": [
+    {
+     "holder": "传统“科学殉道者”叙事",
+     "view": "以个人对抗教条的科学英雄（19—20世纪主流意象）。",
+     "basis": "科学史流行叙事。"
+    },
+    {
+     "holder": "现代科学史修正",
+     "view": "强调其与教会的复杂互动（部分教士友人、 Cosmos 争议的内部神学辩论）；审判的政治语境（三十年战争前夜与教皇个人关系破裂）；“殉道者”叙事被语境化——1992年教廷委员会的结论亦承认判决错误。",
+     "basis": "现代伽利略研究（Finocchiaro 等）。"
+    }
+   ],
+   "sources": [
+    "brit-galileo",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "newton",
+   "name": "艾萨克·牛顿",
+   "birth_year": null,
+   "death_year": 1727,
+   "birth_display": "儒略历1642年12月25日 / 格里历1643年1月4日（历法换算案例）",
+   "death_display": "1727年",
+   "birth_note": "生年因历法双轨产生两个日期：英格兰当时用儒略历（旧历）记1642年12月25日；按格里历换算为1643年1月4日——本条按任务书要求作为历法换算展示案例，birth_year 置 null（避免两说歧义进入数值字段）。",
+   "death_note": "1727年3月31日（格里历）卒于伦敦肯辛顿。",
+   "chronology": [
+    {
+     "year": 1665,
+     "display": "1665—1666年（“奇迹年”）",
+     "text": "瘟疫离校返乡：微积分雏形、光学实验、引力思考（其自述与后人整理的叙事需分层）。"
+    },
+    {
+     "year": 1687,
+     "display": "1687年",
+     "text": "《自然哲学的数学原理》出版（哈雷推动与资助刊行）。"
+    },
+    {
+     "year": 1699,
+     "display": "1699年（前后）",
+     "text": "任皇家铸币厂厂长（打击伪币，绞刑执行记录在其任内）。"
+    },
+    {
+     "year": 1703,
+     "display": "1703年",
+     "text": "任皇家学会主席（至逝世）。"
+    },
+    {
+     "year": 1704,
+     "display": "1704年",
+     "text": "《光学》出版。"
+    },
+    {
+     "year": 1727,
+     "display": "1727年",
+     "text": "卒；葬威斯敏斯特教堂。"
+    }
+   ],
+   "deeds": [
+    "《原理》：三大运动定律与万有引力，把天体与地面运动统一于同一数学体系。",
+    "与莱布尼茨的微积分优先权之争（18世纪英国数学的孤立后果——学界公论）。",
+    "炼金术与神学手稿（数百万字的非科学写作）——其“理性形象”的另一半被后世研究揭示。"
+   ],
+   "evaluations": [
+    {
+     "holder": "科学传统",
+     "view": "近代科学最高成就的代表（“站在巨人肩上”——1675年信件中的名句，原意有语境差异）。",
+     "basis": "科学史通说。"
+    },
+    {
+     "holder": "现代牛顿研究（Westfall 等）",
+     "view": "其炼金术、神学与“异端”信仰（反三位一体倾向）揭示理性形象之外的完整人格；“牛顿式革命”是共同体成果而非孤胆英雄——传记修正为主流。",
+     "basis": "牛顿传记研究（R. Westfall《Never at Rest》）。"
+    }
+   ],
+   "sources": [
+    "brit-newton",
+    "newton-principia",
+    "met-toah"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "peter",
+   "name": "彼得一世（彼得大帝）",
+   "birth_year": 1672,
+   "death_year": 1725,
+   "birth_display": "1672年",
+   "death_display": "1725年",
+   "birth_note": "据通行传记1672年6月9日（儒略历5月30日）生于莫斯科。",
+   "death_note": "1725年2月8日（儒略历1月28日）卒于圣彼得堡（无遗嘱传位——此后皇位更迭混乱）。",
+   "chronology": [
+    {
+     "year": 1672,
+     "display": "1672年",
+     "text": "生于莫斯科。"
+    },
+    {
+     "year": 1682,
+     "display": "1682年",
+     "text": "与异母兄伊凡五世并立即位（索菲娅摄政）。"
+    },
+    {
+     "year": 1697,
+     "display": "1697—98年",
+     "text": "大使团西欧考察。"
+    },
+    {
+     "year": 1703,
+     "display": "1703年",
+     "text": "建圣彼得堡。"
+    },
+    {
+     "year": 1709,
+     "display": "1709年",
+     "text": "波尔塔瓦大捷。"
+    },
+    {
+     "year": 1721,
+     "display": "1721年",
+     "text": "《尼斯塔德条约》；称“皇帝”。"
+    },
+    {
+     "year": 1725,
+     "display": "1725年",
+     "text": "卒。"
+    }
+   ],
+   "deeds": [
+    "军事与行政全盘改革（征兵、参政院、九院、行省）；海军创建。",
+    "强制社会西化（贵族义务教育、剪须改服的仪式性强制）。",
+    "圣彼得堡营造与迁都——面向欧洲的空间宣言。"
+   ],
+   "evaluations": [
+    {
+     "holder": "俄国官方与传统叙事",
+     "view": "“现代化之父”，俄罗斯欧洲化的奠基者（普希金《青铜骑士》的意象传统）。",
+     "basis": "俄国史学与文学传统。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "改革以农奴加重负担为财政基础（人头税使农奴负担倍增）、文化断裂（Old Believers 迫害、贵族与民间的分野）——“彼得范式”的裂缝被现代研究系统化。",
+     "basis": "俄国史研究。"
+    }
+   ],
+   "sources": [
+    "brit-peter-the-great",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "voltaire",
+   "name": "伏尔泰（阿鲁埃）",
+   "birth_year": 1694,
+   "death_year": 1778,
+   "birth_display": "1694年",
+   "death_display": "1778年",
+   "birth_note": "据通行传记1694年11月21日生于巴黎（生年月日通行说法）。",
+   "death_note": "1778年5月30日卒于巴黎（返巴黎受英雄式欢迎后月余）。",
+   "chronology": [
+    {
+     "year": 1694,
+     "display": "1694年",
+     "text": "生于巴黎中产家庭。"
+    },
+    {
+     "year": 1717,
+     "display": "1717年（前后）",
+     "text": "因讽刺诗入巴士底狱（笔名“伏尔泰”渐取代本名）。"
+    },
+    {
+     "year": 1734,
+     "display": "1734年",
+     "text": "《哲学通信》被禁焚毁——流亡西雷（与夏特莱侯爵夫人同居期）。"
+    },
+    {
+     "year": 1759,
+     "display": "1759年",
+     "text": "《老实人》出版（对莱布尼茨式乐观主义的讽刺）；《论各民族的风俗》同年。"
+    },
+    {
+     "year": 1778,
+     "display": "1778年",
+     "text": "重返巴黎，卒；葬礼引发大规模民众悼念。"
+    }
+   ],
+   "deeds": [
+    "宗教不宽容的头号批判者（卡拉案、西尔旺案等司法平反的舆论动员）。",
+    "《哲学通信》《老实人》《路易十四时代》：启蒙文体（讽刺、通讯、史论）的开创。",
+    "“开明君主”通信圈（腓特烈二世、叶卡捷琳娜二世）与费尔奈“欧洲旅馆”的舆论中心。"
+   ],
+   "evaluations": [
+    {
+     "holder": "启蒙传统",
+     "view": "启蒙运动的旗手与“公民不服从式”舆论战的先驱（法兰西院士、万神殿葬礼）。",
+     "basis": "法国思想史传统。"
+    },
+    {
+     "holder": "现代研究",
+     "view": "其反犹言论与对“开明专制”的依附（为腓特烈服务的宫廷岁月）被如实记录；其“宗教宽容”主张与现代世俗主义的关系仍是思想史讨论焦点。",
+     "basis": "启蒙运动研究。"
+    }
+   ],
+   "sources": [
+    "hobsbawm",
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
