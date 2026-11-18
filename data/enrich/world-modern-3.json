@@ -1,0 +1,53 @@
+{
+ "unit_id": "world-modern",
+ "extra_events": [
+  {
+   "id": "x-wm3-human-genome",
+   "title": "人类基因组计划",
+   "year": 1990,
+   "end_year": null,
+   "year_display": "1990年（启动）",
+   "end_year_display": null,
+   "year_note": "人类基因组计划（HGP）1990年10月启动（美国能源部与NIH），2003年4月宣布完成“完成图”（公共计划与塞雷拉公司竞争并存）；公元纪年，无换算问题。",
+   "desc": "三十年三十亿美元的大科学工程（国际六国合作，中国承担1%测序）：2000年克林顿与基因组负责人共同宣布工作草图，2003年完成图——生物学进入基因组时代（测序成本此后指数下降）。其公共数据开放原则（百慕大原则）与私有竞争（塞雷拉）的关系为大科学治理的标本。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm3-degaulle",
+   "name": "夏尔·戴高乐",
+   "birth_year": 1890,
+   "death_year": 1970,
+   "birth_display": "1890年",
+   "death_display": "1970年",
+   "desc": "里尔人，军人世家：1940年6月18日伦敦 BBC 演说号召抵抗（“法兰西抵抗的火焰不能熄灭”——演说名句），领导自由法国；1958年第五共和国宪法（半总统制）的设计者与总统（1959—1969）。退出 NATO 军事一体化（1966）、承认新中国（1964年——西方大国首个）、阿尔及利亚独立（1962年）——其“特定荣誉称号”（国家元首的艺术：戴高乐主义）塑造法国外交传统至今。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm3-nightingale",
+   "name": "弗罗伦斯·南丁格尔",
+   "birth_year": 1820,
+   "death_year": 1910,
+   "birth_display": "1820年",
+   "death_display": "1910年",
+   "desc": "佛罗伦萨出生的英国上流家庭之女，克里米亚战争中以“提灯女神”形象重组战地医院护理（伤员死亡率从42%降至2%——她自报的统计口径，现代史学有修正讨论）；创立第一所正规护士学校（1860年）、发明极区图（玫瑰图）做统计倡导——现代护理学与医疗统计可视化之母（国际护士节以其生日设立）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "brit-ww1"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

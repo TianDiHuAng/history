@@ -1,0 +1,56 @@
+{
+ "unit_id": "world-medieval",
+ "extra_events": [
+  {
+   "id": "x-wm3-iconoclasm",
+   "title": "圣像破坏运动",
+   "year": 726,
+   "end_year": 843,
+   "year_display": "726年",
+   "end_year_display": "843年",
+   "year_note": "利奥三世726年前后发布禁像令（一说730年更明确），伊里尼743年恢复圣像，狄奥多拉843年最终恢复——通说以726—843年为一期+二期圣像之争；公元纪年，无换算问题。",
+   "desc": "拜占庭皇帝以伊斯兰式“反偶像”逻辑禁止圣像崇拜，焚毁圣像、迫害圣像尊崇者（修道院与“圣像支持者”），东西方教会第一次大裂痕（罗马教廷站在圣像一侧）；843年“正信的胜利”恢复圣像。圣像之争的军事挫折被时人解读为神罚——神学辩论与帝国政治、军队忠诚度的复杂交织（拜占庭学的经典课题）。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "whc-istanbul"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm3-cluny-reform",
+   "title": "克吕尼运动",
+   "year": 910,
+   "end_year": null,
+   "year_display": "910年（建院）",
+   "end_year_display": null,
+   "year_note": "910年阿基坦公爵威廉捐建克吕尼修道院（自治、直属教皇），至12世纪克吕尼网络下辖千余座修院；公元纪年，无换算问题。",
+   "desc": "克吕尼修道院以“直属教皇、不隶主教”的自治特权与本笃会规的严格复兴（每日弥撒为死者祈祷——“代祷经济”）成为欧洲修道改革中心：下辖千余修院（克吕尼网络），其改革派教廷（格列高利七世出自其门下）直接推动授职权之争（见主事件条延伸）。克吕尼第三大教堂（1088—1130年建）为当时欧洲最大教堂（巴黎圣母院之前的“西方最大”）。",
+   "sources": [
+    "cambridge-medieval",
+    "le-goaa-jp",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm3-abelard",
+   "name": "阿伯拉尔（彼得·阿伯拉尔）",
+   "birth_year": 1079,
+   "death_year": 1142,
+   "birth_display": "1079年",
+   "death_display": "1142年",
+   "desc": "南特人，巴黎神学与逻辑的明星：《是与否》列举158条教父矛盾命题（辩证方法的宣示）；与爱洛依丝的恋情及阉割悲剧（书信集传世——中世纪最著名的爱情文献）与圣丹尼-阿让特伊的修院生涯交错。其辩证法先于经院哲学的成熟形态；“阿伯拉尔与爱洛依丝”是中世纪思想与情感冲突的永恒符号（合葬于拉雪兹公墓）。",
+   "sources": [
+    "cambridge-medieval",
+    "met-toah",
+    "le-goaa-jp"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

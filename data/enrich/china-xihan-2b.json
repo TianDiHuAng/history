@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-xihan",
+ "extra_events": [
+  {
+   "id": "x-xh2-shiquge-huiyi",
+   "title": "石渠阁会议",
+   "year": -51,
+   "end_year": null,
+   "year_display": "前51年",
+   "end_year_display": null,
+   "year_note": "据《汉书》与《隋书·经籍志》引《石渠议奏》：甘露三年（前51年）诏诸儒讲五经同异于石渠阁，帝亲称制临决；历表换算。",
+   "desc": "宣帝诏萧望之、刘向等五经诸儒论五经同异，帝亲称制临决，议奏汇为《石渠议奏》——经学异同首次由国家裁决（与东汉白虎观会议并称）。石渠阁同时是国家藏书重地（与天禄阁并），\"石渠天禄\"成为藏书楼代称。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh2-zhizhi-zhizhan",
+   "title": "陈汤灭郅支：\"明犯强汉者，虽远必诛\"",
+   "year": -36,
+   "end_year": null,
+   "year_display": "前36年",
+   "end_year_display": null,
+   "year_note": "据《汉书·陈汤传》：建昭三年（前36年）陈汤、甘延寿矫制发兵万里袭斩郅支单于于康居；历表换算。",
+   "desc": "西域副校尉陈汤矫制发西域屯田吏士与诸国兵四万余人，奔袭三千里斩郅支单于于康居（今吉尔吉斯斯坦一带），上疏\"明犯强汉者，虽远必诛\"（《汉书》原疏语）。因矫制仅封关内侯、赐关内侯爵——国家动员权与个人专断的张力样本；郅支之灭间接为呼韩邪南附（前33年昭君出塞）清除了竞争者。",
+   "sources": [
+    "hanshu",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-xh2-zhouyafu",
+   "name": "周亚夫",
+   "birth_year": null,
+   "death_year": -143,
+   "birth_display": "生年不可考（绛侯周勃之子）",
+   "death_display": "前143年",
+   "desc": "七国之乱的平叛统帅（见主事件条）：细柳营治军\"军中闻将军令，不闻天子之诏\"（《史记》文帝劳军场景），三月平吴楚。后为相，因谏废栗太子与买葬器被诬下狱，\"不食五日，呕血而死\"——功臣与皇权紧张的名例；\"细柳营\"成为治军严明的代称。",
+   "sources": [
+    "shiji",
+    "hanshu",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xh2-chentang",
+   "name": "陈汤",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生年不可考（山阳瑕丘人）",
+   "death_display": "卒年不可考（元帝—成帝朝）",
+   "desc": "西域副校尉，矫制袭斩郅支（见延伸事件条）。其后因贪墨屡遭贬黜，晚年以议郎身份再度建言（乌孙之议）——\"矫制之功\"与\"个人品行\"的双面评价（《汉书》本传讥其\"贪，所收藏异物\"）；\"虽远必诛\"使其成为近代民族记忆的符号人物。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "tongjian"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

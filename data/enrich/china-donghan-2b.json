@@ -1,0 +1,56 @@
+{
+ "unit_id": "china-donghan",
+ "extra_events": [
+  {
+   "id": "x-dh3-baihuguan",
+   "title": "白虎观会议与《白虎通》",
+   "year": 79,
+   "end_year": null,
+   "year_display": "79年",
+   "end_year_display": null,
+   "year_note": "据《后汉书·章帝纪》与《白虎通》：建初四年（79年）诏诸儒会白虎观讲议五经同异，帝亲称制；公元纪年，无换算问题。",
+   "desc": "章帝召集魏应、淳于恭等议五经同异，帝亲称制临决，班固撰《白虎通义》汇编议奏——以国家名义统一经学解释（三纲六纪的神学化定型）。与西汉石渠阁会议前后呼应；谶纬色彩浓厚的《白虎通》同时是东汉官方意识形态的总纲。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh3-xiping-shijing",
+   "title": "熹平石经",
+   "year": 175,
+   "end_year": null,
+   "year_display": "175年（始刻）",
+   "end_year_display": null,
+   "year_note": "据《后汉书·蔡邕传》：熹平四年（175年）蔡邕等奏求正定六经文字，刻石立于太学门外；公元纪年，无换算问题。",
+   "desc": "蔡邕等以隶书将《周易》《尚书》《鲁诗》《仪礼》《春秋》《公羊传》《论语》刻于太学门外石碑（\"及碑始立，其观视及摹写者，车乘日千余两\"——《后汉书》描述），纠正传抄文字之误——官方文本标准的物质化（残石现存洛阳与西安等地）。与造纸普及共同构成东汉知识传播的双轮。",
+   "sources": [
+    "houhanshu",
+    "kaogu-cass",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-dh3-caiyong",
+   "name": "蔡邕",
+   "birth_year": 133,
+   "death_year": 192,
+   "birth_display": "133年",
+   "death_display": "192年",
+   "desc": "陈留圉人，经学家、书法家、音乐家：奏请正定六经刻熹平石经（见延伸事件条），创\"飞白\"书体；董卓专权时被迫出仕，卓死后因叹卓被王允所杀，死于狱中。其女蔡琰（文姬）博学通音律——\"文姬归汉\"成为后世文学母题；焦尾琴传说见于《后汉书》注引。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "npm"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

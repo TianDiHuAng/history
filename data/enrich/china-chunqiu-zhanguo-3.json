@@ -1,0 +1,101 @@
+{
+ "unit_id": "china-chunqiu-zhanguo",
+ "extra_events": [
+  {
+   "id": "x-cq3-changshao",
+   "title": "长勺之战与曹刿论战",
+   "year": -684,
+   "end_year": null,
+   "year_display": "前684年",
+   "end_year_display": null,
+   "year_note": "据《左传》庄公十年（前684年）曹刿论战长勺；历表换算。",
+   "desc": "齐国伐鲁，平民曹刿请见庄公，以\"一鼓作气，再而衰，三而竭\"的士气分析后发制人，大败齐师；追击前先\"视其辙乱，望其旗靡\"以防诈败。中国战争史上最早完整的战术论辩文本（《左传》所载）之一；\"一鼓作气\"成语源于此。",
+   "sources": [
+    "zuozhuan",
+    "shiji",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq3-shenbuhai-xianghan",
+   "title": "申不害相韩：术治一脉",
+   "year": -351,
+   "end_year": -337,
+   "year_display": "约前351年",
+   "end_year_display": "前337年",
+   "year_note": "据《史记·老子韩非列传》，申不害\"相韩昭侯\"约在前351年前后（韩昭侯八年前后，学界推排约数），至其卒（约前337年）。",
+   "desc": "申不害以\"术\"治国：君主以无名之势驾驭臣下、循名责实考核（\"操刀以割，上下莫能争\"——《韩非子》引述其说），韩十五年间\"国治兵强\"（《史记》语）。与商鞅之\"法\"、慎到之\"势\"并列法家三支；韩非合三者成集大成——术治派的实际效果与君主个人能力高度绑定（韩昭侯死后术治即衰）。",
+   "sources": [
+    "shiji",
+    "hanfeizi",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-cq3-limu",
+   "name": "李牧",
+   "birth_year": null,
+   "death_year": -229,
+   "birth_display": "生年不可考（赵国北边名将）",
+   "death_display": "前229年",
+   "desc": "长期驻守代雁门：破匈奴十余万骑（\"大破杀匈奴十余万骑\"——《史记》语），灭襜褴、败东胡、降林胡，使匈奴十余年不敢近赵边城；肥之战、番吾之战两挫秦军。前229年秦用反间（郭开受贿进谗），李牧被诛，三月后邯郸陷——\"李牧死，赵国亡\"（《史记》时人语）。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq3-fanju",
+   "name": "范雎",
+   "birth_year": null,
+   "death_year": -255,
+   "birth_display": "生年不可考（魏人，入秦后改名张禄）",
+   "death_display": "约前255年",
+   "desc": "魏人受辱后随秦使入秦，以\"远交近攻\"方略说秦昭王（前266年前后任秦相）：倡\"固干削枝\"逐四贵、长平之战前主导外交孤立赵国。史载其恩怨分明（须贾赠绨袍不杀、郑安平王稽皆获报）；其\"远交近攻\"成为此后秦统一的地缘战略总纲。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq3-shenbuhai",
+   "name": "申不害",
+   "birth_year": null,
+   "death_year": -337,
+   "birth_display": "生年不可考（郑京人，韩灭郑后入韩）",
+   "death_display": "约前337年",
+   "desc": "郑国京人，法家\"术\"派代表（见延伸事件条）：相韩昭侯十五年\"内修政教，外应诸侯\"，\"终申子之身，国治兵强，无侵韩者\"（《史记》语）。著《申子》六篇（存《大体》一篇）——术治理论的唯一系统传世文本。",
+   "sources": [
+    "shiji",
+    "hanfeizi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq3-ximenbao",
+   "name": "西门豹",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（魏文侯时邺令）",
+   "death_display": "卒年不可考",
+   "desc": "魏国邺令：破\"河伯娶妇\"、凿十二渠灌邺（见延伸事件条）。《史记·滑稽列传》褚少孙补记其治邺事，\"名闻天下，泽流后世\"——法家循吏（不避世俗、以政绩立信）的早期典范；其治水事迹经考古调查（漳水十二渠遗迹方位讨论）有所印证。",
+   "sources": [
+    "shiji",
+    "zgbk",
+    "kaogu-cass"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

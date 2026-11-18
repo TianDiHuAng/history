@@ -1,0 +1,103 @@
+{
+ "unit_id": "china-qing",
+ "extra_events": [
+  {
+   "id": "x-qing3-shisanhang",
+   "title": "广州十三行",
+   "year": 1720,
+   "end_year": 1842,
+   "year_display": "约1720年（定型）",
+   "end_year_display": "1842年",
+   "year_note": "粤海关1685年设，行商组织约1720年前后定型为“十三行”（实数随年份变动，“十三”为约称）；1842年《南京条约》五口通商后行商制度终结；公元纪年，无换算问题。",
+   "desc": "清廷以行商制度垄断对西洋贸易：行商承保外船（保商连坐）、代纳关税、沟通官商，伍秉鉴（怡和行）家族成为世界级富豪（其资产估值的西方记载——口径存疑）。十三行是“一口通商”时代（1757—1842）中国与西方贸易的唯一官方管道——贸易垄断体制的收益与僵化并存（鸦片走私恰在其边缘滋生）。",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qing3-zhuzang-dachen",
+   "title": "设驻藏大臣",
+   "year": 1727,
+   "end_year": null,
+   "year_display": "1727年",
+   "end_year_display": null,
+   "year_note": "据《清实录》与《清史稿·职官志》：雍正五年（1727年）设驻藏办事大臣（首任僧格、马喇），与达赖班禅共治；历表换算。",
+   "desc": "清廷设驻藏办事大臣二员驻拉萨，监督噶厦地方政府与达赖班禅体系（金瓶掣签、外事边防、驻军）——清对西藏治理从册封-朝贡进入常驻监督体制（延续至1912年，驻藏大臣撤销）。驻藏大臣制度（与金瓶掣签）是清代西藏治理的两大制度支柱。",
+   "sources": [
+    "qingshigao",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-qing3-tuerhute-donggui",
+   "title": "土尔扈特东归",
+   "year": 1771,
+   "end_year": null,
+   "year_display": "1771年",
+   "end_year_display": null,
+   "year_note": "据《清实录》与土尔扈特档案：乾隆三十六年（1771年）渥巴锡率部十七万自伏尔加河东归，翌年抵伊犁——乾隆撰《土尔扈特全部归顺记》碑；历表换算。",
+   "desc": "西迁伏尔加河约140年的土尔扈特部，因叶卡捷琳娜二世征兵压迫与对故土的认同，渥巴锡率部东归：万里跋涉、人口损失过半（“携万户而来，存半数而至”——清方档案描述口径），乾隆妥善安置于天山南北。东归成为多族群帝国向心力的著名案例（1990年代以来的影视与学术再叙述）。",
+   "sources": [
+    "qingshigao",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-qing3-zhangzhidong",
+   "name": "张之洞",
+   "birth_year": 1837,
+   "death_year": 1909,
+   "birth_display": "1837年",
+   "death_display": "1909年",
+   "desc": "直隶南皮人，清流领袖转洋务督抚：《劝学篇》（1898）提出“中学为体，西学为用”的纲领性表述；创办汉阳铁厂（1890——亚洲最早的近代钢铁联合企业之一）、湖北枪炮厂与自强学堂（武汉大学前身之一）。1907年入枢军机；其“旧学为体、新学为用”原句（《劝学篇》“旧学为体，新学为用，不使偏废”）被张之洞的同僚沈曾植等表述为流行语——张是晚清改革派话语的定型者。",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qing3-gongzizhen",
+   "name": "龚自珍",
+   "birth_year": 1792,
+   "death_year": 1841,
+   "birth_display": "1792年",
+   "death_display": "1841年",
+   "desc": "仁和人，段玉裁外孙，今文经学的思想先声：《己亥杂诗》三百五十首（“九州生气恃风雷”）与《病梅馆记》批判束缚人才；“衰世”论（《平均篇》《乙丙之际箸议》）预言王朝危机——“但开风气不为师”（其自评句）。1841年暴卒于丹阳（死因有传闻争议）；梁启超称“晚清思想之解放，龚氏确与有功焉”（转述其《清代学术概论》论点）。",
+   "sources": [
+    "qingshigao",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-qing3-wengtonghe",
+   "name": "翁同龢",
+   "birth_year": 1830,
+   "death_year": 1904,
+   "birth_display": "1830年",
+   "death_display": "1904年",
+   "desc": "常熟人，两朝帝师（同治、光绪），户部尚书与军机大臣：中法甲申易枢（1884）与甲午（1894）间的财政决策者，主张变法并推荐康有为（“翁同龢荐康有为”说法经茅海建等档案研究修正为间接知会）。1898年被慈禧罢黜——帝师、财政大臣、书法名家（其日记为晚清史料巨帙）于一身的典型。",
+   "sources": [
+    "qingshigao",
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

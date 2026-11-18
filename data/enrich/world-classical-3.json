@@ -1,0 +1,36 @@
+{
+ "unit_id": "world-classical",
+ "extra_people": [
+  {
+   "id": "x-wc3-zeno",
+   "name": "芝诺（季蒂昂的芝诺）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前334—约前262年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "腓尼基裔塞浦路斯商人，船难后于雅典师从犬儒学派，约前301年在“彩廊”（Stoa Poikile）讲学——斯多葛学派之名由此而来。斯多葛主义主张按自然理性生活、德性即唯一之善，成为罗马帝国的官方伦理（马可·奥勒留为帝王信奉者）与现代“斯多葛”理性生活的复兴源头。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wc3-epicurus",
+   "name": "伊壁鸠鲁",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约前341—约前270年，通说推排）",
+   "death_display": "卒年不可考",
+   "desc": "萨摩斯岛雅典侨民之子，于雅典自家花园创学派（首开女性与奴隶入学——古代教育的例外）：主张快乐是善但以“无痛苦、无恐惧”（aponia/ataraxia）为准，原子论（承德谟克利特）否定神意干预。卢克莱修《物性论》使其原子论传世；“伊壁鸠鲁主义”的纵欲误读与原义的“隐逸之乐”差异为经典澄清案例。",
+   "sources": [
+    "cambridge-ancient",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  }
+ ],
+ "extra_events": []
+}

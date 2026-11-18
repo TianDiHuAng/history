@@ -1863,6 +1863,17 @@
       "url2": null,
       "link_ok": null,
       "note": "中国近代史（1840—至今）编年与叙事权威，离线文献"
+    },
+    {
+      "id": "guoyu",
+      "title": "《国语》",
+      "author": "战国史官汇编（传左丘明）",
+      "type": "原典",
+      "lang": "zh",
+      "url": "https://ctext.org/guoyu/zs",
+      "url2": "https://zh.wikisource.org/wiki/國語",
+      "link_ok": null,
+      "note": "国别体史料，记周鲁齐晋郑楚吴越八国言语事迹"
     }
   ]
 }

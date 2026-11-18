@@ -1,0 +1,39 @@
+{
+ "unit_id": "china-qin",
+ "extra_events": [
+  {
+   "id": "x-qin3-jingke-cikeqin",
+   "title": "荆轲刺秦王",
+   "year": -227,
+   "end_year": null,
+   "year_display": "前227年",
+   "end_year_display": null,
+   "year_note": "据《史记·刺客列传》与《战国策·燕策》：燕王喜二十三年（前227年）荆轲携樊於期首级与督亢地图入秦，图穷匕见；历表换算。",
+   "desc": "燕太子丹以荆轲刺秦王政延缓秦兵：\"风萧萧兮易水寒，壮士一去兮不复还\"（《战国策·燕策》所录送别歌），图穷匕见、绕柱而走的戏剧场面（《史记》名篇），荆轲被断股后倚柱骂坐而死。刺秦失败反加速秦灭燕（前226年破蓟城）——《史记》以《刺客列传》确立其悲壮形象，\"图穷匕见\"入语。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-qin3-jingke",
+   "name": "荆轲",
+   "birth_year": null,
+   "death_year": -227,
+   "birth_display": "生年不可考（卫人，好读书击剑）",
+   "death_display": "前227年",
+   "desc": "卫人游士，受燕太子丹之托刺秦（见延伸事件条）。《史记·刺客列传》五刺客中叙述最详者；\"荆轲刺秦王\"经《战国策》与后世文学（陶渊明《咏荆轲》、骆宾王诗）层累为反抗强权的文化符号——陶渊明更评其\"其人虽已没，千载有余情\"。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-xianqin",
+ "extra_events": [
+  {
+   "id": "x-xianqin-3-yihou-ze",
+   "title": "宜侯夨簋与西周分封的考古实证",
+   "year": -1000,
+   "end_year": null,
+   "year_display": "约前1000年（康王期，约数）",
+   "end_year_display": null,
+   "year_note": "宜侯夨簋1954年出土于江苏镇江大港烟墩山，铭文记康王改封夨于宜，年代据铭文王世（康王期，断代工程约前1020—前996年）推排为约数。",
+   "desc": "簋铭一百二十余字记录周王命虞侯夨迁封宜地，赐鬯、弓矢、田土与人口——与《左传》\"封建亲戚，以蕃屏周\"的文献叙述互证，是西周分封制最直接的考古文字证据之一。铭文原器受损（仅存部分铭文），释读仍有讨论。",
+   "sources": [
+    "kaogu-cass",
+    "zgbk",
+    "duandai"
+   ],
+   "needs_verification": true,
+   "pending_notes": "宜的地望（镇江说/其他说）与夨的族属（虞侯改封说/吴国始封说）学界仍有争论；铭文残损影响全文复原。"
+  },
+  {
+   "id": "x-xianqin-3-liaomin",
+   "title": "宣王料民太原",
+   "year": -789,
+   "end_year": null,
+   "year_display": "前789年",
+   "end_year_display": null,
+   "year_note": "据《国语·周语上》与《史记》系年互证：宣王三十九年（前789年）战于千亩失利，\"乃料民于太原\"；历表换算。",
+   "desc": "千亩之战败于姜氏之戎后，宣王在太原清查人口以补充兵源赋役，仲山父谏\"民不可料\"（户籍当由常制维持，勿使民知国家核数）——王不听。料民事件说明西周晚期常规户籍已失控，需临时清点补救：宣王中兴的财政底子在此暴露裂痕（与《国语》仲山父谏语互证）。",
+   "sources": [
+    "guoyu",
+    "shiji",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-xianqin-3-dixin",
+   "name": "商纣王（帝辛）",
+   "birth_year": null,
+   "death_year": -1046,
+   "birth_display": "生年不可考（帝乙之子）",
+   "death_display": "约前1046年",
+   "desc": "商代末王：征东夷消耗国力，牧野之战败后自焚于鹿台（见主事件条）。《史记》记其\"材力过人，手格猛兽\"而有矜人臣以能之性；\"纣\"为周人给定的恶谥——子贡早已指出\"纣之不善，不如是之甚也\"（《论语·子张》），现代史家（顾颉刚《纣恶七十事的发生次第》）系统论证纣恶是层累放大的。",
+   "sources": [
+    "shiji",
+    "lunyu",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xianqin-3-weizi",
+   "name": "微子启",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生年不可考（帝乙长子，庶出）",
+   "death_display": "卒年不可考",
+   "desc": "商纣庶兄，数谏不听而去；周初被微子启封于宋（见《史记·宋微子世家》）以奉殷祀。\"去殷\"与\"囚奴后归周\"的两说（《论语》微子去之/《史记》面缚衔璧）并存；其受封开启了宋国七百年历史（孔子先世出自宋）。",
+   "sources": [
+    "shiji",
+    "lunyu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

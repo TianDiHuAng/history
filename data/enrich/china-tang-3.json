@@ -1,0 +1,101 @@
+{
+ "unit_id": "china-tang",
+ "extra_events": [
+  {
+   "id": "x-tang3-mizong-chuanru",
+   "title": "密教入华：开元三大士",
+   "year": 716,
+   "end_year": null,
+   "year_display": "716年（善无畏抵长安）",
+   "end_year_display": null,
+   "year_note": "据《宋高僧传》（本站未收录，据《旧唐书》方伎传与佛典文献系统对读）：善无畏716年抵长安，金刚智719年、不空722年前后来华；公元纪年，无换算问题。",
+   "desc": "善无畏、金刚智、不空（开元三大士）先后抵华，传持胎藏界与金刚界密法：不空受玄宗肃宗代宗三朝礼遇，译经一百余部，密教在盛唐宫廷达到顶点（“两京”大寺设灌顶道场）。会昌灭佛（见主事件条）后密教中衰，其传承东传日本（空海承不空法嗣惠果——东密之源）。",
+   "sources": [
+    "zgbk",
+    "met-toah",
+    "whc-mogao"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-tang3-guwen-yundong",
+   "title": "古文运动",
+   "year": 800,
+   "end_year": 820,
+   "year_display": "约800年",
+   "end_year_display": "约820年",
+   "year_note": "韩愈、柳宗元倡导古文约在贞元末至元和年间（约793—820年，学界通说以800年前后为高潮期），取约800年。",
+   "desc": "韩愈、柳宗元以先秦两汉的\"古文\"取代骈文（柳宗元\"文者以明道\"——韩柳共同纲领的表述），主张文以明道、陈言务去；李翱、皇甫湜等传承。其“复古”实为创新：古文运动重构了文章与思想的关系，直接开启宋代欧苏的第二次古文运动（见宋单元）。",
+   "sources": [
+    "xintangshu",
+    "chenyinke-tang",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-tang3-wangwei",
+   "name": "王维",
+   "birth_year": 701,
+   "death_year": 761,
+   "birth_display": "701年",
+   "death_display": "761年",
+   "desc": "蒲州人，诗佛：山水田园诗（“明月松间照，清泉石上流”）与水墨画（《辋川图》开创文人画传统——苏轼评“诗中有画，画中有诗”）。安史乱中受伪职获宥，晚年奉佛隐居辋川；其诗画一体的境界是中国文人艺术的理想标本。",
+   "sources": [
+    "jiutangshu",
+    "xintangshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang3-liuzongyuan",
+   "name": "柳宗元",
+   "birth_year": 773,
+   "death_year": 819,
+   "birth_display": "773年",
+   "death_display": "819年",
+   "desc": "河东人，永贞革新八司马之一，贬永州柳州：《永州八记》开创山水游记、《捕蛇者说》继承讽喻传统，与韩愈并倡古文（“唐宋八大家”之二）。其《封建论》的郡县论与《天说》的唯物倾向（“功者自功，祸者自祸”）在思想史上有独立地位；柳州任内政绩使其获立庙祀（柳侯祠）。",
+   "sources": [
+    "jiutangshu",
+    "xintangshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang3-liuyuxi",
+   "name": "刘禹锡",
+   "birth_year": 772,
+   "death_year": 842,
+   "birth_display": "772年",
+   "death_display": "842年",
+   "desc": "洛阳人，“诗豪”：永贞革新八司马之一，贬朗州连州廿三年而气骨不衰（“沉舟侧畔千帆过，病树前头万木春”）；《竹枝词》把巴渝民歌引入文人诗（“东边日出西边雨”）。与白居易唱和并称“刘白”；《陋室铭》为居室铭文经典。",
+   "sources": [
+    "jiutangshu",
+    "xintangshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang3-lishangyin",
+   "name": "李商隐",
+   "birth_year": 813,
+   "death_year": null,
+   "birth_display": "813年（通说）",
+   "death_display": "约858年（卒年存疑）",
+   "desc": "怀州河内人，晚唐诗人：无题诗（“春蚕到死丝方尽，蜡炬成灰泪始干”）以朦胧多义著称；陷牛李党争（先依牛党令狐楚、后娶李党王茂元之女）而终身沉沦。与杜牧并称“小李杜”；其《无题》组诗的多义性成为千年阐释学课题。",
+   "sources": [
+    "jiutangshu",
+    "xintangshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

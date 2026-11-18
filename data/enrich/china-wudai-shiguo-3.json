@@ -1,0 +1,54 @@
+{
+ "unit_id": "china-wudai-shiguo",
+ "extra_events": [
+  {
+   "id": "x-wd3-qianchu-natu",
+   "title": "钱俶纳土归宋",
+   "year": 978,
+   "end_year": null,
+   "year_display": "978年",
+   "end_year_display": null,
+   "year_note": "据《宋史·太宗纪》与《十国春秋》：太平兴国三年（978年）吴越国王钱俶献两浙十三州土地户籍入宋；公元纪年，无换算问题。",
+   "desc": "吴越末王钱俶遵循钱镠“善事中国”遗训，主动纳土归宋，两浙十三州一军不战而并入北宋——十国中唯一和平终结的政权。杭州免遭兵燹，“保境安民”七十一年的国策以最体面的方式落幕；钱氏家族据此成为两宋杭州的地方望族（钱王祠历代修缮）。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xinwudaishi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wd3-wangshenzhi",
+   "name": "王审知",
+   "birth_year": 862,
+   "death_year": 925,
+   "birth_display": "862年",
+   "death_display": "925年",
+   "desc": "光州固始人，随兄王潮入闽（885年起），898年继任威武军节度使，909年封闽王：开辟甘棠港、“招纳海中蛮夷商贾”、兴四门学（见延伸事件条闽国）——“开闽第一”（《十国春秋》语）。福州由此获得“海滨邹鲁”的文化起点。",
+   "sources": [
+    "jiuwudaishi",
+    "xinwudaishi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wd3-wangyan",
+   "name": "王衍（前蜀后主）",
+   "birth_year": 899,
+   "death_year": 926,
+   "birth_display": "899年",
+   "death_display": "926年",
+   "desc": "前蜀高祖王建之子，918年继位：奢靡怠政（好击鞠斗鸡、自冠大帽游幸），宠信韩昭等佞臣；925年后唐伐蜀，王衍面缚舆榇出降，押送途中被杀于秦川驿——前蜀十八年而亡（与南唐后主的亡国镜像并读）。前蜀宫词（王衍与花蕊夫人系统的宫廷诗）保存了蜀地宫廷生活的细节。",
+   "sources": [
+    "jiuwudaishi",
+    "xinwudaishi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

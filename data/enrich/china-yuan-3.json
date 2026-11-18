@@ -1,0 +1,103 @@
+{
+ "unit_id": "china-yuan",
+ "extra_events": [
+  {
+   "id": "x-yuan3-haicao",
+   "title": "朱清、张瑄开创海运漕粮",
+   "year": 1282,
+   "end_year": null,
+   "year_display": "1282年",
+   "end_year_display": null,
+   "year_note": "据《元史·食货志》：至元十九年（1282年）朱清、张瑄试运漕粮四万余石自刘家港至直沽；历表换算。",
+   "desc": "蒙古灭宋的水师降将朱清、张瑄改内河漕运为海运：从刘家港（今太仓）沿海路北上直沽（天津），岁运漕粮由四万石增至三百万石级（元代中期海运粮高峰——学界通说口径）。海运成本远低于内河转运，刘家港（“六国码头”）崛起；元末战乱海运中断，明初永乐间复开海运旋废——中国海洋物流的中断与重启。",
+   "sources": [
+    "yuanshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-yuan3-naiyan-luan",
+   "title": "乃颜之乱",
+   "year": 1287,
+   "end_year": null,
+   "year_display": "1287年",
+   "end_year_display": null,
+   "year_note": "据《元史·世祖纪》与《史集》：至元二十四年（1287年）成吉思汗幼弟后裔乃颜（斡赤斤系）联合哈撒儿后裔起兵于辽东；历表换算。",
+   "desc": "东道诸王乃颜联合海都势力在辽东起兵，忽必烈以高龄亲征（乘象舆督战），两月内平定。乃颜之乱是成吉思汗分封体系与忽必烈集权路线的最后总冲突；元廷此后在辽东设行省、进一步汉化军政——内亚自由联营传统与官僚帝国秩序的终局之战（内亚史视角）。",
+   "sources": [
+    "yuanshi",
+    "cambridge-china",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-yuan3-chuogenglu",
+   "title": "陶宗仪《南村辍耕录》",
+   "year": 1366,
+   "end_year": null,
+   "year_display": "约1366年",
+   "end_year_display": null,
+   "year_note": "据《辍耕录》孙作序与陶宗仪自叙（“积叶成章”——以树叶笔记藏于瓮中），成书约在元末（约1366年，约数）。",
+   "desc": "陶宗仪隐居松江南村，耕作之余以树叶记事积于瓮中，十年成《南村辍耕录》三十卷：典章制度（如“断嫂服”“官制资品”）、民间技艺（黄道婆条——见延伸人物条）、书画掌故、杂剧艺人名录——元代社会史最丰富的笔记文献之一。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-yuan3-zhaomenfu",
+   "name": "赵孟頫",
+   "birth_year": 1254,
+   "death_year": 1322,
+   "birth_display": "1254年",
+   "death_display": "1322年",
+   "desc": "湖州人，宋太祖十一世孙而仕元（至元间被荐入朝）：“赵体”楷书与《鹊华秋色图》（为周密作——南北文人交流的名画）开创“复古”画风（以唐入画、以古开新）。仕元的道德争议（贰臣之讥）与其艺术成就并峙——“书画传家三百年”的湖州赵氏由此起。",
+   "sources": [
+    "zgbk",
+    "npm",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-yuan3-xuheng",
+   "name": "许衡",
+   "birth_year": 1209,
+   "death_year": 1281,
+   "birth_display": "1209年",
+   "death_display": "1281年",
+   "desc": "河内人，“元朝第一位大儒”：以“北方学者首称”被忽必烈征用，倡“行汉法”（《时务五事》上疏），领太学、定朝仪；与郭守敬等共修《授时历》（见主事件条）。“橘逾淮为枳”之喻（其论人才地域）与其作为理学北传枢纽——元初汉法路线的制度承担者。",
+   "sources": [
+    "yuanshi",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-yuan3-taozongyi",
+   "name": "陶宗仪",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约1329—约1412年间在世，存疑）",
+   "death_display": "卒年不可考",
+   "desc": "台州黄岩人，避乱松江华亭，耕读南村：《南村辍耕录》三十卷（见延伸事件条）与《书史会要》（书法史）——元末明初笔记与艺术文献的双料作者。“积叶成章”的治学方式使其成为民间知识分子的象征形象。",
+   "sources": [
+    "zgbk",
+    "xiehe-han",
+    "cambridge-china"
+   ],
+   "needs_verification": true
+  }
+ ]
+}

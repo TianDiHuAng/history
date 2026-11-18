@@ -1,0 +1,103 @@
+{
+ "unit_id": "china-song",
+ "extra_events": [
+  {
+   "id": "x-song3-xihe-kaibian",
+   "title": "熙河开边",
+   "year": 1071,
+   "end_year": 1073,
+   "year_display": "1071年",
+   "end_year_display": "1073年",
+   "year_note": "据《宋史·神宗纪》与《续资治通鉴长编》：王韶上《平戎策》后任秦凤路经略司机宜文字，1072—1073年收复熙、河、洮、岷等州；历表换算。",
+   "desc": "王韶《平戎策》提出“欲取西夏，当先复河湟”——神宗采纳后王韶主持熙河开边，两年收复熙、河、洮、岷、叠、宕六州（拓地二千余里）。这是北宋对外罕见的主动扩张；但后续经营耗费巨大、宣和年间湟鄯得而复失——开边的财政与治理难题（与王安石变法的军费背景互为表里）。",
+   "sources": [
+    "songshi",
+    "xu-tongjian-changbian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song3-yuanfeng-gaizhi",
+   "title": "元丰改制",
+   "year": 1080,
+   "end_year": 1082,
+   "year_display": "1080年",
+   "end_year_display": "1082年",
+   "year_note": "据《宋史·职官志》：元丰三年（1080年）颁《寄禄格》定寄禄官阶，五年（1082年）行新官制（三省六部复归实权）；历表换算。",
+   "desc": "神宗亲自主导官制改革：罢差遣法、恢复《唐六典》式三省六部实权（中书揆议、门下审覆、尚书奉行），寄禄官与职事官分离。改制解决了“官名与职务分离”的宋初旧制弊病，但三省分工与政事堂议政的衔接仍显冗滞——宋代官制的最后定型（南宋大体沿袭）。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "deng-xiaonan-zuzong"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-song3-gongtian-fa",
+   "title": "公田法与贾似道专政",
+   "year": 1263,
+   "end_year": null,
+   "year_display": "1263年",
+   "end_year_display": null,
+   "year_note": "据《宋史·贾似道传》：景定四年（1263年）贾似道倡行公田法——强买豪强占田逾限之田为公田，以公田租入充军饷；历表换算。",
+   "desc": "蒙宋战争军费浩繁、纸币（会子）恶性贬值：贾似道以“回买公田”强征浙西豪族田产（千亩起买，三分之一以上），以会子偿付——既得罪既得利益集团，又加剧通胀。“公田法”被视为南宋财政自救的最后尝试与最坏执行（学界通行评价）；贾似道由此成为南宋亡国的责任符号（其“鄂州之功”被后世修正研究部分恢复）。",
+   "sources": [
+    "songshi",
+    "cambridge-china",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-song3-luyou",
+   "name": "陆游",
+   "birth_year": 1125,
+   "death_year": 1210,
+   "birth_display": "1125年",
+   "death_display": "1210年",
+   "desc": "越州山阴人，存诗九千三百余首（《剑南诗稿》）——中国存诗最多的诗人：北望中原至死不渝（临终《示儿》“王师北定中原日，家祭无忘告乃翁”）；《钗头凤》沈园题壁为其私人情感名篇。其一生贯穿南渡一代的复国执念与壮志难酬——“位卑未敢忘忧国”（其《病起书怀》句）为士人爱国传统的标杆。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-song3-baozheng",
+   "name": "包拯",
+   "birth_year": 999,
+   "death_year": 1062,
+   "birth_display": "999年",
+   "death_display": "1062年",
+   "desc": "庐州合肥人，知开封府“有令行禁止之名”（《宋史》本传）：弹劾张尧佐、立“不持一砚归”的端州之操。后世包公戏（元杂剧以降）将其塑造为司法神明（开封府三口铡刀为文学虚构）——历史人物与司法公正符号的分层，是中国法律文化的独特现象。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-song3-chengyi",
+   "name": "程颐（与其兄程颢并称二程）",
+   "birth_year": 1033,
+   "death_year": 1107,
+   "birth_display": "1033年",
+   "death_display": "1107年",
+   "desc": "洛阳人，与其兄程颢共创洛学：提出“体用一源，显微无间”与“性即理也”的命题（“存天理，灭人欲”一语经朱熹系统化）——理学核心框架的奠基（朱熹的理学直接继承程颐）。其“饿死事极小，失节事极大”之语（见《程氏遗书》）成为后世争议焦点。",
+   "sources": [
+    "songshi",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

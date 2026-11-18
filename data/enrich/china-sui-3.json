@@ -1,0 +1,23 @@
+{
+ "unit_id": "china-sui",
+ "extra_events": [
+  {
+   "id": "x-sui3-linyi-shijie",
+   "title": "刘方征林邑与南海经营",
+   "year": 605,
+   "end_year": null,
+   "year_display": "605年",
+   "end_year_display": null,
+   "year_note": "据《隋书·南蛮传》：大业元年（605年）刘方率舟师伐林邑（今越南中南部），破其国都；历表换算。",
+   "desc": "炀帝命驩州道行军总管刘方水陆并进伐林邑，破其象阵、克国都——《隋书》记录了经略南海的远征（佛教僧人随行采宝），与常骏使赤土（见延伸条目）共同构成隋代南海经略的两个支点。远征虽胜而未能长期控制，隋亡后势力收缩。",
+   "sources": [
+    "suishu",
+    "zgbk",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": []
+}

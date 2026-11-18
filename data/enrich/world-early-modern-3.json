@@ -1,0 +1,103 @@
+{
+ "unit_id": "world-early-modern",
+ "extra_events": [
+  {
+   "id": "x-wem3-suleiman-zenith",
+   "title": "苏莱曼一世与奥斯曼盛世",
+   "year": 1520,
+   "end_year": 1566,
+   "year_display": "1520年",
+   "end_year_display": "1566年",
+   "year_note": "苏莱曼一世1520年即位（在位46年），1566年卒于对哈布斯堡的西格特瓦尔围城战中；公元纪年，无换算问题。",
+   "desc": "奥斯曼第十代苏丹（欧洲人称“大帝”，土耳其人称“立法者” Kanuni）：征服贝尔格莱德与罗得岛、匈牙利，地中海与波斯两线扩张，帝国版图最大；颁布苏莱曼法典（世俗法与伊斯兰法的整合——“立法者”之名由此）、扶植伊斯坦布尔建筑（锡南的清真寺群）。与欧洲的均势博弈（法奥之争中联法抗哈布斯堡）确立奥斯曼作为欧洲体系一员的地位。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "cambridge-medieval"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem3-spanish-succession",
+   "title": "西班牙王位继承战争",
+   "year": 1701,
+   "end_year": 1714,
+   "year_display": "1701年",
+   "end_year_display": "1714年",
+   "year_note": "1701年路易十四接受西班牙王位继承（查理二世遗嘱），欧洲同盟宣战；1713—1714年《乌得勒支条约》系列结束战争；公元纪年，无换算问题。",
+   "desc": "哈布斯堡西班牙国王无嗣引发欧洲瓜分战争：马尔伯勒与欧根亲王联军挫法（布伦海姆1704年），《乌得勒支条约》使波旁的腓力五世得西班牙（但西班牙-法国不得合并）、英国得直布罗陀与米诺卡、奴隶贸易专营权（asiento）——英国第一次以条约体系瓜分世界利益。欧洲“势力均衡”的成熟范式。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wem3-south-sea-bubble",
+   "title": "南海泡沫",
+   "year": 1720,
+   "end_year": null,
+   "year_display": "1720年",
+   "end_year_display": null,
+   "year_note": "南海公司1711年特许设立，1720年股价从约128英镑飙至1000英镑级后崩盘；公元纪年，无换算问题。",
+   "desc": "英国南海公司以承接国债换贸易垄断权，1720年股价狂飙引发全民投机（牛顿亦被套——“我能计算天体运行，却无法计算人类的疯狂”——转述自其名言传统），密西西比泡沫（法国，同期）联动崩盘。《泡沫法》与国会调查（沃波尔为“挽救”者而上台成为“第一首相”）——英国金融体制在泡沫中学会自我监管的起点。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wem3-suleiman",
+   "name": "苏莱曼一世（立法者）",
+   "birth_year": 1494,
+   "death_year": 1566,
+   "birth_display": "1494年",
+   "death_display": "1566年",
+   "desc": "特拉布宗出生的奥斯曼苏丹（见延伸事件条）：立法（Kanuni）、建筑（锡南的苏莱曼尼耶清真寺）、诗歌（以“穆希比”笔名写波斯体情诗给许蕾姆苏丹——罗克塞拉娜，其苏丹妃的权力史为宫廷史名题）。奥斯曼帝国的极盛苏丹，欧洲称之为“大帝”。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "cambridge-medieval"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wem3-hume",
+   "name": "大卫·休谟",
+   "birth_year": 1711,
+   "death_year": 1776,
+   "birth_display": "1711年",
+   "death_display": "1776年",
+   "desc": "爱丁堡人，苏格兰启蒙运动的核心：《人性论》（1739—1740）以经验主义消解因果必然性（“习惯性联想”）、《英格兰史》为史学畅销书之始。其对奇迹的批判（“没有任何证词足以确立一个奇迹”——《人类理解研究》语）与对宗教的怀疑使他终身未获大学教职；经济学上与斯密为挚友。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wem3-rousseau",
+   "name": "让-雅克·卢梭",
+   "birth_year": 1712,
+   "death_year": 1778,
+   "birth_display": "1712年",
+   "death_display": "1778年",
+   "desc": "日内瓦钟表匠之子，自学成才：《社会契约论》（1762，“人生而自由，却无往不在枷锁之中”）、《爱弥儿》（自然教育论）与《忏悔录》（自传文学的开创）。其“公意”理论直接滋养法国大革命（雅各宾派的圣经）与浪漫主义运动；其被启蒙同伴（伏尔泰、狄德罗）围攻的论战史本身是启蒙内部多元性的标本。1794年遗骸迁入先贤祠。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
