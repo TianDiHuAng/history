@@ -1,0 +1,103 @@
+{
+ "unit_id": "china-xihan",
+ "extra_events": [
+  {
+   "id": "x-xh4-yantie-huiyi",
+   "title": "盐铁会议",
+   "year": -81,
+   "end_year": null,
+   "year_display": "前81年",
+   "end_year_display": null,
+   "year_note": "据《汉书》与桓宽《盐铁论》：始元六年（前81年）二月诏郡国举贤良文学六十余人问民间疾苦，会议至三月罢；历表换算。",
+   "desc": "霍光以昭帝名义召集贤良文学六十余人与御史大夫桑弘羊当廷辩论盐铁专卖、均输平准与匈奴政策（\"罢郡国榷酤、关内铁官\"为会议直接成果）。会议记录经桓宽整理为《盐铁论》六十篇——中国最早的完整政治辩论实录，国家干预与市场自由的千年争论由此定调。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh4-fujiezi-loulan",
+   "title": "傅介子斩楼兰王",
+   "year": -77,
+   "end_year": null,
+   "year_display": "前77年",
+   "end_year_display": null,
+   "year_note": "据《汉书·傅介子传》：元凤四年（前77年）平乐监傅介子奉命以赏赐为名刺杀楼兰王安归；历表换算。",
+   "desc": "楼兰王反复叛降并遮杀汉使，霍光命傅介子携黄金锦绮诱楼兰王至帐下，二壮士斩其首级持归（\"王负汉罪，天子遣我来诛王\"——介子语），悬首北阙。改立亲汉的尉屠耆为王、更名其国为鄯善——以最小成本维持西域秩序的\"斩首外交\"经典案例。",
+   "sources": [
+    "hanshu",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-xh4-changping-cang",
+   "title": "常平仓的设立",
+   "year": -54,
+   "end_year": null,
+   "year_display": "前54年",
+   "end_year_display": null,
+   "year_note": "据《汉书·食货志》：五凤四年（前54年）大司农中丞耿寿昌奏设常平仓\"以谷贱时增其贾而籴，谷贵时减贾而粜\"；历表换算。",
+   "desc": "耿寿昌建议在边郡与三辅设常平仓，以官方吞吐平抑谷价—— price-stabilization 的古代实践（其数学依据源自李悝平籴法）。常平仓为历代沿袭（隋义仓、唐常平、清常平仓），其中央-地方仓储网络是中国古代粮食安全体系的核心发明。",
+   "sources": [
+    "hanshu",
+    "zgbk",
+    "lvsimian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-xh4-jiayi",
+   "name": "贾谊",
+   "birth_year": -200,
+   "death_year": -168,
+   "birth_display": "前200年",
+   "death_display": "前168年",
+   "desc": "洛阳人，文帝朝最年轻的政论家：《过秦论》（\"仁义不施而攻守之势异也\"）、《治安策》（\"可为痛哭者一，可为流涕者二\"）与《论积贮疏》——对帝国结构性隐患的系统预警（诸侯、匈奴、奢靡）。三十三岁郁郁而终；其改革方案（众建诸侯而少其力）实为推恩令的思想前身。",
+   "sources": [
+    "shiji",
+    "hanshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xh4-chuocuo",
+   "name": "晁错",
+   "birth_year": null,
+   "death_year": -154,
+   "birth_display": "生年不可考（颍川人）",
+   "death_display": "前154年",
+   "desc": "文帝时为太子家令（\"智囊\"之称），景帝朝任御史大夫：力主削藩（\"削之亦反，不削亦反。削之，其反亟，祸小；不削，反迟，祸大\"——《汉书》本传语）与守边劝农（入粟拜爵策）。七国以诛晁错为名举兵，景帝斩错于东市——为改革殉身的标志性案例。",
+   "sources": [
+    "shiji",
+    "hanshu",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-xh4-zhufuyan",
+   "name": "主父偃",
+   "birth_year": null,
+   "death_year": -126,
+   "birth_display": "生年不可考（齐国临菑人）",
+   "death_display": "前126年",
+   "desc": "早年游学四十余年不得志（\"生不五鼎食，死即五鼎烹\"——其语见《汉书》本传），上书阙下朝奏暮召：献推恩之策（见主事件条）、谏置朔方郡、徙豪杰于茂陵。一年四迁而至齐相，次年因受贿与逼死诸侯王被族诛——\"日中则移，月满则亏\"的自我预言成真。",
+   "sources": [
+    "hanshu",
+    "xu-tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

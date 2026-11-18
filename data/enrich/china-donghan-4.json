@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-donghan",
+ "extra_events": [
+  {
+   "id": "x-dh4-hanshu-chengshu",
+   "title": "《汉书》百篇完成",
+   "year": 82,
+   "end_year": null,
+   "year_display": "约82年",
+   "end_year_display": null,
+   "year_note": "据《后汉书·班固传》：固潜精积思二十余年，至建初中乃成；通说《汉书》主体约于建初年间（约82年）完成（八表与天文志由班昭马续续成）；公元纪年，无换算问题。",
+   "desc": "《汉书》一百二十卷（纪十二、表八、志十、传七十）：第一部纪传体断代史，开创断代为史的体例——此后二十四史皆循此例。《汉书》十志（律历、礼乐、刑法、食货、郊祀、天文、五行、地理、沟洫、艺文）建立制度史志的完整框架。",
+   "sources": [
+    "houhanshu",
+    "hanshu",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-dh4-daQin-shijie",
+   "title": "大秦王安敦遣使入汉",
+   "year": 166,
+   "end_year": null,
+   "year_display": "166年",
+   "end_year_display": null,
+   "year_note": "据《后汉书·西域传》：桓帝延熹九年（166年）\"大秦王安敦遣使自日南徼外献象牙、犀角、玳瑁\"——中国正史首次记录罗马（大秦）使节；历表换算。",
+   "desc": "\"大秦王安敦\"即罗马皇帝马可·奥勒留·安东尼（Marcus Aurelius Antoninus，161—180年在位）——使节自日南（今越南中部）登陆，献象牙犀角玳瑁。学界对其是否为正式使节（或为罗马商人冒称）有讨论（使团无国书细节、所献为安南特产），但这是中国文献与罗马史的首次直接交集点。",
+   "sources": [
+    "houhanshu",
+    "bentley-cross",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-dh4-huangfusong",
+   "name": "皇甫嵩",
+   "birth_year": null,
+   "death_year": 195,
+   "birth_display": "生年不可考（安定朝那人，将门出身）",
+   "death_display": "195年",
+   "desc": "黄巾起义的镇压统帅：长社之战以火攻破波才、仓亭之战擒卜巳，同年底下曲阳决战歼灭张梁张宝主力（首级\"筑京观\"于城南——《后汉书》所记战果口径）。其战功与自律（\"不爱士卒之力的谣言\"被其以体恤 rebut）并存；献帝朝被李傕扣为人质郁郁而终。",
+   "sources": [
+    "houhanshu",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-dh4-zhangjiao",
+   "name": "张角",
+   "birth_year": null,
+   "death_year": 184,
+   "birth_display": "生年不可考（巨鹿人）",
+   "death_display": "184年",
+   "desc": "太平道创始人（奉《太平经》、自称大贤良师），以符水咒说疗病传道十余年、徒众数十万（后汉书口径，约数），计划于甲子年（184年）三月五日内外俱起；因叛徒唐周告密被迫提前起事，自称天公将军。同年冬病死（或战死，史载差异）。",
+   "sources": [
+    "houhanshu",
+    "zgbk",
+    "tongjian"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

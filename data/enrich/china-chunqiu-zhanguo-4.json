@@ -1,0 +1,103 @@
+{
+ "unit_id": "china-chunqiu-zhanguo",
+ "extra_events": [
+  {
+   "id": "x-cq4-zichan-buhui",
+   "title": "子产不毁乡校",
+   "year": -542,
+   "end_year": null,
+   "year_display": "约前542年",
+   "end_year_display": null,
+   "year_note": "据《左传》襄公三十一年（约前542年，子产执政期）：郑人游于乡校以论执政，然明建议毁乡校，子产以\"其所善者，吾则行之；其所恶者，吾则改之\"拒绝；历表换算。",
+   "desc": "郑国子产保留乡校作为公众议政场所，并称\"防川\"不如\"宣泄\"（\"大决所犯，伤人必多……不如小决使道\"）——中国文献中最早的公开批评保护政策。孔子闻之曰\"以是观之，人谓子产不仁，吾不信也\"——公共舆论合法性的思想源头。",
+   "sources": [
+    "zuozhuan",
+    "shiji",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq4-wanbi-guizhao",
+   "title": "完璧归赵",
+   "year": -283,
+   "end_year": null,
+   "year_display": "前283年",
+   "end_year_display": null,
+   "year_note": "据《史记·廉颇蔺相如列传》，赵惠文王十六年（前283年）蔺相如奉和氏璧使秦，\"完璧归赵\"；历表换算。",
+   "desc": "秦昭王假意以十五城易和氏璧，蔺相如察觉其诈，持璧倚柱威胁\"臣头今与璧俱碎于柱矣\"，并密遣从者怀璧归赵——以个人胆识保全国宝而不给秦开战借口。与渑池之会、负荆请罪构成蔺相如叙事三部曲（见主事件条与延伸条）。",
+   "sources": [
+    "shiji",
+    "tongjian",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-cq4-chulong-shuotaihou",
+   "title": "触龙说赵太后",
+   "year": -265,
+   "end_year": null,
+   "year_display": "约前265年",
+   "end_year_display": null,
+   "year_note": "据《战国策·赵策四》（《史记》赵世家亦有），赵孝成王新立、太后掌权，秦急攻之，触龙请见说太后以长安君质于齐——约前265年（赵孝成王元年前后，约数）。",
+   "desc": "赵太后拒以爱子长安君为齐质，触龙以\"父母之爱子，则为之计深远\"缓步入题，论证\"位尊而无功，奉厚而无劳\"者不能自立——说服太后送子为质。说服艺术的经典文本（《战国策》名篇），并反映战国质子外交的运作。",
+   "sources": [
+    "zhanguoce",
+    "shiji",
+    "tongjian"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-cq4-lianpo",
+   "name": "廉颇",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（赵惠文王时为将）",
+   "death_display": "卒年不可考（约前245年卒于寿春，一说）",
+   "desc": "赵国名将：伐齐取阳晋（前283年前后）拜上卿；长平之战初期坚壁固守（见主事件条）；邯郸解围后大破燕军。晚年奔魏居楚，\"一饭斗米、肉十斤\"披甲上马示可用而终不见用（据《史记》本传）。负荆请罪与\"廉颇老矣，尚能饭否\"（辛弃疾词用典）使其成为老将符号。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq4-sunbin",
+   "name": "孙膑",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（齐人，孙武后世）",
+   "death_display": "卒年不可考",
+   "desc": "战国军事家：围魏救赵（桂陵）、减灶诱敌（马陵）两大战术创新的设计者（见延伸事件条）。1972年银雀山汉简《孙膑兵法》出土确证其人其书（详见孙武条学术史）——师徒两代兵书同墓共存成为中国考古史名场面。",
+   "sources": [
+    "shiji",
+    "kaogu-cass",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-cq4-tiandan",
+   "name": "田单",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（临淄市掾出身）",
+   "death_display": "卒年不可考",
+   "desc": "乐毅伐齐时坚守即墨的小吏，以火牛阵复国七十余城（前279年，见延伸事件条）封安平君；后相赵（赵割济东三城易之——战国策所载）。其\"以弱胜强\"的心理战运用（造神、反间、火牛）为兵家经典案例。",
+   "sources": [
+    "shiji",
+    "zhanguoce",
+    "tongjian"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

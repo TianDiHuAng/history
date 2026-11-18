@@ -477,11 +477,10 @@ def check_glossary(gd, unit_by_id, src_ids, src_dead, rep):
         require(isinstance(nv, bool), rep, tw, "needs_verification 须为布尔值")
 
 
-def check_person_upgrade(up, unit_by_id, all_people_by_id, rep):
+def check_person_upgrade(up, unit, all_people_by_id, rep):
     """R14：人物升级校验（为其他重要人物补年谱与评价，字段并入原条目）。"""
     uid = up.get("unit_id", "?")
     where = f"upgrade:{uid}"
-    unit = unit_by_id.get(uid)
     if unit is None:
         rep.err(where, f"unit_id {uid} 无对应单元")
         return
@@ -603,6 +602,21 @@ def main():
         check_glossary(gd, unit_by_id, src_ids, src_dead, rep)
 
     # ---- R14 人物升级（enrich2）----
+    # 先合并 enrich 数据到 unit 副本（升级条目可指向任何 enrich 层的人物）
+    unit_by_id_merged = {}
+    for uid, d in unit_by_id.items():
+        merged = json.loads(json.dumps(d))
+        merged.setdefault("extra_people", [])
+        merged.setdefault("extra_events", [])
+        for fp2 in enrich_files:
+            try:
+                ed = json.load(open(fp2, encoding="utf-8"))
+            except Exception:
+                continue
+            if ed.get("unit_id") == uid:
+                merged["extra_people"].extend(ed.get("extra_people") or [])
+                merged["extra_events"].extend(ed.get("extra_events") or [])
+        unit_by_id_merged[uid] = merged
     upgrade_files = sorted(glob.glob("data/enrich2/*.json"))
     for fp in upgrade_files:
         if enrich_target is not None:
@@ -612,7 +626,7 @@ def main():
         except Exception as e:
             rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
             continue
-        check_person_upgrade(ud, unit_by_id, {}, rep)
+        check_person_upgrade(ud, unit_by_id_merged.get(ud.get("unit_id")), {}, rep)
 
     # 跨单元重复事件（同 年份+标题）
     seen = {}

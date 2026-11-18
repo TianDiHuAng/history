@@ -1,0 +1,71 @@
+{
+ "unit_id": "china-sanguo-liangjin-nanbeichao",
+ "extra_events": [
+  {
+   "id": "x-sg4-liuhui-jiuzhang",
+   "title": "刘徽注《九章算术》",
+   "year": 263,
+   "end_year": null,
+   "year_display": "263年",
+   "end_year_display": null,
+   "year_note": "据《隋书·经籍志》与刘徽自序：魏景元四年（263年）刘徽注《九章算术》成——割圆术与\"徽率\"（圆周率3.14或157/50）由此；历表换算。",
+   "desc": "刘徽以\"割之弥细，所失弥少，割之又割，以至于不可割，则与圆周合体而无所失矣\"（自序语）确立割圆术极限思想，并创出入相补原理与重差术（《海岛算经》）——中国数学理论化的关键一步，为祖冲之更精密的圆周率计算铺路。",
+   "sources": [
+    "suishu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-sg4-peixiu-tuzhu",
+   "title": "裴秀\"制图六体\"",
+   "year": 267,
+   "end_year": null,
+   "year_display": "约267年",
+   "end_year_display": null,
+   "year_note": "据《晋书·裴秀传》：裴秀任司空（267年前后）主持编绘《禹贡地域图》十八篇并序言提出\"制图六体\"；历表换算。",
+   "desc": "裴秀总结分率（比例）、准望（方位）、道里（距离）、高下、方邪、迂直六项制图原则——中国地图学的理论奠基（\"制图六体\"沿用至明代西方投影法传入）。其《禹贡地域图》为见于记载的最早历史地图集；原始图籍失传，理论见于《晋书》本传征引。",
+   "sources": [
+    "jinshu",
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-sg4-luji",
+   "name": "陆机",
+   "birth_year": 261,
+   "death_year": 303,
+   "birth_display": "261年",
+   "death_display": "303年",
+   "desc": "吴郡华亭人，吴国丞相陆逊之孙：吴亡后入洛，与弟陆云并称\"二陆\"——《文赋》以赋体论创作构思（\"收视反听，耽思傍讯\"）为文论名篇；书法《平复帖》为现存最早名人墨迹真品（故宫藏）。成都王司马颖兵败时被谗冤杀，临刑叹\"华亭鹤唳，岂可复闻乎\"。",
+   "sources": [
+    "jinshu",
+    "zgbk",
+    "npm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-sg4-shenyue",
+   "name": "沈约",
+   "birth_year": 441,
+   "death_year": 513,
+   "birth_display": "441年",
+   "death_display": "513年",
+   "desc": "吴兴武康人，历仕宋齐梁三朝的开国功臣与文坛领袖：撰《宋书》（齐永明年间成——八志尤精）；提出诗歌\"四声八病\"声律论（四声的自觉区分——近体诗格律的理论前奏），与谢朓等号\"永明体\"。",
+   "sources": [
+    "zgbk",
+    "cambridge-china",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

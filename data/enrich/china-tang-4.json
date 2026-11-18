@@ -1,0 +1,36 @@
+{
+ "unit_id": "china-tang",
+ "extra_people": [
+  {
+   "id": "x-tang4-yanzhenqing",
+   "name": "颜真卿",
+   "birth_year": 709,
+   "death_year": 785,
+   "birth_display": "709年",
+   "death_display": "785年",
+   "desc": "京兆万年人（祖籍琅琊临沂），平原太守时首举义旗抗安史叛军；《颜氏家庙碑》《祭侄文稿》（\"天下第二行书\"——安史之乱中侄儿颜季明殉国背景）传世。楷书\"颜体\"（雄浑宽博）与柳公权并称\"颜筋柳骨\"；785年奉使叛将李希烈军中骂贼被缢杀。",
+   "sources": [
+    "jiutangshu",
+    "xintangshu",
+    "npm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-tang4-dumu",
+   "name": "杜牧",
+   "birth_year": 803,
+   "death_year": 852,
+   "birth_display": "803年",
+   "death_display": "852年",
+   "desc": "京兆万年人，宰相杜佑之孙：《阿房宫赋》（\"秦人不暇自哀，而后人哀之\"）、《泊秦淮》与注《孙子兵法》——咏史讽今的杰出代表。与李商隐并称\"小李杜\"；《资治通鉴》采其论兵之文（司马光评）。",
+   "sources": [
+    "xintangshu",
+    "zgbk",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  }
+ ],
+ "extra_events": []
+}
