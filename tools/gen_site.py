@@ -95,7 +95,7 @@ def header(title, depth=0, active=""):
         ("", "首页"), ("china/", "中国"), ("world/", "世界"),
         ("timeline/china.html", "中国时间线"), ("timeline/world.html", "世界时间线"),
         ("compare/", "中外对照"), ("all-events.html", "事件索引"), ("all-people.html", "人物索引"),
-        ("centuries.html", "世纪总览"), ("sources/", "来源"),
+        ("centuries.html", "世纪总览"), ("glossary.html", "术语表"), ("sources/", "来源"),
     ]
     links = []
     for href, label in nav_items:
@@ -229,6 +229,10 @@ def person_page(unit, p, srcmap, depth):
         f"<span class='meta'>({esc(ev['year_display'])})</span></li>"
         for ev in unit["events"] if p["id"] in (ev.get("key_people") or []))
     rel_html = f"<h2>相关事件</h2><ul class='tight'>{rel_events}</ul>" if rel_events else ""
+    desc_html = f"<p>{esc(p.get('desc',''))}</p>" if p.get("desc") else ""
+    chrono_html = f"<h2>年谱</h2><ul class='tight'>{chrono}</ul>" if p.get("chronology") else ""
+    deeds_html = f"<h2>主要事迹</h2><ul class='tight'>{deeds}</ul>" if p.get("deeds") else ""
+    evals_html = f"<h2>评价分歧</h2>{evals}" if p.get("evaluations") else ""
     body = f"""
 <h1>{esc(p.get('name',''))}</h1>
 <p class="crumb"><a href="{rel(depth)}{'china/' if unit['region']=='china' else 'world/'}">{esc('中国' if unit['region']=='china' else '世界')}</a> /
@@ -236,13 +240,11 @@ def person_page(unit, p, srcmap, depth):
 <h2>生卒年</h2>
 <p class="kv"><b>生：</b>{esc(str(bd))}{esc(p.get('birth_note') or '')}
 &nbsp;&nbsp;<b>卒：</b>{esc(str(dd))}{esc(p.get('death_note') or '')}</p>
-<h2>年谱</h2>
-<ul class="tight">{chrono}</ul>
-<h2>主要事迹</h2>
-<ul class="tight">{deeds}</ul>
+{desc_html}
+{chrono_html}
+{deeds_html}
 {rel_html}
-<h2>评价分歧</h2>
-{evals}
+{evals_html}
 <h2>参考来源</h2>
 {src_list_html(p.get('sources') or [], srcmap, depth)}
 """
@@ -599,6 +601,22 @@ def all_people_page(china, world, depth):
     return header("人物总索引", depth, active="人物索引") + body + footer()
 
 
+def glossary_page(terms, depth):
+    rows = []
+    for t in terms:
+        nv = "<span class='tag warn'>待核实</span>" if t.get("needs_verification") else ""
+        srcs = "、".join(f"<a class='meta' href='sources/'>{esc(s)}</a>" for s in (t.get("sources") or []))
+        rows.append(f"<tr><td class='year'>{esc(t['term'])}</td>"
+                    f"<td>{esc(t.get('desc',''))}{nv}</td>"
+                    f"<td class='meta'>{srcs}</td></tr>")
+    body = f"""
+<h1>术语表</h1>
+<p class="meta">全站涉及的制度、组织与技术名词（{len(terms)} 条），按词条音序排列；每条注明所属单元与来源。</p>
+<table><tr><th>术语</th><th>释义</th><th>来源</th></tr>{''.join(rows)}</table>
+"""
+    return header("术语表", depth, active="术语表") + body + footer()
+
+
 def main():
     srcdoc = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
     srcmap = {s["id"]: s for s in srcdoc["sources"]}
@@ -632,6 +650,23 @@ def main():
             print(f"!! 专题文件 {os.path.basename(fp)} 的 unit_id 无对应单元，跳过")
             continue
         u["_themes"] = td.get("themes") or []
+    # 人物升级层：data/enrich2/*.json 按 id 并入（chronology/evaluations 字段升级）
+    glossary = []
+    for fp in sorted(glob.glob(os.path.join(ROOT, "data", "enrich2", "*.json"))):
+        ud = json.load(open(fp, encoding="utf-8"))
+        u = units.get(ud.get("unit_id"))
+        if u is None:
+            continue
+        people_by_id = {p["id"]: p for p in (u.get("people") or []) + ((u.get("_extra") or {}).get("extra_people") or [])}
+        for up in ud.get("upgrades") or []:
+            p = people_by_id.get(up.get("id"))
+            if p is not None:
+                p.update({k: v for k, v in up.items() if k != "id"})
+    glossary_files = sorted(glob.glob(os.path.join(ROOT, "data", "glossary", "*.json")))
+    for fp in glossary_files:
+        gd = json.load(open(fp, encoding="utf-8"))
+        glossary.extend(gd.get("terms") or [])
+    glossary.sort(key=lambda t: t.get("term", ""))
     china = sorted([u for u in units.values() if u["region"] == "china"], key=lambda u: u["start_year"])
     world = sorted([u for u in units.values() if u["region"] == "world"], key=lambda u: u["start_year"])
 
@@ -642,6 +677,7 @@ def main():
     write("all-events.html", all_events_page(china, world, 0))
     write("all-people.html", all_people_page(china, world, 0))
     write("centuries.html", centuries_page(china, world, 0))
+    write("glossary.html", glossary_page(glossary, 0))
     write("china/index.html", unit_list_page(china, "china", "中国部分（按朝代）", 1))
     write("world/index.html", unit_list_page(world, "world", "世界部分（按时期）", 1))
     write("timeline/china.html", timeline_page(china, "china", 1))
@@ -658,7 +694,10 @@ def main():
         for p in u["people"]:
             write(f"people/{p['id']}.html", person_page(u, p, srcmap, depth))
         for xp in (u.get("_extra") or {}).get("extra_people") or []:
-            write(f"people/{xp['id']}.html", extra_person_page(u, xp, srcmap, depth))
+            if xp.get("chronology"):
+                write(f"people/{xp['id']}.html", person_page(u, xp, srcmap, depth))
+            else:
+                write(f"people/{xp['id']}.html", extra_person_page(u, xp, srcmap, depth))
         for xev in (u.get("_extra") or {}).get("extra_events") or []:
             xpage, _ = extra_event_page(u, xev, srcmap, depth)
             write(f"events/{u['unit_id']}-{xev['id']}.html", xpage)

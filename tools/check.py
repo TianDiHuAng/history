@@ -67,6 +67,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 DATA_GLOBS = ["data/china/*.json", "data/world/*.json"]
 ENRICH_GLOB = "data/enrich/*.json"
 THEMES_GLOB = "data/themes/*.json"
+GLOSSARY_GLOB = "data/glossary/*.json"
 SOURCES_FILE = "sources.json"
 
 ALLOWED_SVG_TAGS = {
@@ -446,6 +447,73 @@ def check_themes(td, unit, src_ids, src_dead, rep):
         require(isinstance(nv, bool), rep, tw, "needs_verification 须为布尔值")
 
 
+def check_glossary(gd, unit_by_id, src_ids, src_dead, rep):
+    """R13：术语表校验（term/desc/unit_id/sources）。"""
+    where = "glossary"
+    terms = gd.get("terms") or []
+    require(len(terms) >= 20, rep, where, f"术语数 {len(terms)} 少于 20（术语表应成规模）")
+    seen = set()
+    for t in terms:
+        tw = f"{where}/term:{t.get('term', '?')}"
+        for k in ("term", "desc", "unit_id", "sources"):
+            require(k in t, rep, tw, f"术语缺少字段 {k}")
+        require(bool(str(t.get("term") or "").strip()), rep, tw, "term 为空")
+        body = str(t.get("desc") or "")
+        require(len(body.strip()) >= 20, rep, tw, "desc 过短")
+        key = t.get("term")
+        if key in seen:
+            rep.err(tw, "术语重复")
+        seen.add(key)
+        u = unit_by_id.get(t.get("unit_id"))
+        require(u is not None, rep, tw, f"unit_id 无对应单元: {t.get('unit_id')}")
+        srcs = t.get("sources") or []
+        require(len(srcs) >= 1, rep, tw, "来源至少 1 条")
+        for s in srcs:
+            if s not in src_ids:
+                rep.err(tw, f"来源 id 未在 sources.json 中定义: {s}")
+        if len(set(srcs)) < 2 and not t.get("needs_verification"):
+            rep.err(tw, "术语来源不足 2 条，须置 needs_verification=true")
+        nv = t.get("needs_verification", False)
+        require(isinstance(nv, bool), rep, tw, "needs_verification 须为布尔值")
+
+
+def check_person_upgrade(up, unit_by_id, all_people_by_id, rep):
+    """R14：人物升级校验（为其他重要人物补年谱与评价，字段并入原条目）。"""
+    uid = up.get("unit_id", "?")
+    where = f"upgrade:{uid}"
+    unit = unit_by_id.get(uid)
+    if unit is None:
+        rep.err(where, f"unit_id {uid} 无对应单元")
+        return
+    people_by_id = {}
+    for p in (unit.get("people") or []) + (unit.get("extra_people") or []):
+        people_by_id[p.get("id")] = p
+    ups = up.get("upgrades") or []
+    require(len(ups) >= 1, rep, where, "upgrades 至少 1 条")
+    for u in ups:
+        uw = f"{where}/person:{u.get('id', '?')}"
+        pid = u.get("id")
+        p = people_by_id.get(pid)
+        require(p is not None, rep, uw, f"id {pid} 在单元中不存在（升级只能针对已有条目）")
+        if p is None:
+            continue
+        chron = u.get("chronology") or []
+        require(len(chron) >= 3, rep, uw, "升级 chronology 至少 3 条")
+        by, dy = p.get("birth_year"), p.get("death_year")
+        for c in chron:
+            cy = c.get("year")
+            require(year_valid(cy), rep, uw, f"年谱年份非法: {cy}")
+            if year_valid(cy):
+                if by is not None and cy < by - 2:
+                    rep.err(uw, f"年谱年份 {cy} 早于出生年 {by}")
+                if dy is not None and cy > dy + 2:
+                    rep.err(uw, f"年谱年份 {cy} 晚于卒年 {dy}")
+        evals = u.get("evaluations") or []
+        require(len(evals) >= 2, rep, uw, "升级 evaluations 至少 2 种观点")
+        for e in evals:
+            require(e.get("holder") and e.get("view"), rep, uw, "evaluations 项须含 holder/view")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", help="只报告该文件的问题（仍加载全部数据做全局检查）")
@@ -521,6 +589,30 @@ def main():
             rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
             continue
         check_themes(td, unit_by_id.get(td.get("unit_id")), src_ids, src_dead, rep)
+
+    # ---- R13 术语表 ----
+    glossary_files = sorted(glob.glob("data/glossary/*.json"))
+    for fp in glossary_files:
+        if enrich_target is not None:
+            continue
+        try:
+            gd = json.load(open(fp, encoding="utf-8"))
+        except Exception as e:
+            rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
+            continue
+        check_glossary(gd, unit_by_id, src_ids, src_dead, rep)
+
+    # ---- R14 人物升级（enrich2）----
+    upgrade_files = sorted(glob.glob("data/enrich2/*.json"))
+    for fp in upgrade_files:
+        if enrich_target is not None:
+            continue
+        try:
+            ud = json.load(open(fp, encoding="utf-8"))
+        except Exception as e:
+            rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
+            continue
+        check_person_upgrade(ud, unit_by_id, {}, rep)
 
     # 跨单元重复事件（同 年份+标题）
     seen = {}
