@@ -1,0 +1,32 @@
+{
+  "terms": [
+    {"term": "初税亩", "desc": "鲁宣公十五年（前594年）首次按田亩征税（初税亩——《左传》语），承认私田合法性——井田制瓦解的制度信号。", "unit_id": "china-chunqiu-zhanguo", "sources": ["zuozhuan", "zgbk"], "needs_verification": false},
+    {"term": "合纵连横", "desc": "战国纵横家的外交战略体系：合纵（六国南北联合抗秦）与连横（秦国东西分化瓦解）。苏秦张仪的叙事经马王堆帛书修正后，学界认为两人非同时代人。", "unit_id": "china-chunqiu-zhanguo", "sources": ["zhanguoce", "xu-tongjian-changbian"], "needs_verification": false},
+    {"term": "黜陟使", "desc": "唐代派往各道巡察地方官吏政绩的使职（分十道巡按），与节度使、观察使并行的中央监察体系——黜陟即升降赏罚。", "unit_id": "china-tang", "sources": ["xintangshu", "zgbk"], "needs_verification": false},
+    {"term": "榷酤", "desc": "汉代对酒类的官方专卖制度（武帝天汉年间始行），昭帝盐铁会议后部分撤销——专卖制度在酒类上的延伸。", "unit_id": "china-xihan", "sources": ["hanshu", "zgbk"], "needs_verification": false},
+    {"term": "三公九卿", "desc": "秦汉中央官制的顶层架构：丞相、太尉、御史大夫为三公，下辖奉常、郎中令等九卿——与隋唐三省六部的分权逻辑不同，三公九卿是职能分工型的集权架构。", "unit_id": "china-qin", "sources": ["suishu", "yan-gengwang"], "needs_verification": false},
+    {"term": "屯田制", "desc": "曹操建安元年（196年）许下屯田始，分民屯与军屯——国家直接组织农业生产的战时经济模式（曹魏统一的粮食基础）。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["sanguozhi", "tianzheng-han"], "needs_verification": false},
+    {"term": "土断", "desc": "东晋南朝对南渡北人取消侨籍、就地入籍并整顿户籍的历次改革（义熙土断——刘裕主持），旨在扩大税基与削弱侨姓特权。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["jinshu", "tianyuqing-dongjin"], "needs_verification": false},
+    {"term": "走马楼吴简", "desc": "1996年长沙走马楼出土三国吴简十四万余枚——为三国赋役、户籍、司法提供最丰富的第一手文献（嘉禾元年长沙郡临湘侯国行政档案）。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["kaogu-cass", "zgbk"], "needs_verification": false},
+    {"term": "羁縻制度", "desc": "唐宋对西南、西北少数民族地区的间接统治制度：以部落首领为刺史/都督（世袭），仅要求朝贡与名义臣服——与直接派官的正州形成对照。", "unit_id": "china-tang", "sources": ["xintangshu", "yan-gengwang"], "needs_verification": false},
+    {"term": "青苗法", "desc": "王安石变法的核心信贷法案（1069年颁行）：每年青黄不接时官府贷款给农户，收获后加息偿还（二分息）——以国家信贷取代民间高利贷。实践中基层变为强制摊派（抑配），成为新旧党争的焦点。", "unit_id": "china-song", "sources": ["songshi", "deng-xiaonan-zuzong"], "needs_verification": false},
+    {"term": "将兵法", "desc": "王安石变法的军事改革（1072年起）：设将为固定编制单位，将官专掌训练与作战（打破更戍法兵不识将），配合保甲法重建民兵体系——宋代军事制度的最重要变革。", "unit_id": "china-song", "sources": ["songshi", "xu-tongjian-changbian"], "needs_verification": false},
+    {"term": "投下", "desc": "蒙古帝国分封制度：诸王勋贵分领的户计（投下户），拥有独立征税权与司法权——构成元朝地方治理的复杂双轨制（朝廷州县与投下领地并存）。", "unit_id": "china-yuan", "sources": ["yuanshi", "cambridge-china"], "needs_verification": false},
+    {"term": "朵颜三卫", "desc": "明初设在兀良哈地区的三个蒙古羁縻卫（朵颜、泰宁、福余），永乐朝以之制衡鞑靼——后被明弃置，成为明蒙关系 fluctuation 的风向标。", "unit_id": "china-ming", "sources": ["mingshi", "zgbk"], "needs_verification": false},
+    {"term": "三法司", "desc": "明代中央三大司法机构：刑部（审判）、大理寺（复核）、都察院（监察）——三法司会审（三司会审）为重大案件的终审程序，但厂卫诏狱可绕过此程序。", "unit_id": "china-ming", "sources": ["mingshi", "dengtuo-ming"], "needs_verification": false},
+    {"term": "赔款", "desc": "近代中国对外战争败后支付的战争赔款：南京条约2100万银元（1842）、马关条约二万万两（1895）、辛丑条约四亿五千万两（1901，39年偿清本息约九亿八千万两——条约文本数字）。赔款总额超过清政府二十年财政收入（学界通行估算口径）。", "unit_id": "china-qing", "sources": ["guotingyi-jindaishi", "zhwp-yapian"], "needs_verification": false},
+    {"term": "洋务派与顽固派", "desc": "晚清朝廷内部对待西方技术的两种路线：洋务派（恭亲王、曾国藩、李鸿章）主张师夷长技，顽固派（倭仁、徐桐）反对任何西化——两种路线在总理衙门与六部的日常冲突中体现。", "unit_id": "china-qing", "sources": ["qingshigao", "guotingyi-jindaishi"], "needs_verification": false},
+    {"term": "Polis", "desc": "古希腊以一个城市为核心的政治共同体：公民大会（Ekklesia）、陪审法庭（Dikasteria）与抽签任职构成直接民主的制度实验——公民权排他性（妇女/外邦/奴隶除外）为民主的历史限度（雅典公民占总人口约10%—15%，学界通说区间）。", "unit_id": "world-classical", "sources": ["cambridge-ancient", "whc-acropolis"], "needs_verification": false},
+    {"term": "Legion", "desc": "罗马军团：约4800人的基本战术单位（百人队×60+骑兵），以标准装备（短剑、方盾、投枪）、工兵与扎营纪律著称——马略改革（前107年前后）使军团职业化。", "unit_id": "world-classical", "sources": ["cambridge-ancient", "gibbon"], "needs_verification": false},
+    {"term": "Stoa", "desc": "斯多葛学派之名源自雅典画廊（Stoa Poikile，芝诺讲学处）——斯多葛即画廊哲学家：以自然理性（Logos）为宇宙原则、以德性为唯一之善、以情感节制为修养目标的哲学运动。", "unit_id": "world-classical", "sources": ["cambridge-ancient", "met-toah"], "needs_verification": false},
+    {"term": "Bayt al-Hikma", "desc": "阿拔斯王朝的巴格达智慧宫（约830年前后建立）：翻译希腊-波斯-印度科学文献的中心——亚里士多德、欧几里得、托勒密经此传至阿拉伯世界，再传入拉丁欧洲（12世纪翻译运动的前奏）。", "unit_id": "world-medieval", "sources": ["cambridge-medieval", "met-toah"], "needs_verification": false},
+    {"term": "Reconquista", "desc": "伊比利亚半岛的收复失地运动（722—1492年）：基督教王国从北向南渐进推回伊斯兰统治，以格拉纳达陷落为终——同期的犹太人与穆斯林被驱逐（1492年令）终结了三文化共存。", "unit_id": "world-medieval", "sources": ["cambridge-medieval", "bentley-cross"], "needs_verification": false},
+    {"term": "VOC", "desc": "荷兰东印度公司（Vereenigde Oostindische Compagnie，1602年特许）：世界第一家永久资本股份制跨国公司（可上市交易股份——阿姆斯特丹证券交易所），垄断东印度香料贸易近两百年。", "unit_id": "world-early-modern", "sources": ["stearns-global", "bentley-cross"], "needs_verification": false},
+    {"term": "Millet", "desc": "奥斯曼帝国的米勒特制度（宗教共同体自治）：非穆斯林群体（东正教徒、亚美尼亚人、犹太人）按宗教而非民族自治，缴纳人头税换取内部自治——奥斯曼多族群统治的核心制度。", "unit_id": "world-early-modern", "sources": ["stearns-global", "bentley-cross"], "needs_verification": false},
+    {"term": "Asiento", "desc": "西班牙王室的奴隶贸易专营特许权：先后授予葡萄牙、法国、英国（1713年乌得勒支条约英国获得30年asiento）——非洲奴隶经此合法进入西属美洲，为大西洋奴隶贸易的制度化管道。", "unit_id": "world-early-modern", "sources": ["stearns-global", "enwp-slave-trade"], "needs_verification": false},
+    {"term": "Bourgeoisie", "desc": "资产阶级/中产阶级：从法语 bourg（城镇）衍生，指城市中的商人、手工业主与专业阶层——马克思以之为资本主义生产关系的阶级承载者，韦伯则以新教伦理解释其兴起（两种解释框架并存）。", "unit_id": "world-modern", "sources": ["hobsbawm", "bentley-cross"], "needs_verification": false},
+    {"term": "Proletariat", "desc": "无产阶级/工人阶级：马克思定义的不拥有生产资料、只能出卖劳动力的阶级——《共产党宣言》视其为资本主义的掘墓人；20世纪各国工人阶级的实际构成与马克思预测有显著差异（服务业膨胀、中产阶级扩张——学界修正）。", "unit_id": "world-modern", "sources": ["communist-manifesto", "hobsbawm"], "needs_verification": false},
+    {"term": "Iron Curtain", "desc": "铁幕：丘吉尔1946年密苏里富尔顿演说使用的比喻（从波罗的海的什切青到亚得里亚海的的里雅斯特，一幅铁幕已落下——演说名句），成为冷战东西方分裂的标志性意象（实体建筑为1961年柏林墙）。", "unit_id": "world-modern", "sources": ["enwp-cold-war", "bentley-cross"], "needs_verification": false},
+    {"term": "Perestroika", "desc": "俄语重建：戈尔巴乔夫1985年起推行的经济与政治改革纲领——放开言论（公开性 glasnost）、引入有限市场、改组党的权力结构——最终导致苏联解体（1991年）而非体制更新（学界对其意图与后果的解读有分歧）。", "unit_id": "world-modern", "sources": ["enwp-cold-war", "stearns-global"], "needs_verification": false}
+  ]
+}

@@ -639,7 +639,7 @@ def main():
     units = {}
     for fp in sorted(glob.glob(os.path.join(ROOT, "data", "*", "*.json"))):
         norm = fp.replace("\\", "/")
-        if any(f"/{sub}/" in norm for sub in ("enrich", "enrich2", "themes", "glossary")):
+        if any(f"/{sub}/" in norm for sub in ("enrich", "enrich2", "themes", "glossary", "comparative")):
             continue
         doc = json.load(open(fp, encoding="utf-8"))
         doc["_pmap"] = {p["id"]: p for p in doc.get("people") or []}
