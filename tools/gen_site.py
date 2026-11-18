@@ -271,6 +271,26 @@ def unit_nav_html(unit, ev, depth):
     return f"<p class='meta' style='margin-top:26px'>{'　·　'.join(parts)}</p>"
 
 
+def extra_person_page(unit, p, srcmap, depth):
+    """其他重要人物详情页（轻量结构：生卒/简介/来源）。"""
+    bd = p.get("birth_display") or "生卒不可考"
+    dd = p.get("death_display") or "卒年不可考"
+    body = f"""
+<h1>{esc(p.get('name',''))}</h1>
+<p class="crumb"><a href="{rel(depth)}{'china/' if unit['region']=='china' else 'world/'}">{esc('中国' if unit['region']=='china' else '世界')}</a> /
+<a href="{rel(depth)}{'china' if unit['region']=='china' else 'world'}/{unit['unit_id']}/">{esc(unit['title'])}</a> / 其他重要人物</p>
+<h2>生卒年</h2>
+<p class="kv"><b>生：</b>{esc(str(bd))}{esc(p.get('birth_note') or '')}
+&nbsp;&nbsp;<b>卒：</b>{esc(str(dd))}{esc(p.get('death_note') or '')}</p>
+<h2>简介</h2>
+<p>{esc(p.get('desc',''))}</p>
+<h2>参考来源</h2>
+{src_list_html(p.get('sources') or [], srcmap, depth)}
+<p class="meta" style="margin-top:20px">本页为"其他重要人物"条目，同期关键人物见 <a href="{rel(depth)}{'china' if unit['region']=='china' else 'world'}/{unit['unit_id']}/">{esc(unit['title'])} 总览页</a>。</p>
+"""
+    return header(p.get("name", ""), depth) + body + footer()
+
+
 def unit_page(unit, srcmap, depth):
     uid = unit["unit_id"]
     ov = unit.get("overview") or {}
@@ -301,7 +321,7 @@ def unit_page(unit, srcmap, depth):
         f"<span class='meta'>{esc(e.get('desc',''))}</span></td></tr>"
         for e in xev)
     xpp_rows = "".join(
-        f"<tr><td><b>{esc(p['name'])}</b></td>"
+        f"<tr><td><a href='{rel(depth)}people/{p['id']}.html'><b>{esc(p['name'])}</b></a></td>"
         f"<td>{esc(str(p.get('birth_display') or '生卒不可考'))}—{esc(str(p.get('death_display') or '卒年不可考'))}</td>"
         f"<td><span class='meta'>{esc(p.get('desc',''))}</span></td></tr>"
         for p in xpp)
@@ -560,7 +580,7 @@ def all_people_page(china, world, depth):
         for p in u["people"]:
             entries.append((p.get("birth_year") if p.get("birth_year") is not None else 99999, region, u, p, True))
         for xp in (u.get("_extra") or {}).get("extra_people") or []:
-            entries.append((xp.get("birth_year") if xp.get("birth_year") is not None else 99999, region, u, xp, False))
+            entries.append((xp.get("birth_year") if xp.get("birth_year") is not None else 99999, region, u, xp, True))
     entries.sort(key=lambda t: (t[0], t[3].get("name", "")))
     rows = []
     for by, region, u, p, has_page in entries:
@@ -637,6 +657,8 @@ def main():
             write(f"events/{u['unit_id']}-{ev['id']}.html", page)
         for p in u["people"]:
             write(f"people/{p['id']}.html", person_page(u, p, srcmap, depth))
+        for xp in (u.get("_extra") or {}).get("extra_people") or []:
+            write(f"people/{xp['id']}.html", extra_person_page(u, xp, srcmap, depth))
         for xev in (u.get("_extra") or {}).get("extra_events") or []:
             xpage, _ = extra_event_page(u, xev, srcmap, depth)
             write(f"events/{u['unit_id']}-{xev['id']}.html", xpage)
