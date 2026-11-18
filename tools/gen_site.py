@@ -95,7 +95,7 @@ def header(title, depth=0, active=""):
         ("", "首页"), ("china/", "中国"), ("world/", "世界"),
         ("timeline/china.html", "中国时间线"), ("timeline/world.html", "世界时间线"),
         ("compare/", "中外对照"), ("all-events.html", "事件索引"), ("all-people.html", "人物索引"),
-        ("centuries.html", "世纪总览"), ("glossary.html", "术语表"), ("sources/", "来源"),
+        ("centuries.html", "世纪总览"), ("glossary.html", "术语表"), ("comparative.html", "比较视野"), ("sources/", "来源"),
     ]
     links = []
     for href, label in nav_items:
@@ -617,6 +617,21 @@ def glossary_page(terms, depth):
     return header("术语表", depth, active="术语表") + body + footer()
 
 
+def comparative_page(essays, depth):
+    sections = []
+    for e in essays:
+        srcs = "、".join(f"<a class='meta' href='sources/'>{esc(s)}</a>" for s in (e.get("sources") or []))
+        nv = "<span class='tag warn'>待核实</span>" if e.get("needs_verification") else ""
+        sections.append(f"<h2>{esc(e['title'])}{nv}</h2><p>{esc(e.get('text',''))}</p>"
+                        f"<p class='meta'>参考：{srcs}</p>")
+    body = f"""
+<h1>比较视野</h1>
+<p class="meta">跨文明的比较论述：以主题为纲，探讨不同文明对相似挑战的应对——不做因果解释，仅并列分析框架。</p>
+{"".join(sections)}
+"""
+    return header("比较视野", depth, active="比较视野") + body + footer()
+
+
 def main():
     srcdoc = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
     srcmap = {s["id"]: s for s in srcdoc["sources"]}
@@ -651,6 +666,10 @@ def main():
             continue
         u["_themes"] = td.get("themes") or []
     # 人物升级层：data/enrich2/*.json 按 id 并入（chronology/evaluations 字段升级）
+    comparative = []
+    for fp in sorted(glob.glob(os.path.join(ROOT, "data", "comparative", "*.json"))):
+        cd = json.load(open(fp, encoding="utf-8"))
+        comparative.extend(cd.get("essays") or [])
     glossary = []
     for fp in sorted(glob.glob(os.path.join(ROOT, "data", "enrich2", "*.json"))):
         ud = json.load(open(fp, encoding="utf-8"))
@@ -678,6 +697,7 @@ def main():
     write("all-people.html", all_people_page(china, world, 0))
     write("centuries.html", centuries_page(china, world, 0))
     write("glossary.html", glossary_page(glossary, 0))
+    write("comparative.html", comparative_page(comparative, 0))
     write("china/index.html", unit_list_page(china, "china", "中国部分（按朝代）", 1))
     write("world/index.html", unit_list_page(world, "world", "世界部分（按时期）", 1))
     write("timeline/china.html", timeline_page(china, "china", 1))

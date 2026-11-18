@@ -68,6 +68,7 @@ DATA_GLOBS = ["data/china/*.json", "data/world/*.json"]
 ENRICH_GLOB = "data/enrich/*.json"
 THEMES_GLOB = "data/themes/*.json"
 GLOSSARY_GLOB = "data/glossary/*.json"
+COMPARATIVE_GLOB = "data/comparative/*.json"
 SOURCES_FILE = "sources.json"
 
 ALLOWED_SVG_TAGS = {
@@ -513,6 +514,29 @@ def check_person_upgrade(up, unit, all_people_by_id, rep):
             require(e.get("holder") and e.get("view"), rep, uw, "evaluations 项须含 holder/view")
 
 
+def check_comparative(cd, unit_ids, src_ids, src_dead, rep):
+    """R15：比较视野校验（跨文明比较论述，title/text/sources 必填）。"""
+    where = "comparative"
+    essays = cd.get("essays") or []
+    require(len(essays) >= 4, rep, where, f"比较视野篇数 {len(essays)} 少于 4")
+    seen = set()
+    for e in essays:
+        ew = f"{where}/essay:{e.get('title', '?')}"
+        for k in ("title", "text", "sources"):
+            require(k in e, rep, ew, f"比较视野缺少字段 {k}")
+        require(bool(str(e.get("title") or "").strip()), rep, ew, "title 为空")
+        require(len(str(e.get("text") or "").strip()) >= 100, rep, ew, "text 过短（比较视野应至少 100 字）")
+        title = re.sub(r"\s", "", e.get("title", ""))
+        if title in seen:
+            rep.err(ew, "标题重复")
+        seen.add(title)
+        srcs = e.get("sources") or []
+        require(len(srcs) >= 2, rep, ew, "来源至少 2 条（跨文明比较需多方依据）")
+        for s in srcs:
+            if s not in src_ids:
+                rep.err(ew, f"来源 id 未定义: {s}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", help="只报告该文件的问题（仍加载全部数据做全局检查）")
@@ -627,6 +651,18 @@ def main():
             rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
             continue
         check_person_upgrade(ud, unit_by_id_merged.get(ud.get("unit_id")), {}, rep)
+
+    # ---- R15 比较视野 ----
+    comparative_files = sorted(glob.glob("data/comparative/*.json"))
+    for fp in comparative_files:
+        if enrich_target is not None:
+            continue
+        try:
+            cd = json.load(open(fp, encoding="utf-8"))
+        except Exception as e:
+            rep.err(f"file:{fp}", f"JSON 解析失败: {e}")
+            continue
+        check_comparative(cd, set(uid_seen.keys()), src_ids, src_dead, rep)
 
     # 跨单元重复事件（同 年份+标题）
     seen = {}
