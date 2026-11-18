@@ -1,76 +1,685 @@
 {
-  "unit_id": "glossary",
-  "terms": [
-    {"term": "编户齐民", "desc": "汉代把全体平民编入户籍（户为基本单位）、统一承担赋役的国家制度，是国家权力直达个体家庭的技术基础；度田、算赋口赋皆以此为前提。", "unit_id": "china-xihan", "sources": ["hanshu", "tianzheng-han"], "needs_verification": false},
-    {"term": "什伍连坐", "desc": "商鞅变法确立的基层编制：五家为伍、十家为什，互相纠察，\"不告奸者腰斩\"（《史记》集解引）；出土秦律证实其真实执行，是国家对乡村控制的起点。", "unit_id": "china-qin", "sources": ["shangjunshu", "shuihudi-qinjian"], "needs_verification": false},
-    {"term": "上计", "desc": "战国至汉代地方长官年终向中央呈报户口、垦田、钱谷出入与盗贼狱讼数字的考核制度，\"上计吏\"带簿册入京——中国古代的统计型绩效审计。", "unit_id": "china-xihan", "sources": ["hanshu", "lvsimian"], "needs_verification": false},
-    {"term": "白马之盟", "desc": "刘邦与群臣杀白马盟誓：\"非刘氏而王，天下共击之\"（《史记》王陵语），以口头盟约形式限定王权分配；吕后封诸吕与之冲突，成为诛吕政变的合法性依据。", "unit_id": "china-xihan", "sources": ["shiji", "zgbk"], "needs_verification": false},
-    {"term": "察举制", "desc": "汉代由郡国长官按科目（孝廉、贤良方正等）向中央荐举人才的选官制度，与征辟并行为两汉仕途正途；东汉后期为世家操纵，催生\"举秀才，不知书\"的讽刺民谣。", "unit_id": "china-xihan", "sources": ["hanshu", "zgbk"], "needs_verification": false},
-    {"term": "五铢钱", "desc": "元狩五年（前118年）始铸的标准铜钱，重五铢（约3.25克），行用至唐武德四年（621年）铸开元通宝为止——中国历史上流通时间最长的钱币。", "unit_id": "china-xihan", "sources": ["hanshu", "zgbk"], "needs_verification": false},
-    {"term": "均输平准", "desc": "桑弘羊创制的国家干预体系：均输以贡品折钱就地贩运赢利，平准在京师贱买贵卖平抑物价——《史记·平准书》详载其运作，为中国最早的宏观调控实践。", "unit_id": "china-xihan", "sources": ["shiji", "hanshu"], "needs_verification": false},
-    {"term": "尚书台", "desc": "东汉实际行政中枢：尚书职权从少府属下文秘机构膨胀为\"出纳帝命\"的决策机关，三公渐成虚衔——尚书台体制为隋唐三省制的远源（严耕望系统研究）。", "unit_id": "china-donghan", "sources": ["houhanshu", "yan-gengwang"], "needs_verification": false},
-    {"term": "谶纬", "desc": "东汉以预言（谶）配合经义（纬）的神秘文献体系，光武\"宣布图谶于天下\"使其成为官方意识形态；张衡请\"收藏图谶，一禁绝之\"——谶纬与科学的对立在东汉已然公开化。", "unit_id": "china-donghan", "sources": ["houhanshu", "qianmu-guoshi"], "needs_verification": false},
-    {"term": "九品中正制", "desc": "曹魏陈群创立：州郡设中正评定人物九个等级作为授官依据，初重行状渐重家世——\"上品无寒门\"（刘毅语）的门阀引擎，隋唐为科举取代。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["sanguozhi", "yan-gengwang"], "needs_verification": false},
-    {"term": "侨置郡县", "desc": "永嘉南渡后在南方以北方原籍命名设立的行政机构（如南徐州、南豫州），安置流民并保留其籍贯认同——户籍与属地分离的行政管理实验，土断（刘裕）即针对其整顿。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["jinshu", "yan-gengwang"], "needs_verification": false},
-    {"term": "三长制", "desc": "北魏太和十年（486年）设邻长-里长-党长三级基层组织的制度，替代宗主督护，配合均田令清查隐户——均田制的户籍配套工程（冯太后主持期确立）。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["weishu", "zgbk"], "needs_verification": false},
-    {"term": "均田制", "desc": "北魏太和九年（485年）颁行的授田制度：露田口分（老还国家）、桑田世业（可传承），隋唐沿袭为租庸调的基础；唐中期土地买卖瓦解其基础，两税法（780年）取代——中国田制史上运行最久的授田体系。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["weishu", "yan-gengwang"], "needs_verification": false},
-    {"term": "府兵制", "desc": "西魏宇文泰创立的兵农合一军制：军士入军籍、免赋役、分属二十四军开府，隋唐沿袭为十二卫与折冲府体系；唐中期土地兼并使军士逃亡，749年折冲府无兵可交——府兵向募兵的转变即盛唐军事转型的核心。", "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["tongjian", "chenyinke-tang"], "needs_verification": false},
-    {"term": "三省六部制", "desc": "隋文帝确立的中枢架构：中书出令、门下封驳、尚书执行（下辖六部），三省长官共议于政事堂——决策、审核、执行的分权设计，为唐宋明清政制的共同母本。", "unit_id": "china-sui", "sources": ["suishu", "yan-gengwang"], "needs_verification": false},
-    {"term": "节度使", "desc": "唐睿宗景云年间（710年前后）始设的边镇军政长官，开元天宝间十大节度使拥兵四十九万（边军——中央军十二万，学界通行口径）：集军、政、财于一身，安史之乱后演变为割据的藩镇。", "unit_id": "china-tang", "sources": ["xintangshu", "chenyinke-tang"], "needs_verification": false},
-    {"term": "神策军", "desc": "安史乱后由宦官执掌的中央禁军（驻京畿兼防诸镇），鼎盛时十五万人——宦官专权的军事基础（甘露之变即神策军所为），至唐末被朱温解散。", "unit_id": "china-tang", "sources": ["xintangshu", "tongjian"], "needs_verification": false},
-    {"term": "政事堂", "desc": "唐初宰相于门下省集体议政的场所（后移中书省，开元十一年改称中书门下），三省分权由政事堂合议协调——集体宰相制的制度空间，宋代的\"都堂\"承其形制。", "unit_id": "china-tang", "sources": ["jiutangshu", "chenyinke-tang"], "needs_verification": false},
-    {"term": "枢密院", "desc": "五代掌军政机密的机构，宋与中书省对掌\"二府\"：枢密院有调兵权而无统兵权、三衙有统兵权而无调兵权——文官掌军政的制度设计，亦为宋军指挥低效的制度原因。", "unit_id": "china-song", "sources": ["songshi", "deng-xiaonan-zuzong"], "needs_verification": false},
-    {"term": "更戍法", "desc": "北宋初禁军分番轮流戍边的制度（\"兵无常帅，帅无常师\"），防将领拥兵——代价是训练废弛与\"兵不识将\"，王安石以将兵法部分取代。", "unit_id": "china-song", "sources": ["songshi", "deng-xiaonan-zuzong"], "needs_verification": false},
-    {"term": "榷场", "desc": "宋辽、宋夏边境的官方互市市场（澶渊之盟后规模化），输出茶、丝、瓷器，输入马匹、毛皮——岁币的相当部分经榷场贸易回流，\"和议体系\"的经济配套。", "unit_id": "china-song", "sources": ["songshi", "zgbk"], "needs_verification": false},
-    {"term": "提点刑狱司", "desc": "宋代路级司法监察机构（提刑官），掌复核死刑、平反冤狱、监察州县——宋慈《洗冤集录》即其职务产物；司法与监察合一的路级设计为元明清按察使的前身。", "unit_id": "china-song", "sources": ["songshi", "zgbk"], "needs_verification": false},
-    {"term": "四等人制", "desc": "元代蒙古、色目、汉人、南人的等级序列（法律待遇、科举分额、任官限制）——术语本身不见元代法令原文，是近代史家对元代法律实践的概括（\"四等人制\"概念的建构性为学界提示，其各领域差别待遇则属实）。", "unit_id": "china-yuan", "sources": ["yuanshi", "zgbk"], "needs_verification": false},
-    {"term": "站赤", "desc": "蒙古帝国的驿传制度（突厥-蒙古语 jam 音译）：全国设驿站约1500处（元代数目，学界口径）、配\"驿券\"与孛兰奚（接济），马可·波罗详记其效率——欧亚大陆第一个标准化通信物流网络。", "unit_id": "china-yuan", "sources": ["yuanshi", "cambridge-china"], "needs_verification": false},
-    {"term": "怯薛", "desc": "成吉思汗创建的万人护卫军团，由各千户子弟充任（质子制），分四番三日轮值宿卫——既是精锐军队，也是帝国官僚的培训所（\"大汗的家人\"），元代高级官员多出怯薛。", "unit_id": "china-yuan", "sources": ["yuanshi", "cambridge-china"], "needs_verification": false},
-    {"term": "斡脱", "desc": "突厥语 ortaq（合伙）音译：元代持皇室本金经商的中亚商人集团，经营珠宝、放高利贷（\"羊羔儿息\"年利百分之百）——官商合一的金融特权集团，元中期屡禁不绝。", "unit_id": "china-yuan", "sources": ["yuanshi", "cambridge-china"], "needs_verification": false},
-    {"term": "行省制", "desc": "元代确立的\"行中书省\"体制（全国十大行省）：中央派出机构地方化为最高政区——中国\"省\"制的起源（明清至今沿用），大政区划分的军事逻辑深刻影响此后区域治理。", "unit_id": "china-yuan", "sources": ["yuanshi", "yan-gengwang"], "needs_verification": false},
-    {"term": "卫所制", "desc": "明初军事组织：五千六百人为卫、千一百二十人为千户所，军户世袭屯田自养（\"养兵百万，不费百姓一粒米\"——明人自夸语）。中期屯田破产、军士逃亡，募兵（戚家军）取代——卫所的崩坏是明军事史的主线。",
-      "unit_id": "china-ming", "sources": ["mingshi", "dengtuo-ming"], "needs_verification": false},
-    {"term": "厂卫", "desc": "明代特务机构合称：锦衣卫（1382）与东厂（永乐设）、西厂（成化短暂）——诏狱不经三法司，侦缉范围及于朝野；\"厂卫\"成为明代政治恐怖的代名词（详见厂卫与政治恐怖主题）。", "unit_id": "china-ming", "sources": ["mingshi", "dengtuo-ming"], "needs_verification": false},
-    {"term": "票拟与批红", "desc": "废丞相后明代中枢的运作机制：内阁草拟处理意见（票拟）贴于奏疏，司礼监秉笔太监代皇帝批红——皇权通过文书程序委托行使，内阁与宦官的权力皆由此程序派生。", "unit_id": "china-ming", "sources": ["mingshi", "chenyinke-tang"], "needs_verification": false},
-    {"term": "一条鞭法", "desc": "张居正通令全国（1581年）的赋役合并改革：诸役折银、计亩征收、官收官解——中国赋役制度从实物与劳役转向白银货币的完成形态（见主事件条），为清摊丁入亩的前身。", "unit_id": "china-ming", "sources": ["mingshi", "zgbk"], "needs_verification": false},
-    {"term": "军机处", "desc": "雍正七年（1729年）设的机密参谋机构，军机大臣\"跪受笔录\"；无公署编制而成为事实中枢——皇帝独裁的效率工具还是文书行政的中枢化（白彬菊研究），两种解读并存（见主事件条）。", "unit_id": "china-qing", "sources": ["qingshigao", "zgbk"], "needs_verification": false},
-    {"term": "摊丁入亩", "desc": "康熙\"盛世滋生人丁永不加赋\"后丁额僵化，雍正朝将丁银全部并入田赋（1723年起各省陆续推行）——人头税终结、人口登记失去征税动机，此后人口统计与实际人口脱钩。", "unit_id": "china-qing", "sources": ["qingshigao", "zgbk"], "needs_verification": false},
-    {"term": "理藩院", "desc": "清廷专管蒙古、西藏、回部等藩部事务的中央机构（1636年设蒙古衙门，1639年改理藩院）——与礼部分治的\"藩部\"治理体系，其则例（《理藩院则例》）为多族群帝国治理的成文法典。", "unit_id": "china-qing", "sources": ["qingshigao", "cambridge-china"], "needs_verification": false},
-    {"term": "八旗制度", "desc": "努尔哈赤创建的军政合一组织（黄白红蓝四色，后增镶边为八）：旗人\"出则为兵，入则为民\"——清朝的统治骨干与其特权固化、生计破产的长期问题并存。", "unit_id": "china-qing", "sources": ["qingshigao", "cambridge-china"], "needs_verification": false},
-    {"term": "总税务司", "desc": "1859年设立的近代海关行政首长职位（英国人李泰国、赫德相继担任至1911年），以高效廉洁著称——条约体系下\"用外人管中国海关\"的制度奇观：既保证税收稳定，又是主权的象征性让渡。", "unit_id": "china-qing", "sources": ["guotingyi-jindaishi", "cambridge-china"], "needs_verification": false},
-    {"term": "票号", "desc": "清道光年间山西平遥商人创立的汇兑机构（日升昌1823年前后为首家），以异地汇兑取代镖局运现——“汇通天下”的金融网络，清末为新式银行取代。", "unit_id": "china-qing", "sources": ["zgbk", "guotingyi-jindaishi"], "needs_verification": false},
-    {"term": "甲骨文", "desc": "商代刻于龟甲兽骨的占卜文字（约前1250—前1046年集中使用），单字约4500个、已释读约三分之一——汉字体系最早的成规模实证，2017年入选世界记忆名录。", "unit_id": "china-xianqin", "sources": ["whc-yinxu", "kaogu-cass"], "needs_verification": false},
-    {"term": "金文", "desc": "铸刻在商周青铜器上的文字（铭文），西周长篇铭文（毛公鼎近500字）记录册命、诉讼与战争——西周史研究的第一手材料，与《尚书》构成两重证据。", "unit_id": "china-xianqin", "sources": ["kaogu-cass", "chnmuseum"], "needs_verification": false},
-    {"term": "门阀", "desc": "魏晋南北朝以婚、宦结合世袭政治权力的士族集团（\"上品无寒门\"）：以九品中正制为制度载体、以庄园经济为物质基础、以谱牒学为身份技术——东晋门阀政治（田余庆界定）为其顶点，唐末黄巢与白马驿之祸将其肉体与制度双重终结。",
-      "unit_id": "china-sanguo-liangjin-nanbeichao", "sources": ["tianyuqing-dongjin", "jinshu"], "needs_verification": false},
-    {"term": "理学", "desc": "宋代形成的儒学新形态：以\"理\"为最高范畴（程朱理气论）、以四书为核心文本、以涵养省察为工夫——南宋末官学化、元代科举定本，统治东亚思想七百年（见主事件条理学定型）。", "unit_id": "china-song", "sources": ["songshi", "xiehe-han"], "needs_verification": false},
-    {"term": "心学", "desc": "与理学\"道问学\"相对的\"尊德性\"路线：陆九渊\"发明本心\"→明代王阳明\"致良知\"与\"知行合一\"——以道德主体性为核心的思想运动（阳明学东传日本影响维新志士）。",
-      "unit_id": "china-ming", "sources": ["zgbk", "cambridge-china"], "needs_verification": false},
-    {"term": "城邦（Polis）", "desc": "古希腊以一个城市为核心的政治共同体（雅典约25万总人口中公民约4—6万，学界区间）：公民大会、抽签任职与法治观念的政治实验场——\"城邦是自由公民的团体\"（亚里士多德《政治学》的界定转述）。",
-      "unit_id": "world-classical", "sources": ["cambridge-ancient", "whc-acropolis"], "needs_verification": false},
-    {"term": "元老院", "desc": "罗马共和制的核心机构：约三百名终身议员（卸任高官自动入列）掌握外交、财政与军事指导权——罗马\"混合政体\"的贵族要素；帝制下仍存续（作为荣誉与咨询机构）而实权归皇帝。",
-      "unit_id": "world-classical", "sources": ["cambridge-ancient", "whc-rome"], "needs_verification": false},
-    {"term": "保民官", "desc": "前494年平民运动创设的罗马官员：人身不可侵犯，可否决（veto，\"我禁止\"）长官法令以保护平民——否决权作为制度性权力的起源（现代政治否决权语源）。", "unit_id": "world-classical", "sources": ["cambridge-ancient", "gibbon"], "needs_verification": false},
-    {"term": "罗马军团", "desc": "罗马的基本战术单位（约4800人，下辖大队与百人队）：标准装备、扎营纪律与工兵能力使其成为地中海最有效的战争机器（职业化自马略改革前107年始）。", "unit_id": "world-classical", "sources": ["cambridge-ancient", "gibbon"], "needs_verification": false},
-    {"term": "采邑制", "desc": "中世纪西欧以土地封授换取军事服务的制度（vassus 领主-封臣互有义务），九至十世纪定型——封建金字塔（国王-公爵-骑士）的组织原理，其契约性（双向义务）为宪政史家所重视。",
-      "unit_id": "world-medieval", "sources": ["le-goaa-jp", "cambridge-medieval"], "needs_verification": false},
-    {"term": "哈里发", "desc": "伊斯兰教政教合一领袖称号（\"继承者\"）：先知穆罕默德逝后由阿布·伯克尔继任（632年），倭马亚、阿拔斯等王朝延续至1258年巴格达陷落（奥斯曼苏丹后又兼哈里发至1924年废除）。",
-      "unit_id": "world-medieval", "sources": ["cambridge-medieval", "quran"], "needs_verification": false},
-    {"term": "特许公司", "desc": "近代早期由君主颁发特许状、垄断特定区域贸易并拥有武装的股份公司（荷兰VOC 1602、英国EIC 1600、南海1720）——股份制、永久资本与私人武力的结合，现代跨国公司与殖民主义的双重祖先。",
-      "unit_id": "world-early-modern", "sources": ["stearns-global", "bentley-cross"], "needs_verification": false},
-    {"term": "重商主义", "desc": "16—18世纪欧洲的国家经济政策思想：以贵金属存量衡量国富、以关税与特许垄断扶植出口制造业（柯尔贝尔主义为其法版）——为大航海殖民体系提供理论支撑，斯密《国富论》对其系统批判。",
-      "unit_id": "world-early-modern", "sources": ["hobsbawm", "stearns-global"], "needs_verification": false},
-    {"term": "哥伦布大交换", "desc": "1492年后美洲与旧大陆之间的生物物种、人种与疾病的大规模流动（Crosby 1972年提出的概念）：玉米马铃薯西传养活欧亚人口，天花麻疹毁灭美洲社会——全球史研究的奠基性概念。",
-      "unit_id": "world-early-modern", "sources": ["bentley-cross", "stearns-global"], "needs_verification": false},
-    {"term": "威斯特伐利亚体系", "desc": "1648年条约确立的主权国家体系（领土主权、互不干涉、外交惯例）——国际关系学的\"起点神话\"（Osiander 等对其过度追认的批评见主事件条争议），但作为概念工具仍主导现代国际关系理论。",
-      "unit_id": "world-early-modern", "sources": ["westphalia-treaty", "enwp-westphalia"], "needs_verification": false},
-    {"term": "凡尔赛体系", "desc": "一战后的国际秩序安排（凡尔赛-圣日耳曼-纳伊-特里亚农-塞夫勒条约群）：民族自决、国联、对德惩罚条款——其结构性缺陷（美国未批准、赔款僵局、新兴国家边境问题）被广泛视为二战远因。",
-      "unit_id": "world-modern", "sources": ["brit-ww1", "stearns-global"], "needs_verification": false},
-    {"term": "绥靖政策", "desc": "1930年代英法对纳粹德国扩张的迁退让步（慕尼黑协定1938年为顶点）——丘吉尔\"在战争与耻辱之间，你选择了耻辱，而你将来还得进行战争\"（下院演说转述）成为对绥靖的经典判词。",
-      "unit_id": "world-modern", "sources": ["brit-ww2", "stearns-global"], "needs_verification": false},
-    {"term": "布雷顿森林体系", "desc": "1944年确立的战后国际货币体系（美元与黄金挂钩、各国货币与美元挂钩、IMF与世界银行），1971年尼克松关闭黄金窗口而瓦解——浮动汇率与美元本位的当代体系由此演化。",
-      "unit_id": "world-modern", "sources": ["stearns-global", "bentley-cross"], "needs_verification": false},
-    {"term": "苏维埃", "desc": "俄语\"代表会议\"之意：1905年革命中自发产生的工人代表机构，1917年布尔什维克以\"一切权力归苏维埃\"夺权——苏维埃成为苏联国家组织的基本形式与政权合法性话语（\"苏维埃社会主义共和国联盟\"之名即源于此）。",
-      "unit_id": "world-modern", "sources": ["brit-russian-revolution", "hobsbawm"], "needs_verification": false}
-  ]
+ "unit_id": "glossary",
+ "terms": [
+  {
+   "term": "编户齐民",
+   "desc": "汉代把全体平民编入户籍（户为基本单位）、统一承担赋役的国家制度，是国家权力直达个体家庭的技术基础；度田、算赋口赋皆以此为前提。",
+   "unit_id": "china-xihan",
+   "sources": [
+    "hanshu",
+    "tianzheng-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "什伍连坐",
+   "desc": "商鞅变法确立的基层编制：五家为伍、十家为什，互相纠察，\"不告奸者腰斩\"（《史记》集解引）；出土秦律证实其真实执行，是国家对乡村控制的起点。",
+   "unit_id": "china-qin",
+   "sources": [
+    "shangjunshu",
+    "shuihudi-qinjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "上计",
+   "desc": "战国至汉代地方长官年终向中央呈报户口、垦田、钱谷出入与盗贼狱讼数字的考核制度，\"上计吏\"带簿册入京——中国古代的统计型绩效审计。",
+   "unit_id": "china-xihan",
+   "sources": [
+    "hanshu",
+    "lvsimian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "白马之盟",
+   "desc": "刘邦与群臣杀白马盟誓：\"非刘氏而王，天下共击之\"（《史记》王陵语），以口头盟约形式限定王权分配；吕后封诸吕与之冲突，成为诛吕政变的合法性依据。",
+   "unit_id": "china-xihan",
+   "sources": [
+    "shiji",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "察举制",
+   "desc": "汉代由郡国长官按科目（孝廉、贤良方正等）向中央荐举人才的选官制度，与征辟并行为两汉仕途正途；东汉后期为世家操纵，催生\"举秀才，不知书\"的讽刺民谣。",
+   "unit_id": "china-xihan",
+   "sources": [
+    "hanshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "五铢钱",
+   "desc": "元狩五年（前118年）始铸的标准铜钱，重五铢（约3.25克），行用至唐武德四年（621年）铸开元通宝为止——中国历史上流通时间最长的钱币。",
+   "unit_id": "china-xihan",
+   "sources": [
+    "hanshu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "均输平准",
+   "desc": "桑弘羊创制的国家干预体系：均输以贡品折钱就地贩运赢利，平准在京师贱买贵卖平抑物价——《史记·平准书》详载其运作，为中国最早的宏观调控实践。",
+   "unit_id": "china-xihan",
+   "sources": [
+    "shiji",
+    "hanshu"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "尚书台",
+   "desc": "东汉实际行政中枢：尚书职权从少府属下文秘机构膨胀为\"出纳帝命\"的决策机关，三公渐成虚衔——尚书台体制为隋唐三省制的远源（严耕望系统研究）。",
+   "unit_id": "china-donghan",
+   "sources": [
+    "houhanshu",
+    "yan-gengwang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "谶纬",
+   "desc": "东汉以预言（谶）配合经义（纬）的神秘文献体系，光武\"宣布图谶于天下\"使其成为官方意识形态；张衡请\"收藏图谶，一禁绝之\"——谶纬与科学的对立在东汉已然公开化。",
+   "unit_id": "china-donghan",
+   "sources": [
+    "houhanshu",
+    "qianmu-guoshi"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "九品中正制",
+   "desc": "曹魏陈群创立：州郡设中正评定人物九个等级作为授官依据，初重行状渐重家世——\"上品无寒门\"（刘毅语）的门阀引擎，隋唐为科举取代。",
+   "unit_id": "china-sanguo-liangjin-nanbeichao",
+   "sources": [
+    "sanguozhi",
+    "yan-gengwang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "侨置郡县",
+   "desc": "永嘉南渡后在南方以北方原籍命名设立的行政机构（如南徐州、南豫州），安置流民并保留其籍贯认同——户籍与属地分离的行政管理实验，土断（刘裕）即针对其整顿。",
+   "unit_id": "china-sanguo-liangjin-nanbeichao",
+   "sources": [
+    "jinshu",
+    "yan-gengwang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "三长制",
+   "desc": "北魏太和十年（486年）设邻长-里长-党长三级基层组织的制度，替代宗主督护，配合均田令清查隐户——均田制的户籍配套工程（冯太后主持期确立）。",
+   "unit_id": "china-sanguo-liangjin-nanbeichao",
+   "sources": [
+    "weishu",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "均田制",
+   "desc": "北魏太和九年（485年）颁行的授田制度：露田口分（老还国家）、桑田世业（可传承），隋唐沿袭为租庸调的基础；唐中期土地买卖瓦解其基础，两税法（780年）取代——中国田制史上运行最久的授田体系。",
+   "unit_id": "china-sanguo-liangjin-nanbeichao",
+   "sources": [
+    "weishu",
+    "yan-gengwang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "府兵制",
+   "desc": "西魏宇文泰创立的兵农合一军制：军士入军籍、免赋役、分属二十四军开府，隋唐沿袭为十二卫与折冲府体系；唐中期土地兼并使军士逃亡，749年折冲府无兵可交——府兵向募兵的转变即盛唐军事转型的核心。",
+   "unit_id": "china-sanguo-liangjin-nanbeichao",
+   "sources": [
+    "tongjian",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "三省六部制",
+   "desc": "隋文帝确立的中枢架构：中书出令、门下封驳、尚书执行（下辖六部），三省长官共议于政事堂——决策、审核、执行的分权设计，为唐宋明清政制的共同母本。",
+   "unit_id": "china-sui",
+   "sources": [
+    "suishu",
+    "yan-gengwang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "节度使",
+   "desc": "唐睿宗景云年间（710年前后）始设的边镇军政长官，开元天宝间十大节度使拥兵四十九万（边军——中央军十二万，学界通行口径）：集军、政、财于一身，安史之乱后演变为割据的藩镇。",
+   "unit_id": "china-tang",
+   "sources": [
+    "xintangshu",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "神策军",
+   "desc": "安史乱后由宦官执掌的中央禁军（驻京畿兼防诸镇），鼎盛时十五万人——宦官专权的军事基础（甘露之变即神策军所为），至唐末被朱温解散。",
+   "unit_id": "china-tang",
+   "sources": [
+    "xintangshu",
+    "tongjian"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "政事堂",
+   "desc": "唐初宰相于门下省集体议政的场所（后移中书省，开元十一年改称中书门下），三省分权由政事堂合议协调——集体宰相制的制度空间，宋代的\"都堂\"承其形制。",
+   "unit_id": "china-tang",
+   "sources": [
+    "jiutangshu",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "枢密院",
+   "desc": "五代掌军政机密的机构，宋与中书省对掌\"二府\"：枢密院有调兵权而无统兵权、三衙有统兵权而无调兵权——文官掌军政的制度设计，亦为宋军指挥低效的制度原因。",
+   "unit_id": "china-song",
+   "sources": [
+    "songshi",
+    "deng-xiaonan-zuzong"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "更戍法",
+   "desc": "北宋初禁军分番轮流戍边的制度（\"兵无常帅，帅无常师\"），防将领拥兵——代价是训练废弛与\"兵不识将\"，王安石以将兵法部分取代。",
+   "unit_id": "china-song",
+   "sources": [
+    "songshi",
+    "deng-xiaonan-zuzong"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "榷场",
+   "desc": "宋辽、宋夏边境的官方互市市场（澶渊之盟后规模化），输出茶、丝、瓷器，输入马匹、毛皮——岁币的相当部分经榷场贸易回流，\"和议体系\"的经济配套。",
+   "unit_id": "china-song",
+   "sources": [
+    "songshi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "提点刑狱司",
+   "desc": "宋代路级司法监察机构（提刑官），掌复核死刑、平反冤狱、监察州县——宋慈《洗冤集录》即其职务产物；司法与监察合一的路级设计为元明清按察使的前身。",
+   "unit_id": "china-song",
+   "sources": [
+    "songshi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "四等人制",
+   "desc": "元代蒙古、色目、汉人、南人的等级序列（法律待遇、科举分额、任官限制）——术语本身不见元代法令原文，是近代史家对元代法律实践的概括（\"四等人制\"概念的建构性为学界提示，其各领域差别待遇则属实）。",
+   "unit_id": "china-yuan",
+   "sources": [
+    "yuanshi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "站赤",
+   "desc": "蒙古帝国的驿传制度（突厥-蒙古语 jam 音译）：全国设驿站约1500处（元代数目，学界口径）、配\"驿券\"与孛兰奚（接济），马可·波罗详记其效率——欧亚大陆第一个标准化通信物流网络。",
+   "unit_id": "china-yuan",
+   "sources": [
+    "yuanshi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "怯薛",
+   "desc": "成吉思汗创建的万人护卫军团，由各千户子弟充任（质子制），分四番三日轮值宿卫——既是精锐军队，也是帝国官僚的培训所（\"大汗的家人\"），元代高级官员多出怯薛。",
+   "unit_id": "china-yuan",
+   "sources": [
+    "yuanshi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "斡脱",
+   "desc": "突厥语 ortaq（合伙）音译：元代持皇室本金经商的中亚商人集团，经营珠宝、放高利贷（\"羊羔儿息\"年利百分之百）——官商合一的金融特权集团，元中期屡禁不绝。",
+   "unit_id": "china-yuan",
+   "sources": [
+    "yuanshi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "行省制",
+   "desc": "元代确立的\"行中书省\"体制（全国十大行省）：中央派出机构地方化为最高政区——中国\"省\"制的起源（明清至今沿用），大政区划分的军事逻辑深刻影响此后区域治理。",
+   "unit_id": "china-yuan",
+   "sources": [
+    "yuanshi",
+    "yan-gengwang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "卫所制",
+   "desc": "明初军事组织：五千六百人为卫、千一百二十人为千户所，军户世袭屯田自养（\"养兵百万，不费百姓一粒米\"——明人自夸语）。中期屯田破产、军士逃亡，募兵（戚家军）取代——卫所的崩坏是明军事史的主线。",
+   "unit_id": "china-ming",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "厂卫",
+   "desc": "明代特务机构合称：锦衣卫（1382）与东厂（永乐设）、西厂（成化短暂）——诏狱不经三法司，侦缉范围及于朝野；\"厂卫\"成为明代政治恐怖的代名词（详见厂卫与政治恐怖主题）。",
+   "unit_id": "china-ming",
+   "sources": [
+    "mingshi",
+    "dengtuo-ming"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "票拟与批红",
+   "desc": "废丞相后明代中枢的运作机制：内阁草拟处理意见（票拟）贴于奏疏，司礼监秉笔太监代皇帝批红——皇权通过文书程序委托行使，内阁与宦官的权力皆由此程序派生。",
+   "unit_id": "china-ming",
+   "sources": [
+    "mingshi",
+    "chenyinke-tang"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "一条鞭法",
+   "desc": "张居正通令全国（1581年）的赋役合并改革：诸役折银、计亩征收、官收官解——中国赋役制度从实物与劳役转向白银货币的完成形态（见主事件条），为清摊丁入亩的前身。",
+   "unit_id": "china-ming",
+   "sources": [
+    "mingshi",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "军机处",
+   "desc": "雍正七年（1729年）设的机密参谋机构，军机大臣\"跪受笔录\"；无公署编制而成为事实中枢——皇帝独裁的效率工具还是文书行政的中枢化（白彬菊研究），两种解读并存（见主事件条）。",
+   "unit_id": "china-qing",
+   "sources": [
+    "qingshigao",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "摊丁入亩",
+   "desc": "康熙\"盛世滋生人丁永不加赋\"后丁额僵化，雍正朝将丁银全部并入田赋（1723年起各省陆续推行）——人头税终结、人口登记失去征税动机，此后人口统计与实际人口脱钩。",
+   "unit_id": "china-qing",
+   "sources": [
+    "qingshigao",
+    "zgbk"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "理藩院",
+   "desc": "清廷专管蒙古、西藏、回部等藩部事务的中央机构（1636年设蒙古衙门，1639年改理藩院）——与礼部分治的\"藩部\"治理体系，其则例（《理藩院则例》）为多族群帝国治理的成文法典。",
+   "unit_id": "china-qing",
+   "sources": [
+    "qingshigao",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "八旗制度",
+   "desc": "努尔哈赤创建的军政合一组织（黄白红蓝四色，后增镶边为八）：旗人\"出则为兵，入则为民\"——清朝的统治骨干与其特权固化、生计破产的长期问题并存。",
+   "unit_id": "china-qing",
+   "sources": [
+    "qingshigao",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "总税务司",
+   "desc": "1859年设立的近代海关行政首长职位（英国人李泰国、赫德相继担任至1911年），以高效廉洁著称——条约体系下\"用外人管中国海关\"的制度奇观：既保证税收稳定，又是主权的象征性让渡。",
+   "unit_id": "china-qing",
+   "sources": [
+    "guotingyi-jindaishi",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "票号",
+   "desc": "清道光年间山西平遥商人创立的汇兑机构（日升昌1823年前后为首家），以异地汇兑取代镖局运现——“汇通天下”的金融网络，清末为新式银行取代。",
+   "unit_id": "china-qing",
+   "sources": [
+    "zgbk",
+    "guotingyi-jindaishi"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "甲骨文",
+   "desc": "商代刻于龟甲兽骨的占卜文字（约前1250—前1046年集中使用），单字约4500个、已释读约三分之一——汉字体系最早的成规模实证，2017年入选世界记忆名录。",
+   "unit_id": "china-xianqin",
+   "sources": [
+    "whc-yinxu",
+    "kaogu-cass"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "金文",
+   "desc": "铸刻在商周青铜器上的文字（铭文），西周长篇铭文（毛公鼎近500字）记录册命、诉讼与战争——西周史研究的第一手材料，与《尚书》构成两重证据。",
+   "unit_id": "china-xianqin",
+   "sources": [
+    "kaogu-cass",
+    "chnmuseum"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "门阀",
+   "desc": "魏晋南北朝以婚、宦结合世袭政治权力的士族集团（\"上品无寒门\"）：以九品中正制为制度载体、以庄园经济为物质基础、以谱牒学为身份技术——东晋门阀政治（田余庆界定）为其顶点，唐末黄巢与白马驿之祸将其肉体与制度双重终结。",
+   "unit_id": "china-sanguo-liangjin-nanbeichao",
+   "sources": [
+    "tianyuqing-dongjin",
+    "jinshu"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "理学",
+   "desc": "宋代形成的儒学新形态：以\"理\"为最高范畴（程朱理气论）、以四书为核心文本、以涵养省察为工夫——南宋末官学化、元代科举定本，统治东亚思想七百年（见主事件条理学定型）。",
+   "unit_id": "china-song",
+   "sources": [
+    "songshi",
+    "xiehe-han"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "心学",
+   "desc": "与理学\"道问学\"相对的\"尊德性\"路线：陆九渊\"发明本心\"→明代王阳明\"致良知\"与\"知行合一\"——以道德主体性为核心的思想运动（阳明学东传日本影响维新志士）。",
+   "unit_id": "china-ming",
+   "sources": [
+    "zgbk",
+    "cambridge-china"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "城邦（Polis）",
+   "desc": "古希腊以一个城市为核心的政治共同体（雅典约25万总人口中公民约4—6万，学界区间）：公民大会、抽签任职与法治观念的政治实验场——\"城邦是自由公民的团体\"（亚里士多德《政治学》的界定转述）。",
+   "unit_id": "world-classical",
+   "sources": [
+    "cambridge-ancient",
+    "whc-acropolis"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "元老院",
+   "desc": "罗马共和制的核心机构：约三百名终身议员（卸任高官自动入列）掌握外交、财政与军事指导权——罗马\"混合政体\"的贵族要素；帝制下仍存续（作为荣誉与咨询机构）而实权归皇帝。",
+   "unit_id": "world-classical",
+   "sources": [
+    "cambridge-ancient",
+    "whc-rome"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "保民官",
+   "desc": "前494年平民运动创设的罗马官员：人身不可侵犯，可否决（veto，\"我禁止\"）长官法令以保护平民——否决权作为制度性权力的起源（现代政治否决权语源）。",
+   "unit_id": "world-classical",
+   "sources": [
+    "cambridge-ancient",
+    "gibbon"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "罗马军团",
+   "desc": "罗马的基本战术单位（约4800人，下辖大队与百人队）：标准装备、扎营纪律与工兵能力使其成为地中海最有效的战争机器（职业化自马略改革前107年始）。",
+   "unit_id": "world-classical",
+   "sources": [
+    "cambridge-ancient",
+    "gibbon"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "采邑制",
+   "desc": "中世纪西欧以土地封授换取军事服务的制度（vassus 领主-封臣互有义务），九至十世纪定型——封建金字塔（国王-公爵-骑士）的组织原理，其契约性（双向义务）为宪政史家所重视。",
+   "unit_id": "world-medieval",
+   "sources": [
+    "le-goaa-jp",
+    "cambridge-medieval"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "哈里发",
+   "desc": "伊斯兰教政教合一领袖称号（\"继承者\"）：先知穆罕默德逝后由阿布·伯克尔继任（632年），倭马亚、阿拔斯等王朝延续至1258年巴格达陷落（奥斯曼苏丹后又兼哈里发至1924年废除）。",
+   "unit_id": "world-medieval",
+   "sources": [
+    "cambridge-medieval",
+    "quran"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "特许公司",
+   "desc": "近代早期由君主颁发特许状、垄断特定区域贸易并拥有武装的股份公司（荷兰VOC 1602、英国EIC 1600、南海1720）——股份制、永久资本与私人武力的结合，现代跨国公司与殖民主义的双重祖先。",
+   "unit_id": "world-early-modern",
+   "sources": [
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "重商主义",
+   "desc": "16—18世纪欧洲的国家经济政策思想：以贵金属存量衡量国富、以关税与特许垄断扶植出口制造业（柯尔贝尔主义为其法版）——为大航海殖民体系提供理论支撑，斯密《国富论》对其系统批判。",
+   "unit_id": "world-early-modern",
+   "sources": [
+    "hobsbawm",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "哥伦布大交换",
+   "desc": "1492年后美洲与旧大陆之间的生物物种、人种与疾病的大规模流动（Crosby 1972年提出的概念）：玉米马铃薯西传养活欧亚人口，天花麻疹毁灭美洲社会——全球史研究的奠基性概念。",
+   "unit_id": "world-early-modern",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "威斯特伐利亚体系",
+   "desc": "1648年条约确立的主权国家体系（领土主权、互不干涉、外交惯例）——国际关系学的\"起点神话\"（Osiander 等对其过度追认的批评见主事件条争议），但作为概念工具仍主导现代国际关系理论。",
+   "unit_id": "world-early-modern",
+   "sources": [
+    "westphalia-treaty",
+    "enwp-westphalia"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "凡尔赛体系",
+   "desc": "一战后的国际秩序安排（凡尔赛-圣日耳曼-纳伊-特里亚农-塞夫勒条约群）：民族自决、国联、对德惩罚条款——其结构性缺陷（美国未批准、赔款僵局、新兴国家边境问题）被广泛视为二战远因。",
+   "unit_id": "world-modern",
+   "sources": [
+    "brit-ww1",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "绥靖政策",
+   "desc": "1930年代英法对纳粹德国扩张的迁退让步（慕尼黑协定1938年为顶点）——丘吉尔\"在战争与耻辱之间，你选择了耻辱，而你将来还得进行战争\"（下院演说转述）成为对绥靖的经典判词。",
+   "unit_id": "world-modern",
+   "sources": [
+    "brit-ww2",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "布雷顿森林体系",
+   "desc": "1944年确立的战后国际货币体系（美元与黄金挂钩、各国货币与美元挂钩、IMF与世界银行），1971年尼克松关闭黄金窗口而瓦解——浮动汇率与美元本位的当代体系由此演化。",
+   "unit_id": "world-modern",
+   "sources": [
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "苏维埃",
+   "desc": "俄语\"代表会议\"之意：1905年革命中自发产生的工人代表机构，1917年布尔什维克以\"一切权力归苏维埃\"夺权——苏维埃成为苏联国家组织的基本形式与政权合法性话语（\"苏维埃社会主义共和国联盟\"之名即源于此）。",
+   "unit_id": "world-modern",
+   "sources": [
+    "brit-russian-revolution",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "奥尔梅克",
+   "desc": "中美洲最早的城市文明（约前1200—前400年）：巨石头像、美洲豹崇拜与历法系统为玛雅和阿兹特克的共同源头——\"母文化\"假说（学界主流之一）。",
+   "unit_id": "world-ancient",
+   "sources": [
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "查文文化",
+   "desc": "安第斯文明（约前900—前200年）：以查文·德·万塔尔神庙为宗教中心的\"母文化\"——秘鲁沿海与高原文明的宗教起源（查文之神石雕的组合图像传统）。",
+   "unit_id": "world-ancient",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "拉皮塔文化",
+   "desc": "约前1000年起南岛语族从东南亚向大洋洲扩张的航海文化：以齿纹陶器命名——人类史上最大的海洋定居壮举（复活节岛与新西兰为波利尼西亚扩张的终点）。",
+   "unit_id": "world-ancient",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "玛雅文字",
+   "desc": "美洲唯一成熟的象形-音节混合文字系统（约800个符号）：长纪历精确纪年——20世纪后期的逐步破译使玛雅历史从\"神秘\"转为可读（科诺罗佐夫与普罗斯科里亚科夫的破译贡献）。",
+   "unit_id": "world-classical",
+   "sources": [
+    "bentley-cross",
+    "met-toah"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "笈多帝国",
+   "desc": "约320—550年的印度古典文明黄金时代：十进制数字系统（\"0\"符号定形）、阿利耶跋陀的天文学、迦梨陀娑梵语文学——印度文明的古典基准期。",
+   "unit_id": "world-classical",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "贵霜帝国",
+   "desc": "月氏人建立的中亚-北印度帝国（约30—375年）：丝绸之路中枢、犍陀罗艺术（希腊-佛教融合）与佛教东传的通道——文明交流的\"枢纽\"帝国。",
+   "unit_id": "world-classical",
+   "sources": [
+    "bentley-cross",
+    "met-toah"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "斯瓦希里海岸",
+   "desc": "东非沿海的斯瓦希里语贸易城邦群（基尔瓦、蒙巴萨、拉穆等约800—1500年）：印度洋贸易网络连接非洲内陆与波斯、印度、中国（出土中国瓷器为跨文明物证）。",
+   "unit_id": "world-medieval",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "吴哥窟",
+   "desc": "高棉帝国苏利耶跋摩二世（约1113—1150年建）的印度教神庙——世界最大的宗教建筑群（占地面约162公顷），以水利城市（baray水库系统）支撑的高棉文明之都。",
+   "unit_id": "world-medieval",
+   "sources": [
+    "whc-angkor",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "德里苏丹国",
+   "desc": "1206—1526年印度北部的五个伊斯兰王朝总称（奴隶王朝-卡尔吉-图格鲁克-赛义德-洛迪）——印度从佛教-印度教到伊斯兰统治时代的转折期（莫卧儿帝国的前史）。",
+   "unit_id": "world-medieval",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "大津巴布韦",
+   "desc": "约1100—1450年的石构建筑群（绍纳人建造——殖民时代\"非非洲人建造\"的否认已被考古彻底否定），撒哈拉以南非洲最大的古代石构遗址（1986年列入世界遗产）——非洲古代国家文明的实物标杆。",
+   "unit_id": "world-medieval",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "萨法维王朝",
+   "desc": "1501年伊斯玛仪一世建立的波斯什叶派帝国——与奥斯曼（逊尼派）对立形成中东教派分野的近代格局（伊朗至今仍为什叶派国家——萨法维的遗产）。",
+   "unit_id": "world-early-modern",
+   "sources": [
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  },
+  {
+   "term": "参勤交代",
+   "desc": "德川幕府1635年制度化的藩国大名轮流驻江户制度：大名妻室留江户（人质制）+定期往返耗费——控制大名的精妙政治工程（日本绝对主义的核心机制）。",
+   "unit_id": "world-early-modern",
+   "sources": [
+    "stearns-global",
+    "bentley-cross"
+   ],
+   "needs_verification": false
+  }
+ ]
 }

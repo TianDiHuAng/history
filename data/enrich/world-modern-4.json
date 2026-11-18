@@ -1,0 +1,88 @@
+{
+ "unit_id": "world-modern",
+ "extra_events": [
+  {
+   "id": "x-wm4-ottoman-collapse-mideast",
+   "title": "奥斯曼帝国解体与中东现代版图",
+   "year": 1918,
+   "end_year": 1923,
+   "year_display": "1918—1923年",
+   "end_year_display": null,
+   "year_note": "据《色佛尔条约》（1920年）与《洛桑条约》（1923年）：奥斯曼帝国在一战战败后解体，土耳其共和国1923年建立——中东现代国界的起源；公元纪年，无换算问题。",
+   "desc": "一战击败奥斯曼帝国后，英法以《赛克斯-皮科协定》（1916年秘密瓜分）与贝尔福宣言（1917年，巴勒斯坦“民族之家”）划分中东：叙利亚黎巴嫩归法国、伊拉克巴勒斯坦外约旦归英国——现代中东国界与巴以冲突的结构由此预设。凯末尔领导土耳其独立战争（1919—1923），废哈里发建共和——中东第一个世俗共和国。沙特阿拉伯（1932年）、伊拉克约旦独立（1932年前后为过渡期）。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm4-se-asia-decolonization",
+   "title": "东南亚非殖民化与越战",
+   "year": 1945,
+   "end_year": 1975,
+   "year_display": "1945—1975年",
+   "end_year_display": null,
+   "year_note": "从1945年印尼宣布独立（受日本占领动摇殖民权威）到1975年西贡陷落——东南亚从殖民地到独立国家的三十年转型；公元纪年，无换算问题。",
+   "desc": "东南亚从荷兰（印尼）、法国（印度支那）、英国（马来亚缅甸）、美国（菲律宾）的殖民统治下相继独立：印尼独立战争（1945—1949）、第一次印度支那战争（1946—1954，奠边府大捷）、越南战争（1955—1975，美军参战高峰期逾五十万——美国官方数字）、柬埔寨红色高棉（1975—1979，死亡人数估计学界有巨大争议区间）。东南亚冷战与独立运动交织——“东南亚条约组织”（1954）与不结盟运动（1961年万隆会议）的博弈。",
+   "sources": [
+    "stearns-global",
+    "hobsbawm",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wm4-indian-independence",
+   "title": "印度独立与印巴分治",
+   "year": 1947,
+   "end_year": null,
+   "year_display": "1947年",
+   "end_year_display": null,
+   "year_note": "据《印度独立法》（1947年7月英国议会通过）：8月14/15日印巴分治独立——人类史上最大规模的短期人口迁移（约1400万—1800万人口跨境移动，死亡估计从数十万到两百万——学界估计口径差异大）；公元纪年，无换算问题。",
+   "desc": "英国二战后无力维持印度统治，蒙巴顿方案加速分治：巴基斯坦（东西两翼）与印度分别独立，旁遮普与孟加拉的宗教冲突导致大规模暴力（分治死亡数各家估计差异极大——学界共识为“至少数十万死亡、千万人流离”）。甘地在分治暴力中遇刺（1948年1月30日）。印度独立为全球非殖民化的最大标志事件（“印度独立了，其他都会跟着”——学界通行概括）。",
+   "sources": [
+    "stearns-global",
+    "hobsbawm",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wm4-kemal",
+   "name": "穆斯塔法·凯末尔·阿塔图尔克",
+   "birth_year": 1881,
+   "death_year": 1938,
+   "birth_display": "1881年",
+   "death_display": "1938年",
+   "desc": "奥斯曼军官出身，领导土耳其独立战争（1919—1923年），击败希腊军队后建立土耳其共和国（1923年）并任首任总统（至1938年）。推行全面世俗化改革（废哈里发1924年、文字改革改用拉丁字母1928年、妇女选举权1934年——中东最激进的现代化实验）。土耳其国父称号“阿塔图尔克”（土耳其人之父）由国会授予——其遗产（世俗-民族-西化）与当今土耳其政治的张力持续。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  },
+  {
+   "id": "x-wm4-jawaharlal-nehru",
+   "name": "贾瓦哈拉尔·尼赫鲁",
+   "birth_year": 1889,
+   "death_year": 1964,
+   "birth_display": "1889年",
+   "death_display": "1964年",
+   "desc": "印度首任总理（1947—1964年），甘地的政治继承者：不结盟运动（1955年万隆会议为起点）的奠基人之一、民主社会主义印度模式的设计者（五年计划、公营部门、世俗主义）。其《印度的发现》（1946年）阐述“印度以她的方式发现自身”——第三世界知识分子政治的标本；其 dynasty（家族政治）遗产延续至今。",
+   "sources": [
+    "stearns-global",
+    "bentley-cross",
+    "hobsbawm"
+   ],
+   "needs_verification": false
+  }
+ ]
+}

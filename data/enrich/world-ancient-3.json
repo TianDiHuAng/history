@@ -1,0 +1,74 @@
+{
+ "unit_id": "world-ancient",
+ "extra_events": [
+  {
+   "id": "x-wa3-olmec",
+   "title": "奥尔梅克文明：美洲最早的城市文明",
+   "year": -1200,
+   "end_year": -400,
+   "year_display": "约前1200年",
+   "end_year_display": "约前400年",
+   "year_note": "据近现代中美洲考古通说（Mesoamerica 考古分期），奥尔梅克文化主体年代约前1200—前400年（圣洛伦索期至拉文塔期），\"约\"即碳十四测年区间。",
+   "desc": "奥尔梅克（\"橡胶人\"——阿兹特克语后称）在墨西哥湾沿岸低地创造巨石头像（最高2.9米、重达数十吨，运输方式尚有争论）、圣洛伦索与拉文塔 ritual centers，其美洲豹崇拜、可可使用、零的雏形与历法系统为后续玛雅与阿兹特克文明的共同源头（\"母文化\"假说为学界主流之一，另有\"姐妹文化\"修正说）。",
+   "sources": [
+    "met-toah",
+    "bentley-cross",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wa3-lapita-oceania",
+   "title": "拉皮塔文化与大洋洲航海扩张",
+   "year": -1000,
+   "end_year": null,
+   "year_display": "约前1000年（起）",
+   "end_year_display": null,
+   "year_note": "拉皮塔陶器约前1350—前750年出现于俾斯麦群岛，此后航海者逐步扩散至斐济（约前900年）、萨摩亚（约前800年）、东波利尼西亚（约公元1000年）——学界通说，取约前1000年为起点。",
+   "desc": "拉皮塔文化（以齿纹陶器命名）代表南岛语族从东南亚经美拉尼西亚向大洋洲的大扩张：航海者以双体独木舟携猪狗鸡与作物跨越数千公里空海——人类史上最伟大的航海定居壮举之一（复活节岛与新 Zealand 的波利尼西亚角落为终点）。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "cambridge-china"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wa3-chavin",
+   "title": "查文文化：安迪斯文明的宗教起源",
+   "year": -900,
+   "end_year": -200,
+   "year_display": "约前900年",
+   "end_year_display": "约前200年",
+   "year_note": "查文·德·万塔尔（Chavín de Huántar）遗址碳十四测年约前900—前200年（安第斯考古通说，\"初期水平层\"到\"查文期\"）。",
+   "desc": "查文·德·万塔尔神庙（海拔3185米）以巨型石刻（\"查文之神\"的獠牙面孔）、地下通道（Lanzón 石碑）与声学设计（Staal 螺旋隧道声效——考古声学研究新领域）成为安第斯文明的宗教朝圣地。其艺术风格（美洲豹、蛇、鹰的组合图像）扩散至秘鲁沿海——安第斯\"母文化\"传统。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "met-toah"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wa3-nok-culture",
+   "title": "诺克文化：撒哈拉以南非洲最早的铁器文明",
+   "year": -500,
+   "end_year": 200,
+   "year_display": "约前500年",
+   "end_year_display": "约200年",
+   "year_note": "诺克文化（今尼日利亚中部）以1943年发现的赤陶雕塑命名，碳十四测年约前500—公元200年（铁器出现约前550—前50年，学界通说口径）。",
+   "desc": "诺克文化以赤陶雕塑（夸张的面部特征、中空 Head）、独立发明的铁器冶炼（不依赖旧大陆传播，或为独立发明——学界仍有讨论）与复杂社会组织著称。诺克传统西非铁器冶炼技术扩散至加纳、马里等西非王国——撒哈拉以南非洲技术史的起点。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "zgbk"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": []
+}

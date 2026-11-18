@@ -1,0 +1,107 @@
+{
+ "unit_id": "world-classical",
+ "extra_events": [
+  {
+   "id": "x-wc3-kushan-empire",
+   "title": "贵霜帝国：丝绸之路的中枢",
+   "year": 30,
+   "end_year": 375,
+   "year_display": "约30年（起）",
+   "end_year_display": "约375年",
+   "year_note": "贵霜帝国由丘就却（Kujula Kadphises）约30年建立，迦腻色迦一世（约127—150年）为极盛期，375年前后被萨珊与印度地方势力瓦解；学界通说区间，取约30—375年。",
+   "desc": "贵霜帝国（Kushan Empire，月氏人建立）横跨中亚与北印度，控制丝绸之路东西贸易枢纽：迦腻色迦一世时期犍陀罗艺术（希腊-佛教融合风格——“亚洲的文艺复兴”）与白沙瓦-塔克西拉学术中心。佛教经由贵霜传入中国（见中国东汉单元佛教东传条）——帝国作为文明交流的“枢纽”角色为世界史学界通行评价。",
+   "sources": [
+    "bentley-cross",
+    "met-toah",
+    "cambridge-ancient"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc3-teotihuacan-apex",
+   "title": "特奥蒂瓦坎鼎盛：美洲最大城市",
+   "year": 100,
+   "end_year": 550,
+   "year_display": "约100年",
+   "end_year_display": "约550年",
+   "year_note": "特奥蒂瓦坎（Náhuatl \"诸神之城\"的阿兹特克后称）城市鼎盛期通说约公元100—550年；人口估计12.5万—25万（学界区间，无精确统计——城市考古通说）。",
+   "desc": "特奥蒂瓦坎（今墨西哥城东北）为美洲古代最大的城市：太阳金字塔（底边224米，与世界最大金字塔量级相当）、月亮金字塔与亡灵大道构成中轴规划——无轮无畜的城市设计（人力搬运巨石）。其影响遍及玛雅低地（蒂卡尔“特奥蒂瓦卡诺”入侵证据）与太平洋沿岸；约550年城市中心被焚毁（原因争议——内部叛乱/入侵/生态——学界三说并存）。",
+   "sources": [
+    "whc-teotihuacan",
+    "met-toah",
+    "bentley-cross"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc3-maya-classic",
+   "title": "玛雅古典期：文字与历法的黄金时代",
+   "year": 250,
+   "end_year": 900,
+   "year_display": "约250年",
+   "end_year_display": "约900年",
+   "year_note": "玛雅古典期通说约公元250—900年（低地南部蒂卡尔-卡拉克穆尔-帕伦克等城邦的碑铭纪年密集期），“约”即考古分期。",
+   "desc": "玛雅文明古典期（蒂卡尔、卡拉克穆尔、帕伦克、科潘等城邦）发展出美洲唯一的成熟文字系统（象形-音节混合文字，约800个符号——20世纪中后期逐步破译）、长纪历（精确历法）与数学（零的独立使用）。城邦联盟与战争（“星战”象形文字记录）频繁；约900年南部低地城邦相继衰落（“古典期崩溃”——原因多因素假说：干旱/战争/政治崩溃）。",
+   "sources": [
+    "bentley-cross",
+    "met-toah",
+    "stearns-global"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc3-gupta-golden-age",
+   "title": "笈多帝国黄金时代",
+   "year": 320,
+   "end_year": 550,
+   "year_display": "约320年",
+   "end_year_display": "约550年",
+   "year_note": "笈多王朝由旃陀罗·笈多一世（Chandragupta I）约320年建立（“笈多纪元”起点），至约550年白匈奴入侵后衰落——印度史学界通说，取约320—550年。",
+   "desc": "笈多帝国为印度古典文明的黄金时代：阿利耶跋陀（Aryabhata）的数学（圆周率、日食理论）、迦梨陀娑的梵语文学（《沙恭达罗》）、那烂陀寺的佛教教学（雏形）、医学（妙闻集）与雕塑（笈多式佛像）。十进制数字系统与“0”符号在此期定形（后经阿拉伯传入欧洲——“阿拉伯数字”实为印度-阿拉伯数字）。笈多帝国被白匈奴（Hephthalites）入侵瓦解。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "cambridge-ancient"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  },
+  {
+   "id": "x-wc3-aksum-christianity",
+   "title": "阿克苏姆皈依基督教",
+   "year": 330,
+   "end_year": null,
+   "year_display": "约330年",
+   "end_year_display": null,
+   "year_note": "据《Эфиопское царство》传统叙事与鲁菲努斯《教会史》（约402年）：阿克苏姆国王埃扎纳（Ezana）约330年前后皈依基督教（叙利亚Christian Frumentius 按立为主教）——非洲最早的基督教国家之一。",
+   "desc": "阿克苏姆（今埃塞俄比亚北部）为红海贸易大国：铸币（非洲最早铸币之一）、方尖碑（现存最大的古代独石——高33米的一根倒塌）、港口阿杜利斯。埃扎纳改宗基督教后，阿克苏姆成为基督教世界最南端的前哨（与拜占庭有外交联系），为埃塞俄比亚东正教千年传统的起点。",
+   "sources": [
+    "bentley-cross",
+    "stearns-global",
+    "cambridge-ancient"
+   ],
+   "needs_verification": false,
+   "pending_notes": ""
+  }
+ ],
+ "extra_people": [
+  {
+   "id": "x-wc3-aryabhata",
+   "name": "阿利耶跋陀（Aryabhata）",
+   "birth_year": null,
+   "death_year": null,
+   "birth_display": "生卒不可考（约476—约550年，通说推算）",
+   "death_display": "卒年不可考",
+   "desc": "笈多时代数学-天文学家：《阿利耶毗陀论》（约499年）系统阐述日心说倾向的宇宙观（地球自转论）、正弦表与π值——印度数学-天文学的最高峰之一。其工作经阿拉伯世界（花剌子米引用）传入欧洲——印度数学传统对世界科学的关键贡献。",
+   "sources": [
+    "bentley-cross",
+    "cambridge-ancient",
+    "stearns-global"
+   ],
+   "needs_verification": false
+  }
+ ]
+}
