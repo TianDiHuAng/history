@@ -2,7 +2,7 @@
 
 > 一部按「时期 → 事件 → 人物」组织的中国史与世界史双库静态资料站，纯 HTML+CSS，零 JS 依赖，可离线浏览。
 
-**在仓库 Settings → Pages → Build and deployment → Source 选择 "GitHub Actions" 即可获得在线站点**（工作流已内置，推送后自动部署到 `https://tianidhuang.github.io/history/`）。
+**在线站点已上线：[https://tiandihuang.github.io/history/](https://tiandihuang.github.io/history/)**（Pages 已启用，每次 push 自动部署）
 
 ## 首页预览
 
