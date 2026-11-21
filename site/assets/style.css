@@ -19,13 +19,21 @@ body {
 }
 header.site {
   background: linear-gradient(135deg, #1a2f45 0%, #2a4a6e 100%);
-  color: #dce8f4; padding: 14px 24px;
-  display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline;
+  color: #dce8f4; padding: 16px 24px 12px;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
 }
-header.site .brand { font-size: 1.25rem; font-weight: 700; letter-spacing: 2px; }
-header.site .brand-sub { font-size: .85rem; font-weight: 400; opacity: .75; margin-left: 10px; letter-spacing: 1px; }
-header.site nav a { color: #a8c4dc; text-decoration: none; font-size: .95rem; }
-header.site nav a:hover { color: #dce8f4; }
+header.site .brand {
+  font-size: 1.35rem; font-weight: 700; letter-spacing: 3px; text-align: center;
+}
+header.site .brand-sub {
+  font-size: .8rem; font-weight: 400; opacity: .65;
+  margin-left: 10px; letter-spacing: 1px;
+}
+header.site nav {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 14px;
+}
+header.site nav a { color: #a8c4dc; text-decoration: none; font-size: .92rem; padding: 2px 6px; border-radius: 4px; }
+header.site nav a:hover { color: #dce8f4; background: rgba(255,255,255,.08); }
 main { max-width: 880px; margin: 0 auto; padding: 26px 20px 70px; }
 h1 { font-size: 1.6rem; margin: .2em 0 .6em; color: var(--navy); }
 h2 { font-size: 1.25rem; margin: 1.6em 0 .5em; color: var(--navy); border-bottom: 2px solid var(--line); padding-bottom: 4px; }
