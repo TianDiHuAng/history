@@ -1,8 +1,9 @@
-# 中外历史脉络库
+# 镜花水月 · 中外历史脉络库
 
 > 一部按「时期 → 事件 → 人物」组织的中国史与世界史双库静态资料站，纯 HTML+CSS，零 JS 依赖，可离线浏览。
+> 历史，即镜花水月——看得见，摸不着。
 
-**在线站点已上线：[https://tiandihuang.github.io/history/](https://tiandihuang.github.io/history/)**（Pages 已启用，每次 push 自动部署）
+**在线站点：[https://tiandihuang.github.io/history/](https://tiandihuang.github.io/history/)**（Pages 已启用，每次 push 自动部署）
 
 ## 首页预览
 

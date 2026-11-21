@@ -13,12 +13,12 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets", "img")
-NAVY, RED, GOLD, MUTED, BG, INK = "#2b4a6f", "#8c1f28", "#c8a45c", "#7a7468", "#faf7f0", "#2c2c28"
+NAVY, RED, GOLD, MUTED, BG, INK = "#1c3a5c", "#4a7ba6", "#5b8db8", "#5b7a96", "#f0f5fa", "#1e2d3d"
 
 units = {}
 for fp in sorted(glob.glob(os.path.join(ROOT, "data", "*", "*.json"))):
     norm = fp.replace("\\", "/")
-    if "/enrich/" in norm or "/themes/" in norm:
+    if any(f"/{s}/" in norm for s in ("enrich", "enrich2", "themes", "glossary", "comparative")):
         continue
     d = json.load(open(fp, encoding="utf-8"))
     units[d["unit_id"]] = d
