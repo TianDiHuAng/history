@@ -160,9 +160,19 @@ def require(cond, rep, where, msg):
         rep.err(where, msg)
 
 
+ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
+
+
+def require_id(rep, where, ident):
+    """R16：条目 id 只允许小写字母/数字/连字符——引号、空格等字符会破坏生成的链接与文件名。"""
+    if ident and not ID_RE.match(str(ident)):
+        rep.err(where, f"id 含非法字符（仅允许 a-z 0-9 与连字符）: {ident}")
+
+
 def check_unit(doc, all_docs, src_ids, src_dead, rep):
     uid = doc.get("unit_id", "?")
     where = f"unit:{uid}"
+    require_id(rep, where, uid)
     # ---- 元信息 ----
     for k in ("unit_id", "region", "title", "period_display", "overview", "events", "people"):
         require(k in doc, rep, where, f"缺少必填字段 {k}")
@@ -199,6 +209,7 @@ def check_unit(doc, all_docs, src_ids, src_dead, rep):
         pid = p.get("id")
         if pid:
             pids[pid] = p
+        require_id(rep, pw, pid)
         by, dy = p.get("birth_year"), p.get("death_year")
         if by is not None:
             require(year_valid(by), rep, pw, f"出生年非法: {by}")
@@ -246,6 +257,7 @@ def check_unit(doc, all_docs, src_ids, src_dead, rep):
                   "background", "process", "outcome", "controversies", "svg", "sources",
                   "needs_verification", "pending_notes"):
             require(k in ev, rep, ew, f"事件缺少必填字段 {k}")
+        require_id(rep, ew, ev.get("id"))
         y = ev.get("year")
         require(year_valid(y), rep, ew, f"事件年份非法: {y}")
         require(display_year_matches(ev.get("year_display"), y), rep, ew,
@@ -348,6 +360,7 @@ def check_enrich(ed, unit, all_extra_pids, all_extra_eids, all_extra_ekeys, src_
         ew = f"{where}/extra:{ev.get('id', '?')}"
         for k in ("id", "title", "year", "year_display", "year_note", "desc", "sources", "needs_verification", "pending_notes"):
             require(k in ev, rep, ew, f"延伸事件缺少字段 {k}")
+        require_id(rep, ew, ev.get("id"))
         y = ev.get("year")
         require(year_valid(y), rep, ew, f"年份非法: {y}")
         require(display_year_matches(ev.get("year_display"), y), rep, ew,
@@ -390,6 +403,7 @@ def check_enrich(ed, unit, all_extra_pids, all_extra_eids, all_extra_ekeys, src_
         pw = f"{where}/xperson:{p.get('id', '?')}"
         for k in ("id", "name", "birth_display", "death_display", "desc", "sources"):
             require(k in p, rep, pw, f"其他人物缺少字段 {k}")
+        require_id(rep, pw, p.get("id"))
         require(bool(str(p.get("desc") or "").strip()), rep, pw, "desc 为空")
         by, dy = p.get("birth_year"), p.get("death_year")
         if by is not None:

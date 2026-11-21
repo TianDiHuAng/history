@@ -95,7 +95,7 @@ def header(title, depth=0, active=""):
         ("", "首页"), ("china/", "中国"), ("world/", "世界"),
         ("timeline/china.html", "中国时间线"), ("timeline/world.html", "世界时间线"),
         ("compare/", "中外对照"), ("all-events.html", "事件索引"), ("all-people.html", "人物索引"),
-        ("centuries.html", "世纪总览"), ("glossary.html", "术语表"), ("comparative.html", "比较视野"), ("sources/", "来源"),
+        ("centuries.html", "世纪总览"), ("graph.html", "关系图谱"), ("glossary.html", "术语表"), ("comparative.html", "比较视野"), ("sources/", "来源"),
     ]
     links = []
     for href, label in nav_items:
@@ -482,6 +482,7 @@ def index_page(china_units, world_units, depth):
 <div class="card"><h3><a href="all-events.html">全站事件索引</a></h3><p>{n_ev} 条按公元纪年排序</p></div>
 <div class="card"><h3><a href="all-people.html">人物总索引</a></h3><p>{n_pe} 位按出生年排序</p></div>
 <div class="card"><h3><a href="centuries.html">世纪总览</a></h3><p>{n_th} 个专题 · 按世纪粒度汇总</p></div>
+<div class="card"><h3><a href="graph.html">关系图谱</a></h3><p>单元网络图 + 事件×人物二部关联（纯 SVG 零 JS）</p></div>
 <div class="card"><h3><a href="sources/">来源列表</a></h3><p>原典 · 学术著作 · 权威百科 · 官方机构</p></div>
 </div>
 <h2>阅读须知</h2>
@@ -509,10 +510,7 @@ def all_events_page(china, world, depth):
     for y, is_x, region, u, ev, has_page in entries:
         tag = "<span class='tag warn'>待核实</span>" if ev.get("needs_verification") else ""
         cls = "" if not is_x else " class='meta'"
-        if has_page:
-            piece = f"<a href='events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
-        else:
-            piece = f"<a href='{region}/{u['unit_id']}/'>{esc(ev['title'])}</a>"
+        piece = f"<a href='events/{u['unit_id']}-{ev['id']}.html'>{esc(ev['title'])}</a>"
         rows.append(f"<tr><td class='year'>{esc(ev['year_display'])}</td><td>{region}</td>"
                     f"<td>{esc(u['title'])}</td><td{cls}>{piece}{tag}</td></tr>")
     body = f"""
@@ -632,6 +630,43 @@ def comparative_page(essays, depth):
     return header("比较视野", depth, active="比较视野") + body + footer()
 
 
+def graph_page(china, world, depth):
+    """关系图谱页：全站总览 + 18 单元二部网络图（SVG 由 tools/graph_core.py 生成，零 JS）。"""
+    import graph_core
+    secs = [f"""
+<h1>关系图谱</h1>
+<p class="meta">由数据自动生成的可视化网络图（纯 SVG，节点可点击跳转、悬停显示详情，无需脚本）。
+总览图用确定性力导向布局，单元图用「事件×人物」双列二部结构——同一数据重复生成结果一致。</p>
+
+<h2>全站总览：单元网络</h2>
+<p>18 个单元的宏观结构——节点大小为该单元条目数（事件+人物），<b>实线</b>连接同区域内时间顺序相邻的单元，
+<b>虚线</b>连接年代区间重叠的中外单元（同期并存，仅并列，不做因果解释）。</p>
+<figure>{graph_core.overview_svg(china, world, depth)}
+<figcaption>全站单元网络总览：深蓝=中国单元，浅蓝=世界单元；点击节点进入单元总览页</figcaption></figure>
+
+<h2>单元关系图</h2>
+<p>每个单元一张「事件 × 人物」二部图：左列为<b>主事件</b>（按年代竖排，圆点大小=关联人物数），右列为<b>人物</b>（含其他重要人物），
+连线表示该人物参与该事件（key_people）。延伸事件没有人物关联字段，不入图，见各单元总览页。</p>
+"""]
+    tot_e = tot_p = tot_x = 0
+    for u in china + world:
+        svg, st = graph_core.unit_graph_svg(u, depth)
+        tot_e += st["events"]; tot_p += st["people"]; tot_x += len((u.get("_extra") or {}).get("extra_events") or [])
+        n_th = len(u.get("_themes") or [])
+        caption = (f"{esc(u['title'])}：主事件 {st['events']} · 人物 {st['people']} · 关联边 {st['edges']}"
+                   f"（另有延伸事件 {len((u.get('_extra') or {}).get('extra_events') or [])} 条未入图；专题 {n_th} 篇）")
+        secs.append(f"""
+<h3><a href="{rel(depth)}{u['region']}/{u['unit_id']}/">{esc(u['title'])}</a></h3>
+<figure>{svg}<figcaption>{caption}</figcaption></figure>""")
+    secs.append(f"""
+<h2>统计</h2>
+<p>本页共 {1 + len(china) + len(world)} 张网络图，覆盖主事件 {tot_e} 条、人物 {tot_p} 位；
+延伸事件 {tot_x} 条因无人物关联数据不入图。</p>
+<p class="meta">图谱只呈现数据中已有的结构化关联（key_people 与单元年代区间），不推断未记载的因果或人际网络。</p>
+""")
+    return header("关系图谱", depth, active="关系图谱") + "".join(secs) + footer()
+
+
 def main():
     srcdoc = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
     srcmap = {s["id"]: s for s in srcdoc["sources"]}
@@ -696,6 +731,7 @@ def main():
     write("all-events.html", all_events_page(china, world, 0))
     write("all-people.html", all_people_page(china, world, 0))
     write("centuries.html", centuries_page(china, world, 0))
+    write("graph.html", graph_page(china, world, 0))
     write("glossary.html", glossary_page(glossary, 0))
     write("comparative.html", comparative_page(comparative, 0))
     write("china/index.html", unit_list_page(china, "china", "中国部分（按朝代）", 1))
@@ -706,20 +742,20 @@ def main():
     write("sources/index.html", sources_page(srcdoc, 1))
 
     for u in china + world:
-        depth = 2 if u["region"] == "china" else 2
-        write(f"{u['region']}/{u['unit_id']}/index.html", unit_page(u, srcmap, depth))
+        # 单元页在 {region}/{unit}/ 两层深 → depth=2；事件/人物页在 events/、people/ 一层深 → depth=1
+        write(f"{u['region']}/{u['unit_id']}/index.html", unit_page(u, srcmap, 2))
         for ev in u["events"]:
-            page, _tag = event_page(u, ev, srcmap, depth)
+            page, _tag = event_page(u, ev, srcmap, 1)
             write(f"events/{u['unit_id']}-{ev['id']}.html", page)
         for p in u["people"]:
-            write(f"people/{p['id']}.html", person_page(u, p, srcmap, depth))
+            write(f"people/{p['id']}.html", person_page(u, p, srcmap, 1))
         for xp in (u.get("_extra") or {}).get("extra_people") or []:
             if xp.get("chronology"):
-                write(f"people/{xp['id']}.html", person_page(u, xp, srcmap, depth))
+                write(f"people/{xp['id']}.html", person_page(u, xp, srcmap, 1))
             else:
-                write(f"people/{xp['id']}.html", extra_person_page(u, xp, srcmap, depth))
+                write(f"people/{xp['id']}.html", extra_person_page(u, xp, srcmap, 1))
         for xev in (u.get("_extra") or {}).get("extra_events") or []:
-            xpage, _ = extra_event_page(u, xev, srcmap, depth)
+            xpage, _ = extra_event_page(u, xev, srcmap, 1)
             write(f"events/{u['unit_id']}-{xev['id']}.html", xpage)
 
     os.makedirs(os.path.join(SITE, "assets"), exist_ok=True)

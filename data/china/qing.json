@@ -38,7 +38,7 @@
  },
  "events": [
   {
-   "id": "qing-ru'guan",
+   "id": "qing-ru-guan",
    "title": "皇太极改国号大清与清军入关",
    "year": 1636,
    "end_year": 1644,
@@ -217,7 +217,7 @@
    "pending_notes": ""
   },
   {
-   "id": "qing-duolun-ge'erdan",
+   "id": "qing-duolun-ge-erdan",
    "title": "多伦会盟与亲征噶尔丹",
    "year": 1691,
    "end_year": 1697,
@@ -486,7 +486,7 @@
    "pending_notes": "太平天国战争人口损失估计从一千万到数千万不等（学界推算口径差异大），本站不采具体死亡数字；江南人口重建过程为人口史研究课题。"
   },
   {
-   "id": "qing-di'erci-yapian",
+   "id": "qing-di-erci-yapian",
    "title": "第二次鸦片战争",
    "year": 1856,
    "end_year": 1860,

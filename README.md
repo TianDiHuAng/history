@@ -63,6 +63,7 @@
 | 时间线 ×2 | 中国 254 条 · 世界 105 条，全部可点入详情 |
 | 中外对照表 | 418 条按公元纪年并排（仅并列，不做因果解释） |
 | 世纪总览 | 前 31 世纪 → 20 世纪，按世纪粒度汇总 |
+| 关系图谱 | 1 张全站单元网络 + 18 张「事件×人物」二部关联图，节点可点击、悬停显示详情（纯 SVG 零 JS） |
 | 事件索引 | 418 条按公元纪年全站排序 |
 | 人物索引 | 253 位按出生年全站排序 |
 | 来源列表 | 169 条，三态链接核验（可达/反爬拦截/离线） |
@@ -72,8 +73,9 @@
 ```bash
 python tools/check.py      # 数据校验（0 errors 为发布门槛）
 python tools/gen_site.py   # 生成 site/ 静态站点
+python tools/check_links.py  # 站内链接完整性核验（0 断链为发布门槛）
 python -m http.server 8000 --directory site   # 本地浏览 → http://127.0.0.1:8000
-python tools/linkcheck.py  # 可选：核验来源链接
+python tools/linkcheck.py  # 可选：核验来源外部链接
 python tools/gen_readme_images.py  # 可选：重新生成 README 统计图
 ```
 
@@ -87,7 +89,7 @@ history/
 ├─ data/world/*.json      世界 5 单元
 ├─ data/enrich/*.json     延伸事件与其他重要人物
 ├─ data/themes/*.json     单元专题论述
-├─ tools/                 check.py / gen_site.py / linkcheck.py / fix_quotes.py / gen_readme_images.py
+├─ tools/                 check.py / gen_site.py / check_links.py / linkcheck.py / fix_quotes.py / gen_readme_images.py
 ├─ site/                  生成的静态站点（即 Pages 部署物）
 ├─ assets/img/            README 可视化图片
 ├─ .github/workflows/     GitHub Pages 自动部署
@@ -104,6 +106,7 @@ history/
 - 古代纪年换算（干支/帝号/王年→公元）须写明依据
 - 争议并列各方说法与史料依据；数字类事实必须括注来源，单源数字一律移入待核实
 - 年代学争议（如武王克商三说、夏商周断代工程）均如实并列，不取单一结论
+- 条目 id 仅允许小写字母、数字与连字符（R16），保证链接与文件名安全
 
 ## 来源
 

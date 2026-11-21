@@ -145,6 +145,7 @@ JSON 数据层（结构化、可机检）
 | R13 | 术语表（去重、unit_id 关联、双源） | 术语层 |
 | R14 | 人物升级（年谱年份范围、评价结构、仅针对已有条目） | 升级层 |
 | R15 | 比较视野（≥4 篇、≥100 字、双源） | 比较层 |
+| R16 | 条目 id 仅允许 `a-z 0-9 -`（引号/ü/大写会破坏链接与文件名） | 全部 |
 
 ### 双源规则（最重要的规则）
 
@@ -256,8 +257,9 @@ sources <2 个 → 必须 needs_verification=true 且 pending_notes 非空
 
 1. `python tools/check.py` → 直到 0 errors
 2. `python tools/gen_site.py` → 生成 site/
-3. 抽查页面（HTML 结构、SVG 渲染、链接完整性）
-4. `git commit`（每单元一个 commit，可审计）
+3. `python tools/check_links.py` → 站内链接完整性核验，直到 0 断链（能抓出 depth 层级错配这类肉眼难发现的存量 bug）
+4. 抽查页面（HTML 结构、SVG 渲染、链接完整性）
+5. `git commit`（每单元一个 commit，可审计）
 
 ---
 
@@ -333,6 +335,8 @@ sources <2 个 → 必须 needs_verification=true 且 pending_notes 非空
 | 13 | curl/gh 不可用（网络限制） | 用 Python urllib + ssl 跳过证书验证 |
 | 14 | 来源 id 拼写错误 | check 会报错"未在 sources.json 中定义" |
 | 15 | 术语/专题 unit_id 指向不存在的单元 | check 会报错"无对应单元" |
+| 16 | 事件/人物页与单元页目录深度不同，depth 写错则导航/面包屑全站错位（线上 404） | 单元页两层深 depth=2，events/、people/ 一层深 depth=1；用 check_links.py 全量核验 |
+| 17 | id 里混入拼音撇号（di'erci）、ü、大写 → 截断 href 属性/产生非 ASCII 文件名 | R16 强制 `a-z0-9-`；ü 一律写 v（lvshi、nvwang） |
 
 ---
 
