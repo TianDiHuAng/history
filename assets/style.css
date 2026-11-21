@@ -1,13 +1,14 @@
-/* 中外历史脉络库 — 站点样式 */
+/* 镜花水月 · 中外历史脉络库 — 站点样式
+   配色：月光水色系（深夜蓝 × 月光银 × 雾蓝灰） */
 :root {
-  --ink: #2c2c28;
-  --paper: #faf7f0;
-  --card: #ffffff;
-  --navy: #2b4a6f;
-  --red: #8c1f28;
-  --gold: #c8a45c;
-  --line: #ddd6c8;
-  --muted: #7a7468;
+  --ink: #1e2d3d;
+  --paper: #f0f5fa;
+  --card: #f8fbfe;
+  --navy: #1c3a5c;
+  --red: #4a7ba6;
+  --gold: #5b8db8;
+  --line: #c5d8e8;
+  --muted: #5b7a96;
 }
 * { box-sizing: border-box; }
 html { font-size: 16px; }
@@ -17,12 +18,14 @@ body {
   line-height: 1.75;
 }
 header.site {
-  background: var(--navy); color: #f5efe3; padding: 14px 24px;
+  background: linear-gradient(135deg, #1a2f45 0%, #2a4a6e 100%);
+  color: #dce8f4; padding: 14px 24px;
   display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline;
 }
-header.site .brand { font-size: 1.15rem; font-weight: 700; letter-spacing: 1px; }
-header.site nav a { color: #e8ddc4; text-decoration: none; font-size: .95rem; }
-header.site nav a:hover { color: var(--gold); }
+header.site .brand { font-size: 1.25rem; font-weight: 700; letter-spacing: 2px; }
+header.site .brand-sub { font-size: .85rem; font-weight: 400; opacity: .75; margin-left: 10px; letter-spacing: 1px; }
+header.site nav a { color: #a8c4dc; text-decoration: none; font-size: .95rem; }
+header.site nav a:hover { color: #dce8f4; }
 main { max-width: 880px; margin: 0 auto; padding: 26px 20px 70px; }
 h1 { font-size: 1.6rem; margin: .2em 0 .6em; color: var(--navy); }
 h2 { font-size: 1.25rem; margin: 1.6em 0 .5em; color: var(--navy); border-bottom: 2px solid var(--line); padding-bottom: 4px; }
@@ -39,30 +42,34 @@ a { color: var(--navy); }
 .grid .card h3 { margin-top: 0; }
 table { border-collapse: collapse; width: 100%; margin: 14px 0; background: var(--card); font-size: .93rem; }
 th, td { border: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
-th { background: #efe8d8; color: var(--navy); }
+th { background: #e4edf5; color: var(--navy); }
 td.year { white-space: nowrap; font-weight: 700; color: var(--red); width: 92px; }
 ul.tight { margin: .3em 0; padding-left: 1.4em; }
 ul.tight li { margin: .25em 0; }
 .tag {
   display: inline-block; font-size: .78rem; padding: 1px 8px; border-radius: 10px;
-  background: #efe4cf; color: #7a5a1e; margin-left: 6px; vertical-align: middle;
+  background: #dbe8f3; color: #3a6a8e; margin-left: 6px; vertical-align: middle;
 }
-.tag.warn { background: #f3d9d3; color: var(--red); }
+.tag.warn { background: #e4eef8; color: #2a5a8e; }
 figure { margin: 18px 0; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
 figure svg { width: 100%; height: auto; display: block; }
 figcaption { text-align: center; color: var(--muted); font-size: .85rem; padding-top: 6px; }
 blockquote {
   margin: .6em 0; padding: 6px 14px; border-left: 3px solid var(--gold);
-  background: #f6f1e5; color: #4c463c;
+  background: #eef4fa; color: #3a5a7e;
 }
 .src-list { font-size: .87rem; color: var(--muted); }
 .src-list li { margin: .3em 0; }
 .pending {
-  background: #fdf3e3; border: 1px dashed #c8a45c; border-radius: 6px; padding: 10px 14px;
+  background: #e8f0f8; border: 1px dashed #5b8db8; border-radius: 6px; padding: 10px 14px;
 }
 .pending p { margin: .3em 0; }
-.ok { color: #2e7d4f; } .bad { color: var(--red); } .blk { color: #8a6d1a; }
-footer.site { border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; text-align: center; padding: 18px; }
+.ok { color: #3a7a5c; } .bad { color: #8c3a3a; } .blk { color: #5b7a96; }
+footer.site {
+  border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem;
+  text-align: center; padding: 18px;
+}
+.footer-brand { font-weight: 700; letter-spacing: 2px; color: var(--navy); }
 .tl { border-left: 3px solid var(--navy); margin: 10px 0 10px 6px; padding-left: 18px; }
 .tl .tl-item { margin: 8px 0; }
 .tl .tl-year { font-weight: 700; color: var(--red); margin-right: 8px; }
@@ -75,3 +82,6 @@ footer.site { border-top: 1px solid var(--line); color: var(--muted); font-size:
 .tl-extra { color: var(--muted); font-size: .93rem; }
 .tl-extra .tl-year { color: var(--muted); font-weight: 500; }
 .xitem { color: var(--muted); }
+
+/* 镜花水月品牌 */
+.brand-sub { opacity: .7; }

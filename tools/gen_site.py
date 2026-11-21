@@ -106,11 +106,11 @@ def header(title, depth=0, active=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} · 中外历史脉络库</title>
+<title>{esc(title)} · 镜花水月</title>
 <link rel="stylesheet" href="{rel(depth)}assets/style.css">
 </head>
 <body>
-<header class="site"><span class="brand">中外历史脉络库</span>
+<header class="site"><span class="brand">镜花水月<span class="brand-sub">中外历史脉络库</span></span>
 <nav>{' | '.join(links)}</nav></header>
 <main>'''
 
@@ -119,7 +119,7 @@ def footer():
     return ('''
 <p class="meta" style="margin-top:44px">年份均为公元纪年（公元前用负数表示转换）；关键事实以两个独立来源互相印证为标准，未达标者在页内标注"待核实"。</p>
 </main>
-<footer class="site">本站为静态资料库，内容仅供学习参考，不构成学术结论；引用请核对原始文献。</footer>
+<footer class="site"><span class="footer-brand">镜花水月</span> · 静态资料库，内容仅供学习参考，不构成学术结论；引用请核对原始文献。</footer>
 </body>
 </html>''')
 
@@ -470,7 +470,7 @@ def index_page(china_units, world_units, depth):
     n_pe = ch_p + wo_p + ch_xp + wo_xp
     n_th = sum(len(u.get("_themes") or []) for u in china_units + world_units)
     body = f"""
-<h1>中外历史脉络库</h1>
+<h1>镜花水月 · 中外历史脉络库</h1>
 <p>一部按"时期—事件—人物"组织的静态历史资料库：中国部分按朝代（先秦至清），世界部分按五大时期（古代文明、古典时代、中世纪、近代早期、近现代）。
 每个关键事件页固定包含时间地点、背景、经过、结果、史料与史学争议、示意图、待核实七个部分。</p>
 <div class="grid">
